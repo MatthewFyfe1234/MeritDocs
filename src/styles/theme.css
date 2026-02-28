@@ -1,0 +1,219 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 20px;
+
+  /* Slide inline sizes — for the handful of elements that can't use Tailwind classes.
+     Adjust these alongside --text-* in the @theme block below. */
+  --slide-sz-md:  14px;   /* stage / section labels  */
+  --slide-sz-sm:  12px;   /* connector symbols        */
+  --slide-sz-tag: 12px;   /* chip / tag text          */
+  --slide-sz-xs:  11px;   /* fine-print / region tags */
+
+  /* Slide colour tokens — define the deck theme in one place.
+     Override these per-deck by applying a class to the root wrapper. */
+  --slide-primary:           #335d57;
+  --slide-accent:            #9314ff;
+  --slide-text:              #49494b;
+  --slide-text-muted:        #9ca3af;
+  --slide-border:            #e4e8e8;
+  --slide-border-primary:    #b8d0cc;
+  --slide-border-accent:     #e5d8ff;
+  --slide-bg:                #f2f5f8;
+  --slide-bg-card:           #ffffff;
+  --slide-bg-primary-muted:  #edf4f3;
+  --slide-bg-accent-muted:   #f0ebff;
+  --slide-bg-accent-light:   #f7f2ff;
+  --slide-bg-muted:          #f7f8f9;
+  --background: #ffffff;
+  --foreground: #252525;
+  --card: #ffffff;
+  --card-foreground: #252525;
+  --popover: #ffffff;
+  --popover-foreground: #252525;
+  --primary: #030213;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f0f3;
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #b5b5b5;
+  --chart-1: #e8a438;
+  --chart-2: #6fa4b5;
+  --chart-3: #4d5a6d;
+  --chart-4: #d4d85a;
+  --chart-5: #d9c457;
+  --radius: 0.625rem;
+  --sidebar: #fbfbfb;
+  --sidebar-foreground: #252525;
+  --sidebar-primary: #030213;
+  --sidebar-primary-foreground: #fbfbfb;
+  --sidebar-accent: #f8f8f8;
+  --sidebar-accent-foreground: #353535;
+  --sidebar-border: #ebebeb;
+  --sidebar-ring: #b5b5b5;
+}
+
+.dark {
+  --background: #252525;
+  --foreground: #fbfbfb;
+  --card: #252525;
+  --card-foreground: #fbfbfb;
+  --popover: #252525;
+  --popover-foreground: #fbfbfb;
+  --primary: #fbfbfb;
+  --primary-foreground: #353535;
+  --secondary: #444444;
+  --secondary-foreground: #fbfbfb;
+  --muted: #444444;
+  --muted-foreground: #b5b5b5;
+  --accent: #444444;
+  --accent-foreground: #fbfbfb;
+  --destructive: #8f2a36;
+  --destructive-foreground: #d96573;
+  --border: #444444;
+  --input: #444444;
+  --ring: #707070;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: #7b5fd3;
+  --chart-2: #7ec09e;
+  --chart-3: #d9c457;
+  --chart-4: #c850be;
+  --chart-5: #da7355;
+  --sidebar: #353535;
+  --sidebar-foreground: #fbfbfb;
+  --sidebar-primary: #7b5fd3;
+  --sidebar-primary-foreground: #fbfbfb;
+  --sidebar-accent: #444444;
+  --sidebar-accent-foreground: #fbfbfb;
+  --sidebar-border: #444444;
+  --sidebar-ring: #707070;
+}
+
+/* ─── Slide type scale ──────────────────────────────────────────────────────
+   All Tailwind text-* classes resolve to these values (multiplied by --font-size).
+   At --font-size: 20px the pixel sizes shown in comments apply.
+   Change a value here and every slide updates automatically.
+   ─────────────────────────────────────────────────────────────────────────── */
+@theme {
+  --text-xs:   0.75rem;   /* 15px  — fine labels, chips            */
+  --text-sm:   0.9rem;    /* 18px  — body / bullet text            */
+  --text-base: 1rem;      /* 20px  — medium emphasis               */
+  --text-lg:   1.2rem;    /* 24px  — card / section headings       */
+  --text-xl:   1.4rem;    /* 28px  — secondary headings            */
+  --text-2xl:  1.75rem;   /* 35px  — large metrics                 */
+  --text-3xl:  2.2rem;    /* 44px  — slide titles                  */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /**
+  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
+  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
+  */
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}
