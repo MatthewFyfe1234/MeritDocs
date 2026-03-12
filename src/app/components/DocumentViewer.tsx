@@ -115,13 +115,11 @@ export function DocumentViewer({ document }: { document: DocumentConfig }) {
       style={{ backgroundColor: 'var(--slide-bg)', fontFamily: '"Inter", sans-serif' }}
     >
       {/* Page container */}
-      <div className="flex-1 flex items-center justify-center p-8 min-h-0 overflow-hidden">
+      <div className="flex-1 overflow-y-auto p-6 flex justify-center items-start min-h-0">
         <div
-          className="doc-page-container relative shadow-2xl overflow-hidden"
+          className="doc-page-container relative shadow-2xl overflow-hidden w-full shrink-0"
           style={{
             aspectRatio: `${totalW} / ${totalH}`,
-            height: '100%',
-            maxWidth: '100%',
             backgroundColor: '#ffffff',
           }}
         >

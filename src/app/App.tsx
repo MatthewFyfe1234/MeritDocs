@@ -1,17 +1,27 @@
-import { deck as meritOI } from './decks/merit-oi';
-import { deck as productOverview } from './decks/product-overview';
-import { deck as clientOverview } from './decks/client-overview';
-import { deck as clientOffsite } from './decks/client-offsite';
+import { deck as offsiteStrategy } from './decks/strategic/offsite-strategy';
+import { deck as productOverview } from './decks/strategic/product-overview';
+import { deck as clientOverview } from './decks/client/client-overview';
+import { deck as clientOffsite } from './decks/client/client-offsite';
+import { deck as clientDeveloper } from './decks/client/client-developer';
+import { deck as clientGc } from './decks/client/client-gc';
+import { deck as clientDao } from './decks/client/client-dao';
+import { deck as clientCapabilities } from './decks/client/client-capabilities';
+import { deck as clientCapabilitiesV2 } from './decks/client/client-capabilities-v2';
 import { presentationFolder, businessCard, flyer } from './documents';
 import { PresentationDeck } from './components/PresentationDeck';
 import { ExportLayout } from './components/ExportLayout';
 import { DocumentViewer } from './components/DocumentViewer';
 
-const decks: Record<string, typeof meritOI> = {
-  'merit-oi': meritOI,
+const decks: Record<string, typeof offsiteStrategy> = {
+  'offsite-strategy': offsiteStrategy,
   'product-overview': productOverview,
   'client-overview': clientOverview,
   'client-offsite': clientOffsite,
+  'client-developer': clientDeveloper,
+  'client-gc': clientGc,
+  'client-dao': clientDao,
+  'client-capabilities': clientCapabilities,
+  'client-capabilities-v2': clientCapabilitiesV2,
 };
 
 const documents = {
@@ -28,8 +38,8 @@ export default function App() {
     return <DocumentViewer document={documents[docKey]} />;
   }
 
-  const deckKey = params.get('deck') ?? 'merit-oi';
-  const deck = decks[deckKey] ?? meritOI;
+  const deckKey = params.get('deck') ?? 'offsite-strategy';
+  const deck = decks[deckKey] ?? offsiteStrategy;
   const isExport = params.has('export');
   return isExport ? <ExportLayout deck={deck} /> : <PresentationDeck deck={deck} />;
 }

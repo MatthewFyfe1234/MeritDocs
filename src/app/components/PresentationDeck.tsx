@@ -130,11 +130,27 @@ export function PresentationDeck({ deck }: { deck: DeckConfig }) {
           Previous
         </button>
 
-        <div className="flex items-center gap-4">
-          <div
-            className="text-sm font-medium"
-            style={{ color: 'var(--slide-text)' }}
-          >
+        <div className="flex items-center gap-3">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentSlide(i)}
+              disabled={isExporting}
+              className="w-7 h-7 rounded-full text-xs font-semibold transition-all disabled:cursor-not-allowed"
+              style={{
+                backgroundColor: i === currentSlide ? 'var(--slide-primary)' : 'transparent',
+                color: i === currentSlide ? '#fff' : 'var(--slide-text)',
+                border: `1.5px solid ${i === currentSlide ? 'var(--slide-primary)' : 'var(--slide-border)'}`,
+                opacity: isExporting ? 0.4 : 1,
+              }}
+            >
+              {i + 1}
+            </button>
+          ))}
+
+          <div className="w-px self-stretch mx-1" style={{ backgroundColor: 'var(--slide-border)' }} />
+
+          <div className="text-sm font-medium" style={{ color: 'var(--slide-text)' }}>
             Slide {currentSlide + 1} of {slides.length}
           </div>
 
@@ -142,10 +158,7 @@ export function PresentationDeck({ deck }: { deck: DeckConfig }) {
             onClick={downloadPDF}
             disabled={isExporting}
             className="flex items-center gap-2 px-4 py-2 rounded-lg transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
-            style={{
-              backgroundColor: 'var(--slide-accent)',
-              color: '#fff'
-            }}
+            style={{ backgroundColor: 'var(--slide-accent)', color: '#fff' }}
           >
             <Download className="w-5 h-5" />
             {isExporting ? 'Exporting...' : 'Download PDF'}

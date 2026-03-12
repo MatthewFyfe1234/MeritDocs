@@ -1,11 +1,11 @@
-import { FolderFrontCover } from './pages/FolderFrontCover';
-import { FolderBackCover } from './pages/FolderBackCover';
-import { FolderInsideLeft } from './pages/FolderInsideLeft';
-import { FolderInsideRight } from './pages/FolderInsideRight';
-import { BusinessCardFront } from './pages/BusinessCardFront';
-import { BusinessCardBack } from './pages/BusinessCardBack';
-import { FlyerFront } from './pages/FlyerFront';
-import { FlyerBack } from './pages/FlyerBack';
+import { FolderFrontCover } from './presentation-folder/FolderFrontCover';
+import { FolderBackCover } from './presentation-folder/FolderBackCover';
+import { FolderInsideLeft } from './presentation-folder/FolderInsideLeft';
+import { FolderInsideRight } from './presentation-folder/FolderInsideRight';
+import { BusinessCardFront } from './business-card/BusinessCardFront';
+import { BusinessCardBack } from './business-card/BusinessCardBack';
+import { FlyerFront } from './flyer/FlyerFront';
+import { FlyerBack } from './flyer/FlyerBack';
 
 export const presentationFolder = {
   title: 'Merit OI: Presentation Folder',

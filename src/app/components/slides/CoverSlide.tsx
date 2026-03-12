@@ -1,4 +1,4 @@
-import logo from '@/decks/merit-oi/slides/Logo_secondary.webp';
+import logo from '@/assets/Logo_secondary.webp';
 import { SITE_URL, monthYear } from '@/constants';
 
 interface CoverSlideProps {

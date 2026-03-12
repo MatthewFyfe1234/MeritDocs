@@ -1,14 +1,14 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --font-size: 20px;
+  --font-size: 22px;
 
   /* Slide inline sizes — for the handful of elements that can't use Tailwind classes.
-     Adjust these alongside --text-* in the @theme block below. */
-  --slide-sz-md:  14px;   /* stage / section labels  */
-  --slide-sz-sm:  12px;   /* connector symbols        */
-  --slide-sz-tag: 12px;   /* chip / tag text          */
-  --slide-sz-xs:  11px;   /* fine-print / region tags */
+     These scale automatically with --font-size, so that is the only value to change. */
+  --slide-sz-md:  calc(var(--font-size) * 0.70);   /* stage / section labels  ≈ 15px */
+  --slide-sz-sm:  calc(var(--font-size) * 0.60);   /* connector symbols        ≈ 13px */
+  --slide-sz-tag: calc(var(--font-size) * 0.60);   /* chip / tag text          ≈ 13px */
+  --slide-sz-xs:  calc(var(--font-size) * 0.55);   /* fine-print / region tags ≈ 12px */
 
   /* Slide colour tokens — define the deck theme in one place.
      Override these per-deck by applying a class to the root wrapper. */
