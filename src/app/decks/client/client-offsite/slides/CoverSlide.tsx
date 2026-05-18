@@ -4,7 +4,7 @@ export function CoverSlide() {
   return (
     <SharedCoverSlide
       title="One connected model of delivery"
-      body="Built for the offsite structural manufacturer"
+      body="A connected operations platform for offsite structural manufacturers"
     />
   );
 }

@@ -4,33 +4,33 @@ export function ConceptSlide() {
   return (
     <SlideLayout
       title="The Core Model"
-      subtitle="A process-centric perspective of product delivery, as carried out by the delivery functions"
+      subtitle="A process-centric perspective of product delivery, as carried out by your delivery functions"
     >
 
-      {/* Callout — top-right */}
-      <div
-        className="absolute rounded-lg p-3"
-        style={{ top: '32px', right: '32px', width: '210px', backgroundColor: 'var(--slide-bg-primary-muted)', border: '1px solid var(--slide-border-primary)' }}
-      >
-        <p className="text-xs font-semibold mb-1" style={{ color: 'var(--slide-primary)' }}>
-          Your whole operation, one model
-        </p>
-        <p className="text-xs leading-relaxed" style={{ color: 'var(--slide-text)', opacity: 0.75 }}>
-          Covers your internal delivery functions and your wider network of suppliers and partners.
-        </p>
-      </div>
-
-      {/* Callout — bottom-right */}
-      <div
-        className="absolute rounded-lg p-3"
-        style={{ bottom: '32px', right: '32px', width: '210px', backgroundColor: 'var(--slide-bg-primary-muted)', border: '1px solid var(--slide-border-primary)' }}
-      >
-        <p className="text-xs font-semibold mb-1" style={{ color: 'var(--slide-primary)' }}>
-          How a delivery works
-        </p>
-        <p className="text-xs leading-relaxed" style={{ color: 'var(--slide-text)', opacity: 0.75 }}>
-          Each delivery is its own shopping list, drawing only the agents, inventory and process steps it needs from the master model.
-        </p>
+      {/* Callouts — side by side, top-right */}
+      <div className="absolute flex gap-3" style={{ top: '32px', right: '32px' }}>
+        <div
+          className="rounded-lg p-3"
+          style={{ width: '190px', backgroundColor: 'var(--slide-bg-primary-muted)', border: '1px solid var(--slide-border-primary)' }}
+        >
+          <p className="text-xs font-semibold mb-1" style={{ color: 'var(--slide-primary)' }}>
+            Your whole operation, one model
+          </p>
+          <p className="text-xs leading-relaxed" style={{ color: 'var(--slide-text)', opacity: 0.75 }}>
+            Covers your internal delivery functions and your wider network of partners.
+          </p>
+        </div>
+        <div
+          className="rounded-lg p-3"
+          style={{ width: '190px', backgroundColor: 'var(--slide-bg-primary-muted)', border: '1px solid var(--slide-border-primary)' }}
+        >
+          <p className="text-xs font-semibold mb-1" style={{ color: 'var(--slide-primary)' }}>
+            How a delivery works
+          </p>
+          <p className="text-xs leading-relaxed" style={{ color: 'var(--slide-text)', opacity: 0.75 }}>
+            Each delivery draws only the agents, inventory and process steps it needs.
+          </p>
+        </div>
       </div>
 
 
@@ -49,7 +49,7 @@ export function ConceptSlide() {
           <text x="119" y="58" textAnchor="middle" fontSize="13" fontWeight="700"
             fill="var(--slide-primary)">Agents</text>
           <text x="119" y="76" textAnchor="middle" fontSize="10.5"
-            fill="var(--slide-text)" opacity="0.7">People, skills and roles</text>
+            fill="var(--slide-text)" opacity="0.7">Employees &amp; Partners</text>
 
           {/* ── INVENTORY BOX ── */}
           <rect x="40" y="158" width="158" height="112" rx="8"
@@ -57,7 +57,7 @@ export function ConceptSlide() {
           <text x="119" y="207" textAnchor="middle" fontSize="13" fontWeight="700"
             fill="var(--slide-primary)">Inventory</text>
           <text x="119" y="225" textAnchor="middle" fontSize="10.5"
-            fill="var(--slide-text)" opacity="0.7">Tools, materials and equipment</text>
+            fill="var(--slide-text)" opacity="0.7">Tools &amp; Materials</text>
 
           {/* ── CONNECTORS ── */}
           <path d="M198,66 H219 A8,8,0,0,1,227,74 V132 A8,8,0,0,0,235,140 H256"

@@ -16,13 +16,13 @@ const tools = [
   {
     name: 'Moducore',
     stage: 'Offsite ERP',
-    gap: 'Built for offsite production with CPQ and factory tracking. Project intelligence stays trapped in the system — historical performance data does not feed back into estimates, procurement, or HR. No cross-project learning mechanism.',
+    gap: 'Built for offsite production with CPQ and factory tracking. Project intelligence stays trapped in the system: historical performance data does not feed back into estimates, procurement, or HR. No cross-project learning mechanism.',
     positioning: 'replace',
   },
   {
     name: 'Sage / QuickBooks / Xero',
     stage: 'Finance',
-    gap: 'Project costs are manually re-entered at job close, giving finance a lagging, incomplete picture throughout execution. Integration means job costing flows from Merit OI automatically, with no double-entry.',
+    gap: 'Job costs are tracked manually in spreadsheets and re-entered into the accounting system at close. Merit OI handles job costing natively and passes actuals to Sage, QuickBooks, or Xero throughout execution - not just at month end.',
     positioning: 'integrate',
   },
   {
@@ -78,7 +78,7 @@ export function ToolStackSlide() {
               style={{ borderColor: 'var(--slide-border)', borderLeft: `3px solid ${style.text}` }}
             >
               {/* Tool + stage */}
-              <div className="shrink-0" style={{ width: '190px' }}>
+              <div className="shrink-0" style={{ width: '310px' }}>
                 <div className="text-sm font-semibold leading-tight" style={{ color: 'var(--slide-primary)' }}>{t.name}</div>
                 <div className="text-xs mt-0.5" style={{ color: 'var(--slide-text)', opacity: 0.5 }}>{t.stage}</div>
               </div>
@@ -102,7 +102,7 @@ export function ToolStackSlide() {
       <div className="shrink-0 mt-3 rounded-lg p-3" style={{ backgroundColor: 'var(--slide-bg-primary-muted)', border: '1px solid var(--slide-border-primary)' }}>
         <p className="text-xs font-medium" style={{ color: 'var(--slide-primary)' }}>
           <span style={{ color: 'var(--slide-accent)', fontWeight: 700 }}>The approach: </span>
-          Merit OI replaces the commodity tools that silo your data, and integrates with the specialist systems — design and finance — that stay in place.
+          Merit OI replaces the commodity tools that silo your data, and integrates with the specialist systems - design and finance - that stay in place.
         </p>
       </div>
 

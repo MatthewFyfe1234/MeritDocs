@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-
-// @mui components
 import { Box, TextField, Button, Typography } from '@mui/material';
 import CircularProgress from '@mui/material/CircularProgress';
-
-// Services
 import { createEnquiry } from '@/api-services/website-services/enquiryService';
+import { useTranslation } from 'react-i18next';
 
-const inputSlotProps ={
+const inputSlotProps = {
   label: {
     sx: {
       top: '20px',
@@ -34,15 +31,19 @@ const inputStyle = {
 
 const ContactForm = ({
   enquiryTypeId,
-  title = "Contact Us",
-  subtitle = "Fill out the form and we’ll be in touch soon."
+  title = "",
+  subject = "",
+  subtitle = ""
 }) => {
+  const { t } = useTranslation();
+
   const [email, setEmail] = useState({
     enquiryTypeId,
     enquirerName: '',
     email: '',
     phone: '',
     message: '',
+    subject: subject,
     company: '',
     position: ''
   });
@@ -60,17 +61,17 @@ const ContactForm = ({
 
   const validateForm = () => {
     const newErrors = {};
-    if (!email.enquirerName.trim()) newErrors.enquirerName = "Name is required.";
-    else if (!/^[a-zA-Z\s'-]{2,100}$/.test(email.enquirerName)) newErrors.enquirerName = "Invalid name format.";
+    if (!email.enquirerName.trim()) newErrors.enquirerName = t('common.form.validation.nameRequired');
+    else if (!/^[a-zA-Z\s'-]{2,100}$/.test(email.enquirerName)) newErrors.enquirerName = t('common.form.validation.nameInvalid');
 
-    if (!email.email.trim()) newErrors.email = "Email is required.";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.email)) newErrors.email = "Invalid email address.";
+    if (!email.email.trim()) newErrors.email = t('common.form.validation.emailRequired');
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.email)) newErrors.email = t('common.form.validation.emailInvalid');
 
-    if (!email.company.trim()) newErrors.company = "Company is required.";
-    if (!email.position.trim()) newErrors.position = "Position is required.";
+    if (!email.company.trim()) newErrors.company = t('common.form.validation.companyRequired');
+    if (!email.position.trim()) newErrors.position = t('common.form.validation.positionRequired');
 
-    if (!email.message.trim()) newErrors.message = "Message is required.";
-    else if (email.message.length < 10) newErrors.message = "Message should be at least 10 characters.";
+    if (!email.message.trim()) newErrors.message = t('common.form.validation.messageRequired');
+    else if (email.message.length < 10) newErrors.message = t('common.form.validation.messageTooShort');
 
     return newErrors;
   };
@@ -86,11 +87,8 @@ const ContactForm = ({
     setEmailSending(true);
     setEmailError(false);
     try {
-      console.log(email);
       const response = await createEnquiry(email);
-      if (response) {
-        setIsEmailSent(true);
-      }
+      if (response) setIsEmailSent(true);
     } catch (error) {
       setEmailError(true);
     } finally {
@@ -101,28 +99,28 @@ const ContactForm = ({
   return (
     <Box
       id="contact"
-      display="flex"
-      flexDirection="column"
-      borderRadius={15}
-      boxShadow={5}
-      p={4}
       sx={{
+        display: "flex",
+        flexDirection: "column",
+        borderRadius: 15,
+        boxShadow: 5,
+        p: 4,
         zIndex: 10,
         background: "#fff",
         width: "100%",
         textAlign: 'center'
       }}>
-      <Typography fontSize={{ xs: 18, md: 22 }} sx={{ fontWeight: 600 }}>
+      <Typography sx={{ fontSize: { xs: 18, md: 22 }, fontWeight: 600 }}>
         {title}
       </Typography>
-      <Typography fontSize={{ xs: 15, md: 18 }} sx={{ fontWeight: 400, mb: 2 }}>
+      <Typography sx={{ fontSize: { xs: 15, md: 18 }, fontWeight: 400, mb: 2 }}>
         {subtitle}
       </Typography>
       <form onSubmit={handleSubmitEnquiry} noValidate style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <Box display='flex' flexDirection='column' width={1} gap={2}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', width: 1, gap: 2 }}>
           <TextField
             fullWidth
-            label="Name"
+            label={t('common.form.name')}
             name="enquirerName"
             required
             onChange={handleChange}
@@ -132,7 +130,7 @@ const ContactForm = ({
             slotProps={inputSlotProps}/>
           <TextField
             fullWidth
-            label="Email"
+            label={t('common.form.email')}
             name="email"
             type="email"
             required
@@ -143,7 +141,7 @@ const ContactForm = ({
             slotProps={inputSlotProps}/>
           <TextField
             fullWidth
-            label="Phone"
+            label={t('common.form.phone')}
             name="phone"
             type="tel"
             onChange={handleChange}
@@ -151,7 +149,7 @@ const ContactForm = ({
             slotProps={inputSlotProps}/>
           <TextField
             fullWidth
-            label="Company"
+            label={t('common.form.company')}
             name="company"
             required
             onChange={handleChange}
@@ -161,7 +159,7 @@ const ContactForm = ({
             slotProps={inputSlotProps}/>
           <TextField
             fullWidth
-            label="Position"
+            label={t('common.form.position')}
             name="position"
             required
             onChange={handleChange}
@@ -171,7 +169,7 @@ const ContactForm = ({
             slotProps={inputSlotProps}/>
           <TextField
             fullWidth
-            label="Message"
+            label={t('common.form.message')}
             name="message"
             multiline
             rows={6}
@@ -181,7 +179,7 @@ const ContactForm = ({
             helperText={errors.message}
             sx={inputStyle}
             slotProps={inputSlotProps}/>
-          <Box display="flex" justifyContent="center" alignItems="center">
+          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <Button
               variant="contained"
               type="submit"
@@ -193,27 +191,21 @@ const ContactForm = ({
                 padding: '10px 10px',
                 letterSpacing: '0.05rem',
                 borderRadius: '24px',
-                '&:hover': {
-                    backgroundColor: 'rgba(211, 211, 211, 1)'
-                }
+                '&:hover': { backgroundColor: 'rgba(211, 211, 211, 1)' }
               }}
               disabled={emailSending}>
-              {emailSending ? <CircularProgress size={24} /> : 'Send Enquiry'}
+              {emailSending ? <CircularProgress size={24} /> : t('common.form.send')}
             </Button>
-            {
-              isEmailSent && (
-                <Typography variant="body1" sx={{ color: 'green', marginLeft: 2 }}>
-                  Your message has been sent!
-                </Typography>
-              )
-            }
-            {
-              emailError && (
-                <Typography variant="body1" sx={{ color: 'red', marginLeft: 2 }}>
-                  Error sending email. Please try again.
-                </Typography>
-              )
-            }
+            {isEmailSent && (
+              <Typography variant="body1" sx={{ color: 'green', marginLeft: 2 }}>
+                {t('common.form.success')}
+              </Typography>
+            )}
+            {emailError && (
+              <Typography variant="body1" sx={{ color: 'red', marginLeft: 2 }}>
+                {t('common.form.error')}
+              </Typography>
+            )}
           </Box>
         </Box>
       </form>

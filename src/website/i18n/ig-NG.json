@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Hazie Ngosi",
+    "contactSales": "Kpọtụrụ Ndị Ire Ahịa",
+    "learnMore": "Mụta Ọzọ →",
+    "contentFooter": {
+      "title": "Ìhè nkọwa ọrụ doro anya. Omume ezi ihe. Nsonaazụ ka mma.",
+      "subtitle": "Rịọ nkọwa ma hụ ka Merit nwere ike inyere gị aka ịtụgharị mgbagwoju anya ka ọ bụrụ ihe doro anya."
+    },
+    "form": {
+      "name": "Aha",
+      "email": "Email",
+      "phone": "Ekwentị",
+      "company": "Ụlọ Ọrụ",
+      "position": "Ọkwa",
+      "message": "Ozi",
+      "send": "Zipu Ajụjụ",
+      "success": "Ozi gị ezipụla!",
+      "error": "Njehie na mbupu email. Biko nwaa ọzọ.",
+      "validation": {
+        "nameRequired": "Aha dị mkpa.",
+        "nameInvalid": "Ụdị aha adịghị mma.",
+        "emailRequired": "Email dị mkpa.",
+        "emailInvalid": "Adreesị email adịghị mma.",
+        "companyRequired": "Ụlọ ọrụ dị mkpa.",
+        "positionRequired": "Ọkwa dị mkpa.",
+        "messageRequired": "Ozi dị mkpa.",
+        "messageTooShort": "Ozi kwesịrị ịbụ opekata mpe mkpụrụ asụsụ 10."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Gịnị mere Merit",
+    "platform": "Platform",
+    "useCases": "Ọnọdụ Ojiji",
+    "teams": "Ndị Otu",
+    "values": "Ụkpụrụ",
+    "company": "Ụlọ Ọrụ",
+    "bookDemo": "Hazie Ngosi",
+    "subMenus": {
+      "whyMerit": {
+        "title": "Ihe Iwe",
+        "theProblem": "Nsogbu",
+        "theSolution": "Ngwọta",
+        "theAdvantage": "Nnọchianya"
+      },
+      "platform": {
+        "title": "Ike Usoro",
+        "businessIntelligence": "Ọghụghọ Azụmahịa",
+        "processMapping": "Ihe Ngosi Usoro",
+        "projectManagement": "Njikwa Ọrụ Atụmatụ",
+        "documentManagement": "Njikwa Akwụkwọ",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Atụmatụ Ihe Ndị Dị Mkpa"
+      },
+      "useCases": {
+        "title": "Ụlọ Ọrụ Ndị Dị",
+        "manufacturing": "Ịmepụta Ihe",
+        "construction": "Iwu Ụlọ",
+        "healthcare": "Ahụike",
+        "disasterManagement": "Nzaghachi Nsogbu",
+        "miningAndResources": "Ngwupụta na Ihe Ndị Dị Mkpa",
+        "agriculture": "Ọrụ Ugbo",
+        "publicInfrastructure": "Ihe Ọha na Eze",
+        "consultingProfessionalServices": "Ndụmọdụ/Ọrụ Ndị Ọkachamara"
+      },
+      "teams": {
+        "title": "Ọrụ Ndị Dị",
+        "leadership": "Ndụmọdụ",
+        "operations": "Ọrụ",
+        "projectManagement": "Njikwa Ọrụ Atụmatụ",
+        "humanResources": "Njikwa Ụmụ Mmadụ",
+        "sales": "Ire Ahịa",
+        "marketing": "Mgbasa Ozi",
+        "finance": "Ego"
+      },
+      "values": {
+        "title": "Omume Ọma",
+        "operationalEthics": "Omume Ọma n'Ọrụ",
+        "esg": "ESG",
+        "culturalIntegrity": "Ịdị Mma Omenala"
+      },
+      "company": {
+        "title": "Maka Anyị",
+        "ourMission": "Ọrụ Anyị",
+        "whoWeAre": "Ndị Anyị Bụ",
+        "whatWereBuilding": "Ihe Anyị Na-ewu",
+        "contactUs": "Kpọtụrụ Anyị"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Ikike niile echekwara.",
+    "terms": "Ụkpụrụ",
+    "privacyPolicy": "Iwu Nzuzo",
+    "cookiePolicy": "Iwu Cookie",
+    "contact": "Kpọtụrụ"
+  },
+  "home": {
+    "hero": {
+      "title": "Usoro Ọrụ Nchịkọta maka Ụlọ Ọrụ Gị",
+      "subtitle": "Ụdị dijitalụ zuru oke nke ụlọ ọrụ gị, na-emezigharị n'ọrụ ọ bụla emechara. Maka atụmatụ kachasị mma, nduzi ọsọ ọsọ, na mmejuputa ka mma n'ọrụ niile.",
+      "tagline": "Otu platform na-ejikọ njikwa ọrụ atụmatụ, ihe ngosi usoro, CPQ, CRM, ọghụghọ azụmahịa, njikwa akwụkwọ, HR, na njikwa ndị ọrụ site n'otu ụdị ọrụ nke na-emezigharị n'ọrụ ọ bụla emechara."
+    },
+    "contextualiser": {
+      "title": "Uru Nchịkọta",
+      "p1": "Mgbe onye ọ bụla na-arụ ọrụ site n'otu ụdị mmejuputa, ọ na-abụ mfe ịhụ ka ọrụ si emee, onye na-etinye aka, na ihe na-akpata nsonaazụ.",
+      "p2": "Ọ pụtakwara n'ihe nkọwa na data echeghị ọ gaghị apụ ọ bụ n'ọrụ. Ndị ire ahịa na-ahụ ihe mmepụta na-agụcha. Ndị ego na-ahụ ebe ọnụọgụ gbajiri. Mgbe onye hapụ, ihe ọ mara na-anọ n'usoro.",
+      "p3": "Oge ọ bụla i na-eme ọrụ site n'otu ndekọ mmejuputa, ka ị pụtara ịkọwa atụmatụ, ọrụ ndị, na ọnụahịa ọrụ ọzọ nke ọma."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Ọghụghọ Azụmahịa",
+        "title": "Tụgharịa nghọta ka ọ bụrụ omume",
+        "description": "Ọghụghọ azụmahịa ejikọtara usoro na-enye gị ike ịchọpụta ohere, nlele arụmọrụ, na ịkwado mmụba echiche ozugbo n'ụlọ ọrụ gị."
+      },
+      "processMapping": {
+        "header": "Ihe Ngosi Usoro",
+        "title": "Hụ usoro gị n'ihu",
+        "description": "Kọwaa ma hụ usoro n'ọtụtụ ọkwa nkọwa site n'iji ihe ọrụ dị ka Google Maps, na-echezo ìhè nkọwa na nkwekọrịta n'etiti ndị otu na ọrụ."
+      },
+      "projectManagement": {
+        "header": "Njikwa Ọrụ Atụmatụ",
+        "title": "Mee ka ọrụ atụmatụ gị dị mfe",
+        "description": "Kọwaa ọrụ atụmatụ n'ihe nkọwa ngwaahịa, wee sie ike site n'iji ngwa anyị pụrụ iche ịkọ amụma oge mmejuputa na mkpa ihe ndị dị mkpa, dabere n'ọnọdụ ihe gara aga."
+      },
+      "resourcePlanning": {
+        "header": "Atụmatụ Ihe Ndị Dị Mkpa",
+        "title": "Mee ka oge ụlọ ọrụ gị dịkwuo mma",
+        "description": "Wuo ụdị mmadụ, nka, ngwa, oge dị, na ọnụahịa iji jikọọ ikike ozugbo na ọchịchọ ọrụ na ọrụ atụmatụ."
+      },
+      "documentManagement": {
+        "header": "Njikwa Akwụkwọ",
+        "title": "Hazi ihe ọmụmụ na-akpata nsonaazụ",
+        "description": "Tinye akwụkwọ n'akụkụ mmadụ, ihe ndị ndekọ, ọrụ atụmatụ, ma ọ bụ ọrụ usoro ha metụtara maka nhazi nwere ihe nkọwa na nchọta dị mfe."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Mee ka mgbagwoju anya dị mfe na-enweghị ifu nkọwapụta",
+        "description": "Mepụta nkọwapụta n'ime oke ngwaahịa isi iji dabara n'ụlọ ọrụ gị na ikike ụlọ ọrụ. Hazie usoro akụrụngwa na ọnụahịa ya, ma mepụta ọnụọgụ oge dabere n'ọnọdụ ihe gara aga."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Mee ka okirikiri mechaa n'mmepụta ọ bụla",
+        "description": "Chịkọta nzaghachi ndị ahịa mgbe mmepụta ọ bụla gasịrị ma tinye ya ozugbo na nzọụkwụ na ihe ndị dị mkpa mepụtara ya. Ụdị n'ọrụ mmepụta na-abụ n'ihu anya n'oge, na-atụgharị nzaghachi ka ọ bụrụ akara doro anya maka mmezigharị usoro na ihe ndị dị mkpa."
+      }
+    },
+    "ethics": {
+      "title": "Ọ Bụ Usoro Kwesịrị Ịdị Mma",
+      "p1": "Merit na-enye ìhè nkọwa nzuzu n'ọrụ niile, ya na ikike azụmahịa ọkwa elu na njikwa.",
+      "p2": "Mgbe ọrụ dị n'ihu anya, ntinye aka nwere ihe ndekọ, na nsonaazụ nwere ike ịdide, ụlọ ọrụ na-enwetara ọ bụghị naanị arụmọrụ mana ọ bụkwa ntụkwasị obi.",
+      "p3": "Merit na-ejikọ mmepụta na mkpebi nwere njikwa doro anya, ka ịma onye dị n'usoro, mgbalị dị n'ihu anya, na ụgwọ dị ezigbo mma.",
+      "cta": "Chọpụta ka omume ọma si adị mkpa n'platform →"
+    },
+    "meritConcept": {
+      "title": "Merit n'Ụzọ Gị",
+      "content": [
+        "Platform anaghị akọwaa nwoke gị. Ọ bụ ihe ọ bụla ụlọ ọrụ gị na ndị ahịa ya kpebie ka ịdị mma si dị, emere ka a nwee ike ịdide ya n'ọkwa ọ bụla nke usoro ahụ.",
+        "Ihe nđikọ ọ bụla, usoro ọ bụla, na KPI ọ bụla na-esi n'ụkpụrụ ụlọ ọrụ tọọ megide ụdị ahụ. Nkọwa ndị ịmepụta ihe maka mmepụta ọrụ emere nke ọma dị iche na nke ndị na-enye nlekọta ahụike. Atụmanya onye ahịa n'mmekọrịta mgbagwoju anya dị iche na nke dị mfe. Platform na-ewere ha niile n'ihi na nkọwa nke nwoke bi n'ime ụdị ahụ, ọ bụghị n'software.",
+        "Nke ahụ kwa bụ ihe na-eme ka njikọ dị n'ike. Mgbe ụkpụrụ ndị dị mkpa maka onye ahịa gosipụtara n'ụdị usoro, ndị na-arụ ọrụ nwere ike ịhụ ka ọdịmma si dị site n'ebe ha nọ. Na mgbe mmepụta ọ bụla emechara, nzaghachi na-ezute okirikiri, na-ejikọ ahụmahụ onye ahịa na nzọụkwụ ndị mepụtara ya."
+      ]
+    },
+    "howMeritWorks": {
+      "title": "Ka Merit Si Arụ Ọrụ",
+      "subtitle": "Dekọ ọrụ ọ bụla megide otu ụdị. Ọrụ atụmatụ ọ bụla emechara na-eme ka ọnụọgụ ọzọ dịkwuo mma, na-emezigharị arụmọrụ nhazi, ma na-etinye n'ihe ndekọ ọrụ nke anọ n'usoro mgbe mmadụ hapụ.",
+      "model": {
+        "title": "Ụdị",
+        "description": "Kọwaa ngwaahịa gị n'ụdị ya niile ma jikọọ ya na usoro kwesịrị, gụnyere nka, ngwa, na akụrụngwa ejiri wepụta ya."
+      },
+      "execute": {
+        "title": "Mee",
+        "description": "Rụọ ọrụ atụmatụ megide ụdị. Soro ịdịghị nkwekọrịta n'oge ọ bụla. Jide otu ọrụ, ngwa, na ọrụ niile jikọtara na otu onyonyo."
+      },
+      "improve": {
+        "title": "Mee Ka Ọ Dịkwuo Mma",
+        "description": "Ọrụ ọ bụla emechara na-alaghachi n'ụdị. Ọnụọgụ na-abawanye, ibu nhazi na-ebelata, na ihe ọmụmụ ụlọ ọrụ na-ejikọta n'usoro kama n'mmadụ."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Nsogbu Kwesịrị Ngwọta",
+      "p1": "Mmepụta ọ bụla na-arụ ọrụ n'otu ụzọ ahụ: usoro, ndị mmadụ na-arụ ya, na-eji ngwa na akụrụngwa. Mana mmepụta anaghị dabara n'atụmatụ.",
+      "p2": "Otu mmehie isii na-apụta n'ụlọ ọrụ niile, ụlọ ọrụ niile, na ụdị ọrụ atụmatụ niile. Emebere Merit iji dị mma maka ha isii niile."
+    },
+    "theProblem": {
+      "title": "Mmehie Usoro Isii. Otu Ihe Bụ Isi",
+      "subtitle": "Mmehie ndị a nwere otu isi iyi: enweghị ndekọ mmejuputa nkekọrịta, enweghị ụdị na-amụta, enweghị otu onyonyo onye ọ bụla si arụ ọrụ.",
+      "failures": {
+        "measurability": {
+          "dimension": "Ike Ịdide",
+          "problem": "A na-enwe echiche arụmọrụ, a naghị edekọ ya.",
+          "detail": "Na-enweghị ndekọ mmejuputa nkekọrịta, ọ bụ ndụmọdụ n'ọnọdụ ọcha, ịma onye bụ ihe ndị ka nke onwe ha, na mmezigharị bụ ịkere akụkọ."
+        },
+        "predictability": {
+          "dimension": "Ike Ịkọ Amụma",
+          "problem": "Ọnụọgụ bụ ebe ọnụọgụ dị, ọ bụghị amụma ihe ga-eme.",
+          "detail": "Ọrụ atụmatụ ọ bụla na-amalite na enweghị ihe ọ chọrọ. Enweghị ụdị ị ga-ese site n'ya. Ahụmahụ anọ n'isi, ọ bụghị n'usoro."
+        },
+        "transparency": {
+          "dimension": "Ìhè Nkọwa",
+          "problem": "Ọganihu dị n'ihu anya naanị mgbe emechara ihe.",
+          "detail": "N'oge nsogbu pụtara n'akụkọ, ọ ruo oge ya e wepụtala ego maka ya. A na-achọpụta ịdịghị nkwekọrịta, a naghị egbochi ya."
+        },
+        "planning": {
+          "dimension": "Atụmatụ",
+          "problem": "Ọrụ atụmatụ ọ bụla na-amalite site n'isi.",
+          "detail": "Ndị otu na-ewu atụmatụ ọzọ ma na-amụtakwa ihe ndị jikọtara ya n'ọrụ atụmatụ ọ bụla. Ihe ọ bụla anọghị n'ihu."
+        },
+        "evaluation": {
+          "dimension": "Nchọpụta",
+          "problem": "Nhọrọ dabere n'mmekọrịta, ọ bụghị nsonaazụ.",
+          "detail": "Na-enweghị ọnọdụ arụmọrụ doro anya, ndị kachasị mma adịghị n'ihu anya, na mkpebi ọjọọ a na-apetarị ya."
+        },
+        "integration": {
+          "dimension": "Njikọ",
+          "problem": "Data bụ ihe ọrụ ọ bụla nwere, ihe ọmụmụ bụ ihe onye ọ bụla nwere.",
+          "detail": "Ndị ire ahịa ahụghị mmepụta. Ndị ego ahụghị mmejuputa. Mgbe mmadụ hapụ, ihe ọmụmụ ụlọ ọrụ hapụ ya."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "Ụlọ ọrụ na-abawanye mma n'ọrụ atụmatụ ọ bụla",
+      "p1": "Merit na-ewu ụdị mmejuputa ọ bụla dị ka netwọk nke ndị na-arụ ọrụ (mmadụ na ụlọ ọrụ), ihe ndị nọ n'ụlọ, na nzọụkwụ usoro, mmejuputa ọ bụla edekọrọ megide ụdị isi. Ka ọrụ atụmatụ na-emecha, ụdị na-amụta. Ikpe adịghị n'usoro na-abụ ihe àmà. Njikwa ibu na-ebelata ka usoro si njikwa njikọ na akụkọ ndị emere n'aka n'ihu.",
+      "p2": "Ọrụ atụmatụ ọ bụla emechara na-etinye n'ndekọ mmejuputa pụrụ iche maka ụlọ ọrụ ahụ. Ndekọ ahụ na-abụ isi maka amụma ọ bụla, nyocha ọ bụla, na mkpebi atụmatụ ọ bụla na-eso."
+    },
+    "theAdvantage": {
+      "title": "Uru n'Oge Niile",
+      "subtitle": "Merit na-ewepụta nsonaazụ n'oge dị iche iche dabere n'oge ọ bụ n'arụ ọrụ.",
+      "horizons": {
+        "immediately": {
+          "label": "Ozugbo",
+          "headline": "Mmepụta na-abụ ihe ndekọ.",
+          "detail": "Ịdịghị nkwekọrịta dị n'ihu anya n'oge ọ bụla. A na-emepụta atụmatụ ọrụ atụmatụ site n'nkọwapụta. Ndị otu na-akwụsị iwu ọzọ ihe dị adị."
+        },
+        "overTime": {
+          "label": "N'oge",
+          "headline": "Ụdị na-abụ ka mma n'mmejuputa ọ bụla.",
+          "detail": "Amụma na-abụ nke ọma karị ka ndekọ mmejuputa si arị elu. Atụmatụ na-esote ihe gara aga n'ezie kama ọnụọgụ mbụ, na ụdị na-egosipụta ka ụlọ ọrụ si arụ ọrụ n'ezie."
+        },
+        "enduringly": {
+          "label": "N'oge niile",
+          "headline": "Nhazi data nke asọmpi ọ bụla enweghị ike ịnwụpụ.",
+          "detail": "Ụlọ ọrụ nke na-arụ ọrụ na Merit ọtụtụ afọ nwere ndekọ mmejuputa dị miri emi n'afọ ndị - pụrụ iche maka usoro ya, mmadụ ya, na akụkọ mmepụta ya. Enweghị ike ịnwụpụ ndekọ ahụ site n'onye asọmpi na-ewere software otu ahụ."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Otu Usoro maka Ọghụghọ Ọrụ",
+      "content": ["Otu usoro. Ìhè nkọwa niile. Mmezigharị na-enweghị njedebe."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Ọghụghọ Azụmahịa",
+        "content": [
+          "Ọghụghọ azụmahịa na Merit etinyere n'ime maapụ usoro n'onwe ya. Data arụmọrụ na-apụta n'ime ihe ọhụrụ n'ọkwa ọ bụla nke ihe atọ iche iche - site n'onyinya ụlọ ọrụ niile ruo ọrụ n'onwe onye - ka ị ghọta ka azụmahịa si arụ ọrụ n'ime onodu usoro na-akpata ya, ọ bụghị n'ngwa akụkọ nkewapụta.",
+          "Data na-esi n'ihe ọ bụla dị n'usoro: ndekọ mmejuputa, profaịlụ n'onwe onye, ihe ndị nọ n'ụlọ, nkọwapụta, na kalenda. Enwere ike igosipụta ma ọ bụ jikọ isi iyi ndị a n'ihe mgbako n'ime ụdị usoro. Data ụgwọ ọrụ ndị chịkọtara n'mmadụ na-arụ ọrụ ọrụ ọ bụla, jikọtara ya na oge mmejuputa, na-enye ọnụ ego eziokwu - n'ọkwa ọrụ, ọkwa ọrụ, ma ọ bụ n'ọrụ atụmatụ niile n'oge ọ bụla.",
+          "N'ihi na enwere ike ikọwa isi iyi data ọ bụla megide node ọ bụla n'usoro, analytics bụ ihe nwere ike ijikọ. Otu usoro na-achịkwa mmejuputa na-abụ usoro maka BI nke nkọwa dị elu, ejikọtara usoro."
+        ]
+      },
+      "processMapping": {
+        "title": "Ihe Ngosi Usoro",
+        "content": [
+          "Merit na-eseputara usoro ọrụ gị n'ọkwa nkọwa ọ bụla - site n'onyinya ụlọ ọrụ na ndị otu ruo n'ọrụ usoro ọ bụla nke onye ọ bụla na ọrụ ngwa pụrụ iche nke nzọụkwụ ọ bụla chọrọ. Maapụ ahụ bụ ihe atọ ma enwere ike ịga n'ime ya n'ụzọ zuru oke: zoom n'ọpụrụiche ịhụ onyonyo ụlọ ọrụ niile, zoom n'ime ọrụ naanị nke onye ọrụ ọ bụla, na-enweghị ịfụfụ ihe o bụ n'ime ihe niile.",
+          "Ọbụna usoro mmepụta ndị mgbagwoju anya kachasị nwere ike ịbụ ụdị, ịchọpụta, ma ghọta. Maapụ ndị a bụ ndụ ma jupụta na data mmejuputa, ya mere ọkwa nkọwa ọ bụla na-egosipụta ka ụlọ ọrụ si arụ ọrụ n'ezie - ọ bụghị ihe ngosi adịghị agba ọsọ.",
+          "Ụdị usoro ahụ adịghị ogologo site n'ụlọ ọrụ gị naanị. Enwere ike ịgbasaa ya n'ime ecosistemu mmepụta gị niile - na-ese maapụ ụlọ ọrụ ndị metụtara, na-ajikọ mmekọrịta ha, na-echekọ data arụmọrụ n'ụzọ nile."
+        ]
+      },
+      "projectManagement": {
+        "title": "Njikwa Ọrụ Atụmatụ",
+        "content": [
+          "Mgbe ọnọdụ kwadoro, a na-emepụta atụmatụ ọrụ atụmatụ site n'ụdị usoro. A na-agbakọ usoro oge site n'amụma ndị emewere n'ime usoro, meziwere site n'data mmejuputa ochie, na nkewapụta ndị na-arụ ọrụ na-ejikwa ya ozụzụ - na-esote kalenda onye ọ bụla, ahụmahụ, na oge dị - nwere ngwa nhazi na ighe aka n'aka nwere ike iji n'oge niile.",
+          "A na-esoro ọganihu megide mkpa ndị emewere: ihe ndị ị ga-enye, ọnụọgụ ndị a ga-edekọ, na akara ọnọdụ a ga-etinye n'nzọụkwụ ọ bụla. Usoro ahụ na-edu mmejuputa na-ewepụ njikwa.",
+          "Enwere ike ịhụ ọrụ atụmatụ dị ka Gantt emepụtara ozụzụ ma ọ bụ n'ime maapụ usoro n'onwe ya, na-egosi ọnọdụ ndụ n'ụlọ ọrụ niile, ọrụ, na nzọụkwụ n'onwe ha. Ma ọ bụ ijikọ ndị otu ime ụlọ ma ọ bụ ndị ọzọ na-arụ ọrụ, onyonyo ahụ na-abụ mgbe niile ọhụrụ ma na-abụ mgbe niile n'ọnọdụ."
+        ]
+      },
+      "documentManagement": {
+        "title": "Njikwa Akwụkwọ",
+        "content": [
+          "Akwụkwọ ndị na Merit etinyere n'ihe ha metụtara - nzọụkwụ usoro, nzọụkwụ ọrụ atụmatụ, nkọwapụta, onye ọrụ, ụlọ ọrụ ndị metụtara, ma ọ bụ ngwa ma ọ bụ ihe ndekọ. Akwụkwọ ngosipụta nkwekọrịta, ndekọ nlekọta, ma ọ bụ akwụkwọ nlele ụgbọ nọ ebe o kwesiri dị, ọ bụghị n'fọldị akọtaghi.",
+          "Ebe a chọrọ akwụkwọ - dị ka ụdị usoro si akọwaa - ha na-achịkwa ịga n'ihu. Ọkwa ọ bụla enweghị ike ịga n'ihu ruo mgbe akwụkwọ ahụ adịne; ọ bụghị ike ikee ọrụ ruo mgbe ihe ndekọ a chọrọ kwadoro. Akwụkwọ ndị a achịkwakwaghị nkewapụta site n'ọrụ - etinyere ya n'ụzọ ọrụ si agagharị n'ihu."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Nhazi, Ọnụahịa, Ntụpọ)",
+        "content": [
+          "CPQ na Merit na-aza n'imeọnụ n'nkọwapụta isi: nkọwapụta zuru oke nke mgbanwe ọ bụla nwere ike nọ n'ime ụdị ngwaahịa - ihe niile, usoro nhazi, ihe ọ bụla ndị dịgasị iche, na oke ụlọ ọrụ na-arụ ọrụ. Nkọwapụta n'onwe ya na-abụ mgbe niile akụkụ nke isi ahụ. Ịkọwaa otu n'ime ha pụtara usoro ahụ - nzọụkwụ ndị, ihe ndị, na ihe ndị dị mkpa achọpụtaworo tupu ntụpọ apụta.",
+          "Iwu ndị emewere megide isi na-etinye n'ime ihe gbasara mmụọ ngwaahịa nkọwa. Nhọrọ otu nwere ike ima ọzọ, wepụ nhọrọ adịghị jikọ, ma ọ bụ kpọghee mkpa - etinye ozụzụ, n'oge nhazi. Enwere ike ịmaanị ndị nkọwa a chọrọ iji jide n'aka nkọwapụta ọ bụla zuru oke tupu ọ gaa n'ihu. Iwu ọnụ ahịa emewere megide usoro na-azaghachi n'nkọwapụta - na-apụta oge, ihe ndị, ume, na carbon dị n'ọdịnaya ọ bụla.",
+          "Ozugbo nkọwapụta kwadoro, Merit na-eme ihe na-eso ya ozụzụ. A na-achịkwa ihe ndị nọ n'ụlọ megide ya, a na-ajikọ ọrụ atụmatụ si ya, na nhọrọ ndị otu na-esote ahụmahụ ndị na-arụ ọrụ na oge kalenda. Nnachiko ndị ọzọ ga-achọ njikọ aka n'aka na-eme ozụzụ."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "CRM nke Merit wuwe ya gburugburu mmepụta n'onwe ya, ọ bụghị bụrụ ụzọ mmepụta. Mgbe ọnụọgụ emechara, a na-achịkọta nzaghachi ndị ahịa ma tinye ya ozugbo na nzọụkwụ na ihe nke ọrụ atụmatụ mepụtara ya. Ọ bụ nsogbu ọdịmma, nwachịcha, ma ọ bụ ihe pụrụ iche nwere ike ịsoro ya ozugbo na ebe n'usoro o bidoro.",
+          "Njikọ ahụ na-eme nyocha dị mfe ma na-eme ntụle ụdị bụrụ ihe bara uru. Nzaghachi na-achịkọta n'ọrụ mmepụta, ya mere nsogbu na-apeatarị n'nzọụkwụ pụrụ iche ma ọ bụ n'ihe dị mkpa pụrụ iche na-abụ n'ihu anya n'oge. Ịlele ha n'oge n'oge, ọ na-abụ akara doro anya ebe usoro, nkọwapụta, ma ọ bụ ihe ndị dị mkpa chọrọ nlebara anya.",
+          "N'ihi na ọ nọ n'ime otu usoro ahụ dị ka mmejuputa, enweghị mbubata, enweghị ntụgharị, ma enweghị nkewapụta n'etiti ihe e wepụtara na ihe onye ahịa kwuru maka ya."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Atụmatụ Ihe Ndị Dị Mkpa",
+        "content": [
+          "A na-achịkwa mmadụ, ngwa, na ihe ndị nọ n'otu usoro ahụ dị ka mmejuputa ọrụ atụmatụ. Onye ọ bụla nwere kalenda nke ya, oge dị, na ndekọ arụmọrụ - eso megide ụdị usoro otu ahụ na-achịkwa ọrụ ha na-akwado.",
+          "Onyonyo BI ahụ na-apụta arụmọrụ usoro na-egosikwa ojiji ihe ndị dị mkpa. Onyonyo ndị dabere n'kalenda na-ekpughe mgbe ngwa ndị di obere ma ọ bụ karịa ojiji, mgbe ibu ọrụ atụmatụ na-asọ ụgwọ ezumike oge, ma ọ bụ mgbe ngalaba na-erugasị ike ya - ma ọ bụ i na-elele ụdị ndị gara aga ma ọ bụ i na-ele n'ihu n'ọrụ atụmatụ.",
+          "Mgbe data na-egosi ụdị nke na-adịgide adịgide - ndị otu na-emechite na-abụ mgbe niile, ngwa ọ bụla na-abụ mgbe niile ihe na-egbochi, oge ọ bụla na-abụ mgbe niile enweghị ndị ọrụ ezuru oke - ọ na-apụta n'ihu ozugbo ike iji mee ihe megide ya. Atụmatụ ihe ndị dị mkpa na-agbanwe site n'azaghachi ikpo na-atụ ha amụma."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Omume Ọma na Mmetụta",
+      "content": [
+        "Mgbe usoro gị nwere ike ịchọpụta nwoke n'ụdị ọ bụla, ikwu eziokwu na ịdị na-adịghị agba ọsọ na-ekwughị ekwu. Ha na-abụ ihe ndị na-apụta n'onwe ha site n'mkpebi azụmahịa ka mma.",
+        "Merit na-enyere ụlọ ọrụ aka ibelata njefufu, wepụ ụkọ, ma chebe ihe na-akpata nsonaazụ n'ezie.",
+        "Achọghị ka nsonaazụ omume ọma abụrụ ihe ị na-achọ. Mee ka ha bụrụ ihe na-apụta n'onwe ha."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Ị na-ekpebi ihe dị mkpa, Merit na-enyere gị aka ịhazi maka ya",
+      "cards": {
+        "transparency": {
+          "title": "Ìhè Nkọwa na Ọ Bụ Onye Na-aza",
+          "description": "Merit na-eme ka omume na mkpebi nwee ihe ndekọ, na-enyere ụlọ ọrụ aka ijide ụkpụrụ omume ọma site n'njikwa doro anya, ìhè nkọwa usoro, na nlele nwere usoro n'ọkwa ọ bụla nke azụmahịa."
+        },
+        "recognition": {
+          "title": "Ịma Onye Ezigbo Mma na Ụgwọ",
+          "description": "Site n'ijikọ ntinye aka na nsonaazụ, Merit na-enye gị ike ịma onye n'ihe ndị na-akpata mmetụta n'ezie site n'ikwado ikwu eziokwu, ibelata ụkọ, na ikwado omenala ebe mgbalị dị n'ihu anya ma a na-atụ ọnụ ya."
+        },
+        "integrity": {
+          "title": "Usoro Ịdị Mma na Ntụkwasị Obi",
+          "description": "Merit na-enye usoro ọrụ nwere ike ntụkwasị obi nke na-ewepụ enweghị ihe nkọwa, na-agbatị usoro, na-ewu ntụkwasị obi n'etu ọrụ si edide, mkpebi si emee, na ọganihu si ekwuo."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG n'Ụdị",
+      "content": [
+        "Ihe ọ bụla e nwere ike ịdide ndị a na-atinye, site n'ike na mmanụ ọkụ ruo akụrụngwa na mmiri, nwere ike ide ya n'ọkwa nzọụkwụ ma chịkọta ya megide node usoro n'ọrụ ndekọ mmejuputa niile. Ọnụ ahịa gburugburu ọhịa adịghị akọ ya n'ọkwa ọrụ atụmatụ; enwere ike isoro ya ruo nzọụkwụ pụrụ iche na ihe ndị dị mkpa mepụtara ya. Ka oge na-gaa, ndekọ ahụ na-egosi ihe ndị dị mkpa na usoro ndị na-emepụta obere njefufu n'nsonaazụ ọ bụla, na-eme ka mmezigharị gburugburu ọhịa bụrụ ihe nwere ihe àmà kama ebumnobi.",
+        "N'ihi na a na-esoro ntinye aka n'ọzọ ọrụ, ịma onye na-egosipụta ihe mere n'ezie kama nso na njikwa ma ọ bụ omume onye n'onwe ya kwuo. Mgbe usoro na-emepụta ihe àmà, ihe ọ bụ nke ụkọ na-ebelata n'ụdị. Otu data mmejuputa na-edu mkpebi ọrụ na-edu mkpebi ndị mmadụ.",
+        "Ọnọdụ ọ bụla etinye n'usoro na-egbochi ọrụ site n'ịga n'ihu ruo mgbe a tinye akwụkwọ a chọrọ. Njikwa ohere na-akọwa onye nwere ike ịhụ ọnụọgụ na nhazi. Omume ọ bụla emere megide mmejuputa na-edekọ ya. Njikwa abụghị ọkwa akụkọ etinyere n'azụ. Etinyere ya n'ụzọ ọrụ si agagharị n'ihu."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Njikọ n'Ụdị",
+      "content": [
+        "Mgbe ịma onye na-eso ihe ndekọ mmejuputa na-egosi kama ihe mmadụ kwuo ma ọ bụ ndị ha maara, mkpebi nke mmadụ n'onwe ya na ebumnobi ụlọ ọrụ na-ejikọ n'onwe ha. Enweghị nnọchianya n'ijikwa na-apụta anya, ịchekwa ihe ọmụmụ, ma ọ bụ itinye onwe onye n'elu mmepụta.",
+        "Njikọ ahụ na-apụta site n'usoro, ọ bụghị site n'mmemme omenala. N'ihi na data arụmọrụ na-esi n'ọrụ n'onwe ya, ọnọdụ dị otú ịhọrọ ndị mara ha, ịchekwa ihe ọmụmụ, na nkewapụta n'etiti mgbalị na ụgwọ a na-ewepụ kama a na-achịkwa ya n'ọnụ ọgụgụ.",
+        "Mgbe ndị mmadụ na-ahụ n'oge niile na a na-atụ ntinye aka ọnụ n'ụzọ ziri ezi ma a na-azapụta ya n'ụzọ kwesịrị, omume na-emesi ya ike. Omenala nwere omume ọma na-abụ nsonaazụ nke ọ bụ n'ụzọ usoro si eme omume ọma bụrụ ụzọ dị nwayọọ kachasị."
+      ]
+    },
+    "compliance": {
+      "title": "Site n'Ịrịba Ọnụ ruo Nnọchianya Asọmpi",
+      "content": [
+        "Arụmọrụ omume ọma ekwesịghị ịbụ ebumnobi ma ọ bụ ihe echefuru echefuru, ọ kwesịrị ịbụ nsonaazụ nke ọ bụ n'ụzọ azụmahịa si agba ọsọ. Merit na-eme nke a dị mma site n'itinye njikọ omume ọma n'akwara ọrụ ụbọchị ụbọchị.",
+        "Mgbe a na-ele arụmọrụ n'ụzọ doro anya ma a na-apụta uru n'usoro, ikwu eziokwu na-abụ usoro, ọ bụ onye na-aza bụ ihe na-apụta n'onwe ya, na nsonaazụ ka mma na-eso. Omenala na-eme ọrụ n'ụdị omume ọma abụghị naanị njikwa ọma, ọ bụ nnọchianya atụmatụ."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "Ewuwe maka Ọrụ Ọ Bụla",
+      "content": [
+        "Site n'atụmatụ ruo mmejuputa, Merit na-enye ndị isi, ndị ọrụ, na ndị na-etinye aka onyonyo nkekọrịta nke ka ọrụ si agba ọsọ n'ezie.",
+        "Hụ ka Merit si akwado ọrụ ọ bụla n'ụlọ ọrụ gị."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Otu Usoro, Onyonyo Ọ Bụla",
+      "content": [
+        "N'ụlọ ọrụ ọtụtụ, ihe abụọ na-apụta n'ofe: data n'ime ọrụ na ihe ọmụmụ n'ime mmadụ. Ndị ire ahịa anaghị ahụ ihe mmepụta agụcha. Ndị ego anaghị ahụ ebe ọnụọgụ gbajiri. Mgbe onye nwere ahụmahụ hapụ, ụdị ndị o chọpụtara hapụ ya. Ndekọ mmejuputa Merit bụ azịza maka ha abụọ.",
+        "Ọkwa ọ bụla n'ihü gị na-arụ ọrụ site n'otu data dị n'isi: otu ndekọ mmejuputa, otu ụdị usoro, otu mmadụ na ihe ndị dị mkpa. Ihe na-agbanwe bụ nchịkọta. Onye njikwa ọrụ atụmatụ na-ahụ usoro oge na ihe jikọtara; HR na-ahụ ntinye aka na ụdị arụmọrụ; ego na-ahụ ọnụahịa na ojiji. Anụhụ dị iche iche, otu usoro.",
+        "Na maka ndị otu mmepụta ngwaahịa? N'ihi na ụdị usoro na-ese maapụ nke ọrụ ndị na-adabere n'nsonaazụ ọ bụla, ihe jikọtara ya dị n'ihu anya site n'ụbọchị mbụ. Ọkwa ọ bụla anaghị arụ ọrụ site n'onyonyo akụkụ, ma nnyefe anaghị adabere n'onye cheta iji zịpụ ya."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Ndụmọdụ",
+        "content": [
+          "Ndị isi ọtụtụ na-arụ ọrụ n'etiti mmelite ọnọdụ, na-ahụ onyonyo nke ebe ihe dị n'oge gara aga kama ebe ha dị ugbu a. Na Merit, ndekọ mmejuputa dị ndụ n'ihi na a na-edekọ ọrụ ka ọ si emee. Ọganihu, ịdịghị nkwekọrịta, nrụgide ihe ndị dị mkpa, na arụmọrụ na-abụ mgbe niile ọhụrụ, na-enweghị onye ọ bụla na-akọwa akụkọ.",
+          "Nke nkọwa na-agbanwe ụdị mkpebi ndụmọdụ. Nsogbu dị n'ihu anya n'oge ọtụtụ iji mee ihe megide ya. Nrụgide ihe ndị dị mkpa na-apụta tupu ọ bụrụ nwachịcha. Na data arụmọrụ na-egosipụta ihe mere n'ezie, ọ bụghị ihe akọrọ.",
+          "Na n'ihi na ihe ọnụọgụ ọ bụla na-alaghachi n'ụdị usoro otu ahụ, ndị isi nwere ike ịkwaga n'etiti onyonyo ọkwa elu na nkọwapụta na-enweghị ịgbanwe usoro ma ọ bụ ịfụfụ ihe o bụ n'onodu. Ọ bụrụ na ọnụọgụ dị ka ọ bụghị ezigbo, i nwere ike isoro ya ruo nzọụkwụ mepụtara ya."
+        ]
+      },
+      "operations": {
+        "title": "Ọrụ",
+        "content": [
+          "Ọrụ na-aza maka ka ọrụ si agba ọsọ n'ụlọ ọrụ niile, na nke ahụ dị iche iche bụ ihe ụdị usoro na-apụta. Ebe ọrụ na-ejikọta, ebe nnyefe na-agbajiri, na ebe ikike na-adị nrụgide niile dị n'ihu anya n'oge ọ bụla. Mgbe ụdị na-apeatarị n'ọrụ atụmatụ, ọ na-abụ nsogbu usoro kama ọ bụ ihe otu oge, ma enwere ike ịmelite ụdị ka mmezigharị abigharị n'mmejuputa ọ bụla ọzọ. Ndekọ mmejuputa kwa na-egosi ihe ndị dị mkpa na-arụ ọrụ nke ọma kachasị n'nzọụkwụ ndị, na-enye ọrụ ihe àmà iji sọpụrụ ihe ndị emere ihe àmà ha ma rụọ ụdị mkpa maka ihe ndị dị mkpa ebe eruo ada.",
+          "N'ihi na ụdị usoro na-ese maapụ ihe jikọtara n'ọkwa elu na n'ọkwa ala, na data CRM na-ejikọ mmejuputa ime ụlọ na nsonaazụ ndị ahịa, enwere ike ịlele mkpebi banyere ihe ndị dị mkpa na usoro site n'akụkụ ọ bụla n'ụzọ. Enwere ike ikọwa usoro ọnụọgụ n'ọnọdụ ọ bụla nke data n'usoro, ya mere onyonyo ahụ adịghị ogologo n'otu ihe nọọgụ. Ọkala ahụ bụ ihe na-eme data bụrụ ihe bara uru n'ezie maka mkpebi, kama ihe enwere ike ịhazi ya n'otu akụkụ."
+        ]
+      },
+      "projectManagement": {
+        "title": "Njikwa Ọrụ Atụmatụ",
+        "content": [
+          "Akụkụ dị ịchị nke oge onye njikwa ọrụ atụmatụ na-aga n'ọrụ ọrụ atụmatụ n'onwe ya adịghị achọ: iwu usoro oge site n'isi, isoro oge dị, ịtụgharị mgbe ihe kuchie. Na Merit, a na-emepụta atụmatụ ọrụ atụmatụ site n'ụdị usoro, a na-agbakọ usoro oge site n'data mmejuputa ochie, na nkewapụta ndị na-arụ ọrụ na-esote kalenda ndụ na ahụmahụ ha. Ọrụ agba ụgbọ dị adị.",
+          "Nke ahụ na-akwado onye njikwa ọrụ atụmatụ iji lekwasị anya n'mmepụta n'onwe ya. A na-esoro ọganihu megide mkpa ndị emewere n'nzọụkwụ ọ bụla, ịdịghị nkwekọrịta dị n'ihu anya ka ha si apụta, na Gantt na-emelite n'onwe ya ka mmejuputa si aga n'ihu. Ọrụ atụmatụ ọ bụla emechara kwa na-etinye n'ndekọ mmejuputa, ya mere nke ọzọ na-amalite nwere amụma ka mma na obere itịghachi n'isi.",
+          "Usoro ahụ kwa na-achịkwa ụdị ihe egwu nke ngwa ọtụtụ na-ahapụ n'ọkpụkpụ isi onye njikwa ọrụ atụmatụ. Oge dị onye na-arụ ọrụ na-atụ anya ya n'ya na-agụ oge ezumike oge na ihe mmemme ọzụzụ. Nkewapụta na-enyocha ma akwụkwọ na ihe ndekọ a chọrọ nọ n'ọnọdụ tupu ọrụ amalite. Na ọnọdụ ọ bụla etinyere n'ụdị usoro pụtara na nzọụkwụ ndị ọ bụla enweghị ike ịga n'ihu na-enweghị akwụkwọ a chọrọ n'ọnọdụ. Ọnọdụ maka mmepụta doro anya na usoro na-achịkwa ya, ọ bụghị ejidere n'isi nke onye ọ bụla."
+        ]
+      },
+      "humanResources": {
+        "title": "Njikwa Ụmụ Mmadụ",
+        "content": [
+          "Maka HR, Merit na-ewepụ oghere n'etiti ihe mmadụ na-eme na ihe a na-ama ya. N'ihi na a na-esoro ntinye aka n'ọzọ ọrụ kama ịtụ ya n'azụ, data arụmọrụ na-egosipụta ihe mere n'ezie, ọ bụghị nso na njikwa ma ọ bụ omume onye n'onwe ya kwuo.",
+          "Ndị otu ọhụrụ na-abịa nwere ihe nkọwa usoro zuru oke dị adị: nzọụkwụ ha na-aza maka ha, akwụkwọ na ihe ndekọ a chọrọ, na otu ọrụ ha si ejikọ na ndị ọzọ n'ụlọ ọrụ. Ihe ọzụzụ etinyere ozugbo na ọrụ, ya mere nduzi dị ebe a chọrọ ya kama n'usoro nkewapụta.",
+          "Ọnụọgụ ndị edekọrọ megide mmadụ ọ bụla na-agbaso ụdị usoro wee ruo KPIs, n'ọkwa nzọụkwụ, ọrụ, ọrụ atụmatụ, ma ọ bụ ụlọ ọrụ, na n'oge ọ bụla. Njikwa ohere na-akọwa ọnụọgụ na mgbakọ ọrụ ọ bụla nwere ike ịhụ, ya mere data dị nkọ na-eruo ndị kwesịrị ya na-egbochi onyonyo arụmọrụ dị ukwuu. N'ọkwa nzọụkwụ, arụmọrụ na-abụ nke pụrụ iche nke ọtụtụ iji kwado na ịzụlite ndị a chọrọ ya, na kwa ịma n'ụzọ doro anya ndị ka mma."
+        ]
+      },
+      "sales": {
+        "title": "Ire Ahịa",
+        "content": [
+          "Usoro ire ahịa ọtụtụ na-emepụta oghere n'etiti ihe e kwetara na na ihe mmepụta na-anata. Ntụpọ dị n'akwụkwọ otu, atụmatụ ọ bụla dị n'aka ọzọ, ma mmechi oghere ahụ chọrọ ikwugharịa, ịtọghachi mkparịta ụka, ma ọ bụ ha abụọ. Ka onye ahịa kwadoro, ndị otu mmepụta na-amalite site n'onyonyo akụkụ.",
+          "Na Merit, nkọwapụta bụ ntụpọ na ntuziaka maka mmepụta. Nkọwapụta isi na-etinye nhazi ọ bụla, oke, na usoro ọnụahịa maka ụdị ngwaahịa. Ndị ire ahịa na-ahazi n'ime usoro ahụ ma hụ ihe na-agụcha n'oge ọ bụla, na-enweghị izipu ọnụọgụ ọ bụla azụ site n'ọrụ. Mgbe onye ahịa kwadoro, a na-emepụta ọrụ atụmatụ site n'nkọwapụta ozugbo. Enweghị mkpa ịtụgharị ya.",
+          "Nzaghachi ndị ahịa site n'mmepụta ndị gara aga etinyere n'nzọụkwụ na ihe ndị mepụtara ha, ma na-anọ n'akụkụ ihe ndị ọzọ nke ndekọ onye ahịa. Tupu o kwoo ọnụahịa mmekọrịta yiri ya, ndị ire ahịa nwere ike ịhụ ka mmepụta ndị gara aga yiri ya si eme. Mgbe na-asụ okwu na onye ahịa na-alọghachị, mkparịta ụka ahụ dabere n'ihe mere n'ezie."
+        ]
+      },
+      "marketing": {
+        "title": "Mgbasa Ozi",
+        "content": [
+          "Ọtụtụ ọnọdụ mgbasa ozi wuwe ya n'echiche banyere ihe ụlọ ọrụ mara mma ịrụ. Na Merit, mgbasa ozi nwere ohere ịnweta ndekọ mmejuputa n'ezie: ebe ụlọ ọrụ na-arụ ọrụ nke ọma n'oge niile, ihe ndị dị mkpa na usoro ndị na-emepụta nsonaazụ ndị ka mma, na ihe nzaghachi ndị ahịa kwuo n'ọrụ ọ bụla emechara. Ozi ahụ nwere ike dabere n'ike gosipụtara kama ndị kwuo.",
+          "Okirikiri nzaghachi CRM na-etinye ụkwụ ọzọ. N'ihi na nzaghachi ndị ahịa etinyere n'nzọụkwụ pụrụ iche na ihe nke mmepụta ọ bụla, mgbasa ozi nwere ike ịhụ ọ bụghị naanị ma ndị ahịa nwere ọnụ ma ọ bụghị, mana ihe kpọrọ ọnụ ahụ n'ụzọ pụrụ iche. Ka oge na-gaa, ụdị na-apụta nke na-enyere aka n'ọnọdụ na ụdị ọrụ ụlọ ọrụ kwesịrị achọ karịa.",
+          "Nke ahụ na-ejikọ mgbasa ozi na atụmatụ. Mgbe a ghọtara profaịlụ ndị ahịa ndị iji ya n'elu ihe ụlọ ọrụ na-ewepụta ya nke ọma, oghere n'etiti ihe mgbasa ozi na-akwa na ihe mmepụta si emepụta na-belata. Njikọ ahụ na-agba ọsọ n'ụzọ abụọ: data mmejuputa na-eme ozi ka pụtara ìhè, na profaịlụ ndị ahịa ndị iji na-akọwa ihe mmejuputa kwesịrị ịhazi maka ya."
+        ]
+      },
+      "finance": {
+        "title": "Ego",
+        "content": [
+          "Ego na-anaghị anata data ego n'oge nke ọma, n'ụdị na-egosi ihe a na-eji mana ọ bụghị gịnị mere. Ịhazịte ọnụahịa eziokwu megide atụmatụ ọrụ atụmatụ pụtara ịlọghachi n'usoro dị iche iche iji ghọta ebe ọdịiche ahụ si bido.",
+          "Na Merit, ọnụahịa etinyere n'ime ndekọ mmejuputa n'onwe ya. Data ụgwọ ọrụ, ọnụahịa akụrụngwa, na oge mmejuputa na-anọ megide ụdị usoro otu ahụ na-achịkwa mmepụta. Enwere ike ijikọ usoro ọnụọgụ n'ọnọdụ ọ bụla nke isi iyi data n'usoro, site n'otu nzọụkwụ ruo ụdị ọrụ atụmatụ niile, n'oge ọ bụla. Nsonaazụ bụ onyonyo ọnụahịa na-isoro ozugbo na ebe ego gara.",
+          "N'ihi na mmepụta ọ bụla na-etinye n'ndekọ mmejuputa, amụma ego na-abawanye mma n'oge. Ọnụọgụ maka ọrụ atụmatụ ọzọ na-esota n'akụkọ mmepụta n'ezie, ya mere oghere n'etiti atụmatụ na ọnụahịa ikpeazụ na-agbadata ka ndekọ si eto. Ego anaghị echere njedebe ọnwa iji hụ ebe ọrụ atụmatụ nọ. Onyonyo dị ndụ."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Ebe Merit Si Ewepụta Ihe",
+      "content": [
+        "Ụlọ ọrụ ọ bụla dị iche iche. Mana uru nke ịnwee ike ịkota n'otu echiche nkekọrịta bụ ihe ebe niile.",
+        "Emebere Merit iji dabara na ecosistemu mgbagwoju anya, na-eweta ìhè nkọwa, njikọ, na nghọta na ụlọ ọrụ ndị nsonaazụ dabere n'njikọ, nkwụ ọnụ, na arụmọrụ n'ọkwa.",
+        "Chọpụta ka Merit si akwado usoro ọrụ nke ọma n'ụlọ ọrụ ndị bụ isi."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Ịmepụta Ihe",
+        "content": [
+          "Usoro mgbagwoju anya, ngwa ndị gbajiri, na ọrụ nwere ihe ndị dị mkpa ọtụtụ na-eme ka ìhè nkọwa na njikọ bụ nsogbu ụbọchị ụbọchị n'ịmepụta ihe.",
+          "Merit na-ejikọ mmadụ, akụrụngwa, na usoro ọrụ n'otu usoro ọrụ na-enye ndị ịmepụta ihe onyinya n'oge ọ bụla n'arụ ọrụ usoro, ojiji ihe ndị dị mkpa, na arụmọrụ mmepụta.",
+          "Site n'ala ụlọ ọrụ ruo usoro nkesa, soro omume ọ bụla, pụta ama ihe ọ bụla na-egbochi, ma lee mmelite ọ bụla n'otu platform. N'iji Merit, ndị otu ịmepụta ihe nwere ike ịhazi usoro n'oge niile ma jikọọ arụmọrụ na ebumnobi atụmatụ na ọrụ n'ihu."
+        ]
+      },
+      "construction": {
+        "title": "Iwu Ụlọ",
+        "content": [
+          "N'ohere bụ ecosistemu mmepụta ngwaahịa mgbagwoju anya kachasị nke na-achịkọta ọtụtụ akụrụngwa, iwu, nka na gburugburu ọhịa. Agbanyeghị ụlọ ọrụ ọtụtụ ka na-arụ ọrụ nwere ngwa ndị gbajiri na usoro ọrụ ndị gbajiri, na-eme ka njikọ na ìhè nkọwa bụ nsogbu na-adịgide adịgide.",
+          "Merit na-enye usoro ndụ maka nhazi, soro, na mmezigharị mmejuputa n'ụwa ọrụ atụmatụ niile. Site n'njikọ ná-agụ ụlọ ruo mmepụta n'ọnọdụ, ndị otu nwere ike jikọọ ọrụ, usoro ọrụ, na usoro oge n'otu platform, nwere akwụkwọ etinyere, ọnụahịa, na soro ọganihu.",
+          "Site n'ijikọ nhazi na arụmọrụ n'oge ọ bụla, Merit na-enyere ụlọ ọrụ iwu ụlọ aka ibelata ọrụ eme eme, chịkwa ọnụahịa, ma wepụta n'ụzọ ka nwere ike ikọ amụma, ọbụna mgbe ọrụ atụmatụ na-agbanwe."
+        ]
+      },
+      "healthcare": {
+        "title": "Ahụike",
+        "content": [
+          "Nsonaazụ onye ọrịa dabere n'ihe ndị ọtụtụ nwere ihe nkọwa dị mma, site n'ọrịa ndị mgbakọ ruo ihe ndị mmadụ, mana usoro ahụike ọtụtụ na-esi ike ijikọ ọnọdụ onye ọrịa ndị a na mmepụta nlekọta na nsonaazụ n'ụzọ bara uru.",
+          "Merit na-ejikọ mgbagwoju anya nile nke profaịlụ onye ọrịa ma soro ka ọnọdụ pụrụ iche si mmekọ na usoro nlekọta, ndị na-ewere nlekọta, na nsonaazụ. Kama isi belata ndị ọrịa ka ọ bụrụ ọnụọgụ isi, platform anyị na-ewu ụdị nke eziokwu mgbagwoju anya nke na-akpata mmepụta ahụike n'ezie.",
+          "Ndị otu ahụike nwere ike n'ikpeazụ ịhụ ka ọrụ nlekọta si arụ ọrụ nke ọma maka ndị otu onye ọrịa pụrụ iche, ghọta ka omume ndị na-ewere nlekọta si ejikọ na nsonaazụ, ma wuo ọmụmụ ụlọ ọrụ nwere usoro site n'ahụmahụ iwu ahụ. Site n'ijikọ mgbagwoju anya onye ọrịa na nlezianya ihe ndị dị mkpa na mmepụta nlekọta, Merit na-atụgharị ihe ọmụmụ ụlọ ọrụ site n'ihe nzube ka ọ bụrụ ọghụghọ nwere ike mmejuputa.",
+          "Nsonaazụ: mkpebi nlekọta nwere ihe nkọwa karị, ojiji ihe ndị dị mkpa ka mma, na mmezigharị na-adịgide adịgide dabere n'ihe na-arụ ọrụ n'ezie maka ndị otu onye ọrịa gị."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Nzaghachi Nsogbu",
+        "content": [
+          "N'ọrụ nzaghachi mgberede, oge bụ ihe ọ bụla dị mkpa. Ọ dị mma ka ọzụzụ nzaghachi ejikọtara ọnụ, ka ọrụ ga-adị mma. Otú ọ dị, ọtụtụ ndị ọrụ na-etiti oge dị mkpa n'oge ha nwere ike ọ dịcheghị obere: ịhazite atụmatụ, ịchọta ndị nwere ike ịrụ ọrụ, na ịchọta ngwa ọrụ.",
+          "Merit na-enye ndị ọrụ ohere ịrụ atụmatụ ahụ tupu oge ya. A na-akọwapụta usoro nzaghachi mgberede nke isi, a na-etinye ndị ọrụ nke e kwenye n'ihu, a na-edepụta ngwa ọrụ na ihe ndị ọzọ. Oge mgberede akọwaara, akụkụ dị mkpa nke atụmatụ ahụ na-emepụta, na-aza ya otomatik na ihe ndị dị, ma nzaghachi amalite n'ime nkeji ọchọcha karịa awa.",
+          "Ka ndị ọrụ na-emecha nzọụkwụ ọ bụla, a na-edekọ ọganihu n'ụdị usoro ahụ, na-enye ndị isi ndu onyonyo nke na-emelite mgbe niile nke nzaghachi ahụ na-adịghị adabere na nnabata rediyo ma ọ bụ akụkọ aka.",
+          "Mgbe mgberede gasịrị, ndekọ ọrụ na-enye aka n'ime nchịkọta data. Ihe ndị a mụtara a na-etinye ya ozugbo n'atụmatụ nzaghachi ọzọ, ka mgberede ọ bụla mee ka ndị ọrụ kwadoo mma maka nke ọzọ, na-eji atụmatụ omume nke enwere ike iji n'ụwa niile."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Ngwupụta na Ihe Ndị Dị Mkpa",
+        "content": [
+          "Saịtị ngwupụta na-enwe nsogbu ọrụ mgbagwoju anya ebe nchekwa na ịrịba ọnụ adịghị enye nhọrọ. Agbanyeghị ndị otu ngwupụta ọtụtụ ka dabere n'data ndị gbajiri na usoro akwụkwọ ochie, na-abawanye ihe egwu na na-eme ka mkpebi dị nwayọọ.",
+          "Merit na-ewepụta otu platform nwere nyocha nwere data ọtụtụ na-enye nghọta miri emi n'ọrụ ngwupụta niile. Ejirikọtara ya na usoro njikwa akwụkwọ dị ike, ọ na-echezo na usoro ahụike na nchekwa dị mkpa bụ ihe dị ndụ na-adị mgbe niile, nwere ike enweta ya, ma a na-eso ya.",
+          "Site n'ijikọ data n'oge ọ bụla na akwụkwọ nzuzu, Merit na-enye ndị njikwa saịtị ike ịchọpụta ihe egwu n'ihu, ibelata ihe egwu, ma jide n'aka ịrịba ọnụ iwu. Nke nkọwa na-akpata gburugburu ọrụ nchekwa karị ma na-ebelata oge ezughi ezi sitere n'mberede na ọrụ igwe kwụsịrị.",
+          "N'oge, Merit na-atụgharị data ọrụ na ọmụmụ ndị edere n'akwụkwọ ka ọ bụrụ ọghụghọ nwere ike mmejuputa, na-enyere ụlọ ọrụ ngwupụta aka na-emezigharị ụkpụrụ nchekwa n'usoro, hazi usoro ọrụ, na chebe akụ ha bara uru kachasị, ndị ọrụ ha."
+        ]
+      },
+      "agriculture": {
+        "title": "Ọrụ Ugbo",
+        "content": [
+          "Ọrụ ugbo metụtara njikwa mmadụ, igwe, na akụrụngwa n'gburugburu ọhịa dị n'ife na mgbe ọtụtụ adịghị eme ihe ị tụọ anya. N'ụlọ ọrụ nke ụgwọ ọrụ ndị ọzọ dị otú nke igwe, mmanụ ọkụ, akụrụngwa ọrụ, na ala na-anọchi anya akụkụ dị egwu nke ụgwọ ọrụ, ịghọta ma na-eme ka ụzọ a na-eji ihe ndị a buru ibu dị mkpa.",
+          "Merit na-enye ụdị usoro ọrụ e nwere ike ịhazi nke ọrụ ọ bụla na-arụ n'elu ya. A na-etinye ngwa ọrụ, akụrụngwa, na mmadụ n'ime nzọụkwụ usoro, na-enye ike ịhazi ya nke ọma, ịhọrọ n'ụzọ bụ isi n'etiti ihe ndị a na-etinye, na ịgbanwe na-aga n'ihu dabere n'ihe data na-egosi na ọ bụ eziokwu. N'ọrụ ugbo, ebe ụgwọ igwe na akụrụngwa na-arọ ọnụ, nhazi a na-enwe mmetụta ukwu n'ọnụ ahịa.",
+          "Ihe ndị a na-etinye n'ọhịa dị otú omume mmiri ozuzo na ìhè anyanwụ nwere ike ide ya n'akụkụ ihe ndị a na-eme dị otú nri ọrụ, mmiri, na ọgwụ ahụhụ, na ọtụtụ ihe e buru n'ọchịchọ dị ka nsonaazụ. Ka oge na-gaa, ihe ndị na-apụta n'etiti ihe ndị a na-etinye, ihe ndị a na-eme, na nsonaazụ, na-enye ozi maka mkpebi ndị ka mma n'oge saikụl ọ bụla. Ebe ọrụ dị ọtụtụ na-ekesara ụdị usoro, ihe ọmụmụ ahụ na-abawanye karịsịa.",
+          "Maka ndị ọrụ na-achịkọta ihe ndị ha nwere na ihe ọmụmụ, Merit na-enye ihe mgbe ndị ọrụ dị mkpa iji mee ka nkesa ahụ dị usoro ma dabere n'data."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Ihe Ọha na Eze",
+        "content": [
+          "Ọrụ atụmatụ ihe ọha na eze metụtara njikọ mgbagwoju anya nke ndị ọrụ ngwaahịa, akụrụngwa, usoro iwu, na oge dị ọtụtụ afọ, niile n'ime nlele ọha na eze dị ike na mkpa ọ bụ onye na-aza.",
+          "Merit na-enye ìhè nkọwa nchịkọta n'elu mmepụta ihe ọha na eze, site n'nhazi mbụ ruo ngwụcha. Ma ị na-ewu ụzọ, ụlọ akwụkwọ, ọrụ ọha, ma ọ bụ ihe ọha na eze ndị ọzọ, ụlọ ọrụ nwere ike soro ka mmadụ, usoro, na ihe ndị dị mkpa si agbapụ n'otu na-ewepụta ihe ọha na eze dị mkpa.",
+          "N'iji omume ndị ọrụ ngwaahịa ọ bụla, nwepụ akụrụngwa, na ihe nzere usoro nwere ike ịhụ n'otu platform, ndị otu gọọmentị na-enweta ìhè nkọwa chọrọ maka ọ bụ onye na-aza ọha na eze n'oge jidere njikwa ọrụ n'ọrụ atụmatụ mgbagwoju anya nwere ọtụtụ ndị nwere ọrụ.",
+          "Merit na-enye ụlọ ọrụ gọọmentị ike ịwepụta ihe ọha na eze nke ọma karị, gosie njikwa kwesịrị ntụkwasị obi nke ihe ndị ọha na eze, ma tinye mmezigharị nwere usoro n'ọrụ atụmatụ ọ bụla, n'adịghị anya n'ụdị ihe ọha na eze a na-ewepụta."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Ndụmọdụ / Ọrụ Ndị Ọkachamara",
+        "content": [
+          "Ụlọ ọrụ ọ bụla, n'adịghị anya n'ụlọ ọrụ, n'isi na-eji usoro, mmadụ, na ihe ndị ndekọ iji wepụta ngwaahịa. Merit na-ewu eziokwu izugbe nke a, na-ahazi mmepụta niile n'usoro ọrụ isi ndị a.",
+          "Maka ụlọ ọrụ ndụmọdụ ọkachamara, nke nkọwa pụtara fluent ọrụ n'ezie n'etiti ụlọ ọrụ dị iche iche. Ma ị na-arụ ọrụ na usoro ahụike, ụlọ ọrụ ịmepụta ihe, ma ọ bụ ụlọ ego, Merit na-enye otu usoro n'ihi i na-arụ ọrụ na ihe ndị bụ isi iwu ụlọ ọrụ otu ahụ naanị, hazie dị iche iche.",
+          "Nke nkọwa na-ewepụ ọnọdụ ọmụmụ nke ighọta ihe nkọwa pụrụ iche n'ụlọ ọrụ na ọkwa asụsụ. Ndị ndụmọdụ nwere ike ịkwaga n'etiti ihe onye ahịa n'ohere n'ihi Merit na-ewepụ mgbagwoju anya ụlọ ọrụ, na-enye gị ike ị lelee n'usoro ọrụ dị n'ime nke na-adịgide adịgide n'ụlọ ọrụ niile.",
+          "Site n'nkọwapụta onye ahịa ruo soro mmejuputa, Merit na-enye ụlọ ọrụ ndụmọdụ ọkachamara ike ịrụ ọrụ n'otu ike na ọkachamara n'ịzụ ọ bụla, n'adịghị anya n'ụlọ ọrụ onye ahịa ma ọ bụ ụlọ ọrụ."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Hụ ka Merit si eweta ìhè nkọwa n'ụzọ ọrụ na-arụ ọrụ n'ezie.",
+    "body1": "Mụta ka anyị si ejikọ mmejuputa, nghọta, na mmezigharị n'otu usoro ọrụ.",
+    "body2": "Ma ọ bụ i na-edu atụmatụ ma ọ bụ njikwa mmepụta, Merit na-enye gị ìhè nkọwa iji omume nwere nkwado, na usoro iji bawanye nke ọsọ ọsọ.",
+    "bullets": ["Hụ Merit na-arụ ọrụ", "Nweta ngosi nwere ihe nkọwa gị", "Nweta ike Merit"],
+    "formTitle": "Hazie Ngosi",
+    "formSubtitle": "Duzuo fọmụ a ma otu n'ime ndị anyị ga-akpọtụrụ gị iji hazie ngosi platform n'oge kwesịrị gị.",
+    "formSubject": "Arịọ Ngosi"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Maka Merit",
+      "subtitle": "Ihe ọrụ na-eme ka ntinye aka dị n'ihu anya, na-ele arụmọrụ, na-eme ka ụgwọ dị mma."
+    },
+    "body": "Merit dị iji jikọọ mmejuputa na nsonaazụ n'ọrụ ọ bụla. Mgbe ọrụ dị n'ihu anya na ntinye aka nwere ihe ndekọ, ụlọ ọrụ na-akwụsị dabere n'mmekọrịta na ndọghachi azụ iji lee arụmọrụ. Nsonaazụ na-asụ n'onwe ha.",
+    "vision": {
+      "title": "Echiche Anyị",
+      "content": "Ụlọ ọrụ ebe ihe ndị na-akpata omume na-ejikọ ọnụ, ohere dị nhata, na mmezigharị nwere ike ịdide ma bụrụ n'ezie."
+    },
+    "mission": {
+      "title": "Ọrụ Anyị",
+      "content": "Iji wepụta otu platform mmejuputa nke na-eme ka ọrụ dị n'ihu anya, na-ewepụ ibu njikwa, ma na-enye otu ndị otu data iji omume nwere nkwado."
+    },
+    "sections": {
+      "origin": {
+        "title": "Ebe Anyị Malitere",
+        "content": [
+          "Merit malitere dị ka ajụjụ: otu esi ewe map usoro nke nnọọ mgbagwoju anya n'ụzọ na-aba n'uche n'ezie? Azịza ahụ pụtara site n'ọhụụ dị mfe: mmepụta ọ bụla, n'agbanyeghị obere ma ọ bụ ihe mgbagwoju anya ya, bụ ngụkọta nke ọtụtụ nzọụkwụ. N'nzọụkwụ ọ bụla, ndị mmadụ na-eji ngwa rụọ ọrụ na-arụ ọrụ na akụrụngwa ka ọ bụrụ ngwaahịa na-aga n'ihu. Usoro ahụ na-aghọ atụmatụ. Usoro mmepụta ọ bụla bụ mpụga ya, nke anyị nwere ike ịsoro, ịdide, na ịle ya. Site n'ntọala dị mfe a, echiche siri ike na mkpọchi nke ka ụlọ ọrụ ọ bụla si arụ ọrụ dị mma."
+        ]
+      },
+      "definition": {
+        "title": "Ihe Merit Pụtara",
+        "content": [
+          "Merit, n'aka anyị, abụghị ụkpụrụ ọ gwụghị. Ọ bụ ihe ọ bụla ụlọ ọrụ na ndị ahịa ya kpebie iji wara ya. Ọsọ, carbon, ọnụahịa, arụmọrụ, nchedo: ibu nke onye ọ bụla na-ebu bụ nhọrọ, na nhọrọ ahụ bụ nke ụlọ ọrụ. Ozugbo nhọrọ ndị ahụ gosipụtara dị ka ụkpụrụ nwere ike ịdide n'ofe usoro mmepụta, ngwa, mmadụ, na akụrụngwa ndị na-arụ ọrụ nke ọma megide ha na-abụ n'ihu anya. A nwere ike ịhọrọ ha, mepụta ha, na enyocha ha. Na onye ọ bụla na-etinye aka n'usoro, site n'ndị na-arụ ọrụ ọdụ ruo ndị na-eme ngwa na ndị na-eweta akụrụngwa, na-aghọta na ụgwọ ejikọtara na arụmọrụ megide ụkpụrụ ndị ahụ. Atụmatụ echiche na-aghọ nkwalite, ọ bụghị nso na ndị na-ekpebi."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Kọrọ anyị.",
+      "body": "Anyị na-aza ajụjụ ọ bụla ozugbo. Gwa anyị ihe ị na-arụ ọrụ na anyị ga-esite n'ebe ahụ.",
+      "formTitle": "Kpọtụrụ Anyị",
+      "formSubject": "Ajụjụ Izugbe",
+      "formSubtitle": "Duzuo fọmụ a ma otu n'ime ndị anyị ga-akpọtụrụ gị iji kwuo ihe gbasara ajụjụ gị."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Ihe Ọmụmụ na Akụkọ Merit",
+      "content": [
+        "Chọpụta ka ụlọ ọrụ si ewu usoro ọrụ nke ọma karị nwere Merit.",
+        "Site n'akụkọ ịga nke ọma onye ahịa ruo nghọta atụmatụ na mmelite ngwaahịa, ebe a bụ ebe anyị na-ekekọrịta ihe na-arụ ọrụ, ihe na-agbanwe, na ihe ọzọ n'ọghụghọ ọrụ."
+      ]
+    },
+    "tabs": {
+      "all": "Ọnọdụ Niile",
+      "blog": "Blog Merit",
+      "caseStudies": "Nyocha Ihe Mere",
+      "pressReleases": "Ozi Press",
+      "productUpdates": "Mmelite Ngwaahịa"
+    }
+  }
+}

@@ -61,10 +61,8 @@ const Section = ({
       <Grid
         container
         direction={isMobile ? 'column' : isEven ? 'row' : 'row-reverse'}
-        alignItems="center"
-        justifyContent="center"
         spacing={{ xs: 0, md: hasGap ? 4 : 0 }}
-        sx={{ flexGrow: 1 }}>
+        sx={{ flexGrow: 1, alignItems: "center", justifyContent: "center" }}>
         <Grid
           size={{ xs: 12, md: 7 }}
           sx={{
@@ -74,7 +72,7 @@ const Section = ({
             justifyContent: 'center',
             textAlign: { xs: 'center', md: 'left' }
           }}>
-          <Typography variant="h5" fontWeight={600} gutterBottom>
+          <Typography variant="h5" sx={{ fontWeight: 600 }} gutterBottom>
             {title}
           </Typography>
           {
@@ -82,8 +80,7 @@ const Section = ({
               <Typography
                 key={`paragraph-${idx}`}
                 variant="body1"
-                fontWeight={300}
-                sx={{ mb: 1 }}>
+                sx={{ fontWeight: 300, mb: 1 }}>
                 {paragraph}
               </Typography>
             ))

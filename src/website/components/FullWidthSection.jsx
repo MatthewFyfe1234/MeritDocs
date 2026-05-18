@@ -64,9 +64,8 @@ const FullWidthSection = ({ id, title, content, image, reverse = false, colour }
           }}>
           <Typography
             variant="h3"
-            fontWeight={700}
             gutterBottom
-            sx={{ color: theme.palette.common.white }}>
+            sx={{ fontWeight: 700, color: theme.palette.common.white }}>
             {title}
           </Typography>
           {
@@ -74,8 +73,7 @@ const FullWidthSection = ({ id, title, content, image, reverse = false, colour }
               <Typography
                 key={`paragraph-${idx}`}
                 variant="h6"
-                fontWeight={300}
-                sx={{ color: theme.palette.common.white, mb: 1 }}>
+                sx={{ fontWeight: 300, color: theme.palette.common.white, mb: 1 }}>
                 {paragraph}
               </Typography>
             ))

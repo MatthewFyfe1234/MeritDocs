@@ -4,23 +4,19 @@ export function SpecificationSlide() {
   const capabilities = [
     {
       label: 'Inventory',
-      description:
-        'Calculation rules set up at onboarding quantify materials from scope. The result feeds directly into stock management.',
+      description: 'Calculation rules in the spec quantify materials against the scope, feeding stock management directly.',
     },
     {
       label: 'Project Map',
-      description:
-        'Associations configured at onboarding link spec components to process steps, auto-generating the delivery plan.',
+      description: 'Spec components map to process steps at onboarding. The delivery plan is auto-generated.',
     },
     {
       label: 'Forecasts',
-      description:
-        'Execution records for each process step accumulate over time. Historical durations roll up into a delivery timeline.',
+      description: 'Step durations accumulate over time and roll up into an end-to-end delivery forecast.',
     },
     {
       label: 'Executor Selection',
-      description:
-        'Agent performance against each process step, combined with calendar availability, drives selection recommendations.',
+      description: 'Step performance and calendar availability drive agent selection recommendations.',
     },
   ];
 
@@ -43,23 +39,22 @@ export function SpecificationSlide() {
 
   // Tree geometry
   const branchX  = 236;
-  const relayX   = 216; // vertical relay just right of spec box — all supplementary paths pass through here
+  const relayX   = 216;
 
   return (
     <SlideLayout
       title="The Specification"
-      subtitle="The spec defines what you are building. From it, and from configuration and accumulated execution data, the platform derives four outputs automatically."
+      subtitle="Configuration and execution data combined with each spec drive four platform outputs automatically."
     >
       <div className="flex-1 min-h-0 flex items-center justify-center">
         <svg viewBox="0 0 660 244" style={{ width: '100%', height: '100%' }}>
           <defs>
-            {/* refX="0" puts the back of the arrowhead at the line endpoint; tip extends forward */}
             <marker id="arrowhead-spec" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
               <polygon points="0 0, 10 3.5, 0 7" fill="var(--slide-primary)" opacity="0.55" />
             </marker>
           </defs>
 
-          {/* ── CONFIGURATION BOX (top) ── */}
+          {/* ── CONFIGURATION BOX ── */}
           <rect x={leftX} y={configY} width={leftW} height={configH} rx="6"
             fill="var(--slide-bg-primary-muted)" stroke="var(--slide-border-primary)" strokeWidth="1.2" />
           <text x={leftX + leftW / 2} y={configY + 17} textAnchor="middle" fontSize="9.5" fontWeight="700"
@@ -75,7 +70,7 @@ export function SpecificationSlide() {
           <text x={leftX + leftW / 2 + 30} y={configY + 50} textAnchor="middle" fontSize="8.5"
             fill="var(--slide-primary)" opacity="0.75">Calculations</text>
 
-          {/* ── SPECIFICATION BOX (middle, accent) ── */}
+          {/* ── SPECIFICATION BOX ── */}
           <rect x={leftX} y={specY} width={leftW} height={specH} rx="8"
             fill="var(--slide-bg-accent-muted)" stroke="var(--slide-accent)" strokeWidth="2" />
           <text x={leftX + leftW / 2} y={specY + 20} textAnchor="middle" fontSize="11" fontWeight="700"
@@ -85,7 +80,7 @@ export function SpecificationSlide() {
           <line x1={leftX + 12} y1={specY + 40} x2={leftX + leftW - 12} y2={specY + 40}
             stroke="var(--slide-accent)" strokeWidth="0.8" opacity="0.25" />
 
-          {/* Spec pills: Scope / Components / Delivery Date */}
+          {/* Spec pills */}
           {(() => {
             const pillDefs = [
               { label: 'Scope',         w: 50 },
@@ -109,7 +104,7 @@ export function SpecificationSlide() {
             });
           })()}
 
-          {/* ── EXECUTION DATA BOX (bottom) ── */}
+          {/* ── EXECUTION DATA BOX ── */}
           <rect x={leftX} y={execY} width={leftW} height={execH} rx="6"
             fill="var(--slide-bg-primary-muted)" stroke="var(--slide-border-primary)" strokeWidth="1.2" />
           <text x={leftX + leftW / 2} y={execY + 17} textAnchor="middle" fontSize="9.5" fontWeight="700"
@@ -125,7 +120,7 @@ export function SpecificationSlide() {
           <text x={leftX + leftW / 2 + 32} y={execY + 50} textAnchor="middle" fontSize="8.5"
             fill="var(--slide-primary)" opacity="0.75">Performance</text>
 
-          {/* ── MAIN TREE: Spec → all 4 cards ── */}
+          {/* ── MAIN TREE: Spec to all 4 cards ── */}
           <line x1={leftRightX} y1={specCy} x2={branchX} y2={specCy}
             stroke="var(--slide-primary)" strokeWidth="1.5" opacity="0.35" />
           <line x1={branchX} y1={cardCy(0)} x2={branchX} y2={cardCy(3)}
@@ -137,13 +132,7 @@ export function SpecificationSlide() {
               markerEnd="url(#arrowhead-spec)" />
           ))}
 
-          {/*
-            ── SUPPLEMENTARY PATHS ──
-            Config is above the spec box; its horizontal segment travels at y=38 (above spec top y=76).
-            Exec is below the spec box; its horizontal segment travels at y=206 (below spec bottom y=168).
-            Both route vertically at x=relayX (216), which is right of spec box edge (208).
-            No path crosses the spec box.
-          */}
+          {/* ── SUPPLEMENTARY PATHS ── */}
           {[0, 1].map(i => (
             <path key={`cfg-${i}`}
               d={`M ${leftRightX} ${configCy} H ${relayX} V ${cardCy(i)} H ${branchX}`}

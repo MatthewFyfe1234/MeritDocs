@@ -1,5 +1,5 @@
 import { Clock, Wrench, CloudRain } from 'lucide-react';
-import { ImageWithFallback } from '@/components/figma/ImageWithFallback';
+import { ImageWithFallback } from '@/components/ImageWithFallback';
 import offsiteImage from './offsite.jpg';
 import { SlideLayout } from '@/components/slides/SlideLayout';
 

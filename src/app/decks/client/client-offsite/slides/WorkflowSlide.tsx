@@ -1,6 +1,6 @@
 import { Lightbulb, Pencil, Factory, Hammer, ArrowDown, ArrowRight } from 'lucide-react';
 import { SlideLayout } from '@/components/slides/SlideLayout';
-import { ImageWithFallback } from '@/components/figma/ImageWithFallback';
+import { ImageWithFallback } from '@/components/ImageWithFallback';
 import workflowImage from '@/decks/strategic/offsite-strategy/slides/workflow.jpg';
 
 const stages = [
@@ -10,7 +10,7 @@ const stages = [
     description: 'Initial client engagement, project scoping, and cost estimation, culminating in a priced proposal, agreed scope, and preliminary bill of materials (BOM).',
     roles: 'Estimator, Sales lead, Client',
     titleSuffix: null,
-    outputs: ['Quote / Proposal', 'Scope of Work', 'Preliminary BOM', 'Schedule commitment'],
+    outputs: ['Quote / Proposal', 'Scope of Work', 'Preliminary BOM', 'Schedule Commitment'],
   },
   {
     Icon: Pencil,
@@ -18,7 +18,7 @@ const stages = [
     description: 'Detailed engineering, BIM modelling, and material procurement. Fabrication drawings and shop documentation produced for the factory floor.',
     roles: 'Structural engineer, Drafter, Procurement manager',
     titleSuffix: null,
-    outputs: ['Fabrication drawings', 'Full BOM', 'Shop documentation', 'Purchase orders'],
+    outputs: ['Fabrication Drawings', 'Full BOM', 'Shop Documentation', 'Purchase Orders'],
   },
   {
     Icon: Factory,
@@ -26,7 +26,7 @@ const stages = [
     description: 'Offsite manufacturing of structural components in a controlled factory environment, with quality control checks at each production stage.',
     roles: 'Factory manager, Production supervisor, QC inspector',
     titleSuffix: null,
-    outputs: ['Manufactured components', 'QC records', 'Assembly instructions', 'Logistics plan'],
+    outputs: ['Manufactured Components', 'QC Records', 'Assembly Instructions', 'Logistics Plan'],
   },
   {
     Icon: Hammer,
@@ -34,7 +34,7 @@ const stages = [
     description: 'On-site assembly of prefabricated components. Some companies provide full installation services; others deliver components only.',
     roles: 'Site foreman, Installation crew, Project manager',
     titleSuffix: '(Most commonly carried out by the construction team)',
-    outputs: ['Installed structure', 'As-built documentation', 'Punch list sign-off', 'Project close-out'],
+    outputs: ['Installed Structure', 'As-Built Documentation', 'Punch List Sign-Off', 'Project Close-Out'],
   },
 ];
 
@@ -92,12 +92,12 @@ export function WorkflowSlide() {
                   {/* Output card */}
                   <div
                     className="shrink-0 rounded-lg p-2.5 border grid grid-cols-2 gap-1.5 content-center"
-                    style={{ width: '200px', backgroundColor: 'var(--slide-bg-primary-muted)', borderColor: '#cfe0db' }}
+                    style={{ width: '244px', backgroundColor: 'var(--slide-bg-primary-muted)', borderColor: '#cfe0db' }}
                   >
                     {stage.outputs.map((o) => (
                       <span
                         key={o}
-                        className="rounded px-1.5 py-1 text-center leading-tight"
+                        className="rounded px-1.5 py-1 text-center leading-tight flex items-center justify-center"
                         style={{ backgroundColor: 'white', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)', fontSize: 'var(--slide-sz-tag)' }}
                       >
                         {o}
@@ -116,7 +116,7 @@ export function WorkflowSlide() {
                       <ArrowDown className="w-4 h-4" style={{ color: 'var(--slide-accent)' }} />
                     </div>
                     <div className="shrink-0" style={{ width: '36px' }} />
-                    <div className="shrink-0 flex justify-center" style={{ width: '200px' }}>
+                    <div className="shrink-0 flex justify-center" style={{ width: '244px' }}>
                       <ArrowDown className="w-3.5 h-3.5" style={{ color: 'var(--slide-primary)', opacity: 0.25 }} />
                     </div>
                   </div>,

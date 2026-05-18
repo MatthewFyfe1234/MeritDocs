@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Yi Rijista don Demo",
+    "contactSales": "Tuntuɓi Sashen Sayarwa",
+    "learnMore": "Ƙarin Bayani →",
+    "contentFooter": {
+      "title": "Bayyanannen Aiki. Ingantacciyar Ɗabi'a. Kyawawan Sakamako.",
+      "subtitle": "Nemi gabatarwa kuma ku ga yadda Merit zai iya taimakon ku juya rikitarwa zuwa bayyanawa."
+    },
+    "form": {
+      "name": "Suna",
+      "email": "Imel",
+      "phone": "Lambar Waya",
+      "company": "Kamfani",
+      "position": "Matsayi",
+      "message": "Saƙo",
+      "send": "Aika Tambaya",
+      "success": "An aika da saƙon ku!",
+      "error": "Kuskure wajen aika imel. Da fatan za a sake gwadawa.",
+      "validation": {
+        "nameRequired": "Ana buƙatar suna.",
+        "nameInvalid": "Tsarin sunan bai dace ba.",
+        "emailRequired": "Ana buƙatar imel.",
+        "emailInvalid": "Adreshin imel ba daidai ba ne.",
+        "companyRequired": "Ana buƙatar sunan kamfani.",
+        "positionRequired": "Ana buƙatar matsayi.",
+        "messageRequired": "Ana buƙatar saƙo.",
+        "messageTooShort": "Saƙon ya kamata ya ƙunshi aƙalla haruffa 10."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Me Yasa Merit",
+    "platform": "Dandali",
+    "useCases": "Amfanin",
+    "teams": "Ƙungiyoyi",
+    "values": "Ƙimomi",
+    "company": "Kamfani",
+    "bookDemo": "Yi Rijista don Demo",
+    "subMenus": {
+      "whyMerit": {
+        "title": "Dalili",
+        "theProblem": "Matsalar",
+        "theSolution": "Mafita",
+        "theAdvantage": "Fa'ida"
+      },
+      "platform": {
+        "title": "Iyawa",
+        "businessIntelligence": "Basirin Kasuwanci",
+        "processMapping": "Zana Hanyoyin Aiki",
+        "projectManagement": "Gudanar da Ayyuka",
+        "documentManagement": "Gudanar da Takardun",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Tsara Albarkatu"
+      },
+      "useCases": {
+        "title": "Masana'antu",
+        "manufacturing": "Masana'antu",
+        "construction": "Gini",
+        "healthcare": "Kiwon Lafiya",
+        "disasterManagement": "Amsar Lamari",
+        "miningAndResources": "Ma'adinai da Albarkatun",
+        "agriculture": "Noma",
+        "publicInfrastructure": "Ababen Kayan Jama'a",
+        "consultingProfessionalServices": "Ba da Shawara / Ayyukan Ƙwararru"
+      },
+      "teams": {
+        "title": "Matsayi",
+        "leadership": "Shugabanci",
+        "operations": "Ayyuka",
+        "projectManagement": "Gudanar da Ayyuka",
+        "humanResources": "Albarkatun Dan Adam",
+        "sales": "Sayarwa",
+        "marketing": "Talla",
+        "finance": "Harkar Kuɗi"
+      },
+      "values": {
+        "title": "Ɗabi'a",
+        "operationalEthics": "Ɗabi'ar Aiki",
+        "esg": "ESG",
+        "culturalIntegrity": "Ingancin Al'ada"
+      },
+      "company": {
+        "title": "Game da Mu",
+        "ourMission": "Manufarmu",
+        "whoWeAre": "Mene ne Mu",
+        "whatWereBuilding": "Me Muke Gina",
+        "contactUs": "Tuntuɓe mu"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Duk haƙƙi kiyaye.",
+    "terms": "Sharuɗɗa",
+    "privacyPolicy": "Manufar Sirri",
+    "cookiePolicy": "Manufar Cookie",
+    "contact": "Tuntuɓi"
+  },
+  "home": {
+    "hero": {
+      "title": "Tsarin Aiki Guda don Ƙungiyar ku",
+      "subtitle": "Cikakkiyar ƙirar dijital na ƙungiyar ku, wacce ake inganta da kowace isar da. Don tsarawa mafi kyau, daidaitawa mafi sauri, da aiwatarwa mafi kyau a kowane sashe.",
+      "tagline": "Dandali ɗaya mai haɗa gudanar da ayyuka, zana hanyoyin aiki, CPQ, CRM, basirin kasuwanci, gudanar da takardun, Ma'aikata, da gudanar da ma'aikata ta hanyar tsarin aiki guda wanda ke inganta tare da kowace isar da."
+    },
+    "contextualiser": {
+      "title": "Darajan Haɗewar",
+      "p1": "Lokacin da kowa ke aiki daga tsarin aiwatarwa guda ɗaya, ya zama mafi sauƙi a ga yadda ake aiki, wanda ke ba da gudummawa, da kuma abin da ke haifar da sakamako.",
+      "p2": "Hakan kuma yana nufin cewa bayanai sun daina ɓacewa cikin ayyukan. Sayarwa na ganin ainihin kuɗin isar da. Harkar kuɗi na ganin inda ƙididdiga suka karkace. Lokacin da wani ya tafi, ilimin da suka ɗauka yana kasancewa cikin tsarin.",
+      "p3": "Mafi tsawo da kuke aiki akan rikodin aiwatarwa guda ɗaya, mafi daidaito za ku iya tsara, ɗaukaka ma'aikata, da farashin aikin gaba."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Basirin Kasuwanci",
+        "title": "Juya Fahimta zuwa Aiki",
+        "description": "Basirin kasuwanci mai tarwatsewa da haɗawa da hanyoyin aiki yana ba ku damar gano dama, lura da aiki, da jagorantar yanke shawara mai tushe a duk ƙungiyar ku."
+      },
+      "processMapping": {
+        "header": "Zana Hanyoyin Aiki",
+        "title": "Ga Hanyoyin Aikin ku a Fili",
+        "description": "Ayyana kuma duba hanyoyin aiki a matakai daban-daban na ƙayatarwa tare da mu'amalar mu ta salon Google Maps, don tabbatar da bayyanawa da daidaitawa a duk ƙungiyoyi da ayyuka."
+      },
+      "projectManagement": {
+        "header": "Gudanar da Ayyuka",
+        "title": "Sauƙaƙa Ayyukan ku",
+        "description": "Tsara ayyuka bisa ƙayyadaddun kayan aikin, sannan ku daidaita ta amfani da kayan aikin mu na musamman don hasashen lokutan aiwatarwa da buƙatun albarkatu, bisa bayanan tarihi."
+      },
+      "resourcePlanning": {
+        "header": "Tsara Albarkatu",
+        "title": "Inganta Lokacin Ƙungiyar ku",
+        "description": "Tsara mutane, ƙwarewa, kayan aiki, samuwar, da kuɗi don haɗa iyawa kai tsaye da buƙatar aiki da aikin da aka tsara."
+      },
+      "documentManagement": {
+        "header": "Gudanar da Takardun",
+        "title": "Tsara Ilimin da Ke Haifar da Sakamako",
+        "description": "Sanya takardun kusa da mutane, kayan abinci, ayyuka, ko matakan tsari da suka shafi su don tsari na halitta da sauƙin gano."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Sauƙaƙa Rikitarwa ba tare da Rasa Daidaito ba",
+        "description": "Ƙirƙiri ƙayyadaddun ka'idoji a cikin iyakokin samfurin jagora don dacewa da masana'antar ku da iyawar kamfani. Tsara ƙa'idojin kayan aiki da farashin da suka dace kuma samar da ƙididdiga na lokaci bisa bayanan aikin tarihi."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Rufe madaukin kowace isar da",
+        "description": "Kama ra'ayoyin abokin ciniki bayan kowace isar da kuma danganta su kai tsaye da matakai da albarkatun da suka samar da su. Tsare-tsare a duk isar da na zama a bayyane tare da lokaci, suna juya ra'ayi zuwa siginar a bayyane don inganta tsari da albarkatun."
+      }
+    },
+    "ethics": {
+      "title": "Ɗaukar Alhakin ta Ƙira",
+      "p1": "Merit yana ba da cikakkiyar gaskiya a cikin aiki, tare da izini da mulkin matakin kamfani.",
+      "p2": "Lokacin da aiki ke ganewa, gudummawa ke iya bin diddigin, kuma sakamako ke aunawa, ƙungiyoyi suna buɗe ba kawai aiki ba har da amana.",
+      "p3": "Merit yana haɗa isar da zuwa yanke shawara tare da bayyanannen mulki, don haka ganowa ta zama mai daidaito, ƙoƙari ya zama a bayyane, kuma ladan ya kasance adalci.",
+      "cta": "Bincika yadda ɗabi'a ke cikakkiyar ɓangare na dandali →"
+    },
+    "meritConcept": {
+      "title": "Merit bisa Sharuɗɗan ku",
+      "content": [
+        "Dandali ba ya ƙayyade cancanta muku. Shine komai ƙungiyar ku da abokan cinikinta suka yanke shawarar cewa fitarwa ta yi kama da shi, ana aunawa a kowace matakin tsarin.",
+        "Kowace ma'auni, kowace lissafi, da kowace KPI yana gudana daga ƙa'idoji da ƙungiya ke saita a kan tsarin. Ma'anar wani masana'antun na isar da da aka aiwatar da kyau ta bambanta da ta mai ba da kiwon lafiya. Tsammanin abokin ciniki a kan wata kasuwanci mai rikitarwa ya bambanta da ta yau da kullum. Dandali yana ɗaukar dukkansu saboda ma'anar cancanta tana zaune a tsarin, ba a software ba.",
+        "Hakan kuma shine ke sa daidaitawa ta yiwu. Lokacin da ƙa'idojin da suka fi muhimmanci ga abokin ciniki sun nuna a tsarin aiki, mutanen da ke aiwatar da aikin na iya ganin abin da kyau ya yi kama da shi daga inda suke tsaye. Kuma lokacin da kowace isar da ta kammala, ra'ayoyin sun rufe madauki, suna haɗa ƙwarewar abokin ciniki zuwa matakan da suka samar da ita."
+      ]
+    },
+    "howMeritWorks": {
+      "title": "Yadda Merit ke Aiki",
+      "subtitle": "Yi rikodin kowace isar da kan tsarin da aka raba. Kowace aiki da aka kammala yana ƙara daidaito ga ƙididdiga ta gaba, yana inganta ingancin tsarawa, kuma yana ƙara rikodin aiki wanda ke kasancewa cikin tsarin lokacin da mutane suka tafi.",
+      "model": {
+        "title": "Tsarawa",
+        "description": "Ayyana kayan aikin ku a cikin bambance-bambancen sa duka kuma daidaita shi da tsari mai dacewa, gami da ƙwarewa, kayan aiki, da kayan da aka yi amfani da su wajen isar da shi."
+      },
+      "execute": {
+        "title": "Aiwatarwa",
+        "description": "Gudanar da ayyuka kan tsarin. Bin diddigin karkacewar a lokaci na gaske. Kiyaye kowace ƙungiya, kayan aiki, da aikin haɗe da hoton guda ɗaya."
+      },
+      "improve": {
+        "title": "Ingantawa",
+        "description": "Kowace isar da tana komawa cikin tsarin. Ƙididdiga na ƙara daidaito, nauyin tsarawa na raguwa, kuma ilimin ƙungiya yana tara a tsarin maimakon cikin mutane."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Matsalar da ta cancanci warwarewa",
+      "p1": "Kowace isar da tana aiwatarwa ta irin wannan hanya: tsari, da mutane ke aiwatarwa, ta amfani da kayan aiki da kayan aiki. Amma isar da ba ta dace da shiri ba.",
+      "p2": "Gazawar shida guda guda suna bayyana a duk masana'antu, ƙungiyoyi, da nau'ikan ayyuka. An gina Merit don magance dukkansu shida."
+    },
+    "theProblem": {
+      "title": "Gazawar Tsari Shida. Dalilin Guda",
+      "subtitle": "Waɗannan gazawar suna raba tushe guda: babu rikodin aiwatarwa da aka raba, babu tsarin da ke koyo, babu hoton guda ɗaya da kowa ke aiki daga.",
+      "failures": {
+        "measurability": {
+          "dimension": "Aunawa",
+          "problem": "Ana ji da aiki, ba a kama shi ba.",
+          "detail": "Ba tare da rikodin aiwatarwa da aka raba ba, ɗaukar alhakin ba a hukumance ba, ganowa mai son rai ne, kuma ingantawa ta ce-ce-ku-ce."
+        },
+        "predictability": {
+          "dimension": "Hasashe",
+          "problem": "Ƙididdiga yanki ne, ba hasashen gaba ba.",
+          "detail": "Kowace aiki yana farawa da rashin tabbas da aka gina a ciki. Babu tsarin da za a jawo daga gare shi. Kwarewa tana kasancewa cikin kan mutane, ba a tsarin ba."
+        },
+        "transparency": {
+          "dimension": "Gaskiya",
+          "problem": "Ci gaba yana ganewa ne kawai bayan haka.",
+          "detail": "Da zarar matsala ta bayyana a rahoto, ta riga ta yi tsada. Ana gano karkacewa, ba a hana ta ba."
+        },
+        "planning": {
+          "dimension": "Tsarawa",
+          "problem": "Kowace aiki yana farawa daga farko.",
+          "detail": "Ƙungiyoyi suna sake gina shirin kuma suna sake koyon dogaro a kowace aikin. Babu abin da ke ci gaba."
+        },
+        "evaluation": {
+          "dimension": "Kimantawa",
+          "problem": "Zaɓi yana dogara da alaƙa, ba sakamako ba.",
+          "detail": "Ba tare da bayanan aiki masu haƙiƙa ba, mutane mafi kyau ba a gani ba kuma ana maimaita yanke shawara mara daidai."
+        },
+        "integration": {
+          "dimension": "Haɗewa",
+          "problem": "Bayanan an keɓe su ta aiki, ilimi ta mutum.",
+          "detail": "Sayarwa ba ta ganin isar da. Harkar kuɗi ba ta ganin aiwatarwa. Lokacin da mutane suka tafi, ilimin ƙungiya yana tafiya da su."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "Ƙungiyar da ke inganta tare da kowace aikin",
+      "p1": "Merit yana tsarawa kowace isar da a matsayin hanyar sadarwa na masu aiwatarwa (mutane da ƙungiyoyi), kayan abinci, da matakai na tsari, kowace aiwatarwa ana yin rikodin ta kan tsarin jagora. Tare da kowace aikin da aka cika, tsarin yana inganta. Hukunci mara hukumanci ya zama shaidar. Nauyin gudanarwa yana raguwa yayin da tsarin ke sarrafa daidaitawa da ba da rahoto da aka yi a hannu a baya.",
+      "p2": "Kowace aikin da aka cika yana ƙara zuwa rikodin aiwatarwa na musamman ga ƙungiyar. Wannan rikodin ya zama tushen kowace hasashe, kowace kimantawa, da kowace yanke shawara na tsarawa da ke biye."
+    },
+    "theAdvantage": {
+      "title": "Ƙima a Kowane Hangen Nesa",
+      "subtitle": "Merit yana ba da dawowar a rabo daban-daban dangane da tsawon lokaci da ya kasance yana gudana.",
+      "horizons": {
+        "immediately": {
+          "label": "Nan da nan",
+          "headline": "Isar da ta zama ta iya bin diddigin.",
+          "detail": "Ana ganin karkacewa a lokaci na gaske. An ƙirƙira shirye-shiryen aiki daga ƙayyadaddun. Ƙungiyoyi suna daina sake gina abin da ya riga ya wanzu."
+        },
+        "overTime": {
+          "label": "Tare da lokaci",
+          "headline": "Tsarin yana inganta tare da kowace aiwatarwa.",
+          "detail": "Hasashen gaba suna ƙara daidaito yayin da rikodin aiwatarwa ke girma. Tsarawa yana dogara da tarihin gaske maimakon ƙididdigan farko, kuma tsarin yana nuna yadda ƙungiyar ke aiki a gaske."
+        },
+        "enduringly": {
+          "label": "A dindindin",
+          "headline": "Bayanai da babu wani abokin hamayya da zai iya kwafa.",
+          "detail": "Ƙungiyar da ta gudana akan Merit tsawon shekaru tana rikodin aiwatarwa mai zurfi na shekaru - na musamman ga hanyoyinta, mutanenta, da tarihin isar da ta. Wannan rikodin ba za a iya kwafa shi ta abokin hamayya da ke ɗaukar software guda ba."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Tsarin Guda don Basirin Aiki",
+      "content": ["Tsari guda. Cikakkiyar gani. Ingantawa marar iyaka."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Basirin Kasuwanci",
+        "content": [
+          "Basirin kasuwanci a Merit an haɗa shi cikin taswira na tsari da kansa. Bayanan aiki suna bayyana a cikin gani a kowace matakin ƙayyadaddun - daga hoton duk ƙungiya zuwa matakai na mutum ɗaya - don haka kuna fahimtar yadda kasuwancin ke aiki a mahallin tsarin da ke jagorantar sa, ba a kayan aikin rahoto daban ba.",
+          "Bayanan suna gudana daga kowace abu a tsarin: rikodin aiwatarwa, bayanan mutum ɗaya, albarkatun, ƙayyadaddun, da jadawalin. Ana iya nuna waɗannan tushen ko haɗa su lissafi a cikin tsarin aiki. Bayanan albashin da aka tattara a cikin mutanen da ke aiwatar da matakai, haɗe da lokacin aiwatarwa, yana ba da lamba ta farashi na gaske - a matakin matakai, matakin aiki, ko a duk ayyuka a kowane lokaci.",
+          "Saboda za a iya tsara kowace tushen bayanan a kan kowace node a cikin tsarin, nazarin ya zama na haɗa-haɗa. Tsarin guda da ke mulkin aiwatarwa ya zama tsari don BI mai tsananin ƙayyadaddun da aka haɗa da tsari."
+        ]
+      },
+      "processMapping": {
+        "title": "Zana Hanyoyin Aiki",
+        "content": [
+          "Merit yana tsara tsarin aikin ku a kowace matakin ƙayyadaddun - daga hoton ƙungiya da ƙungiya zuwa matakai na tsari na mutum ɗaya da ayyukan kayan aiki na musamman da kowace matakai ke bukata. Taswirar ta-uku ce kuma cikakke za a iya kewayawa: buɗe don ganin hoton duk ƙungiyar, rufe don yin ƙaramin aiki na mai aiki, ba tare da rasa mahallin yadda take dacewa cikin dukkan ba.",
+          "Ko tsarin isar da mafi rikitarwa za a iya tsara shi, bincika shi, da fahimtar shi. Taswirar tana da rai kuma an shimfiɗa su da bayanan aiwatarwa, don haka kowace matakin ƙayyadaddun yana nuna yadda ƙungiyar ke aiki a gaske - ba zane ba ta motsi.",
+          "Tsarin aiki ba a iyakance ga ƙungiyar ku ba. Zai iya ƙaro a duk yanayin isar da ku - yin taswira na ƙungiyoyin da aka haɗa, daidaita shigawarsu, da tattara bayanan aiki a duk sarkar."
+        ]
+      },
+      "projectManagement": {
+        "title": "Gudanar da Ayyuka",
+        "content": [
+          "Lokacin da aka tabbatar da oda, shirin aikin an ƙirƙira daga tsarin aiki. An ƙididdige jadawalin daga hasashe da aka bayyana a cikin tsarin, an inganta su ta bayanan aiwatarwa na tarihi, kuma ana sarrafa ɗawainiyar mai aiwatarwa ta atomatik - yana dogara da jadawalin mutum ɗaya, ƙwarewa, da samuwa - tare da kayan aikin tsarawa da maye gurbin hannu da ke samuwa a ko'ina.",
+          "An bi diddigin ci gaba a kan buƙatu da aka bayyana: samomin da za a bayar, ƙididdigar da za a rubuta, da alamun matsayi da za a saita a kowace matakai. Tsarin yana jagorantar aiwatarwa ba tare da cire kulawa ba.",
+          "Za a iya duba aikin a matsayin Gantt da aka ƙirƙira ta atomatik ko a cikin taswira na tsari da kansa, yana nuna matsayi na gaske a duk ƙungiyoyi, ayyuka, da matakai na mutum ɗaya. Ko daidaita ƙungiyoyin ciki ko masu ɗaukar kaya, hoton koyaushe yana zamani kuma koyaushe yana mahallin."
+        ]
+      },
+      "documentManagement": {
+        "title": "Gudanar da Takardun",
+        "content": [
+          "Takardun a Merit an ɗaure su ga wanda suke na shi - matakai na tsari, matakai na aiki, ƙayyadaddun, ma'aikaci, ƙungiyar da aka haɗa, ko kayan aiki ko kayan aiki. Takarda ta daidaituwa, rikodin kulawa, ko MOT yana zaune daidai inda yake dacewa, ba a fayil ɗin da ba ya haɗe ba.",
+          "Inda ake buƙatar takardun - kamar yadda aka bayyana a cikin tsarin aiki - suna sarrafa ci gaba. Mataki ba zai iya ci gaba ba sai an sanya takarda a wurin; ba za a iya ɗawainiyar rawa ba sai an tabbatar da tabbatarwa da ake bukata. Ba a sarrafa takardun daban daga ayyuka ba - an haɗa shi cikin yadda aiki ke ci gaba."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Tsarawa, Farashin, Gabatarwa)",
+        "content": [
+          "CPQ a Merit yana mai da hankali kan ƙayyadaddun jagora: cikakken ma'anar kowace bambance-bambance mai yiwuwa a cikin nau'in kayan aiki - duk kayan aiki, tsarawa, sharuɗɗa, da ƙuntatawa da ƙungiyar ke aiki da su. Ƙayyadaddun mutum ɗaya koyaushe ɓangare ne na wannan jagora. Bayyana ɗaya yana nuna tsarin - matakai, kayan aiki, da albarkatun da ake bukata an fahimci su kafin gabatarwar ta samuwa.",
+          "Ƙa'idodin da aka bayyana a kan jagora suna ɓoye ɓoyayyen dabaru na kayan aikin. Zaɓi ɗaya na iya nuna wani, ware zaɓin da ba ya daidaituwa, ko haifar da buƙata - ana amfani da shi ta atomatik, a wurin tsarawa. Ana iya buƙatar bayanan da ake bukata don tabbatar da kowace ƙayyadaddun ta cika kafin ta ci gaba. Ƙa'idodin farashi da aka bayyana a kan tsarin suna komawa zuwa ƙayyadaddun - yana nuna lokaci, kayan aiki, makamashi, da carbon da aka shiga cikin kowace tsarawar da aka bayar.",
+          "Da zarar an tabbatar da ƙayyadaddun, Merit yana atomatik abin da ke biye. Ana sarrafa albarkatun a kansa, aikin da ke biye yana daidaiwa daga gare shi, kuma zaɓin ƙungiya yana dogara da ƙwarewa na mai aiwatarwa da samuwa na jadawali. Canjin da in ba haka ba zai buƙaci daidaitawar hannu yana faruwa ta atomatik."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "CRM na Merit an gina shi ne a kusa da isar da kanta, ba bututun ba. Bayan an cika ƙayyadaddun, ana kama ra'ayoyin abokan ciniki kuma ana danganta su kai tsaye da matakai da sassa na aikin da suka isar da su. Matsalar inganci, jinkiri, ko fitarwa duk ana iya bin sa zuwa daidai inda a tsarin ya faro.",
+          "Wannan dangantawa yana sauƙaƙa bincike kai tsaye kuma yana mai da nazarin tsare-tsare ma'ana. Ra'ayoyi suna tarawa a duk isar da, don haka matsalolin da ke maimaitawa a wani matakai ko tare da wani albarkatu na zama a bayyane tare da lokaci. Ana duba su lokaci-lokaci, yana zama sigina a bayyane don inda tsarin, ƙayyadaddun, ko albarkatun ke buƙatar kulawa.",
+          "Saboda yana zaune a cikin tsarin guda da aiwatarwa, babu shigo, babu fassara, kuma babu yanke haɗi tsakanin abin da aka isar da shi da abin da abokin ciniki ya faɗa game da shi."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Tsara Albarkatu",
+        "content": [
+          "Mutane, kayan aiki, da kayan aiki duk ana sarrafa su a cikin tsarin guda da aiwatarwa na aiki. Kowannensu yana da jadawalinsa, samuwansa, da rikodin aikin sa - an bi diddigin su a kan tsarin aiki guda da ke mulkin aikin da suke goyan baya.",
+          "Gani na BI guda wanda ke nuna aiki na tsari suna kuma nuna amfani da albarkatu. Ra'ayoyin da suka dogara da jadawali suna nuna lokacin da kayan aiki suke ƙaranci ko yawan amfani, lokacin da nauyin aiki da aka tsara ya saba da hutu da aka shirya, ko lokacin da sashe yana ɗaukar iyawarsa - ko dai bitar tsararru na tarihi ko tsinkayarwa gaba cikin aiki da aka tsara.",
+          "Lokacin da bayanan suna nuna tsari mai ɗorewa - ƙungiya akai-akai a ɗaurin, kayan aiki koyaushe ƙunƙuntawa, lokaci koyaushe ƙarancin ma'aikata - ana iya ganin sa da wuri isasshe don yin aiki. Tsara albarkatu yana tafiya daga mayar da martani ga giɓi zuwa hasashensa."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Ɗabi'a da Tasiri",
+      "content": [
+        "Lokacin da tsarin ku zai iya gane cancanta ta kowace ma'auni, adalci da dorewa sun daina zama burin. Sun zama ƙananan abubuwan da ke faruwa daga mafi kyawun yanke shawara na kasuwanci.",
+        "Merit yana taimakon ƙungiyoyi rage ɓarna, kawar da nuna bambanci, da gane abin da ke haifar da sakamako.",
+        "Kar a bi sakamakon ɗabi'a. Sa su zama ba makawa."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Ku yanke shawarar abin da ke da muhimmanci, Merit yana taimakon ku inganta don haka",
+      "cards": {
+        "transparency": {
+          "title": "Gaskiya da Ɗaukar Alhakin",
+          "description": "Merit yana sanya ayyuka da yanke shawara a iya bin diddigin, yana taimakon ƙungiyoyi kiyaye ma'auni na ɗabi'a ta hanyar bayyanannen mulki, gani na tsari, da kulawa ta tsari a kowace matakin kasuwanci."
+        },
+        "recognition": {
+          "title": "Ganowa da Lada Mai Adalci",
+          "description": "Ta hanyar haɗa gudummawa zuwa sakamako, Merit yana ba ku damar tushen ganowa a tasiri na gaske ta hanyar inganta adalci, rage nuna bambanci, da goyan bayan al'ada inda ake ganin ƙoƙari kuma ana ƙimantashi."
+        },
+        "integrity": {
+          "title": "Ingancin Tsari da Amana",
+          "description": "Merit yana ba da ingantaccen tsarin aiki wanda ke kawar da rudani, yana aiwatar da daidaito, kuma yana gina amana a yadda ake auna aiki, yanke shawara, da kimantawa ci gaba."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG ta Ƙira",
+      "content": [
+        "Kowace kayan shiga mai aunawa, daga makamashi da man fetur zuwa kayan aiki da ruwa, ana iya rikodin sa a matakin matakai kuma ana tsara shi a kan nodes na tsari a duk rikodin aiwatarwa. Farashin muhalli ba a ƙididdige shi a matakin aikin ba; ana iya bin sa zuwa takamaiman matakai da albarkatun da suka samar da shi. Tare da lokaci, rikodin yana nuna waɗanne albarkatun da ayyuka ke samar da mafi ƙarancin ɓarna a kowane sakamako, yana mai da ingantawa na muhalli mai shaidar maimakon burin.",
+        "Saboda ana bin diddigin gudummawa a cikin gudanar da aiki, ganowa tana nuna abin da ya faru a gaske maimakon kusanci da gudanarwa ko ayyukan da aka ba da rahoto da kai. Lokacin da tsarin ke samar da shaidar, damar son rai tana raguwa ta tsari. Bayanan aiwatarwa guda da ke jagorantar yanke shawara na aiki suna jagorantar yanke shawara na mutane.",
+        "Ƙofofin matakai da aka gina cikin tsarin aiki suna hana aiki daga ci gaba sai an sanya takardun da ake bukata a wurin. Kulawa na samun dama yana ƙayyade wanda zai iya ganin waɗanne ma'auni da tsarawa. Kowace aiki da aka ɗauka a kan aiwatarwa ana rikodin sa. Mulki ba ɓangare ne na ba da rahoto da aka ƙara a baya ba. An haɗa shi cikin yadda aiki ke ci gaba."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Daidaitawa ta Ƙira",
+      "content": [
+        "Lokacin da ganowa ta bi abin da rikodin aiwatarwa ke nuna maimakon abin da mutane suka ba da rahoto ko wanda suka sani, ƙididdigar mutum ɗaya da manufofin ƙungiya suna daidaita ta halitta. Babu fa'ida wajen sarrafa bayyanawa, ajiye ilimi, ko matsayar sama da isar da.",
+        "Wannan daidaitawa ta fito daga tsari, ba daga shirye-shiryen al'ada ba. Saboda bayanan aikin sun gudana daga aikin da kansa, yanayi kamar son rai, ajiye ilimi, da yanke haɗi tsakanin ƙoƙari da lada ana kawar da su maimakon sarrafa su a kusa.",
+        "Lokacin da mutane suka ci gaba da ganin cewa ana auna gudummawa da adalci kuma ana saka ta da suka dace, halayyar tana ƙarfafata. Al'adar inganci ta zama sakamakon halitta na tsarin da ke sanya inganci hanya mafi ƙarancin juriya."
+      ]
+    },
+    "compliance": {
+      "title": "Daga Bin Doka zuwa Fa'idar Gasar",
+      "content": [
+        "Aiki na ɗabi'a bai kamata ya zama burin ko tunani na baya ba, ya kamata ya zama sakamakon halitta na yadda kasuwanci ke gudana. Merit yana sauƙaƙa wannan ta hanyar saka daidaituwar ɗabi'a cikin al'adar ayyukan yau da kullum.",
+        "Lokacin da ake auna aiki da manufa kuma ana fitar da ƙima ta tsari, adalci ya zama mai daidaito, ɗaukar alhakin ya kasance ta atomatik, kuma mafi kyawun sakamako yana bin sa. Al'ada wanda ke aiki da ɗabi'a ta ƙira ba kawai mulkin nagari ba ne, fa'idar dabarar gasar ne."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "An Gina shi don Kowace Matsayi",
+      "content": [
+        "Daga dabarar zuwa aiwatarwa, Merit yana ba shugabanni, masu aiki, da masu ba da gudummawa hangen nesa da aka raba na yadda aiki ke gudana a gaske.",
+        "Ga yadda Merit ke goyan bayan kowace matsayi a duk ƙungiyar ku."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Tsari Guda, Kowace Hangen Nesa",
+      "content": [
+        "A mafi yawan ƙungiyoyi, abubuwa biyu suna ɓacewa a hankali: bayanai cikin ayyukan da ilimi cikin mutane. Sayarwa ba ta ganin abin da isar da ta yi tsada. Harkar kuɗi ba ta ganin inda ƙididdiga suka karkace. Lokacin da wani mai aiwatarwa mai ƙwarewa ya tafi, tsare-tsaren da suka gane sun tafi da su. Rikodin aiwatarwa na Merit shine amsa ga dukkansu biyu.",
+        "Kowace matsayi a wannan shafin tana aiki daga bayanan asali guda ɗaya: rikodin aiwatarwa guda, tsarin aiki guda, mutane da albarkatun guda. Abin da ke canzawa shine jama'a. Manajan ayyuka yana ganin jadawalin da dogaro; HR tana ganin gudummawa da tsare-tsaren aiki; harkar kuɗi tana ganin kuɗi da amfani. Ruwan tabarau daban-daban, tsari guda.",
+        "Kuma ga ƙungiyar isar da kayan aikin? Saboda tsarin aiki yana tsara waɗanne ayyuka suke dogara da waɗanne samomin, haɗin gwiwar yana bayyana daga rana ta farko. Babu wani matsayi da ke aiki daga hoton ɓangare, kuma babu mika hannun da ke dogara da wani da ya tuna ya sanar da shi."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Shugabanci",
+        "content": [
+          "Yawancin shugabanni suna aiki tsakanin sabuntawar matsayi, suna ganin hoto na inda abubuwa suka kasance maimakon inda suke. A Merit, rikodin aiwatarwa yana da rai saboda ana rikodin aiki yayin da yake faruwa. Ci gaba, karkacewa, matsin albarkatu, da aiki koyaushe suna zamani, ba tare da wani da ke shirya rahoto ba.",
+          "Hakan yana canza yanayin yanke shawarar shugabanci. Ana iya ganin matsaloli da wuri isasshe don yin aiki. Ƙunƙuntawar albarkatun yana bayyana kafin ya zama jinkiri. Kuma bayanan aiki suna nuna abin da ya faru a gaske, ba abin da aka ba da rahoto ba.",
+          "Kuma saboda kowace ma'auni tana komawa zuwa tsarin aiki guda, shugabanni na iya motsi tsakanin hoton babba-babba da ƙayyadaddun ba tare da canzawa tsarin ko rasa mahallin ba. Idan lambar ta yi kama da ba ta daidai ba, za ku iya bin ta zuwa matakai da ta samar da shi."
+        ]
+      },
+      "operations": {
+        "title": "Ayyuka",
+        "content": [
+          "Ayyuka ke da alhakin yadda aiki ke gudana a duk ƙungiyar, kuma hakan daidai ne abin da tsarin aiki ke nuna. Inda aiki ke tara, inda mika hannun ke karye, da inda iyawa ke ɗaukar nauyi duk na a bayyane a lokaci na gaske. Lokacin da tsare-tsare ya maimaita a duk ayyuka, ya zama matsalar tsari maimakon na lokaci guda, kuma ana iya sabunta tsarin don ingantawar ta ci gaba cikin kowace aiwatarwa ta gaba. Rikodin aiwatarwa kuma yana nuna waɗanne albarkatun ke aiki mafi kyau a waɗanne matakai, yana ba ayyuka shaidar don son albarkatun da aka tabbatar da su da kuma yin gardama don zuba jari inda giɓi suke.",
+          "Saboda tsarin aiki yana tsara dogaro na sama da na ƙasa, kuma bayanan CRM suna haɗa aiwatarwa na ciki zuwa sakamakun abokan ciniki, ana iya duba shawarwari game da albarkatun da tsari daga kowane kusurwa a sarkar. Ana iya tsara lissafi a kan kowace haɗaɗɗen bayanan a tsarin, don haka ra'ayin ba ya iyakance ga ma'auni guda. Wannan faɗin shi ne ke mai da bayanan ainihin masu amfani don shawarwari, maimakon wani abu da za a iya inganta shi a keɓance."
+        ]
+      },
+      "projectManagement": {
+        "title": "Gudanar da Ayyuka",
+        "content": [
+          "Ɓangare mai yawa na lokacin manajan ayyuka yana zuwa akan aiki da aikin da kansa bai buƙata ba: gina jadawalin daga farko, farautar samuwa, sake tsara lokacin da wani ya karkace. A Merit, shirin aikin ana ƙirƙira daga tsarin aiki, jadawalin ana ƙididdige su daga bayanan aiwatarwa na tarihi, kuma raba mai aiwatarwa yana dogara da jadawalin da ƙwarewar da suke da su. Tsarin gini ya riga ya kasance.",
+          "Hakan yana ba manajan ayyuka 'yanci don mai da hankali kan isar da kanta. Ana bin diddigin ci gaba a kan buƙatu da aka bayyana a kowace matakai, karkacewa na a bayyane yayin da suka faru, kuma Gantt yana sabuntawa ta atomatik yayin da aiwatarwa ke ci gaba. Kowace aikin da aka kammala kuma yana ƙara zuwa rikodin aiwatarwa, don haka na gaba yana farawa da hasashe mafi kyau da ƙarancin sake tsarawa daga farko.",
+          "Tsarin kuma yana sarrafa nau'in haɗari wanda mafi yawan kayan aiki suke barin a cikin ƙwaƙwalwar manajan ayyuka. Samuwar mai aiwatarwa yana lissafa hutu da aka tsara da abubuwan horarwa. Raba yana duba ko takardun da aka bukata da tabbatarwa suna a wurin kafin aiki ya fara. Kuma ƙofofin matakai da aka gina cikin tsarin aiki yana nufin wasu matakai ba za su iya ci gaba ba ba tare da takardun da ake bukata a wurin ba. Yanayin isar da mai tsafta ana aiwatar da su ta tsari, ba a riƙe su a cikin kan wani ba."
+        ]
+      },
+      "humanResources": {
+        "title": "Albarkatun Dan Adam",
+        "content": [
+          "Ga HR, Merit yana cire giɓi tsakanin abin da mutane ke yi da abin da ake ganowa. Saboda ana bin diddigin gudummawa a cikin gudanar da aiki maimakon yin kimanta bayan haka, bayanan aiki suna nuna abin da ya faru a gaske, ba kusanci da gudanarwa ko ayyukan da aka ba da rahoto da kai ba.",
+          "Sabon membobin ƙungiya suna isa tare da cikakkiyar mahallin tsari a shirye: matakai da suke da alhakin su, takardun da ake bukata da tabbatarwa, da yadda rawarsu ke haɗuwa da sauran ƙungiyar. Kayan horarwa an ɗaure su kai tsaye ga aikin, don haka jagora yana samuwa inda ake bukata maimakon a tsarin daban.",
+          "Ƙididdigar da aka rubuta a kan mutum ɗaya suna gudana ta cikin tsarin aiki zuwa KPIs, a matakin matakai, aiki, aiki, ko matakin ƙungiya, da kuma a ko'ina lokaci. Kulawa na samun dama yana ƙayyade waɗanne ƙididdigar da ƙididdiga kowace rawa za ta iya gani, don haka bayanan masu kula da su suna isa ga mutane masu dacewa ba tare da ƙuntatawa hoton aiki mafi faɗi ba. A matakin matakai, aiki yana zama takamaiman isasshe don tallafa wa da ci gaban mutanen da ke buƙata, da kuma gano daidai waɗanda suka fita karfi."
+        ]
+      },
+      "sales": {
+        "title": "Sayarwa",
+        "content": [
+          "Mafi yawan hanyoyin sayarwa suna ƙirƙirar giɓi tsakanin abin da aka yardar da shi da abin da isar da ke karɓa. Gabatarwar tana zaune a takarda ɗaya, takarda ta takamaiman a wani, kuma rufe giɓin yana buƙatar sake bayyanawa, sake yin shawarwari, ko dukkansu. Da zarar abokin ciniki ya tabbatar, ƙungiyar isar da tana farawa daga hoton ɓangare.",
+          "A Merit, ƙayyadaddun shine duka gabatarwar da kayan umarni don isar da. Ƙayyadaddun jagora yana ɓoye kowace tsarawar, ƙuntatawa, da ƙa'idar farashin don nau'in kayan aiki. Sayarwa tana tsarawa a cikin wannan tsari kuma tana ganin yadda kuɗi ke fita a lokaci na gaske, ba tare da juya kowace ƙididdiga baya ta ayyuka ba. Lokacin da abokin ciniki ya tabbatar, ana ƙirƙirar aikin daga ƙayyadaddun kai tsaye. Babu buƙatar fassara.",
+          "Ra'ayoyin abokan ciniki daga isar da na baya ana danganta su da matakai da sassa da suka samar da su, kuma suna zaune kusa da sauran rikodin abokin ciniki. Kafin farashin kasuwancin da ya yi kama, sayarwa na iya ganin yadda isar da na baya mai kwatankwacin suka yi. Lokacin magana da abokin ciniki mai dawowa, tattaunawar tana dogara da abin da ya faru a gaske."
+        ]
+      },
+      "marketing": {
+        "title": "Talla",
+        "content": [
+          "Yawancin matsayar talla an gina shi ne a kan tsammanin game da abin da kamfanin ke iya yi. A Merit, talla tana da damar rikodin aiwatarwa na gaske: inda ƙungiyar ke ci gaba da aiki da kyau, waɗanne albarkatun da hanyoyin aiki ke samar da mafi kyawun sakamako, da abin da ra'ayoyin abokan ciniki ke faɗa a duk kowace isar da. Saƙon na iya dogara da ƙarfin da aka nuna maimakon da aka ɗauka.",
+          "Madaukin ra'ayin CRM yana ƙara girma wani. Saboda ana danganta ra'ayoyin abokin ciniki zuwa takamaiman matakai da sassa na kowace isar da, talla na iya ganin ba kawai ko abokan ciniki sun gamsu ba, amma abin da ya jawo gamsuwar ta. Tare da lokaci, tsare-tsare suna bayyana waɗanda ke ba da bayani a duka matsayar da kuma nau'in aiki da ya kamata kasuwancin nema ƙarin.",
+          "Hakan yana haɗa talla zuwa dabarar. Lokacin da aka fahimci bayanan abokan ciniki na manufa a dangane da abin da ƙungiyar ke isar da shi da kyau, giɓin tsakanin abin da talla ta yi alkawari da abin da isar da ke samarwa yana ƙuntata. Daidaitawar tana gudana ta hanyoyi biyu: bayanan aiwatarwa yana kaifin saƙon, kuma bayanan abokan ciniki na manufa suna tsara abin da aiwatarwa ya kamata ta inganta shi."
+        ]
+      },
+      "finance": {
+        "title": "Harkar Kuɗi",
+        "content": [
+          "Harkar kuɗi yawanci tana karɓar bayanan kuɗi bayan haka, a tsari da ke nuna abin da aka kashe amma ba me yasa ba. Daidaita farashin gaske a kan shirin aikin yana nufin komawa ta hanyar tsarin daban don fahimtar inda bambancin ya faro.",
+          "A Merit, farashin an haɗa shi cikin rikodin aiwatarwa da kansa. Bayanan albashi, farashin kayan aiki, da lokacin aiwatarwa suna zaune a kan tsarin aiki guda da ke mulkin isar da. Ana iya haɗa lissafi a kan kowace waɗannan tushen a kan kowace node a tsarin, daga matakai guda zuwa nau'in aikin gaba ɗaya, a ko'ina lokaci. Sakamakon hoton farashin da ke bin diddigin kai tsaye zuwa inda kuɗin ya tafi.",
+          "Saboda kowace isar da yana ƙara zuwa rikodin aiwatarwa, hasashen kuɗi yana inganta tare da lokaci. Ƙididdiga don ayyukan gaba suna dogara daga tarihin isar da na gaske, don haka giɓin tsakanin shiri da farashin ƙarshe yana ƙuntata yayin da rikodin ke girma. Harkar kuɗi ba ta jiran ƙarshen wata don ganin inda ayyuka suke tsaye. Hoton yana da rai."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Inda Merit ke Isar da Sakamako",
+      "content": [
+        "Kowace ƙungiya ta sha bamban. Amma darajan iya haɗuwa kan hangen nesa da aka raba ya zama na duniya.",
+        "An tsara Merit don daidaitawa zuwa yanayi masu rikitarwa, yana kawo gani, daidaitawa, da basira ga masana'antu inda sakamako ke dogara kan daidaitawa, daidaito, da aiki a sikeli.",
+        "Bincika yadda Merit ke goyan bayan tsarin aiki mafi wayo a masana'antu masu mahimmanci."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Masana'antu",
+        "content": [
+          "Hanyoyin aiki masu rikitarwa, kayan aiki masu tarwatsewa, da ayyukan da ke da nauyin albarkatun suna sanya gani da daidaitawa ƙalubale na yau da kullum a masana'antu.",
+          "Merit yana haɗa mutane, kayan aiki, da hanyoyin aiki cikin tsari guda mai aiki yana ba masu masana'antu gani na lokaci na gaske game da lafiyar tsari, amfani da albarkatun, da aiki na isar da.",
+          "Daga masana'antu zuwa sarƙar samar da kayayyaki, bin diddigin kowace aiki, gano kowace matsala, da auna kowace ingantawa a dandali guda. Tare da Merit, ƙungiyoyin masana'antu na iya inganta tsarin ba tare da iyaka ba kuma daidaita aiki da manufofin dabarar da aikin na gaban gida."
+        ]
+      },
+      "construction": {
+        "title": "Gini",
+        "content": [
+          "Mai yiwuwa yanayin isar da kayan aikin mafi rikitarwa da ake da shi wanda ke tattara yalwar kayan aiki, ƙa'idoji, ƙwarewa da yanayi. Duk da haka mafi yawan kamfanoni suna gudana tare da kayan aiki masu tarwatsewa da hanyoyin aiki masu yanke haɗi, suna sanya daidaitawa da gani ƙalubale na dindindin.",
+          "Merit yana ba da tsari mai rai don tsarawa, bin diddigin, da inganta aiwatarwa a duk rayuwar aikin. Daga daidaitawa kafin gini zuwa isar da a wurin, ƙungiyoyi na iya daidaita matsayi, hanyoyin aiki, da jadawalin a dandali guda, tare da takardun, kuɗi, da bin diddigin ci gaba da aka haɗa.",
+          "Ta hanyar haɗa tsarawa da aiki a lokaci na gaske, Merit yana taimakon kamfanonin gini rage aiki na sake, sarrafa kuɗi, da isar da mafi iya hasashe, har ma yayin da ayyuka ke ci gaba."
+        ]
+      },
+      "healthcare": {
+        "title": "Kiwon Lafiya",
+        "content": [
+          "Sakamako na marasa lafiya yana dogara kan masu ƙididdiga marasa adadi, daga rikitarwa na haɗin cuta zuwa masu yanke shawarar zamantakewa, duk da haka mafi yawan tsarin kiwon lafiya suna gwagwarmaya don haɗa waɗannan yanayin marasa lafiya zuwa isar da kulawa da sakamako ta hanyar ma'ana.",
+          "Merit yana kama cikakkiyar rikitarwar bayanan marasa lafiya kuma yana bin diddigin yadda yanayin takamaiman ke mu'amala da hanyoyin kulawa, masu ba da sabis, da sakamako. Maimakon rage marasa lafiya zuwa ma'auni na asali, dandali namu yana tsarawa ainihin yanayin da ke jagorantar isar da kiwon lafiya.",
+          "Ƙungiyoyin kiwon lafiya a ƙarshe za su iya ganin waɗanne hanyoyin kulawa ke aiki mafi kyau don yawan marasa lafiya takamaiman, fahimtar yadda ayyukan masu ba da sabis ke haɗa zuwa sakamako, da gina koyon ƙungiya mai tsari daga ƙwarewa ta asibiti. Ta hanyar haɗa rikitarwar mai rashin lafiya zuwa raba albarkatun da isar da kulawa, Merit yana juya ilimin ƙungiya daga ƙwarin zuciya zuwa basira mai iya aiki.",
+          "Sakamakon: yanke shawara na kulawa mafi na mutum, amfani mafi kyau da albarkatun, da ingantawa mai ci gaba bisa abin da ke aiki a gaske don yawan marasa lafiya ku."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Amsar Lamari",
+        "content": [
+          "A cikin mayar da martani ga abubuwan da suka faru, lokaci shine mafi muhimmancin abu. Da sauri aka tarwatsa amsa ta gaba ɗaya, to mafi kyau sakamakon. Duk da haka, yawancin ƙungiyoyi suna rasa lokaci mai mahimmanci a lokacin da ba za su iya ɗaukar shi ba: tsarawa shiri, gano wadanda ke nan don aiwatarwa, da neman kayan aiki.",
+          "Merit yana ba ƙungiyoyi damar gina wannan shirin a gaba. Ana bayyana tsarin mai amsa abubuwan da suka faru na asali, ana haɗa masu aiwatarwa da an tabbatar da su a gaba, kuma ana lissafa kayan aiki da kayan aiki. A lokacin da aka ayyana abin da ya faru, ana kirkirar ɓangaren da ya dace na wannan shirin, ana cika shi atomatik da albarkatun da ake da su, kuma amsar ta fara a cikin mintuna maimakon awanni.",
+          "Yayin da masu aiwatarwa suka kammala kowane mataki, ana rikodin ci gaba akan tsarin aiwatarwa, suna ba kwamandoji hoton da ake sabunta shi koyaushe na amsar ba tare da dogaro da rahotannin rediyo ko rahoto ta hannu ba.",
+          "Bayan abin da ya faru, rikodin aiwatarwa yana ba da gudummawa ga tarin bayanai gaba ɗaya. Ana shigar da darussan da aka koya kai tsaye cikin shirin amsa na gaba, don haka kowane abin da ya faru yana shirya ƙungiyar mafi kyau don na gaba, ta amfani da shirin aiki da za a iya amfani da shi a duk duniya."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Ma'adinai da Albarkatun",
+        "content": [
+          "Wuraren ma'adinai suna fuskantar rikitarwar ƙalubale na aiki inda aminci da bin doka ba su da za a yi shawarwari. Duk da haka ƙungiyoyin ma'adinai da yawa suna dogara akan bayanan da aka keɓe da hanyoyin takardun da suka tsufa, suna ƙara haɗarin da kuma rage saurin yanke shawara.",
+          "Merit yana ba da dandali guda tare da duba mai zurfi wanda ke ba da cikakkiyar bayani game da kowane ɓangaren ayyukan ma'adinai. Haɗe da tsarin sarrafa takardun mai ƙarfi, yana tabbatar da ƙa'idojin kiwon lafiya da aminci masu muhimmanci koyaushe suna na yanzu, ana iya samun su, kuma ana bi su.",
+          "Ta hanyar haɗa bayanan lokaci na gaske da takardun cikakke, Merit yana ba da damar manajan wurin gano haɗarori a gaba, rage haɗarin, da kiyaye bin doka na ƙa'idar. Hakan yana haifar da yanayin aiki mafi aminci da rage lokacin da ba a aiki saboda abubuwan da suka faru da tsayawar inji.",
+          "Tare da lokaci, Merit yana juya bayanan aiki da koyon da aka rubuta zuwa basira mai iya aiki, yana taimakon kamfanonin ma'adinai ci gaba da inganta ma'auni na aminci, inganta hanyoyin aiki, da kare mafi ƙima kayansu, ma'aikatansu."
+        ]
+      },
+      "agriculture": {
+        "title": "Noma",
+        "content": [
+          "Noma yana ɗaukar sarrafa mutane, injuna, da kayan aiki a duk yanayi masu ƙarfi da sau da yawa ba za a iya hasashe su ba. A cikin masana'anta inda farashin da ba na ma'aikata ba kamar injuna, man fetur, kayan shiga, da ƙasa ke wakiltar babban ɓangare na farashin ayyukan, fahimtar da inganta yadda ake tura waɗannan albarkatun yana da matukar muhimmanci.",
+          "Merit yana ba da tsarin aiwatarwa wanda za a iya tsara shi wanda kowace ayyuka ke gudana akan shi. Ana ba da kayan aiki, kayan aiki, da mutane ga matakin aiwatarwa, yana ba da damar tsarawa daidai, zaɓin hankali tsakanin kayan shiga, da ingantawa ta ci gaba bisa abin da bayanan ke nuna yana aiki a zahiri. A cikin noma, inda farashin kayan aiki da kayan aiki ya yi nauyi, wannan ingantawar tana da tasiri mai girma a kan riba.",
+          "Ana iya rikodin kayan shiga na muhalli kamar ruwan sama da hasken rana tare da shisshigin kamar taki, ban ruwa, da kula da ƙwaro, tare da yawa da aka rikodin a matsayin fita. Tare da lokaci, tsare-tsare suna bayyana tsakanin kayan shiga, shisshigi, da sakamakon, suna ba da labari ga mafi kyaun shawarwari tare da kowane zagaye. Inda ayyuka da yawa suka raba tsarin aiwatarwa, wannan hankali yana ƙaruwa har ma.",
+          "Ga ƙungiyoyin da ke tattara albarkatun da ilimi, Merit yana ba da ababen more rayuwa na aiki don yin wannan raba tsari da dogara akan bayanan."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Ababen Kayan Jama'a",
+        "content": [
+          "Ayyukan ababen kayan hukumomi suna ɗaukar rikitarwar daidaitawa na masu kwangila, kayan aiki, hanyoyin ƙa'idoji, da jadawalin shekaru da yawa, duka a ƙarƙashin tsananin kallo na jama'a da buƙatun ɗaukar alhakin.",
+          "Merit yana ba da gani guda don isar da ababen kayan, daga tsarawa na farko ta kammala. Ko ginin hanyoyi, makarantu, sabis na jama'a, ko kayan jama'a, hukumomi na iya bin diddigin yadda mutane, hanyoyin aiki, da albarkatun ke gudana tare don isar da ababen kayan jama'a masu muhimmanci.",
+          "Tare da kowace ayyukan masu kwangila, isar da kayan aiki, da hanyar tsari a bayyane a dandali guda, ƙungiyoyin hukumomi suna samun gaskiya da ake buƙata don ɗaukar alhakin jama'a yayin da suke kiyaye sarrafa aiki a kan ayyuka masu rikitarwa tare da masu ruwa da tsaki da yawa.",
+          "Merit yana ba da damar hukumomi isar da ababen kayan mafi inganci, nuna kula da alhakin albarkatun jama'a, da gina ingantawa mai tsari cikin kowace aiki, ba tare da la'akari da nau'in ababen kayan da ake isar da shi ba."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Ba da Shawara / Ayyukan Ƙwararru",
+        "content": [
+          "Kowace ƙungiya, ba tare da la'akari da masana'antu ba, ta fi amfani da hanyoyin aiki, mutane, da kayan abinci don isar da kayan aikin. Merit yana nuna wannan gaskiyar ta duniya, yana daidaita dukkan isar da cikin waɗannan gudanar da ayyukan asali.",
+          "Ga kamfanonin ayyukan ƙwararru, hakan yana nufin ainihin saukin aiki a duk yankuna. Ko kuna aiki tare da tsarin kiwon lafiya, masana'antu, ko cibiyoyin kuɗi, Merit yana ba da tsarin guda saboda koyaushe kuna mu'amala da ginin ƙungiya na asali guda, kawai an tsara su daban.",
+          "Hakan yana kawar da tsarin koyo na yau da kullum na fahimtar nuances da kalmomi na takamaiman masana'antu. Masu ba da shawara na iya motsi cikin sauƙi tsakanin mahallin abokan ciniki saboda Merit yana ɓoye rikitarwar yankuna, yana ba ku damar mayar da hankali kan inganta injunan aiki na ƙasa wanda ya dace da dukkan ƙungiyoyi.",
+          "Daga yin tsarin abokin ciniki zuwa bin diddigin aiwatarwa, Merit yana ba da damar kamfanonin ayyukan ƙwararru su aiki tare da inganci da ƙwarewa guda a kowace kasuwanci, ba tare da la'akari da masana'antu ko yankuna na abokin ciniki ba."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Ga yadda Merit ke kawo bayyanawa ga yadda aiki ke faruwa a gaske.",
+    "body1": "Koyi yadda muke haɗa aiwatarwa, basira, da ingantawa a tsari guda na aiki.",
+    "body2": "Ko kuna jagorantar dabarar ko sarrafa isar da, Merit yana ba ku gani don aiki da kwarin gwiwa, da tsari don faɗaɗawa da wayo.",
+    "bullets": ["Ga Merit yana aiki", "Samun demo na musamman", "Ƙwarewar ikon Merit"],
+    "formTitle": "Tsara Demo",
+    "formSubtitle": "Cika fom kuma ɗayan ƙungiyar mu zai tuntuɓe ku don shirya demo na dandali a lokacin da ya dace muku.",
+    "formSubject": "Buƙatar Demo"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Game da Merit",
+      "subtitle": "Abin more rayuwa wanda ke bayyana gudummawa, auna aiki, da sanya lada ya kasance adalci."
+    },
+    "body": "Merit yana wanzuwa don haɗa aiwatarwa da sakamako a duk ayyuka. Lokacin da aiki ya kasance a fili kuma ana iya bin diddigin gudummawa, ƙungiyoyi sun daina dogara da alaƙa da siyasa don kimanta aiki. Sakamako yana magana da kansa.",
+    "vision": {
+      "title": "Ganin namu",
+      "content": "Ƙungiyoyi inda abubuwan ƙarfafawa sun daidaitu, daidaici na dama, kuma ingantawa yana aunawa kuma na gaske."
+    },
+    "mission": {
+      "title": "Manufarmu",
+      "content": "Don isar da dandali guda na aiwatarwa wanda ke sanya aiki a bayyane, yana kawar da nauyin daidaitawa, kuma yana ba wa kowace ƙungiya bayanai don aiki da kwarin gwiwa."
+    },
+    "sections": {
+      "origin": {
+        "title": "Inda Muka Fara",
+        "content": [
+          "Merit ya fara a matsayin tambaya: ta yaya za ka zana yanayin gaske na rikitarwa ta hanyar da ke da ma'ana? Amsar ta fito daga lura mai sauƙi: kowace isar da, komai yawanta ko rikitarwarta, tana jimillar matakai masu yawa. A kowane mataki, mutane suna amfani da kayan aiki kuma suna aiki da kayan zuwa cikin kayan aikin da ke kan hanya zuwa kammala. Wannan tsari yana zama shirin. Tsarin kowace isar da rukunin sa ne, ɗaya da za mu iya bin diddigin, auna, da kimanta. Daga wannan tushe mai sauƙi, wata fahimtar ƙarfi game da abubuwan asali na yadda kowace ƙungiya ke aiki ta girma."
+        ]
+      },
+      "definition": {
+        "title": "Me Merit Ke Nufi",
+        "content": [
+          "Merit, a gare mu, ba ma'auni na dindindin ba ne. Shine komai ƙungiya da abokan cikinta suka yanke shawarar daraja. Sauri, carbon, farashin, inganci, aminci: nauyin da kowane ke ɗauka zaɓi ne, kuma wannan zaɓin yana mallakar ƙungiya. Da zarar an bayyana waɗannan zaɓuɓɓuka a matsayin ƙa'idoji masu aunawa a duk tsarin isar da, kayan aiki, mutane, da kayan da suka fi aiki da kyau a kansu sun zama a bayyane. Za a iya zaɓar su, haɓaka su, da yabo su. Kuma kowace mai ba da gudummawa a cikin yanayin, daga masu aiwatarwa ɗaiɗai zuwa masu ƙera kayan aiki da masu samar da kayan, ya fahimci cewa lada yana da alaƙa da aiki a kan waɗannan ƙa'idoji. Dabarar hankali ta zama ingantawa, ba kusancin masu yanke shawara ba."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Yi Magana da Mu.",
+      "body": "Muna amsa kowace tambaya kai tsaye. Gaya mana abin da kuke aiki a kai kuma za mu ci gaba daga nan.",
+      "formTitle": "Tuntuɓe Mu",
+      "formSubject": "Tambaya ta Gaba Ɗaya",
+      "formSubtitle": "Cika fom kuma ɗayan ƙungiyar mu zai tuntuɓe ku don tattauna tambayar ku."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Bayanan Merit da Labarai",
+      "content": [
+        "Bincika yadda ƙungiyoyi ke gina tsarin aiki mafi wayo tare da Merit.",
+        "Daga labarun nasarar abokan ciniki zuwa bayanan dabarar da sabuntawar kayan aiki, anan ne muke raba abin da ke aiki, abin da ke canzawa, da abin da ke zuwa a gaba a basirin aiki."
+      ]
+    },
+    "tabs": {
+      "all": "Dukkan Abun Ciki",
+      "blog": "Labarin Merit",
+      "caseStudies": "Nazarin Harka",
+      "pressReleases": "Sanarwar Jama'a",
+      "productUpdates": "Sabuntawar Kayan Aiki"
+    }
+  }
+}

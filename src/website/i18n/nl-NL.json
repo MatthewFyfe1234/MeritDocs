@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Demo Boeken",
+    "contactSales": "Contact Verkoop",
+    "learnMore": "Meer Ontdekken →",
+    "contentFooter": {
+      "title": "Operationele helderheid. Ethische integriteit. Betere resultaten.",
+      "subtitle": "Vraag een rondleiding aan en zie hoe Merit u kan helpen complexiteit om te zetten in helderheid."
+    },
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "company": "Bedrijf",
+      "position": "Functie",
+      "message": "Bericht",
+      "send": "Aanvraag Versturen",
+      "success": "Uw bericht is verzonden!",
+      "error": "Fout bij het verzenden van e-mail. Probeer het opnieuw.",
+      "validation": {
+        "nameRequired": "Naam is verplicht.",
+        "nameInvalid": "Ongeldig naamformaat.",
+        "emailRequired": "E-mail is verplicht.",
+        "emailInvalid": "Ongeldig e-mailadres.",
+        "companyRequired": "Bedrijf is verplicht.",
+        "positionRequired": "Functie is verplicht.",
+        "messageRequired": "Bericht is verplicht.",
+        "messageTooShort": "Het bericht moet minimaal 10 tekens bevatten."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Waarom Merit",
+    "platform": "Platform",
+    "useCases": "Toepassingen",
+    "teams": "Teams",
+    "values": "Waarden",
+    "company": "Bedrijf",
+    "bookDemo": "Demo Boeken",
+    "subMenus": {
+      "whyMerit": {
+        "title": "De Casus",
+        "theProblem": "Het Probleem",
+        "theSolution": "De Oplossing",
+        "theAdvantage": "Het Voordeel"
+      },
+      "platform": {
+        "title": "Mogelijkheden",
+        "businessIntelligence": "Business Intelligence",
+        "processMapping": "Proceskaarten",
+        "projectManagement": "Projectbeheer",
+        "documentManagement": "Documentbeheer",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Resourceplanning"
+      },
+      "useCases": {
+        "title": "Sectoren",
+        "manufacturing": "Productie",
+        "construction": "Bouw",
+        "healthcare": "Gezondheidszorg",
+        "disasterManagement": "Incidentrespons",
+        "miningAndResources": "Mijnbouw en Grondstoffen",
+        "agriculture": "Landbouw",
+        "publicInfrastructure": "Publieke Infrastructuur",
+        "consultingProfessionalServices": "Advies/Professionele Diensten"
+      },
+      "teams": {
+        "title": "Rollen",
+        "leadership": "Leiderschap",
+        "operations": "Operaties",
+        "projectManagement": "Projectbeheer",
+        "humanResources": "Human Resources",
+        "sales": "Verkoop",
+        "marketing": "Marketing",
+        "finance": "Financiën"
+      },
+      "values": {
+        "title": "Ethiek",
+        "operationalEthics": "Operationele Ethiek",
+        "esg": "ESG",
+        "culturalIntegrity": "Culturele Integriteit"
+      },
+      "company": {
+        "title": "Over Ons",
+        "ourMission": "Onze Missie",
+        "whoWeAre": "Wie We Zijn",
+        "whatWereBuilding": "Wat We Bouwen",
+        "contactUs": "Neem Contact Op"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Alle rechten voorbehouden.",
+    "terms": "Voorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "cookiePolicy": "Cookiebeleid",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Het Uniforme Besturingssysteem voor Uw Organisatie",
+      "subtitle": "Een volledig digitaal model van uw organisatie, verfijnd bij elke levering. Voor scherpere planning, snellere coördinatie en verbeterde uitvoering in elke functie.",
+      "tagline": "Eén platform dat projectbeheer, proceskaarten, CPQ, CRM, business intelligence, documentbeheer, HR en personeelsbeheer verbindt via een enkel operationeel model dat verbetert bij elke levering."
+    },
+    "contextualiser": {
+      "title": "De Waarde van Eenheid",
+      "p1": "Wanneer iedereen vanuit hetzelfde uitvoeringsmodel werkt, wordt het gemakkelijker om te zien hoe het werk wordt gedaan, wie bijdraagt en wat resultaten aandrijft.",
+      "p2": "Het betekent ook dat gegevens niet langer in functies verdwijnen. Verkoop ziet wat levering werkelijk kost. Financiën ziet waar schattingen zijn uitgelopen. Wanneer iemand vertrekt, blijft de kennis die ze droegen in het model.",
+      "p3": "Hoe langer u op één uitvoeringsregistratie draait, hoe nauwkeuriger u het volgende project kunt plannen, bemannen en prijsstellen."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Business Intelligence",
+        "title": "Verander inzicht in actie",
+        "description": "Fractale, procesgeïntegreerde business intelligence stelt u in staat kansen te identificeren, prestaties te monitoren en geïnformeerde besluitvorming in uw organisatie te stimuleren."
+      },
+      "processMapping": {
+        "header": "Proceskaarten",
+        "title": "Visualiseer uw processen",
+        "description": "Definieer en bekijk processen op verschillende detailniveaus met onze Google Maps-stijl interface, voor helderheid en afstemming tussen teams en functies."
+      },
+      "projectManagement": {
+        "header": "Projectbeheer",
+        "title": "Stroomlijn uw projecten",
+        "description": "Plan projecten op basis van productspecificaties, coördineer vervolgens met onze unieke tools om uitvoeringstijden en resourcebehoeften te voorspellen op basis van historische gegevens."
+      },
+      "resourcePlanning": {
+        "header": "Resourceplanning",
+        "title": "Optimaliseer de tijd van uw organisatie",
+        "description": "Modelleer mensen, vaardigheden, tools, beschikbaarheid en kosten om capaciteit rechtstreeks te koppelen aan operationele vraag en gepland werk."
+      },
+      "documentManagement": {
+        "header": "Documentbeheer",
+        "title": "Structureer de kennis die resultaten aandrijft",
+        "description": "Plaats documenten naast de mensen, voorraadartikelen, projecten of processtappen waarop ze betrekking hebben voor een natuurlijke organisatie en gemakkelijke ontdekking."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Vereenvoudig complexiteit zonder precisie te verliezen",
+        "description": "Maak specificaties binnen de beperkingen van een masterproduct om aan te sluiten bij uw branche en bedrijfscapaciteiten. Configureer materiaal- en prijsregels dienovereenkomstig en genereer tijdschattingen op basis van historische projectgegevens."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Sluit de cirkel bij elke levering",
+        "description": "Leg klantfeedback vast na elke levering en koppel het direct aan de processtappen en resources die het hebben geproduceerd. Patronen over leveringen worden in de loop van de tijd zichtbaar, waardoor feedback een duidelijk signaal wordt voor proces- en resourceverbetering."
+      }
+    },
+    "ethics": {
+      "title": "Verantwoording by Design",
+      "p1": "Merit maakt absolute transparantie in het werk mogelijk, met machtigingen en governance op bedrijfsniveau.",
+      "p2": "Wanneer werk zichtbaar is, bijdragen traceerbaar zijn en resultaten meetbaar zijn, ontgrendelen organisaties niet alleen prestaties maar ook vertrouwen.",
+      "p3": "Merit verbindt levering aan beslissingen met duidelijke governance, zodat erkenning consistent is, inspanning zichtbaar is en beloningen eerlijk zijn.",
+      "cta": "Ontdek hoe ethiek integraal is aan het platform →"
+    },
+    "meritConcept": {
+      "title": "Merit op Uw Voorwaarden",
+      "content": [
+        "Het platform definieert verdienste niet voor u. Het is wat uw organisatie en haar klanten beslissen dat excellentie eruitziet, meetbaar gemaakt op elk niveau van het proces.",
+        "Elke meetwaarde, elke formule en elke KPI vloeit voort uit criteria die de organisatie stelt ten opzichte van het model. De definitie van een goed uitgevoerde levering van een fabrikant verschilt van die van een zorgverlener. De verwachtingen van een klant bij een complex engagement verschillen van een routinematige. Het platform accommodeert dit alles, omdat de definitie van verdienste in het model leeft, niet in de software.",
+        "Dat is ook wat afstemming mogelijk maakt. Wanneer de criteria die voor de klant belangrijk zijn worden weerspiegeld in het procesmodel, kunnen de mensen die het werk uitvoeren zien wat goed eruitziet vanuit hun positie. En wanneer elke levering is voltooid, sluit de feedback de cirkel en verbindt de ervaring van de klant terug aan de stappen die het hebben geproduceerd."
+      ]
+    },
+    "howMeritWorks": {
+      "title": "Hoe Merit Werkt",
+      "subtitle": "Registreer elke levering tegen een gedeeld model. Elk voltooid project scherpt de volgende schatting aan, verbetert de planningskwaliteit en voegt toe aan een operationeel register dat in het systeem blijft wanneer mensen vertrekken.",
+      "model": {
+        "title": "Modelleer",
+        "description": "Definieer uw product in al zijn variaties en koppel het aan een bijbehorend proces, inclusief de vaardigheden, tools en materialen die worden gebruikt om het te leveren."
+      },
+      "execute": {
+        "title": "Uitvoeren",
+        "description": "Voer projecten uit tegen het model. Volg afwijkingen in realtime. Houd elk team, tool en taak verbonden aan hetzelfde beeld."
+      },
+      "improve": {
+        "title": "Verbeteren",
+        "description": "Elke levering voedt terug in het model. Schattingen worden scherper, planningsoverhead vermindert en institutionele kennis accumuleert in het systeem in plaats van in mensen."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Het Probleem Dat de Moeite Waard Is Om Op te Lossen",
+      "p1": "Elke levering verloopt op dezelfde manier: een proces, uitgevoerd door mensen, met gebruik van tools en materialen. Maar de levering komt zelden overeen met het plan.",
+      "p2": "Dezelfde zes mislukkingen verschijnen in sectoren, organisaties en projecttypen. Merit is gebouwd om alle zes aan te pakken."
+    },
+    "theProblem": {
+      "title": "Zes Structurele Mislukkingen. Eén Hoofdoorzaak",
+      "subtitle": "Deze mislukkingen delen een gemeenschappelijke bron: geen gedeeld uitvoeringsregister, geen model dat leert, geen enkel beeld waaruit iedereen werkt.",
+      "failures": {
+        "measurability": {
+          "dimension": "Meetbaarheid",
+          "problem": "Prestaties worden gevoeld, niet vastgelegd.",
+          "detail": "Zonder een gedeeld uitvoeringsregister is verantwoording informeel, erkenning subjectief en verbetering giswerk."
+        },
+        "predictability": {
+          "dimension": "Voorspelbaarheid",
+          "problem": "Schattingen zijn bereiken, geen prognoses.",
+          "detail": "Elk project begint met ingebouwde onzekerheid. Er is geen model om uit te putten. Ervaring blijft in hoofden, niet in systemen."
+        },
+        "transparency": {
+          "dimension": "Transparantie",
+          "problem": "Voortgang is alleen achteraf zichtbaar.",
+          "detail": "Tegen de tijd dat een probleem in een rapport verschijnt, is het al duur. Afwijking wordt ontdekt, niet voorkomen."
+        },
+        "planning": {
+          "dimension": "Planning",
+          "problem": "Elk project begint van nul.",
+          "detail": "Teams herbouwen het plan en herontdekken de afhankelijkheden bij elk project. Niets wordt doorgegeven."
+        },
+        "evaluation": {
+          "dimension": "Evaluatie",
+          "problem": "Selectie is gebaseerd op relaties, niet op resultaten.",
+          "detail": "Zonder objectieve prestatiegegevens zijn de beste mensen onzichtbaar en worden verkeerde beslissingen herhaald."
+        },
+        "integration": {
+          "dimension": "Integratie",
+          "problem": "Gegevens zijn gesegregeerd per functie, kennis per persoon.",
+          "detail": "Verkoop ziet levering niet. Financiën ziet uitvoering niet. Wanneer mensen vertrekken, gaat institutionele kennis met hen mee."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "De Organisatie Die Verbetert Met Elk Project",
+      "p1": "Merit modelleert elke levering als een netwerk van uitvoerders (mensen en organisaties), voorraad en processtappen, waarbij elke uitvoering wordt geregistreerd tegen een mastermodel. Met elk voltooid project verbetert het model. Informeel oordeel wordt bewijs. Managementoverhead vermindert omdat het systeem coördinatie en rapportage afhandelt die eerder handmatig werd gedaan.",
+      "p2": "Elk voltooid project voegt toe aan een uitvoeringsregister dat specifiek is voor de organisatie. Dat register wordt de basis voor elke prognose, elke evaluatie en elke planningsbeslissing die volgt."
+    },
+    "theAdvantage": {
+      "title": "Waarde Over Elke Horizon",
+      "subtitle": "Merit levert rendementen op verschillende tarieven afhankelijk van hoe lang het heeft gedraaid.",
+      "horizons": {
+        "immediately": {
+          "label": "Onmiddellijk",
+          "headline": "Levering wordt traceerbaar.",
+          "detail": "Afwijkingen zijn in realtime zichtbaar. Projectplannen worden gegenereerd vanuit specificatie. Teams stoppen met het herbouwen van wat al bestaat."
+        },
+        "overTime": {
+          "label": "In de loop van de tijd",
+          "headline": "Het model verbetert bij elke uitvoering.",
+          "detail": "Prognoses worden nauwkeuriger naarmate het uitvoeringsregister groeit. Planning put uit echte geschiedenis in plaats van initiële schattingen, en het model weerspiegelt hoe de organisatie werkelijk presteert."
+        },
+        "enduringly": {
+          "label": "Blijvend",
+          "headline": "Een dataset die geen concurrent kan repliceren.",
+          "detail": "Een organisatie die jaren op Merit heeft gedraaid, heeft een uitvoeringsregister dat jaren diep is - specifiek voor haar processen, haar mensen en haar leveringsgeschiedenis. Dat register kan niet worden gerepliceerd door een concurrent die dezelfde software adopteert."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Een Uniform Systeem voor Operationele Intelligentie",
+      "content": ["Eén systeem. Totale zichtbaarheid. Eindeloze verbetering."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Business Intelligence",
+        "content": [
+          "Merit's business intelligence is ingebed in de proceskaart zelf. Prestatiegegevens verschijnen binnen de visualisatie op elk abstractieniveau - van het gehele-organisatieperspectief tot aan de individuele stap - zodat u begrijpt hoe het bedrijf presteert in de context van de processen die het aandrijven, niet in een apart rapportagetool.",
+          "Gegevens stromen van elk object in het systeem: uitvoeringsregisters, individuele profielen, voorraad, specificaties, agenda's. Deze bronnen kunnen worden weergegeven of wiskundig gecombineerd binnen het procesmodel. Geaggregeerde salarisgegevens van de mensen die een stap uitvoeren, gecombineerd met uitvoeringstijd, geven u werkelijke kostencijfers - op stapniveau, taakniveau, of over alle projecten gedurende een willekeurige periode.",
+          "Omdat elke gegevensbron kan worden geformuleerd voor elk knooppunt in het proces, is de analyse composeerbaar. Dezelfde structuur die de uitvoering regelt, wordt het raamwerk voor hoogwaardige, procesgeïntegreerde BI."
+        ]
+      },
+      "processMapping": {
+        "title": "Proceskaarten",
+        "content": [
+          "Merit brengt de operationele structuur van een organisatie in kaart op elk abstractieniveau - van organisatie- en teamweergaven tot individuele processtappen, en de specifieke toolmogelijkheden die bij elke stap vereist zijn. De kaart is driedimensionaal en volledig navigeerbaar: uitzoomen om het gehele-organisatieperspectief te zien, inzoomen op individuele operatoracties zonder de context te verliezen van hoe ze in het geheel passen.",
+          "Zelfs de meest complexe leveringssystemen kunnen worden gemodelleerd, verkend en begrepen. De kaart is live met uitvoeringsgegevens als overlay, zodat elk abstractieniveau weerspiegelt hoe de organisatie werkelijk presteert - geen statisch diagram.",
+          "Het procesmodel is niet beperkt tot uw organisatie. Het kan zich uitstrekken over uw hele leveringsecosysteem - partnerorganisaties in kaart brengen, hun deelname coördineren en prestatiegegevens over de hele keten verzamelen."
+        ]
+      },
+      "projectManagement": {
+        "title": "Projectbeheer",
+        "content": [
+          "Wanneer een order is bevestigd, wordt automatisch een projectplan gegenereerd vanuit het procesmodel. Planningen worden berekend op basis van prognoses die in het proces zijn gedefinieerd, verfijnd door historische uitvoeringsgegevens, en toewijzing van uitvoerders wordt automatisch afgehandeld op basis van individuele agenda's, ervaring en beschikbaarheid - met configuratietools en handmatige overschrijvingen beschikbaar gedurende het hele proces.",
+          "Voortgang wordt bijgehouden aan de hand van gedefinieerde vereisten: de op te leveren resultaten, de te registreren meetwaarden, de statuslabels die bij elke stap moeten worden ingesteld. Het systeem begeleidt de uitvoering zonder de controle weg te nemen.",
+          "Projecten kunnen worden bekeken in het automatisch gegenereerde Gantt-diagram of binnen de proceskaart zelf, met live status per organisatie, rol en individuele stap. Of u nu interne teams of onderaannemers coördineert, het beeld is altijd actueel en altijd in context."
+        ]
+      },
+      "documentManagement": {
+        "title": "Documentbeheer",
+        "content": [
+          "Documenten in Merit zijn verankerd aan de entiteit waartoe ze behoren - een processtap, een projectfase, een specificatie, een medewerker, een partnerorganisatie of een stuk apparatuur of materiaal. Conformiteitscertificaten, onderhoudsrecords of keuringsdocumenten bevinden zich op de exacte locatie waarop ze van toepassing zijn, niet in een losgekoppelde map.",
+          "Waar documenten vereist zijn zoals gedefinieerd in het procesmodel, bewaken ze de voortgang. Een stap kan niet vorderen totdat documentatie aanwezig is; een rol kan niet worden toegewezen totdat vereiste certificeringen zijn geverifieerd. Documentbeheer wordt niet apart van de operaties beheerd - het is ingebed in de manier waarop werk vooruitgaat."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Configureren, Prijsstellen, Offreren)",
+        "content": [
+          "Merit's CPQ is gebouwd rond de masterspecificatie: een volledige definitie van elke mogelijke variant binnen een producttype - alle materialen, configuraties, conditionals en beperkingen die de organisatie behandelt. Individuele specificaties zijn altijd subsets van deze master. Het definiëren van één impliceert een proces - de vereiste stappen, materialen en resources zijn al begrepen voordat een offerte wordt opgesteld.",
+          "Regels die tegen de master zijn gedefinieerd, encoderen de conditionele logica van het product. Eén keuze kan een andere impliceren, incompatibele opties uitsluiten of vereisten activeren - automatisch toegepast op het moment van configuratie. Verplichte descriptors kunnen worden afgedwongen om te zorgen dat elke specificatie volledig is voordat deze verder gaat. Kostenregels die tegen het proces zijn gedefinieerd, werken terug in de specificatie - en tonen de tijd, materialen, energie en koolstof die verband houden met een gegeven configuratie.",
+          "Zodra een specificatie is bevestigd, automatiseert Merit wat er daarna komt. Voorraad wordt ertegenaan beheerd, downstreamprojecten worden ervan gecoördineerd en teamselect maakt gebruik van de ervaring van de toewijzees en agendabeschikbaarheid. Overdrachten die eerder handmatige coördinatie vereisten, verlopen automatisch."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "Merit's CRM is gebouwd rondom de levering zelf, niet de pipeline. Nadat een specificatie is uitgevoerd, wordt klantfeedback verzameld en direct toegeschreven aan de stappen en componenten van het project dat het heeft geleverd. Een kwaliteitsprobleem, een vertraging of een hoogtepunt kan elk worden teruggevoerd naar precies waar in het proces het is ontstaan.",
+          "Die attributie maakt onderzoek eenvoudig en patroonanalyse zinvol. Feedback aggregeert over leveringen, zodat terugkerende problemen bij een bepaalde stap of met een bepaalde resource in de loop van de tijd zichtbaar worden. Periodiek bekeken wordt het een duidelijk signaal voor waar het proces, de specificatie of de resourcebezetting aandacht nodig heeft.",
+          "Omdat het binnen hetzelfde systeem als uitvoering zit, is er geen import, geen vertaling en geen disconnect tussen wat is geleverd en wat de klant erover heeft gezegd."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Resourceplanning",
+        "content": [
+          "Merit is een uniform systeem voor mensen, organisaties, materialen en processen. Vaardigheden, certificeringen, beschikbaarheid, kosten en prestatieregistraties zijn allemaal opgeslagen in hetzelfde model dat de uitvoering regelt - zodat dezelfde structuur die wordt gebruikt om projecten te draaien ook wordt gebruikt om resources te plannen.",
+          "BI-benuttingsweergaven laten zien hoe mensen en organisaties werkelijk worden ingezet, over projecten heen en in de loop van de tijd. Tekorten, overallokaties en onderbenut vermogen worden zichtbaar voordat ze problemen worden.",
+          "Omdat resourcegegevens leven in het uitvoeringsmodel - niet in een apart HR- of personeelsplanningssysteem - kan Merit hiaten signaleren voordat ze problemen worden. Aankomende projectvraag kan worden afgezet tegen beschikbare capaciteit, en het systeem signaleert hiaten voordat commitments worden gemaakt."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Ethiek en Impact",
+      "content": [
+        "Wanneer uw systeem verdienste kan identificeren aan elke maatstaf, zijn eerlijkheid en duurzaamheid geen aspiraties meer. Ze worden natuurlijke bijproducten van betere zakelijke beslissingen.",
+        "Merit helpt organisaties verspilling te verminderen, vooroordelen te elimineren en te erkennen wat werkelijk resultaten aandrijft.",
+        "Jaag geen ethische resultaten na. Maak ze onvermijdelijk."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "U beslist wat belangrijk is, Merit helpt u daarvoor te optimaliseren",
+      "cards": {
+        "transparency": {
+          "title": "Transparantie en Verantwoording",
+          "description": "Merit maakt acties en beslissingen traceerbaar, waardoor organisaties ethische normen kunnen handhaven door duidelijke governance, proceszichtbaarheid en gestructureerd toezicht op elk niveau van het bedrijf."
+        },
+        "recognition": {
+          "title": "Eerlijke Erkenning en Beloning",
+          "description": "Door bijdrage aan resultaten te koppelen, stelt Merit u in staat erkenning te baseren op werkelijke impact door eerlijkheid te bevorderen, vooroordelen te verminderen en een cultuur te ondersteunen waar inspanning zichtbaar is en gewaardeerd wordt."
+        },
+        "integrity": {
+          "title": "Systeemintegriteit en Vertrouwen",
+          "description": "Merit biedt een betrouwbaar operationeel kader dat ambiguïteit wegneemt, consistentie afdwingt en vertrouwen opbouwt in hoe werk wordt gemeten, beslissingen worden genomen en voortgang wordt geëvalueerd."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG by Design",
+      "content": [
+        "Elke meetbare input, van energie en brandstof tot materialen en water, kan worden vastgelegd op stapniveau en worden geformuleerd voor procesknooppunten in het uitvoeringsregister. Milieukosten worden niet geschat op projectniveau; ze zijn traceerbaar tot de specifieke stappen en resources die ze hebben gegenereerd. In de loop van de tijd onthult het register welke resources en praktijken de minste afval per uitkomst genereren, waardoor milieuvverbetering evidence-based wordt in plaats van aspirationeel.",
+        "Omdat bijdrage wordt gevolgd in de stroom van het werk, weerspiegelt erkenning wat er werkelijk is gebeurd, niet nabijheid tot management of zelfgerapporteerde activiteit. Wanneer het systeem het bewijs genereert, vermindert de kans op vooroordelen structureel. Dezelfde uitvoeringsdata die operationele beslissingen aandrijft, drijft ook personeelsbeslissingen aan.",
+        "Stagepoorten die in het procesmodel zijn ingebouwd, voorkomen dat werk voortgaat totdat de vereiste documentatie aanwezig is. Toegangscontroles bepalen wie welke meetwaarden en configuraties kan zien. Elke actie die wordt uitgevoerd tegen een uitvoering wordt geregistreerd. Governance is geen rapportagelaag die achteraf wordt toegevoegd. Het is ingebed in de manier waarop werk vooruitgaat."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Afstemming by Design",
+      "content": [
+        "Wanneer erkenning volgt op wat het uitvoeringsregister laat zien, niet wat mensen rapporteren of wie ze kennen, stemmen individuele prikkels en organisatiedoelen op natuurlijke wijze overeen. Er is geen voordeel in het beheren van verschijningen, het hamsteren van kennis, of het positioneren boven levering.",
+        "Die afstemming komt voort uit structuur, niet uit cultuurprogramma's. Omdat prestatiedata uit het werk zelf vloeit, worden omstandigheden zoals vriendjespolitiek, kennishamstering en de disconnect tussen inspanning en beloning verwijderd in plaats van omheen gemanaged.",
+        "Wanneer mensen consequent zien dat bijdrage eerlijk wordt gemeten en dienovereenkomstig wordt beloond, versterkt gedrag dit. Een cultuur van integriteit wordt de natuurlijke uitkomst van een systeem dat integriteit de weg van de minste weerstand maakt."
+      ]
+    },
+    "compliance": {
+      "title": "Van Compliance naar Concurrentievoordeel",
+      "content": [
+        "Ethische prestaties zouden geen aspiratie of bijgedachte moeten zijn, het zou de natuurlijke output moeten zijn van hoe een bedrijf werkt. Merit maakt dit mogelijk door ethische afstemming te integreren in het weefsel van dagelijkse activiteiten.",
+        "Wanneer prestaties objectief worden gemeten en waarde systematisch naar boven komt, wordt eerlijkheid consistent, is verantwoording automatisch en volgen betere resultaten. Een cultuur die ethisch opereert door ontwerp is niet alleen goed bestuur, het is een strategisch voordeel."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "Gebouwd voor Elke Rol",
+      "content": [
+        "Van strategie tot uitvoering geeft Merit leiders, operators en bijdragers een gedeeld beeld van hoe het werk werkelijk verloopt.",
+        "Zie hoe Merit elke rol in uw organisatie ondersteunt."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Één Systeem, Elk Perspectief",
+      "content": [
+        "In de meeste organisaties verdwijnen twee dingen stilletjes: gegevens in functies en kennis in mensen. Verkoop weet niet wat levering werkelijk kost. Financiën weet niet waar schattingen zijn uitgelopen. Wanneer een ervaren uitvoerder vertrekt, gaan de patronen die ze herkenden mee. Merit's uitvoeringsregister is het antwoord op beide.",
+        "Elke rol op deze pagina werkt vanuit dezelfde onderliggende data: hetzelfde uitvoeringsregister, hetzelfde procesmodel, dezelfde mensen en resources. Wat verandert is de aggregatie. Een projectmanager ziet tijdlijnen en afhankelijkheden; HR ziet bijdrage- en prestatiepatronen; financiën ziet kosten en gebruik. Verschillende lenzen, één systeem.",
+        "En voor het productleveringsteam? Omdat het procesmodel in kaart brengt welke taken afhangen van welke outputs, zijn onderlinge afhankelijkheden vanaf dag één expliciet. Geen enkele rol werkt vanuit een deelplaatje, en geen enkele overdracht is afhankelijk van iemand die onthoudt dit te communiceren."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Leiderschap",
+        "content": [
+          "De meeste leiders werken tussen statusupdates door en zien een momentopname van waar dingen waren, niet waar ze zijn. In Merit is het uitvoeringsregister live omdat werk wordt vastgelegd terwijl het plaatsvindt. Voortgang, afwijkingen, resourcedruk en prestaties zijn altijd actueel, zonder dat iemand een rapport voorbereidt.",
+          "Dat verandert de aard van leiderschapsbeslissingen. Problemen zijn vroeg genoeg zichtbaar om op te handelen. Resourcebeperkingen komen naar boven voordat ze vertragingen worden. En prestatiegegevens weerspiegelen wat er werkelijk is gebeurd, niet wat er is gerapporteerd.",
+          "En omdat elke meetwaarde teruggaat naar hetzelfde procesmodel, kunnen leiders tussen het grote geheel en het granulaire detail bewegen zonder van systeem te wisselen of context te verliezen. Als een getal er vreemd uitziet, kunt u het volgen tot de stap die het heeft geproduceerd."
+        ]
+      },
+      "operations": {
+        "title": "Operaties",
+        "content": [
+          "Operaties is verantwoordelijk voor hoe werk door de organisatie stroomt, en dat is precies wat het procesmodel aan het licht brengt. Waar werk zich opstapelt, waar overdrachten vastlopen en waar capaciteit wordt uitgerekt zijn allemaal in realtime zichtbaar. Wanneer een patroon zich herhaalt over projecten heen, wordt het een procesmatig probleem in plaats van een eenmalige situatie, en kan het model worden bijgewerkt zodat de verbetering in elke toekomstige uitvoering doorsijpelt. Het uitvoeringsregister laat ook zien welke resources het beste presteren bij welke stappen, waardoor operaties het bewijs heeft om bewezen resources te prefereren en het geval voor investering te onderbouwen waar er hiaten bestaan.",
+          "Omdat het procesmodel upstream- en downstreamafhankelijkheden in kaart brengt, en CRM-data interne uitvoering verbindt met klantresultaten, kunnen beslissingen over resources en processen vanuit elk hoek in de keten worden onderzocht. Formules kunnen worden gedefinieerd voor elke combinatie van data in het model, zodat het beeld nooit beperkt is tot één enkele meetwaarde. Die breedte is wat de data werkelijk nuttig maakt voor beslissingen, in plaats van iets wat in isolatie kan worden geoptimaliseerd."
+        ]
+      },
+      "projectManagement": {
+        "title": "Projectbeheer",
+        "content": [
+          "Een aanzienlijk deel van de tijd van een projectmanager gaat naar werk dat het project zelf niet vereist: schema's van nul opbouwen, beschikbaarheid najagen, opnieuw scopepen wanneer iets uitloopt. In Merit wordt het projectplan gegenereerd vanuit het procesmodel, worden schema's berekend vanuit historische uitvoeringsdata en wordt toewijzing van uitvoerders gedaan op basis van live agenda's en ervaring. De steiger is er al.",
+          "Dat stelt de projectmanager vrij om zich te concentreren op de levering zelf. Voortgang wordt bijgehouden aan de hand van gedefinieerde vereisten bij elke stap, afwijkingen zijn zichtbaar zodra ze optreden en het Gantt-diagram wordt automatisch bijgewerkt naarmate de uitvoering zich ontvouwt. Elk voltooid project voegt ook toe aan het uitvoeringsregister, zodat het volgende project begint met betere prognoses en minder herplanning van nul.",
+          "Het systeem handelt ook een categorie risico's af die de meeste tools aan het geheugen van de projectmanager overlaten. Beschikbaarheid van uitvoerders houdt rekening met geplande verlof en trainingsevenementen. Toewijzing controleert of vereiste certificeringen en documenten aanwezig zijn voordat het werk begint. En in het procesmodel ingebouwde stagepoorten betekenen dat bepaalde stappen niet verder kunnen zonder de vereiste documentatie. De voorwaarden voor een schone levering worden afgedwongen door het systeem, niet in iemands hoofd bewaard."
+        ]
+      },
+      "humanResources": {
+        "title": "Human Resources",
+        "content": [
+          "Voor HR verwijdert Merit de kloof tussen wat mensen doen en wat wordt erkend. Omdat bijdrage wordt gevolgd in de stroom van het werk in plaats van achteraf beoordeeld, weerspiegelen prestatiegegevens wat er werkelijk is gebeurd, niet nabijheid tot management of zelfgerapporteerde activiteit.",
+          "Nieuwe teamleden beginnen met volledige procescontext al aanwezig: de stappen waarvoor ze verantwoordelijk zijn, de vereiste documenten en certificeringen, en hoe hun rol verbonden is met de rest van de organisatie. Trainingsmateriaal is direct verankerd aan het werk, zodat begeleiding beschikbaar is waar het nodig is, niet in een apart systeem.",
+          "Meetwaarden die zijn vastgelegd voor individuen stromen via het procesmodel naar KPI's, op stap-, taak-, project- of organisatieniveau, over elke gewenste periode. Toegangscontroles bepalen welke meetwaarden en berekeningen elke rol kan zien, zodat gevoelige data de juiste mensen bereikt zonder het bredere prestatieperspectief te beperken. Op stapniveau wordt prestaties specifiek genoeg om de mensen die dat nodig hebben te ondersteunen en te ontwikkelen, en om diegenen die uitblinken nauwkeurig te erkennen."
+        ]
+      },
+      "sales": {
+        "title": "Verkoop",
+        "content": [
+          "De meeste verkoopprocessen creëren een kloof tussen wat is afgesproken en wat levering ontvangt. De offerte staat in één document, de briefing in een andere, en het dichten van de kloof vereist heruitleg, heronderhandeling, of beide. Tegen de tijd dat de klant bevestigt, begint het leveringsteam vanuit een deelplaatje.",
+          "In Merit is de specificatie zowel de offerte als de instructie voor levering. Een masterspecificatie codeert elke configuratie, beperking en prijsregel voor een producttype. Verkoop configureert binnen die structuur en ziet kostenimplicaties in realtime, zonder elke schatting terug te sturen naar operaties. Wanneer de klant bevestigt, wordt het project direct vanuit de specificatie gegenereerd. Er hoeft niets te worden vertaald.",
+          "Klantfeedback van eerdere leveringen wordt toegeschreven aan de stappen en componenten die het hebben geproduceerd en staat naast de rest van het klantdossier. Voordat een vergelijkbaar engagement wordt geoffreerd, kan verkoop zien hoe vergelijkbare eerdere leveringen hebben gepresteerd. Bij een gesprek met een terugkerende klant is het gesprek geworteld in wat er werkelijk is gebeurd."
+        ]
+      },
+      "marketing": {
+        "title": "Marketing",
+        "content": [
+          "De meeste marketingpositionering is gebaseerd op aannames over waar het bedrijf goed in is. In Merit heeft marketing toegang tot het daadwerkelijke uitvoeringsregister: waar de organisatie consistent goed presteert, welke resources en processen de beste resultaten opleveren, en wat klantfeedback zegt over elke levering. De boodschap kan worden gebaseerd op aangetoonde sterke punten in plaats van beweerde.",
+          "De CRM-feedbacklus voegt een andere dimensie toe. Omdat klantfeedback wordt toegeschreven aan de specifieke stappen en componenten van elke levering, kan marketing niet alleen zien of klanten tevreden waren, maar ook wat die tevredenheid specifiek heeft aangedreven. In de loop van de tijd ontstaan patronen die zowel de positionering als het soort werk dat het bedrijf meer zou moeten zoeken informeren.",
+          "Dat verbindt marketing met strategie. Wanneer doelklantenprofielen worden begrepen in relatie tot wat de organisatie daadwerkelijk het beste levert, wordt de kloof tussen wat marketing belooft en wat levering produceert smaller. De afstemming werkt beide kanten op: uitvoeringsdata scherpt de boodschap aan, en doelklantenprofielen bepalen waarvoor uitvoering zou moeten optimaliseren."
+        ]
+      },
+      "finance": {
+        "title": "Financiën",
+        "content": [
+          "Financiën ontvangt financiële gegevens doorgaans achteraf, in een format dat toont wat er is uitgegeven maar niet waarom. Het afstemmen van werkelijke kosten op het projectplan betekent teruggaan door aparte systemen om te begrijpen waar de afwijking is ontstaan.",
+          "In Merit is de kostprijs ingebed in het uitvoeringsregister zelf. Salarisgegevens, materiaalkosten en uitvoeringstijd bevinden zich naast hetzelfde procesmodel dat de levering regelt. Formules kunnen die bronnen combineren voor elk knooppunt in het model, van een enkele stap tot een volledig projecttype, over elke gewenste periode. Het resultaat is een kostprijsperspectief dat direct teruggaat naar waar het geld naartoe ging.",
+          "Omdat elke levering toevoegt aan het uitvoeringsregister, verbeteren financiële prognoses in de loop van de tijd. Schattingen voor toekomstige projecten worden ontleend aan de werkelijke leveringsgeschiedenis, zodat de kloof tussen plan en eindkosten smaller wordt naarmate het register groeit. Financiën hoeft niet te wachten op maandafsluiting om te zien waar projecten staan. Het beeld is live."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Waar Merit Levert",
+      "content": [
+        "Elke organisatie is anders. Maar de waarde van het kunnen samenkomen rond een gedeeld perspectief is universeel.",
+        "Merit is ontworpen om zich aan te passen aan complexe ecosystemen en brengt zichtbaarheid, afstemming en inzicht naar sectoren waar resultaten afhangen van coördinatie, nauwkeurigheid en prestaties op schaal.",
+        "Ontdek hoe Merit slimmere werksystemen ondersteunt in sleutelsectoren."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Productie",
+        "content": [
+          "Complexe processen, gefragmenteerde tools en resource-intensieve operaties maken zichtbaarheid en coördinatie een dagelijkse uitdaging in de productie.",
+          "Merit unificeert mensen, materialen en workflows in één operationeel systeem waarmee fabrikanten realtime inzicht krijgen in proceszondheid, resourcegebruik en leveringsprestaties.",
+          "Van de werkvloer tot de toeleveringsketen, volg elke actie, onthul elk knelpunt en meet elke verbetering in één platform. Met Merit kunnen productieteams systemen eindeloos optimaliseren en prestaties afstemmen op zowel strategische doelen als frontline werk."
+        ]
+      },
+      "construction": {
+        "title": "Bouw",
+        "content": [
+          "Mogelijk het meest complexe productleveringsecosysteem dat er is, dat enorme hoeveelheden materialen, regelgeving, vaardigheden en omgevingen samenbrengt. Toch werken de meeste bedrijven nog steeds met gefragmenteerde tools en losgekoppelde workflows, waardoor coördinatie en zichtbaarheid een constante uitdaging zijn.",
+          "Merit biedt een live systeem voor het plannen, volgen en verbeteren van uitvoering gedurende de hele projectlevenscyclus. Van pre-bouw coördinatie tot on-site levering, teams kunnen rollen, workflows en planningen in één platform afstemmen, met ingebedde documentatie, kostprijsberekening en voortgangsregistratie.",
+          "Door planning in realtime te koppelen aan prestaties, helpt Merit bouwbedrijven herwerk te verminderen, kosten te beheersen en voorspelbaarder te leveren, zelfs naarmate projecten evolueren."
+        ]
+      },
+      "healthcare": {
+        "title": "Gezondheidszorg",
+        "content": [
+          "Patiëntresultaten hangen af van talloze genuanceerde factoren, van complexe comorbiditeiten tot sociale determinanten, maar de meeste gezondheidszorgsystemen worstelen om deze patiëntomstandigheden op betekenisvolle manieren te koppelen aan zorgverlening en resultaten.",
+          "Merit legt de volledige complexiteit van patiëntprofielen vast en volgt hoe specifieke omstandigheden interacteren met zorgprocessen, zorgverleners en resultaten. In plaats van patiënten te reduceren tot basismeetwaarden, modelleert ons platform de genuanceerde realiteiten die daadwerkelijk de zorgverlening aandrijven.",
+          "Zorgteams kunnen eindelijk zien welke zorgaanpakken het beste werken voor specifieke patiëntpopulaties, begrijpen hoe acties van zorgverleners verband houden met resultaten en systematisch organisatorisch leren opbouwen vanuit klinische ervaring. Door patiëntenomplexiteit te koppelen aan resourceallocatie en zorgverlening, transformeert Merit institutionele kennis van intuïtie naar uitvoerbare intelligentie.",
+          "Het resultaat: meer gepersonaliseerde zorgbeslissingen, beter resourcegebruik en continue verbetering op basis van wat daadwerkelijk werkt voor uw patiëntpopulaties."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Incidentrespons",
+        "content": [
+          "Bij incidentrespons is tijd de kritieke variabele. Hoe sneller een gecoördineerde respons wordt gemobiliseerd, hoe beter de uitkomst. Toch verliezen de meeste organisaties kostbare tijd op het moment dat ze het zich het minst kunnen veroorloven: een plan samenstellen, beschikbare uitvoerders identificeren en apparatuur opsporen.",
+          "Merit stelt organisaties in staat dat plan van tevoren op te stellen. Een overkoepelend incidentresponsproces wordt gedefinieerd, vooraf gecredentiëerde uitvoerders worden gekoppeld en apparatuur en materialen worden gecatalogiseerd. Op het moment dat een incident wordt uitgeroepen, wordt het relevante deel van dat plan geïnstantieerd, automatisch gevuld met beschikbare middelen, en begint de respons binnen minuten in plaats van uren.",
+          "Terwijl uitvoerders elke stap voltooien, wordt de voortgang vastgelegd in het procesmodel, waardoor commandanten een continu bijgewerkt beeld van de respons krijgen zonder te hoeven vertrouwen op radio-check-ins of handmatige rapportage.",
+          "Na het incident draagt het uitvoeringsregister bij aan een geaggregeerde dataset. Geleerde lessen worden direct in het volgende responsplan opgenomen, zodat elk incident de organisatie beter voorbereid maakt op het volgende, met behulp van een actieplan dat wereldwijd kan worden ingezet."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Mijnbouw en Grondstoffen",
+        "content": [
+          "Mijnbouwlocaties staan voor complexe operationele uitdagingen waarbij veiligheid en compliance niet onderhandelbaar zijn. Toch vertrouwen veel mijnbouwteams op gesegregeerde gegevens en verouderde documentprocessen, waardoor risico's toenemen en besluitvorming vertraagt.",
+          "Merit levert een uniform platform met rijke analyses die diep inzicht bieden in elk aspect van mijnbouwactiviteiten. Gecombineerd met een krachtig documentbeheerssysteem zorgt het ervoor dat kritieke gezondheids- en veiligheidsprotocollen altijd actueel, toegankelijk en nageleefd zijn.",
+          "Door realtime gegevens en uitgebreide documentatie te integreren, stelt Merit locatiemanagers in staat proactief gevaren te identificeren, risico's te beperken en naleving van regelgeving te handhaven. Dit leidt tot veiligere werkomgevingen en minimaliseert uitvaltijd veroorzaakt door incidenten en machinestoringen.",
+          "In de loop van de tijd transformeert Merit operationele gegevens en gedocumenteerde lessen in uitvoerbare intelligentie, waardoor mijnbouwbedrijven veiligheidsstandaarden continu kunnen verbeteren, workflows kunnen optimaliseren en hun meest waardevolle asset, hun personeelsbestand, kunnen beschermen."
+        ]
+      },
+      "agriculture": {
+        "title": "Landbouw",
+        "content": [
+          "Landbouw omvat het beheer van mensen, machines en materialen in dynamische en vaak onvoorspelbare omgevingen. In een sector waar niet-loonkosten zoals machines, brandstof, inputs en grond een aanzienlijk deel van de bedrijfskosten vertegenwoordigen, is het essentieel te begrijpen en te optimaliseren hoe die middelen worden ingezet.",
+          "Merit biedt een configureerbaar procesmodel waarop elke operatie wordt uitgevoerd. Gereedschap, materialen en mensen worden aan processtappen toegewezen, wat nauwkeurige planning, slimmere selectie tussen inputs en continue verbetering op basis van wat de data laat zien dat daadwerkelijk werkt mogelijk maakt. In de landbouw, waar machines- en materiaalkosten zwaar wegen, heeft deze optimalisatie een buitenproportionele impact op de marges.",
+          "Omgevingsinputs zoals neerslag en zonlicht kunnen worden geregistreerd naast interventies zoals bemesting, irrigatie en plaagbestrijding, waarbij de opbrengst als output wordt vastgelegd. Na verloop van tijd komen er patronen naar voren tussen inputs, interventies en resultaten, die met elke cyclus betere beslissingen sturen. Waar meerdere operaties een procesmodel delen, versterkt die intelligentie zich verder.",
+          "Voor organisaties die middelen en kennis bundelen, biedt Merit de operationele infrastructuur om dat delen systematisch en datagedreven te maken."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Publieke Infrastructuur",
+        "content": [
+          "Overheidsinfrastructuurprojecten omvatten complexe coördinatie van aannemers, materialen, regelgevingsprocessen en meerjarige tijdlijnen, allemaal onder intense publieke scrutiny en verantwoordingsvereisten.",
+          "Merit biedt uniforme zichtbaarheid over de levering van infrastructuur, van initiële planning tot voltooiing. Of het nu gaat om het bouwen van wegen, scholen, nutsvoorzieningen of publieke faciliteiten, agentschappen kunnen volgen hoe mensen, processen en resources samenstromen om kritieke publieke infrastructuur te leveren.",
+          "Met elke aannemer actie, materiaallevering en processtapMilestone zichtbaar in één platform, krijgen overheidssteams de transparantie die nodig is voor publieke verantwoording terwijl ze operationele controle behouden over complexe projecten met meerdere belanghebbenden.",
+          "Merit stelt overheidsagentschappen in staat infrastructuur efficiënter te leveren, verantwoord beheer van publieke middelen te demonstreren en systematische verbetering te integreren in elk project, ongeacht het type infrastructuur dat wordt geleverd."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Advies / Professionele Diensten",
+        "content": [
+          "Elke organisatie, ongeacht de sector, maakt in essentie gebruik van processen, mensen en voorraad om producten te leveren. Merit belichaamt deze universele waarheid en normaliseert alle leveringen in deze kernoperationele stromen.",
+          "Voor professionele dienstverleners betekent dit echte operationele vloeiendheid over domeinen. Of u nu werkt met zorgsystemen, productiebedrijven of financiële instellingen, Merit biedt hetzelfde kader omdat u altijd te maken heeft met dezelfde fundamentele organisatorische bouwstenen, alleen anders geconfigureerd.",
+          "Dit elimineert de typische leercurve van het begrijpen van sectorspecifieke nuances en terminologieën. Consultants kunnen naadloos wisselen tussen klantcontexten omdat Merit domeincomplexiteit abstraheert, waardoor u zich kunt concentreren op het optimaliseren van de onderliggende operationele mechanica die consistent zijn in alle organisaties.",
+          "Van klantscoping tot uitvoeringsregistratie, Merit stelt professionele dienstverleners in staat met dezelfde efficiëntie en expertise te werken bij elke opdracht, ongeacht de sector of het domein van de klant."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Zie hoe Merit helderheid brengt in de manier waarop werk echt gebeurt.",
+    "body1": "Leer hoe we uitvoering, inzicht en verbetering verenigen in één operationeel systeem.",
+    "body2": "Of u nu strategie leidt of levering beheert, Merit geeft u de zichtbaarheid om met vertrouwen te handelen en de structuur om slimmer te schalen.",
+    "bullets": ["Zie Merit in actie", "Ontvang een gepersonaliseerde demo", "Ervaar de kracht van Merit"],
+    "formTitle": "Een Demo Plannen",
+    "formSubtitle": "Vul het formulier in en een van ons team neemt contact met u op om een platform demo te regelen op een tijdstip dat u schikt.",
+    "formSubject": "Demo Aanvraag"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Over Merit",
+      "subtitle": "De infrastructuur die bijdrage zichtbaar maakt, prestaties meet en beloning eerlijk maakt."
+    },
+    "body": "Merit bestaat om uitvoering aan resultaten te koppelen in elke functie. Wanneer werk transparant is en bijdrage traceerbaar is, stoppen organisaties met vertrouwen op relaties en politiek om prestaties te beoordelen. Resultaten spreken voor zich.",
+    "vision": {
+      "title": "Onze Visie",
+      "content": "Organisaties waar prikkels op één lijn liggen, kansen gelijk zijn en verbetering meetbaar en reëel is."
+    },
+    "mission": {
+      "title": "Onze Missie",
+      "content": "Het leveren van een uniform uitvoeringsplatform dat werk transparant maakt, coördinatieoverhead elimineert en elk team de gegevens geeft om met vertrouwen te handelen."
+    },
+    "sections": {
+      "origin": {
+        "title": "Waar We Begonnen",
+        "content": [
+          "Merit begon als een vraag: hoe breng je een ecosysteem van echte complexiteit in kaart op een manier die werkelijk betekenisvol is? Het antwoord ontstond uit een eenvoudige observatie: elke levering, ongeacht omvang of complexiteit, is de som van vele stappen. Bij elke stap gebruiken mensen tools en verwerken ze materialen tot een product op weg naar voltooiing. Die structuur wordt de blauwdruk. Het proces van elke levering is een subset ervan, eentje die we kunnen bijhouden, meten en evalueren. Vanuit dit eenvoudige fundament groeide een robuust perspectief op de grondbeginselen van hoe elke organisatie werkt."
+        ]
+      },
+      "definition": {
+        "title": "Wat Merit Betekent",
+        "content": [
+          "Verdienste is voor ons geen vaste standaard. Het is wat een organisatie en haar klanten besluiten te waarderen. Snelheid, koolstof, kosten, kwaliteit, veiligheid: het gewicht dat elk draagt is een keuze, en die keuze behoort tot de organisatie. Zodra die keuzes worden uitgedrukt als meetbare criteria in het leveringsproces, worden de tools, mensen en materialen die het beste presteren zichtbaar. Ze kunnen worden geselecteerd, ontwikkeld en gevierd. En elke bijdrager in het ecosysteem, van individuele uitvoerders tot gereedschapsmakers en materiaaللeveranciers, begrijpt dat beloning gekoppeld is aan prestaties ten opzichte van die criteria. De rationele strategie wordt optimalisatie, niet nabijheid tot besluitvormers."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Praat met ons.",
+      "body": "We reageren op elke aanvraag direct. Vertel ons waar u aan werkt en we nemen het van daaruit over.",
+      "formTitle": "Neem Contact Op",
+      "formSubject": "Algemene Aanvraag",
+      "formSubtitle": "Vul het formulier in en een van ons team neemt contact met u op om uw aanvraag te bespreken."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Merit Inzichten en Nieuws",
+      "content": [
+        "Ontdek hoe organisaties slimmere werksystemen bouwen met Merit.",
+        "Van klantsuccessverhalen tot strategische inzichten en productupdates, hier delen we wat werkt, wat evolueert en wat er daarna komt in operationele intelligentie."
+      ]
+    },
+    "tabs": {
+      "all": "Alle Inhoud",
+      "blog": "Merit Blog",
+      "caseStudies": "Casestudies",
+      "pressReleases": "Persberichten",
+      "productUpdates": "Productupdates"
+    }
+  }
+}

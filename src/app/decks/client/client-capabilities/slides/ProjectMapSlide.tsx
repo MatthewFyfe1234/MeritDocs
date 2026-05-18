@@ -9,7 +9,6 @@ export function ProjectMapSlide() {
     { short: 'Finishing', full: 'Finishing'    },
   ];
 
-  // Master spec: all possible components, some selected for this project
   const components = [
     { label: 'Structural Panels', selected: true,  assoc: [false, true,  true,  false, false] },
     { label: 'MEP Package',       selected: true,  assoc: [false, false, true,  true,  false] },
@@ -17,12 +16,10 @@ export function ProjectMapSlide() {
     { label: 'Fit-Out',           selected: false, assoc: [false, false, false, false, true]  },
   ];
 
-  // Steps needed by at least one selected component
   const stepNeeded = steps.map((_, j) =>
     components.some(c => c.selected && c.assoc[j])
   );
 
-  // Grid geometry
   const gridLeft   = 150;
   const colW       = 44;
   const rowH       = 40;
@@ -36,7 +33,6 @@ export function ProjectMapSlide() {
   const colCx = (j: number) => gridLeft + j * colW + colW / 2;
   const rowCy = (i: number) => gridStartY + headerH + i * rowH + rowH / 2;
 
-  // Project map — all master steps, inactive ones muted; vertically centred against the grid body
   const pmLeft   = 430;
   const pmRight  = 650;
   const pmW      = pmRight - pmLeft;
@@ -68,7 +64,6 @@ export function ProjectMapSlide() {
 
           <g transform="translate(-40, 0)">
 
-          {/* ── LEFT: Component labels ── */}
           <text x={gridLeft - 10} y={gridStartY + headerH / 2 - 4} textAnchor="end"
             fontSize="7.5" fontWeight="600" fill="var(--slide-text)" opacity="0.4">MASTER SPEC</text>
           <text x={gridLeft - 10} y={gridStartY + headerH / 2 + 8} textAnchor="end"
@@ -81,11 +76,9 @@ export function ProjectMapSlide() {
               opacity={comp.selected ? 0.85 : 0.3}>{comp.label}</text>
           ))}
 
-          {/* ── GRID: background ── */}
           <rect x={gridLeft} y={gridStartY} width={steps.length * colW} height={headerH + components.length * rowH}
             rx="6" fill="var(--slide-bg-primary-muted)" stroke="var(--slide-border-primary)" strokeWidth="1.2" />
 
-          {/* Shade unselected rows */}
           {components.map((comp, i) => !comp.selected && (
             <rect key={`row-shade-${i}`}
               x={gridLeft} y={gridStartY + headerH + i * rowH}
@@ -93,7 +86,6 @@ export function ProjectMapSlide() {
               fill="var(--slide-bg-muted)" opacity="0.55" />
           ))}
 
-          {/* Shade inactive step columns (not needed by any selected component) */}
           {steps.map((_, j) => !stepNeeded[j] && (
             <rect key={`col-shade-${j}`}
               x={gridLeft + j * colW} y={gridStartY + headerH}
@@ -101,18 +93,15 @@ export function ProjectMapSlide() {
               fill="var(--slide-bg-muted)" opacity="0.4" />
           ))}
 
-          {/* Header band */}
           <rect x={gridLeft} y={gridStartY} width={steps.length * colW} height={headerH}
             rx="6" fill="var(--slide-bg-card)" />
           <rect x={gridLeft} y={gridStartY + headerH - 6} width={steps.length * colW} height={6}
             fill="var(--slide-bg-card)" />
 
-          {/* Header / body separator */}
           <line x1={gridLeft} y1={gridStartY + headerH}
             x2={gridRight} y2={gridStartY + headerH}
             stroke="var(--slide-border-primary)" strokeWidth="1" opacity="0.6" />
 
-          {/* Vertical column dividers */}
           {steps.slice(1).map((_, j) => (
             <line key={`vcol-${j}`}
               x1={gridLeft + (j + 1) * colW} y1={gridStartY}
@@ -120,7 +109,6 @@ export function ProjectMapSlide() {
               stroke="var(--slide-border-primary)" strokeWidth="0.8" opacity="0.4" />
           ))}
 
-          {/* Horizontal row dividers */}
           {components.slice(1).map((_, i) => (
             <line key={`hrow-${i}`}
               x1={gridLeft} y1={gridStartY + headerH + (i + 1) * rowH}
@@ -128,7 +116,6 @@ export function ProjectMapSlide() {
               stroke="var(--slide-border-primary)" strokeWidth="0.8" opacity="0.35" />
           ))}
 
-          {/* Step headers */}
           {steps.map((step, j) => (
             <text key={step.short} x={colCx(j)} y={gridStartY + headerH / 2 + 4}
               textAnchor="middle" fontSize="8" fontWeight="600"
@@ -136,7 +123,6 @@ export function ProjectMapSlide() {
               opacity={stepNeeded[j] ? 0.85 : 0.3}>{step.short}</text>
           ))}
 
-          {/* Association dots */}
           {components.map((comp, i) =>
             comp.assoc.map((filled, j) => (
               <circle key={`dot-${i}-${j}`}
@@ -148,7 +134,6 @@ export function ProjectMapSlide() {
             ))
           )}
 
-          {/* Selected row left-edge indicators */}
           {components.map((comp, i) => comp.selected && (
             <rect key={`sel-${i}`}
               x={gridLeft} y={gridStartY + headerH + i * rowH + 6}
@@ -156,14 +141,12 @@ export function ProjectMapSlide() {
               fill="var(--slide-primary)" opacity="0.5" />
           ))}
 
-          {/* ── ARROW: Grid to Project Map ── */}
           <line
             x1={gridRight + 4} y1={gridCenterY}
             x2={pmLeft - 12}   y2={gridCenterY}
             stroke="var(--slide-primary)" strokeWidth="1.5" opacity="0.4"
             markerEnd="url(#arrowhead-pm)" />
 
-          {/* ── RIGHT: Project Map ── */}
           <text x={pmLeft + pmW / 2} y={gridStartY + 16} textAnchor="middle"
             fontSize="10" fontWeight="700" fill="var(--slide-primary)">Project Map</text>
           <rect x={pmLeft + pmW / 2 - 50} y={gridStartY + 21} width={100} height={15} rx="3"

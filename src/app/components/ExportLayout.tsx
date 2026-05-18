@@ -1,11 +1,14 @@
-interface DeckConfig {
-  title: string;
-  exportFilename: string;
-  slides: React.ReactNode[];
-}
+import type { DeckConfig } from '../types';
+import { resolveSlides } from '../types';
 
-export function ExportLayout({ deck }: { deck: DeckConfig }) {
-  const { slides } = deck;
+export function ExportLayout({
+  deck,
+  variantConfig = {},
+}: {
+  deck: DeckConfig;
+  variantConfig?: Record<string, string>;
+}) {
+  const slides = resolveSlides(deck, variantConfig);
 
   return (
     <div>
@@ -28,8 +31,8 @@ export function ExportLayout({ deck }: { deck: DeckConfig }) {
           }}
         >
           <div style={{
-            width: '1766px',  // 92% of 1920
-            height: '994px',  // 92% of 1080
+            width: '1766px',
+            height: '994px',
             overflow: 'hidden',
             backgroundColor: 'var(--slide-bg-card)',
             boxShadow: '0 20px 60px rgba(0,0,0,0.25)',

@@ -1,5 +1,5 @@
 import { Lightbulb, Pencil, Factory, Hammer, ArrowDown, ArrowRight } from 'lucide-react';
-import { ImageWithFallback } from '@/components/figma/ImageWithFallback';
+import { ImageWithFallback } from '@/components/ImageWithFallback';
 import workflowImage from './workflow.jpg';
 import { SlideLayout } from '@/components/slides/SlideLayout';
 

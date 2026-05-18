@@ -1,14 +1,12 @@
-
-// @mui components
-import { Box } from "@mui/material";
-import { Typography, useTheme } from "@mui/material";
-
-// Components
+import { Box, Typography, useTheme } from "@mui/material";
 import DemoRequestButton from "./DemoRequestButton";
+import { useTranslation } from 'react-i18next';
 
 const ContentFooter = ({ setRequestADemoOpen }) => {
   const theme = useTheme();
-  return(
+  const { t } = useTranslation();
+
+  return (
     <Box
       sx={{
         display: 'flex',
@@ -28,7 +26,7 @@ const ContentFooter = ({ setRequestADemoOpen }) => {
           fontWeight: 'bold',
           textAlign: 'center'
         }}>
-        Operational clarity. Ethical integrity.<br /> Improved Outcomes.
+        {t('common.contentFooter.title')}
       </Typography>
       <DemoRequestButton
         setRequestADemoOpen={setRequestADemoOpen}
@@ -41,10 +39,10 @@ const ContentFooter = ({ setRequestADemoOpen }) => {
           lineHeight: 1.5,
           textAlign: 'center'
         }}>
-        Request a walkthrough and see how Merit can<br /> help you turn complexity into clarity.
+        {t('common.contentFooter.subtitle')}
       </Typography>
     </Box>
-  )
+  );
 };
 
 export default ContentFooter;

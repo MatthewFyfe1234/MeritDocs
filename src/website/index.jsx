@@ -1,11 +1,14 @@
 import React, { useState, useEffect, lazy } from "react";
 
+import './i18n/config.js';
 import VisitLogger from "./components/VisitLogger.js";
 
 import ThemePicker from "./components/ThemePicker.jsx";
 import Navigation from "./Navigation.jsx";
 
 const Home = lazy(() => import("./Home.jsx"));
+const WhyMerit = lazy(() => import("./WhyMerit.jsx"));
+const WhyMeritV2 = lazy(() => import("./WhyMeritV2.jsx"));
 const Capabilities = lazy(() => import("./Capabilities.jsx"));
 const UseCases = lazy(() => import("./UseCases.jsx"));
 const Resources = lazy(() => import("./Resources.jsx"));
@@ -90,6 +93,15 @@ export default function Website () {
   }, [page]);
 
   useEffect(() => {
+    const handleHashChange = () => {
+      const decoded = decodeURIComponent(window.location.hash.slice(1));
+      if (decoded) dispatch(setPage(decoded));
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [dispatch]);
+
+  useEffect(() => {
     const style = document.createElement('style');
     style.innerHTML = `
       #scrollportion::-webkit-scrollbar-thumb {
@@ -125,6 +137,10 @@ export default function Website () {
             {
               page === "home" &&
                 <Home setCustomThemePickerOpen={handleSetCustomThemePickerOpen}/>
+            }
+            {
+              page === "Why Merit" &&
+                <WhyMeritV2/>
             }
             {
               page === "Platform" &&

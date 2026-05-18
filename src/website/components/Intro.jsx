@@ -1,6 +1,6 @@
 import { Box, Typography, useTheme } from '@mui/material';
 
-const Intro = ({ title, content, backgroundImage }) => {
+const Intro = ({ title, content, backgroundImage, overlay }) => {
   const theme = useTheme();
   return (
     <Box
@@ -11,7 +11,9 @@ const Intro = ({ title, content, backgroundImage }) => {
         textAlign: 'center',
         py: { xs: 4, sm: 12 },
         px: 2,
-        background: `url(${backgroundImage}) center/cover no-repeat ${theme.palette.background.default}`,
+        background: overlay
+          ? `linear-gradient(${overlay}, ${overlay}), url(${backgroundImage}) center/cover no-repeat ${theme.palette.background.default}`
+          : `url(${backgroundImage}) center/cover no-repeat ${theme.palette.background.default}`,
         '&::after': {
           content: '""',
           position: 'absolute',

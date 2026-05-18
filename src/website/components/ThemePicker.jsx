@@ -58,7 +58,7 @@ const ThemePicker = ({ setThemePickerOpen, customTheme, setCustomTheme }) => {
       title="Create Custom Theme"
       minHeight="400px"
       height="auto">
-      <Box display="flex" flexDirection="column" gap={2}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
 
         {/* Primary */}
         <TextField

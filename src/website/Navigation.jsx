@@ -1,17 +1,24 @@
-import { useState, useEffect } from "react";
+﻿import { useState, useEffect } from "react";
+
+import { useTranslation } from 'react-i18next';
 
 // @mui components
 import { AppBar, Toolbar, Box, Button, Menu, MenuItem, IconButton } from "@mui/material";
-
 import { useTheme } from '@mui/material/styles';
 
 // @mui icons
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MenuIcon from "@mui/icons-material/Menu";
-import LoginIcon from '@mui/icons-material/Login';
+import { ExpandMore, Login, Menu as MenuIcon, Translate } from '@mui/icons-material';
+
+// i18n
+import { languages } from '@/i18n/languages';
 
 // Images
 import logo from "./logos/logo.webp";
+
+// Section configs
+import { capabilitiesSections } from './config/capabilities-sections';
+import { teamsSections } from './config/teams-sections';
+import { useCasesSections } from './config/use-cases-sections';
 
 // Local context
 import { useSelector, useDispatch } from 'react-redux';
@@ -19,61 +26,62 @@ import { setPage, setSection } from '@/context/websiteStore.js';
 
 const navItems = [
   {
-    title: "Platform",
-    subItemsTitle: "Capabilities",
+    page: "Why Merit",
+    titleKey: "nav.whyMerit",
+    subMenuKey: "nav.subMenus.whyMerit.title",
     subItems: [
-      "Business Intelligence",
-      "Process Mapping",
-      "Project Management",
-      "Document Management",
-      "CPQ",
-      "HR/Recognition",
-      "Resource Planning"
+      { section: "product-implies-process", labelKey: "nav.subMenus.whyMerit.theProblem" },
+      { section: "the-model",               labelKey: "nav.subMenus.whyMerit.theSolution" },
+      { section: "everything-follows",      labelKey: "nav.subMenus.whyMerit.theAdvantage" }
     ]
   },
   {
-    title: "Use Cases",
-    subItemsTitle: "Industries",
+    page: "Platform",
+    titleKey: "nav.platform",
+    subMenuKey: "nav.subMenus.platform.title",
+    subItems: capabilitiesSections.map(s => ({
+      section: s.id,
+      labelKey: `nav.subMenus.platform.${s.sectionKey}`
+    }))
+  },
+  {
+    page: "Use Cases",
+    titleKey: "nav.useCases",
+    subMenuKey: "nav.subMenus.useCases.title",
+    subItems: useCasesSections.map(s => ({
+      section: s.id,
+      labelKey: `nav.subMenus.useCases.${s.sectionKey}`
+    }))
+  },
+  {
+    page: "Teams",
+    titleKey: "nav.teams",
+    subMenuKey: "nav.subMenus.teams.title",
+    subItems: teamsSections.map(s => ({
+      section: s.id,
+      labelKey: `nav.subMenus.teams.${s.sectionKey}`
+    }))
+  },
+  {
+    page: "Values",
+    titleKey: "nav.values",
+    subMenuKey: "nav.subMenus.values.title",
     subItems: [
-      "Manufacturing",
-      "Construction",
-      "Healthcare",
-      "Disaster Management",
-      "Mining and Resources",
-      "Agriculture",
-      "Public Infrastructure",
-      "Consulting/Professional Services"
+      { section: "Operational Ethics", labelKey: "nav.subMenus.values.operationalEthics" },
+      { section: "ESG",                labelKey: "nav.subMenus.values.esg" },
+      { section: "Cultural Integrity", labelKey: "nav.subMenus.values.culturalIntegrity" }
     ]
   },
   {
-    title: "Teams",
-    subItemsTitle: "Roles",
+    page: "Company",
+    titleKey: "nav.company",
+    subMenuKey: "nav.subMenus.company.title",
     subItems: [
-      "Leadership",
-      "Operations",
-      "Project Management",
-      "Human Resources",
-      "Sales",
-      "Finance"
+      { section: "Our Mission",        labelKey: "nav.subMenus.company.ourMission" },
+      { section: "Who We Are",         labelKey: "nav.subMenus.company.whoWeAre" },
+      { section: "What We're Building", labelKey: "nav.subMenus.company.whatWereBuilding" },
+      { section: "Contact Us",         labelKey: "nav.subMenus.company.contactUs" }
     ]
-  },
-  {
-    title: "Values",
-    subItemsTitle: "Ethics",
-    subItems: [
-      "Operational Ethics",
-      "ESG",
-      "Cultural Integrity"
-    ]
-  },
-  {
-    title: "Company",
-    subItemsTitle: "About Us",
-    subItems: [
-      "Our Mission",
-      "Who We Are",
-      "What We’re Building",
-      "Contact Us"]
   }
 ];
 
@@ -215,6 +223,7 @@ const HamburgerMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu, the
         setAnchorEl={setAnchorEl}
         currentMenu={currentMenu}
         setCurrentMenu={setCurrentMenu}/>
+      <LanguagePicker theme={theme}/>
       <IconButton
         href="/bff/login"
         sx={{
@@ -224,7 +233,7 @@ const HamburgerMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu, the
           minWidth: 0,
           p: 0
         }}>
-        <LoginIcon sx={{
+        <Login sx={{
           fontSize: "24px",
           color: //page === "home" || page === "Company"
             // '#fff'
@@ -237,6 +246,7 @@ const HamburgerMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu, the
 
 const ItemMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
   const dispatch = useDispatch();
+  const { t } = useTranslation();
 
   const theme = useTheme();
   const [expandedItem, setExpandedItem] = useState(null);
@@ -248,7 +258,7 @@ const ItemMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
   };
 
   const handleItemClick = (item) => {
-    setExpandedItem((prev) => (prev === item.title ? null : item.title));
+    setExpandedItem((prev) => (prev === item.page ? null : item.page));
   };
 
   return (
@@ -275,7 +285,7 @@ const ItemMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
       {
         navItems.flatMap((item) => [
           <MenuItem
-            key={item.title}
+            key={item.page}
             onClick={() => {
               handleItemClick(item);
             }}
@@ -288,16 +298,16 @@ const ItemMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
                 textDecoration: "underline"
               }
             }}>
-            {item.title}
+            {t(item.titleKey)}
           </MenuItem>
           ,
-          ...(expandedItem === item.title
+          ...(expandedItem === item.page
             ? item.subItems.map((subItem) => (
                 <MenuItem
-                  key={subItem}
+                  key={subItem.section}
                   onClick={() => {
-                    dispatch(setPage(item.title));
-                    dispatch(setSection(subItem));
+                    dispatch(setPage(item.page));
+                    dispatch(setSection(subItem.section));
                     handleMenuClose();
                   }}
                   sx={{
@@ -309,7 +319,7 @@ const ItemMenu = ({ anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
                       textDecoration: "underline"
                     }
                   }}>
-                  {subItem}
+                  {t(subItem.labelKey)}
                 </MenuItem>
               ))
             : [])
@@ -355,13 +365,14 @@ const navBarButtonStyle = (theme, page) => ({
 
 const FullSizeMenu = ({ setMenuOpen, anchorEl, setAnchorEl, currentMenu, setCurrentMenu }) => {
   const { page, section } = useSelector((state) => state.website);
+  const { t } = useTranslation();
 
   const theme = useTheme();
   return(
     <Box sx={{ display: { xs: "none", md: "none", lg: 'flex' }, gap: 1 }}>
       {
         navItems.map((item) => (
-          <Box key={item.title}>
+          <Box key={item.page}>
             <Button
               sx={{
                 ...navBarButtonStyle(theme, page),
@@ -371,7 +382,7 @@ const FullSizeMenu = ({ setMenuOpen, anchorEl, setAnchorEl, currentMenu, setCurr
               }}
               onClick={(e) => setMenuOpen(e, item)}
               endIcon={
-                <ExpandMoreIcon
+                <ExpandMore
                   sx={{
                     fontSize: "24px",
                     width: "24px",
@@ -382,7 +393,7 @@ const FullSizeMenu = ({ setMenuOpen, anchorEl, setAnchorEl, currentMenu, setCurr
                     ml: -1
                   }}/>
               }>
-              {item.title}
+              {t(item.titleKey)}
             </Button>
             <SubItemMenu
               item={item}
@@ -400,6 +411,7 @@ const FullSizeMenu = ({ setMenuOpen, anchorEl, setAnchorEl, currentMenu, setCurr
 
 const SubItemMenu = ({ item, anchorEl, setAnchorEl, currentMenu, setCurrentMenu, theme }) => {
   const dispatch = useDispatch();
+  const { t } = useTranslation();
 
   const handleMenuClose = () => {
     setAnchorEl(null);
@@ -409,7 +421,7 @@ const SubItemMenu = ({ item, anchorEl, setAnchorEl, currentMenu, setCurrentMenu,
   return (
     <Menu
       anchorEl={anchorEl}
-      open={Boolean(anchorEl) && currentMenu?.title === item.title}
+      open={Boolean(anchorEl) && currentMenu?.page === item.page}
       onClose={handleMenuClose}
       sx={{ mt: 1, "& .MuiPaper-root": { p: 0 } }}
       slotProps={{
@@ -422,7 +434,7 @@ const SubItemMenu = ({ item, anchorEl, setAnchorEl, currentMenu, setCurrentMenu,
       }}>
       <MenuItem
         onClick={() => {
-          dispatch(setPage(item.title));
+          dispatch(setPage(item.page));
           dispatch(setSection("introduction"));
           handleMenuClose();
         }}
@@ -438,15 +450,15 @@ const SubItemMenu = ({ item, anchorEl, setAnchorEl, currentMenu, setCurrentMenu,
             bgcolor: "transparent"
           }
         }}>
-        {item.subItemsTitle}
+        {t(item.subMenuKey)}
       </MenuItem>
       {
         item.subItems.map((subItem) => (
           <MenuItem
-            key={subItem}
+            key={subItem.section}
             onClick={() => {
-              dispatch(setPage(item.title));
-              dispatch(setSection(subItem));
+              dispatch(setPage(item.page));
+              dispatch(setSection(subItem.section));
               handleMenuClose();
             }}
             sx={{
@@ -458,7 +470,7 @@ const SubItemMenu = ({ item, anchorEl, setAnchorEl, currentMenu, setCurrentMenu,
                 textDecoration: "underline"
               }
             }}>
-            {subItem}
+            {t(subItem.labelKey)}
           </MenuItem>
         ))
       }
@@ -479,17 +491,58 @@ const buttonStyles = (theme) => ({
   lineHeight: 1.1
 });
 
+const LanguagePicker = ({ theme }) => {
+  const { i18n } = useTranslation();
+  const [langAnchor, setLangAnchor] = useState(null);
+  return (
+    <>
+      <IconButton
+        onClick={(e) => setLangAnchor(e.currentTarget)}
+        sx={{
+          width: "40px",
+          height: "40px",
+          minWidth: 0,
+          p: 0
+        }}>
+        <Translate sx={{ fontSize: "22px", color: theme.palette.text.secondary }}/>
+      </IconButton>
+      <Menu
+        anchorEl={langAnchor}
+        open={Boolean(langAnchor)}
+        onClose={() => setLangAnchor(null)}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+        slotProps={{ paper: { sx: { maxHeight: 360 } } }}>
+        {Object.entries(languages).map(([code, { label }]) => (
+          <MenuItem
+            key={code}
+            selected={i18n.language === code}
+            onClick={() => {
+              i18n.changeLanguage(code);
+              setLangAnchor(null);
+            }}>
+            {label}
+          </MenuItem>
+        ))}
+      </Menu>
+    </>
+  );
+};
+
 const ActionButtons = ({ }) => {
   const { page, section } = useSelector((state) => state.website);
   const dispatch = useDispatch();
+  const { t } = useTranslation();
   const theme = useTheme();
   return(
     <Box
       sx={{
         flexGrow: 1,
         display: "flex",
+        alignItems: "center",
         justifyContent: { xs: "center", sm: "flex-end" }
       }}>
+      <LanguagePicker theme={theme}/>
       <Button
         variant="outlined"
         onClick={() => {
@@ -505,7 +558,7 @@ const ActionButtons = ({ }) => {
             //</Box>? '#fff'
             theme.palette.text.secondary
         }}>
-        Book a Demo
+        {t('common.bookDemo')}
       </Button>
       <IconButton
         href="/bff/login"
@@ -516,7 +569,7 @@ const ActionButtons = ({ }) => {
           minWidth: 0,
           p: 0
         }}>
-        <LoginIcon sx={{
+        <Login sx={{
           fontSize: "24px",
           color: //page === "home" || page === "Company"
             // '#fff'

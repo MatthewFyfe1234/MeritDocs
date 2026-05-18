@@ -25,10 +25,8 @@ const ContextSection = ({ id, title, content, image, hasGap=false, imageUndercli
       <Grid
         container
         direction={isMobile ? 'column' : 'row'}
-        alignItems="center"
-        justifyContent="center"
         spacing={hasGap ? isMobile ? 3 : 5 : 0}
-        sx={{ flexGrow: 1 }}>
+        sx={{ flexGrow: 1, alignItems: "center", justifyContent: "center" }}>
         <Grid
           size={{ xs: 12, md: 7 }}
           sx={{
@@ -37,7 +35,7 @@ const ContextSection = ({ id, title, content, image, hasGap=false, imageUndercli
             flexDirection: 'column',
             justifyContent: 'center'
           }}>
-          <Typography variant="h5" fontWeight={600} gutterBottom>
+          <Typography variant="h5" sx={{ fontWeight: 600 }} gutterBottom>
             {title}
           </Typography>
           {
@@ -45,8 +43,7 @@ const ContextSection = ({ id, title, content, image, hasGap=false, imageUndercli
               <Typography
                 key={`paragraph-${idx}`}
                 variant="body1"
-                fontWeight={300}
-                sx={{ mb: 1 }}>
+                sx={{ fontWeight: 300, mb: 1 }}>
                 {paragraph}
               </Typography>
             ))
@@ -61,19 +58,22 @@ const ContextSection = ({ id, title, content, image, hasGap=false, imageUndercli
             alignItems: 'center'
           }}>
           {typeof image === 'string' ? (
-  <Box
-    component="img"
-    src={image}
-    alt={title}
-    sx={{
-      width: '100%',
-      objectFit: 'contain',
-      my: imageUnderclip
-    }}
-  />
-) : (
-  image
-)}
+            <Box
+              component="img"
+              src={image}
+              alt={title}
+              loading="lazy"
+              sx={{
+                width: '100%',
+                aspectRatio: '5 / 3',
+                objectFit: 'cover',
+                borderRadius: 4,
+                my: imageUnderclip
+              }}
+            />
+          ) : (
+            image
+          )}
         </Grid>
       </Grid>
     </Box>

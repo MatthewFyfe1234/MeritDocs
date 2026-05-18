@@ -10,11 +10,10 @@ export function AdvantageSlide() {
     { dimension: 'Integration',   outcome: 'One system. One version of every project, shared across every team.' },
   ];
 
-  // Flywheel geometry
   const bw = 88, bh = 44;
   const hgap = 50, vgap = 44;
-  const fl = 22;  // left edge
-  const t  = 56;  // top row y
+  const fl = 22;
+  const t  = 56;
 
   const boxes = {
     spec: { x: fl,           y: t,          label: 'Specify',  sub: 'the project'       },
@@ -25,12 +24,11 @@ export function AdvantageSlide() {
 
   const cx = (b: { x: number }) => b.x + bw / 2;
   const cy = (b: { y: number }) => b.y + bh / 2;
-  const br = (b: { x: number }) => b.x + bw;   // box right
-  const bb = (b: { y: number }) => b.y + bh;   // box bottom
+  const br = (b: { x: number }) => b.x + bw;
+  const bb = (b: { y: number }) => b.y + bh;
 
-  const mw = 10; // arrowhead marker width
+  const mw = 10;
 
-  // Right column
   const divX  = 272;
   const rx    = divX + 14;
   const rw    = 650 - rx;
@@ -52,7 +50,6 @@ export function AdvantageSlide() {
             </marker>
           </defs>
 
-          {/* ── FLYWHEEL BOXES ── */}
           {Object.values(boxes).map(b => (
             <g key={b.label}>
               <rect x={b.x} y={b.y} width={bw} height={bh} rx="6"
@@ -64,39 +61,31 @@ export function AdvantageSlide() {
             </g>
           ))}
 
-          {/* ── FLYWHEEL ARROWS ── */}
-          {/* Specify → Execute (rightward) */}
           <line x1={br(boxes.spec) + 2}  y1={cy(boxes.spec)}
                 x2={boxes.exec.x - mw - 2} y2={cy(boxes.exec)}
                 stroke="var(--slide-primary)" strokeWidth="1.3" opacity="0.4"
                 markerEnd="url(#arrowhead-adv)" />
-          {/* Execute → Capture (downward) */}
           <line x1={cx(boxes.exec)} y1={bb(boxes.exec) + 2}
                 x2={cx(boxes.capt)} y2={boxes.capt.y - mw - 2}
                 stroke="var(--slide-primary)" strokeWidth="1.3" opacity="0.4"
                 markerEnd="url(#arrowhead-adv)" />
-          {/* Capture → Improve (leftward) */}
           <line x1={boxes.capt.x - 2}       y1={cy(boxes.capt)}
                 x2={br(boxes.impr) + mw + 2} y2={cy(boxes.impr)}
                 stroke="var(--slide-primary)" strokeWidth="1.3" opacity="0.4"
                 markerEnd="url(#arrowhead-adv)" />
-          {/* Improve → Specify (upward) */}
           <line x1={cx(boxes.impr)} y1={boxes.impr.y - 2}
                 x2={cx(boxes.spec)} y2={bb(boxes.spec) + mw + 2}
                 stroke="var(--slide-primary)" strokeWidth="1.3" opacity="0.4"
                 markerEnd="url(#arrowhead-adv)" />
 
-          {/* Centre label */}
           <text x={fl + bw + hgap / 2} y={t + bh + vgap / 2 - 5} textAnchor="middle"
             fontSize="7.5" fill="var(--slide-text)" opacity="0.28">Every project</text>
           <text x={fl + bw + hgap / 2} y={t + bh + vgap / 2 + 7} textAnchor="middle"
             fontSize="7.5" fill="var(--slide-text)" opacity="0.28">builds on the last</text>
 
-          {/* Divider */}
           <line x1={divX} y1={16} x2={divX} y2={242}
             stroke="var(--slide-border-primary)" strokeWidth="1" opacity="0.25" />
 
-          {/* ── OUTCOMES ── */}
           {outcomes.map(({ dimension, outcome }, i) => {
             const y = ry0 + i * (rowH + rowGap);
             return (
@@ -119,7 +108,6 @@ export function AdvantageSlide() {
               </g>
             );
           })}
-          {/* ── IMPACT FOOTER ── */}
           <line x1={16} y1={250} x2={644} y2={250}
             stroke="var(--slide-border-primary)" strokeWidth="0.75" opacity="0.2" />
           {[

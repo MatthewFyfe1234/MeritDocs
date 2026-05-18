@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
+
+import { useTranslation } from 'react-i18next';
 
 // @mui components
 import { Box } from '@mui/system';
@@ -14,6 +16,7 @@ import ContentFooter from './components/ContentFooter';
 import ResourcesHeader from '/images/resources/ResourcesHeader.webp';
 
 const Resources = ({ section, setRequestADemoOpen }) => {
+  const { t } = useTranslation();
   const theme = useTheme();
   const [tabIndex, setTabIndex] = useState(section !== "introduction" ? section : 'all');
 
@@ -22,10 +25,8 @@ const Resources = ({ section, setRequestADemoOpen }) => {
   return (
     <Box sx={{ backgroundColor: theme.palette.background.default }}>
       <Intro
-        title="Merit Insights & News"
-        content={[`Explore how organizations are building smarter systems of work with Merit.`,
-                  `From customer success stories to strategic insights and product updates, this is where we share what’s working, 
-                   what’s evolving, and what’s next in operational intelligence.`]}
+        title={t('resources.intro.title')}
+        content={t('resources.intro.content', { returnObjects: true })}
         backgroundImage={ResourcesHeader}/>
       <Box sx={{ width: '100%', height: 'calc(100vh - 80px)', display: 'flex', flexDirection: 'column' }}>
         <TabContext value={tabIndex} sx={{ width: '100%', height: 'calc(100vh - 80px)' }}>
@@ -33,11 +34,11 @@ const Resources = ({ section, setRequestADemoOpen }) => {
             value={tabIndex}
             onChange={handleTabChange}
             variant="fullWidth">
-            <Tab id="all"  label="All Content" value="all" sx={{ color: 'text.primary' }}/>
-            <Tab id="Merit Blog" label="Merit Blog" value="Merit Blog" sx={{ color: 'text.primary' }}/>
-            <Tab id="Case Studies" label="Case Studies" value="Case Studies" sx={{ color: 'text.primary' }}/>
-            <Tab id="Press Releases" label="Press Releases" value="Press Releases" sx={{ color: 'text.primary' }}/>
-            <Tab id="Product Updates" label="Product Updates" value="Product Updates" sx={{ color: 'text.primary' }}/>
+            <Tab id="all"          label={t('resources.tabs.all')}            value="all" sx={{ color: 'text.primary' }}/>
+            <Tab id="Merit Blog"   label={t('resources.tabs.blog')}           value="Merit Blog" sx={{ color: 'text.primary' }}/>
+            <Tab id="Case Studies" label={t('resources.tabs.caseStudies')}    value="Case Studies" sx={{ color: 'text.primary' }}/>
+            <Tab id="Press Releases" label={t('resources.tabs.pressReleases')} value="Press Releases" sx={{ color: 'text.primary' }}/>
+            <Tab id="Product Updates" label={t('resources.tabs.productUpdates')} value="Product Updates" sx={{ color: 'text.primary' }}/>
           </Tabs>
           <TabPanel value="all" sx={{ px: 2 }}>All Content goes here</TabPanel>
           <TabPanel value="Merit Blog" sx={{ px: 2 }}>Blog content goes here</TabPanel>

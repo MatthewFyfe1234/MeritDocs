@@ -1,4 +1,7 @@
-import React from "react";
+﻿import React from "react";
+
+import { useTranslation } from 'react-i18next';
+
 import { Box, Button, Typography, Stack, Link, useTheme } from "@mui/material";
 import { alpha } from '@mui/material/styles';
 
@@ -8,7 +11,7 @@ import BI from "/images/home/BI.svg";
 import CPQ from "/images/home/CPQ.svg";
 import DocumentManagement from "/images/home/DocumentManagement.svg";
 import Ethics from "/images/home/Ethics.webp";
-import HRRecognition from "/images/home/HRRecognition.svg";
+import CRM from "/images/home/HRRecognition.svg";
 import ProcessMapping from "/images/home/ProcessMapping.svg";
 import ProjectManagement from "/images/home/ProjectManagement.svg";
 import ResourcePlanning from "/images/home/ResourcePlanning.svg";
@@ -22,69 +25,13 @@ import { useDispatch } from 'react-redux';
 import { setPage, setSection } from '@/context/websiteStore.js';
 
 const features = [
-  {
-    colour: "#eef4ff",
-    header: "Business Intelligence",
-    title: "Turn insight into action",
-    description: "Fractal, process integrated business intelligence, enables you to pinpoint opportunities, monitor performance, and drive informed decision-making across your organisation.",
-    width: "100%",
-    icon: BI,
-    linkedTo: "Business Intelligence"
-  },
-  {
-    colour: "#f0e6ff",
-    header: "Process Mapping",
-    title: "Visualize your processes",
-    description: "Define and view processes at various levels of detail using our Google Maps style interface, ensuring clarity and alignment across teams and functions.",
-    width: "50%",
-    icon: ProcessMapping,
-    linkedTo: "Process Mapping"
-  },
-  {
-    colour: "#f8e6e6",
-    header: "Project Management",
-    title: "Streamline your projects",
-    description: "Plan projects on the basis of product specifications, then coordinate using our unique tools to predict execution times and resource needs, based on historic data.",
-    width: "50%",
-    icon: ProjectManagement,
-    linkedTo: "Project Management"
-  },
-  {
-    colour: "#e6f8e6",
-    header: "Resource Planning",
-    title: "Optimize your organisations time",
-    description: "Model people, skills, tools, availability, and cost to connect capacity directly to operational demand and planned work.",
-    width: "100%",
-    icon: ResourcePlanning,
-    linkedTo: "Resource Planning"
-  },
-  {
-    colour: "#fff4e6",
-    header: "Document Management",
-    title: "Structure the knowledge that powers outcomes",
-    description: "Place documents alongside the people, inventory items, projects, or process steps they relate to for natural organization and easy discovery.",
-    width: "50%",
-    icon: DocumentManagement,
-    linkedTo: "Document Management"
-  },
-  {
-    colour: "#e6f0ff",
-    header: "CPQ",
-    title: "Simplify complexity without losing precision",
-    description: "Create specifications within the constraints of a master product to fit your industry and company capabilities. Configure material and pricing rules accordingly and generate time estimates based on historical project data.",
-    width: "50%",
-    icon: CPQ,
-    linkedTo: "CPQ"
-  },
-  {
-    colour: "#f0f8e6",
-    header: "HR Recognition",
-    title: "See contribution, reward impact",
-    description: "Track real performance and link recognition to outcomes, creating a culture where effort is seen and valued.",
-    width: "100%",
-    icon: HRRecognition,
-    linkedTo: "HR/Recognition"
-  }
+  { colour: "#eef4ff", width: "100%", icon: BI,                linkedTo: "Business Intelligence", i18nKey: "businessIntelligence" },
+  { colour: "#f0e6ff", width: "50%",  icon: ProcessMapping,    linkedTo: "Process Mapping",       i18nKey: "processMapping" },
+  { colour: "#f8e6e6", width: "50%",  icon: ProjectManagement, linkedTo: "Project Management",    i18nKey: "projectManagement" },
+  { colour: "#e6f8e6", width: "100%", icon: ResourcePlanning,  linkedTo: "Resource Planning",     i18nKey: "resourcePlanning" },
+  { colour: "#fff4e6", width: "50%",  icon: DocumentManagement,linkedTo: "Document Management",   i18nKey: "documentManagement" },
+  { colour: "#e6f0ff", width: "50%",  icon: CPQ,               linkedTo: "CPQ",                   i18nKey: "cpq" },
+  { colour: "#f0f8e6", width: "100%", icon: CRM,               linkedTo: "CRM",                   i18nKey: "crm" }
 ];
 
 const Home = ({  }) => {
@@ -139,6 +86,7 @@ const Home = ({  }) => {
           dispatch(setSection("introduction"));
         }}/>
       <HowMeritWorks/>
+      <MeritConcept/>
     </Box>
   );
 }
@@ -146,18 +94,20 @@ const Home = ({  }) => {
 export default Home;
 
 const Welcome = ({ navToDemoRequest }) => {
+  const { t } = useTranslation();
   const theme = useTheme();
   return (
     <Box
       id="Hero"
       className="tracked-section"
       sx={{
-        minHeight: "100vh",
+        minHeight: { xs: "100vh", sm: "calc(100dvh - 74px)" },
         position: "relative",
         overflow: "hidden",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        justifyContent: "center",
         textAlign: "center",
         px: 2,
         pb: { xs: 4, md: 0 },
@@ -181,31 +131,26 @@ const Welcome = ({ navToDemoRequest }) => {
       }}>
       <Box
         sx={{
-          px: { xs: 6, sm: 16, md: 24, lg: 12 },
-          pt: { xs: 6, sm: 6, md: 8, lg: 12 },
+          px: 2,
+          pt: { xs: 6, sm: 0 },
           maxWidth: 800,
           mx: "auto"
         }}>
         <Typography
-          sx={{
-            color: '#fff'
-          }}
-          variant="h3" fontWeight={700} gutterBottom>
-          The Unified Operating System for Your Business
+          sx={{ color: '#fff', fontWeight: 700 }}
+          variant="h3" gutterBottom>
+          {t('home.hero.title')}
         </Typography>
 
-        <Typography variant="h6" maxWidth="800px" sx={{ color: '#fff', mb: 4 }}>
-          Bring all your operations together into a single execution model, shared by every team, 
-          so you can design, execute, optimize, and repeat with unprecedented clarity and control.
+        <Typography variant="h6" sx={{ color: '#fff', mb: 3, maxWidth: "800px" }}>
+          {t('home.hero.subtitle')}
         </Typography>
       </Box>
 
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={2}
-        mb={6}
-        alignItems="center"
-        justifyContent="center">
+        sx={{ mb: 3, alignItems: "center", justifyContent: "center" }}>
         <Button
           variant="outlined"
           onClick={navToDemoRequest}
@@ -218,7 +163,7 @@ const Welcome = ({ navToDemoRequest }) => {
             borderColor: "#fff",
             color: "#fff"
           }}>
-          Book a Demo
+          {t('common.bookDemo')}
         </Button>
         <Button
           variant="contained"
@@ -235,28 +180,28 @@ const Welcome = ({ navToDemoRequest }) => {
             fontSize: "1rem",
             color: "#64618D"
           }}>
-          Contact Sales
+          {t('common.contactSales')}
         </Button>
       </Stack>
 
       <Typography
         variant="h6"
-        maxWidth="800px"
-        sx={{ px: { xs: 4, sm: 16, md: 24, lg: 12 }, color: '#fff' }}>
-        Replace fragmented ERP, CPQ, BI, and Project Management, Process Mapping, and Document Management tools with one system spanning every function and team.
+        sx={{ px: 2, color: '#fff', mx: "auto", maxWidth: "800px" }}>
+        {t('home.hero.tagline')}
       </Typography>
     </Box>
   );
 };
 
 const Contextualiser = () => {
+  const { t } = useTranslation();
   return (
     <Box
       component="section"
       id="context"
       className="tracked-section"
-      position="relative"
       sx={{
+        position: "relative",
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -268,15 +213,17 @@ const Contextualiser = () => {
         background: "linear-gradient(to bottom, #b8c5c5, #fff)"
       }}>
       <Box
-        position="absolute"
-        top={20}
-        left={0}
-        right={0}
-        bottom={0}
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        zIndex={0}>
+        sx={{
+          position: "absolute",
+          top: 20,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 0
+        }}>
         <Box
           component="img"
           src="/images/M.svg"
@@ -295,42 +242,31 @@ const Contextualiser = () => {
       <Box
         sx={{
           px: { xs: 4, sm: 16, md: 24, lg: 12 },
-        }}
-        zIndex={1} display="flex" flexDirection="column" textAlign="center">
-        <Typography variant="h3" fontWeight={700} gutterBottom> {/* The Difference is Unity */ }
-          The Value of Unity
+          zIndex: 1,
+          display: "flex",
+          flexDirection: "column",
+          textAlign: "center"
+        }}>
+        <Typography variant="h3" sx={{ fontWeight: 700 }} gutterBottom>
+          {t('home.contextualiser.title')}
         </Typography>
         {
-          [
-            `When everyone works from the same execution model, it becomes easier to see how work is
-             done, who is contributing, and what is driving results.`,
-            `Merit connects people, tools, and processes directly to outcomes, making drivers of
-             excellence visible, measurable, and repeatable.`,
-            `With everything fully integrated, you unlock automation and intelligence that siloed
-             tools can’t deliver.`
-            ].map((paragraph, idx) => (
-              <Typography
-                key={idx}
-                variant="h6"
-                maxWidth="800px"
-                sx={{ mb: 3 }}>
-                {paragraph}
-              </Typography>
-            ))
+          [t('home.contextualiser.p1'), t('home.contextualiser.p2'), t('home.contextualiser.p3')].map((paragraph, idx) => (
+            <Typography
+              key={idx}
+              variant="h6"
+              sx={{ mb: 3, maxWidth: "800px" }}>
+              {paragraph}
+            </Typography>
+          ))
         }
-        <Typography
-          variant="h6"
-          fontWeight={700}
-          maxWidth="800px"
-          sx={{ mb: 3, userSelect: "none" }}>
-          Drive better outcomes together, with Merit.
-        </Typography>
       </Box>
     </Box>
   );
 };
 
 const EthicsSection = ({ navToEthics }) => {
+  const { t } = useTranslation();
   const theme = useTheme();
   return (
     <Box
@@ -348,28 +284,28 @@ const EthicsSection = ({ navToEthics }) => {
       }}>
       <Box
         sx={{
-          textAlign: { xs: 'center', md: 'left'}
-        }}
-        flex={1}>
+          textAlign: { xs: 'center', md: 'left'},
+          flex: 1
+        }}>
         <Typography
           sx={{
             color: theme.palette.text.primary
           }}
           variant="h5" fontWeight="bold" gutterBottom>
-          Accountability by Design
+          {t('home.ethics.title')}
         </Typography>
         <Typography
-          sx={{ color: theme.palette.text.primary }}
-          variant="body1" mb={2}>
-          Merit enables absolute transparency across work, with enterprise-grade permissions and governance.
+          sx={{ color: theme.palette.text.primary, mb: 2 }}
+          variant="body1">
+          {t('home.ethics.p1')}
         </Typography>
         <Typography
-          sx={{ color: theme.palette.text.primary }}
-          variant="body1" mb={2}>
-          When work is visible, contributions are traceable, and outcomes are measurable, organisations unlock not just performance but trust.
+          sx={{ color: theme.palette.text.primary, mb: 2 }}
+          variant="body1">
+          {t('home.ethics.p2')}
         </Typography>
-        <Typography variant="body1" mb={4}>
-          Merit connects delivery to decisions with clear governance, so recognition is consistent, effort is visible, and rewards are fair.
+        <Typography variant="body1" sx={{ mb: 4 }}>
+          {t('home.ethics.p3')}
         </Typography>
         <Button
           onClick={navToEthics}
@@ -385,17 +321,19 @@ const EthicsSection = ({ navToEthics }) => {
               backgroundColor: '#e0deff'
             }
           }}>
-          Explore how ethics is integral to the platform →
+          {t('home.ethics.cta')}
         </Button>
       </Box>
       
       {/* Right Image Section with Shadow Box */}
       <Box
-        flex={1}
-        position="relative"
-        display="flex"
-        mr={{ xs: 3, md: 0 }}
-        justifyContent="center">
+        sx={{
+          flex: 1,
+          position: "relative",
+          display: "flex",
+          mr: { xs: 3, md: 0 },
+          justifyContent: "center"
+        }}>
         {/* Background Blue Box */}
         <Box
           sx={{
@@ -417,7 +355,9 @@ const EthicsSection = ({ navToEthics }) => {
 };
 
 const FeatureCard = ({ feature }) => {
-  const { colour, header, title, description, icon, linkedTo } = feature;
+  const { t } = useTranslation();
+  const { colour, icon, linkedTo, i18nKey } = feature;
+  const { header, title, description } = t(`home.features.${i18nKey}`, { returnObjects: true });
   const dispatch = useDispatch();
   return (
     <Box
@@ -433,18 +373,18 @@ const FeatureCard = ({ feature }) => {
         height: "100%"
       }}>
       <Stack spacing={2}>
-        <Typography fontWeight={600} color="blue" fontSize="1.1rem">
+        <Typography color="blue" sx={{ fontWeight: 600, fontSize: "1.1rem" }}>
           {header}
         </Typography>
-        <Typography variant="h5" fontWeight={500}>
+        <Typography variant="h5" sx={{ fontWeight: 500 }}>
           {title}
         </Typography>
-        <Typography variant="body1" maxWidth={400}>
+        <Typography variant="body1" sx={{ maxWidth: 400 }}>
           {description}
         </Typography>
       </Stack>
 
-      <Stack direction="row" justifyContent="space-between" alignItems="flex-end" mt={4}>
+      <Stack direction="row" sx={{ justifyContent: "space-between", alignItems: "flex-end", mt: 4 }}>
         <Button
           variant="contained"
           onClick={() => {
@@ -464,7 +404,7 @@ const FeatureCard = ({ feature }) => {
               boxShadow: "none"
             }
           }}>
-          Learn More →
+          {t('common.learnMore')}
         </Button>
         
       {/* Icon container */}
@@ -498,24 +438,13 @@ const FeatureCard = ({ feature }) => {
 };
 
 const functionalities = [
-  {
-    title: "Structure",
-    description: "Build processes that connect teams, tools, and outcomes.",
-    image: Structure
-  },
-  {
-    title: "Measurement",
-    description: "Understand progress, performance, cost, and contribution at every level.",
-    image: Measurement
-  },
-  {
-    title: "Intelligence",
-    description: "Spot inefficiencies, identify impact, and act with clarity.",
-    image: Intelligence
-  }
+  { i18nKey: "model",   image: Structure },
+  { i18nKey: "execute", image: Measurement },
+  { i18nKey: "improve", image: Intelligence }
 ];
 
 const HowMeritWorks = () => {
+  const { t } = useTranslation();
   return (
     <Box
       id="How Merit Works"
@@ -529,14 +458,13 @@ const HowMeritWorks = () => {
         textAlign: 'center'
       }}>
       {/* Title */}
-      <Typography variant="h5" fontWeight="bold" gutterBottom sx={{ userSelect: "none" }}>
-        How Merit Works
+      <Typography variant="h5" gutterBottom sx={{ fontWeight: "bold" }}>
+        {t('home.howMeritWorks.title')}
       </Typography>
 
       {/* Subtitle */}
-      <Typography variant="body1" sx={{ maxWidth: 700, mx: "auto", mb: 6, userSelect: "none" }}>
-        Most tools manage tasks, not systems. Merit gives you a platform to build structured, intelligent
-        operations that unlock efficiency, performance and decision-making clarity
+      <Typography variant="body1" sx={{ maxWidth: 700, mx: "auto", mb: 6 }}>
+        {t('home.howMeritWorks.subtitle')}
       </Typography>
 
       {/* Icons and Labels */}
@@ -552,8 +480,7 @@ const HowMeritWorks = () => {
           functionalities.map((func, index) => (
             <FunctionCard
               key={index}
-              title={func.title}
-              description={func.description}
+              i18nKey={func.i18nKey}
               image={func.image} />
           ))
         }
@@ -562,7 +489,36 @@ const HowMeritWorks = () => {
   );
 };
 
-const FunctionCard = ({ title, description, image }) => {
+const MeritConcept = () => {
+  const { t } = useTranslation();
+  return (
+    <Box
+      id="What We Mean by Merit"
+      className="tracked-section"
+      sx={{
+        textAlign: 'center',
+        px: { xs: 4, sm: 12, md: 24 },
+        py: { xs: 6, md: 10 },
+        mx: { xs: 2, md: 8 },
+        mt: { xs: 4, md: 6 },
+      }}>
+      <Typography variant="h5" fontWeight="bold" gutterBottom>
+        {t('home.meritConcept.title')}
+      </Typography>
+      {
+        t('home.meritConcept.content', { returnObjects: true }).map((paragraph, idx) => (
+          <Typography key={idx} variant="body1" sx={{ mb: 2, mx: 'auto', maxWidth: 700 }}>
+            {paragraph}
+          </Typography>
+        ))
+      }
+    </Box>
+  );
+};
+
+const FunctionCard = ({ i18nKey, image }) => {
+  const { t } = useTranslation();
+  const { title, description } = t(`home.howMeritWorks.${i18nKey}`, { returnObjects: true });
   return (
     <Box
       sx={{
@@ -595,10 +551,10 @@ const FunctionCard = ({ title, description, image }) => {
         }}/>
       {/* Foreground text */}
       <Box sx={{ zIndex: 1, maxWidth: '60%' }}>
-        <Typography fontWeight="bold" mb={1} sx={{ userSelect: "none" }}>
+        <Typography sx={{ fontWeight: "bold", mb: 1 }}>
           {title}
         </Typography>
-        <Typography variant="body2" sx={{ userSelect: "none" }}>
+        <Typography variant="body2">
           {description}
         </Typography>
       </Box>

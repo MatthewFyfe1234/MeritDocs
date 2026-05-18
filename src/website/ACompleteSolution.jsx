@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 
 // @mui components
 import { Box } from '@mui/material';
+import { ArrowForwardIos } from '@mui/icons-material';
 import { Typography, useTheme } from '@mui/material';
 
 // Components
 import SiteText from './components/SiteText';
 
 // @mui icons
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 
 import process from '/images/home/process.webp';
 
@@ -141,7 +142,7 @@ const ACompleteSolution = ({ style }) => {
                   variant="h6">
                   {func.title}
                 </Typography>
-                <ArrowForwardIosIcon
+                <ArrowForwardIos
                   sx={{
                     color: selectedIndex === index
                       ? theme.palette.text.secondary

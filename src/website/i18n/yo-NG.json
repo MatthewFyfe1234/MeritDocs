@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Beere Ìfihàn",
+    "contactSales": "Kan Ẹ̀ka Tita",
+    "learnMore": "Kọ́ Siwájú →",
+    "contentFooter": {
+      "title": "Ìmọ̀ Iṣẹ́. Ìwà Rere. Àbájáde Tó Dára Sii.",
+      "subtitle": "Béèrè ìpínlẹ̀ àti wo bí Merit ṣe lè ràn ọ́ lọ́wọ́ láti yí ìdàrúdàpò padà sí ìmọ̀."
+    },
+    "form": {
+      "name": "Orúkọ",
+      "email": "Ímeèlì",
+      "phone": "Fóònù",
+      "company": "Ilé-iṣẹ́",
+      "position": "Ipò",
+      "message": "Ìfiranṣẹ́",
+      "send": "Fi Ìbéèrè Ránṣẹ́",
+      "success": "A ti fi ìfiranṣẹ́ rẹ ránṣẹ́!",
+      "error": "Àṣìṣe nínú fífi ímeèlì ránṣẹ́. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kansí.",
+      "validation": {
+        "nameRequired": "Orúkọ jẹ́ dandan.",
+        "nameInvalid": "Ìdápadà orúkọ kò tọ́.",
+        "emailRequired": "Ímeèlì jẹ́ dandan.",
+        "emailInvalid": "Àdírẹ́sì ímeèlì kò tọ́.",
+        "companyRequired": "Ilé-iṣẹ́ jẹ́ dandan.",
+        "positionRequired": "Ipò jẹ́ dandan.",
+        "messageRequired": "Ìfiranṣẹ́ jẹ́ dandan.",
+        "messageTooShort": "Ìfiranṣẹ́ gbọdọ̀ jẹ́ ó kéré jù lọ ìhun 10."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Ìdí Merit",
+    "platform": "Ètò",
+    "useCases": "Àwọn Ìlò",
+    "teams": "Àwọn Ẹgbẹ́",
+    "values": "Ìlànà",
+    "company": "Ilé-iṣẹ́",
+    "bookDemo": "Beere Ìfihàn",
+    "subMenus": {
+      "whyMerit": {
+        "title": "Àríyànjiyàn",
+        "theProblem": "Ìṣòro",
+        "theSolution": "Ojútùú",
+        "theAdvantage": "Ànfààní"
+      },
+      "platform": {
+        "title": "Agbára",
+        "businessIntelligence": "Ọgbọ́n Òwò",
+        "processMapping": "Ìdálé Ọ̀nà Iṣẹ́",
+        "projectManagement": "Ìṣàkóso Iṣẹ́-àgbàdo",
+        "documentManagement": "Ìṣàkóso Àwọn Ìwé",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Ìgbèrò Àwọn Ohun-èlò"
+      },
+      "useCases": {
+        "title": "Àwọn Ẹ̀ka Iṣẹ́",
+        "manufacturing": "Ìṣelọpọ",
+        "construction": "Ìkọ́lé",
+        "healthcare": "Ìlera",
+        "disasterManagement": "Ìfèsì sí Àwọn Ìṣẹlẹ̀",
+        "miningAndResources": "Ìwakùsà àti Àwọn Ohun-àmúṣọṣọ",
+        "agriculture": "Iṣẹ́-àgbẹ̀",
+        "publicInfrastructure": "Amayederun Àwùjọ",
+        "consultingProfessionalServices": "Ìmọ̀ràn/Àwọn Iṣẹ́ Ọjọgbọ́n"
+      },
+      "teams": {
+        "title": "Àwọn Ipa",
+        "leadership": "Ìdarí",
+        "operations": "Ìṣiṣẹ́",
+        "projectManagement": "Ìṣàkóso Iṣẹ́-àgbàdo",
+        "humanResources": "Àwọn Ìpèsè Ènìyàn",
+        "sales": "Títa",
+        "marketing": "Ìpolówó Ọjà",
+        "finance": "Ìṣuna"
+      },
+      "values": {
+        "title": "Ìwà",
+        "operationalEthics": "Ìwà Ìṣiṣẹ́",
+        "esg": "ESG",
+        "culturalIntegrity": "Ìwà Àṣà"
+      },
+      "company": {
+        "title": "Nípa Wa",
+        "ourMission": "Ìlépa Wa",
+        "whoWeAre": "Ta Ni Àwa",
+        "whatWereBuilding": "Ohun Tí A Ń Kọ́",
+        "contactUs": "Kàn Sí Wa"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Gbogbo ẹ̀tọ́ ni a ní.",
+    "terms": "Àwọn Ìlànà",
+    "privacyPolicy": "Ìlànà Àṣírí",
+    "cookiePolicy": "Ìlànà Kúkì",
+    "contact": "Ìsọdọkan"
+  },
+  "home": {
+    "hero": {
+      "title": "Ètò Ìṣiṣẹ́ Tí A Dapọ̀ fún Àjọ Rẹ",
+      "subtitle": "Àpẹẹrẹ fínnínní àfọwọ́kọ ti àjọ rẹ, tí a ṣe dára sí i pẹ̀lú ìpèsè kọ̀ọ̀kan. Fún ìgbèrò tó mójúmó sí i, ìpíndọ̀pọ̀ tó yára sí i, àti ìṣèsísọ tó dára sí i kárí gbogbo ẹ̀ka.",
+      "tagline": "Ètò kan tó so ìṣàkóso iṣẹ́-àgbàdo, ìdálé ọ̀nà iṣẹ́, CPQ, CRM, ọgbọ́n òwò, ìṣàkóso àwọn ìwé, HR, àti ìṣàkóso agbára iṣẹ́ pọ̀, gbogbo wọn tí a so pọ̀ nípasẹ̀ ẹyọ àpẹẹrẹ ìṣiṣẹ́ kan tó n dára sí i pẹ̀lú ìpèsè kọ̀ọ̀kan."
+    },
+    "contextualiser": {
+      "title": "Iye Ìṣọ̀kan",
+      "p1": "Nígbàtí gbogbo ènìyàn ń ṣiṣẹ́ látinú àpẹẹrẹ ìṣèsísọ kan náà, ó rọrùn sí i láti rí bí iṣẹ́ ṣe n ṣeéṣe, tani ń ṣèrànwọ́, àti ohun tó ń ṣe àwọn ìbátan.",
+      "p2": "Ó tún túmọ̀ sí pé dátà dáwọ́ dínà sínú àwọn iṣẹ́. Títa n rí ohun tí ìpèsè jẹ́ gangan. Ìṣuna n rí ibití àwọn ìṣirò fọ́. Nígbàtí ẹnìkan bá lọ, ìmọ̀ tí wọn gbé ní wà nínú àpẹẹrẹ.",
+      "p3": "Bí o ṣe n ṣiṣẹ́ lórí ìgbàsilẹ̀ ìṣèsísọ kan fún ìgbà pípẹ́ tó, bẹ́ẹ̀ náà bí o ṣe lè ṣe ìgbèrò, ìrànpọ́ àgbàdo, tó sì sọ iye fun iṣẹ́-àgbàdo tó n bọ̀."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Ọgbọ́n Òwò",
+        "title": "Yí òye padà sí ìgbéṣẹ̀",
+        "description": "Ọgbọ́n òwò tí a dapọ̀ pẹ̀lú ìlànà, fraktal, mú ọ lè mọ àwọn àǹfààní, ṣàkóso ìgbèsísọ, àti kópa nínú ìpinnu tó da lórí ìmọ̀ kárí àjọ rẹ."
+      },
+      "processMapping": {
+        "header": "Ìdálé Ọ̀nà Iṣẹ́",
+        "title": "Ṣàfihàn àwọn ìlànà rẹ",
+        "description": "Ṣàpèjúwe àti wo àwọn ìlànà ní àwọn ìpele àlàyé oríṣiríṣi nínú ìlò àyọkà wa tó dà bí Google Maps, ní ìdánilójú ìmọ̀ àti ìbámu lórí àwọn ẹgbẹ́ àti àwọn iṣẹ́."
+      },
+      "projectManagement": {
+        "header": "Ìṣàkóso Iṣẹ́-àgbàdo",
+        "title": "Mú àwọn iṣẹ́-àgbàdo rẹ pọ̀ mọ́",
+        "description": "Ṣe ìgbèrò àwọn iṣẹ́-àgbàdo lórí ìpilẹ̀ àwọn àlàyé ọjà, lẹ́hìn náà ṣe ìpíndọ̀pọ̀ nínú ìlò àwọn irinṣẹ́ àkànṣe wa láti sọtẹ́lẹ̀ àkókò ìṣèsísọ àti àwọn àìní ohun-èlò, dá lórí dátà ìtàn."
+      },
+      "resourcePlanning": {
+        "header": "Ìgbèrò Àwọn Ohun-èlò",
+        "title": "Mú àkókò àjọ rẹ dára jù",
+        "description": "Ṣe àpẹẹrẹ ènìyàn, ọgbọ́n, irinṣẹ́, ìpèsè, àti ìpadànù láti so agbára pọ̀ mọ́ ìbéèrè ìṣiṣẹ́ àti iṣẹ́ tí a gbèrò."
+      },
+      "documentManagement": {
+        "header": "Ìṣàkóso Àwọn Ìwé",
+        "title": "Ṣe ìgbékalẹ̀ ìmọ̀ tó ń mú àbájáde jáde",
+        "description": "Fi àwọn ìwé sẹ́gbẹ̀ àwọn ènìyàn, nǹkan apamọ, iṣẹ́-àgbàdo, tàbí àwọn ìgbésẹ̀ ìlànà tó jẹmọ́ wọn fún ìṣètò àdáyébá àti ìwádìí rọrùn."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Mú ìdàrúdàpò rọrùn láìsọ ìdúróṣinṣin nù",
+        "description": "Ṣẹ̀dá àwọn àlàyé nínú àwọn ìdíwọ̀n ti ọjà àkọ́kọ́ láti bá ìṣẹ́ àti àwọn agbára ilé-iṣẹ́ rẹ mu. Ṣàpẹẹrẹ àwọn ìlànà ohun-èlò àti iye bẹ́ẹ̀ kó sì ṣẹ̀dá àwọn ìṣirò àkókò dá lórí dátà iṣẹ́-àgbàdo ìtàn."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Parí àkáso kárí ìpèsè kọ̀ọ̀kan",
+        "description": "Gba esi alabàpàdé lẹ́yìn ìpèsè kọ̀ọ̀kan kí a sì so rẹ̀ mọ́ àwọn ìgbésẹ̀ ìlànà àti àwọn ohun-èlò tó ṣẹ̀dá rẹ̀. Àwọn àwòṣe kárí àwọn ìpèsè n fojúhàn ní àkókò, tí ó ń yí esi padà sí àmì tó ṣeyítọ́ fún ìlọsíwájú ìlànà àti àwọn ohun-èlò."
+      }
+    },
+    "ethics": {
+      "title": "Ìjẹ́wọ́ Nípasẹ̀ Ìṣètò",
+      "p1": "Merit mú gbangba gbangba kárí iṣẹ́, pẹ̀lú àwọn àṣẹ ati ijọba ní ìpele ilé-iṣẹ́.",
+      "p2": "Nígbàtí iṣẹ́ bá ṣeyítọ́, àwọn ìfikún wà tí a lè tọpasẹ̀, àti àwọn àbájáde wà tí a lè wọn, àwọn àjọ n ṣí kìí ṣe ìgbèsísọ nìkan àmọ́ ìgbẹ́kẹ̀lé pẹ̀lú.",
+      "p3": "Merit so ìpèsè mọ́ àwọn ìpinnu pẹ̀lú ijọba tó ṣeyítọ́, kí ìdánimọ̀ bàa jẹ́ tábítábí, ìjàkadì ṣeyítọ́, àti àwọn ẹ̀bùn dọ́gba.",
+      "cta": "Ṣàwárí bí ìwà ṣe jẹ́ apakan ti ètò →"
+    },
+    "meritConcept": {
+      "title": "Merit lórí Àwọn Ìlànà Rẹ",
+      "content": [
+        "Ètò kò ṣe àgbékalẹ̀ merit fún ọ. Ó jẹ́ ohunkóhun tí àjọ rẹ àti àwọn alabàpàdé rẹ pinnu pé ìṣeéṣe rẹ̀ dara, tí a ṣe ìwọ̀n ní gbogbo ipele ìlànà.",
+        "Ìwọ̀n kọ̀ọ̀kan, àgbékalẹ̀ kọ̀ọ̀kan, àti KPI kọ̀ọ̀kan n ṣàn látinú àwọn ìgbọ̀kan tí àjọ n ṣe lódì sí àpẹẹrẹ. Ìtumọ̀ olùṣelọpọ kan ti ìpèsè tó ṣeéṣe yatọ̀ sí ti olùpèsè ìlera. Àwọn ìrètí alabàpàdé lórí ìfọwọ́sowọ́pọ̀ tó ṣòro yatọ̀ sí ẹyọ tó ṣe àṣà. Ètò n gba gbogbo rẹ nítorí pé ìtumọ̀ merit wà nínú àpẹẹrẹ, àsílò nínú sọ́ftiwéà.",
+        "Ìyẹn tún ni ó ń jẹ́ kí ìbámu ṣeéṣe. Nígbàtí àwọn ìgbọ̀kan tó ṣe pàtàkì sí alabàpàdé bá ṣàfihàn nínú àpẹẹrẹ ìlànà, àwọn ènìyàn tó n ṣe iṣẹ́ lè rí bí ìṣeéṣe ṣe dara látinú ibití wọ́n dúró. Nígbàtí ìpèsè kọ̀ọ̀kan bá parí, esi n parí àkáso, tí ó ń so irírí alabàpàdé padà sí àwọn ìgbésẹ̀ tó ṣẹ̀dá rẹ̀."
+      ]
+    },
+    "howMeritWorks": {
+      "title": "Bí Merit Ṣe Ń Ṣiṣẹ́",
+      "subtitle": "Gbasilẹ̀ ìpèsè kọ̀ọ̀kan lódì sí àpẹẹrẹ tí a pín. Iṣẹ́-àgbàdo kọ̀ọ̀kan tó parí n mú ìṣirò tó n bọ̀ dúró, n mú ìdáálóde ìgbèrò dára sí i, tó sì n ṣe àfikún sí ìgbàsilẹ̀ ìṣiṣẹ́ tó wà nínú ètò nígbàtí ènìyàn bá n lọ.",
+      "model": {
+        "title": "Àpẹẹrẹ",
+        "description": "Ṣàpèjúwe ọjà rẹ ní gbogbo àwọn ìyípadà rẹ̀ kí o sì so ó pọ̀ mọ́ ìlànà tó yẹ, pẹ̀lú àwọn ọgbọ́n, irinṣẹ́, àti ohun-èlò tí a lò láti pèsè rẹ̀."
+      },
+      "execute": {
+        "title": "Ṣe",
+        "description": "Ṣe àwọn iṣẹ́-àgbàdo lódì sí àpẹẹrẹ. Tọpasẹ̀ àwọn iyípadà ní àkókò gidi. Mú ẹgbẹ́ kọ̀ọ̀kan, irinṣẹ́, àti iṣẹ́-ìdánilójú so pọ̀ mọ́ àwòrán kan náà."
+      },
+      "improve": {
+        "title": "Mú Dára Sí I",
+        "description": "Ìpèsè kọ̀ọ̀kan n pada sí àpẹẹrẹ. Àwọn ìṣirò n dúró, ìrísí ìgbèrò n dínkù, àti ìmọ̀ àjọ n kojọpọ nínú ètò dípò nínú ènìyàn."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Ìṣòro tó tọ́ láti yanjú",
+      "p1": "Ìpèsè kọ̀ọ̀kan n ṣiṣẹ́ ní ọ̀nà kan náà: ìlànà kan, tí ènìyàn ń ṣe, pẹ̀lú àwọn irinṣẹ́ àti ohun-èlò. Àmọ́ ìpèsè ṣọwọ́ bájẹ́ pẹ̀lú ìgbèrò.",
+      "p2": "Ikú mẹ́fà kan náà ń fojúhàn kárí àwọn ẹ̀ka iṣẹ́, àwọn àjọ, àti àwọn irú iṣẹ́-àgbàdo. A kọ́ Merit láti koju gbogbo mẹ́fẹ̀ẹ̀ta."
+    },
+    "theProblem": {
+      "title": "Ikú ìgbékalẹ̀ mẹ́fà. Ìdí kan",
+      "subtitle": "Àwọn ikú wọ̀nyí pín orísun kan: kò sí ìgbàsilẹ̀ ìṣèsísọ tí a pín, kò sí àpẹẹrẹ tó ń kọ́, kò sí àwòrán kan tí gbogbo ènìyàn ń ṣiṣẹ́ lórí.",
+      "failures": {
+        "measurability": {
+          "dimension": "Ìwọ̀n",
+          "problem": "Ìgbèsísọ wà ní ìmọ̀lára, àsílò.",
+          "detail": "Láìsí ìgbàsilẹ̀ ìṣèsísọ tí a pín, ìjẹ́wọ́ jẹ́ àìsẹlọpọ, ìdánimọ̀ jẹ́ ìkọ̀sí, àti ìmúdára jẹ́ ìdánwò àìlóye."
+        },
+        "predictability": {
+          "dimension": "Ìsọtẹ́lẹ̀",
+          "problem": "Àwọn ìṣirò jẹ́ àwọn ìwọ̀n, àsọtẹ́lẹ̀ àsílò.",
+          "detail": "Iṣẹ́-àgbàdo kọ̀ọ̀kan bẹ̀rẹ̀ pẹ̀lú àìdánilójú tó wà ínú. Kò sí àpẹẹrẹ láti fà. Irírí wà ní orí, àsílò ní àwọn ètò."
+        },
+        "transparency": {
+          "dimension": "Ìṣeéṣe Gbangba",
+          "problem": "Ìlọsíwájú ṣeyítọ́ nìkan lẹ́yìn ìgbàkúùkan.",
+          "detail": "Nígbàtí ìṣòro bá fojúhàn nínú ìjábọ̀, ó ti gbówó lórí tẹ́lẹ̀. Ìyapa n wadi, àìsídiwọ̀n."
+        },
+        "planning": {
+          "dimension": "Ìgbèrò",
+          "problem": "Iṣẹ́-àgbàdo kọ̀ọ̀kan bẹ̀rẹ̀ látinú ìmọ̀-àìní.",
+          "detail": "Àwọn ẹgbẹ́ n tún kọ́ ìgbèrò àti tún kọ́ àwọn ìgbẹ́kẹ̀lé ní iṣẹ́-àgbàdo kọ̀ọ̀kan. Kò sí nǹkan tó ń lọ síwájú."
+        },
+        "evaluation": {
+          "dimension": "Ìṣàyẹ̀wò",
+          "problem": "Ìdíyelé da lórí àwọn ìbátan, àbájáde àsílò.",
+          "detail": "Láìsí dátà ìgbèsísọ tó ṣeeṣe, àwọn ènìyàn tó dára jù lọ kò ṣeyítọ́ àti àwọn ìpinnu tó jẹ́ àṣìṣe n pé."
+        },
+        "integration": {
+          "dimension": "Ìdárapọ̀",
+          "problem": "Dátà wà ní sáàlù nípasẹ̀ iṣẹ́, ìmọ̀ nípasẹ̀ ènìyàn.",
+          "detail": "Títa kò rí ìpèsè. Ìṣuna kò rí ìṣèsísọ. Nígbàtí ènìyàn bá lọ, ìmọ̀ àjọ ń lọ pẹ̀lú wọn."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "Àjọ tó ń dára sí i pẹ̀lú iṣẹ́-àgbàdo kọ̀ọ̀kan",
+      "p1": "Merit ń ṣe àpẹẹrẹ ìpèsè kọ̀ọ̀kan gẹ́gẹ́ bí nẹ́tíwọ̀ọ̀kì àwọn agbèrú (ènìyàn àti àwọn àjọ), apamọ, àti àwọn ìgbésẹ̀ ìlànà, ìṣèsísọ kọ̀ọ̀kan tí a gbasilẹ̀ lódì sí àpẹẹrẹ àkọ́kọ́. Pẹ̀lú iṣẹ́-àgbàdo kọ̀ọ̀kan tó parí, àpẹẹrẹ n dára sí i. Ìdájọ́ àìsẹlọpọ n di ẹ̀rí. Ẹrù ìṣàkóso n dínkù bí ètò ṣe n ṣe ìpíndọ̀pọ̀ àti ìjábọ̀ tí a ṣe ní ọwọ́ tẹ́lẹ̀.",
+      "p2": "Iṣẹ́-àgbàdo kọ̀ọ̀kan tó parí n fi kún ìgbàsilẹ̀ ìṣèsísọ tó jẹ́ àkànṣe fún àjọ. Ìgbàsilẹ̀ yẹn di ìpìlẹ̀ fún àsọtẹ́lẹ̀ kọ̀ọ̀kan, ìṣàyẹ̀wò kọ̀ọ̀kan, àti ìpinnu ìgbèrò kọ̀ọ̀kan tó ń tẹ̀lé."
+    },
+    "theAdvantage": {
+      "title": "Iye kárí gbogbo ète",
+      "subtitle": "Merit n mú àṣeyọrí ní àwọn ọ̀nà oríṣiríṣi dá lórí ìgbà tí ó ti ń ṣiṣẹ́.",
+      "horizons": {
+        "immediately": {
+          "label": "Lẹ́sẹ̀kẹsẹ̀",
+          "headline": "Ìpèsè di tí a lè tọpasẹ̀.",
+          "detail": "Àwọn iyípadà ṣeyítọ́ ní àkókò gidi. Àwọn ìgbèrò iṣẹ́-àgbàdo n wá látinú àlàyé. Àwọn ẹgbẹ́ dáwọ́ tún kọ́ ohun tó ti wà tẹ́lẹ̀."
+        },
+        "overTime": {
+          "label": "Ní Àkókò",
+          "headline": "Àpẹẹrẹ n dára sí i pẹ̀lú ìṣèsísọ kọ̀ọ̀kan.",
+          "detail": "Àwọn àsọtẹ́lẹ̀ n di péye sí i bí ìgbàsilẹ̀ ìṣèsísọ bá ń pọ̀ sí i. Ìgbèrò n fa látinú ìtàn gidi, àsílò àwọn ìṣirò ìbẹ̀rẹ̀pẹ̀lú, àti àpẹẹrẹ n ṣàfihàn bí àjọ ṣe ń ṣiṣẹ́ gangan."
+        },
+        "enduringly": {
+          "label": "Títí Láé",
+          "headline": "Àkójọpọ̀ dátà tí kò sí orogun tí lè dá padà.",
+          "detail": "Àjọ tó ti ń ṣiṣẹ́ lórí Merit fún ọ̀pọ̀ ọdún ní ìgbàsilẹ̀ ìṣèsísọ tó jínnà sí ọdún: àkànṣe fún àwọn ìlànà rẹ̀, àwọn ènìyàn rẹ̀, àti ìtàn ìpèsè rẹ̀. Ìgbàsilẹ̀ yẹn kò lè jẹ́ ẹ̀dà nípasẹ̀ orogun tó gba àsò kan náà."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Ètò Kan fún Ọgbọ́n Ìṣiṣẹ́",
+      "content": ["Ètò kan. Ìwòyè pípé. Ìmúdára àìnísìn."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Ọgbọ́n Òwò",
+        "content": [
+          "Ọgbọ́n òwò nínú Merit wà ínú àgbékalẹ̀ ọ̀nà ìlànà fúnrararẹ̀. Dátà ìgbèsísọ n wá sí ojú ní gbogbo ipele àfojúsùn, láti ìwòyè kárí àjọ sí àwọn ìgbésẹ̀ ènìyàn kọ̀ọ̀kan, kí o bàa máa lóye bí òwò ṣe ń ṣiṣẹ́ ní àbájẹ̀ ìlànà tó ń wakọ̀ rẹ̀, àsílò ínú irinṣẹ́ ìjábọ̀ tó yàtọ̀.",
+          "Dátà n ṣàn látinú ohun kọ̀ọ̀kan nínú ètò: àwọn ìgbàsilẹ̀ ìṣèsísọ, àwọn àkọsílẹ̀ ènìyàn kọ̀ọ̀kan, apamọ, àwọn àlàyé, àti àwọn kalẹ́ńdà. Àwọn orísun wọ̀nyí lè ṣe àfihàn tàbí sopọ̀ ní nàwọn ínú àpẹẹrẹ ìlànà. Dátà oya tó kojọpọ̀ lórí àwọn ènìyàn tó ń ṣe ìgbésẹ̀ kan, papọ̀ pẹ̀lú àkókò ìṣèsísọ, n fún iye otitọ́, ní ipele ìgbésẹ̀, ipele iṣẹ́, tàbí kárí gbogbo iṣẹ́-àgbàdo ní ìgbà èyíkéyìí.",
+          "Nítorí pé orísun dátà èyíkéyìí lè ṣe àgbékalẹ̀ lórí ẹyọ èyíkéyìí nínú ìlànà, ìtúpalẹ̀ jẹ́ àjọtọ̀. Ìgbékalẹ̀ kan náà tó ń ṣàkóso ìṣèsísọ n di ìlànà fún ọgbọ́n òwò gíga-ìṣàlàyé, tó dapọ̀ pẹ̀lú ìlànà."
+        ]
+      },
+      "processMapping": {
+        "title": "Ìdálé Ọ̀nà Iṣẹ́",
+        "content": [
+          "Merit ń ṣe àgbékalẹ̀ ìlànà ìṣiṣẹ́ rẹ kárí gbogbo ipele àfojúsùn: láti ìwòyè àjọ àti ẹgbẹ́ sí àwọn ìgbésẹ̀ ìlànà ènìyàn kọ̀ọ̀kan àti àwọn iṣẹ́ irinṣẹ́ tó jẹ́ àkànṣe tí ìgbésẹ̀ kọ̀ọ̀kan nílò. Àgbékalẹ̀ jẹ́ onírú-ẹkẹta àti tó ṣeéyọ́ pátápátá: kékeré ìwọ̀n láti rí àwòrán kárí àjọ, ìwọ̀n sínú ìgbésẹ̀ olùṣiṣẹ́ kan, láìsí pàdánù àbájẹ̀ bí ó ṣe báramu pẹ̀lú gbogbo ìpọ̀.",
+          "Àpẹẹrẹ ìpèsè tó ṣòro jù lọ lè ṣe àpẹẹrẹ, ìwádìí, àti òye. Àwọn àgbékalẹ̀ wà láàyè tí a si fi dátà ìṣèsísọ ní apọ̀, nítorí náà ipele àfojúsùn kọ̀ọ̀kan ń ṣàfihàn bí àjọ ṣe ń ṣiṣẹ́ gangan, àsílò àgbékalẹ̀ tó dúró sójú.",
+          "Àpẹẹrẹ ìlànà kò dínà sí àjọ rẹ. Ó lè gbòòrò kárí gbogbo ètò ìpèsè rẹ: sísọ àwọn àjọ alábàákẹ́gbẹ́ di àgbékalẹ̀, ṣe ìpíndọ̀pọ̀ ìkópa wọn, àti gba dátà ìgbèsísọ kárí ẹ̀wọ̀n."
+        ]
+      },
+      "projectManagement": {
+        "title": "Ìṣàkóso Iṣẹ́-àgbàdo",
+        "content": [
+          "Nígbàtí àṣẹ bá jẹ́ ìmúdájú, ìgbèrò iṣẹ́-àgbàdo n wá látinú àpẹẹrẹ ìlànà. Àwọn ìgbákejì n ṣèṣiro láti àwọn àsọtẹ́lẹ̀ tó wà ínú ìlànà, tí a ṣe díẹ̀díẹ̀ pẹ̀lú dátà ìṣèsísọ ìtàn, àti ìyàsọtọ agbèrú n ṣe adaṣe: tí ó ń fa lórí àwọn kalẹ́ńdà ènìyàn kọ̀ọ̀kan, irírí, àti ìwà, pẹ̀lú àwọn irinṣẹ́ ìṣètò àti àwọn ìfòyebánilẹ́gbẹ̀ tí ó wà ní gbogbo àkókò.",
+          "Ìlọsíwájú n tọpasẹ̀ lódì sí àwọn ohun tó ṣe àpèjúwe: àwọn àbájáde tí a ní láti pèsè, àwọn ìwọ̀n tí a ní láti gbasilẹ̀, àti àwọn àmì ipò tí a ní láti ṣètò ní ìgbésẹ̀ kọ̀ọ̀kan. Ètò ń darí ìṣèsísọ láìyọ̀ iṣakoso kúrò.",
+          "Iṣẹ́-àgbàdo lè ṣe ìwòrán gẹ́gẹ́ bí Gantt tó jẹ́ adaṣe tàbí ínú àgbékalẹ̀ ìlànà fúnrararẹ̀, tó ń ṣàfihàn ipò láàyè kárí àwọn àjọ, iṣẹ́, àti àwọn ìgbésẹ̀ ènìyàn kọ̀ọ̀kan. Bó ṣe jẹ́ ìpíndọ̀pọ̀ àwọn ẹgbẹ́ ìnú tàbí àwọn olùlọ́wọ́sí, àwòrán wà lọ́wọ́ tẹ́lẹ̀ àti ní àbájẹ̀ gbogbo ìgbà."
+        ]
+      },
+      "documentManagement": {
+        "title": "Ìṣàkóso Àwọn Ìwé",
+        "content": [
+          "Àwọn ìwé nínú Merit ti so mọ́ ohun tí wọ́n jẹ́ ti: ìgbésẹ̀ ìlànà, ìgbésẹ̀ iṣẹ́-àgbàdo, àlàyé kan, òṣìṣẹ́, àjọ alábàákẹ́gbẹ́, tàbí irinṣẹ́ tàbí ohun àmúlò. Ìwé ìdánilójú ìbámu, ìgbàsilẹ̀ ìtọ́jú, tàbí àmọ̀ ayẹwo wà ní ìdúróṣinṣin ibití wọn báramu, àsílò ínú àpamọ̀ tí a yà kọ̀.",
+          "Ibití a nílò àwọn ìwé, gẹ́gẹ́ bí a ṣe sọ ínú àpẹẹrẹ ìlànà, wọ́n ń dènà ìlọsíwájú. Ìpele kan kò lè lọ síwájú títí tí ìwé bá wà; ipa kan kò lè jẹ́ yíyàsọtọ títí tí ìjẹ́rìísí tó nílò bá jẹ́ ìmúdájú. Àwọn ìwé kò ní ìṣàkóso lọ́tọ̀ sí àwọn iṣẹ́, wọ́n wà ínú bí iṣẹ́ bá ń lọ síwájú."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Ṣàpẹẹrẹ, Iye, Ìdásí)",
+        "content": [
+          "CPQ nínú Merit dojúkọ àlàyé àkọ́kọ́: ìsọye pípé ti ìyípada kọ̀ọ̀kan tó ṣeéṣe ínú irú ọjà kan, gbogbo àwọn ohun àmúlò, ìṣètò, àwọn ìpèsè, àti àwọn ìdènà tí àjọ ń ṣiṣẹ́ pẹ̀lú. Àwọn àlàyé ènìyàn kọ̀ọ̀kan jẹ́ ìpínpín ti àkọ́kọ́ yẹn lácọ́. Ìsọye kan túmọ̀ sí ìlànà: àwọn ìgbésẹ̀, ohun àmúlò, àti àwọn ohun-èlò tó nílò ni a ti mọ̀ tẹ́lẹ̀ kí a tó ṣe àwọn àpẹẹrẹ idásí.",
+          "Àwọn ofin tó sọ lódì sí àkọ́kọ́ n kọ ọgbọ́n ìpèsè tó gbára lé ọjà. Yíyan kan lè tumọ̀ si ekeji, yọ ìyàndà àìbámu kúrò, tàbí ṣe ìgbádùn ìṣòro, tí a sì fọwọ́sí adaṣe, ní àkókò ìṣètò. A lè fún àwọn àgbékalẹ̀ ìsọye tó nílò àmúṣẹ látọwọ́ àṣẹ kí gbogbo àlàyé bàa jẹ́ pípé ṣáájú kí ó tó lọ síwájú. Àwọn ofin iye tó sọ lódì sí ìlànà n wọlé padà sínú àlàyé, n ṣàfihàn àkókò, ohun àmúlò, agbára, àti erogba tó wà nínú ìṣètò èyíkéyìí.",
+          "Nígbàtí àlàyé bá jẹ́ ìmúdájú, Merit n ṣe ìmúdára ohun tó ń tẹ̀lé. A ń ṣàkóso apamọ lódì sí rẹ̀, a ṣe ìpíndọ̀pọ̀ iṣẹ́-àgbàdo tó bọ̀ láti ọ̀dọ̀ rẹ̀, àti yíyan ẹgbẹ́ n fa lórí irírí agbèrú àti ìwà kalẹ́ńdà. Àwọn gbigba tó yóò nílò ìpíndọ̀pọ̀ ní ọwọ́ n ṣẹlẹ̀ adaṣe."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "CRM Merit jẹ́ kọ́ lórí ìpèsè fúnrararẹ̀, àsílò ìsọ̀nà. Lẹ́yìn tí àpẹẹrẹ bá jẹ́ ìmúṣẹ, a n gba esi alabàpàdé kí a sì so rẹ̀ mọ́ àwọn ìgbésẹ̀ àti àwọn apakan iṣẹ́-àgbàdo tó pèsè rẹ̀ mọ́ mọ́. Ìṣòro ìdara, ìdádúró, tàbí àmì tó dára kọ̀ọ̀kan lè tọ́ padà sí ibití o bẹ̀rẹ̀ gangan nínú ìlànà.",
+          "Ìso mọ́ yẹn n jẹ́ kí ìwádìí rọrùn àti àtúpalẹ̀ àwòṣe ní ìtumọ̀. Esi n kojọpọ̀ kárí àwọn ìpèsè, nítorí àwọn ìṣòro tó n ṣẹlẹ̀ ní ìgbagbogbo ní ìgbésẹ̀ kan tàbí pẹ̀lú ohun-èlò kan n fojúhàn ní àkókò. Tí a bá ṣàtúnyẹ̀wò ní ìgbagbogbo, ó di àmì tó ṣeyítọ́ fún ibití ìlànà, àpẹẹrẹ, tàbí àwọn ohun-èlò nílò ìfọwọ́kàn.",
+          "Nítorí pé ó ń jókò ínú ètò kan náà pẹ̀lú ìṣèsísọ, kò sí ìgbéwọlé, kò sí ìtumọ̀, kò sí ìyípadà láàárín ohun tó jẹ́ ìpèsè àti ohun tí alabàpàdé sọ nípa rẹ̀."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Ìgbèrò Àwọn Ohun-èlò",
+        "content": [
+          "Ènìyàn, irinṣẹ́, àti ohun àmúlò ni a ń ṣàkóso ínú ètò kan náà gẹ́gẹ́ bí ìṣèsísọ iṣẹ́-àgbàdo. Ọ̀kọ̀ọ̀kan ní kalẹ́ńdà tirẹ̀, ìwà, àti ìgbàsilẹ̀ ìgbèsísọ, tó tọpasẹ̀ lódì sí àpẹẹrẹ ìlànà kan náà tó ń ṣàkóso iṣẹ́ tí wọ́n ń ṣe ìtìlẹ́yìn.",
+          "Àwọn àwòrán BI kan náà tó ń ṣàfihàn ìgbèsísọ ìlànà n ṣàfihàn ìlò ohun-èlò pẹ̀lú. Àwọn ìwòrán tó da lórí kalẹ́ńdà ń ṣàfihàn nígbàtí irinṣẹ́ bá ń ṣe ìlò kékeré tàbí púpọ̀, nígbàtí ẹrù iṣẹ́ tó ṣe àgbékalẹ̀ bá ń fọ̀ pẹ̀lú ìfàgbàlé tó ṣe àgbékalẹ̀, tàbí nígbàtí ẹ̀ka kan bá ń sún mọ́ agbára, bó ṣe jẹ́ àtúnyẹ̀wò àwọn ìpele ìtàn tàbí tó ń sọ̀ síwájú sínú iṣẹ́ tó ṣe àgbèrò.",
+          "Nígbàtí dátà bá ń ṣàfihàn àwòṣe tó lọ́ṣọ̀ọ̀ kan, ẹgbẹ́ tó ń já límọ́ ní gbogbo ìgbà, ẹrọ kan tó jẹ́ ìdènà ìdagbasoke, ìgbà kan tó ní àìtó ìrànwọ́ ní gbogbo ìgbà, ó ṣeyítọ́ ní ìjẹ̀kúlé pẹ̀lú ìgbà tó tó láti ṣe ìgbéṣẹ̀ sórí. Ìgbèrò ohun-èlò ń yípadà láti fèsì sí àwọn àlàfo sí ìsọtẹ́lẹ̀ rẹ̀."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Ìwà àti Ìpénikeji",
+      "content": [
+        "Nígbàtí ètò rẹ bá lè dámọ̀ merit nípasẹ̀ ìwọ̀n èyíkéyìí, ìdọ́gba àti ìdúróṣinṣin dáwọ́ jẹ́ àwọn ìfẹ́kúfẹ̀. Wọ́n di àwọn àbájáde àdáyébá ti àwọn ìpinnu òwò tó dára sí i.",
+        "Merit ń ràn àwọn àjọ lọ́wọ́ láti dínku egbin, láti yọ ìgbẹ̀kẹ̀lé kúrò, àti mọ ohun tó ń wakọ̀ àwọn àbájáde gangan.",
+        "Má ṣe lepa àwọn àbájáde ìwà. Mú wọn di àìṣeéyẹ̀."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Ìwọ ló pinnu ohun tó ṣe pàtàkì, Merit n ràn ọ́ lọ́wọ́ láti jẹ ìlọsíwájú rẹ̀",
+      "cards": {
+        "transparency": {
+          "title": "Ìṣeéṣe Gbangba àti Ìjẹ́wọ́",
+          "description": "Merit ń jẹ́ kí àwọn ìgbéṣẹ̀ àti àwọn ìpinnu wà tí a lè tọpasẹ̀, ní ràn àwọn àjọ lọ́wọ́ láti ṣetọ́jú àwọn ìlànà ìwà nípasẹ̀ ijọba tó ṣeyítọ́, ìwòyè ìlànà, àti ìbójú tó ní ìgbékalẹ̀ kárí gbogbo ìpele ti òwò."
+        },
+        "recognition": {
+          "title": "Ìdánimọ̀ àti Ẹ̀bùn Dọ́gba",
+          "description": "Nípasẹ̀ sísopọ̀ mọ́ àbájáde, Merit mú ọ lè dá ìdánimọ̀ mọ́ ìpénikeji gidi nípasẹ̀ ìtẹ̀síwájú ìdọ́gba, dínku ìgbẹ̀kẹ̀lé, àti àtìlẹ́yìn àṣà tí ìjàkadì ṣeyítọ́ àti ní iye."
+        },
+        "integrity": {
+          "title": "Ìwà Ìgbẹ́kẹ̀lé Ètò àti Ìgbẹ́kẹ̀lé",
+          "description": "Merit n pèsè ẹ̀rọ ìṣiṣẹ́ tó gbára lé tó ń yọ àìṣeyítọ́ kúrò, n tẹnu àtábítábi mú, àti kọ́ ìgbẹ́kẹ̀lé nínú bí a ṣe n wọn iṣẹ́, bí a ṣe n ṣe àwọn ìpinnu, àti bí a ṣe n ṣàyẹ̀wò ìlọsíwájú."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG nípasẹ̀ Ìṣètò",
+      "content": [
+        "Ìgbàwọlé èyíkéyìí tó ṣeéwọ̀n, látinú agbára àti epo sí àwọn ohun àmúlò àti omi, lè gbasilẹ̀ ní ipele ìgbésẹ̀ àti ṣe àgbékalẹ̀ lódì sí àwọn ẹyọ ìlànà kárí ìgbàsilẹ̀ ìṣèsísọ. Iye àyíká kò jẹ́ àsọtẹ́lẹ̀ ní ipele iṣẹ́-àgbàdo; ó jẹ́ tọ́sọ̀nà padà sí àwọn ìgbésẹ̀ àti àwọn ohun-èlò kan ti ó ṣẹ̀dá rẹ̀. Ní àkókò, ìgbàsilẹ̀ n ṣàfihàn àwọn ohun-èlò àti àwọn ìmọ̀ tó ń ṣẹ̀dá egbin kékeré jù lọ fún ìpèsè, tí ó ń jẹ́ kí ìlọsíwájú àyíká jẹ́ dá-lórí-ẹ̀rí dípò ìfẹ́kúfẹ̀.",
+        "Nítorí pé a n tọpasẹ̀ ìfikún nínú ìṣàn iṣẹ́, ìdánimọ̀ ń ṣàfihàn ohun tó ṣẹlẹ̀ gangan dípò ìsúnmọ́ ìṣàkóso tàbí ìgbéṣẹ̀ tí ẹni fúnra rẹ̀ ń ṣìjábọ̀. Nígbàtí ètò bá ṣẹ̀dá ẹ̀rí, àwọn ànfàní ìgbẹ̀kẹ̀lé n dín kù ní ìbámu ìgbékalẹ̀. Dátà ìṣèsísọ kan náà tó ń wakọ̀ àwọn ìpinnu ìṣiṣẹ́ n wakọ̀ àwọn ìpinnu ènìyàn.",
+        "Àwọn ilẹ̀kùn ìpele tó kọ́ sínú àpẹẹrẹ ìlànà n dènà ìlọsíwájú iṣẹ́ títí tí ìwé tó nílò bá wà ní ìpò. Àwọn ìṣàkóso àwọn àwáàrí n ṣe àgbékalẹ̀ tani lè rí àwọn ìwọ̀n àti ìtòlẹ́sẹẹsẹ wo. Gbogbo ìgbéṣẹ̀ tó ṣe lódì sí ìṣèsísọ n jẹ́ ìgbàsilẹ̀. Ìṣàkóso ijọba kì í ṣe ìpele ìjábọ̀ tí a ṣe àfikún lẹ́yìn. Ó kọ́ sínú bí iṣẹ́ ṣe ń lọ síwájú."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Ìbámu nípasẹ̀ Ìṣètò",
+      "content": [
+        "Nígbàtí ìdánimọ̀ bá tẹ̀lé ohun tí ìgbàsilẹ̀ ìṣèsísọ ń ṣàfihàn dípò ohun tí ènìyàn ń ṣìjábọ̀ tàbí tani wọ́n mọ̀, àwọn ìgbéṣẹ̀ ẹni kọ̀ọ̀kan àti àwọn ète àjọ n bájẹ́ ní àdáyébá. Kò sí ànfàní nínú ìṣàkóso irísì, ìfipamọ̀ ìmọ̀, tàbí ìpò lórí ìpèsè.",
+        "Ìbámu yẹn n fojúhàn látinú ìgbékalẹ̀, àsílò látinú àwọn ètò àṣà. Nítorí pé dátà ìgbèsísọ n ṣàn látinú iṣẹ́ fúnrararẹ̀, àwọn ìpèsè bí ìfẹ́rẹ́fẹ́, ìfipamọ̀ ìmọ̀, àti ìyípadà láàárín ìjàkadì àti ẹ̀bùn n yọ dípò ìṣàkóso yíká wọn.",
+        "Nígbàtí ènìyàn bá ń rí ní ìgbagbogbo pé a n wọn ìfikún dọ́gba àti pé a ń san ẹ̀bùn fún rẹ̀ bí ó ṣe yẹ, ìhùwàsí n ṣe àfikún sí i. Àṣà ìwà n di àbájáde àdáyébá ti ètò tó ń jẹ́ kí ìwà jẹ́ ọ̀nà tó kéré jù ti ìdíwọ̀."
+      ]
+    },
+    "compliance": {
+      "title": "Látinú Ìbámu sí Ànfààní Ìdíje",
+      "content": [
+        "Ìgbèsísọ ìwà kò yẹ kí ó jẹ́ ìfẹ́kúfẹ̀ tàbí ìrọ̀lẹ̀, ó yẹ kí ó jẹ́ àbájáde àdáyébá ti bí a ṣe ń ṣe iṣẹ́. Merit mú ìyí ṣeéṣe nípasẹ̀ fífi ìbámu ìwà sínú àsọ àwọn iṣẹ́ ojoojúmọ́.",
+        "Nígbàtí a bá wọn ìgbèsísọ ní ojúlówó àti tí iye bá fojúhàn ní ẹ̀rọ, ìdọ́gba di tábítábí, ìjẹ́wọ́ jẹ́ àdáyébá, àti àwọn àbájáde tó dára n tẹ̀lé. Àṣà tí ń ṣiṣẹ́ ní ìwà nípasẹ̀ ìṣètò kì í ṣe ijọba tó dára nìkan. Ó jẹ́ ànfàní ìdíje."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "A Kọ́ fún Ipa Kọ̀ọ̀kan",
+      "content": [
+        "Látinú ìlànà sí ìṣèsísọ, Merit fún àwọn adarí, àwọn olùṣakóso, àti àwọn olùkópa ìwòyè pínpín ti bí iṣẹ́ ṣe ń ṣiṣẹ́ gangan.",
+        "Wo bí Merit ṣe n ṣe àtìlẹ́yìn ipa kọ̀ọ̀kan kárí àjọ rẹ."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Ètò Kan, Ìwòyè Gbogbo",
+      "content": [
+        "Nínú àwọn àjọ púpọ̀, ìkan mẹ́jì n pàrẹ́ pẹ̀lẹ̀pẹ̀lẹ̀: dátà sínú àwọn iṣẹ́ àti ìmọ̀ sínú ènìyàn. Títa kò rí iye ìpèsè. Ìṣuna kò rí ibití àwọn àsọtẹ́lẹ̀ fọ́. Nígbàtí olùṣiṣẹ́ tó ní irírí bá lọ, àwọn àwòṣe tó mọ̀ ń lọ pẹ̀lú rẹ̀. Ìgbàsilẹ̀ ìṣèsísọ Merit jẹ́ ìdáhùn sí àwọn méjèjì.",
+        "Ipa kọ̀ọ̀kan lórí ojú-ìwé yìí n ṣiṣẹ́ látinú dátà kan náà tó wà ní ìsàlẹ̀: ìgbàsilẹ̀ ìṣèsísọ kan náà, àpẹẹrẹ ìlànà kan náà, ènìyàn àti àwọn ohun-èlò kan náà. Ohun tó ń yípadà ni ìpójọ. Olùṣàkóso iṣẹ́-àgbàdo rí àkókò àti àwọn ìgbẹ́kẹ̀lé; HR rí ìfikún àti àwọn àwòṣe ìgbèsísọ; ìṣuna rí iye àti ìlò. Àwọn ìwòyè oríṣiríṣi, ètò kan.",
+        "Àti fún ẹgbẹ́ ìpèsè ọjà? Nítorí pé àpẹẹrẹ ìlànà ń ṣàfihàn àwọn iṣẹ́ tó gbára lé àwọn àbájáde wo, àwọn ìgbẹ́kẹ̀lé ìsọ̀nà wà ní gbangba láti ọjọ́ kìíní. Kò sí ipa tó n ṣiṣẹ́ látinú àwòrán apakan, kò sí ìfi-ẹ̀wọ̀n tó gbára lé ẹnìkan láti rántí láti sọ rẹ̀."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Ìdarí",
+        "content": [
+          "Àwọn adarí púpọ̀ n ṣiṣẹ́ láàárín àwọn ìmúdójú ipò, tí wọ́n ń rí àwòrán ibití nǹkan wà, àsílò ibití wọ́n wà. Nínú Merit, ìgbàsilẹ̀ ìṣèsísọ wà láàyè nítorí pé a n gbasilẹ̀ iṣẹ́ bí ó ṣe ń ṣẹlẹ̀. Ìlọsíwájú, ìyípadà, ìní ohun-èlò, àti ìgbèsísọ máa ń wà ní àkókò gidi, láìsí ẹnìkan tó n pèsè ìjábọ̀.",
+          "Ìyẹn n yí ìṣẹ́dá àwọn ìpinnu ìdarí padà. Àwọn ìṣòro wà ní gbangba ṣáájú tó tó fún ìgbéṣẹ̀. Àwọn ìdíwọ̀ ohun-èlò n fojúhàn ṣáájú kí wọ́n tó di àwọn ìdádúró. Dátà ìgbèsísọ sì ń ṣàfihàn ohun tó ṣẹlẹ̀ gangan, àsílò ohun tó jẹ́ ìjábọ̀.",
+          "Nítorí pé ìwọ̀n kọ̀ọ̀kan ń tọ́ padà sí àpẹẹrẹ ìlànà kan náà, àwọn adarí lè lọ láàárín àwòrán gbòòrò àti àlàyé kékeré láìsí yípadà àwọn ètò tàbí pàdánù ìbámu. Bí nọ́mbà kan bá dàbí aṣìṣe, o lè tẹ̀lé rẹ̀ síwájú sí ìgbésẹ̀ tó ṣe é."
+        ]
+      },
+      "operations": {
+        "title": "Ìṣiṣẹ́",
+        "content": [
+          "Ìṣiṣẹ́ ni ó ní ìdúróṣinṣin fún bí iṣẹ́ ṣe ń ṣàn kárí àjọ, àti ìyẹn gangan ni àpẹẹrẹ ìlànà ń ṣàfihàn. Ibití iṣẹ́ ń kojọpọ̀, ibití àwọn ìfi-ẹ̀wọ̀n ń já, àti ibití agbára ń níná gbogbo wọn wà ní gbangba ní àkókò gidi. Nígbàtí àwòṣe bá tún ṣe kárí àwọn iṣẹ́-àgbàdo, ó di ìṣòro ìlànà dípò ìṣẹlẹ̀ ẹyọ kan, àpẹẹrẹ sì lè ṣe ìmúdójú kí ìlọsíwájú bàa wọ ìṣèsísọ ọjọ̀ iwájú kọ̀ọ̀kan. Ìgbàsilẹ̀ ìṣèsísọ tún ń ṣàfihàn àwọn ohun-èlò tó ṣeéṣe jù lọ ní àwọn ìgbésẹ̀ wo, tí ó ń fún ìṣiṣẹ́ ẹ̀rí láti fẹ́ àwọn ohun-èlò tó jẹ́wọ́ àti ṣe ìjíjà fún ìdókòwò níbi tí àwọn àfo wà.",
+          "Nítorí pé àpẹẹrẹ ìlànà ń ṣàfihàn àwọn ìgbẹ́kẹ̀lé ìṣàájú àti ìṣẹ́yìn, àti dátà CRM n so ìṣèsísọ ìnú sì àwọn àbájáde alabàpàdé, àwọn ìpinnu nípa àwọn ohun-èlò àti ìlànà lè ṣe ìwádìí látinú gbogbo ọ̀nà nínú àkáso. A lè ṣe àgbékalẹ̀ àwọn fọ́múlà lódì sí àwọn àkópọ̀ dátà èyíkéyìí nínú àpẹẹrẹ, nítorí ìwòyè kò ní ìdíwọ̀ nígbàgbogbo sí ìwọ̀n kan ṣoṣo. Ìgbòòrò yẹn ni ó ń jẹ́ kí dátà wúlò gangan fún àwọn ìpinnu, dípò nǹkan tí a lè ṣe ìmúdára ní ẹyọ ìdẹ̀lẹ̀."
+        ]
+      },
+      "projectManagement": {
+        "title": "Ìṣàkóso Iṣẹ́-àgbàdo",
+        "content": [
+          "Apá tó ṣe pàtàkì ti àkókò olùṣàkóso iṣẹ́-àgbàdo n lọ sórí iṣẹ́ tí iṣẹ́-àgbàdo fúnrararẹ̀ kò nílò: yíkọ́ àwọn ìtòlẹ́sẹẹsẹ látinú ìbẹ̀rẹ̀, títọ́jú àwáàrí, títún ṣàpẹẹrẹ nígbàtí nǹkan bá yọ̀. Nínú Merit, ìgbèrò iṣẹ́-àgbàdo jẹ́ ìṣẹ̀dá látinú àpẹẹrẹ ìlànà, a n ṣàmọ̀ àwọn ìtòlẹ́sẹẹsẹ látinú dátà ìṣèsísọ ìtàn, àti yíyàsọtọ olùṣiṣẹ́ n fa lórí àwọn kalẹ́ńdà àkókò gidi àti irírí. Àwọn ère tó ń dà bí igé tẹ́lẹ̀ ti wà.",
+          "Ìyẹn ń tú olùṣàkóso iṣẹ́-àgbàdo ọfẹ́ láti dojúkọ ìpèsè fúnrararẹ̀. A n tọpasẹ̀ ìlọsíwájú lódì sí àwọn ìbéèrè tó ṣe àgbékalẹ̀ ní ìgbésẹ̀ kọ̀ọ̀kan, àwọn ìyípadà wà ní gbangba bí wọ́n ṣe ń ṣẹlẹ̀, Gantt sì n ṣe ìmúdójú adaṣe bí ìṣèsísọ ṣe ń ṣàìṣekúṣe. Iṣẹ́-àgbàdo kọ̀ọ̀kan tó parí tún n ṣe àfikún sí ìgbàsilẹ̀ ìṣèsísọ, nítorí èyí tó n bọ̀ bẹ̀rẹ̀ pẹ̀lú àwọn àsọtẹ́lẹ̀ tó dára àti ìtún-ìgbèrò kékeré láti ìbẹ̀rẹ̀.",
+          "Ètò tún ń ṣàkóso ẹ̀ka ewu tí àwọn irinṣẹ́ púpọ̀ fi sílẹ̀ fún ìrántí olùṣàkóso iṣẹ́-àgbàdo. Àwáàrí olùṣiṣẹ́ n ṣe ìṣirò fún ìgbéga tó ṣe àgbèrò àti àwọn ìṣẹlẹ̀ ìkọ́. A n ṣayẹ̀wò yíyàsọtọ bóyá àwọn ìjẹ́rìísí àti àwọn ìwé tó nílò wà ní ìpò ṣáájú kí iṣẹ́ tó bẹ̀rẹ̀. Àwọn ilẹ̀kùn ìpele tó kọ́ sínú àpẹẹrẹ ìlànà túmọ̀ sí pé àwọn ìgbésẹ̀ kan kò lè lọ síwájú láìsí ìwé tó nílò ní ìpò. A ń fún àwọn ìpèsè fún ìpèsè tó mọ́ ní ìpò nípasẹ̀ ètò, àsílò nínú orí ẹnìkan."
+        ]
+      },
+      "humanResources": {
+        "title": "Àwọn Ìpèsè Ènìyàn",
+        "content": [
+          "Fún HR, Merit n yọ àfo tó wà láàárín ohun tí ènìyàn n ṣe àti ohun tó jẹ́ ìdánimọ̀. Nítorí pé a n tọpasẹ̀ ìfikún nínú ìṣàn iṣẹ́ dípò ìṣàyẹ̀wò sọ̀yìn, dátà ìgbèsísọ ń ṣàfihàn ohun tó ṣẹlẹ̀ gangan, àsílò ìsúnmọ́ ìṣàkóso tàbí ìgbéṣẹ̀ tí ẹni fúnra rẹ̀ ń ṣìjábọ̀.",
+          "Àwọn ọmọ ẹgbẹ́ ẹgbẹ́ tuntun dé pẹ̀lú ìbámu ìlànà pípé tó ti wà tẹ́lẹ̀: àwọn ìgbésẹ̀ tí wọ́n ní ìdúróṣinṣin fún, àwọn ìwé àti ìjẹ́rìísí tó nílò, àti bí ipa wọn ṣe sopọ̀ pẹ̀lú iyókù àjọ. Àwọn ohun àmúlò ìkọ́ so mọ́ iṣẹ́ mọ́ mọ́, nítorí náà ìtọ́sọ̀nà wà ibití a nílò rẹ̀, àsílò nínú ètò tó yàtọ̀.",
+          "Àwọn ìwọ̀n tó gbasilẹ̀ lódì sí àwọn ènìyàn kọ̀ọ̀kan n ṣàn nípasẹ̀ àpẹẹrẹ ìlànà sínú àwọn KPI, ní ipele ìgbésẹ̀, iṣẹ́, iṣẹ́-àgbàdo, tàbí àjọ, kárí ìgbà èyíkéyìí. Àwọn ìṣàkóso àwọn ànfàní n pinnu àwọn ìwọ̀n àti ìṣèṣiro tí ipa kọ̀ọ̀kan lè rí, nítorí náà dátà tó ní ìfura n dé àwọn ènìyàn tó yẹ láìsí ìdíwọ̀ àwòrán ìgbèsísọ gbòòrò. Ní ipele ìgbésẹ̀, ìgbèsísọ n di pàtó tó láti ṣe àtìlẹ́yìn àti ìdàgbàsókè àwọn ènìyàn tó nílò rẹ̀, àti láti ṣe ìdánimọ̀ pípé àwọn tó dayọ̀."
+        ]
+      },
+      "sales": {
+        "title": "Títa",
+        "content": [
+          "Àwọn ìlànà títa púpọ̀ n ṣẹ̀dá àfo láàárín ohun tó jẹ́ ìgbéyọ̀ àti ohun tí ìpèsè gba. Ìdásí wà nínú ìwé kan, ìṣọ wà nínú ìkejì, títò àfo nílò ìtúnṣe-àlàyé, ítún-ìjímìjí, tàbí àwọn méjèjì. Nígbàtí alabàpàdé bá jẹ́rìísí, ẹgbẹ́ ìpèsè n bẹ̀rẹ̀ látinú àwòrán apakan.",
+          "Nínú Merit, àpẹẹrẹ sọ fún jẹ́ ìdásí àti ìtọ́nisọ̀nà fún ìpèsè. Àpẹẹrẹ ọ̀gá n ṣe àgbékalẹ̀ ìtòlẹ́sẹẹsẹ kọ̀ọ̀kan, ìdíwọ̀, àti òfin iye fún irú ọjà kan. Títa n ṣe ìtòlẹ́sẹẹsẹ ínú ìgbékalẹ̀ yẹn tó sì rí àwọn ìtumọ̀ iye ní àkókò gidi, láìsí fífi àsọtẹ́lẹ̀ kọ̀ọ̀kan pada nípasẹ̀ ìṣiṣẹ́. Nígbàtí alabàpàdé bá jẹ́rìísí, a n ṣẹ̀dá iṣẹ́-àgbàdo látinú àpẹẹrẹ mọ́ mọ́. Kò sí nǹkan tó nílò ìtumọ̀.",
+          "Esi alabàpàdé látinú àwọn ìpèsè tó kọjá ti so mọ́ àwọn ìgbésẹ̀ àti àwọn apakan tó ṣe é, tó sì ń jókò lẹ́gbẹ̀ iyókù ìgbàsilẹ̀ alabàpàdé. Ṣáájú kí a tó dásí ìjọra kan, títa lè rí bí àwọn ìpèsè tó jọra ní ìgbàkọ̀ọ̀kan ṣe ṣẹ̀. Nígbàtí a bá n sọ̀rọ̀ pẹ̀lú alabàpàdé tó n padà, ọ̀rọ̀ n da lórí ohun tó ṣẹlẹ̀ gangan."
+        ]
+      },
+      "marketing": {
+        "title": "Ìpolówó Ọjà",
+        "content": [
+          "Àwọn ipò ìpolówó ọjà púpọ̀ n kọ́ lórí àwọn àbáyọrí nípa ohun tí ilé-iṣẹ́ dára sí. Nínú Merit, ìpolówó ọjà ní àwáàrí sí ìgbàsilẹ̀ ìṣèsísọ gidi: ibití àjọ ń ṣeéṣe ní ìgbagbogbo, àwọn ohun-èlò àti ìlànà tó ń mú àwọn àbájáde tó dára jù, àti ohun tí esi alabàpàdé sọ kárí ìpèsè kọ̀ọ̀kan. Ìfiranṣẹ́ lè da lórí àwọn agbára tí a fihàn dípò àwọn tí a sọ.",
+          "Àkáso esi CRM n fi àfikún miran kún. Nítorí pé esi alabàpàdé ti so mọ́ àwọn ìgbésẹ̀ àti àwọn apakan kan ti ìpèsè kọ̀ọ̀kan, ìpolówó ọjà lè rí kìí ṣe bóyá àwọn alabàpàdé bá lérí, bíkòṣe ohun tó wakọ̀ ìtẹ́lọrùn yẹn gangan. Ní àkókò, àwọn àwòṣe n fojúhàn tó ń sọ fún ìpò àti irú iṣẹ́ tí òwò yẹ kí ó ń wá síi.",
+          "Ìyẹn n so ìpolówó ọjà pọ̀ mọ́ ìlànà. Nígbàtí àwọn àwòrán alabàpàdé tó ṣe àfojúsùn bá jẹ́ ìmọ̀ ní ìbámu pẹ̀lú ohun tí àjọ ń pèsè dára jù, àfo láàárín ohun tí ìpolówó ọjà ń ṣèlérí àti ohun tí ìpèsè ń ṣẹ̀dá n dín kù. Ìbámu n lọ ní àwọn ọ̀nà méjèjì: dátà ìṣèsísọ n mú ìfiranṣẹ́ mú, àwọn àwòrán alabàpàdé tó ṣe àfojúsùn n ṣe ìpilẹ̀ ohun tí ìṣèsísọ yẹ kí ó ṣe ìmúdára fún."
+        ]
+      },
+      "finance": {
+        "title": "Ìṣuna",
+        "content": [
+          "Ìṣuna máa ń gba dátà ìṣuna lẹ́yìn ìṣẹlẹ̀, nínú ìpapọ̀ tó ń ṣàfihàn ohun tó sún sí, àsílò ìdí. Ìfọ̀rọ̀wérọ̀ iye gidi lódì sí ìgbèrò iṣẹ́-àgbàdo túmọ̀ sí gbígbà padà nípasẹ̀ àwọn ètò tó yàtọ̀ láti ṣe ìmọ̀ ibití ìyípadà bẹ̀rẹ̀.",
+          "Nínú Merit, iye n kọ́ sínú ìgbàsilẹ̀ ìṣèsísọ fúnrararẹ̀. Dátà ìsan-owó, àwọn iye ohun àmúlò, àti àkókò ìṣèsísọ jókò lódì sí àpẹẹrẹ ìlànà kan náà tó n ṣàkóso ìpèsè. A lè dapọ̀ àwọn àgbékalẹ̀ àwọn orísun wọ̀nyí lódì sí ẹyọ èyíkéyìí nínú àpẹẹrẹ, láti ìgbésẹ̀ kan ṣoṣo sí irú iṣẹ́-àgbàdo pípé, kárí ìgbà èyíkéyìí. Àbájáde jẹ́ àwòrán iye tó tọ́ padà mọ́ ibití owó lọ.",
+          "Nítorí pé ìpèsè kọ̀ọ̀kan n ṣe àfikún sí ìgbàsilẹ̀ ìṣèsísọ, àsọtẹ́lẹ̀ ìṣuna n dára sí i ní àkókò. Àwọn àsọtẹ́lẹ̀ fún àwọn iṣẹ́-àgbàdo ọjọ̀ iwájú n fa látinú ìtàn ìpèsè gidi, nítorí àfo láàárín ìgbèrò àti iye ìparí n dín kù bí ìgbàsilẹ̀ ṣe ń pọ̀. Ìṣuna kò ń dúró de ìparí oṣù láti rí ibití àwọn iṣẹ́-àgbàdo dúró. Àwòrán wà láàyè."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Níbi Tí Merit Ṣe N Pèsè",
+      "content": [
+        "Àjọ kọ̀ọ̀kan yatọ̀. Àmọ́ iye ti àǹfààní láti dapọ̀ lórí ìwòyè tí a pín jẹ́ ti gbogbo àgbàyé.",
+        "A kọ́ Merit láti ṣe ìbámu pẹ̀lú àwọn eto-ìṣèlọpọ ìdàrúdàpò, ní mú ìwòyè, ìbámu, àti òye wá sí àwọn ẹ̀ka iṣẹ́ tí àwọn àbájáde dá lórí ìpíndọ̀pọ̀, ìdúróṣinṣin, àti ìgbèsísọ ní ìpele.",
+        "Ṣàwárí bí Merit ṣe n ṣe àtìlẹ́yìn àwọn ètò iṣẹ́ tó gbọ́n sí i kárí àwọn ẹ̀ka iṣẹ́ pàtàkì."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Ìṣelọpọ",
+        "content": [
+          "Àwọn ìlànà ìdàrúdàpò, àwọn irinṣẹ́ tí a ya kọ̀, àti àwọn iṣẹ́ tó wúwo ní ohun-èlò n jẹ́ kí ìwòyè àti ìpíndọ̀pọ̀ di ìnira ojoojúmọ́ nínú ìṣelọpọ.",
+          "Merit so ènìyàn, àwọn ohun-èlò, àti àwọn iṣẹ́ pọ̀ sínú ètò ìṣiṣẹ́ kan ní fún àwọn olùṣelọpọ ìwòyè àkókò gidi sínú ìlera ìlànà, ìlò ohun-èlò, àti ìgbèsísọ ìpèsè.",
+          "Látinú ìpakà ilé iṣẹ́ sí ìgbè ìpèsè, tọpasẹ̀ ìgbéṣẹ̀ kọ̀ọ̀kan, ṣàfihàn ìdíwọ̀ kọ̀ọ̀kan, àti wọn ìmúdára kọ̀ọ̀kan nínú ètò kan. Pẹ̀lú Merit, àwọn ẹgbẹ́ ìṣelọpọ lè ṣe ìmúdára àwọn ètò láìṣeéwu àti bá ìgbèsísọ pọ̀ pẹ̀lú àwọn ète ìlànà àti iṣẹ́ ìlà-ìwájú."
+        ]
+      },
+      "construction": {
+        "title": "Ìkọ́lé",
+        "content": [
+          "Ó ṣeéṣe jù pé eto-ìṣelọpọ ọjà tó ìdàrúdàpò jù tó wà ń mú àwọn ọ̀pọ̀ jọjọ àwọn ohun-èlò, àwọn ìlànà, àwọn ọgbọ́n àti àwọn àyíká papọ̀. Síbẹ̀síbẹ̀ àwọn ilé-iṣẹ́ púpọ̀ ṣì n ṣiṣẹ́ pẹ̀lú àwọn irinṣẹ́ tí a ya kọ̀ àti àwọn iṣẹ́ tí a ya kọ̀, ní jẹ́ kí ìpíndọ̀pọ̀ àti ìwòyè di ìnira tó ń gbéràgbéra.",
+          "Merit pèsè ètò tó wà láàyè fún ìgbèrò, tọpasẹ̀, àti ìmúdára ìṣèsísọ kárí ìyípadà ìgbésí-ayé iṣẹ́-àgbàdo pípé. Látinú ìpíndọ̀pọ̀ ṣáájú-ìkọ́lé sí ìpèsè àgbègbè, àwọn ẹgbẹ́ lè ṣe ìbámu àwọn ipa, àwọn iṣẹ́, àti àwọn ìgbádé ní ètò kan pẹ̀lú àkọsílẹ̀ tó fi sínú rẹ̀, ìparun, àti tọpasẹ̀ ìlọsíwájú.",
+          "Nípasẹ̀ sísopọ̀ ìgbèrò pẹ̀lú ìgbèsísọ ní àkókò gidi, Merit ń ràn àwọn ilé-iṣẹ́ ìkọ́lé lọ́wọ́ láti dínku iṣẹ́ tún-ṣe, ṣàkóso àwọn ìpadànù, àti pèsè pẹ̀lú ìsọtẹ́lẹ̀ síi, pàápàá bí àwọn iṣẹ́-àgbàdo bá ń yí padà."
+        ]
+      },
+      "healthcare": {
+        "title": "Ìlera",
+        "content": [
+          "Àwọn àbájáde aláìsàn dá lórí àwọn okunfa tó ní ọ̀pọ̀ àlàyé - látinú àwọn àìsàn tó ní ìdàrúdàpò sí àwọn apinnu àwùjọ - síbẹ̀síbẹ̀ àwọn ètò ìlera púpọ̀ ń tiraka láti so àwọn ipò aláìsàn wọ̀nyí pọ̀ mọ́ ìpèsè ìtọ́jú àti àwọn àbájáde ní àwọn ọ̀nà tó ní ìtumọ̀.",
+          "Merit ń gba ìdàrúdàpò pípé ti àwọn àkọsílẹ̀ aláìsàn àti tọpasẹ̀ bí àwọn ipò àkànṣe ṣe n bá àwọn ìlànà ìtọ́jú, àwọn olùpèsè, àti àwọn àbájáde ṣiṣẹ́. Dípò sídínù àwọn aláìsàn sí àwọn ìwọ̀n ìpilẹ̀, ètò wa ń ṣe àpẹẹrẹ àwọn ìgbàgbọ́ tó ní ọ̀pọ̀ àlàyé tó ń wakọ̀ ìpèsè ìlera gangan.",
+          "Àwọn ẹgbẹ́ ìlera lè rí nígbẹ̀yìngbẹ́yín àwọn ọ̀nà ìtọ́jú tó ń ṣiṣẹ́ dáradára jù fún àwọn ìṣàkójọpọ̀ aláìsàn àkànṣe, lóye bí àwọn ìgbéṣẹ̀ olùpèsè ṣe so pọ̀ mọ́ àwọn àbájáde, àti kọ́ ìkẹ́kọ̀ọ́ àjọ tó ní ìgbékalẹ̀ látinú irírí ìtọ́jú. Nípasẹ̀ sísopọ̀ ìdàrúdàpò aláìsàn pọ̀ mọ́ ìrànpọ́ ohun-èlò àti ìpèsè ìtọ́jú, Merit ń yí ìmọ̀ àjọ padà látinú ìmọ̀lára sí ọgbọ́n tí a lè gbéṣẹ̀.",
+          "Àbájáde: àwọn ìpinnu ìtọ́jú tó jẹ́ ti ènìyàn kọ̀ọ̀kan síi, ìlò ohun-èlò tó dára sí i, àti ìmúdára tó ń gbéràgbéra dá lórí ohun tó ń ṣiṣẹ́ gangan fún àwọn ìṣàkójọpọ̀ aláìsàn rẹ."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Ìfèsì sí Àwọn Ìṣẹlẹ̀",
+        "content": [
+          "Nínú ìdáhùn sí àwọn ìṣẹlẹ̀, àkókò ni ìyípadà pàtàkì. Bí a bá yára ṣàkọpọ̀ ìdáhùn kan, bẹ́ẹ̀ ni àbájáde rẹ̀ máa ń dára. Ṣùgbọ́n, ọ̀pọ̀ àwọn àjọ ń sọnù àkókò pàtàkì ní àkókò tí wọn kò lè farada: ṣíṣe ètò kan, mọ àwọn aṣakoso tí ó wà, àti wíwá ohun èlò.",
+          "Merit jẹ́ kí àwọn àjọ lè kọ ètò yẹn ṣáájú. A ṣe àlàyé àkọsílẹ̀ ìdáhùn sí ìṣẹlẹ̀ àkọ́kọ́, a so àwọn aṣakoso tí a fọwọ́ sí ṣáájú mọ́, a sì ṣe àkójọ ohun èlò àti àwọn ohun elo. Ní àkókò tí a kéde ìṣẹlẹ̀ kan, a bẹ̀rẹ̀ ẹ̀ka tó péye ti ètò yẹn, a sì kun rẹ̀ fún àwọn ohun àmúṣiṣẹ́ tó wà ní ìpẹ̀kúnrẹ̀rẹ̀, ìdáhùn sì bẹ̀rẹ̀ ní ìṣẹ́jú díẹ̀ dípò àwọn wákàtí.",
+          "Bí àwọn aṣakoso ṣe ṣe ìparí ìgbésẹ̀ kọ̀ọ̀kan, a máa ń ṣe àkọsílẹ̀ ìlọsíwájú lòdì sí àwòṣe ìlànà, tí ó sì ń fún àwọn olórí ní àwòrán tí a máa ń ṣe ìmúdójúìwọ̀n rẹ̀ nígbà gbogbo nípa ìdáhùn láìsí gbígbára lé àwọn ìgbéṣe rédíò tàbí ìjábọ̀ fífọwọ́ ṣe.",
+          "Lẹ́yìn ìṣẹlẹ̀ náà, àkọsílẹ̀ ìmúṣẹ ń ṣe àfikún sí àkójọpọ̀ data. A máa ń fi àwọn ẹ̀kọ́ tí a ti kọ sínú ètò ìdáhùn tókàn ní tààrà, nítorí náà, ìṣẹlẹ̀ kọ̀ọ̀kan máa ń mú àjọ náà ṣe ìmúrasílẹ̀ sí i fún ìkẹ̀yìn, nípa lílo ètò ìgbésẹ̀ tí ó lè ṣe lò jákèjádò àgbáyé."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Ìwakùsà àti Àwọn Ohun-àmúṣọṣọ",
+        "content": [
+          "Àwọn àgbègbè ìwakùsà dojú ìjà àwọn ìnira ìṣiṣẹ́ ìdàrúdàpò níbi tí àmáàbó àti ìbámu kò ṣeéwádìí. Síbẹ̀síbẹ̀ àwọn ẹgbẹ́ ìwakùsà púpọ̀ n gbarale dátà tí a ya kọ̀ àti àwọn ìlànà ìwé tó ti àgbàyé, ní ṣe àfikún sí àwọn ewu àti jẹ ìpinnu di lọ́ra.",
+          "Merit pèsè ètò tó dapọ̀ pẹ̀lú ìyàtọ̀ tó gíga tó ń fún ìmọ̀ jíjinlẹ̀ sínú gbogbo àpakan iṣẹ́ ìwakùsà. Bíbẹ̀rẹ̀ pẹ̀lú ètò ìṣàkóso ìwé tó lagbara, ó ní ídánilójú pé àwọn ìlànà ìlera àti àmáàbó tó ṣe pàtàkì wà ní ìmúdójú àkókò gbogbo, wà tí a lè wọ̀, àti tí a ń ṣàkóso.",
+          "Nípasẹ̀ dídapọ̀ dátà àkókò gidi àti àkọsílẹ̀ pípé, Merit mú àwọn olùṣàkóso àgbègbè ṣeéṣe láti dámọ̀ ewu ṣáájú-àkókò, dínku àwọn ewu, àti ṣetọ́jú ìbámu pẹ̀lú ìlànà. Ìyí ń yọrí sí àwọn àyíká iṣẹ́ tó ní àmáàbó síi àti dínku ìdádúró tó fa nípasẹ̀ àwọn ìṣẹ̀lẹ̀ àti ìdádúró ẹ̀rọ.",
+          "Ní àkókò, Merit ń yí dátà ìṣiṣẹ́ àti àwọn ẹ̀kọ́ tó wà ní àkọsílẹ̀ padà sí ọgbọ́n tí a lè gbéṣẹ̀, ní ràn àwọn ilé-iṣẹ́ ìwakùsà lọ́wọ́ láti ṣe ìmúdára àwọn ìlànà àmáàbó lóòótọ́, mú àwọn iṣẹ́ dára sí i, àti dáàbò bò ohun-ini tó ni iye jù wọn lọ, agbára iṣẹ́ wọn."
+        ]
+      },
+      "agriculture": {
+        "title": "Iṣẹ́-àgbẹ̀",
+        "content": [
+          "Iṣẹ́-àgbẹ̀ n kan ṣàkóso àwọn ènìyàn, ẹ̀rọ, àti àwọn ohun-èlò kárí àwọn àyíká tó ń yí padà àti tí a kò máa ń sọtẹ́lẹ̀. Nínú ilé-iṣẹ́ kan níbi tí àwọn ìnáwó tí kò ní í ṣe pẹ̀lú iṣẹ́ bíi ẹ̀rọ, epo, àwọn ohun tó wọ̀, àti ilẹ̀ jẹ́ ìpín tó ṣe pàtàkì ti àwọn ìnáwó ìṣiṣẹ́, ìmọ̀ àti ìmúdára bí àwọn ohun àmúṣiṣẹ́ wọ̀nyẹn ṣe wà tó wúlò ṣe pàtàkì.",
+          "Merit n pèsè àwòṣe ìlànà tó lè ṣe ṣètò tí gbogbo ìṣiṣẹ́ ń ṣiṣẹ́ lé. Àwọn irinṣẹ́, àwọn ohun-èlò, àti àwọn ènìyàn ni a yàn sí àwọn ìgbésẹ̀ ìlànà, tí ó mú kí ìpèsè àkókò ìṣiṣẹ́ pípé, ìdásí àti ìmúdára ìtẹsíwájú tó dára síi gẹ́gẹ́ bí ohun tó wà data ń fi hàn tó ń ṣiṣẹ́ tòtò ṣeéṣe. Nínú iṣẹ́-àgbẹ̀, níbi tí àwọn ìnáwó ẹ̀rọ àti ohun-èlò ń wúwo, ìmúdára yìí ni ipa tó tóbi jú ní lórí àwọn ọ̀pọ̀ àwọn ẹ̀rọ tó tọpinpin.",
+          "Àwọn ohun tó wọ̀ sí ní àyíká bíi ìjọ̀ omi àti ìmọ̀lẹ̀ òòrùn lè ṣe àkọsílẹ̀ rẹ̀ pẹ̀lú àwọn ìdásíjáde bíi àjílẹ, omi omi, àti ìtọ́jú ẹ̀rọ, pẹ̀lú ìpèsè tó wà tí a ṣe àkọsílẹ̀ gẹ́gẹ́ bí èsì. Pẹ̀lú àkókò, àwọn àpẹẹrẹ máa ń jáde láàárín àwọn ohun tó wọ̀, àwọn ìdásíjáde, àti àwọn àbájáde, tí ó ń ṣe ìpèsè àwọn ìpinnu tó dára síi pẹ̀lú ìyípadà kọ̀ọ̀kan. Níbi tí ọ̀pọ̀lọpọ̀ ìṣiṣẹ́ bá ń lo àwòṣe ìlànà kan náà, ọgbọ́n yẹn máa ń dín kù pọ̀ sí i.",
+          "Fún àwọn àjọ tó ń kọ̀ọ̀kan àwọn ohun àmúṣiṣẹ́ àti ìmọ̀ pọ̀, Merit pèsè àwọn ohun alábọ̀ ìṣẹ̀dá ìṣiṣẹ́ láti jẹ́ kí ìjókòó yẹn jẹ́ ìmọ̀-ìṣiṣẹ́ àti tí ó da lórí dátà."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Amayederun Àwùjọ",
+        "content": [
+          "Àwọn iṣẹ́-àgbàdo amayederun ìjọba n kan ìpíndọ̀pọ̀ ìdàrúdàpò ti àwọn àgbàtọ̀, àwọn ohun-èlò, àwọn ìlànà ìlànà, àti àwọn àkókò ọ̀pọ̀ ọdún, gbogbo wọn nínú ìwádìí àwùjọ tó gíga àti àwọn àìní ìjẹ́wọ́.",
+          "Merit pèsè ìwòyè tó dapọ̀ kárí ìpèsè amayederun, látinú ìgbèrò ìpilẹ̀ sí ìparí. Bó ṣe jẹ́ kíkọ́ àwọn ọ̀nà, àwọn ilé-ẹ̀kọ́, àwọn iṣẹ́ àwùjọ, tàbí àwọn ile-iṣẹ́ àwùjọ, àwọn aṣojú lè tọpasẹ̀ bí ènìyàn, àwọn ìlànà, àti àwọn ohun-èlò ṣe n ṣe ìpíndọ̀pọ̀ láti pèsè amayederun àwùjọ tó ṣe pàtàkì.",
+          "Pẹ̀lú ìgbéṣẹ̀ àgbàtọ̀ kọ̀ọ̀kan, ìgbé ohun-èlò, àti àárọ̀ ìlànà tó ṣeyítọ́ ní ètò kan, àwọn ẹgbẹ́ ìjọba n gba ìṣeéṣe gbangba tó nílò fún ìjẹ́wọ́ àwùjọ bí wọ́n ṣe n ṣetọ́jú ìṣàkóso ìṣiṣẹ́ lórí àwọn iṣẹ́-àgbàdo ìdàrúdàpò tó ní ọ̀pọ̀ ọmọ-ẹgbẹ́.",
+          "Merit mú àwọn aṣojú ìjọba ṣeéṣe láti pèsè amayederun pẹ̀lú ìmunadoko síi, ṣàfihàn ìṣàkóso tó ṣe ìjẹ́wọ́ ti àwọn ohun-èlò àwùjọ, àti kọ́ ìmúdára ìgbékalẹ̀ sínú iṣẹ́-àgbàdo kọ̀ọ̀kan, láì-gba bí irú amayederun tó n pèsè jẹ́."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Ìmọ̀ràn / Àwọn Iṣẹ́ Ọjọgbọ́n",
+        "content": [
+          "Gbogbo àjọ, láì-gba ẹ̀ka iṣẹ́, ń lo àwọn ìlànà, ènìyàn, àti apamọ ní ìpilẹ̀ láti pèsè àwọn ọjà. Merit n jẹ́mọ́ òdodo gbogbo-àgbàyé yìí, ní ṣe ìsọdọ̀nà gbogbo ìpèsè sínú àwọn ìṣàn ìṣiṣẹ́ ìpilẹ̀ wọ̀nyí.",
+          "Fún àwọn ilé-iṣẹ́ iṣẹ́ ọjọgbọ́n, ìyí túmọ̀ sí ìdásiwájú ìṣiṣẹ́ gidi kárí àwọn agbègbè. Bó ṣe jẹ́ pé o ń ṣiṣẹ́ pẹ̀lú àwọn ètò ìlera, àwọn ilé-iṣẹ́ ìṣelọpọ, tàbí àwọn àjọ ìṣuna, Merit pèsè ìlànà kan náà nítorí pé o máa ń bá àwọn apẹja ìgbékalẹ̀ àjọ ìpilẹ̀ kan náà ṣiṣẹ́, tí a ṣàpẹẹrẹ ní ọ̀nà yàtọ̀ nìkan.",
+          "Ìyí n yọ ìtẹ̀síwájú ìkẹ́kọ̀ọ́ àbúrọ̀ ti líye àwọn àlàyé ẹ̀ka iṣẹ́ àti àwọn ọ̀rọ̀. Àwọn olùmọ̀ràn lè rin káàkiri àwọn àbájẹ̀ aláàárẹ̀ nítorí pé Merit ń yọ ìdàrúdàpò agbègbè kúrò, ní gba ọ laayè láti jẹ ìmúdára àwọn mekáníkì ìṣiṣẹ́ tó ń ṣe àìyípadà kárí gbogbo àwọn àjọ.",
+          "Látinú ìdálé oníbàárẹ̀ sí tọpasẹ̀ ìṣèsísọ, Merit mú àwọn ilé-iṣẹ́ iṣẹ́ ọjọgbọ́n ṣeéṣe láti ṣiṣẹ́ pẹ̀lú ìmunadoko àti ìṣòye kan náà kárí ìbáṣepọ̀ kọ̀ọ̀kan, láì-gba ẹ̀ka iṣẹ́ tàbí agbègbè aláàárẹ̀."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Wo bí Merit ṣe ń mú ìmọ̀yẹ̀ wá sí ọ̀nà tí iṣẹ́ ṣe n ṣẹlẹ̀ gangan.",
+    "body1": "Kọ́ bí a ṣe dapọ̀ ìṣèsísọ, òye, àti ìmúdára ní ètò ìṣiṣẹ́ kan.",
+    "body2": "Bó ṣe jẹ́ pé o ń ṣe ìdarí ìlànà tàbí ṣàkóso ìpèsè, Merit n fún ọ ní ìwòyè láti ṣiṣẹ́ pẹ̀lú ìgbẹ́kẹ̀lé, àti ìgbékalẹ̀ láti pọ̀ síi pẹ̀lú ọgbọ́n sí i.",
+    "bullets": ["Wo Merit ní ìgbéṣẹ̀", "Gba ìfihàn ti ara ẹni", "Ní ìrírí agbára Merit"],
+    "formTitle": "Gbèrò Ìfihàn",
+    "formSubtitle": "Pari fọọmu náà àti ọmọ-ẹgbẹ́ ẹgbẹ́ wa yóò kan sí ọ láti gbèrò ìfihàn ètò ní àkókò tó bá ọ mu.",
+    "formSubject": "Ìbéèrè Ìfihàn"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Nípa Merit",
+      "subtitle": "Amayederun tó jẹ́ kí ìfikún ṣeyítọ́, ìgbèsísọ wà tí a n wọn, àti ẹ̀bùn dọ́gba."
+    },
+    "body": "Merit wà láti so ìṣèsísọ pọ̀ mọ́ àwọn àbájáde kárí gbogbo iṣẹ́. Nígbàtí iṣẹ́ bá ṣeyítọ́ àti ìfikún wà tí a lè tọpasẹ̀, àwọn àjọ dáwọ́ gbarale àwọn ìbátan àti ìṣòro ìjọba láti ṣàyẹ̀wò ìgbèsísọ. Àwọn àbájáde ń sọ fún ara wọn.",
+    "vision": {
+      "title": "Ìríran Wa",
+      "content": "Àwọn àjọ tí àwọn ìmọ̀ràn ń báramu, ànfààní wà tó dọ́gba, àti ìmúdára ṣeyítọ́ tí a lè wọn."
+    },
+    "mission": {
+      "title": "Ìlépa Wa",
+      "content": "Láti pèsè ètò ìṣèsísọ tó dapọ̀ tó jẹ́ kí iṣẹ́ ṣeyítọ́, tó yọ ẹrù àkóso kúrò, àti fún gbogbo ẹgbẹ́ ní dátà láti ṣiṣẹ́ pẹ̀lú ìgbẹ́kẹ̀lé."
+    },
+    "sections": {
+      "origin": {
+        "title": "Níbi A Ti Bẹ̀rẹ̀",
+        "content": [
+          "Merit bẹ̀rẹ̀ gẹ́gẹ́ bí ìbéèrè: báwo ni o ṣe lè ṣàwòrán ẹ̀kọ́-ìmọ̀ tó nira gangan ní ọ̀nà tó ní ìtumọ̀? Ìdáhùn jáde látinú ìṣísọ tó rọrùn: gbogbo ìpèsè, láì tọ́ka sí ìwọ̀n tàbí àgbára, jẹ́ àpapọ̀ àwọn ìgbésẹ̀ púpọ̀. Ní ìgbésẹ̀ kọ̀ọ̀kan, àwọn ènìyàn ń lo àwọn irinṣẹ́ àti ń ṣiṣẹ́ lórí àwọn ohun èlò sínú ọjà tó ń lọ sí ìparí. Ìlànà yẹn di àpẹẹrẹ. Ìlànà ìpèsè kọ̀ọ̀kan jẹ́ apá rẹ̀, ọ̀kan tí a lè tọ́pàṣẹ̀, wọn, àti ṣàyẹ̀wò. Látinú ìpìlẹ̀ rọrùn yii, ìwòyè tó lagbara lórí àwọn ìpìlẹ̀ bí gbogbo àjọ ṣe n ṣiṣẹ́ ti dàgbà."
+        ]
+      },
+      "definition": {
+        "title": "Ohun Tí Merit Túmọ̀ Sí",
+        "content": [
+          "Merit, fún wa, kìí ṣe ìdiwọ̀n tó dúró ṣinṣin. Ó jẹ́ ohunkóhun tí àjọ àti àwọn olùra rẹ̀ pinnu láti mọ iye. Ìyára, carbon, owó, ìdára, àmídárò: ìwúwo tí ọ̀kọ̀ọ̀kan gbé jẹ́ yíyàn, àti yíyàn yẹn jẹ́ ti àjọ. Nígbàtí àwọn yíyàn wọnyẹn bá jẹ́ ìkéde gẹ́gẹ́ bí ìdiwọ̀n tí a lè wọn kárí ìlànà ìpèsè, àwọn irinṣẹ́, ènìyàn, àti ohun èlò tó ń ṣe dára jùlọ sí wọn di ṣeyítọ́. A lè yàn wọn, gbéjú wọn, àti yìn wọn. Àti gbogbo olùdáwọ́lé nínú ẹ̀kọ́-ìmọ̀, láti àwọn aṣèsísọ kọ̀ọ̀kan sí àwọn olùpèsè irinṣẹ́ àti àwọn olùpèsè ohun èlò, ń mọ̀ pé ẹ̀bùn jẹ́ mọ ìgbèsísọ sí àwọn ìdiwọ̀n wọnyẹn. Ìmọ̀ràn tó bọ́gbọ́n mu di ìmúdára, kì í ṣe ìsúnmọ àwọn olùgbéṣẹ̀."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Bá wa sọ̀rọ̀.",
+      "body": "A ń fèsì sí gbogbo ìbéèrè ní àtọwọ́dọ̀wọ́. Sọ fún wa ohun tí o ń ṣiṣẹ́ lórí àti a yóò gba láti ibẹ̀.",
+      "formTitle": "Kàn Sí Wa",
+      "formSubject": "Ìbéèrè Gbogbogbò",
+      "formSubtitle": "Pari fọọmu náà àti ọmọ-ẹgbẹ́ ẹgbẹ́ wa yóò kan sí ọ láti jíròrò ìbéèrè rẹ."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Àwọn Ìmọ̀ àti Ìròyìn Merit",
+      "content": [
+        "Ṣàwárí bí àwọn àjọ ṣe ń kọ́ àwọn ètò iṣẹ́ tó gbọ́n sí i pẹ̀lú Merit.",
+        "Látinú àwọn ìtàn àṣeyọrí aláàárẹ̀ sí àwọn òye ìlànà àti àwọn ìmúdójú ọjà, ìbẹ̀ ní a ń pín ohun tó ń ṣiṣẹ́, ohun tó ń yí padà, àti ohun tó ń bọ̀ nínú ọgbọ́n ìṣiṣẹ́."
+      ]
+    },
+    "tabs": {
+      "all": "Gbogbo Àkóónú",
+      "blog": "Búlọ́ọ̀gì Merit",
+      "caseStudies": "Ìwádìí Àwọn Ọ̀ràn",
+      "pressReleases": "Àwọn Ìkéde Ìròyìn",
+      "productUpdates": "Àwọn Ìmúdójú Ọjà"
+    }
+  }
+}

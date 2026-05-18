@@ -34,12 +34,14 @@ export function CoverSlide({ title, body }: CoverSlideProps) {
           {title}
         </h2>
 
-        <p
-          className="text-xl max-w-2xl leading-relaxed"
-          style={{ color: 'var(--slide-text)', opacity: 0.8 }}
-        >
-          {body}
-        </p>
+        {body && (
+          <p
+            className="text-xl max-w-2xl leading-relaxed"
+            style={{ color: 'var(--slide-text)', opacity: 0.8 }}
+          >
+            {body}
+          </p>
+        )}
       </div>
 
       {/* Footer */}

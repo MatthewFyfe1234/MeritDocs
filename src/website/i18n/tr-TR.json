@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Demo Talep Et",
+    "contactSales": "Satış ile İletişime Geç",
+    "learnMore": "Daha Fazla Bilgi →",
+    "contentFooter": {
+      "title": "Operasyonel Netlik. Etik Bütünlük. Daha İyi Sonuçlar.",
+      "subtitle": "Bir rehberli tur talep edin ve Merit'in karmaşıklığı netliğe dönüştürmenize nasıl yardımcı olabileceğini görün."
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "company": "Şirket",
+      "position": "Pozisyon",
+      "message": "Mesaj",
+      "send": "Talep Gönder",
+      "success": "Mesajınız gönderildi!",
+      "error": "E-posta gönderme hatası. Lütfen tekrar deneyin.",
+      "validation": {
+        "nameRequired": "Ad Soyad gereklidir.",
+        "nameInvalid": "Geçersiz ad formatı.",
+        "emailRequired": "E-posta gereklidir.",
+        "emailInvalid": "Geçersiz e-posta adresi.",
+        "companyRequired": "Şirket gereklidir.",
+        "positionRequired": "Pozisyon gereklidir.",
+        "messageRequired": "Mesaj gereklidir.",
+        "messageTooShort": "Mesaj en az 10 karakter olmalıdır."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Neden Merit",
+    "platform": "Platform",
+    "useCases": "Kullanım Alanları",
+    "teams": "Ekipler",
+    "values": "Değerler",
+    "company": "Şirket",
+    "bookDemo": "Demo Talep Et",
+    "subMenus": {
+      "whyMerit": {
+        "title": "Durum",
+        "theProblem": "Sorun",
+        "theSolution": "Çözüm",
+        "theAdvantage": "Avantaj"
+      },
+      "platform": {
+        "title": "Yetenekler",
+        "businessIntelligence": "İş Zekası",
+        "processMapping": "Süreç Haritalama",
+        "projectManagement": "Proje Yönetimi",
+        "documentManagement": "Doküman Yönetimi",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Kaynak Planlaması"
+      },
+      "useCases": {
+        "title": "Sektörler",
+        "manufacturing": "Üretim",
+        "construction": "İnşaat",
+        "healthcare": "Sağlık",
+        "disasterManagement": "Olay Müdahalesi",
+        "miningAndResources": "Madencilik ve Kaynaklar",
+        "agriculture": "Tarım",
+        "publicInfrastructure": "Kamu Altyapısı",
+        "consultingProfessionalServices": "Danışmanlık/Profesyonel Hizmetler"
+      },
+      "teams": {
+        "title": "Roller",
+        "leadership": "Liderlik",
+        "operations": "Operasyonlar",
+        "projectManagement": "Proje Yönetimi",
+        "humanResources": "İnsan Kaynakları",
+        "sales": "Satış",
+        "marketing": "Pazarlama",
+        "finance": "Finans"
+      },
+      "values": {
+        "title": "Etik",
+        "operationalEthics": "Operasyonel Etik",
+        "esg": "ESG",
+        "culturalIntegrity": "Kültürel Bütünlük"
+      },
+      "company": {
+        "title": "Hakkımızda",
+        "ourMission": "Misyonumuz",
+        "whoWeAre": "Biz Kimiz",
+        "whatWereBuilding": "Ne İnşa Ediyoruz",
+        "contactUs": "Bize Ulaşın"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Tüm hakları saklıdır.",
+    "terms": "Şartlar",
+    "privacyPolicy": "Gizlilik Politikası",
+    "cookiePolicy": "Çerez Politikası",
+    "contact": "İletişim"
+  },
+  "home": {
+    "hero": {
+      "title": "Kuruluşunuz için Birleşik İşletim Sistemi",
+      "subtitle": "Her teslimatla rafine edilen kuruluşunuzun eksiksiz dijital modeli. Daha keskin planlama, daha hızlı koordinasyon ve her fonksiyonda iyileştirilmiş uygulama için.",
+      "tagline": "Proje yönetimini, süreç haritalamayı, CPQ, CRM, iş zekasını, doküman yönetimini, İK'yı ve iş gücü yönetimini her teslimatla gelişen tek bir operasyonel model aracılığıyla birbirine bağlayan tek platform."
+    },
+    "contextualiser": {
+      "title": "Birliğin Değeri",
+      "p1": "Herkes aynı yürütme modelinden çalıştığında, işin nasıl yapıldığını, kimin katkıda bulunduğunu ve sonuçları neyin yönlendirdiğini görmek daha kolay hale gelir.",
+      "p2": "Ayrıca verinin fonksiyonlara kaybolmasının önüne geçer. Satış, teslimatın gerçekte ne kadar maliyetli olduğunu görür. Finans, tahminlerin nerede bozulduğunu görür. Biri ayrıldığında, taşıdıkları bilgi modelde kalır.",
+      "p3": "Tek bir yürütme kaydında ne kadar uzun çalışırsanız, bir sonraki projeyi o kadar doğru planlayabilir, personel alabilir ve fiyatlandırabilirsiniz."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "İş Zekası",
+        "title": "Bilgiyi eyleme dönüştürün",
+        "description": "Fraktal, süreç entegre iş zekası, fırsatları tespit etmenizi, performansı izlemenizi ve kuruluşunuz genelinde bilinçli karar almayı yönlendirmenizi sağlar."
+      },
+      "processMapping": {
+        "header": "Süreç Haritalama",
+        "title": "Süreçlerinizi görselleştirin",
+        "description": "Google Haritalar tarzı arayüzümüzü kullanarak çeşitli ayrıntı düzeylerinde süreçleri tanımlayın ve görüntüleyin, ekipler ve fonksiyonlar arasında netlik ve uyumu sağlayın."
+      },
+      "projectManagement": {
+        "header": "Proje Yönetimi",
+        "title": "Projelerinizi düzenleyin",
+        "description": "Ürün özelliklerine dayalı projeler planlayın, ardından tarihsel verilere dayanarak yürütme sürelerini ve kaynak ihtiyaçlarını tahmin etmek için benzersiz araçlarımızı kullanarak koordine edin."
+      },
+      "resourcePlanning": {
+        "header": "Kaynak Planlaması",
+        "title": "Kuruluşunuzun zamanını optimize edin",
+        "description": "Kapasiteyi doğrudan operasyonel talebe ve planlanmış çalışmaya bağlamak için insanları, becerileri, araçları, kullanılabilirliği ve maliyeti modelleyin."
+      },
+      "documentManagement": {
+        "header": "Doküman Yönetimi",
+        "title": "Sonuçları güçlendiren bilgiyi yapılandırın",
+        "description": "Dokümanları doğal organizasyon ve kolay keşif için ilgili oldukları kişilerin, envanter öğelerinin, projelerin veya süreç adımlarının yanına yerleştirin."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Hassasiyeti kaybetmeden karmaşıklığı basitleştirin",
+        "description": "Sektörünüze ve şirket yeteneklerinize uyacak bir ana ürünün kısıtlamaları dahilinde özellikler oluşturun. Malzeme ve fiyatlandırma kurallarını buna göre yapılandırın ve tarihsel proje verilerine dayalı zaman tahminleri oluşturun."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Her teslimatta döngüyü kapatın",
+        "description": "Her teslimatın ardından müşteri geri bildirimini toplayın ve doğrudan onu üreten süreç adımlarına ve kaynaklara atfleyin. Teslimatlar arasındaki kalıplar zamanla görünür hale gelir, geri bildirim süreç ve kaynak iyileştirmesi için net bir sinyal haline gelir."
+      }
+    },
+    "meritConcept": {
+      "title": "Sizin Koşullarınızda Merit",
+      "content": [
+        "Platform sizin için başarıyı tanımlamaz. Kuruluşunuzun ve müşterilerinin mükemmelliğin nasıl göründüğüne karar verdiği her şeydir; sürecin her düzeyinde ölçülebilir hale getirilir.",
+        "Her metrik, her formül ve her KPI, kuruluşun modele karşı belirlediği kriterlerden akar. Üreticinin iyi yürütülmüş bir teslimat tanımı, bir sağlık hizmetleri sağlayıcısınınkinden farklıdır. Müşterinin karmaşık bir angajmandan beklentileri rutin birinden farklıdır. Platform bunların hepsine uyum sağlar çünkü başarı tanımı yazılımda değil, modelde yaşar.",
+        "Bu aynı zamanda uyumu mümkün kılan şeydir. Müşteri için önemli olan kriterler süreç modelinde yansıtıldığında, işi yürüten kişiler kendi konumlarından iyinin nasıl göründüğünü görebilir. Ve her teslimat tamamlandığında geri bildirim döngüyü kapatır; müşterinin deneyimini onu üreten adımlara bağlar."
+      ]
+    },
+    "ethics": {
+      "title": "Tasarım Gereği Hesap Verebilirlik",
+      "p1": "Merit, kurumsal düzeyde izinler ve yönetişimle çalışma genelinde tam şeffaflık sağlar.",
+      "p2": "Çalışma görünür olduğunda, katkılar izlenebilir olduğunda ve sonuçlar ölçülebilir olduğunda, kuruluşlar sadece performansı değil güveni de açığa çıkarır.",
+      "p3": "Merit, teslimatı net yönetişimle kararlara bağlar; böylece takdir tutarlı, çaba görünür ve ödüller adil olur.",
+      "cta": "Etiğin platforma nasıl entegre olduğunu keşfedin →"
+    },
+    "howMeritWorks": {
+      "title": "Merit Nasıl Çalışır",
+      "subtitle": "Her teslimatı paylaşılan bir modele karşı kaydedin. Her tamamlanan proje bir sonraki tahmini keskinleştirir, planlama kalitesini artırır ve insanlar ayrıldığında sistemde kalan bir operasyonel kayıt ekler.",
+      "model": {
+        "title": "Model",
+        "description": "Ürününüzü tüm varyasyonlarıyla tanımlayın ve onu teslim etmek için kullanılan beceriler, araçlar ve malzemeler dahil olmak üzere karşılık gelen bir süreçle eşleştirin."
+      },
+      "execute": {
+        "title": "Yürüt",
+        "description": "Projeleri modele karşı yürütün. Sapmaları gerçek zamanlı olarak takip edin. Her ekibi, aracı ve görevi aynı tabloya bağlı tutun."
+      },
+      "improve": {
+        "title": "İyileştir",
+        "description": "Her teslimat modele geri beslenir. Tahminler keskinleşir, planlama yükü azalır ve kurumsal bilgi, insanlarda değil sistemde birikir."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Çözmeye değer sorun",
+      "p1": "Her teslimat aynı şekilde yürütülür: bir süreç, insanlar tarafından araç ve malzeme kullanılarak yürütülür. Ancak teslimat nadiren planla örtüşür.",
+      "p2": "Aynı altı başarısızlık sektörler, kuruluşlar ve proje türleri arasında görünür. Merit bu altının hepsini ele almak için inşa edildi."
+    },
+    "theProblem": {
+      "title": "Altı yapısal başarısızlık. Tek kök neden",
+      "subtitle": "Bu başarısızlıklar ortak bir kaynağı paylaşır: paylaşılan yürütme kaydı yok, öğrenen model yok, herkesin çalıştığı tek bir tablo yok.",
+      "failures": {
+        "measurability": {
+          "dimension": "Ölçülebilirlik",
+          "problem": "Performans hissedilir, yakalanmaz.",
+          "detail": "Paylaşılan bir yürütme kaydı olmadan, hesap verebilirlik gayri resmi, takdir öznel ve iyileştirme tahmindir."
+        },
+        "predictability": {
+          "dimension": "Tahmin Edilebilirlik",
+          "problem": "Tahminler aralıklardır, öngörüler değil.",
+          "detail": "Her proje içine işlenmiş belirsizlikle başlar. Çizilecek model yok. Deneyim sistemlerde değil, zihinlerde kalır."
+        },
+        "transparency": {
+          "dimension": "Şeffaflık",
+          "problem": "İlerleme ancak gerçekten sonra görünür.",
+          "detail": "Bir sorun raporda yüzeye çıktığında, zaten pahalıdır. Sapma keşfedilir, engellenmez."
+        },
+        "planning": {
+          "dimension": "Planlama",
+          "problem": "Her proje sıfırdan başlar.",
+          "detail": "Ekipler her projede planı yeniden inşa eder ve bağımlılıkları yeniden öğrenir. Hiçbir şey ileriye taşınmaz."
+        },
+        "evaluation": {
+          "dimension": "Değerlendirme",
+          "problem": "Seçim sonuçlara değil ilişkilere dayanır.",
+          "detail": "Nesnel performans verisi olmadan, en iyi insanlar görünmez ve yanlış kararlar tekrarlanır."
+        },
+        "integration": {
+          "dimension": "Entegrasyon",
+          "problem": "Veri fonksiyona göre, bilgi kişiye göre silolara bölünür.",
+          "detail": "Satış teslimatı görmez. Finans yürütmeyi görmez. İnsanlar ayrıldığında, kurumsal bilgi onlarla birlikte gider."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "Her projeyle gelişen kuruluş",
+      "p1": "Merit her teslimatı uygulayıcılar (insanlar ve kuruluşlar), envanter ve süreç adımlarından oluşan bir ağ olarak modeller; her yürütme bir ana modele karşı kaydedilir. Her tamamlanan projeyle model gelişir. Gayri resmi yargı kanıta dönüşür. Yönetim yükü, sistem daha önce manuel olarak yapılan koordinasyon ve raporlamayı üstlendikçe azalır.",
+      "p2": "Her tamamlanan proje, kuruluşa özgü bir yürütme kaydına katkıda bulunur. Bu kayıt, izleyen her tahminin, her değerlendirmenin ve her planlama kararının temeli haline gelir."
+    },
+    "theAdvantage": {
+      "title": "Her ufukta değer",
+      "subtitle": "Merit, ne kadar süredir çalıştığına bağlı olarak farklı oranlarda getiri sağlar.",
+      "horizons": {
+        "immediately": {
+          "label": "Anında",
+          "headline": "Teslimat izlenebilir hale gelir.",
+          "detail": "Sapmalar gerçek zamanlı olarak görünür. Proje planları özelliklerden üretilir. Ekipler zaten var olanı yeniden inşa etmeyi bırakır."
+        },
+        "overTime": {
+          "label": "Zamanla",
+          "headline": "Model her yürütmeyle gelişir.",
+          "detail": "Yürütme kaydı büyüdükçe tahminler daha doğru hale gelir. Planlama, başlangıç tahminleri yerine gerçek geçmişten beslenir ve model, kuruluşun gerçekte nasıl performans gösterdiğini yansıtır."
+        },
+        "enduringly": {
+          "label": "Kalıcı Olarak",
+          "headline": "Hiçbir rakibin kopyalayamayacağı bir veri kümesi.",
+          "detail": "Merit üzerinde yıllardır çalışan bir kuruluş, yıllar derinliğinde bir yürütme kaydına sahiptir: kendi süreçlerine, insanlarına ve teslimat geçmişine özgü. Bu kayıt, aynı yazılımı benimseyen bir rakip tarafından kopyalanamaz."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Operasyonel Zeka için Birleşik Sistem",
+      "content": ["Tek sistem. Tam görünürlük. Sonsuz iyileştirme."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "İş Zekası",
+        "content": [
+          "Merit'te iş zekası, süreç haritasının kendisine gömülüdür. Performans verileri, kuruluş geneli görünümden bireysel adımlara kadar her soyutlama düzeyinde görsel içinde yüzeye çıkar; böylece işin nasıl performans gösterdiğini, onu yönlendiren süreç bağlamında anlarsınız, ayrı bir raporlama aracında değil.",
+          "Veri, sistemdeki her nesneden akar: yürütme kayıtları, bireysel profiller, envanter, özellikler ve takvimler. Bu kaynaklar, süreç modeli içinde görüntülenebilir veya matematiksel olarak birleştirilebilir. Bir adımı yürüten kişiler genelinde toplanan maaş verisi, yürütme süresiyle birleştirildiğinde, adım düzeyinde, iş düzeyinde veya herhangi bir dönemde tüm projeler genelinde gerçek bir maliyet rakamı verir.",
+          "Herhangi bir veri kaynağı, süreçteki herhangi bir düğüme karşı formüle edilebildiğinden, analitikler birleştirilebilirdir. Yürütmeyi yöneten aynı yapı, yüksek çözünürlüklü, süreç entegre iş zekasının çerçevesi haline gelir."
+        ]
+      },
+      "processMapping": {
+        "title": "Süreç Haritalama",
+        "content": [
+          "Merit, operasyonel yapınızı her soyutlama düzeyinde haritalandırır: kuruluş ve ekip görünümünden bireysel süreç adımlarına ve her adımın gerektirdiği belirli araç fonksiyonlarına kadar. Harita üç boyutludur ve tam gezinilebilirdir: kuruluş geneli tabloyu görmek için uzaklaştırın, bütüne nasıl uyduğunun bağlamını kaybetmeden tek bir operatör eylemine yakınlaştırın.",
+          "En karmaşık teslimat sistemleri bile modellenebilir, keşfedilebilir ve anlaşılabilir. Haritalar canlıdır ve yürütme verileriyle katmanlıdır; böylece her soyutlama düzeyi kuruluşun gerçekte nasıl performans gösterdiğini yansıtır, statik bir diyagram değil.",
+          "Süreç modeli kuruluşunuzla sınırlı değildir. Tüm teslimat ekosistemine yayılabilir: ortak kuruluşları haritalandırarak, katılımlarını koordine ederek ve zincir genelinde performans verisi yakalayarak."
+        ]
+      },
+      "projectManagement": {
+        "title": "Proje Yönetimi",
+        "content": [
+          "Bir sipariş onaylandığında, proje planı süreç modelinden üretilir. Programlar, süreç içinde tanımlanmış tahminlerden hesaplanır, geçmiş yürütme verileriyle hassaslaştırılır ve uygulayıcı ataması otomatik olarak yönetilir: bireysel takvimler, deneyim ve müsaitlik durumundan yararlanarak, yapılandırma araçları ve manuel geçersiz kılmalar her aşamada kullanılabilir.",
+          "İlerleme, tanımlanmış gereksinimlere göre takip edilir: sağlanacak çıktılar, kaydedilecek metrikler ve her adımda ayarlanacak durum etiketleri. Sistem, kontrolü elinden almadan yürütmeye rehberlik eder.",
+          "Proje, otomatik oluşturulan Gantt olarak veya süreç haritasının kendisi içinde görüntülenebilir; kuruluşlar, işler ve bireysel adımlar genelinde canlı durumu gösterir. İster iç ekipleri ister alt yüklenicileri koordine ediyor olun, tablo her zaman güncel ve her zaman bağlamlıdır."
+        ]
+      },
+      "documentManagement": {
+        "title": "Doküman Yönetimi",
+        "content": [
+          "Merit'teki belgeler, ait oldukları varlığa sabitlenir: bir süreç adımı, bir proje adımı, bir özellik, bir çalışan, bir ortak kuruluş veya bir araç ya da malzeme. Uygunluk sertifikası, bakım kaydı veya muayene belgesi tam da geçerli olduğu yerde bulunur, bağlantısız bir klasörde değil.",
+          "Belgelerin gerekli olduğu yerlerde, süreç modelinde tanımlandığı şekilde, ilerlemeyi kapılarlar. Belge yerinde olmadıkça bir aşama ilerleyemez; gerekli sertifika doğrulanmadıkça bir rol atanamaz. Belgeler operasyonlardan ayrı yönetilmez; işin nasıl ilerlediğine gömülüdür."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Yapılandır, Fiyatlandır, Teklif Et)",
+        "content": [
+          "Merit'teki CPQ, bir ana özellik etrafında şekillenir: bir ürün türü içindeki mümkün olan her varyasyonun tam tanımı; kuruluşun çalıştığı tüm malzemeler, yapılandırmalar, koşullular ve kısıtlamalar. Bireysel özellikler her zaman bu ana setin bir alt kümesidir. Birini tanımlamak süreci ima eder: gerekli adımlar, malzemeler ve kaynaklar teklif üretilmeden önce zaten anlaşılmıştır.",
+          "Ana sete karşı tanımlanan kurallar, ürünün koşullu mantığını kodlar. Bir seçim başkasını ima edebilir, uyumsuz bir seçeneği dışlayabilir veya bir gereksinimi tetikleyebilir; yapılandırma noktasında otomatik olarak uygulanır. Her özelliğin ilerlemeden önce eksiksiz olmasını sağlamak için gerekli tanımlayıcılar zorunlu kılınabilir. Sürece karşı tanımlanan maliyet kuralları, herhangi bir yapılandırmada dahil olan zaman, malzeme, enerji ve karbonu gün yüzüne çıkararak özelliğe geri besler.",
+          "Bir özellik onaylandığında, Merit geri kalanını otomatikleştirir. Envanter buna karşı yönetilir, aşağı akış projesi bundan koordine edilir ve ekip seçimi uygulayıcı deneyimi ve takvim müsaitliğinden yararlanır. Aksi takdirde manuel koordinasyon gerektiren el değişimleri otomatik olarak gerçekleşir."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "Merit'in CRM'si, pipeline değil teslimatın kendisi etrafında kurulur. Bir özellik yerine getirildikten sonra müşteri geri bildirimi yakalanır ve doğrudan onu teslim eden projenin adımlarına ve bileşenlerine atfedilir. Bir kalite sorunu, gecikme veya öne çıkan nokta, her biri süreçte tam olarak nerede ortaya çıktığına kadar izlenebilir.",
+          "Bu atıf, araştırmayı kolay ve kalıp analizini anlamlı kılar. Geri bildirim teslimatlar genelinde birikir; böylece belirli bir adımdaki veya belirli bir kaynakla ilgili yinelenen sorunlar zamanla görünür hale gelir. Periyodik olarak gözden geçirildiğinde, sürecin, özelliğin veya kaynak planlamasının dikkat gerektirdiği yerlere dair net bir sinyal haline gelir.",
+          "Yürütmeyle aynı sistem içinde yer aldığından, içe aktarma yok, çeviri yok ve teslim edilenler ile müşterinin bunun hakkında söyledikleri arasında kopukluk yok."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Kaynak Planlaması",
+        "content": [
+          "İnsanlar, araçlar ve malzemelerin tümü, proje yürütmesiyle aynı sistem içinde yönetilir. Her birinin kendi takvimi, müsaitlik durumu ve performans kaydı vardır; destekledikleri işi yöneten aynı süreç modeline karşı takip edilir.",
+          "Süreç performansını gün yüzüne çıkaran aynı BI görselleri, kaynak kullanımını da gösterir. Takvim tabanlı görünümler, araçların ne zaman yetersiz veya aşırı kullanıldığını, planlanan iş yükünün programlanmış izinle ne zaman çakıştığını veya bir departmanın ne zaman kapasiteye yaklaştığını ortaya koyar; geçmiş kalıpları incelerken veya planlanan çalışmaya ileriye dönük projeksiyonlar yaparken.",
+          "Veri tutarlı bir kalıp gösterdiğinde, düzenli olarak zorlanan bir ekip, her zaman darboğaz olan bir ekipman parçası, her zaman yetersiz personelli bir dönem, üzerine harekete geçilebilecek kadar erken görünür. Kaynak planlaması, boşluklara tepki vermekten bunları önceden tahmin etmeye geçer."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Etik ve Etki",
+      "content": [
+        "Sisteminiz herhangi bir ölçüte göre liyakati tanımlayabildiğinde adalet ve sürdürülebilirlik artık birer özlem olmaz. Daha iyi iş kararlarının doğal yan ürünleri haline gelir.",
+        "Merit, kuruluşların israfı azaltmasına, önyargıyı ortadan kaldırmasına ve sonuçları gerçekte neyin yönlendirdiğini tanımasına yardımcı olur.",
+        "Etik sonuçların peşinden koşmayın. Onları kaçınılmaz kılın."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Neyin önemli olduğuna siz karar verin, Merit bunu optimize etmenize yardımcı olur",
+      "cards": {
+        "transparency": {
+          "title": "Şeffaflık ve Hesap Verebilirlik",
+          "description": "Merit, eylemleri ve kararları izlenebilir kılarak kuruluşların işin her düzeyinde net yönetişim, süreç görünürlüğü ve yapılandırılmış denetim yoluyla etik standartları korumasına yardımcı olur."
+        },
+        "recognition": {
+          "title": "Adil Tanınma ve Ödüllendirme",
+          "description": "Merit, katkıyı sonuçlarla ilişkilendirerek adaleti teşvik ederek, önyargıyı azaltarak ve çabanın görüldüğü ve değer verildiği bir kültürü destekleyerek tanımayı gerçek etkiye dayandırmanızı sağlar."
+        },
+        "integrity": {
+          "title": "Sistem Bütünlüğü ve Güven",
+          "description": "Merit, belirsizliği gideren, tutarlılığı uygulayan ve çalışmanın nasıl ölçüldüğüne, kararların nasıl alındığına ve ilerlemenin nasıl değerlendirildiğine dair güven inşa eden güvenilir bir operasyonel çerçeve sağlar."
+        }
+      }
+    },
+    "esg": {
+      "title": "Tasarım Gereği ESG",
+      "content": [
+        "Enerji ve yakıttan malzeme ve suya kadar her ölçülebilir girdi, adım düzeyinde kaydedilebilir ve yürütme kaydı genelinde süreç düğümlerine karşı formüle edilebilir. Çevresel maliyet, proje düzeyinde tahmin edilmez; onu üreten belirli adımlara ve kaynaklara kadar izlenebilir. Zamanla kayıt, hangi kaynakların ve uygulamaların çıktı başına en az israfı ürettiğini ortaya koyar; çevresel iyileştirmeyi özlemsel değil kanıta dayalı hale getirir.",
+        "Katkı iş akışında takip edildiğinden tanıma, yönetime yakınlığı veya kendi kendine raporlanan faaliyeti değil gerçekte olanı yansıtır. Sistem kanıtı ürettiğinde, önyargı potansiyeli yapısal olarak azalır. Operasyonel kararları yönlendiren aynı yürütme verileri, insan kararlarını da yönlendirir.",
+        "Süreç modeline yerleştirilmiş aşama kapıları, gerekli belgeler yerinde olana kadar işin ilerlemesini engeller. Erişim kontrolleri, kimlerin hangi metrikleri ve yapılandırmaları görebileceğini tanımlar. Yürütmeye karşı atılan her eylem kaydedilir. Yönetişim, sonradan eklenen bir raporlama katmanı değildir. İşin nasıl ilerlediğine gömülüdür."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Tasarım Gereği Uyum",
+      "content": [
+        "Tanıma, insanların bildirdiklerini veya kimi tanıdıklarını değil yürütme kaydının gösterdiklerini takip ettiğinde, bireysel teşvikler ve kurumsal hedefler doğal olarak uyum sağlar. Görünümleri yönetmekte, bilgiyi biriktirmekte veya teslimatın üzerine konumlanmakta hiçbir avantaj yoktur.",
+        "Bu uyum yapıdan kaynaklanır, kültür programlarından değil. Performans verileri işin kendisinden aktığından, kayırmacılık, bilgi biriktirme ve çaba ile ödül arasındaki kopukluk gibi koşullar, etrafından dolaşılmak yerine ortadan kaldırılır.",
+        "İnsanlar tutarlı olarak katkının adil ölçüldüğünü ve buna göre ödüllendirildiğini gördüğünde, davranış bunu pekiştirir. Bütünlük kültürü, bütünlüğü en az direniş yolu yapan bir sistemin doğal çıktısı haline gelir."
+      ]
+    },
+    "compliance": {
+      "title": "Uyumluluktan Rekabet Avantajına",
+      "content": [
+        "Etik performans bir özlem ya da sonradan akla gelen bir şey olmamalı, bir işletmenin nasıl işlediğinin doğal çıktısı olmalıdır. Merit, etik uyumu günlük operasyonların dokusuna gömerek bunu mümkün kılar.",
+        "Performans nesnel olarak ölçüldüğünde ve değer sistematik olarak ortaya çıktığında, adalet tutarlı, hesap verebilirlik otomatik ve daha iyi sonuçlar kaçınılmaz hale gelir. Tasarım gereği etik işleyen bir kültür yalnızca iyi yönetişim değildir. Stratejik bir avantajdır."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "Her Rol için Tasarlandı",
+      "content": [
+        "Stratejiden yürütmeye Merit, liderlere, operatörlere ve katkıda bulunanlara işin gerçekte nasıl yürüdüğüne dair ortak bir görünüm sağlar.",
+        "Merit'in kuruluşunuz genelinde her rolü nasıl desteklediğini görün."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Tek Sistem, Her Perspektif",
+      "content": [
+        "Çoğu kuruluşta iki şey sessizce kayboluyor: veri fonksiyonlara, bilgi insanlara. Satış, teslimatın gerçekte ne kadara mal olduğunu görmüyor. Finans, tahminlerin nerede bozulduğunu görmüyor. Deneyimli bir uygulayıcı ayrıldığında, tanıdığı kalıplar onunla birlikte gidiyor. Merit'in yürütme kaydı her ikisine de cevap.",
+        "Bu sayfadaki her rol aynı temel veriden çalışır: aynı yürütme kaydı, aynı süreç modeli, aynı insanlar ve kaynaklar. Değişen şey agregasyon. Bir proje yöneticisi zaman çizelgelerini ve bağımlılıkları görür; İK katkı ve performans kalıplarını görür; finans maliyet ve kullanımı görür. Farklı perspektifler, tek sistem.",
+        "Ürün teslimat ekibi için ise? Süreç modeli hangi işlerin hangi çıktılara bağlı olduğunu haritalandırdığından, karşılıklı bağımlılıklar ilk günden açıktır. Hiçbir rol kısmi bir tablodan çalışmaz ve hiçbir el değişimi birinin bunu iletmeyi hatırlamasına bağlı değildir."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Liderlik",
+        "content": [
+          "Liderlerin çoğu durum güncellemeleri arasında çalışır; şeylerin nerede olduğunun değil nerede olduğunun anlık görüntüsünü görür. Merit'te yürütme kaydı canlıdır çünkü iş gerçekleştiği anda kaydedilir. İlerleme, sapma, kaynak baskısı ve performans her zaman günceldir; kimsenin rapor hazırlaması gerekmez.",
+          "Bu, liderlik kararlarının doğasını değiştirir. Sorunlar harekete geçilecek kadar erken görünür. Kaynak kısıtlamaları gecikmelere dönüşmeden önce yüzeye çıkar. Performans verileri, raporlananı değil gerçekte olanı yansıtır.",
+          "Ve her metrik aynı süreç modeline dayandığından liderler, sistemi değiştirmeden veya bağlamı kaybetmeden üst düzey tablo ile ayrıntılı detay arasında geçiş yapabilir. Bir sayı yanlış görünüyorsa onu üreten adıma kadar takip edebilirsiniz."
+        ]
+      },
+      "operations": {
+        "title": "Operasyonlar",
+        "content": [
+          "Operasyonlar, işin kuruluş içinde nasıl aktığından sorumludur ve süreç modelinin yüzeye çıkardığı tam da budur. İşin nerede biriktiği, el değişimlerinin nerede bozulduğu ve kapasitenin nerede zorlandığı gerçek zamanlı olarak görünür. Bir kalıp projeler genelinde tekrarlandığında, tek seferlik bir durum yerine süreç sorunu haline gelir ve model gelecekteki her yürütmeye iyileştirmenin taşınması için güncellenebilir. Yürütme kaydı aynı zamanda hangi kaynakların hangi adımlarda en iyi performans gösterdiğini de ortaya koyar; operasyonlara kanıtlanmış kaynakları tercih etmek ve boşlukların olduğu yerde yatırım yapmak için kanıt sağlar.",
+          "Süreç modeli yukarı ve aşağı akış bağımlılıklarını haritalandırdığından ve CRM verileri dahili yürütmeyi müşteri sonuçlarına bağladığından, kaynak ve süreç kararları zincirin her açısından incelenebilir. Formüller modeldeki herhangi bir veri kombinasyonuna karşı tanımlanabilir; böylece görünüm hiçbir zaman tek bir metrikle sınırlı kalmaz. Bu genişlik, verinin kararlar için gerçekten kullanışlı olmasını sağlayan şeydir; yalıtılmış olarak optimize edilebilecek bir şey değil."
+        ]
+      },
+      "projectManagement": {
+        "title": "Proje Yönetimi",
+        "content": [
+          "Bir proje yöneticisinin zamanının önemli bir kısmı, projenin kendisinin gerektirmediği işe gider: sıfırdan program oluşturmak, müsaitliği kontrol etmek, bir şey kaydığında kapsamı yeniden belirlemek. Merit'te proje planı süreç modelinden üretilir, programlar geçmiş yürütme verilerinden hesaplanır ve uygulayıcı ataması canlı takvimlere ve deneyime dayanır. İskelet zaten oradadır.",
+          "Bu, proje yöneticisini teslimatın kendisine odaklanmak için serbest bırakır. İlerleme, her adımda tanımlanmış gereksinimlere göre takip edilir, sapmalar gerçekleşirken görünür ve Gantt, yürütme ilerledikçe otomatik olarak güncellenir. Her tamamlanan proje aynı zamanda yürütme kaydına katkıda bulunur, böylece bir sonraki daha iyi tahminlerle ve sıfırdan daha az yeniden planlamayla başlar.",
+          "Sistem aynı zamanda çoğu aracın proje yöneticisinin hafızasına bıraktığı bir risk kategorisini de ele alır. Uygulayıcı müsaitliği, planlanan izin ve eğitim etkinliklerini hesaba katar. Atama, iş başlamadan önce gerekli sertifikaların ve belgelerin yerinde olup olmadığını kontrol eder. Süreç modeline yerleştirilmiş aşama kapıları, belirli adımların gerekli belgeler olmadan ilerleyemeyeceği anlamına gelir. Temiz bir teslimat için koşullar sistem tarafından uygulanır, birinin kafasında tutulmaz."
+        ]
+      },
+      "humanResources": {
+        "title": "İnsan Kaynakları",
+        "content": [
+          "İK için Merit, insanların yaptıkları ile tanınanlar arasındaki boşluğu kaldırır. Katkı, geriye dönük olarak değerlendirilmek yerine iş akışında takip edildiğinden, performans verileri gerçekte olanı yansıtır; yönetime yakınlığı veya kendi kendine raporlanan faaliyeti değil.",
+          "Yeni ekip üyeleri, tam süreç bağlamı zaten mevcut olarak gelir: sorumlu oldukları adımlar, gerekli belgeler ve sertifikalar ve rollerinin kuruluşun geri kalanına nasıl bağlandığı. Eğitim materyalleri doğrudan işe sabitlenir; böylece rehberlik ayrı bir sistemde değil ihtiyaç duyulduğu yerde mevcuttur.",
+          "Bireyler karşısında kaydedilen metrikler, süreç modeli üzerinden KPI'lara akar: adım, iş, proje veya kuruluş düzeyinde ve herhangi bir zaman diliminde. Erişim kontrolleri, her rolün hangi metrikleri ve hesaplamaları görebileceğini belirler; böylece hassas veriler geniş performans tablosunu kısıtlamadan doğru kişilere ulaşır. Adım düzeyinde performans, ihtiyaç duyanları destekleyip geliştirmek ve üstün olanları tam olarak tanımak için yeterince spesifik hale gelir."
+        ]
+      },
+      "sales": {
+        "title": "Satış",
+        "content": [
+          "Çoğu satış süreci, üzerinde anlaşılan ile teslimatın aldığı arasında bir boşluk yaratır. Teklif bir belgede, brief başkasında ve boşluğu kapatmak yeniden açıklama, yeniden müzakere veya ikisini de gerektiriyor. Müşteri onayladığında, teslimat ekibi kısmi bir tablodan başlıyor.",
+          "Merit'te özellik hem teklif hem de teslimat talimatıdır. Bir ana özellik, bir ürün türü için her yapılandırmayı, kısıtlamayı ve fiyatlandırma kuralını kodlar. Satış bu yapı içinde yapılandırır ve her tahmini operasyonlara geri göndermeden maliyet etkilerini gerçek zamanlı olarak görür. Müşteri onayladığında, proje doğrudan özellikten üretilir. Hiçbir şeyin çevrilmesi gerekmez.",
+          "Geçmiş teslimatlardan müşteri geri bildirimi, onu üreten adımlara ve bileşenlere atfedilir ve müşteri kaydının geri kalanının yanında yer alır. Benzer bir angajman için teklif vermeden önce satış, karşılaştırılabilir geçmiş teslimatların nasıl performans gösterdiğini görebilir. Dönen bir müşteriyle konuşurken konuşma gerçekte olanı temel alır."
+        ]
+      },
+      "marketing": {
+        "title": "Pazarlama",
+        "content": [
+          "Çoğu pazarlama konumlandırması, şirketin neyin iyi olduğuna dair varsayımlar üzerine kurulur. Merit'te pazarlama, gerçek yürütme kaydına erişime sahiptir: kuruluşun tutarlı olarak iyi performans gösterdiği yerler, en iyi sonuçları hangi kaynakların ve süreçlerin ürettiği ve müşteri geri bildiriminin her teslimat genelinde ne dediği. Mesaj, iddia edilen güçlü yönler değil, gösterilmiş olanlar üzerine kurulabilir.",
+          "CRM geri bildirim döngüsü başka bir boyut ekler. Müşteri geri bildirimi her teslimatın belirli adımlarına ve bileşenlerine atfedildiğinden, pazarlama yalnızca müşterilerin memnun olup olmadığını değil, o memnuniyeti özellikle neyin yönlendirdiğini de görebilir. Zamanla, hem konumlandırmayı hem de işletmenin daha fazla araması gereken iş türünü bilgilendiren kalıplar ortaya çıkar.",
+          "Bu, pazarlamayı stratejiyle bağlar. Hedef müşteri profilleri, kuruluşun en iyi teslim ettiği şeye göre anlaşıldığında, pazarlamanın vadettiği ile teslimatın ürettiği arasındaki boşluk daralır. Uyum her iki yönde de işler: yürütme verileri mesajı keskinleştirir, hedef müşteri profilleri ise yürütmenin ne için optimize etmesi gerektiğini şekillendirir."
+        ]
+      },
+      "finance": {
+        "title": "Finans",
+        "content": [
+          "Finans genellikle finansal verileri sonradan alır; neyin harcandığını gösteren ancak neden sorusuna yanıt vermeyen bir biçimde. Gerçek maliyeti proje planıyla uzlaştırmak, sapmanın nereden kaynaklandığını anlamak için ayrı sistemlerden geri dönmek anlamına gelir.",
+          "Merit'te maliyet, yürütme kaydının kendisine gömülüdür. Maaş verileri, malzeme maliyetleri ve yürütme süresi, teslimatı yöneten aynı süreç modelinde bulunur. Formüller, tek bir adımdan tüm bir proje türüne, herhangi bir zaman diliminde, modeldeki herhangi bir düğüme karşı bu kaynakların herhangi bir kombinasyonunu birleştirebilir. Sonuç, paranın nereye gittiğine doğrudan geri iz süren bir maliyet tablosudur.",
+          "Her teslimat yürütme kaydına katkıda bulunduğundan, finansal tahminleme zamanla iyileşir. Gelecekteki projeler için tahminler gerçek teslimat geçmişinden beslenir; böylece kayıt büyüdükçe plan ile nihai maliyet arasındaki boşluk daralır. Finans, projelerin nerede durduğunu görmek için ay sonunu beklemiyor. Tablo canlıdır."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Merit'in Değer Yarattığı Yerler",
+      "content": [
+        "Her kuruluş farklıdır. Ancak paylaşılan bir bakış açısı etrafında birleşebilmenin değeri evrenseldir.",
+        "Merit, koordinasyona, doğruluğa ve ölçekte performansa bağlı sonuçların olduğu sektörlere görünürlük, uyum ve içgörü getirerek karmaşık ekosistemlere uyum sağlayacak şekilde tasarlanmıştır.",
+        "Merit'in kilit sektörler genelinde daha akıllı iş sistemlerini nasıl desteklediğini keşfedin."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Üretim",
+        "content": [
+          "Karmaşık süreçler, parçalı araçlar ve kaynak yoğun operasyonlar, üretimde görünürlük ve koordinasyonu günlük bir zorluk haline getirir.",
+          "Merit, üreticilere süreç sağlığı, kaynak kullanımı ve teslimat performansı hakkında gerçek zamanlı içgörü sağlayan tek bir operasyonel sistemde insanları, malzemeleri ve iş akışlarını birleştirir.",
+          "Tesis katından tedarik zincirine kadar her eylemi takip edin, her darboğazı ortaya çıkarın ve tek bir platformda her iyileştirmeyi ölçün. Merit ile üretim ekipleri sistemleri sürekli optimize edebilir ve performansı hem stratejik hedeflere hem de ön cephe çalışmasına uyumlu hale getirebilir."
+        ]
+      },
+      "construction": {
+        "title": "İnşaat",
+        "content": [
+          "Muhtemelen var olan en karmaşık ürün teslimat ekosistemi olup çok sayıda malzeme, yönetmelik, beceri ve ortamı bir araya getirir. Yine de çoğu firma hala parçalı araçlar ve bağlantısız iş akışlarıyla çalışarak koordinasyonu ve görünürlüğü sürekli bir zorluk haline getirmektedir.",
+          "Merit, tüm proje yaşam döngüsü boyunca yürütmeyi planlamak, takip etmek ve iyileştirmek için canlı bir sistem sağlar. İnşaat öncesi koordinasyondan şantiye teslimatına kadar ekipler, yerleşik belgeler, maliyetlendirme ve ilerleme takibiyle tek bir platformda rolleri, iş akışlarını ve programları uyumlu hale getirebilir.",
+          "Planlamayı gerçek zamanlı performansla ilişkilendirerek Merit, inşaat firmalarının projeler geliştikçe bile yeniden işleri azaltmasına, maliyetleri kontrol etmesine ve daha öngörülebilir şekilde teslim etmesine yardımcı olur."
+        ]
+      },
+      "healthcare": {
+        "title": "Sağlık",
+        "content": [
+          "Hasta sonuçları, karmaşık komorbidite koşullarından sosyal belirleyicilere kadar sayısız nüanslı faktöre bağlıdır; ancak çoğu sağlık sistemi bu hasta koşullarını bakım sunumuyla ve sonuçlarla anlamlı şekillerde ilişkilendirmekte zorlanır.",
+          "Merit, hasta profillerinin tam karmaşıklığını yakalar ve belirli koşulların bakım süreçleri, sağlayıcılar ve sonuçlarla nasıl etkileşime girdiğini takip eder. Hastaları temel metriklerle sınırlandırmak yerine platformumuz sağlık hizmeti sunumunu gerçekte yönlendiren nüanslı gerçeklikleri modeller.",
+          "Sağlık ekipleri nihayet belirli hasta popülasyonları için hangi bakım yaklaşımlarının en iyi işlediğini görebilir, sağlayıcı eylemlerinin sonuçlarla nasıl bağlandığını anlayabilir ve klinik deneyimden sistematik kurumsal öğrenme inşa edebilir. Hasta karmaşıklığını kaynak tahsisi ve bakım sunumuyla ilişkilendirerek Merit, kurumsal bilgiyi sezgiden eyleme geçirilebilir zekaya dönüştürür.",
+          "Sonuç: daha kişiselleştirilmiş bakım kararları, daha iyi kaynak kullanımı ve hasta popülasyonlarınız için gerçekte işe yarayan şeylere dayalı sürekli iyileştirme."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Olay Müdahalesi",
+        "content": [
+          "Olay müdahalesinde zaman kritik değişkendir. Koordineli bir müdahale ne kadar hızlı seferber edilirse sonuç o kadar iyi olur. Ancak çoğu kuruluş tam da bunu en az karşılayabilecekleri anda kritik zaman kaybeder: bir plan oluşturmak, mevcut uygulayıcıları belirlemek ve ekipmanı bulmak için.",
+          "Merit, kuruluşların bu planı önceden oluşturmasına olanak tanır. Bir ana olay müdahale süreci tanımlanır, önceden kimlik bilgisi doğrulanmış uygulayıcılar eklenir ve ekipman ile malzemeler kataloglanır. Bir olay ilan edildiği anda, planın ilgili alt kümesi örneklenir, mevcut kaynaklarla otomatik olarak doldurulur ve müdahale saatler yerine dakikalar içinde başlar.",
+          "Uygulayıcılar her adımı tamamladıkça ilerleme süreç modeline kaydedilir ve komutanlara telsiz kontrol veya manuel raporlamaya güvenmek zorunda kalmadan sürekli güncellenen bir müdahale görüntüsü sağlanır.",
+          "Olay sonrasında, yürütme kaydı bir toplu veri kümesine katkıda bulunur. Alınan dersler doğrudan bir sonraki müdahale planına yerleştirilir, böylece her olay kuruluşu bir sonrakine daha iyi hazırlar ve dünya genelinde kullanılabilecek bir eylem planı kullanılır."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Madencilik ve Kaynaklar",
+        "content": [
+          "Maden sahaları, güvenlik ve uyumluluğun pazarlık konusu olmadığı karmaşık operasyonel zorluklarla karşı karşıyadır. Ancak birçok madencilik ekibi silolu verilere ve güncelliğini yitirmiş belge süreçlerine dayanmakta, riskleri artırmakta ve karar vermeyi yavaşlatmaktadır.",
+          "Merit, madencilik operasyonlarının her yönüne derin içgörü sağlayan zengin analizlerle birleşik bir platform sunar. Güçlü bir doküman kontrol sistemiyle birleştirilmiş olarak kritik sağlık ve güvenlik protokollerinin her zaman güncel, erişilebilir ve uygulandığından emin olur.",
+          "Gerçek zamanlı verileri ve kapsamlı belgeleri entegre ederek Merit, saha yöneticilerinin tehlikeleri proaktif olarak tespit etmesini, riskleri azaltmasını ve düzenleyici uyumu sürdürmesini sağlar. Bu, daha güvenli çalışma ortamlarına yol açar ve olaylar ve makine duraksatmaları nedeniyle oluşan aksama süresini en aza indirir.",
+          "Zamanla Merit, operasyonel verileri ve belgelenmiş öğrenmeleri eyleme geçirilebilir zekaya dönüştürür; madencilik şirketlerinin güvenlik standartlarını sürekli iyileştirmesine, iş akışlarını optimize etmesine ve en değerli varlıklarını, iş gücünü korumasına yardımcı olur."
+        ]
+      },
+      "agriculture": {
+        "title": "Tarım",
+        "content": [
+          "Tarım, dinamik ve çoğu zaman öngörülemeyen ortamlarda insan, makine ve malzeme yönetimini kapsar. Makine, yakıt, üretim girdileri ve arazi gibi işgücü dışı maliyetlerin işletme giderlerinin önemli bir bölümünü oluşturduğu bu sektörde, söz konusu kaynakların nasıl kullanıldığını anlamak ve optimize etmek kritik öneme sahiptir.",
+          "Merit, her operasyonun gerçekleştirildiği yapılandırılabilir bir süreç modeli sunar. Araçlar, malzemeler ve insanlar süreç adımlarına atanarak hassas zamanlama, girdiler arasında daha akıllı seçim ve verilerin gerçekten işe yaradığını gösterdiği konularda sürekli iyileştirme mümkün kılınır. Makine ve malzeme maliyetlerinin ağır bastığı tarımda bu optimizasyon, kâr marjları üzerinde orantısız bir etki yaratır.",
+          "Yağış ve güneş ışığı gibi çevresel girdiler, gübre, sulama ve zararlı kontrolü gibi müdahalelerle birlikte kaydedilebilir; verim ise çıktı olarak not edilir. Zamanla girdiler, müdahaleler ve sonuçlar arasında örüntüler ortaya çıkar ve her döngüde daha iyi kararlar alınmasını sağlar. Birden fazla operasyonun aynı süreç modelini paylaştığı durumlarda bu birikim daha da güçlenir.",
+          "Kaynakları ve bilgiyi bir araya getiren kuruluşlar için Merit, bu paylaşımı sistematik ve veriye dayalı hale getirmek için operasyonel altyapı sağlar."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Kamu Altyapısı",
+        "content": [
+          "Kamu altyapı projeleri, yüklenicilerin, malzemelerin, düzenleyici süreçlerin ve çok yıllı zaman çizelgelerinin karmaşık koordinasyonunu içerir ve tümü yoğun kamuoyu denetimi ve hesap verebilirlik gereksinimleri altındadır.",
+          "Merit, ilk planlamadan tamamlanmaya kadar altyapı teslimatı genelinde birleşik görünürlük sağlar. Yollar, okullar, kamu hizmetleri veya kamu tesisleri inşa ediyor olun, ajanslar insanların, süreçlerin ve kaynakların kritik kamu altyapısını sunmak için nasıl bir araya geldiğini takip edebilir.",
+          "Her yüklenici eylemi, malzeme teslimi ve süreç kilometre taşı tek bir platformda görünür olduğunda devlet ekipleri, karmaşık çok paydaşlı projeler üzerinde operasyonel kontrolü korurken kamuoyu hesap verebilirliği için gereken şeffaflığı kazanır.",
+          "Merit, devlet kurumlarının altyapıyı daha verimli teslim etmesini, kamu kaynaklarının sorumlu yönetimini kanıtlamasını ve teslim edilen altyapı türünden bağımsız olarak her projeye sistematik iyileştirme katmasını sağlar."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Danışmanlık / Profesyonel Hizmetler",
+        "content": [
+          "Her kuruluş, sektörden bağımsız olarak, temel olarak ürünleri sunmak için süreçleri, insanları ve envanteri kullanır. Merit bu evrensel gerçeği somutlaştırır ve tüm teslimatı bu temel operasyonel akışlara normalleştirir.",
+          "Profesyonel hizmet firmaları için bu, alanlarda gerçek operasyonel akıcılık anlamına gelir. İster sağlık sistemleriyle, üretim tesisleriyle ya da finans kurumlarıyla çalışıyor olun, Merit aynı çerçeveyi sağlar çünkü her zaman aynı temel organizasyonel yapı taşlarıyla uğraşırsınız, sadece farklı şekilde yapılandırılmış.",
+          "Bu, sektöre özgü nüansları ve terminolojiyi anlamanın tipik öğrenme eğrisini ortadan kaldırır. Danışmanlar, Merit alan karmaşıklığını soyutladığı için müşteri bağlamları arasında sorunsuzca hareket edebilir; tüm kuruluşlarda tutarlı olan temel operasyonel mekaniği optimize etmeye odaklanmanıza olanak tanır.",
+          "Müşteri kapsamından yürütme takibine kadar Merit, profesyonel hizmet firmalarının müşterinin sektöründen veya alanından bağımsız olarak her angajmanda aynı verimlilik ve uzmanlıkla çalışmasını sağlar."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Merit'in işin gerçekte nasıl gerçekleştiğine netlik nasıl getirdiğini görün.",
+    "body1": "Yürütme, içgörü ve iyileştirmeyi tek bir operasyonel sistemde nasıl birleştirdiğimizi öğrenin.",
+    "body2": "İster strateji yönetiyor olun ister teslimatı koordine ediyor olun, Merit size güvenle hareket etmek için görünürlük ve daha akıllı ölçeklenmek için yapı sağlar.",
+    "bullets": ["Merit'i aksiyonda görün", "Kişiselleştirilmiş bir demo alın", "Merit'in gücünü deneyimleyin"],
+    "formTitle": "Demo Planlayın",
+    "formSubtitle": "Formu doldurun, ekibimizden biri size uygun bir zamanda platform demosu ayarlamak için iletişime geçecek.",
+    "formSubject": "Demo Talebi"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Merit Hakkında",
+      "subtitle": "Katkıyı görünür kılan, performansı ölçen ve ödülü adil hale getiren altyapı."
+    },
+    "body": "Merit, her fonksiyon genelinde yürütmeyi sonuçlara bağlamak için var. Çalışma şeffaf ve katkı izlenebilir olduğunda, kuruluşlar performansı değerlendirmek için ilişkilere ve politikaya güvenmeyi bırakır. Sonuçlar kendilerini gösterir.",
+    "vision": {
+      "title": "Vizyonumuz",
+      "content": "Teşviklerin uyumlu olduğu, fırsatların eşit olduğu ve iyileşmenin ölçülebilir ve gerçek olduğu kuruluşlar."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "Çalışmayı şeffaf kılan, koordinasyon yükünü ortadan kaldıran ve her ekibe güvenle hareket etmesi için veri sağlayan birleşik bir yürütme platformu sunmak."
+    },
+    "sections": {
+      "origin": {
+        "title": "Nasıl Başladık",
+        "content": [
+          "Merit bir soruyla başladı: gerçek karmaşıklığın bir ekosistemini gerçekten anlamlı bir şekilde nasıl haritalarsınız? Yanıt basit bir gözlemden ortaya çıktı: her teslimat, ölçeği veya karmaşıklığından bağımsız olarak, pek çok adımın toplamıdır. Her adımda, insanlar araçları kullanır ve malzemeleri tamamlanmaya doğru giden bir ürün haline getirir. Bu yapı taslak haline gelir. Her teslimatın süreci, onun bir alt kümesidir; takip edebildiğimiz, ölçebildiğimiz ve değerlendirebildiğimiz bir küme. Bu basit temelden, her kuruluşun nasıl çalıştığına dair sağlam bir perspektif gelişti."
+        ]
+      },
+      "definition": {
+        "title": "Merit Ne Anlama Gelir",
+        "content": [
+          "Başarı, bizim için sabit bir standart değildir. Bir kuruluşun ve müşterilerinin değer vermeye karar verdiği her şeydir. Hız, karbon, maliyet, kalite, güvenlik: her birinin taşıdığı ağırlık bir seçimdir ve bu seçim kuruluşa aittir. Bu seçimler teslimat süreci boyunca ölçülebilir kriterler olarak ifade edildiğinde, bunlara karşı en iyi performans gösteren araçlar, insanlar ve malzemeler görünür hale gelir. Seçilebilirler, geliştirilebilirler ve kutlanabilirler. Ekosistemde bireysel uygulayıcılardan araç üreticilerine ve malzeme tedarikçilerine kadar her katılımcı, ödülün bu kriterlere karşı performansa bağlı olduğunu anlar. Rasyonel strateji, karar alıcılara yakınlık değil, optimizasyon haline gelir."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Bizimle konuşun.",
+      "body": "Her soruya doğrudan yanıt veriyoruz. Üzerinde çalıştığınızı bize söyleyin, oradan devam ederiz.",
+      "formTitle": "Bize Ulaşın",
+      "formSubject": "Genel Bilgi Talebi",
+      "formSubtitle": "Formu doldurun, ekibimizden biri sorunuzu görüşmek için iletişime geçecek."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Merit Bilgi ve Haberleri",
+      "content": [
+        "Kuruluşların Merit ile nasıl daha akıllı iş sistemleri inşa ettiğini keşfedin.",
+        "Müşteri başarı hikayelerinden stratejik içgörülere ve ürün güncellemelerine kadar, işe yarayanı, gelişeni ve operasyonel zekada bir sonraki adımı burada paylaşıyoruz."
+      ]
+    },
+    "tabs": {
+      "all": "Tüm İçerik",
+      "blog": "Merit Blog",
+      "caseStudies": "Vaka Çalışmaları",
+      "pressReleases": "Basın Bültenleri",
+      "productUpdates": "Ürün Güncellemeleri"
+    }
+  }
+}

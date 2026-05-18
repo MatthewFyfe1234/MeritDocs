@@ -2,7 +2,7 @@ import { CoverSlide } from './slides/CoverSlide';
 import { ContextSlide } from './slides/ContextSlide';
 import { ConceptSlide } from './slides/ConceptSlide';
 import { OrganisationSlide } from './slides/OrganisationSlide';
-import { ExecutionSlide } from './slides/ExecutionSlide';
+import { MechanicsSlide } from './slides/MechanicsSlide';
 import { ProblemSlide } from './slides/ProblemSlide';
 import { ChangesSlide } from './slides/ChangesSlide';
 import { ValueSlide } from './slides/ValueSlide';
@@ -18,7 +18,7 @@ export const deck = {
     // CONCEPT
     <OrganisationSlide key="organisation" />,
     <ConceptSlide key="concept" />,
-    <ExecutionSlide key="execution" />,
+    <MechanicsSlide key="mechanics" />,
     // VALUE
     <ChangesSlide key="changes" />,
     <ValueSlide key="value" />,

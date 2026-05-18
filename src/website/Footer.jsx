@@ -1,7 +1,7 @@
-
 // @mui components
 import { Box } from '@mui/system';
 import { Typography, Button, useTheme } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 // Images
 import logo from "./logos/logo.webp";
@@ -11,47 +11,33 @@ import M from "./logos/M.webp";
 import { useDispatch } from 'react-redux';
 import { setPage, setSection } from '@/context/websiteStore.js';
 
-const navItems = [
-  "Platform",
-  "Use Cases",
-  // "Resources",
-  "Teams",
-  "Values",
-  "Company"
-];
-const policies = [
-  {
-    "value": "Terms",
-    "page": "Terms of Service",
-    "section": "introduction"
-  },
-  {
-    "value": "Privacy Policy",
-    "page": "Privacy Policy",
-    "section": "introduction"
-  },
-  {
-    "value": "Cookie Policy",
-    "page": "Cookie Policy",
-    "section": "introduction"
-  },
-  {
-    "value": "Contact",
-    "page": "Company",
-    "section": "contact"
-  }
-];
-
 const Footer = ({ }) => {
   const dispatch = useDispatch();
-
   const theme = useTheme();
+  const { t } = useTranslation();
+
+  const navItems = [
+    { page: "Why Merit",    labelKey: "nav.whyMerit" },
+    { page: "Platform",     labelKey: "nav.platform" },
+    { page: "Use Cases",    labelKey: "nav.useCases" },
+    { page: "Teams",        labelKey: "nav.teams" },
+    { page: "Values",       labelKey: "nav.values" },
+    { page: "Company",      labelKey: "nav.company" }
+  ];
+
+  const policies = [
+    { labelKey: "footer.terms",         page: "Terms of Service", section: "introduction" },
+    { labelKey: "footer.privacyPolicy", page: "Privacy Policy",   section: "introduction" },
+    { labelKey: "footer.cookiePolicy",  page: "Cookie Policy",    section: "introduction" },
+    { labelKey: "footer.contact",       page: "Company",          section: "contact" }
+  ];
+
   return (
     <Box
       sx={{
         backgroundColor: theme.palette.primary.main,
         px: { xs: 1, md: 4, lg: 6 },
-        height: { xs: '196px', sm: '197px' },
+        height: { xs: '190px', sm: '197px' },
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
@@ -59,14 +45,14 @@ const Footer = ({ }) => {
         position: 'relative'
       }}>
       <Box
-        display="flex"
-        flexDirection="row"
-        alignItems="start"
-        justifyContent="space-between"
         sx={{
           mt: { xs: 0, md: 4 },
-        }}
-        width="100%">
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "start",
+          justifyContent: "space-between",
+          width: "100%",
+        }}>
         <Box>
           <Box
             onClick={() => {
@@ -94,11 +80,11 @@ const Footer = ({ }) => {
               color: theme.palette.text.secondary,
               fontSize: "0.8rem",
               fontWeight: 600,
-              mt: -1.3,
+              mt: -0.8,
               textWrap: "balance"
             }}>
-            @2026 Modify Visual Ltd. All rights reserved.
-            </Typography>
+            {t('footer.copyright')}
+          </Typography>
         </Box>
         <Box
           sx={{
@@ -116,10 +102,10 @@ const Footer = ({ }) => {
           {
             navItems.map((item) => (
               <Button
-                key={item}
+                key={item.page}
                 disableRipple
                 onClick={() => {
-                  dispatch(setPage(item));
+                  dispatch(setPage(item.page));
                   dispatch(setSection("introduction"));
                 }}
                 sx={{
@@ -129,12 +115,12 @@ const Footer = ({ }) => {
                   textTransform: "none",
                   fontSize: "1rem",
                   backgroundColor: "transparent",
-                  justifyContent: { xs: "flex-start", md: "center" },  
+                  justifyContent: { xs: "flex-start", md: "center" },
                   "&:hover": {
                     backgroundColor: "transparent"
                   }
                 }}>
-                {item}
+                {t(item.labelKey)}
               </Button>
             ))
           }
@@ -146,13 +132,14 @@ const Footer = ({ }) => {
           flexDirection: { xs: "column", md: "row" },
           gap: { xs: 0, md: 2 },
           ml: { xs: 0, md: -1 },
-          mt: { xs: -8, sm: -11, md: 0 },
+          mt: { xs: -14, sm: -11, md: 0 },
           mb: { xs: 1, md: 2 },
+          alignItems: { xs: "flex-start", md: "center" }
         }}>
         {
           policies.map((item) => (
             <Button
-              key={item.value}
+              key={item.labelKey}
               disableRipple
               onClick={() => {
                 if (item.page && item.section) {
@@ -167,12 +154,12 @@ const Footer = ({ }) => {
                 textTransform: "none",
                 fontSize: "1rem",
                 backgroundColor: "transparent",
-                justifyContent: { xs: "flex-start", md: "center" }, 
+                justifyContent: { xs: "flex-start", md: "center" },
                 "&:hover": {
                   backgroundColor: "transparent"
                 }
               }}>
-              {item.value}
+              {t(item.labelKey)}
             </Button>
           ))
         }

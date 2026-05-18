@@ -22,32 +22,27 @@ export function InventorySlide() {
     { item: 'Sealant',   required: '28',     stock: '52',      ok: true },
   ];
 
-  // Box dimensions
   const boxY = 8;
   const boxH = 200;
-  const boxBottom = boxY + boxH; // 208
+  const boxBottom = boxY + boxH;
 
-  // Column widths / positions
   const specX  = 8;   const specW  = 165;
   const boqX   = 198; const boqW   = 165;
   const invX   = 388; const invW   = 264;
 
-  // Shared row layout (same for all three boxes)
-  const headerY    = boxY + 22;     // box title
-  const subtitleY  = boxY + 36;     // box subtitle
+  const headerY    = boxY + 22;
+  const subtitleY  = boxY + 36;
   const dividerY   = boxY + 43;
   const colLabelY  = boxY + 56;
   const rowStartY  = boxY + 64;
   const rowH       = 26;
   const rowStep    = 32;
-
-  // Row centers (text baseline offset from row rect top)
-  const rowTextDY = 17;
+  const rowTextDY  = 17;
 
   return (
     <SlideLayout
       title="Inventory"
-      subtitle="Calculation rules embedded in the spec quantify materials against the scope. The bill of quantities feeds directly into stock management."
+      subtitle="The spec's calculation rules auto-generate a bill of quantities that feeds stock management."
     >
       <div className="flex-1 min-h-0 flex items-center justify-center">
         <svg viewBox="0 0 660 212" style={{ width: '100%', height: '100%' }}>
@@ -64,12 +59,10 @@ export function InventorySlide() {
             fill="var(--slide-accent)">Specification</text>
           <line x1={specX + 10} y1={dividerY} x2={specX + specW - 10} y2={dividerY}
             stroke="var(--slide-accent)" strokeWidth="0.8" opacity="0.3" />
-
           <text x={specX + 12} y={boxY + 55} fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">SCOPE INPUT</text>
           <text x={specX + 12} y={boxY + 68} fontSize="9.5"
             fill="var(--slide-text)" opacity="0.85">Floor area: 220 m²</text>
-
           <text x={specX + 12} y={boxY + 84} fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">CALCULATION RULES</text>
           {rules.map(({ label, rule }, i) => (
@@ -97,12 +90,10 @@ export function InventorySlide() {
             fill="var(--slide-text)" opacity="0.5">Derived from specification</text>
           <line x1={boqX + 10} y1={dividerY} x2={boqX + boqW - 10} y2={dividerY}
             stroke="var(--slide-border-primary)" strokeWidth="0.8" opacity="0.5" />
-
           <text x={boqX + 10} y={colLabelY} fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">ITEM</text>
           <text x={boqX + boqW - 10} y={colLabelY} textAnchor="end" fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">QTY</text>
-
           {boq.map(({ item, qty }, i) => {
             const ry = rowStartY + i * rowStep;
             return (
@@ -133,15 +124,12 @@ export function InventorySlide() {
             fill="var(--slide-text)" opacity="0.5">Stock management</text>
           <line x1={invX + 10} y1={dividerY} x2={invX + invW - 10} y2={dividerY}
             stroke="var(--slide-border-primary)" strokeWidth="0.8" opacity="0.5" />
-
-          {/* Column headers */}
           <text x={invX + 12} y={colLabelY} fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">ITEM</text>
           <text x={invX + 148} y={colLabelY} textAnchor="middle" fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">NEEDED</text>
           <text x={invX + 218} y={colLabelY} textAnchor="middle" fontSize="7.5" fontWeight="600"
             fill="var(--slide-text)" opacity="0.4">IN STOCK</text>
-
           {inventory.map(({ item, required, stock, ok }, i) => {
             const ry = rowStartY + i * rowStep;
             return (

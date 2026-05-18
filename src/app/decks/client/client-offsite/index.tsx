@@ -3,6 +3,7 @@ import { WorkflowSlide } from './slides/WorkflowSlide';
 import { ToolStackSlide } from './slides/ToolStackSlide';
 import { BuyerPersonasSlide } from './slides/BuyerPersonasSlide';
 import { DigitalGapSlide } from './slides/DigitalGapSlide';
+import { MechanicsSlide } from './slides/MechanicsSlide';
 import { ValuePropositionSlide } from './slides/ValuePropositionSlide';
 import { ReferencesSlide } from './slides/ReferencesSlide';
 
@@ -15,6 +16,7 @@ export const deck = {
     <BuyerPersonasSlide key="buyer-personas" />,
     <ToolStackSlide key="tool-stack" />,
     <DigitalGapSlide key="digital-gap" />,
+    <MechanicsSlide key="mechanics" />,
     <ValuePropositionSlide key="value-proposition" />,
     <ReferencesSlide key="references" />,
   ],

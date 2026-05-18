@@ -5,28 +5,35 @@ const workflowStages = [
   {
     Icon: Lightbulb,
     name: 'Sales & Estimation',
-    problemTools: ['Excel', 'Sage', 'Spreadsheets', 'Email'],
-    retainedTools: ['Sage'],
-    mode: 'integrate' as const,
+    todayTool: 'Excel / Sheets',
+    todayDesc: 'Manual',
+    mode: 'replace' as const,
+    meritDesc: 'Capacity-led',
   },
   {
     Icon: Pencil,
     name: 'Design & Procurement',
-    problemTools: ['Revit', 'Tekla', 'AutoCAD', 'Email', 'Excel'],
-    retainedTools: ['Revit', 'Tekla', 'AutoCAD'],
+    todayTool: 'Tekla / Revit',
+    todayDesc: 'File-based',
     mode: 'integrate' as const,
+    retainedTool: 'Revit / Tekla',
+    meritDesc: 'Model-connected',
   },
   {
     Icon: Factory,
     name: 'Fabrication',
-    problemTools: ['Generic ERP', 'Excel', 'Paper', 'Whiteboards'],
+    todayTool: 'ERP / Paper',
+    todayDesc: 'Ad hoc',
     mode: 'replace' as const,
+    meritDesc: 'Real-time',
   },
   {
     Icon: Hammer,
     name: 'Installation',
-    problemTools: ['Procore', 'MS Project', 'Paper', 'Email'],
+    todayTool: 'Procore / Email',
+    todayDesc: 'Disconnected',
     mode: 'replace' as const,
+    meritDesc: 'Progress live',
   },
 ];
 
@@ -53,7 +60,7 @@ const pairs = [
     problemText: 'Whether a project overruns or performs well, there is no mechanism to understand why. Historical data stays locked in disconnected systems.',
     SolutionIcon: TrendingUp,
     solutionTitle: 'Intelligence that compounds',
-    solutionText: 'Every completed project builds institutional knowledge. Historical data informs future estimates, and margin predictability improves with every job.',
+    solutionText: 'Every completed project builds institutional knowledge. Historical data informs future estimates, margin predictability improves with every job, and over time you see clearly which operators, teams, and processes consistently outperform.',
   },
 ];
 
@@ -63,18 +70,19 @@ export function DigitalGapSlide() {
       title="Today vs. With Merit OI"
       subtitle="One connected system across your whole workflow"
     >
-
-      {/* Two-column body */}
       <div className="flex-1 min-h-0 grid grid-cols-2 gap-6">
 
-        {/* Left: The Status Quo */}
+        {/* Left: Today */}
         <div className="flex flex-col gap-3 min-h-0">
           <div className="flex items-center gap-2">
             <span className="text-sm font-semibold" style={{ color: '#6b7a85' }}>Today</span>
+            <span className="rounded-full px-2 py-0.5 text-xs font-semibold shrink-0" style={{ backgroundColor: '#fff7ed', color: '#c2410c', border: '1px solid #fed7aa' }}>
+              Fragmented across disconnected tools and teams
+            </span>
           </div>
 
           {/* Problem workflow band */}
-          <div className="flex items-stretch" style={{ height: '110px' }}>
+          <div className="flex items-stretch">
             {workflowStages.flatMap((stage, i) => {
               const card = (
                 <div
@@ -86,10 +94,10 @@ export function DigitalGapSlide() {
                     <stage.Icon className="w-3 h-3 shrink-0" style={{ color: '#8a9ba8' }} />
                     <span className="font-semibold truncate" style={{ color: '#5a6a75', fontSize: 'var(--slide-sz-sm)' }}>{stage.name}</span>
                   </div>
-                  <div className="flex flex-wrap gap-0.5">
-                    {stage.problemTools.slice(0, 3).map(t => (
-                      <span key={t} className="rounded px-1 py-px" style={{ backgroundColor: '#e4e8ec', color: '#6b7a85', fontSize: 'var(--slide-sz-tag)' }}>{t}</span>
-                    ))}
+                  <div className="flex flex-col gap-0.5">
+                    <span className="self-start rounded px-1 py-px" style={{ backgroundColor: '#e4e8ec', color: '#6b7a85', fontSize: 'var(--slide-sz-tag)' }}>{stage.todayTool}</span>
+                    <span className="self-start rounded px-1 py-px" style={{ backgroundColor: '#fff7ed', color: '#c2410c', border: '1px solid #fed7aa', fontSize: 'var(--slide-sz-tag)' }}>Siloed</span>
+                    <span className="self-start rounded px-1 py-px" style={{ backgroundColor: '#e4e8ec', color: '#6b7a85', fontSize: 'var(--slide-sz-tag)' }}>{stage.todayDesc}</span>
                   </div>
                 </div>
               );
@@ -125,17 +133,17 @@ export function DigitalGapSlide() {
           </div>
         </div>
 
-        {/* Right: Merit OI */}
+        {/* Right: With Merit OI */}
         <div className="flex flex-col gap-3 min-h-0">
           <div className="flex items-center gap-2">
             <span className="text-sm font-semibold" style={{ color: 'var(--slide-primary)' }}>With Merit OI</span>
-            <span className="text-xs" style={{ color: 'var(--slide-text)', opacity: 0.55 }}>
-              One system across the whole workflow
+            <span className="rounded-full px-2 py-0.5 text-xs font-semibold shrink-0" style={{ backgroundColor: 'var(--slide-bg-primary-muted)', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)' }}>
+              One connected platform, from bid to handover
             </span>
           </div>
 
           {/* Solution workflow band */}
-          <div className="flex items-stretch" style={{ height: '110px' }}>
+          <div className="flex items-stretch">
             {workflowStages.flatMap((stage, i) => {
               const isIntegrate = stage.mode === 'integrate';
               const card = (
@@ -150,15 +158,15 @@ export function DigitalGapSlide() {
                   </div>
                   <div className="flex flex-col gap-0.5">
                     {isIntegrate && (
-                      <div className="flex flex-wrap gap-0.5">
-                        {(stage.retainedTools ?? []).map(t => (
-                          <span key={t} className="rounded px-1 py-px font-medium" style={{ backgroundColor: 'white', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)', fontSize: 'var(--slide-sz-xs)' }}>{t}</span>
-                        ))}
-                      </div>
+                      <span
+                        className="self-start rounded px-1 py-px font-medium"
+                        style={{ backgroundColor: 'white', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)', fontSize: 'var(--slide-sz-tag)' }}
+                      >
+                        {(stage as { retainedTool: string }).retainedTool}
+                      </span>
                     )}
-                    <span className="self-start rounded px-1.5 py-0.5 text-white font-semibold" style={{ backgroundColor: 'var(--slide-primary)', fontSize: 'var(--slide-sz-tag)' }}>
-                      Merit OI
-                    </span>
+                    <span className="self-start rounded px-1.5 py-0.5 text-white font-semibold" style={{ backgroundColor: 'var(--slide-primary)', fontSize: 'var(--slide-sz-tag)' }}>Merit OI</span>
+                    <span className="self-start rounded px-1 py-px" style={{ backgroundColor: 'var(--slide-bg-primary-muted)', color: 'var(--slide-primary)', fontSize: 'var(--slide-sz-tag)' }}>{stage.meritDesc}</span>
                   </div>
                 </div>
               );

@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Omba Onyesho",
+    "contactSales": "Wasiliana na Mauzo",
+    "learnMore": "Jifunze Zaidi →",
+    "contentFooter": {
+      "title": "Uwazi wa Uendeshaji. Uadilifu wa Kimaadili. Matokeo Bora.",
+      "subtitle": "Omba ziara ya mwongozo uone jinsi Merit inavyoweza kukusaidia kubadilisha ugumu kuwa uwazi."
+    },
+    "form": {
+      "name": "Jina",
+      "email": "Barua pepe",
+      "phone": "Simu",
+      "company": "Kampuni",
+      "position": "Cheo",
+      "message": "Ujumbe",
+      "send": "Tuma Ombi",
+      "success": "Ujumbe wako umetumwa!",
+      "error": "Hitilafu ya kutuma barua pepe. Tafadhali jaribu tena.",
+      "validation": {
+        "nameRequired": "Jina linahitajika.",
+        "nameInvalid": "Muundo wa jina si sahihi.",
+        "emailRequired": "Barua pepe inahitajika.",
+        "emailInvalid": "Anwani ya barua pepe si sahihi.",
+        "companyRequired": "Kampuni inahitajika.",
+        "positionRequired": "Cheo kinahitajika.",
+        "messageRequired": "Ujumbe unahitajika.",
+        "messageTooShort": "Ujumbe uwe na angalau herufi 10."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Kwa Nini Merit",
+    "platform": "Mfumo",
+    "useCases": "Matumizi",
+    "teams": "Timu",
+    "values": "Maadili",
+    "company": "Kampuni",
+    "bookDemo": "Omba Onyesho",
+    "subMenus": {
+      "whyMerit": {
+        "title": "Hoja",
+        "theProblem": "Tatizo",
+        "theSolution": "Suluhisho",
+        "theAdvantage": "Faida"
+      },
+      "platform": {
+        "title": "Uwezo",
+        "businessIntelligence": "Akili za Biashara",
+        "processMapping": "Ramani za Mchakato",
+        "projectManagement": "Usimamizi wa Mradi",
+        "documentManagement": "Usimamizi wa Hati",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Mipango ya Rasilimali"
+      },
+      "useCases": {
+        "title": "Sekta",
+        "manufacturing": "Utengenezaji",
+        "construction": "Ujenzi",
+        "healthcare": "Afya",
+        "disasterManagement": "Mwitikio wa Matukio",
+        "miningAndResources": "Uchimbaji Madini na Rasilimali",
+        "agriculture": "Kilimo",
+        "publicInfrastructure": "Miundombinu ya Umma",
+        "consultingProfessionalServices": "Ushauri/Huduma za Kitaalamu"
+      },
+      "teams": {
+        "title": "Majukumu",
+        "leadership": "Uongozi",
+        "operations": "Uendeshaji",
+        "projectManagement": "Usimamizi wa Mradi",
+        "humanResources": "Rasilimali Watu",
+        "sales": "Mauzo",
+        "marketing": "Masoko",
+        "finance": "Fedha"
+      },
+      "values": {
+        "title": "Maadili",
+        "operationalEthics": "Maadili ya Uendeshaji",
+        "esg": "ESG",
+        "culturalIntegrity": "Uadilifu wa Kitamaduni"
+      },
+      "company": {
+        "title": "Kuhusu Sisi",
+        "ourMission": "Dhamira Yetu",
+        "whoWeAre": "Sisi Ni Nani",
+        "whatWereBuilding": "Tunachokuwa Tunajenga",
+        "contactUs": "Wasiliana Nasi"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Haki zote zimehifadhiwa.",
+    "terms": "Masharti",
+    "privacyPolicy": "Sera ya Faragha",
+    "cookiePolicy": "Sera ya Vidakuzi",
+    "contact": "Mawasiliano"
+  },
+  "home": {
+    "hero": {
+      "title": "Mfumo Mmoja wa Uendeshaji kwa Shirika Lako",
+      "subtitle": "Mfano kamili wa kidijitali wa shirika lako, uliobobeshwa kwa kila utoaji. Kwa mipango bora zaidi, uratibu wa haraka zaidi, na utekelezaji ulioimarishwa katika kila kazi.",
+      "tagline": "Jukwaa moja linaloungana na usimamizi wa mradi, ramani za mchakato, CPQ, CRM, akili za biashara, usimamizi wa hati, HR, na usimamizi wa nguvu kazi kupitia mfano mmoja wa uendeshaji unaoboresha kwa kila utoaji."
+    },
+    "contextualiser": {
+      "title": "Thamani ya Umoja",
+      "p1": "Wakati kila mtu anafanya kazi kutoka kwa mfano mmoja wa utekelezaji, inakuwa rahisi kuona jinsi kazi inavyofanywa, nani anachangia, na nini kinachoendesha matokeo.",
+      "p2": "Pia inamaanisha data huacha kutoweka kwenye idara. Mauzo yanaona gharama halisi ya utoaji. Fedha zinaona mahali ambapo makadirio yalishindwa. Mtu akiondoka, maarifa waliyoyabeba yanabaki katika mfano.",
+      "p3": "Kadri unavyoendesha kwa kumbukumbu moja ya utekelezaji, ndivyo unavyoweza kupanga, kuajiri, na kuweka bei mradi unaofuata kwa usahihi zaidi."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Akili za Biashara",
+        "title": "Geuza ufahamu kuwa hatua",
+        "description": "Akili za biashara zilizounganishwa na mchakato, zinazovunjika, zinakuwezesha kutambua fursa, kufuatilia utendaji, na kuendesha maamuzi yenye habari katika shirika lako lote."
+      },
+      "processMapping": {
+        "header": "Ramani za Mchakato",
+        "title": "Onyesha michakato yako",
+        "description": "Fafanua na uangalie michakato katika viwango mbalimbali vya undani ukitumia kiolesura chetu cha mtindo wa Google Maps, ukihakikisha uwazi na usawa kati ya timu na majukumu."
+      },
+      "projectManagement": {
+        "header": "Usimamizi wa Mradi",
+        "title": "Rahisisha miradi yako",
+        "description": "Panga miradi kulingana na maelezo ya bidhaa, kisha uratibu ukitumia zana zetu za kipekee kutabiri nyakati za utekelezaji na mahitaji ya rasilimali, kulingana na data ya kihistoria."
+      },
+      "resourcePlanning": {
+        "header": "Mipango ya Rasilimali",
+        "title": "Boresha muda wa shirika lako",
+        "description": "Unda mfano wa watu, ujuzi, zana, upatikanaji, na gharama ili kuunganisha uwezo moja kwa moja na mahitaji ya uendeshaji na kazi iliyopangwa."
+      },
+      "documentManagement": {
+        "header": "Usimamizi wa Hati",
+        "title": "Panga maarifa yanayoendesha matokeo",
+        "description": "Weka hati karibu na watu, vitu vya hesabu, miradi, au hatua za mchakato wanaohusiana nazo kwa mpangilio wa asili na ugunduzi rahisi."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Rahisisha ugumu bila kupoteza usahihi",
+        "description": "Unda maelezo ndani ya mipaka ya bidhaa kuu ili kuendana na sekta na uwezo wa kampuni yako. Sanidi sheria za nyenzo na bei ipasavyo na uzalishe makadirio ya muda kulingana na data ya mradi wa kihistoria."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Funga mzunguko wa kila utoaji",
+        "description": "Kukusanya maoni ya wateja baada ya kila utoaji na kuyahusisha moja kwa moja na hatua za mchakato na rasilimali zilizouzalisha. Mifumo katika utoaji inakuwa wazi kwa muda, ikigeuza maoni kuwa ishara wazi ya kuboresha mchakato na rasilimali."
+      }
+    },
+    "meritConcept": {
+      "title": "Merit kwa Masharti Yako",
+      "content": [
+        "Jukwaa halifafanui stahili kwa ajili yako. Ni chochote shirika lako na wateja wake wanaamuacho kuwa ubora, ukifanywa kupimika katika kila kiwango cha mchakato.",
+        "Kila kipimo, kila fomula, na kila KPI inatoka kwa vigezo ambavyo shirika linaweka dhidi ya mfano. Ufafanuzi wa uwasilishaji uliofanywa vizuri kwa mtengenezaji ni tofauti na ule wa mtoa huduma za afya. Matarajio ya mteja katika ushirikiano ngumu ni tofauti na ule wa kawaida. Jukwaa linachukua yote kwa sababu ufafanuzi wa stahili unaishi katika mfano, si katika programu.",
+        "Hiyo pia ndiyo inayofanya usawa uwezekane. Vigezo vinavyomhusisha mteja vinapoakisiwa katika mfano wa mchakato, watu wanaotekeleza kazi wanaweza kuona jinsi ubora unavyoonekana kutoka mahali wanaposimama. Na kila utoaji ukikamilika, maoni yanafunga mzunguko, yakiunganisha uzoefu wa mteja na hatua zilizouzalisha."
+      ]
+    },
+    "ethics": {
+      "title": "Uwajibikaji kwa Muundo",
+      "p1": "Merit inawezsha uwazi kamili wa kazi, ukiwa na ruhusa za kiwango cha biashara na utawala.",
+      "p2": "Kazi inapoonekana, michango inafuatiliwa, na matokeo yanapimika, mashirika yanafungua si tu utendaji bali pia imani.",
+      "p3": "Merit inaunganisha utoaji na maamuzi kwa utawala wazi, hivyo utambuzi ni thabiti, juhudi zinaonekana, na tuzo ni za haki.",
+      "cta": "Chunguza jinsi maadili yanavyounganishwa na jukwaa →"
+    },
+    "howMeritWorks": {
+      "title": "Jinsi Merit Inavyofanya Kazi",
+      "subtitle": "Rekodia kila utoaji dhidi ya mfano ulioshirikishwa. Kila mradi uliokamilika unakuza makadirio ya pili, unaboresha ubora wa mipango, na unaongeza kumbukumbu ya uendeshaji ambayo inabaki katika mfumo watu wanapohama.",
+      "model": {
+        "title": "Mfano",
+        "description": "Fafanua bidhaa yako katika aina zake zote na uioanishe na mchakato unaofaa, ukijumuisha ujuzi, zana, na nyenzo zinazotumika kuiwasilisha."
+      },
+      "execute": {
+        "title": "Tekeleza",
+        "description": "Endesha miradi dhidi ya mfano. Fuatilia mabadiliko kwa wakati halisi. Weka kila timu, zana, na kazi ikiwa imeunganishwa na picha moja."
+      },
+      "improve": {
+        "title": "Boresha",
+        "description": "Kila utoaji unarudi kwenye mfano. Makadirio yanakuwa sahihi zaidi, mzigo wa mipango hupungua, na maarifa ya taasisi yanakusanyika katika mfumo badala ya kwa watu."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "Tatizo linastahili kutatuliwa",
+      "p1": "Kila utoaji unatekelezwa kwa njia moja: mchakato, unaofanywa na watu, wakitumia zana na nyenzo. Lakini utoaji mara chache unaendana na mpango.",
+      "p2": "Kushindwa sita sawa kunaonekana katika sekta, mashirika, na aina za mradi. Merit iliandaliwa kushughulikia kushindwa hivi sita vyote."
+    },
+    "theProblem": {
+      "title": "Kushindwa sita kwa kimuundo. Chanzo kimoja",
+      "subtitle": "Kushindwa huku kunashiriki chanzo kimoja: hakuna kumbukumbu ya utekelezaji iliyoshirikishwa, hakuna mfano unaojifunza, hakuna picha moja ambayo kila mtu anafanya kazi nayo.",
+      "failures": {
+        "measurability": {
+          "dimension": "Upimaji",
+          "problem": "Utendaji unahisiwa, si kunaswa.",
+          "detail": "Bila kumbukumbu ya utekelezaji iliyoshirikishwa, uwajibikaji ni wa kawaida, utambuzi ni wa kibinafsi, na uboreshaji ni wa kukisia."
+        },
+        "predictability": {
+          "dimension": "Utabiri",
+          "problem": "Makadirio ni masafa, si utabiri.",
+          "detail": "Kila mradi huanza ukiwa na kutokuwa na uhakika. Hakuna mfano wa kuteka. Uzoefu unabaki vichwani, si kwenye mifumo."
+        },
+        "transparency": {
+          "dimension": "Uwazi",
+          "problem": "Maendeleo yanaonekana tu baada ya ukweli.",
+          "detail": "Tatizo linapojitokeza katika ripoti, tayari ni ghali. Mabadiliko yanagunduliwa, si kuzuiwa."
+        },
+        "planning": {
+          "dimension": "Mipango",
+          "problem": "Kila mradi huanza upya.",
+          "detail": "Timu zinajenga upya mpango na zinajifunza tena utegemezi katika kila mradi. Hakuna kinachoendelea."
+        },
+        "evaluation": {
+          "dimension": "Tathmini",
+          "problem": "Uteuzi unategemea mahusiano, si matokeo.",
+          "detail": "Bila data ya utendaji wa lengo, watu bora hawaonekani na maamuzi mabaya yanarudiwa."
+        },
+        "integration": {
+          "dimension": "Muunganiko",
+          "problem": "Data imefungwa kwa idara, maarifa kwa mtu.",
+          "detail": "Mauzo hayaoni utoaji. Fedha hazioni utekelezaji. Watu wanapoondoka, maarifa ya taasisi yanaondoka nao."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "Shirika linaloboreshwa na kila mradi",
+      "p1": "Merit inaunda mfano wa kila utoaji kama mtandao wa watekelezaji (watu na mashirika), hesabu, na hatua za mchakato, kila utekelezaji ukirekodiwa dhidi ya mfano kuu. Na kila mradi uliokamilika, mfano unaboresha. Hukumu ya kawaida inakuwa ushahidi. Mzigo wa usimamizi hupungua mfumo unaposhughulikia uratibu na ripoti zilizofanywa hapo awali kwa mkono.",
+      "p2": "Kila mradi uliokamilika unaongeza kwenye rekodi ya utekelezaji mahususi kwa shirika. Rekodi hiyo inakuwa msingi wa kila utabiri, kila tathmini, na kila uamuzi wa mipango unaofuata."
+    },
+    "theAdvantage": {
+      "title": "Thamani katika kila upeo wa macho",
+      "subtitle": "Merit hutoa faida kwa viwango tofauti kulingana na muda gani imekuwa ikiendesha.",
+      "horizons": {
+        "immediately": {
+          "label": "Mara Moja",
+          "headline": "Utoaji unafuatiliwa.",
+          "detail": "Mabadiliko yanaonekana kwa wakati halisi. Mipango ya mradi inazalishwa kutoka kwa maelezo. Timu zinacha kujenga upya kilichokuwepo tayari."
+        },
+        "overTime": {
+          "label": "Kwa Wakati",
+          "headline": "Mfano unaboresha kwa kila utekelezaji.",
+          "detail": "Utabiri unakuwa sahihi zaidi rekodi ya utekelezaji inavyokua. Mipango inachora kutoka historia halisi badala ya makadirio ya awali, na mfano unaonyesha jinsi shirika linavyofanya kazi kweli kweli."
+        },
+        "enduringly": {
+          "label": "Kwa Kudumu",
+          "headline": "Mkusanyiko wa data ambao hakuna mshindani anayeweza kuiga.",
+          "detail": "Shirika ambalo limeendesha Merit kwa miaka lina rekodi ya utekelezaji yenye kina cha miaka - mahususi kwa michakato yake, watu wake, na historia ya utoaji wake. Rekodi hiyo haiwezi kuigwa na mshindani anayepitisha programu hiyo hiyo."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Mfumo Mmoja wa Akili ya Uendeshaji",
+      "content": ["Mfumo mmoja. Mwonekano kamili. Uboreshaji usio na mwisho."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Akili za Biashara",
+        "content": [
+          "Akili za biashara za Merit zimejengwa ndani ya ramani ya mchakato yenyewe. Data ya utendaji inatokea ndani ya kuonyesha katika kila kiwango cha uondoaji wa muundo - kutoka mtazamo wa shirika zima hadi hatua ya kibinafsi - ili uweze kuelewa jinsi biashara inavyofanya kazi katika muktadha wa michakato inayoiendesha, si katika zana tofauti ya ripoti.",
+          "Data inatiririka kutoka kila kitu katika mfumo: rekodi za utekelezaji, wasifu wa kibinafsi, hesabu, maelezo, kalenda. Vyanzo hivi vinaweza kuonyeshwa au kuchanganywa kwa hisabati ndani ya mfumo wa mchakato. Data ya mshahara iliyokusanywa ya watu wanaotekeleza hatua, ikichanganywa na wakati wa utekelezaji, inakupa takwimu za gharama halisi - katika kiwango cha hatua, kiwango cha kazi, au katika miradi yote katika kipindi chochote.",
+          "Kwa sababu chanzo chochote cha data kinaweza kuundwa dhidi ya nodi yoyote katika mchakato, uchambuzi unaweza kuunganishwa. Muundo huo huo unaotawala utekelezaji unakuwa mfumo wa BI ya hali ya juu, iliyounganishwa na mchakato."
+        ]
+      },
+      "processMapping": {
+        "title": "Ramani za Mchakato",
+        "content": [
+          "Merit inaweka ramani ya muundo wa uendeshaji wa shirika katika kila kiwango cha uondoaji wa muundo - kutoka miongozo ya shirika na timu hadi hatua za mchakato wa mtu binafsi, na uwezo maalum wa zana unaohitajika katika kila hatua. Ramani ni ya pande tatu na inaweza kuruka kikamilifu: punguza kukuza ili kuona picha ya shirika zima, ongeza kukuza hadi vitendo vya mwaendeshaji binafsi bila kupoteza muktadha wa jinsi wanavyoingia katika jumla.",
+          "Hata mifumo ya utoaji ngumu zaidi inaweza kuundwa, kuchunguzwa, na kueleweka. Ramani ni hai yenye data ya utekelezaji iliyo juu yake, hivyo kila kiwango cha uondoaji wa muundo kinaonyesha jinsi shirika linavyofanya kazi kweli kweli - si mchoro tuli.",
+          "Mfumo wa mchakato hauzuiliwi na shirika lako. Unaweza kupanuka katika mfumo wako wote wa utoaji - kuweka ramani ya mashirika washirika, kuratibu ushiriki wao, na kukusanya data ya utendaji katika msururu wote."
+        ]
+      },
+      "projectManagement": {
+        "title": "Usimamizi wa Mradi",
+        "content": [
+          "Agizo likathibitishwa, mpango wa mradi unazalishwa kiotomatiki kutoka kwa mfumo wa mchakato. Ratiba zinakokotolewa kutoka kwa utabiri uliofafanuliwa ndani ya mchakato, ukisafishwa na data ya utekelezaji ya kihistoria, na ugawaji wa watekelezaji unashughulikiwa kiotomatiki ukitegemea kalenda za kibinafsi, uzoefu, na upatikanaji - na zana za usanidi na kurekebisha kwa mkono zinazopatikana katika kila hatua.",
+          "Maendeleo yanafuatiliwa dhidi ya mahitaji yaliyofafanuliwa: matokeo ya kuzalisha, vipimo vya kurekodi, lebo za hali za kuweka katika kila hatua. Mfumo unaongoza utekelezaji bila kuondoa udhibiti.",
+          "Miradi inaweza kuonekana kwenye Gantt iliyozalishwa kiotomatiki au ndani ya ramani ya mchakato yenyewe, ikionyesha hali ya wakati halisi katika mashirika, majukumu, na hatua za kibinafsi. Ukiratibu timu za ndani au wakandarasi wa nje, picha daima ni ya sasa na daima iko katika muktadha."
+        ]
+      },
+      "documentManagement": {
+        "title": "Usimamizi wa Hati",
+        "content": [
+          "Hati katika Merit zimefungwa kwa chombo wanachomiliki - hatua ya mchakato, hatua ya mradi, maelezo, mwanachama wa timu, shirika la washirika, au kipande cha vifaa au nyenzo. Vyeti vya kufuata, rekodi za matengenezo, au ripoti za ukaguzi wa magari zipo katika eneo halisi wanapohusu, si katika folda isiyounganika.",
+          "Hati zinapohitajika kama ilivyofafanuliwa katika mfumo wa mchakato, zinazuia maendeleo. Hatua haiwezi kuendelea hadi hati ipo; jukumu haliwezi kupewa hadi vyeti vinavyohitajika vithibitishwe. Usimamizi wa hati hausimamiwa tofauti na shughuli - umejengwa katika jinsi kazi inavyosogea mbele."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Sanidi, Bei, Nukuu)",
+        "content": [
+          "CPQ ya Merit imejengwa karibu na maelezo ya kiwango cha juu: ufafanuzi kamili wa kila tofauti inayowezekana ndani ya aina ya bidhaa - nyenzo zote, mipangilio, masharti, na vikwazo vinavyohusuiwa na shirika. Maelezo ya mtu binafsi daima ni sehemu ndogo ya hili kiwango cha juu. Ufafanuzi wa moja unamaanisha mchakato - hatua zinazohitajika, nyenzo, na rasilimali tayari zinaelewa kabla ya nukuu kuandikwa.",
+          "Sheria zilizofafanuliwa dhidi ya kiwango cha juu zinasimba mantiki ya hali ya bidhaa. Chaguo moja linaweza kumaanisha lingine, kutengua chaguzi zisizooana, au kuchochea mahitaji - ikitumika kiotomatiki wakati wa usanidi. Visimbuzi vya lazima vinaweza kulazimishwa ili kuhakikisha kila maelezo yanakamilika kabla ya kuendelea. Sheria za gharama zilizofafanuliwa dhidi ya mchakato zinarudisha kwenye maelezo - zikionyesha muda, nyenzo, nishati, na kaboni inayohusishwa na mipangilio fulani.",
+          "Maelezo yakithibitishwa, Merit inafanya kiotomatiki kinachofuata. Hesabu inadhibitiwa dhidi yake, miradi ya chini inatekelezwa kutoka kwake, na uteuzi wa timu unategemea uzoefu wa watekelezaji na upatikanaji wa kalenda. Makabidhiano yaliyohitaji uratibu wa mkono awali hutokea kiotomatiki."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "CRM ya Merit imejengwa karibu na utoaji wenyewe, si mradi. Baada ya maelezo kutimizwa, maoni ya wateja yanakusanywa na kuhusishwa moja kwa moja na hatua na vipengele vya mradi vilivyoutoa. Tatizo la ubora, ucheleweshaji, au alama zinaweza kufuatiliwa hadi mahali halisi katika mchakato pale zilikotokea.",
+          "Uhusiano huo unaifanya uchunguzi kuwa wa moja kwa moja na uchambuzi wa mifumo kuwa na maana. Maoni yanakusanyika katika utoaji, hivyo masuala yanayorudiwa katika hatua fulani au na rasilimali fulani yanaonekana kwa muda. Yakipitiwa mara kwa mara, yanakuwa ishara wazi ya mahali ambapo mchakato, maelezo, au rasilimali zinahitaji umakini.",
+          "Kwa sababu ipo ndani ya mfumo huo huo na utekelezaji, hakuna uingizaji, hakuna tafsiri, na hakuna pengo kati ya kilichotolewa na alichosema mteja kuhusu hicho."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Mipango ya Rasilimali",
+        "content": [
+          "Merit ni mfumo uliounganishwa wa watu, mashirika, nyenzo, na michakato. Ujuzi, vyeti, upatikanaji, gharama, na rekodi za utendaji vyote vimehifadhiwa katika mfumo huo huo unaotawala utekelezaji - hivyo muundo huo huo unaotumika kuendesha miradi ni muundo unaotumika kupanga rasilimali.",
+          "Miongozo ya matumizi ya BI inaonyesha jinsi watu na mashirika yanavyotumika kweli kweli, katika miradi na kwa wakati. Mapungufu, ugawaji kupita kiasi, na uwezo usiotumiwa vionekana kabla havijawa matatizo.",
+          "Kwa sababu data ya rasilimali ipo ndani ya mfumo wa utekelezaji - si katika zana tofauti ya HR au kupanga nguvu kazi - Merit inaweza kuonyesha mapungufu kabla hayajawa matatizo. Mahitaji ya mradi unaokuja yanaweza kupangwa dhidi ya uwezo unaopatikana, na mfumo utaonyesha mapungufu kabla ya dhamira kufanywa."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Maadili na Athari",
+      "content": [
+        "Mfumo wako ukiweza kutambua stahili kwa kipimo chochote, usawa na uendelevu huacha kuwa matarajio. Yanakuwa bidhaa za asili za maamuzi bora ya biashara.",
+        "Merit husaidia mashirika kupunguza upotevu, kuondoa upendeleo, na kutambua kinachoendesha matokeo kweli kweli.",
+        "Usifuate matokeo ya kimaadili. Yafanye kuwa ya lazima."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Unaamua kinachohusika, Merit inakusaidia kuboresha kwa hicho",
+      "cards": {
+        "transparency": {
+          "title": "Uwazi na Uwajibikaji",
+          "description": "Merit inafanya vitendo na maamuzi viweze kufuatiliwa, ikisaidia mashirika kudumisha viwango vya kimaadili kupitia utawala wazi, mwonekano wa mchakato, na usimamizi wa muundo katika kila ngazi ya biashara."
+        },
+        "recognition": {
+          "title": "Utambuzi na Tuzo za Haki",
+          "description": "Kwa kuunganisha mchango na matokeo, Merit inakuwezesha kuzingatia utambuzi juu ya athari ya kweli kwa kukuza usawa, kupunguza upendeleo, na kusaidia utamaduni ambapo juhudi zinaonekana na kuthaminiwa."
+        },
+        "integrity": {
+          "title": "Uadilifu wa Mfumo na Imani",
+          "description": "Merit inatoa mfumo wa uendeshaji wa kuaminika unaondoa utata, unatekeleza uthabiti, na kujenga imani katika jinsi kazi inavyopimwa, maamuzi yanafanywa, na maendeleo yanatathminiwa."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG kwa Muundo",
+      "content": [
+        "Pembejeo yoyote inayopimika, kutoka nishati na mafuta hadi nyenzo na maji, inaweza kurekodiwa katika kiwango cha hatua na kuundwa dhidi ya nodi za mchakato katika rekodi yote ya utekelezaji. Gharama ya mazingira haifikiwi kwa kiwango cha mradi; inaweza kufuatiliwa hadi hatua maalum na rasilimali zilizozizalisha. Kwa muda, rekodi inaonyesha rasilimali na desturi zipi zinazozalisha upotevu mdogo kwa kila matokeo, ikifanya uboreshaji wa mazingira kuwa wa ushahidi badala ya wa matarajio.",
+        "Kwa sababu mchango unafuatiliwa katika mtiririko wa kazi, utambuzi unaonyesha kilichotokea kweli kweli badala ya ukaribu na usimamizi au shughuli za kujitekelezea. Mfumo ukizalisha ushahidi, uwezekano wa upendeleo hupungua kwa kimuundo. Data ile ile ya utekelezaji inayoendesha maamuzi ya uendeshaji inayoendesha maamuzi ya watu.",
+        "Milango ya hatua iliyojengwa ndani ya mfano wa mchakato inazuia kazi isiendelee hadi hati inayohitajika ipo. Udhibiti wa ufikiaji unafafanua nani anaweza kuona vipimo na mipangilio gani. Kila hatua iliyochukuliwa dhidi ya utekelezaji inarekodiwa. Utawala si tabaka la ripoti lililoongezwa baadaye. Limejengwa ndani ya jinsi kazi inavyosogea mbele."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Usawa kwa Muundo",
+      "content": [
+        "Utambuzi ukifuata kinachooneshwa na rekodi ya utekelezaji badala ya watu wanavyoripoti au wanaomjua nani, motisha za kibinafsi na malengo ya shirika yanaoanishwa kwa asili. Hakuna faida ya kusimamia mwonekano, kuhifadhi maarifa, au kuweka nafasi juu ya utoaji.",
+        "Usawa huo unatokana na muundo, si kutoka kwa programu za utamaduni. Kwa sababu data ya utendaji inatoka kwenye kazi yenyewe, hali kama upendeleo, uhifadhi wa maarifa, na pengo kati ya juhudi na tuzo zinaondolewa badala ya kudhibitiwa.",
+        "Watu wanapoona kwa uthabiti kwamba mchango hupimwa kwa usawa na kulipwa ipasavyo, tabia inaimarisha hiyo. Utamaduni wa uadilifu unakuwa matokeo ya asili ya mfumo unaofanya uadilifu kuwa njia ya upinzani mdogo."
+      ]
+    },
+    "compliance": {
+      "title": "Kutoka Kufuata Sheria hadi Faida ya Ushindani",
+      "content": [
+        "Utendaji wa kimaadili haipaswi kuwa matarajio au mawazo ya baadaye, inapaswa kuwa matokeo ya asili ya jinsi biashara inavyoendesha. Merit inafanya hii iwezekane kwa kujumuisha usawa wa kimaadili katika msingi wa shughuli za kila siku.",
+        "Utendaji ukipimwa kwa lengo na thamani ukitokea kwa utaratibu, usawa unakuwa thabiti, uwajibikaji ni wa kiotomatiki, na matokeo bora yanafuata. Utamaduni unaofanya kazi kwa kimaadili kwa muundo si utawala mzuri tu. Ni faida ya kimkakati."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "Imejengwa kwa Kila Jukumu",
+      "content": [
+        "Kutoka mkakati hadi utekelezaji, Merit inawapa viongozi, waendeshaji, na wachangiaji mtazamo ulioshirikishwa wa jinsi kazi inavyoendelea kweli kweli.",
+        "Angalia jinsi Merit inavyosaidia kila jukumu katika shirika lako lote."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Mfumo Mmoja, Kila Mtazamo",
+      "content": [
+        "Katika mashirika mengi, vitu viwili vinatoweka kimya: data katika idara na maarifa katika watu. Mauzo hayaoni gharama ya utoaji. Fedha haioni mahali ambapo makadirio yalishindwa. Mtekelezaji mwenye uzoefu akiondoka, mifumo aliyoitambua inaondoka naye. Rekodi ya utekelezaji ya Merit ni jibu la vyote viwili.",
+        "Kila jukumu katika ukurasa huu linafanya kazi kutoka kwa data sawa ya msingi: rekodi ile ile ya utekelezaji, mfano ule ule wa mchakato, watu na rasilimali zile zile. Kinachobadilika ni mkusanyiko. Msimamizi wa mradi anaona ratiba na utegemezi; HR inaona mifumo ya mchango na utendaji; fedha inaona gharama na matumizi. Mitazamo tofauti, mfumo mmoja.",
+        "Na kwa timu ya utoaji wa bidhaa? Kwa sababu mfano wa mchakato unaweka ramani ya kazi zinazolingana na matokeo gani, utegemezi wa pande zote mbili unaonekana wazi tangu siku ya kwanza. Hakuna jukumu linalofanya kazi kutoka picha ya sehemu, na hakuna mkabidhi unaotegemea mtu kukumbuka kuwasiliana."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Uongozi",
+        "content": [
+          "Viongozi wengi wanafanya kazi kati ya masasisho ya hali, wakiona picha ya mahali mambo yalipokuwa badala ya mahali yalipo sasa. Katika Merit, rekodi ya utekelezaji ipo moja kwa moja kwa sababu kazi inarekodiwa inapotokea. Maendeleo, mabadiliko, shinikizo la rasilimali, na utendaji daima ni wa sasa, bila mtu yeyote kuandaa ripoti.",
+          "Hilo linabadilisha asili ya maamuzi ya uongozi. Matatizo yanaonekana mapema ya kutosha ya kutenda. Vizuizi vya rasilimali vinatokea kabla havijawa ucheleweshaji. Na data ya utendaji inaonyesha kilichotokea kweli kweli, si kilichoripotiwa.",
+          "Na kwa sababu kila kipimo kinarudi kwenye mfano huo huo wa mchakato, viongozi wanaweza kusogea kati ya picha ya hali ya juu na undani bila kubadilisha mifumo au kupoteza muktadha. Nambari ikiwa mbaya, unaweza kuifuatilia hadi hatua iliyoizalisha."
+        ]
+      },
+      "operations": {
+        "title": "Uendeshaji",
+        "content": [
+          "Uendeshaji unawajibika jinsi kazi inavyotiririka katika shirika, na hilo hasa ndiyo mfano wa mchakato unaoonyesha. Mahali ambapo kazi inajikusanyika, mahali ambapo makabidhiano yanashindwa, na mahali ambapo uwezo unazidiwa yote yanaonekana kwa wakati halisi. Mfumo ukijirudia katika miradi, unakuwa tatizo la mchakato badala ya kesi moja, na mfano unaweza kusasishwa ili uboreshaji upite katika kila utekelezaji wa siku zijazo. Rekodi ya utekelezaji pia inaonyesha rasilimali zipi zinafanya vizuri zaidi katika hatua zipi, zikitoa uendeshaji ushahidi wa kupendelea rasilimali zilizothibitishwa na kudhibitisha uwekezaji mahali ambapo mapungufu yanapo.",
+          "Kwa sababu mfano wa mchakato unaweka ramani ya utegemezi wa juu na chini, na data ya CRM inaunganisha utekelezaji wa ndani na matokeo ya wateja, maamuzi kuhusu rasilimali na michakato yanaweza kuchunguzwa kutoka kila pembe katika msururu. Fomula zinaweza kufafanuliwa dhidi ya mchanganyiko wowote wa data katika mfano, ili mtazamo usizuiwe kwa kipimo kimoja. Upana huo ndio unaofanya data kuwa na manufaa kweli kweli kwa maamuzi, badala ya kitu kinachoweza kuboresha kwa peke yake."
+        ]
+      },
+      "projectManagement": {
+        "title": "Usimamizi wa Mradi",
+        "content": [
+          "Sehemu kubwa ya muda wa msimamizi wa mradi inaenda kwenye kazi ambayo mradi yenyewe hauitaji: kujenga ratiba kutoka mwanzo, kukagua upatikanaji, kubadilisha wigo wakati kitu kinaanguka. Katika Merit, mpango wa mradi unazalishwa kutoka kwa mfano wa mchakato, ratiba zinakokotolewa kutoka kwa data ya kihistoria ya utekelezaji, na ugawaji wa watekelezaji unachora kwenye kalenda za wakati halisi na uzoefu. Mfumo tayari uko hapo.",
+          "Hilo linamwachilia msimamizi wa mradi azingatie utoaji wenyewe. Maendeleo yanafuatiliwa dhidi ya mahitaji yaliyofafanuliwa katika kila hatua, mabadiliko yanaonekana yanapotokea, na Gantt inasasishwa kiotomatiki utekelezaji unavyoendelea. Kila mradi uliokamilika pia unaongeza kwenye rekodi ya utekelezaji, ili ufuatao uanze na utabiri bora na upangaji wa upya mdogo zaidi kutoka mwanzo.",
+          "Mfumo pia unashughulikia aina ya hatari ambayo zana nyingi zinaiacha katika kumbukumbu ya msimamizi wa mradi. Upatikanaji wa mtekelezaji unazingatia likizo zilizopangwa na matukio ya mafunzo. Ugawaji unakagua kama vyeti na hati zinazohitajika vipo kabla ya kazi kuanza. Na milango ya hatua iliyojengwa ndani ya mfano wa mchakato inamaanisha hatua fulani haziwezi kuendelea bila hati inayohitajika. Masharti ya utoaji safi yanatekelezwa na mfumo, si kuhifadhiwa kichwani mwa mtu."
+        ]
+      },
+      "humanResources": {
+        "title": "Rasilimali Watu",
+        "content": [
+          "Kwa HR, Merit inaondoa pengo kati ya watu wanachofanya na kinachotambuliwa. Kwa sababu mchango unafuatiliwa katika mtiririko wa kazi badala ya kutathminiwa baada ya ukweli, data ya utendaji inaonyesha kilichotokea kweli kweli, si ukaribu na usimamizi au shughuli za kujitekelezea.",
+          "Wanachama wapya wa timu wanakuja na muktadha kamili wa mchakato tayari upo: hatua wanazowajibika nazo, hati na vyeti vinavyohitajika, na jinsi jukumu lao linavyounganishwa na shirika lote. Nyenzo za mafunzo zimefungwa moja kwa moja kwenye kazi, ili mwongozo upatikane mahali unapohitajika badala ya katika mfumo tofauti.",
+          "Vipimo vilivyorekodiwa dhidi ya watu binafsi vinatiririka kupitia mfano wa mchakato kwenye KPI, katika kiwango cha hatua, kazi, mradi, au shirika, katika kipindi chochote. Udhibiti wa ufikiaji unaamua vipimo na hesabu ambazo kila jukumu linaweza kuona, ili data nyeti ifikia watu sahihi bila kuzuia picha ya jumla ya utendaji. Katika kiwango cha hatua, utendaji unakuwa maalum vya kutosha kusaidia na kuendeleza wale wanaohitaji, na kutambua kwa usahihi wale wanaofanya vizuri."
+        ]
+      },
+      "sales": {
+        "title": "Mauzo",
+        "content": [
+          "Michakato mingi ya mauzo inaunda pengo kati ya kilichokubaliwa na kinachopokea utoaji. Nukuu ipo katika hati moja, maelezo mafupi katika nyingine, na kufunga pengo kunahitaji ufafanuzi upya, mazungumzo mapya, au vyote viwili. Mteja anapothibitisha, timu ya utoaji inaanza kutoka picha ya sehemu.",
+          "Katika Merit, maelezo ni nukuu na maelekezo ya utoaji kwa wakati mmoja. Maelezo ya kiwango cha juu yanasimba kila mipangilio, kizuizi, na sheria ya bei kwa aina ya bidhaa. Mauzo yanasanidi ndani ya muundo huo na kuona athari za gharama kwa wakati halisi, bila kupeleka kila makadirio nyuma kwa uendeshaji. Mteja anapothibitisha, mradi unazalishwa moja kwa moja kutoka kwa maelezo. Hakuna kinachohitaji kutafsiriwa.",
+          "Maoni ya wateja kutoka utoaji wa awali yamehusishwa na hatua na vipengele vilivyouzalisha, na vipo pamoja na rekodi nyingine ya mteja. Kabla ya kunukuu ushirikiano sawa, mauzo yanaweza kuona jinsi utoaji wa awali unaofanana ulivyofanya. Wakati wa kuzungumza na mteja anayerudi, mazungumzo yanazingatia kilichotokea kweli kweli."
+        ]
+      },
+      "marketing": {
+        "title": "Masoko",
+        "content": [
+          "Uwekaji wa nafasi wa masoko mengi umejengwa juu ya dhana kuhusu biashara inachofanya vizuri. Katika Merit, masoko yana ufikiaji wa rekodi halisi ya utekelezaji: mahali ambapo shirika linafanya vizuri kwa uthabiti, rasilimali na michakato inayozalisha matokeo bora, na maoni ya wateja yanasemaje katika kila utoaji. Ujumbe unaweza kuzingatia nguvu zilizothibitishwa badala ya zilizodaiwa.",
+          "Mzunguko wa maoni ya CRM unaongeza kipimo kingine. Kwa sababu maoni ya wateja yamehusishwa na hatua maalum na vipengele vya kila utoaji, masoko yanaweza kuona si tu kama wateja walikuwa waridhika, bali nini hasa kilisababisha ridhaa hiyo. Kwa muda, mifumo inajitokeza ambayo inaarifu uwekaji wa nafasi na aina ya kazi ambayo biashara inapaswa kutafuta zaidi.",
+          "Hilo linaunganisha masoko na mkakati. Wasifu wa wateja walengwa ukieleweka kuhusiana na shirika linalotoa vizuri zaidi, pengo kati ya masoko yanayoahidi na utoaji unaozalisha linapungua. Usawa unafanya kazi pande zote mbili: data ya utekelezaji inakuza ujumbe, na wasifu wa wateja walengwa unabuni utekelezaji unapaswa kuboresha nini."
+        ]
+      },
+      "finance": {
+        "title": "Fedha",
+        "content": [
+          "Fedha kwa kawaida hupokea data ya kifedha baada ya ukweli, katika muundo unaoonyesha kilichotumika lakini si kwa nini. Kupatanisha gharama halisi dhidi ya mpango wa mradi kunamaanisha kurudi kupitia mifumo tofauti kuelewa chanzo cha tofauti.",
+          "Katika Merit, gharama imejengwa ndani ya rekodi ya utekelezaji yenyewe. Data ya mshahara, gharama za nyenzo, na muda wa utekelezaji vipo katika mfano huo huo wa mchakato unaotawala utoaji. Fomula zinaweza kuchanganya chanzo chochote kati ya hivyo dhidi ya nodi yoyote katika mfano, kutoka hatua moja hadi aina nzima ya mradi, katika kipindi chochote. Matokeo ni picha ya gharama inayorudi moja kwa moja kwa mahali pesa ilipokwenda.",
+          "Kwa sababu kila utoaji unaongeza kwenye rekodi ya utekelezaji, utabiri wa kifedha unaboresha kwa muda. Makadirio ya miradi ya siku zijazo yanachora kutoka historia halisi ya utoaji, ili pengo kati ya mpango na gharama ya mwisho lipungue rekodi inavyokua. Fedha hazingoji mwisho wa mwezi kuona mahali miradi ilipo. Picha iko moja kwa moja."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Mahali Ambapo Merit Inatoa",
+      "content": [
+        "Kila shirika ni tofauti. Lakini thamani ya kuweza kuungana karibu na mtazamo ulioshirikishwa ni wa ulimwengu wote.",
+        "Merit imeundwa kubadilika na mifumo ngumu, ikiletea mwonekano, usawa, na ufahamu kwa sekta ambazo matokeo yanategemea uratibu, usahihi, na utendaji kwa kiwango.",
+        "Chunguza jinsi Merit inavyosaidia mifumo ya akili zaidi ya kazi katika sekta kuu."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Utengenezaji",
+        "content": [
+          "Michakato ngumu, zana zilizovunjika, na shughuli nzito za rasilimali hufanya mwonekano na uratibu kuwa changamoto ya kila siku katika utengenezaji.",
+          "Merit inaunganisha watu, nyenzo, na mtiririko wa kazi katika mfumo mmoja wa uendeshaji ukitoa watengenezaji ufahamu wa wakati halisi wa afya ya mchakato, matumizi ya rasilimali, na utendaji wa utoaji.",
+          "Kutoka sakafu ya duka hadi msururu wa usambazaji, fuatilia kila kitendo, fichua kila kizuizi, na pima kila uboreshaji katika jukwaa moja. Kwa Merit, timu za utengenezaji zinaweza kuboresha mifumo bila mwisho na kuoanisha utendaji na malengo ya kimkakati na kazi ya mstari wa mbele."
+        ]
+      },
+      "construction": {
+        "title": "Ujenzi",
+        "content": [
+          "Labda mfumo wa utoaji wa bidhaa ngumu zaidi unaopo unaoleta pamoja safu nyingi za nyenzo, kanuni, ujuzi, na mazingira. Hata hivyo makampuni mengi bado yanafanya kazi na zana zilizovunjika na mtiririko wa kazi uliotengana, na kufanya uratibu na mwonekano kuwa changamoto ya kudumu.",
+          "Merit inatoa mfumo hai wa kupanga, kufuatilia, na kuboresha utekelezaji katika mzunguko wote wa maisha wa mradi. Kutoka uratibu wa kabla ya ujenzi hadi utoaji wa tovutio, timu zinaweza kuoanisha majukumu, mtiririko wa kazi, na ratiba katika jukwaa moja, na hati zilizojumuishwa, gharama, na ufuatiliaji wa maendeleo.",
+          "Kwa kuunganisha mipango na utendaji kwa wakati halisi, Merit husaidia makampuni ya ujenzi kupunguza kufanya kazi tena, kudhibiti gharama, na kutoa kwa utabiri zaidi, hata miradi inavyobadilika."
+        ]
+      },
+      "healthcare": {
+        "title": "Afya",
+        "content": [
+          "Matokeo ya mgonjwa yanategemea mambo mengi yenye uhalisi - kutoka magonjwa ngumu yanayoambatana hadi viamua vya kijamii - lakini mifumo mingi ya afya inashindana kuunganisha hali hizi za mgonjwa na utoaji wa huduma na matokeo kwa njia zenye maana.",
+          "Merit inanasa ugumu kamili wa wasifu wa mgonjwa na kufuatilia jinsi hali maalum zinavyoingiliana na michakato ya huduma, watoa huduma, na matokeo. Badala ya kupunguza wagonjwa kwa vipimo vya msingi, jukwaa letu linaunda uhalisia wenye uhalisi unaoendesha utoaji wa huduma ya afya kweli kweli.",
+          "Timu za afya zinaweza hatimaye kuona njia za huduma zinazofanya kazi vizuri zaidi kwa idadi maalum ya wagonjwa, kuelewa jinsi vitendo vya watoa huduma vinavyounganika na matokeo, na kujenga kujifunza kwa shirika kwa utaratibu kutoka kwa uzoefu wa kimatibabu. Kwa kuunganisha ugumu wa mgonjwa na ugawaji wa rasilimali na utoaji wa huduma, Merit inabadilisha maarifa ya taasisi kutoka hisia hadi akili inayotekelezeka.",
+          "Matokeo: maamuzi ya huduma ya kibinafsi zaidi, matumizi bora ya rasilimali, na uboreshaji unaoendelea kulingana na kinachofanya kazi kweli kweli kwa idadi yako ya wagonjwa."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Mwitikio wa Matukio",
+        "content": [
+          "Katika majibu ya matukio, wakati ni kipengele muhimu. Kadri majibu ya pamoja yanavyoharakishwa, ndivyo matokeo yanavyokuwa bora. Hata hivyo, mashirika mengi hupoteza muda muhimu wakati ambao wanaweza kupata hasara kidogo: kuandaa mpango, kutambua watekelezaji wanaoweza kufanya kazi, na kupata vifaa.",
+          "Merit inawezesha mashirika kujenga mpango huo mapema. Mchakato mkuu wa majibu ya matukio unafafanuliwa, watekelezaji walioidhinishwa mapema wanaambatanishwa, na vifaa na nyenzo zinaorodheshwa. Wakati tukio linatangazwa, sehemu husika ya mpango huo inasanikishwa, inajazwa kiotomatiki na rasilimali zinazopatikana, na majibu yanaanza ndani ya dakika badala ya masaa.",
+          "Watekelezaji wanapokamilisha kila hatua, maendeleo yanarekodiwa dhidi ya mfumo wa mchakato, kuwapa maofisa picha inayosasishwa kila wakati ya majibu bila kutegemea ukaguzi wa redio au ripoti za mikono.",
+          "Baada ya tukio, rekodi ya utekelezaji inachangia kwenye mkusanyo wa data. Masomo yaliyojifunzwa yanawekwa moja kwa moja katika mpango wa majibu unaofuata, ili kila tukio litayaandaa shirika vizuri zaidi kwa linalofuata, kwa kutumia mpango wa hatua ambao unaweza kutumika duniani kote."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Uchimbaji Madini na Rasilimali",
+        "content": [
+          "Tovuti za uchimbaji madini zinakabiliwa na changamoto ngumu za uendeshaji ambapo usalama na kufuata sheria si wa mazungumzo. Hata hivyo timu nyingi za uchimbaji madini zinategemea data zilizofungwa na michakato ya hati iliyopitwa na wakati, ikiongeza hatari na kupunguza mwendo wa maamuzi.",
+          "Merit inatoa jukwaa lililounganishwa na uchambuzi wa kina unaotoa ufahamu wa kina katika kila kipengele cha shughuli za uchimbaji madini. Ikiunganishwa na mfumo wa udhibiti wa hati wenye nguvu, inahakikisha itifaki muhimu za afya na usalama zinaendelea kuwa za kisasa, zinapatikana, na zinafuatwa.",
+          "Kwa kuunganisha data ya wakati halisi na hati za kina, Merit inawezsha wasimamizi wa tovuti kutambua hatari kwa makini, kupunguza hatari, na kudumisha kufuata kanuni. Hii inaongoza mazingira salama ya kufanya kazi na kupunguza muda wa kusimama uliosababishwa na matukio na usimamishaji wa mashine.",
+          "Kwa muda, Merit inabadilisha data ya uendeshaji na mafunzo yaliyoandikwa kuwa akili inayotekelezeka, ikisaidia makampuni ya uchimbaji madini kuboresha viwango vya usalama mara kwa mara, kuboresha mtiririko wa kazi, na kulinda mali yao ya thamani zaidi, nguvu kazi yao."
+        ]
+      },
+      "agriculture": {
+        "title": "Kilimo",
+        "content": [
+          "Kilimo kinahusisha kusimamia watu, mashine, na nyenzo katika mazingira yanayobadilika na mara nyingi yasiyotabirika. Katika sekta ambapo gharama zisizo za wafanyakazi kama vile mashine, mafuta, pembejeo, na ardhi zinawakilisha sehemu kubwa ya gharama za uendeshaji, kuelewa na kuboresha jinsi rasilimali hizo zinavyotumika ni muhimu sana.",
+          "Merit inatoa mfumo wa mchakato unaoweza kubadilishwa ambao kila operesheni inafanyika juu yake. Zana, nyenzo, na watu wanakabidhiwa hatua za mchakato, kuwezesha upangaji wa usahihi, uchaguzi bora kati ya pembejeo, na uboreshaji wa kuendelea kulingana na unaoonyeshwa na data kuwa unafanya kazi. Katika kilimo, ambapo gharama za mashine na nyenzo zina uzito mkubwa, uboreshaji huu una athari kubwa sana kwa faida.",
+          "Pembejeo za mazingira kama mvua na jua zinaweza kurekodi pamoja na hatua kama mbolea, umwagiliaji, na udhibiti wa wadudu, na mavuno yanarekodiwa kama pato. Kadri muda unavyopita, mifumo inajitokeza kati ya pembejeo, hatua, na matokeo, ikitoa taarifa kwa maamuzi bora kwa kila mzunguko. Ambapo operesheni nyingi zinashiriki mfumo wa mchakato, akili hiyo inazidi kuongezeka.",
+          "Kwa mashirika yanayoshiriki rasilimali na maarifa, Merit inatoa miundombinu ya uendeshaji ili kufanya ushirikiano huo kuwa wa kimfumo na unaotegemea data."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Miundombinu ya Umma",
+        "content": [
+          "Miradi ya miundombinu ya serikali inahusisha uratibu ngumu wa wakandarasi, nyenzo, michakato ya kanuni, na ratiba za miaka mingi, yote chini ya ukaguzi mkali wa umma na mahitaji ya uwajibikaji.",
+          "Merit inatoa mwonekano uliounganishwa katika utoaji wa miundombinu, kutoka mipango ya awali hadi kukamilika. Iwe ni kujenga barabara, shule, huduma, au vituo vya umma, wakala wanaweza kufuatilia jinsi watu, michakato, na rasilimali zinavyotiririka pamoja ili kutoa miundombinu muhimu ya umma.",
+          "Kwa kila kitendo cha mkandarasi, uwasilishaji wa nyenzo, na hatua muhimu ya mchakato inayoonekana katika jukwaa moja, timu za serikali zinapata uwazi unaohitajika kwa uwajibikaji wa umma huku zikidumisha udhibiti wa uendeshaji juu ya miradi ngumu, yenye wadau wengi.",
+          "Merit inawezsha wakala wa serikali kutoa miundombinu kwa ufanisi zaidi, kuonyesha usimamizi wa uwajibikaji wa rasilimali za umma, na kujenga uboreshaji wa utaratibu katika kila mradi, bila kujali aina ya miundombinu inayotolewa."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Ushauri / Huduma za Kitaalamu",
+        "content": [
+          "Kila shirika, bila kujali sekta, kimsingi kinatumia michakato, watu, na hesabu kutoa bidhaa. Merit inajumuisha ukweli huu wa ulimwengu wote, ukikawaida utoaji wote katika mtiririko hawa wa msingi wa uendeshaji.",
+          "Kwa makampuni ya huduma za kitaalamu, hii inamaanisha ufanisi wa kweli wa uendeshaji katika maeneo. Iwe unafanya kazi na mifumo ya afya, viwanda vya utengenezaji, au taasisi za kifedha, Merit inatoa mfumo huo huo kwa sababu unashughulikia vipande sawa vya msingi vya kimuundo vya shirika, vilivyosanidiwa tofauti tu.",
+          "Hii inaondoa mpito wa kawaida wa kuelewa utata wa sekta na maneno ya sekta. Washauri wanaweza kusogea kwa urahisi kati ya muktadha wa mteja kwa sababu Merit inaondoa ugumu wa eneo, ikikuruhusu kuzingatia kuboresha mekanimu ya msingi ya uendeshaji ambayo ni thabiti katika mashirika yote.",
+          "Kutoka upembuzi wa mteja hadi ufuatiliaji wa utekelezaji, Merit inawezsha makampuni ya huduma za kitaalamu kufanya kazi kwa ufanisi na utaalamu huo huo katika kila ushirikiano, bila kujali sekta au eneo la mteja."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Angalia jinsi Merit inavyoleta uwazi kwa njia kazi inavyofanyika kweli kweli.",
+    "body1": "Jifunze jinsi tunavyounganisha utekelezaji, ufahamu, na uboreshaji katika mfumo mmoja wa uendeshaji.",
+    "body2": "Iwe unaongoza mkakati au kusimamia utoaji, Merit inakupa mwonekano wa kutenda kwa ujasiri, na muundo wa kupanuka kwa akili zaidi.",
+    "bullets": ["Angalia Merit katika vitendo", "Pata onyesho la kibinafsi", "Pata nguvu ya Merit"],
+    "formTitle": "Panga Onyesho",
+    "formSubtitle": "Jaza fomu na mmoja wa timu yetu atakuwasiliana nawe kupanga onyesho la jukwaa wakati unaokufaa.",
+    "formSubject": "Ombi la Onyesho"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Kuhusu Merit",
+      "subtitle": "Miundombinu inayofanya mchango uonekane, kupima utendaji, na kufanya tuzo kuwa ya haki."
+    },
+    "body": "Merit ipo kuunganisha utekelezaji na matokeo katika kila kazi. Kazi ikiwa wazi na mchango ukifuatiliwa, mashirika yanacha kutegemea mahusiano na siasa kutathmini utendaji. Matokeo yanazungumza yenyewe.",
+    "vision": {
+      "title": "Maono Yetu",
+      "content": "Mashirika ambapo motisha zinaoana, fursa ni sawa, na uboreshaji unaweza kupimika na ni wa kweli."
+    },
+    "mission": {
+      "title": "Dhamira Yetu",
+      "content": "Kutoa jukwaa la utekelezaji lililounganishwa ambalo linafanya kazi kuwa wazi, kuondoa mzigo wa uratibu, na kutoa kila timu data ya kutenda kwa ujasiri."
+    },
+    "sections": {
+      "origin": {
+        "title": "Tulipoanza",
+        "content": [
+          "Merit ilianza kama swali: jinsi ya kuweka ramani ya mfumo wa ugumu wa kweli kwa njia ambayo ni ya maana kweli kweli? Jibu lilitoka kwa uchunguzi rahisi: kila utoaji, bila kujali ukubwa au ugumu wake, ni jumla ya hatua nyingi. Katika kila hatua, watu hutumia zana na kufanya kazi nyenzo kuwa bidhaa inayokaribia kukamilika. Muundo huo unakuwa mpango. Mchakato wa kila utoaji ni sehemu yake, ambayo tunaweza kuifuatilia, kupima, na kutathmini. Kutoka msingi huu rahisi, mtazamo imara kuhusu misingi ya jinsi kila shirika linavyofanya kazi uliibuka."
+        ]
+      },
+      "definition": {
+        "title": "Maana ya Merit",
+        "content": [
+          "Stahili, kwetu, si kiwango cha kudumu. Ni chochote shirika na wateja wake wanaamuacho kuthamini. Kasi, kaboni, gharama, ubora, usalama: uzito anaoubeba kila mmoja ni chaguo, na chaguo hilo ni la shirika. Chaguo hizi zinapoonyeshwa kama vigezo vinavyopimika katika mchakato wa utoaji, zana, watu, na nyenzo zinazofanya vizuri dhidi yao zinakuwa wazi. Zinaweza kuchaguliwa, kuendelezwa, na kusherehekewa. Na kila mchangiaji katika mfumo, kutoka kwa watekelezaji binafsi hadi watengenezaji wa zana na wasambazaji wa nyenzo, anaelewa kwamba tuzo inaunganishwa na utendaji dhidi ya vigezo hivyo. Mkakati wa busara unakuwa uboreshaji, si ukaribu na waamuzi."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Zungumza nasi.",
+      "body": "Tunajibu kila ombi moja kwa moja. Tuambie unachofanyia kazi na tutaendelea kutoka hapo.",
+      "formTitle": "Wasiliana Nasi",
+      "formSubject": "Ombi la Jumla",
+      "formSubtitle": "Jaza fomu na mmoja wa timu yetu atakuwasiliana nawe kujadili ombi lako."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Maarifa na Habari za Merit",
+      "content": [
+        "Chunguza jinsi mashirika yanavyojenga mifumo ya akili zaidi ya kazi kwa Merit.",
+        "Kutoka hadithi za mafanikio ya wateja hadi maarifa ya kimkakati na masasisho ya bidhaa, hapa ndipo tunashiriki kinachofanya kazi, kinachobadilika, na kinachofuata katika akili ya uendeshaji."
+      ]
+    },
+    "tabs": {
+      "all": "Maudhui Yote",
+      "blog": "Blogu ya Merit",
+      "caseStudies": "Tafiti za Kesi",
+      "pressReleases": "Matangazo ya Vyombo vya Habari",
+      "productUpdates": "Masasisho ya Bidhaa"
+    }
+  }
+}

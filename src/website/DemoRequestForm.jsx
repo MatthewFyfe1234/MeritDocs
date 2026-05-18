@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 
 // @mui components
 import { Box } from '@mui/system';
@@ -10,10 +11,12 @@ import ContactPanel from './components/ContactPanel';
 import Tick from '/images/tick.svg';
 
 const DemoRequestForm = () => {
+  const { t } = useTranslation();
   return (
     <ContactPanel
-      title="Schedule a Demo"
-      subtitle="Complete the form and one of our team will be in touch to arrange a platform demo at a time that suits you."
+      title={t('demoRequest.formTitle')}
+      subtitle={t('demoRequest.formSubtitle')}
+      subject={t('demoRequest.formSubject')}
       enquiryTypeId={1}>
       <Box
         sx={{
@@ -22,28 +25,29 @@ const DemoRequestForm = () => {
           pt: { xs: 0, sm: 2 },
           flexDirection: 'column',
           alignItems: 'center',
+          justifyContent: 'center',
           textAlign: 'center',
           gap: 2,
           px: { xs: 0, sm: 4, md: 10 }
         }}>
         <Typography
           variant="h4"
-          fontWeight={700}>
-          See how Merit brings clarity to the way work really happens.
+          sx={{ fontWeight: 700 }}>
+          {t('demoRequest.heading')}
         </Typography>
         <Typography
           variant="h6"
-          fontWeight={400}>
-          Learn how we unify execution, insight, and improvement in one operational system.
+          sx={{ fontWeight: 400 }}>
+          {t('demoRequest.body1')}
         </Typography>
         <Typography
           variant="h6"
-          fontWeight={400}>
-          Whether you’re leading strategy or managing delivery, Merit gives you the visibility to act with confidence, and the structure to scale smarter.
+          sx={{ fontWeight: 400 }}>
+          {t('demoRequest.body2')}
         </Typography>
-        <Box>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           {
-            ["See Merit in action", "Get a personalized demo", "Experience the power of Merit"].map((text, index) => (
+            t('demoRequest.bullets', { returnObjects: true }).map((text, index) => (
               <Box
                 key={index}
                 sx={{

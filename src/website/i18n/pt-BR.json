@@ -1,0 +1,580 @@
+{
+  "common": {
+    "bookDemo": "Agendar uma Demo",
+    "contactSales": "Falar com Vendas",
+    "learnMore": "Saiba Mais →",
+    "contentFooter": {
+      "title": "Clareza operacional. Integridade ética. Melhores resultados.",
+      "subtitle": "Solicite uma demonstração e veja como o Merit pode ajudá-lo a transformar complexidade em clareza."
+    },
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "company": "Empresa",
+      "position": "Cargo",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "success": "Sua mensagem foi enviada!",
+      "error": "Erro ao enviar e-mail. Por favor, tente novamente.",
+      "validation": {
+        "nameRequired": "O nome é obrigatório.",
+        "nameInvalid": "Formato de nome inválido.",
+        "emailRequired": "O e-mail é obrigatório.",
+        "emailInvalid": "Endereço de e-mail inválido.",
+        "companyRequired": "A empresa é obrigatória.",
+        "positionRequired": "O cargo é obrigatório.",
+        "messageRequired": "A mensagem é obrigatória.",
+        "messageTooShort": "A mensagem deve ter pelo menos 10 caracteres."
+      }
+    }
+  },
+  "nav": {
+    "whyMerit": "Por que Merit",
+    "platform": "Plataforma",
+    "useCases": "Casos de Uso",
+    "teams": "Times",
+    "values": "Valores",
+    "company": "Empresa",
+    "bookDemo": "Agendar uma Demo",
+    "subMenus": {
+      "whyMerit": {
+        "title": "O Argumento",
+        "theProblem": "O Problema",
+        "theSolution": "A Solução",
+        "theAdvantage": "A Vantagem"
+      },
+      "platform": {
+        "title": "Funcionalidades",
+        "businessIntelligence": "Business Intelligence",
+        "processMapping": "Mapeamento de Processos",
+        "projectManagement": "Gestão de Projetos",
+        "documentManagement": "Gestão de Documentos",
+        "cpq": "CPQ",
+        "crm": "CRM",
+        "resourcePlanning": "Planejamento de Recursos"
+      },
+      "useCases": {
+        "title": "Setores",
+        "manufacturing": "Manufatura",
+        "construction": "Construção Civil",
+        "healthcare": "Saúde",
+        "disasterManagement": "Resposta a Incidentes",
+        "miningAndResources": "Mineração e Recursos",
+        "agriculture": "Agronegócio",
+        "publicInfrastructure": "Infraestrutura Pública",
+        "consultingProfessionalServices": "Consultoria/Serviços Profissionais"
+      },
+      "teams": {
+        "title": "Funções",
+        "leadership": "Liderança",
+        "operations": "Operações",
+        "projectManagement": "Gestão de Projetos",
+        "humanResources": "Recursos Humanos",
+        "sales": "Vendas",
+        "marketing": "Marketing",
+        "finance": "Financeiro"
+      },
+      "values": {
+        "title": "Ética",
+        "operationalEthics": "Ética Operacional",
+        "esg": "ESG",
+        "culturalIntegrity": "Integridade Cultural"
+      },
+      "company": {
+        "title": "Sobre Nós",
+        "ourMission": "Nossa Missão",
+        "whoWeAre": "Quem Somos",
+        "whatWereBuilding": "O Que Estamos Construindo",
+        "contactUs": "Fale Conosco"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "@2026 Modify Visual Ltd. Todos os direitos reservados.",
+    "terms": "Termos",
+    "privacyPolicy": "Política de Privacidade",
+    "cookiePolicy": "Política de Cookies",
+    "contact": "Contato"
+  },
+  "home": {
+    "hero": {
+      "title": "O Sistema Operacional Unificado para a Sua Organização",
+      "subtitle": "Um modelo digital completo da sua organização, refinado a cada entrega. Para um planejamento mais preciso, coordenação mais ágil e execução aprimorada em todas as funções.",
+      "tagline": "Uma plataforma conectando gestão de projetos, mapeamento de processos, CPQ, CRM, business intelligence, gestão de documentos, RH e gestão de força de trabalho por meio de um único modelo operacional que melhora a cada entrega."
+    },
+    "contextualiser": {
+      "title": "O Valor da Unidade",
+      "p1": "Quando todos trabalham a partir do mesmo modelo de execução, fica mais fácil ver como o trabalho é feito, quem está contribuindo e o que está gerando resultados.",
+      "p2": "Também significa que os dados param de desaparecer nas áreas funcionais. O comercial vê o que a entrega realmente custa. O financeiro vê onde as estimativas falharam. Quando alguém sai, o conhecimento que carregava permanece no modelo.",
+      "p3": "Quanto mais tempo você opera com um único registro de execução, mais precisamente consegue planejar, alocar equipes e precificar o próximo projeto."
+    },
+    "features": {
+      "businessIntelligence": {
+        "header": "Business Intelligence",
+        "title": "Transforme insights em ação",
+        "description": "O business intelligence fractal e integrado aos processos permite identificar oportunidades, monitorar desempenho e impulsionar decisões embasadas em toda a sua organização."
+      },
+      "processMapping": {
+        "header": "Mapeamento de Processos",
+        "title": "Visualize seus processos",
+        "description": "Defina e visualize processos em vários níveis de detalhe com nossa interface estilo Google Maps, garantindo clareza e alinhamento entre times e áreas."
+      },
+      "projectManagement": {
+        "header": "Gestão de Projetos",
+        "title": "Otimize seus projetos",
+        "description": "Planeje projetos com base em especificações de produto e coordene usando nossas ferramentas exclusivas para prever tempos de execução e necessidades de recursos, baseando-se em dados históricos."
+      },
+      "resourcePlanning": {
+        "header": "Planejamento de Recursos",
+        "title": "Otimize o tempo da sua organização",
+        "description": "Modele pessoas, habilidades, ferramentas, disponibilidade e custos para conectar capacidade diretamente à demanda operacional e ao trabalho planejado."
+      },
+      "documentManagement": {
+        "header": "Gestão de Documentos",
+        "title": "Estruture o conhecimento que gera resultados",
+        "description": "Posicione documentos ao lado das pessoas, itens de inventário, projetos ou etapas de processo relacionados para organização natural e fácil localização."
+      },
+      "cpq": {
+        "header": "CPQ",
+        "title": "Simplifique a complexidade sem perder precisão",
+        "description": "Crie especificações dentro dos limites de um produto master para se adequar ao seu setor e às capacidades da empresa. Configure regras de materiais e precificação e gere estimativas de tempo com base em dados históricos de projetos."
+      },
+      "crm": {
+        "header": "CRM",
+        "title": "Feche o ciclo em cada entrega",
+        "description": "Capture o feedback dos clientes após cada entrega e atribua-o diretamente às etapas do processo e aos recursos que o produziram. Os padrões entre as entregas tornam-se visíveis com o tempo, transformando o feedback em um sinal claro para a melhoria de processos e recursos."
+      }
+    },
+    "meritConcept": {
+      "title": "Merit nos Seus Termos",
+      "content": [
+        "A plataforma não define mérito para você. É o que sua organização e seus clientes decidem que é excelência, tornado mensurável em cada nível do processo.",
+        "Cada métrica, cada fórmula e cada KPI flui dos critérios que a organização define em relação ao modelo. A definição de uma entrega bem executada para um fabricante difere da de um provedor de saúde. As expectativas de um cliente em um engajamento complexo diferem das de um rotineiro. A plataforma acomoda tudo isso porque a definição de mérito vive no modelo, não no software.",
+        "É também o que torna o alinhamento possível. Quando os critérios que importam para o cliente estão refletidos no modelo de processo, as pessoas que executam o trabalho podem ver como é o bom resultado a partir de onde estão. E quando cada entrega está completa, o feedback fecha o ciclo, conectando a experiência do cliente de volta às etapas que a produziram."
+      ]
+    },
+    "ethics": {
+      "title": "Responsabilidade por Design",
+      "p1": "O Merit possibilita transparência total no trabalho, com permissões e governança de nível empresarial.",
+      "p2": "Quando o trabalho é visível, as contribuições são rastreáveis e os resultados são mensuráveis, as organizações conquistam não apenas desempenho, mas confiança.",
+      "p3": "O Merit conecta a entrega às decisões com governança clara, para que o reconhecimento seja consistente, o esforço seja visível e as recompensas sejam justas.",
+      "cta": "Explore como a ética é parte fundamental da plataforma →"
+    },
+    "howMeritWorks": {
+      "title": "Como o Merit Funciona",
+      "subtitle": "Registre cada entrega em relação a um modelo compartilhado. Cada projeto concluído refina a próxima estimativa, melhora a qualidade do planejamento e agrega ao registro operacional que permanece no sistema quando as pessoas saem.",
+      "model": {
+        "title": "Modelar",
+        "description": "Defina seu produto em todas as suas variações e associe-o a um processo correspondente, incluindo as habilidades, ferramentas e materiais usados para entregá-lo."
+      },
+      "execute": {
+        "title": "Executar",
+        "description": "Execute projetos em relação ao modelo. Rastreie desvios em tempo real. Mantenha cada time, ferramenta e tarefa conectados ao mesmo cenário."
+      },
+      "improve": {
+        "title": "Melhorar",
+        "description": "Cada entrega retroalimenta o modelo. As estimativas ficam mais precisas, a sobrecarga de planejamento reduz e o conhecimento institucional se acumula no sistema em vez de nas pessoas."
+      }
+    }
+  },
+  "whyMerit": {
+    "hero": {
+      "title": "O problema que vale a pena resolver",
+      "p1": "Cada entrega é executada da mesma forma: um processo, executado por pessoas, usando ferramentas e materiais. Mas a entrega raramente corresponde ao plano.",
+      "p2": "As mesmas seis falhas aparecem em todos os setores, organizações e tipos de projeto. O Merit foi construído para endereçar todas as seis."
+    },
+    "theProblem": {
+      "title": "Seis falhas estruturais. Uma causa raiz",
+      "subtitle": "Essas falhas compartilham uma fonte comum: nenhum registro de execução compartilhado, nenhum modelo que aprende, nenhuma visão única a partir da qual todos trabalham.",
+      "failures": {
+        "measurability": {
+          "dimension": "Mensurabilidade",
+          "problem": "O desempenho é sentido, não capturado.",
+          "detail": "Sem um registro de execução compartilhado, a responsabilidade é informal, o reconhecimento é subjetivo e a melhoria é baseada em suposições."
+        },
+        "predictability": {
+          "dimension": "Previsibilidade",
+          "problem": "Estimativas são intervalos, não projeções.",
+          "detail": "Todo projeto começa com incerteza embutida. Não há modelo para consultar. A experiência fica nas cabeças, não nos sistemas."
+        },
+        "transparency": {
+          "dimension": "Transparência",
+          "problem": "O progresso só é visível depois do fato.",
+          "detail": "Quando um problema aparece em um relatório, já custou caro. O desvio é descoberto, não prevenido."
+        },
+        "planning": {
+          "dimension": "Planejamento",
+          "problem": "Todo projeto começa do zero.",
+          "detail": "Os times reconstroem o plano e reaprendem as dependências em cada projeto. Nada é carregado adiante."
+        },
+        "evaluation": {
+          "dimension": "Avaliação",
+          "problem": "A seleção é baseada em relacionamentos, não em resultados.",
+          "detail": "Sem dados objetivos de desempenho, as melhores pessoas são invisíveis e as decisões erradas se repetem."
+        },
+        "integration": {
+          "dimension": "Integração",
+          "problem": "Dados em silos por função, conhecimento por pessoa.",
+          "detail": "O comercial não vê a entrega. O financeiro não vê a execução. Quando as pessoas saem, o conhecimento institucional vai com elas."
+        }
+      }
+    },
+    "theSolution": {
+      "title": "A organização que melhora a cada projeto",
+      "p1": "O Merit modela cada entrega como uma rede de executores (pessoas e organizações), inventário e etapas de processo, com cada execução registrada em relação a um modelo master. Com cada projeto concluído, o modelo melhora. O julgamento informal vira evidência. A sobrecarga de gestão reduz à medida que o sistema cuida da coordenação e dos relatórios que antes eram feitos manualmente.",
+      "p2": "Todo projeto concluído agrega ao registro de execução específico para a organização. Esse registro se torna a base para cada previsão, cada avaliação e cada decisão de planejamento que se segue."
+    },
+    "theAdvantage": {
+      "title": "Valor em todos os horizontes",
+      "subtitle": "O Merit gera retornos em ritmos diferentes dependendo de há quanto tempo está em operação.",
+      "horizons": {
+        "immediately": {
+          "label": "Imediatamente",
+          "headline": "A entrega se torna rastreável.",
+          "detail": "Os desvios são visíveis em tempo real. Os planos de projeto são gerados a partir da especificação. Os times param de reconstruir o que já existe."
+        },
+        "overTime": {
+          "label": "Com o tempo",
+          "headline": "O modelo melhora a cada execução.",
+          "detail": "As previsões ficam mais precisas à medida que o registro de execução cresce. O planejamento parte do histórico real, não das estimativas iniciais, e o modelo reflete como a organização realmente se desempenha."
+        },
+        "enduringly": {
+          "label": "De forma duradoura",
+          "headline": "Um conjunto de dados que nenhum concorrente consegue replicar.",
+          "detail": "Uma organização que opera com Merit há anos possui um registro de execução com anos de profundidade - específico para seus processos, suas pessoas e seu histórico de entregas. Esse registro não pode ser replicado por um concorrente que adota o mesmo software."
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "intro": {
+      "title": "Um Sistema Unificado para Inteligência Operacional",
+      "content": ["Um sistema. Visibilidade total. Melhoria contínua."]
+    },
+    "sections": {
+      "businessIntelligence": {
+        "title": "Business Intelligence",
+        "content": [
+          "O business intelligence do Merit está incorporado no próprio mapa de processos. Os dados de desempenho aparecem dentro da visualização em cada nível de abstração - da visão de toda a organização até a etapa individual - para que você entenda como o negócio está se desempenhando no contexto dos processos que o impulsionam, não em uma ferramenta de relatórios separada.",
+          "Os dados fluem de cada objeto no sistema: registros de execução, perfis individuais, inventário, especificações, agendas. Essas fontes podem ser exibidas ou combinadas matematicamente dentro do modelo de processo. Dados salariais agregados das pessoas que executam uma etapa, combinados com o tempo de execução, fornecem valores de custo reais - no nível da etapa, do trabalho, ou em todos os projetos ao longo de qualquer período.",
+          "Como qualquer fonte de dados pode ser formulada em relação a qualquer nó do processo, a análise é composível. A mesma estrutura que governa a execução torna-se o framework para BI de alta fidelidade e integrado aos processos."
+        ]
+      },
+      "processMapping": {
+        "title": "Mapeamento de Processos",
+        "content": [
+          "O Merit mapeia a estrutura operacional de uma organização em todos os níveis de abstração - das visualizações de organização e equipe até as etapas individuais do processo, e as capacidades específicas de ferramentas necessárias em cada etapa. O mapa é tridimensional e totalmente navegável: dê zoom para ver o panorama de toda a organização, dê zoom para ações individuais do operador sem perder o contexto de como elas se encaixam no todo.",
+          "Até mesmo os sistemas de entrega mais complexos podem ser modelados, explorados e compreendidos. O mapa é dinâmico com dados de execução sobrepostos, portanto cada nível de abstração reflete como a organização realmente se desempenha - não um diagrama estático.",
+          "O modelo de processo não está limitado à sua organização. Ele pode se estender por todo o ecossistema de entrega - mapeando organizações parceiras, coordenando a participação delas e coletando dados de desempenho em toda a cadeia."
+        ]
+      },
+      "projectManagement": {
+        "title": "Gestão de Projetos",
+        "content": [
+          "Quando um pedido é confirmado, um plano de projeto é gerado automaticamente a partir do modelo de processo. Os cronogramas são calculados a partir de previsões definidas no processo, refinados por dados históricos de execução, e a alocação de responsáveis é gerenciada automaticamente com base em agendas individuais, experiência e disponibilidade - com ferramentas de configuração e substituições manuais disponíveis durante todo o processo.",
+          "O progresso é rastreado em relação aos requisitos definidos: os entregáveis a serem produzidos, as métricas a serem registradas, as tags de status a serem definidas em cada etapa. O sistema orienta a execução sem remover o controle.",
+          "Os projetos podem ser visualizados no Gantt gerado automaticamente ou dentro do próprio mapa de processos, mostrando o status ao vivo entre organizações, funções e etapas individuais. Seja coordenando equipes internas ou subcontratados, o panorama está sempre atualizado e sempre em contexto."
+        ]
+      },
+      "documentManagement": {
+        "title": "Gestão de Documentos",
+        "content": [
+          "Os documentos no Merit estão ancorados à entidade a que pertencem - uma etapa do processo, uma fase do projeto, uma especificação, um membro da equipe, uma organização parceira ou um equipamento ou material. Certificados de conformidade, registros de manutenção ou relatórios de inspeção ficam no local exato onde se aplicam, não em uma pasta desconectada.",
+          "Onde documentos são exigidos conforme definido no modelo de processo, eles condicionam a progressão. Uma etapa não pode avançar até que a documentação esteja em vigor; uma função não pode ser atribuída até que as certificações exigidas sejam verificadas. O gerenciamento de documentos não é administrado separadamente das operações - está incorporado na forma como o trabalho avança."
+        ]
+      },
+      "cpq": {
+        "title": "CPQ (Configurar, Precificar, Cotar)",
+        "content": [
+          "O CPQ do Merit é construído em torno da especificação master: uma definição completa de cada variação possível dentro de um tipo de produto - todos os materiais, configurações, condicionais e restrições que a organização lida. As especificações individuais são sempre subconjuntos desse master. Definir uma implica um processo - as etapas, materiais e recursos necessários já são compreendidos antes de uma cotação ser elaborada.",
+          "As regras definidas em relação ao master codificam a lógica condicional do produto. Uma escolha pode implicar outra, excluir opções incompatíveis ou acionar requisitos - aplicados automaticamente no momento da configuração. Descritores obrigatórios podem ser aplicados para garantir que cada especificação seja completa antes de prosseguir. As regras de custo definidas em relação ao processo retroalimentam a especificação - revelando o tempo, os materiais, a energia e o carbono associados a uma determinada configuração.",
+          "Uma vez que uma especificação é confirmada, o Merit automatiza o que se segue. O inventário é gerenciado em relação a ela, os projetos downstream são coordenados a partir dela e a seleção de equipes utiliza a experiência dos responsáveis e a disponibilidade de agenda. As transferências que antes exigiam coordenação manual acontecem automaticamente."
+        ]
+      },
+      "crm": {
+        "title": "CRM",
+        "content": [
+          "O CRM do Merit é construído em torno da entrega em si, não do pipeline. Após uma especificação ser cumprida, o feedback dos clientes é capturado e atribuído diretamente às etapas e componentes do projeto que o entregaram. Um problema de qualidade, um atraso ou um destaque podem ser rastreados até exatamente onde no processo se originaram.",
+          "Essa atribuição torna a investigação direta e a análise de padrões significativa. O feedback agrega ao longo das entregas, para que problemas recorrentes em uma etapa específica ou com um recurso específico tornem-se visíveis com o tempo. Revisado periodicamente, torna-se um sinal claro de onde o processo, a especificação ou os recursos precisam de atenção.",
+          "Por estar dentro do mesmo sistema que a execução, não há importação, nenhuma tradução e nenhuma desconexão entre o que foi entregue e o que o cliente disse sobre isso."
+        ]
+      },
+      "resourcePlanning": {
+        "title": "Planejamento de Recursos",
+        "content": [
+          "O Merit é um sistema unificado para pessoas, organizações, materiais e processos. Habilidades, certificações, disponibilidade, custos e registros de desempenho são mantidos no mesmo modelo que governa a execução - portanto, a mesma estrutura usada para executar projetos é a estrutura usada para planejar recursos.",
+          "As visualizações de utilização de BI mostram como pessoas e organizações estão sendo realmente utilizadas, em projetos e ao longo do tempo. Lacunas, superalocações e capacidade subutilizada tornam-se visíveis antes que se tornem problemas.",
+          "Como os dados de recursos vivem dentro do modelo de execução - não em uma ferramenta separada de RH ou planejamento de força de trabalho - o Merit pode identificar lacunas antes que se tornem problemas. A demanda futura de projetos pode ser mapeada em relação à capacidade disponível, e o sistema sinalizará lacunas antes que compromissos sejam feitos."
+        ]
+      }
+    }
+  },
+  "ethics": {
+    "intro": {
+      "title": "Ética e Impacto",
+      "content": [
+        "Quando seu sistema consegue identificar mérito por qualquer medida, justiça e sustentabilidade deixam de ser aspirações. Tornam-se subprodutos naturais de melhores decisões de negócios.",
+        "O Merit ajuda organizações a reduzir desperdício, eliminar vieses e reconhecer o que realmente gera resultados.",
+        "Não persiga resultados éticos. Torne-os inevitáveis."
+      ]
+    },
+    "operationalEthics": {
+      "subtitle": "Você decide o que importa, o Merit ajuda a otimizar para isso",
+      "cards": {
+        "transparency": {
+          "title": "Transparência e Responsabilidade",
+          "description": "O Merit torna ações e decisões rastreáveis, ajudando organizações a manter padrões éticos por meio de governança clara, visibilidade dos processos e supervisão estruturada em todos os níveis do negócio."
+        },
+        "recognition": {
+          "title": "Reconhecimento e Recompensa Justos",
+          "description": "Ao vincular contribuição a resultados, o Merit permite basear o reconhecimento no impacto real, promovendo justiça, reduzindo vieses e apoiando uma cultura onde o esforço é visto e valorizado."
+        },
+        "integrity": {
+          "title": "Integridade do Sistema e Confiança",
+          "description": "O Merit oferece um framework operacional confiável que elimina ambiguidade, garante consistência e constrói confiança em como o trabalho é medido, as decisões são tomadas e o progresso é avaliado."
+        }
+      }
+    },
+    "esg": {
+      "title": "ESG por Design",
+      "content": [
+        "Qualquer entrada mensurável, de energia e combustível a materiais e água, pode ser registrada no nível da etapa e formulada em relação aos nós do processo ao longo do registro de execução. O custo ambiental não é estimado no nível do projeto; é rastreável até as etapas e recursos específicos que o geraram. Com o tempo, o registro revela quais recursos e práticas geram menos desperdício por resultado, tornando a melhoria ambiental baseada em evidências em vez de aspiracional.",
+        "Como a contribuição é rastreada no fluxo do trabalho, o reconhecimento reflete o que realmente aconteceu em vez de proximidade com a gestão ou atividade autorrelatada. Quando o sistema gera a evidência, o potencial de viés reduz estruturalmente. Os mesmos dados de execução que impulsionam as decisões operacionais impulsionam as decisões sobre pessoas.",
+        "Portões de fase incorporados ao modelo de processo impedem o avanço do trabalho até que a documentação necessária esteja em vigor. Os controles de acesso definem quem pode ver quais métricas e configurações. Cada ação tomada contra uma execução é registrada. A governança não é uma camada de relatórios adicionada depois. Está incorporada em como o trabalho avança."
+      ]
+    },
+    "culturalIntegrity": {
+      "title": "Alinhamento por Design",
+      "content": [
+        "Quando o reconhecimento segue o que o registro de execução mostra em vez do que as pessoas relatam ou de quem conhecem, os incentivos individuais e os objetivos organizacionais se alinham naturalmente. Não há vantagem em gerenciar aparências, acumular conhecimento ou se posicionar acima da entrega.",
+        "Esse alinhamento emerge da estrutura, não de programas culturais. Como os dados de desempenho fluem do próprio trabalho, condições como favoritismo, acumulação de conhecimento e desconexão entre esforço e recompensa são removidas em vez de contornadas.",
+        "Quando as pessoas veem consistentemente que a contribuição é medida de forma justa e recompensada de acordo, o comportamento reforça isso. Uma cultura de integridade torna-se o resultado natural de um sistema que faz da integridade o caminho de menor resistência."
+      ]
+    },
+    "compliance": {
+      "title": "Da Conformidade à Vantagem Competitiva",
+      "content": [
+        "O desempenho ético não deveria ser uma aspiração ou uma reflexão tardia, deveria ser o resultado natural de como um negócio funciona. O Merit torna isso possível incorporando o alinhamento ético no tecido das operações cotidianas.",
+        "Quando o desempenho é medido objetivamente e o valor é identificado de forma sistêmica, a justiça se torna consistente, a responsabilidade é automática e melhores resultados se seguem. Uma cultura que opera eticamente por design não é apenas boa governança. É uma vantagem estratégica."
+      ]
+    }
+  },
+  "teams": {
+    "intro": {
+      "title": "Construído para Cada Função",
+      "content": [
+        "Da estratégia à execução, o Merit oferece a líderes, operadores e colaboradores uma visão compartilhada de como o trabalho realmente está sendo realizado.",
+        "Veja como o Merit apoia cada função em toda a sua organização."
+      ]
+    },
+    "skillAllocation": {
+      "title": "Um Sistema, Cada Perspectiva",
+      "content": [
+        "Na maioria das organizações, duas coisas desaparecem silenciosamente: dados nas funções e conhecimento nas pessoas. O comercial não vê o que a entrega custa. O financeiro não vê onde as estimativas falharam. Quando um executor experiente sai, os padrões que reconhecia vão com ele. O registro de execução do Merit é a resposta para ambos.",
+        "Cada função nesta página trabalha a partir dos mesmos dados subjacentes: o mesmo registro de execução, o mesmo modelo de processo, as mesmas pessoas e recursos. O que muda é a agregação. Um gestor de projetos vê prazos e dependências; o RH vê padrões de contribuição e desempenho; o financeiro vê custo e utilização. Perspectivas diferentes, um sistema.",
+        "E para a equipe de entrega do produto? Como o modelo de processo mapeia quais tarefas dependem de quais resultados, as interdependências são explícitas desde o primeiro dia. Nenhuma função trabalha a partir de uma visão parcial, e nenhuma transferência depende de alguém se lembrar de comunicá-la."
+      ]
+    },
+    "sections": {
+      "leadership": {
+        "title": "Liderança",
+        "content": [
+          "A maioria dos líderes opera entre atualizações de status, vendo um instantâneo de onde as coisas estavam em vez de onde estão. No Merit, o registro de execução é ao vivo porque o trabalho é registrado à medida que acontece. Progresso, desvio, pressão de recursos e desempenho estão sempre atualizados, sem que ninguém precise preparar um relatório.",
+          "Isso muda a natureza das decisões de liderança. Os problemas são visíveis cedo o suficiente para agir. As restrições de recursos aparecem antes de se tornarem atrasos. E os dados de desempenho refletem o que realmente aconteceu, não o que foi relatado.",
+          "E porque cada métrica remonta ao mesmo modelo de processo, os líderes podem mover-se entre a visão de alto nível e o detalhe granular sem trocar de sistema ou perder contexto. Se um número parece errado, você pode segui-lo até a etapa que o produziu."
+        ]
+      },
+      "operations": {
+        "title": "Operações",
+        "content": [
+          "As operações são responsáveis por como o trabalho flui pela organização, e é exatamente isso que o modelo de processo evidencia. Onde o trabalho está se acumulando, onde as transferências estão falhando e onde a capacidade está sendo sobrecarregada são tudo visível em tempo real. Quando um padrão se repete em projetos, torna-se um problema de processo em vez de um caso isolado, e o modelo pode ser atualizado para que a melhoria se reflita em toda execução futura. O registro de execução também mostra quais recursos têm melhor desempenho em quais etapas, dando às operações a evidência para preferir recursos comprovados e defender o investimento onde existem lacunas.",
+          "Como o modelo de processo mapeia dependências a montante e a jusante, e os dados de CRM conectam a execução interna aos resultados dos clientes, as decisões sobre recursos e processos podem ser examinadas de todos os ângulos da cadeia. Fórmulas podem ser definidas contra qualquer combinação de dados no modelo, para que a visão nunca se limite a uma única métrica. Essa amplitude é o que torna os dados genuinamente úteis para decisões, em vez de algo que pode ser otimizado de forma isolada."
+        ]
+      },
+      "projectManagement": {
+        "title": "Gestão de Projetos",
+        "content": [
+          "Uma parte significativa do tempo de um gestor de projetos vai em trabalho que o próprio projeto não exige: construir cronogramas do zero, verificar disponibilidade, redefinir o escopo quando algo escorrega. No Merit, o plano do projeto é gerado a partir do modelo de processo, os cronogramas são calculados a partir de dados históricos de execução, e a atribuição de executores baseia-se em agendas ao vivo e experiência. O suporte estrutural já está lá.",
+          "Isso libera o gestor de projetos para focar na entrega em si. O progresso é rastreado em relação a requisitos definidos em cada etapa, os desvios são visíveis à medida que acontecem, e o Gantt é atualizado automaticamente à medida que a execução avança. Cada projeto concluído também agrega ao registro de execução, para que o próximo comece com melhores previsões e menos replanejamento do zero.",
+          "O sistema também lida com uma categoria de risco que a maioria das ferramentas deixa na memória do gestor de projetos. A disponibilidade do executor considera férias planejadas e eventos de formação. A atribuição verifica se as certificações e documentos necessários estão em vigor antes do início do trabalho. E os portões de fase incorporados ao modelo de processo significam que certas etapas não podem avançar sem a documentação necessária em vigor. As condições para uma entrega limpa são impostas pelo sistema, não mantidas na cabeça de alguém."
+        ]
+      },
+      "humanResources": {
+        "title": "Recursos Humanos",
+        "content": [
+          "Para o RH, o Merit elimina a lacuna entre o que as pessoas fazem e o que é reconhecido. Como a contribuição é rastreada no fluxo do trabalho em vez de avaliada retrospectivamente, os dados de desempenho refletem o que realmente aconteceu, não a proximidade com a gestão ou a atividade autorrelatada.",
+          "Novos membros da equipe chegam com o contexto completo do processo já disponível: as etapas pelas quais são responsáveis, os documentos e certificações necessários, e como sua função se conecta ao resto da organização. Os materiais de formação estão ancorados diretamente ao trabalho, para que a orientação esteja disponível onde é necessária em vez de em um sistema separado.",
+          "As métricas registradas contra os indivíduos fluem pelo modelo de processo para os KPIs, no nível da etapa, trabalho, projeto ou organização, ao longo de qualquer período. Os controles de acesso determinam quais métricas e cálculos cada função pode ver, para que dados sensíveis alcancem as pessoas certas sem restringir o quadro geral de desempenho. No nível da etapa, o desempenho torna-se específico o suficiente para apoiar e desenvolver as pessoas que precisam, e reconhecer com precisão as que se destacam."
+        ]
+      },
+      "sales": {
+        "title": "Vendas",
+        "content": [
+          "A maioria dos processos de vendas cria uma lacuna entre o que foi acordado e o que a entrega recebe. A cotação fica em um documento, o briefing em outro, e fechar a lacuna exige re-explicação, renegociação, ou ambos. Quando o cliente confirma, a equipe de entrega está começando a partir de uma visão parcial.",
+          "No Merit, a especificação é tanto a cotação quanto a instrução para entrega. Uma especificação master codifica cada configuração, restrição e regra de precificação para um tipo de produto. O comercial configura dentro dessa estrutura e vê as implicações de custo em tempo real, sem encaminhar cada estimativa de volta para as operações. Quando o cliente confirma, o projeto é gerado diretamente a partir da especificação. Nada precisa ser traduzido.",
+          "O feedback dos clientes de entregas anteriores é atribuído às etapas e componentes que o produziram, e fica junto ao resto do registro do cliente. Antes de cotar um engajamento similar, o comercial pode ver como entregas comparáveis anteriores se saíram. Ao falar com um cliente recorrente, a conversa está fundamentada no que realmente aconteceu."
+        ]
+      },
+      "marketing": {
+        "title": "Marketing",
+        "content": [
+          "A maioria do posicionamento de marketing é construída em suposições sobre no que a empresa é boa. No Merit, o marketing tem acesso ao registro real de execução: onde a organização se desempenha consistentemente bem, quais recursos e processos produzem os melhores resultados, e o que o feedback dos clientes diz em cada entrega. A mensagem pode ser fundamentada em pontos fortes demonstrados, não apenas afirmados.",
+          "O ciclo de feedback do CRM acrescenta outra dimensão. Como o feedback dos clientes é atribuído às etapas e componentes específicos de cada entrega, o marketing pode ver não apenas se os clientes ficaram satisfeitos, mas o que especificamente impulsionou essa satisfação. Com o tempo, padrões emergem que informam tanto o posicionamento quanto o tipo de trabalho que o negócio deveria buscar mais.",
+          "Isso conecta o marketing à estratégia. Quando os perfis de clientes-alvo são compreendidos em relação ao que a organização realmente entrega melhor, a lacuna entre o que o marketing promete e o que a entrega produz se estreita. O alinhamento ocorre nos dois sentidos: os dados de execução afinam a mensagem, e os perfis de clientes-alvo moldam o que a execução deve otimizar."
+        ]
+      },
+      "finance": {
+        "title": "Financeiro",
+        "content": [
+          "O financeiro normalmente recebe dados financeiros após o fato, em um formato que mostra o que foi gasto mas não por quê. Reconciliar o custo real com o plano do projeto significa voltar por sistemas separados para entender de onde a variância originou.",
+          "No Merit, o custo está incorporado no próprio registro de execução. Dados salariais, custos de materiais e tempo de execução ficam no mesmo modelo de processo que governa a entrega. Fórmulas podem combinar qualquer uma dessas fontes contra qualquer nó no modelo, de uma única etapa a um tipo de projeto inteiro, ao longo de qualquer período. O resultado é uma visão de custo que remonta diretamente a onde o dinheiro foi.",
+          "Como cada entrega agrega ao registro de execução, as previsões financeiras melhoram com o tempo. As estimativas para projetos futuros baseiam-se no histórico real de entrega, para que a lacuna entre o plano e o custo final se estreite à medida que o registro cresce. O financeiro não está esperando pelo fim do mês para ver onde os projetos estão. A visão é ao vivo."
+        ]
+      }
+    }
+  },
+  "useCases": {
+    "intro": {
+      "title": "Onde o Merit Entrega Resultados",
+      "content": [
+        "Cada organização é diferente. Mas o valor de poder se unir em torno de uma perspectiva compartilhada é universal.",
+        "O Merit é projetado para se adaptar a ecossistemas complexos, trazendo visibilidade, alinhamento e insight para setores onde os resultados dependem de coordenação, precisão e desempenho em escala.",
+        "Explore como o Merit apoia sistemas de trabalho mais inteligentes nos principais setores."
+      ]
+    },
+    "sections": {
+      "manufacturing": {
+        "title": "Manufatura",
+        "content": [
+          "Processos complexos, ferramentas fragmentadas e operações com uso intensivo de recursos tornam a visibilidade e a coordenação um desafio diário na manufatura.",
+          "O Merit unifica pessoas, materiais e fluxos de trabalho em um único sistema operacional, dando aos fabricantes insight em tempo real sobre a saúde dos processos, uso de recursos e desempenho de entrega.",
+          "Do chão de fábrica à cadeia de suprimentos, rastreie cada ação, revele cada gargalo e meça cada melhoria em uma única plataforma. Com o Merit, os times de manufatura podem otimizar continuamente os sistemas e alinhar o desempenho tanto aos objetivos estratégicos quanto ao trabalho da linha de frente."
+        ]
+      },
+      "construction": {
+        "title": "Construção Civil",
+        "content": [
+          "Possivelmente o ecossistema de entrega de produtos mais complexo que existe, reunindo enormes quantidades de materiais, regulamentações, habilidades e ambientes. Ainda assim, a maioria das empresas ainda opera com ferramentas fragmentadas e fluxos de trabalho desconectados, tornando a coordenação e a visibilidade um desafio constante.",
+          "O Merit oferece um sistema dinâmico para planejar, rastrear e melhorar a execução em todo o ciclo de vida do projeto. Da coordenação pré-obra à entrega no canteiro, os times podem alinhar funções, fluxos de trabalho e cronogramas em uma única plataforma, com documentação integrada, orçamentos e rastreamento de progresso.",
+          "Ao vincular planejamento e desempenho em tempo real, o Merit ajuda empresas de construção a reduzir retrabalho, controlar custos e entregar de forma mais previsível, mesmo conforme os projetos evoluem."
+        ]
+      },
+      "healthcare": {
+        "title": "Saúde",
+        "content": [
+          "Os resultados dos pacientes dependem de inúmeros fatores sutis, de comorbidades complexas a determinantes sociais, mas a maioria dos sistemas de saúde luta para conectar essas condições dos pacientes à prestação de cuidados e aos resultados de forma significativa.",
+          "O Merit captura a complexidade total dos perfis dos pacientes e rastreia como condições específicas interagem com processos de cuidado, prestadores e resultados. Em vez de reduzir os pacientes a métricas básicas, nossa plataforma modela as realidades sutis que realmente impulsionam a prestação de cuidados de saúde.",
+          "As equipes de saúde podem finalmente ver quais abordagens de cuidado funcionam melhor para populações específicas de pacientes, entender como as ações dos prestadores se conectam aos resultados e construir aprendizado organizacional sistemático a partir da experiência clínica. Ao vincular a complexidade do paciente à alocação de recursos e à prestação de cuidados, o Merit transforma o conhecimento institucional de intuição em inteligência acionável.",
+          "O resultado: decisões de cuidado mais personalizadas, melhor utilização de recursos e melhoria contínua com base no que realmente funciona para as populações de pacientes."
+        ]
+      },
+      "disasterManagement": {
+        "title": "Resposta a Incidentes",
+        "content": [
+          "Na resposta a incidentes, o tempo é a variável crítica. Quanto mais rápido uma resposta coordenada for mobilizada, melhor será o resultado. No entanto, a maioria das organizações perde tempo crítico exatamente no momento em que menos podem se dar ao luxo: montando um plano, identificando executores disponíveis e localizando equipamentos.",
+          "O Merit permite que as organizações construam esse plano com antecedência. Um processo mestre de resposta a incidentes é definido, executores pré-credenciados são vinculados e equipamentos e materiais são catalogados. No momento em que um incidente é declarado, o subconjunto relevante desse plano é instanciado, automaticamente preenchido com recursos disponíveis, e a resposta começa em minutos em vez de horas.",
+          "À medida que os executores completam cada etapa, o progresso é registrado no modelo de processo, fornecendo aos comandantes uma imagem continuamente atualizada da resposta sem depender de check-ins por rádio ou relatórios manuais.",
+          "Após o incidente, o registro de execução contribui para um conjunto de dados agregados. As lições aprendidas são incorporadas diretamente ao próximo plano de resposta, para que cada incidente deixe a organização mais bem preparada para o próximo, usando um plano de ação que pode ser aplicado em todo o mundo."
+        ]
+      },
+      "miningAndResources": {
+        "title": "Mineração e Recursos",
+        "content": [
+          "Os sites de mineração enfrentam desafios operacionais complexos onde segurança e conformidade não são negociáveis. No entanto, muitas equipes de mineração dependem de dados em silos e processos de documentação desatualizados, aumentando riscos e retardando a tomada de decisões.",
+          "O Merit oferece uma plataforma unificada com análises ricas que fornecem insights profundos sobre todos os aspectos das operações de mineração. Combinado com um poderoso sistema de controle de documentos, garante que os protocolos críticos de saúde e segurança estejam sempre atualizados, acessíveis e cumpridos.",
+          "Ao integrar dados em tempo real e documentação abrangente, o Merit permite que os gerentes de site identifiquem proativamente riscos, mitiguem perigos e mantenham a conformidade regulatória. Isso leva a ambientes de trabalho mais seguros e minimiza o tempo de inatividade causado por incidentes e paradas de maquinário.",
+          "Com o tempo, o Merit transforma dados operacionais e aprendizados documentados em inteligência acionável, ajudando as empresas de mineração a melhorar continuamente os padrões de segurança, otimizar fluxos de trabalho e proteger seu ativo mais valioso, sua força de trabalho."
+        ]
+      },
+      "agriculture": {
+        "title": "Agronegócio",
+        "content": [
+          "A agricultura envolve o gerenciamento de pessoas, maquinário e materiais em ambientes dinâmicos e muitas vezes imprevisíveis. Em um setor onde os custos não salariais, como maquinário, combustível, insumos e terra, representam uma parcela significativa dos custos operacionais, entender e otimizar como esses recursos são empregados é fundamental.",
+          "O Merit fornece um modelo de processo configurável contra o qual cada operação é executada. Ferramentas, materiais e pessoas são atribuídos às etapas do processo, permitindo um agendamento preciso, seleção mais inteligente entre insumos e melhoria contínua com base no que os dados mostram que realmente funciona. Na agricultura, onde os custos de maquinário e materiais pesam muito, essa otimização tem um impacto desproporcional nas margens.",
+          "Insumos ambientais como chuva e luz solar podem ser registrados ao lado de intervenções como fertilização, irrigação e tratamento de pragas, com a produção registrada como resultado. Com o tempo, padrões emergem entre insumos, intervenções e resultados, informando melhores decisões a cada ciclo. Onde várias operações compartilham um modelo de processo, essa inteligência se multiplica ainda mais.",
+          "Para organizações que compartilham recursos e conhecimento, o Merit fornece a infraestrutura operacional para tornar esse compartilhamento sistemático e baseado em dados."
+        ]
+      },
+      "publicInfrastructure": {
+        "title": "Infraestrutura Pública",
+        "content": [
+          "Projetos de infraestrutura governamental envolvem coordenação complexa de contratantes, materiais, processos regulatórios e cronogramas plurianuais, tudo sob intenso escrutínio público e requisitos de accountability.",
+          "O Merit oferece visibilidade unificada sobre a entrega de infraestrutura, desde o planejamento inicial até a conclusão. Seja na construção de estradas, escolas, serviços públicos ou instalações públicas, as agências podem rastrear como pessoas, processos e recursos fluem juntos para entregar infraestrutura pública crítica.",
+          "Com cada ação de contratante, entrega de material e marco de processo visível em uma única plataforma, as equipes governamentais ganham a transparência necessária para a responsabilidade pública, mantendo controle operacional sobre projetos complexos com múltiplos stakeholders.",
+          "O Merit permite que as agências governamentais entreguem infraestrutura de forma mais eficiente, demonstrem gestão responsável dos recursos públicos e incorporem melhoria sistemática em cada projeto, independentemente do tipo de infraestrutura sendo entregue."
+        ]
+      },
+      "consultingProfessionalServices": {
+        "title": "Consultoria / Serviços Profissionais",
+        "content": [
+          "Toda organização, independentemente do setor, fundamentalmente emprega processos, pessoas e inventário para entregar produtos. O Merit incorpora essa verdade universal, normalizando todas as entregas nesses fluxos operacionais centrais.",
+          "Para empresas de serviços profissionais, isso significa verdadeira fluência operacional entre domínios. Seja trabalhando com sistemas de saúde, plantas de manufatura ou instituições financeiras, o Merit fornece o mesmo framework porque você está sempre lidando com os mesmos blocos de construção organizacionais fundamentais, apenas configurados de forma diferente.",
+          "Isso elimina a curva de aprendizado típica de entender nuances e terminologias específicas do setor. Os consultores podem transitar fluidamente entre contextos de clientes porque o Merit abstrai a complexidade do domínio, permitindo que você foque em otimizar a mecânica operacional subjacente que é consistente em todas as organizações.",
+          "Do escopo do cliente ao rastreamento da execução, o Merit permite que empresas de serviços profissionais operem com a mesma eficiência e expertise em cada engajamento, independentemente do setor ou domínio do cliente."
+        ]
+      }
+    }
+  },
+  "demoRequest": {
+    "heading": "Veja como o Merit traz clareza para a forma como o trabalho realmente acontece.",
+    "body1": "Entenda como unificamos execução, insight e melhoria em um único sistema operacional.",
+    "body2": "Seja você liderando a estratégia ou gerenciando a entrega, o Merit oferece a visibilidade para agir com confiança e a estrutura para escalar de forma mais inteligente.",
+    "bullets": ["Veja o Merit em ação", "Receba uma demo personalizada", "Experimente o poder do Merit"],
+    "formTitle": "Agendar uma Demo",
+    "formSubtitle": "Preencha o formulário e um membro da nossa equipe entrará em contato para agendar uma demonstração da plataforma no momento mais conveniente para você.",
+    "formSubject": "Solicitação de Demo"
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Sobre o Merit",
+      "subtitle": "A infraestrutura que torna a contribuição visível, mede o desempenho e torna a recompensa justa."
+    },
+    "body": "O Merit existe para conectar execução a resultados em todas as funções. Quando o trabalho é transparente e a contribuição é rastreável, as organizações param de depender de relacionamentos e política para avaliar desempenho. Os resultados falam por si.",
+    "vision": {
+      "title": "Nossa Visão",
+      "content": "Organizações onde os incentivos se alinham, as oportunidades são iguais e a melhoria é mensurável e real."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "content": "Entregar uma plataforma de execução unificada que torna o trabalho transparente, elimina a sobrecarga de coordenação e dá a cada time os dados para agir com confiança."
+    },
+    "sections": {
+      "origin": {
+        "title": "Como Tudo Começou",
+        "content": [
+          "O Merit começou como uma pergunta: como mapear um ecossistema de genuína complexidade de uma forma que seja realmente significativa? A resposta surgiu de uma observação simples: toda entrega, independentemente de escala ou complexidade, é a soma de muitas etapas. Em cada etapa, as pessoas usam ferramentas e trabalham materiais em um produto a caminho da conclusão. Essa estrutura se torna o projeto. O processo de cada entrega é um subconjunto dele, que podemos rastrear, medir e avaliar. Dessa base simples, evoluiu uma perspectiva robusta sobre os fundamentos de como toda organização funciona."
+        ]
+      },
+      "definition": {
+        "title": "O Que Merit Significa",
+        "content": [
+          "Mérito, para nós, não é um padrão fixo. É o que uma organização e seus clientes decidem valorizar. Velocidade, carbono, custo, qualidade, segurança: o peso que cada um carrega é uma escolha, e essa escolha pertence à organização. Uma vez que essas escolhas são expressas como critérios mensuráveis ao longo do processo de entrega, as ferramentas, pessoas e materiais que melhor se saem em relação a elas tornam-se visíveis. Podem ser selecionados, desenvolvidos e celebrados. E todo contribuidor no ecossistema, de executores individuais a fabricantes de ferramentas e fornecedores de materiais, entende que a recompensa está ligada ao desempenho em relação a esses critérios. A estratégia racional se torna otimização, não proximidade com os tomadores de decisão."
+        ]
+      }
+    },
+    "contact": {
+      "heading": "Fale conosco.",
+      "body": "Respondemos a cada solicitação diretamente. Conte-nos sobre o que você está trabalhando e seguiremos a partir daí.",
+      "formTitle": "Fale Conosco",
+      "formSubject": "Contato Geral",
+      "formSubtitle": "Preencha o formulário e um membro da nossa equipe entrará em contato para discutir sua solicitação."
+    }
+  },
+  "resources": {
+    "intro": {
+      "title": "Insights e Notícias do Merit",
+      "content": [
+        "Explore como as organizações estão construindo sistemas de trabalho mais inteligentes com o Merit.",
+        "De histórias de sucesso de clientes a insights estratégicos e atualizações de produto, aqui compartilhamos o que está funcionando, o que está evoluindo e o que vem a seguir em inteligência operacional."
+      ]
+    },
+    "tabs": {
+      "all": "Todo o Conteúdo",
+      "blog": "Blog do Merit",
+      "caseStudies": "Estudos de Caso",
+      "pressReleases": "Comunicados de Imprensa",
+      "productUpdates": "Atualizações do Produto"
+    }
+  }
+}

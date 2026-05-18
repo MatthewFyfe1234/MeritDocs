@@ -6,7 +6,7 @@ const pillars = [
     Icon: Activity,
     stage: 'VP of Operations',
     title: 'Shop floor visibility, not a rearview mirror',
-    text: 'Capacity is modelled in real time across people, skills, and production slots, not compiled manually from disconnected systems at month-end. Leadership, sales, and project management all see the same picture.',
+    text: 'Capacity is modelled in real time across people, skills, and production slots - not compiled manually from disconnected systems at month-end. Performance is measured comparatively across operators, teams, and process configurations, so management knows where to direct critical work. Leadership, sales, and project management all see the same picture.',
     isAccent: false,
   },
   {
@@ -19,8 +19,8 @@ const pillars = [
   {
     Icon: TrendingUp,
     stage: 'Sales / Estimator',
-    title: 'Every job sharpens the next quote',
-    text: 'Historical performance flows back into estimates automatically. Quotes are anchored in what past jobs actually cost and how long they took, not in memory or a file no one else can find. Bid faster, bid more, without adding headcount.',
+    title: 'Every job improves what follows',
+    text: 'Every completed job adds to the aggregate. Step durations, operator performance, and cost actuals accumulate across the platform. Estimates and schedules for each new project draw on the full history of everything before it - not memory, not a spreadsheet, not just the last job. The more jobs in the system, the sharper every subsequent forecast.',
     isAccent: true,
   },
 ];
