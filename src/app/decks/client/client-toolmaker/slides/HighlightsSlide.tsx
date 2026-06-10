@@ -3,7 +3,7 @@ import { SlideLayout } from '@/components/slides/SlideLayout';
 const toOperator = [
   {
     label: 'Executable Process',
-    detail: 'What is the process, how long will it take, which team members have the experience to carry it out - and when does it fit in the schedule. A full project management tool, driven by your process definition.',
+    detail: 'What is the process, how long will it take, which team members have the experience to carry it out - and when does it fit in the schedule. Scheduling, route planning, workforce allocation, document control, and compliance record - all driven by your process definition.',
   },
   {
     label: 'Knowledge That Stays',
@@ -26,7 +26,7 @@ const toManufacturer = [
   },
   {
     label: 'Design Feedback',
-    detail: 'Deviations, failure patterns, and configuration drift feed directly into the next product generation.',
+    detail: 'Deviations, failure patterns, and configuration drift feed directly into the next product generation. Where operators consistently adapt the prescribed sequence, the adaptation is visible. Where failures cluster around specific operating conditions, the pattern is in the data before it reaches warranty. The roadmap is informed by actual field operation, not assumed use cases.',
   },
 ];
 

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { deck as offsiteStrategy } from './decks/strategic/offsite-strategy';
 import { deck as productOverview } from './decks/strategic/product-overview';
+import { deck as stateAttenuation } from './decks/strategic/state-attenuation';
+import { deck as associationModel } from './decks/strategic/association-model';
 import { deck as clientOverview } from './decks/client/client-overview';
 import { deck as clientOffsite } from './decks/client/client-offsite';
 import { deck as clientDeveloper } from './decks/client/client-developer';
@@ -11,16 +13,47 @@ import { deck as clientOutbreakResponse } from './decks/client/client-outbreak-r
 import { deck as clientOffsiteTimber } from './decks/client/client-offsite-timber';
 import { deck as clientToolmaker } from './decks/client/client-toolmaker';
 import { deck as clientMunicipal } from './decks/client/client-municipal';
+import { deck as clientSoftware } from './decks/client/client-software';
+import { deck as clientBos } from './decks/client/client-bos';
+import { deck as clientFtma } from './decks/client/client-ftma';
 import { presentationFolder, businessCard, flyer } from './documents';
 import { PresentationDeck } from './components/PresentationDeck';
+import { NotesDeck } from './components/NotesDeck';
 import { ExportLayout } from './components/ExportLayout';
 import { DocumentViewer } from './components/DocumentViewer';
 import { DeckSelector } from './components/DeckSelector';
-import type { DeckConfig, NamedVariation } from './types';
+import { VideoEditor } from './components/video/VideoEditor';
+import { video as mewpLiability } from './videos/mewp-liability';
+import { video as gettingToTheRoot } from './videos/getting-to-the-root';
+import { sticknotes as offsiteStructural } from './sticknotes/offsite-structural';
+import type { DeckConfig, NamedVariation, StickNotesConfig, VideoConfig } from './types';
+
+const sticknotesDeck: Record<string, StickNotesConfig> = {
+  'offsite-structural': offsiteStructural,
+};
+
+const sticknotesEntries = Object.entries(sticknotesDeck).map(([key, sticknotes]) => ({ key, sticknotes }));
+
+const videos: Record<string, VideoConfig> = {
+  'mewp-liability': mewpLiability,
+  'getting-to-the-root': gettingToTheRoot,
+};
+
+const videoGroups = [
+  {
+    label: 'Reports',
+    entries: [
+      { key: 'mewp-liability', video: mewpLiability },
+      { key: 'getting-to-the-root', video: gettingToTheRoot },
+    ],
+  },
+];
 
 const decks: Record<string, DeckConfig> = {
   'offsite-strategy':       offsiteStrategy,
   'product-overview':       productOverview,
+  'state-attenuation':      stateAttenuation,
+  'association-model':      associationModel,
   'client-overview':        clientOverview,
   'client-offsite':         clientOffsite,
   'client-developer':       clientDeveloper,
@@ -31,6 +64,9 @@ const decks: Record<string, DeckConfig> = {
   'client-offsite-timber':  clientOffsiteTimber,
   'client-toolmaker':       clientToolmaker,
   'client-municipal':       clientMunicipal,
+  'client-software':        clientSoftware,
+  'client-bos':             clientBos,
+  'client-ftma':            clientFtma,
 };
 
 const documents = {
@@ -45,6 +81,8 @@ const deckGroups = [
     entries: [
       { key: 'offsite-strategy',  deck: offsiteStrategy },
       { key: 'product-overview',  deck: productOverview },
+      { key: 'state-attenuation', deck: stateAttenuation },
+      { key: 'association-model', deck: associationModel },
     ],
   },
   {
@@ -60,6 +98,9 @@ const deckGroups = [
       { key: 'client-offsite-timber',   deck: clientOffsiteTimber },
       { key: 'client-toolmaker',        deck: clientToolmaker },
       { key: 'client-municipal',        deck: clientMunicipal },
+      { key: 'client-software',         deck: clientSoftware },
+      { key: 'client-bos',              deck: clientBos },
+      { key: 'client-ftma',             deck: clientFtma },
     ],
   },
 ];
@@ -81,6 +122,18 @@ export default function App() {
   const docKey = params.get('doc') as keyof typeof documents | null;
   if (docKey && docKey in documents) {
     return <DocumentViewer document={documents[docKey]} />;
+  }
+
+  // Video view
+  const videoKey = params.get('video');
+  if (videoKey && videoKey in videos) {
+    return <VideoEditor video={videos[videoKey]} />;
+  }
+
+  // Sticknotes view
+  const sticknotesKey = params.get('sticknotes');
+  if (sticknotesKey && sticknotesKey in sticknotesDeck) {
+    return <NotesDeck sticknotes={sticknotesDeck[sticknotesKey]} />;
   }
 
   const deckKey = params.get('deck');
@@ -119,6 +172,12 @@ export default function App() {
     saveVariations(updated);
   };
 
+  const handleUpdateVariation = (id: string, name: string, config: Record<string, string>) => {
+    const updated = variations.map(v => v.id === id ? { ...v, name, config } : v);
+    setVariations(updated);
+    saveVariations(updated);
+  };
+
   // No deck selected, or configurable deck without a variation — show selector
   if (!deckKey || !decks[deckKey] || (decks[deckKey].variantSlots && !variation)) {
     return (
@@ -132,7 +191,15 @@ export default function App() {
           const search = new URLSearchParams({ deck: v.deckKey, var: v.id });
           window.location.search = search.toString();
         }}
+        onUpdateVariation={handleUpdateVariation}
         onDeleteVariation={handleDeleteVariation}
+        videoGroups={videoGroups}
+        onOpenVideo={(key) => { window.location.search = new URLSearchParams({ video: key }).toString(); }}
+        sticknotesEntries={sticknotesEntries}
+        onOpenSticknotes={(key) => {
+          const url = `${window.location.pathname}?sticknotes=${key}`;
+          window.open(url, '_blank', 'width=480,height=900,resizable=yes');
+        }}
       />
     );
   }

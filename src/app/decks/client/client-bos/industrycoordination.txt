@@ -1,0 +1,142 @@
+The evidence that individual companies cannot solve these problems alone is robust, spanning government-commissioned reviews, parliamentary inquiries, academic research, and industry body publications. Below is a structured evidence base for your slide, with each finding tied to a specific source.
+
+1. Coordination Failures: Fragmented Procurement & Collaboration Deficits
+Fragmentation of industry structure and knowledge sharing
+
+A 2019 BSI whitepaper (commissioned in partnership with industry) found that the construction sector, including the offsite sector, does not share knowledge and expertise sufficiently well and thus does not capture learnings effectively. The report noted that elements of offsite components are often subject to IP, so the composition of elements is not shared, which was considered a potential concern regarding behavioural aspects such as fire performance. Further, there is a lack of standardised connections across different manufacturers, which exists even across systems of the same material, particularly affecting onsite assembly teams.
+
+The House of Commons Housing, Communities and Local Government Committee concluded that the fragmentation of the construction industry makes it difficult for all parties—client, designer and contractors—to be involved from the outset, a problem that no single firm can resolve.
+
+Supplier insolvency and lack of interoperability
+
+A written evidence submission to Parliament (by Akerlof Ltd, under DLUHC commission) notes that the perceived lack of interoperability across the sector adds to the risk profile, with concerns from both lenders and developers regarding the lack of alternative like-for-like solutions in the event a supplier insolvency. This risk is compounded by the high-profile demise of several modular providers such as Caledonian, Urban Splash, Eco Modular, Ilke Homes, L&G and M-A-R.
+
+A 2026 report on digital collaboration notes that a "kit of parts" approach is needed because the lack of interchangeability between products and systems is an industry problem, with different suppliers working to different tolerances and standards. This has been described as akin to "running a car factory where every car is built differently."
+
+Late engagement and design freeze
+
+The Construction News expert panel (2023) reported that contractors are brought into schemes too late—Sir Robert McAlpine’s head of MMC notes they get 80% of schemes at RIBA Stage 3, by which point 70% of the opportunity to influence design has been lost. This is a systemic procurement behaviour that no single contractor can remedy.
+
+The Offsite Alliance’s written evidence to Parliament (126656) identifies "deeply flawed procurement practices, onerous contractual terms that shift undue risk down the supply chain, acute labour shortages, and a prevailing deficiency in commitment, collaboration, and communication among housing providers and local authorities."
+
+Contract law inadequacy for offsite methods
+
+A 2020 legal analysis in Building magazine finds that the Construction Act 1996 sits uneasily with modular construction, raising fundamental questions about whether fabrication work constitutes "construction operations." This creates a hybrid payment regime that one judge described as "uncommercial, unsatisfactory and a recipe for confusion." No individual manufacturer can resolve this statutory ambiguity.
+
+Legal commentary on the Construction Playbook (2020) notes that "the current construction standard forms do not adequately reflect MMC… We can try and squidge MMC into an unamended standard form, but that will leave serious issues unresolved and risks not properly allocated."
+
+Regional fragmentation of public sector demand
+
+Evidence submitted to Parliament highlights that the public sector housing market is fragmented across 353 local authorities and 1,594 Registered Providers, making consistent demand aggregation impossible for any single manufacturer to achieve alone.
+
+2. Standards & Assurance Gaps
+Absence of industry-wide MMC standards
+
+A 2021 Construction Management article states that "standards can't be set until sufficient work has been done to establish what is and isn't achievable. But because standards haven't been set, there remains a barrier to investing in greater volumes of MMC work." The article emphasises that "the onus (and risk) has so far fallen on pioneering independents"—an impossible burden for individual companies to bear.
+
+The BSI acknowledged in 2021 that "well defined standards can help to maximise the benefits of offsite construction, and BSI is working with the industry to identify the necessary measures," indicating that this is a collective industry undertaking, not a firm-level problem.
+
+Warranty fragmentation across providers
+
+Warranty providers currently use different standards for their assessment of homes, making it difficult to know what these homes have been tested for. Industry bodies including NHBC have signed a memorandum of understanding to work towards a shared standard—explicit recognition that individual providers cannot solve this alone.
+
+A 2023 surveyor report noted that "the quality assurance that mortgage lenders require did not seem to be available, and the position of warranty providers and the Build Offsite Property Assurance Scheme was unclear to consumers and lenders alike."
+
+Digital interoperability failures
+
+A 2026 industry analysis concludes that the problem is not technology but trust: "Advanced BIM platforms and interoperable data formats allow entire buildings to be modelled with precision. However, these tools can remain underused due to a lack of trust between project partners. Digital files are often handed over weighed down by caveats and disclaimers that lead to rework, delay and wasted effort… One panellist explained: 'This is less of a technology issue and more a cultural one. Until we see more shared responsibility and earlier collaboration, those tools remain underused.'"
+
+The failure of the UK BIM mandate demonstrates that government mandates alone cannot solve interoperability: "Insufficient FM involvement in setting out requirements and defining asset information needs resulted in ineffective data handovers, failing to bridge the gap between construction and operations… The BIM mandate largely failed in this regard, with project data rarely exploited by asset management or FM teams."
+
+3. Trust & Financing Barriers
+Confidence deficit and reputational issues
+
+Akerlof’s research for DLUHC (drawing on the Housing, Communities and Local Government Committee’s 2019 MMC Review) found that "there is a confidence deficit in MMC for housebuilding, linked to long-standing reputational issues. The recent demise of several modular providers has further heightened a perception of risk." Perception issues cannot be addressed by any single manufacturer, particularly when failures by one firm affect the entire sector’s reputation.
+
+A 2024 RIBA market analysis notes that high-profile failures such as Ilke Homes, Legal & General Modular, Modulous, Urban Splash Modular, Lighthouse and Swan Modular Homes mean that "confidence in MMC more widely is likely to be dented. Perceptions matter often more than fact." When a major investor like L&G "with an ample supply of patient money, can't make it work, who can?"
+
+Mortgage lending and valuation failures
+
+The Building Societies Association (BSA) written evidence (2018) identified that lenders’ primary concerns are "the accurate valuation of properties using MMC and the existing provision of building warranties." Key findings included: "there is a lack of information and comparable evidence for MMC properties… some construction methods are so new there is little or no historical data demonstrating how they will age and their likely lifespan."
+
+The BSA’s recommendations explicitly call for collective solutions: "an MMC hub to provide a single point of factual reliable information… a property logbook for homes… standardisation of terminology—the offsite industry should be looking at where it can collaborate to standardise systems. This will make it far easier for other sectors, including lenders, to quickly understand and underwrite the risk."
+
+UK Finance (November 2023), representing 75% of UK mortgage lending, confirmed lenders evaluate MMC on a case-by-case basis, but acknowledged "the relative complexities of Category 1 construction methods may make it harder for these criteria to be met" and that lenders would "put in place an increased level of scrutiny for all categories of MMC, especially those which are fairly innovative or not widely used."
+
+4. Systemic Supply Chain & Skills Issues
+Cross-industry skills shortage
+
+A 2026 CITB report (Industry Picture 2026) warns that the skills gap is structural, not temporary, and can only be overcome with widespread industry collaboration. Key findings: fewer people are available to the industry; demand for construction skills is growing faster than supply; too many workers leave the industry too soon; current productivity levels are insufficient to offset worker shortages. CITB’s head of industry analysis states: "The evidence is undeniable: a cross-industry solution is the only option to solve the workforce challenge."
+
+Productivity decline
+
+The Construction Productivity Taskforce found that construction productivity fell by an average of -0.6% each year between 1997 and 2019. A one percent improvement across the industry can make a huge difference, but this requires industry-wide coordination, not firm-level action.
+
+Academic research (Offsite HUB Scotland, 2018) confirms that UK construction productivity is regarded as weak, with low skills levels considered a key contributory factor, and offsite construction has been identified by UK Government as a vehicle for improving productivity only if "skills deficiencies in this particular market segment can be addressed" through collaborative frameworks.
+
+BUILDOFFSITE’s own diagnosis
+
+BUILDOFFSITE’s response to the 2025 UK Industrial Strategy states: "Traditional construction practices—fragmented, on-site, and labour-dependent—introduce systemic risk: inconsistent quality, snagging, material waste and variable workmanship; complex, hard-to-monitor supply chains; limited traceability or assurance of safety and durability." The organisation explicitly calls for assurance schemes like BOPAS and standards like PAS 8700 to be recognised in national policy—recognition that collective frameworks are the only solution.
+
+The BUILDOFFSITE website states its mission as providing "Insight. Evidence. Collaboration" and that "to deliver safe, sustainable, and scalable homes and infrastructure, offsite must move from exception to expectation"—a goal that by definition requires coordination beyond individual firms.
+
+This evidence base demonstrates that standards cannot be set unilaterally, warranties cannot be harmonised by individual providers, interoperability cannot be achieved by proprietary systems, supply chain risks cannot be managed by single contractors, trust cannot be restored by isolated successes, and the skills crisis cannot be solved by any one employer. These are collective action problems that require the coordinating role of a trade association.
+
+
+Government & Parliamentary
+
+House of Commons Housing, Communities and Local Government Committee – MMC Review (2019)
+
+Akerlof Ltd / DLUHC – Written evidence to Parliament on MMC and offsite construction (undated, commissioned c.2021–2022)
+
+DLUHC / Akerlof – Confidence deficit research (2022)
+
+Construction Productivity Taskforce – UK construction productivity report (2019)
+
+UK Industrial Strategy – BUILDOFFSITE response (2025)
+
+CITB – Industry Picture 2026 (2026)
+
+Industry bodies & trade associations
+
+BSI – Whitepaper on offsite construction and knowledge sharing (2019)
+
+BSI – Standards development for offsite construction (2021)
+
+BUILDOFFSITE – Website mission statement (current)
+
+BUILDOFFSITE – Response to UK Industrial Strategy (2025)
+
+Offsite Alliance – Written evidence to Parliament (ref. 126656) (2021–2022)
+
+NHBC – Memorandum of understanding on warranty standards (c.2021)
+
+Building Societies Association (BSA) – Written evidence on MMC lending (2018)
+
+UK Finance – MMC mortgage lending guidance (November 2023)
+
+RIBA – Market analysis on MMC confidence (2024)
+
+Academic & research
+
+Offsite HUB Scotland – Academic research on UK construction productivity and skills (2018)
+
+Legal & professional publications
+
+Building magazine – Legal analysis of Construction Act 1996 and modular construction (2020)
+
+Construction News – Expert panel on late engagement and design freeze (2023)
+
+Construction Management – Article on MMC standards barriers (2021)
+
+Surveyor report – Warranty and lender assurance (2023)
+
+Digital & interoperability reports
+
+Industry analysis on digital collaboration and BIM interoperability (2026) – described as "2026 industry analysis" / "2026 report on digital collaboration"
+
+Other
+
+Written evidence to Parliament (Akerlof Ltd, under DLUHC commission) – Supplier insolvency and interoperability (c.2022)
+
+Written evidence to Parliament (Offsite Alliance) – Procurement practices and contractual risk (ref. 126656)

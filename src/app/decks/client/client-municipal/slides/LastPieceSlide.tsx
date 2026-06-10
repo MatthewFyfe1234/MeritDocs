@@ -71,7 +71,7 @@ export function LastPieceSlide() {
             </div>
             <div className="w-full h-px shrink-0" style={{ backgroundColor: 'var(--slide-accent)', opacity: 0.2 }} />
             <div className="text-xs leading-relaxed" style={{ color: 'var(--slide-text)', opacity: 0.55 }}>
-              Every platform tracks the machine. None verify whether the prescribed procedure was followed. ClearSky shows a fault code. Terberg Connect replicates the dashboard. Samsara aggregates the location. Not one records what the operator actually did - the only evidence that matters when the contract is disputed.
+              Every platform tracks the machine. None verify whether the prescribed procedure was followed. ClearSky shows a fault code. Terberg Connect replicates the dashboard. Samsara aggregates the location. Not one records what the operator actually did - the only evidence that matters when the contract is disputed, let alone uses that same record to drive route planning, scheduling, and document control.
             </div>
             <div className="flex flex-col gap-1 mt-1">
               <div className="text-xs leading-snug" style={{ color: 'var(--slide-text)', opacity: 0.4 }}>

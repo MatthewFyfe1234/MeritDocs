@@ -51,7 +51,7 @@ export function ValueCaptureSlide() {
       title="From the Tool to the Whole Job"
       subtitle="Your tool represents a fraction of the cost of every job it runs. Entry to process and orchestration changes the value proposition entirely."
     >
-      <div className="flex-1 min-h-0 flex items-center justify-center">
+      <div className="flex-1 min-h-0 flex flex-col items-center justify-center gap-3">
         <svg viewBox={`0 0 ${vW} ${vH}`} style={{ width: '100%', height: '100%' }}>
 
           {/* Bar segments */}
@@ -151,17 +151,13 @@ export function ValueCaptureSlide() {
             );
           })}
 
-          {/* Indicative note */}
-          <text x={vW / 2} y={vH - 2} textAnchor="middle" fontSize="5.5">
-            <tspan fill="var(--slide-text)" opacity="0.28">Indicative, based on sector data across mining, construction, and drilling operations </tspan>
-            <tspan fill="var(--slide-accent)" fontWeight="600" opacity="0.7">[4]</tspan>
-            <tspan fill="var(--slide-accent)" fontWeight="600" opacity="0.7">[5]</tspan>
-            <tspan fill="var(--slide-accent)" fontWeight="600" opacity="0.7">[6]</tspan>
-            <tspan fill="var(--slide-accent)" fontWeight="600" opacity="0.7">[7]</tspan>
-            <tspan fill="var(--slide-text)" opacity="0.28">.</tspan>
-          </text>
-
         </svg>
+        <p className="text-center text-xs" style={{ color: 'var(--slide-text)', opacity: 0.6 }}>
+          Merit enables you to operate across every component on the stack.
+        </p>
+        <p className="text-center" style={{ fontSize: '0.6rem', color: 'var(--slide-text)', opacity: 0.25 }}>
+          Indicative, based on sector data across mining, construction, and drilling operations [4][5][6][7].
+        </p>
       </div>
     </SlideLayout>
   );

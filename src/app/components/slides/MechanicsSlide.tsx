@@ -1,4 +1,3 @@
-import { Layers } from 'lucide-react';
 import { SlideLayout } from './SlideLayout';
 
 interface Props {
@@ -8,7 +7,6 @@ interface Props {
   subNodeSubtexts?: [string | undefined, string | undefined, string | undefined];
   stackLabel?: string;
   supportLabel?: [string, string];
-  supportLabel2?: [string, string];
   datasetTitle?: [string, string];
   datasetDescription?: [string, string];
   labelExecutes?: string;
@@ -62,7 +60,6 @@ export function MechanicsSlide({
   subNodeSubtexts,
   stackLabel = 'Project',
   supportLabel = ['Support', 'Functions'],
-  supportLabel2 = ['Next Gen', 'Design'],
   datasetTitle = ['Aggregated', 'Dataset'],
   datasetDescription = ['One connected', 'operational picture'],
   labelExecutes = 'executes',
@@ -174,25 +171,21 @@ export function MechanicsSlide({
           {/* Aggregated Dataset */}
           <rect x={datasetX} y={datasetY} width={datasetW} height={datasetH} rx="8"
             fill="var(--slide-bg-accent-muted)" stroke="var(--slide-accent)" strokeWidth="2" />
-          <foreignObject x={datasetX} y={datasetY} width={datasetW} height={datasetH}>
-            {/* @ts-ignore */}
-            <div xmlns="http://www.w3.org/1999/xhtml" style={{
-              width: '100%', height: '100%',
-              display: 'flex', flexDirection: 'row',
-              alignItems: 'center', justifyContent: 'center',
-              gap: '8px',
-            }}>
-              <div style={{ color: 'var(--slide-accent)', flexShrink: 0 }}>
-                <Layers size={16} strokeWidth={1.5} />
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1px' }}>
-                <div style={{ fontSize: '13px', fontWeight: 700, color: 'var(--slide-accent)', lineHeight: 1.2 }}>{datasetTitle[0]}</div>
-                <div style={{ fontSize: '13px', fontWeight: 700, color: 'var(--slide-accent)', lineHeight: 1.2 }}>{datasetTitle[1]}</div>
-                <div style={{ fontSize: '8.5px', color: 'var(--slide-text)', opacity: 0.6, marginTop: '2px' }}>{datasetDescription[0]}</div>
-                <div style={{ fontSize: '8.5px', color: 'var(--slide-text)', opacity: 0.6 }}>{datasetDescription[1]}</div>
-              </div>
-            </div>
-          </foreignObject>
+          {/* Layers icon as pure SVG paths, offset to visually center icon+text group */}
+          <g transform={`translate(${datasetX + 52}, ${datasetY + 37}) scale(0.6667)`}
+            fill="none" stroke="var(--slide-accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.9">
+            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+            <polyline points="2 17 12 22 22 17" />
+            <polyline points="2 12 12 17 22 12" />
+          </g>
+          <text x={datasetX + 76} y={datasetY + 30} textAnchor="start"
+            fontSize="13" fontWeight="700" fill="var(--slide-accent)">{datasetTitle[0]}</text>
+          <text x={datasetX + 76} y={datasetY + 46} textAnchor="start"
+            fontSize="13" fontWeight="700" fill="var(--slide-accent)">{datasetTitle[1]}</text>
+          <text x={datasetX + 76} y={datasetY + 57} textAnchor="start"
+            fontSize="8.5" fill="var(--slide-text)" opacity="0.6">{datasetDescription[0]}</text>
+          <text x={datasetX + 76} y={datasetY + 68} textAnchor="start"
+            fontSize="8.5" fill="var(--slide-text)" opacity="0.6">{datasetDescription[1]}</text>
 
           {/* Up arrow: dataset → support box */}
           <line x1="530" y1="140" x2="530" y2={upArrowEndY}

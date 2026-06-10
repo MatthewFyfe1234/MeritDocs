@@ -10,8 +10,8 @@ const toCity = [
     detail: 'Every technician works from the manufacturer\'s specification. The correct procedure is enforced, not advised. Deviations are recorded. The process lives in the platform - not in anyone\'s head. Staff turnover does not take the knowledge with it.',
   },
   {
-    label: 'Audit Trail',
-    detail: 'Every service event documented, with the crew who ran it. FOI-ready, audit-ready, and legally defensible - as a byproduct of normal operations, not additional overhead.',
+    label: 'Network Consistency',
+    detail: 'What the best technician does becomes what every technician does. Service quality is a system property, not an individual one.',
   },
 ];
 
@@ -25,8 +25,8 @@ const toManufacturer = [
     detail: 'Failure patterns visible before the claims arrive. Design feedback from real operational data rather than warranty logs and service reports.',
   },
   {
-    label: 'Network Consistency',
-    detail: 'What the best technician does becomes what every technician does. Service quality is a system property, not an individual one.',
+    label: 'Audit Trail',
+    detail: 'Every service event documented against your specification, with the crew who performed it. When warranty claims arrive, the record establishes whether procedure was followed - before it becomes a dispute.',
   },
 ];
 

@@ -2,9 +2,9 @@ import { SlideLayout } from '@/components/slides/SlideLayout';
 
 export function OriginGapSlide() {
   const vW = 660;
-  const vH = 290;
+  const vH = 300;
 
-  const toolBandTop = 14;
+  const toolBandTop = 24;
   const toolBandH = 120;
   const gapH = 20;
   const spineY = toolBandTop + toolBandH + gapH / 2;     // 144
@@ -94,9 +94,21 @@ export function OriginGapSlide() {
           <rect x={wallX1} y={processBandTop} width={wallX2 - wallX1} height={processBandH}
             fill="var(--slide-primary)" fillOpacity="0.05" />
 
-          {/* Spine */}
-          <line x1={lPad} y1={spineY} x2={rightEdge} y2={spineY}
+          {/* ── TIME AXES ── */}
+          <line x1={lPad} y1={toolBandTop - 10} x2={rightEdge - 6} y2={toolBandTop - 10}
             stroke="var(--slide-border-primary)" strokeWidth="0.6" opacity="0.4" />
+          <path d={`M ${rightEdge - 6} ${toolBandTop - 13} L ${rightEdge} ${toolBandTop - 10} L ${rightEdge - 6} ${toolBandTop - 7} Z`}
+            fill="var(--slide-border-primary)" opacity="0.5" />
+          <text x={lPad + 2} y={toolBandTop - 13} fontSize="5.5" fontWeight="600" letterSpacing="0.5"
+            fill="var(--slide-text)" opacity="0.3" textAnchor="start">Time</text>
+          <line x1={lPad} y1={spineY} x2={rightEdge - 6} y2={spineY}
+            stroke="var(--slide-border-primary)" strokeWidth="0.6" opacity="0.4" />
+          <line x1={lPad} y1={processBandTop + processBandH + 10} x2={rightEdge - 6} y2={processBandTop + processBandH + 10}
+            stroke="var(--slide-border-primary)" strokeWidth="0.6" opacity="0.4" />
+          <path d={`M ${rightEdge - 6} ${processBandTop + processBandH + 7} L ${rightEdge} ${processBandTop + processBandH + 10} L ${rightEdge - 6} ${processBandTop + processBandH + 13} Z`}
+            fill="var(--slide-border-primary)" opacity="0.5" />
+          <text x={lPad + 2} y={processBandTop + processBandH + 7} fontSize="5.5" fontWeight="600" letterSpacing="0.5"
+            fill="var(--slide-text)" opacity="0.3" textAnchor="start">Time</text>
 
           {/* ── WORKER ── */}
           <circle cx={origSmCx} cy={origSmCy} r={origSmR}
@@ -134,6 +146,8 @@ export function OriginGapSlide() {
           {/* ── TIMELINE ── */}
           <path d={`M ${rightEdge - 6} ${spineY - 3} L ${rightEdge} ${spineY} L ${rightEdge - 6} ${spineY + 3} Z`}
             fill="var(--slide-border-primary)" opacity="0.5" />
+          <text x={lPad + 2} y={spineY - 3} fontSize="5.5" fontWeight="600" letterSpacing="0.5"
+            fill="var(--slide-text)" opacity="0.3" textAnchor="start">Time</text>
 
           <line x1={formX} y1={toolBandTop} x2={formX} y2={processBandTop + processBandH}
             stroke="var(--slide-text)" strokeWidth="0.8" strokeDasharray="2,2" opacity="0.22" />
@@ -169,7 +183,7 @@ export function OriginGapSlide() {
 
           {/* ── MERIT ── */}
           <path
-            d={`M ${meritCx} ${mTop} A ${meritR} ${meritR} 0 0 0 ${meritCx} ${mBot} L ${rightEdge} ${mBot} L ${rightEdge} ${mTop} Z`}
+            d={`M ${meritCx} ${mTop} A ${meritR} ${meritR} 0 0 0 ${meritCx} ${mBot} L ${vW} ${mBot} L ${vW} ${mTop} Z`}
             fill="var(--slide-accent)" fillOpacity="0.05"
           />
           <path
@@ -177,9 +191,9 @@ export function OriginGapSlide() {
             fill="none"
             stroke="var(--slide-accent)" strokeWidth="1.5" strokeDasharray="5,3" strokeOpacity="0.65"
           />
-          <line x1={meritCx} y1={mTop} x2={rightEdge} y2={mTop}
+          <line x1={meritCx} y1={mTop} x2={vW} y2={mTop}
             stroke="var(--slide-accent)" strokeWidth="1.5" strokeDasharray="5,3" strokeOpacity="0.65" />
-          <line x1={meritCx} y1={mBot} x2={rightEdge} y2={mBot}
+          <line x1={meritCx} y1={mBot} x2={vW} y2={mBot}
             stroke="var(--slide-accent)" strokeWidth="1.5" strokeDasharray="5,3" strokeOpacity="0.65" />
           <text x={555} y={meritCy + 4}
             fontSize="11" fontWeight="700" fill="var(--slide-accent)" opacity="0.82" textAnchor="middle">Merit</text>

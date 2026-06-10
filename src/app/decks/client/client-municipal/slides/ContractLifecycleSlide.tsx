@@ -21,12 +21,12 @@ export function ContractLifecycleSlide() {
     {
       label: 'YEAR 1', sub: 'The Honeymoon',
       color: '#4E8B5F',
-      body: 'The contract is priced on standard assumptions - predicted duty cycles, estimated maintenance intervals, historical failure rates. The vehicle is under warranty. The model looks credible. The exposure is already built in.',
+      body: 'The contract is priced on standard assumptions - predicted duty cycles, estimated maintenance intervals, historical failure rates. The vehicle is under warranty. The numbers look solid. The exposure is already built in.',
     },
     {
       label: 'YEAR 2', sub: 'The Divergence',
       color: '#6B8C74',
-      body: 'Operator behaviour diverges from the assumed profile. Reactive maintenance replaces planned. Emergency parts cost more than stocked. The margin is leaving. Nothing in the record shows where it went.',
+      body: 'Operator behaviour diverges from the assumed profile. Reactive maintenance replaces planned. The margin is leaving. Nothing in the record shows where it went.',
     },
     {
       label: 'YEAR 3', sub: 'The Reckoning',
@@ -38,15 +38,15 @@ export function ContractLifecycleSlide() {
   const meritItems = [
     {
       val: 'Evidenced pricing',
-      desc: "The next contract starts from the last one's verified operational record. The assumptions that built the year 1 exposure are replaced with what actually happened.",
+      desc: "Your next contract starts from a demonstrable operational record - how the vehicles were operated, what failed, and what the cost pattern actually looked like. The price is a forecast built on evidence. The conversation with the client is specific: here is where the cost is going, and here is what drives it.",
     },
     {
       val: 'Attributable costs',
-      desc: 'Operator-induced failures are identified and documented before claims arrive. The margin absorbed in year 2 becomes excludable from the next price.',
+      desc: 'Where performance deviated from plan, the record says why. Operator-induced failures are identified and documented as they occur. The margin that eroded becomes attributable - to a driver, a route, a maintenance gap - rather than simply absorbed.',
     },
     {
       val: 'Defined renewal',
-      desc: 'Each contract leaves a verified record. Renewal is a data review, not a negotiation from scratch on the same assumptions.',
+      desc: 'Renewal enters with a shared verified record rather than competing recollections. Both parties read from the same dataset. The conversation is about what to do next, not about what happened.',
     },
   ];
 
@@ -124,10 +124,10 @@ export function ContractLifecycleSlide() {
           })}
 
           <line x1={statsX} y1={erosionDividerY} x2={statsX + statsW} y2={erosionDividerY}
-            stroke="var(--slide-border-primary)" strokeWidth="0.8" opacity="0.3" />
+            stroke="var(--slide-border-primary)" strokeWidth="2" opacity="0.7" />
 
           <text x={statsX + 4} y={erosionDividerY + 13} fontSize="11" fontWeight="700"
-            fill="var(--slide-accent)" opacity="0.85">{erosionTotal.stat}</text>
+            fill="var(--slide-primary)" opacity="0.75">{erosionTotal.stat}</text>
           <foreignObject x={statsX + 4} y={erosionDividerY + 16} width={statsW - 8} height={22}>
             <div
               // @ts-ignore

@@ -9,12 +9,12 @@ export function CapitalIntensiveValueCaptureSlide() {
   const barLeft = 165;
 
   const segments = [
-    { key: 'capital',   label: 'Capital / Equipment', pctLabel: '~45%', pct: 0.45 },
-    { key: 'fuel',      label: 'Fuel / Energy',        pctLabel: '~15%', pct: 0.15 },
-    { key: 'labour',    label: 'Operator labour',      pctLabel: '~15%', pct: 0.15 },
-    { key: 'maint',     label: 'Maintenance',          pctLabel: '~12%', pct: 0.12 },
-    { key: 'insurance', label: 'Insurance',            pctLabel: '~8%',  pct: 0.08 },
     { key: 'coord',     label: 'Coordination',         pctLabel: '~5%',  pct: 0.05 },
+    { key: 'insurance', label: 'Insurance',            pctLabel: '~8%',  pct: 0.08 },
+    { key: 'maint',     label: 'Maintenance',          pctLabel: '~12%', pct: 0.12 },
+    { key: 'labour',    label: 'Operator labour',      pctLabel: '~15%', pct: 0.15 },
+    { key: 'fuel',      label: 'Fuel / Energy',        pctLabel: '~15%', pct: 0.15 },
+    { key: 'capital',   label: 'Capital / Equipment',  pctLabel: '~45%', pct: 0.45 },
   ];
 
   let cy = barTop;
@@ -34,12 +34,12 @@ export function CapitalIntensiveValueCaptureSlide() {
     | { key: string; kind: 'you-are-here' };
 
   const annotations: Annotation[] = [
-    { key: 'capital',   kind: 'you-are-here' },
-    { key: 'fuel',      text: 'Return usage profiles - surface inefficient running and reduce consumption',   kind: 'normal' },
-    { key: 'labour',    text: 'Guide every operator through your specification - fewer deviations, more throughput', kind: 'normal' },
-    { key: 'maint',     text: 'Return failure patterns to predict and prevent - shift from reactive to planned',     kind: 'normal' },
-    { key: 'insurance', text: 'Issue a tamper-proof compliance record per job',                              kind: 'normal' },
     { key: 'coord',     text: 'Enforce process execution - eliminate coordination waste',                    kind: 'normal' },
+    { key: 'insurance', text: 'Issue a tamper-proof compliance record per job',                              kind: 'normal' },
+    { key: 'maint',     text: 'Return failure patterns to predict and prevent - shift from reactive to planned',     kind: 'normal' },
+    { key: 'labour',    text: 'Guide every operator through your specification - fewer deviations, more throughput', kind: 'normal' },
+    { key: 'fuel',      text: 'Return usage profiles - surface inefficient running and reduce consumption',   kind: 'normal' },
+    { key: 'capital',   kind: 'you-are-here' },
   ];
 
   const annX = barLeft + barW + 22;
@@ -51,7 +51,7 @@ export function CapitalIntensiveValueCaptureSlide() {
       title="From the Machine to the Whole Job"
       subtitle="Your equipment dominates the cost of every job it runs. The process layer makes that position defensible and gives you the data to improve it."
     >
-      <div className="flex-1 min-h-0 flex items-center justify-center">
+      <div className="flex-1 min-h-0 flex flex-col items-center justify-center gap-3">
         <svg viewBox={`0 0 ${vW} ${vH}`} style={{ width: '100%', height: '100%' }}>
 
           {/* Bar segments */}
@@ -141,12 +141,13 @@ export function CapitalIntensiveValueCaptureSlide() {
             );
           })}
 
-          {/* Indicative note */}
-          <text x={vW / 2} y={vH - 2} textAnchor="middle" fontSize="5.5">
-            <tspan fill="var(--slide-text)" opacity="0.28">Indicative, based on sector data across agricultural, forestry, and capital-intensive equipment operations.</tspan>
-          </text>
-
         </svg>
+        <p className="text-center text-xs" style={{ color: 'var(--slide-text)', opacity: 0.6 }}>
+          Merit enables you to operate across every component on the stack.
+        </p>
+        <p className="text-center" style={{ fontSize: '0.6rem', color: 'var(--slide-text)', opacity: 0.25 }}>
+          Indicative, based on sector data across agricultural, forestry, and capital-intensive equipment operations.
+        </p>
       </div>
     </SlideLayout>
   );

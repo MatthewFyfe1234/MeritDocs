@@ -1,0 +1,288 @@
+MERIT OI: OFFSITE CLIENT DECK
+==============================
+
+
+SLIDE 1 - COVER
+---------------
+Title:    One connected model of delivery
+Subtitle: A connected operations platform for offsite structural manufacturers
+
+
+SLIDE 2 - TYPICAL OFFSITE CONSTRUCTION WORKFLOW
+------------------------------------------------
+Title:    Typical Offsite Construction Workflow
+Subtitle: From client enquiry to site handover, across a consistent four-stage project structure
+
+Stages:
+
+  1. Sales and Estimation
+     Description: Initial client engagement, project scoping, and cost estimation, culminating
+                  in a priced proposal, agreed scope, and preliminary bill of materials (BOM).
+     Roles:       Estimator, Sales lead, Client
+     Outputs:     Quote / Proposal, Scope of Work, Preliminary BOM, Schedule Commitment
+
+  2. Design and Procurement
+     Description: Detailed engineering, BIM modelling, and material procurement. Fabrication
+                  drawings and shop documentation produced for the factory floor.
+     Roles:       Structural engineer, Drafter, Procurement manager
+     Outputs:     Fabrication Drawings, Full BOM, Shop Documentation, Purchase Orders
+
+  3. Fabrication
+     Description: Offsite manufacturing of structural components in a controlled factory
+                  environment, with quality control checks at each production stage.
+     Roles:       Factory manager, Production supervisor, QC inspector
+     Outputs:     Manufactured Components, QC Records, Assembly Instructions, Logistics Plan
+
+  4. Installation (Most commonly carried out by the construction team)
+     Description: On-site assembly of prefabricated components. Some companies provide full
+                  installation services; others deliver components only.
+     Roles:       Site foreman, Installation crew, Project manager
+     Outputs:     Installed Structure, As-Built Documentation, Punch List Sign-Off, Project Close-Out
+
+Key insight:
+  "The coordination problem: Each stage depends on the one before it, but the data rarely follows.
+  Commitments made in Sales are invisible to the factory. Decisions made in Design do not reach
+  Installation."
+
+
+SLIDE 3 - WHO FEELS THE PAIN
+-----------------------------
+Title:    Who Feels the Pain
+Subtitle: The roles who live the gap every day
+
+--- VP of Operations (The throughput owner) ---
+Day in the life:
+  "By the time I compile a capacity picture from multiple disconnected systems, it's already
+  obsolete. Our monthly close takes 15+ days. I'm navigating with a rearview mirror, not a
+  dashboard."
+Current tools: Spreadsheets, Procore, Sage
+Key pain points:
+  - 49% of firms forced to transfer data manually between applications, introducing high error
+    rates and latency (FMI/Autodesk) [1]
+  - Mid-sized fabricators average a 14-day month-end close - vs 4.8 days for top performers
+    (Numeric/APQC) [2]
+  - Over 50% of labor time in construction is classified as waste; only 43% of time is
+    productive, vs 88% in manufacturing (CII) [3]
+Business case:
+  Top performers close in 4.8 days vs. 14 for the industry average: the difference is
+  integrated, real-time data flow (Numeric/APQC). [2]
+
+--- Project Manager (The handoff coordinator) ---
+Day in the life:
+  "35% of my week - 14+ hours - goes to chasing drawings, BOMs, and delivery dates. Without a
+  central source of truth, coordinating handoffs is like herding cats."
+Current tools: Buildertrend, Smartsheet, Email / Teams
+Key pain points:
+  - 13 hours/week spent by construction professionals searching for project data (Autodesk) [4]
+  - 52% of rework caused by poor project data and miscommunication (Autodesk) [4]
+  - 14% of all construction rework globally is caused by bad data (Autodesk) [4]
+Business case:
+  Digital transformation increases productivity 14-15% and lowers costs 4-6% (McKinsey). [5]
+
+--- Sales / Estimator (The commitment maker) ---
+Day in the life:
+  "A single spreadsheet error throws off an entire quote. You win the job, then immediately
+  worry about delivery and the true cost. Everything I know about past jobs lives in my head
+  or a file no one else can find."
+Current tools: Excel, Autodesk CC, Email
+Key pain points:
+  - Improving estimating accuracy is the top-ranked strategic priority for construction firms
+    managing market volatility and margin pressure (KPMG 2023) [6]
+  - 99% of specialty contractors experience margin erosion during construction; average fade
+    is 5% of project value (Dodge/Procore) [7]
+Business case:
+  Integrated estimating linked to shop capacity: bid faster and bid more, without adding
+  headcount. [8]
+
+
+SLIDE 4 - THE CURRENT TOOL STACK
+----------------------------------
+Title:    The Current Tool Stack
+Subtitle: Replace the commodity layer, integrate with the specialist tools that stay
+
+Tools:
+
+  Excel / Spreadsheets [Replace] - All stages
+    The connective tissue of every stage, and the source of most data loss. No workflow
+    automation, version chaos across teams, and zero real-time visibility into project state.
+
+  FabTrol / Strumis [Replace] - Fabrication
+    Standalone production tracking for structural fabrication: material release, work orders,
+    QC, and shipping logs. Valuable on the shop floor, but siloed from sales, estimating, and
+    project management. Progress data never reaches the people who made the commitments.
+
+  Moducore [Replace] - Offsite ERP
+    Built for offsite production with CPQ and factory tracking. Project intelligence stays
+    trapped in the system: historical performance data does not feed back into estimates,
+    procurement, or HR. No cross-project learning mechanism.
+
+  Sage / QuickBooks / Xero [Integrate] - Finance
+    Job costs are tracked manually in spreadsheets and re-entered into the accounting system
+    at close. Merit OI handles job costing natively and passes actuals to Sage, QuickBooks,
+    or Xero throughout execution - not just at month end.
+
+  Revit / Tekla / AutoCAD [Integrate] - Design & Procurement
+    Powerful for drawing production and BIM, but outputs stay locked in the design tool. BOMs
+    and fabrication drawings are manually transferred, introducing errors at the most critical
+    handoff.
+
+  Buildertrend [Replace] - Sales / Site
+    Adequate for residential project tracking, but disconnected from design data and shop floor
+    reality. Gives the illusion of progress visibility without the substance.
+
+  Autodesk Construction Cloud [Replace] - Project Management / Site
+    Strong document management and project coordination for the site phase, but
+    construction-centric by design. Factory production is invisible to it, and estimating lives
+    in entirely separate systems. It solves information distribution only downstream of where
+    margin is actually won or lost.
+
+  Procore [Replace] - Installation
+    Excellent for site document control, but factory-blind. Merit OI covers site tracking,
+    document control, and progress reporting within the same integrated platform that runs your
+    factory, closing the gap between what is built and what is recorded on site.
+
+  MS Project / Smartsheet [Replace] - Project planning
+    Static plans that go stale the moment they are published. No live factory capacity data,
+    no connection to resource availability. Schedules are aspirational, not operational.
+
+Summary:
+  "The approach: Merit OI replaces the commodity tools that silo your data, and integrates
+  with the specialist systems - design and finance - that stay in place."
+
+
+SLIDE 5 - TODAY VS. WITH MERIT OI
+-----------------------------------
+Title:    Today vs. With Merit OI
+Subtitle: One connected system across your whole workflow
+
+TODAY - Fragmented across disconnected tools and teams
+
+  Sales & Estimation  |  Design & Procurement  |  Fabrication  |  Installation
+  Excel / Sheets          Tekla / Revit             ERP / Paper    Procore / Email
+  Manual                  File-based                Ad hoc         Disconnected
+  [Siloed]                [Siloed]                  [Siloed]       [Siloed]
+
+  Problem 1: The right information never reaches the right person
+    Revised drawings travel by email. Updated BOMs sit in shared drives. Change orders reach
+    some stakeholders and not others.
+
+  Problem 2: Delivery dates are set blind
+    The factory production queue is invisible to sales and project management. Commitments are
+    made without knowing what the shop floor can absorb.
+
+  Problem 3: Every project starts from scratch
+    Whether a project overruns or performs well, there is no mechanism to understand why.
+    Historical data stays locked in disconnected systems.
+
+WITH MERIT OI - One connected platform, from bid to handover
+
+  Sales & Estimation  |  Design & Procurement        |  Fabrication  |  Installation
+  Merit OI                Revit / Tekla + Merit OI      Merit OI        Merit OI
+  Capacity-led            Model-connected               Real-time       Progress live
+
+  Solution 1: The right information, to the right person
+    Documents are uploaded against specific process steps and available to all who need them.
+    Required documents gate stage progression.
+
+  Solution 2: Commitments the factory can keep
+    Resource planning models people, skills, and factory throughput in real time. Sales can
+    commit to dates the shop floor can actually meet.
+
+  Solution 3: Intelligence that compounds
+    Every completed project builds institutional knowledge. Historical data informs future
+    estimates, margin predictability improves with every job, and over time you see clearly
+    which operators, teams, and processes consistently outperform.
+
+
+SLIDE 6 - HOW IT WORKS
+------------------------
+Title:    How It Works
+Subtitle: Every project execution feeds a single aggregated dataset. Estimating, sales, and
+          management read from the same picture.
+
+Diagram nodes:
+  - Project Team / Inventory / Process (sub-nodes of the execution layer)
+  - Project (execution stack - stacked layers implying many projects)
+  - Aggregated Dataset ("One connected operational picture")
+  - Support Functions (informed by the dataset, which refines the execution layer)
+
+Flow labels:
+  executes  (Support Functions -> Project stack)
+  feeds     (Project stack -> Aggregated Dataset)
+  informs   (Aggregated Dataset -> Support Functions)
+  refines   (Support Functions -> execution layer)
+
+
+SLIDE 7 - WHAT MERIT OI DELIVERS
+----------------------------------
+Title: What Merit OI Delivers
+
+Value statement:
+  "Merit OI gives offsite structural fabricators one connected workflow that generates
+  deterministic cost and delivery forecasts at the point of spec, replacing the fragmented
+  tool stack that causes margin leakage and turning every completed project into sharper
+  estimates, more reliable commitments, and institutional knowledge that compounds."
+
+Three pillars:
+
+  VP of Operations - Shop floor visibility, not a rearview mirror
+    Capacity is modelled in real time across people, skills, and production slots - not
+    compiled manually from disconnected systems at month-end. Performance is measured
+    comparatively across operators, teams, and process configurations, so management knows
+    where to direct critical work. Leadership, sales, and project management all see the same
+    picture.
+
+  Project Manager - Handoffs that don't leak
+    Documents are attached to specific process steps and visible to everyone who needs them.
+    Delivery commitments reflect what the factory can actually absorb. No more chasing
+    drawings, BOMs, and dates across email threads and shared drives.
+
+  Sales / Estimator - Every job improves what follows
+    Every completed job adds to the aggregate. Step durations, operator performance, and cost
+    actuals accumulate across the platform. Estimates and schedules for each new project draw
+    on the full history of everything before it - not memory, not a spreadsheet, not just the
+    last job. The more jobs in the system, the sharper every subsequent forecast.
+
+
+SLIDE 8 - REFERENCES
+---------------------
+
+[1] FMI Corp / Autodesk
+    "Big Data and Digital Transformation in Construction"
+    Supports: 49% of firms forced to transfer data manually between applications; 35% of
+    professional time lost to non-optimal activities
+
+[2] Numeric / APQC
+    "How Long Does Month-End Close Take? Benchmarks & Analysis"
+    Supports: Top performers close in 4.8 days; mid-sized non-automated firms average 14 days
+
+[3] Lean Construction Institute (citing CII)
+    "Lean Construction / Integrated Project Delivery"
+    Supports: Over 50% of labor time in construction is waste; only 43% productive vs 88% in
+    manufacturing (CII benchmark)
+
+[4] Autodesk Construction Cloud
+    "100+ Construction Industry Statistics"
+    Supports: 13 hrs/week searching for data; 52% rework from miscommunication; 14% of all
+    rework globally caused by bad data (Autodesk/FMI primary study, 3,900+ global respondents)
+
+[5] McKinsey Global Institute
+    "Reinventing Construction through a Productivity Revolution"
+    Supports: Digital transformation (Technology and Innovation lever): 14-15% productivity
+    increase; 4-6% cost reduction. MGI Construction Productivity Survey, February 2017.
+
+[6] KPMG
+    "2023 Global Construction Survey: Familiar Challenges, New Solutions"
+    Supports: Improving estimating accuracy is the top-ranked priority for construction firms
+    addressing market volatility; 78% believe project risks are increasing. KPMG 14th global
+    E&C survey, ~300 firms.
+
+[7] Dodge Data & Analytics / Procore
+    "Top Business Issues for Specialty Contractors (2022)"
+    Supports: 99% of specialty contractors experience margin erosion during construction;
+    average margin fade is 5% of project value
+
+[8] SketchDeck
+    "The Ultimate Guide to Steel Estimating: Best Practices for Fabrication Success"
+    Supports: AI-powered takeoff: 50-80% reduction in takeoff time; 2-3x more bids with same
+    headcount. Note: vendor blog, consistent with independent MES/AI-takeoff research.

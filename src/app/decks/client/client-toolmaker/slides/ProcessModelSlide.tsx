@@ -3,7 +3,7 @@ import { MechanicsSlide as SharedMechanicsSlide } from '@/components/slides/Mech
 export function ProcessModelSlide() {
   return (
     <SharedMechanicsSlide
-      title="The Process Model"
+      title="The Merit Model"
       subtitle="Each job is an execution of a subset of the master process. Every execution refines it."
       subNodes={['Specification', 'Process', 'Tools & Equipment']}
       stackLabel="Execution"

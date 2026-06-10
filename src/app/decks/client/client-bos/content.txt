@@ -1,0 +1,247 @@
+MERIT OI: BUILDOFFSITE
+Deck content - plain text
+
+
+--- SLIDE 1: COVER ---
+
+Every project, a case study
+Merit OI and the transparency agenda for offsite construction
+
+
+--- SLIDE 2: DIAGNOSIS ---
+
+[2018]
+
+"The offsite sector is not a mature sector, so it is very challenging to provide data transparency and evidence of the benefits. This is a point the industry needs to address."
+The McAvoy Group, evidence submitted to UK Parliament. UK offsite manufacturer, 40+ years of experience.
+
+Nothing has changed.
+
+- No delivery record, no institutional trust: Systemic failure to collect and publish performance data has prevented the sector from building trust with mortgage lenders, insurers, and structural warranty providers - the gatekeepers of market scale. (Prefabs Sprouting, ESRC / University of Leeds, 2025)
+- Public money, no public accountability: Homes England contracted £137m to local authorities to deliver 9,969 MMC homes. No assessment of outcomes was ever published. (Lords Built Environment Committee, 2024)
+
+[Cards]
+Every project is a temporary coalition / The team dissolves when it ends
+The learning - what worked, what deviated, what cost more than planned - leaves with the people. There is no persistent structure to capture it.
+
+The tools capture product, not delivery / That dimension has never been modelled
+Design and fabrication software describes what to build with precision. It does not record how delivery happened - who did what, in what sequence, with what outcome.
+
+Manual entry is the only fallback / So it gets skipped, or approximated
+Where data collection exists, it depends on people stopping work to record it. That burden means the record cannot be trusted.
+
+
+--- SLIDE 3: COMMON THREAD ---
+
+One Root, Six Branches
+The six priorities in the BOS Manifesto share one precondition: transparency
+
+01 - Driving demand at scale
+The theoretical value proposition is clear. Delivery becomes muddy - and that muddiness is what stops demand scaling.
+- When something goes wrong, the manufacturer cannot isolate the cause: product, process, people, or installation.
+- Insurers price that opacity as risk. Erectors price it as contingency.
+- Without a verifiable record, trust stays relationship-driven - and demand stays small.
+
+02 - Embedding sustainability and driving net zero carbon
+Waste, oversupply, and overengineering are generated across processes, people, tools, and materials.
+- Attribution of waste to its source in each dimension.
+- Identification of worst offenders and champions.
+- Leverage of best practice across the ecosystem.
+
+03 - Delivering digital transformation
+Transformation is easy when the evidence is available and clear.
+- Technology adoption has relied on marketing, word of mouth, and trends.
+- Resistance to these is growing - and with it, stagnation.
+- Without evidence of what works, in what circumstances, and by how much, inertia wins.
+
+04 - Incentivising quality assurance and setting robust standards
+Incentives and quality are currently decoupled - in the factory and on site. An executor or erector who introduces a defect is paid the same as one who doesn't.
+- Merit tracks quality metrics at individual level across both environments: defect rates, QC outcomes, rework incidence.
+- Those metrics can be made explicit: these are the standards we value, in production and in installation.
+- Tie compensation to performance, and quality becomes self-enforcing throughout the ecosystem.
+
+05 - Value based procurement
+The metrics that matter most to procurement are the hardest to demonstrate.
+- Carbon, quality, and defect rates can be captured and verified - but currently are not.
+- Longevity - the metric that drives whole-life value decisions - cannot be proven upfront. You build it and see.
+
+06 - Developing workforce initiative with offsite specific training
+Knowledge of how the work should be done isn't reaching the people who need to do it.
+- Operatives enter the industry with no structured reference for their role - learning by approximation rather than by process.
+- Erectors receive the kit without installation methods or time benchmarks - making accurate pricing nearly impossible.
+- Overpricing makes offsite uncompetitive. Underpricing leads to losses, withdrawal from the market, and reputational damage to the systems themselves.
+
+[Footer]
+The common dependency: transparency of delivery. Every ask requires an evidence base that can only be built by recording what actually happens on every project.
+
+
+--- SLIDE 4: RIBA PLAN OF WORKS ---
+
+A Foundation for Transparency
+RIBA laid the groundwork. The build was abandoned at Stage M.
+
+The RIBA Plan of Works gave construction a shared framework for governing projects. NHS England calls it an industry-standard methodology. Every professional in the room knows it. As an analog for what a process standard can achieve, it is the right reference point, but it has structural limitations that Merit is positioned to resolve.
+
+No feedback loop
+Stage M - Feedback was removed from the Plan of Works in 1972. Only 19% of practices now offer post-occupancy evaluation. RIBA's own president stated in 2019 that housing development takes place "largely in the absence of a comprehensive system for establishing performance in terms of standard setting, testing or feedback in use."
+
+Adopted in aspiration, not in practice
+Six months after the 2013 update, only 46% of professionals had adopted it and 70% were not being asked to use it when bidding for projects. Practitioners were direct: "The Plan of Work is not on the radar of our typical client." A 2017 ACA survey found 52% had more problems with the updated version than the original.
+
+Specialists engaged too late
+Stage 4 is repeatedly identified as a bottleneck. Technical design only commences at this stage, and the people involved earlier are unlikely to have done preliminary technical design - they don't go on to participate in the subsequent detailing. By the time a manufacturer is consulted, it may be too late for them to offer a solution that the project would benefit from.
+
+Project-bound
+As Sam Hayes noted commenting on the RIBA Engagement Overlay, "the Plan of Works has its limitations, it is project bound." There is no mechanism to aggregate learning across projects. Without structured post-occupancy data, the RIBA itself acknowledged, the industry has been "lagging far behind almost all other aspects of consumption."
+
+
+--- SLIDE 5: THE DISCONNECTED TOOLKIT ---
+
+The Disconnected Toolkit
+The tools are ready. The layer that gives their data meaning is not.
+
+Capital equipment / CNC saws, joinery machines, pressing equipment, lifting equipment
+Machine data, cycle times, utilisation and fault telemetry are standard outputs on modern plant. Telematics on mobile equipment is well established.
+[Telemetry available]
+
+Hand and power tools / Nail guns, staplers, drills, fastening tools
+Connectivity platforms from major tool manufacturers are already in market. Tool time, cycle counts, and usage patterns are increasingly available.
+[Telemetry available]
+
+Software / Design, coordination, and construction management platforms
+API and webhook architectures are mature across BIM, project management, and cloud collaboration tools. Data flows exist.
+[Telemetry available]
+
+[Footer]
+Tool telemetry without process context is noise. A sensor reading from a CNC saw means nothing without knowing which step it was performing, on which product, for which project, against which specification. The process layer is what transforms raw data from equipment and tools into delivery intelligence.
+
+
+--- SLIDE 6: MERIT OI OPERATING SYSTEM ---
+
+Merit OI: An Operating System for Complex Product Delivery
+
+Merit OI is a unified operating system: one model connecting spec, delivery, compliance, and performance. Because every function works from the same execution record, transparency is not a pursued principle - it is a foundational attribute of the platform.
+
+Process Mapping
+A live map of the entire delivery ecosystem, from factory through to site installation. IoT inputs feed into the model at step level, so the record reflects how work actually happens - not how it was planned to happen.
+
+Project Management
+When a spec is confirmed, the project plan is generated from the master process. Steps, resources, and schedule are derived from the model and refined by historical execution data - not assembled from scratch on each project.
+
+CRM
+Feedback from each delivery attributed to the specific steps and resources that produced it. Patterns across projects surface recurring issues at step or resource level - turning contractor feedback into a direct signal for process improvement.
+
+Training and Onboarding
+The process model is the training structure. Guidance, certifications, and onboarding are anchored to the steps that need them.
+- Training materials attached to the specific steps they relate to
+- New operatives onboard in the context of the delivery model
+- Installation methods and time benchmarks available at step level
+- Operative certifications validated against the skillset each step requires
+
+Document Management
+Document requirements are defined in the model against the objects that need them - enforced at the point of planning or execution, not checked after the fact.
+- A stage gate cannot advance without the required output documents
+- A tool cannot be assigned without a valid service record
+- An executor cannot be selected without confirmed certifications
+- A material cannot be used without a certificate of conformance
+
+Process Analytics
+Any metric, at any level. The delivery structure is the analytics framework.
+- Cost and carbon per step, material, and resource
+- Comparative executor, tool, and material performance
+- Defect and rework rates by step, operative, or specification
+- Programme adherence - planned vs. actual step completion
+- Delivery shortfall - scoped vs. executed volume
+- Training ROI - before and after, at step level
+
+
+--- SLIDE 7: COMPARATIVE PERFORMANCE TRANSPARENCY ---
+
+Comparative Performance Transparency
+Every dimension of delivery, comparable against any metric
+
+Because Merit runs the delivery process, it captures a structured record across every dimension of execution. That record untangles delivery - identifying the source of strengths and weaknesses in the system, to encourage what's good and root out what's bad.
+
+Process
+Which sequence, method, or specification consistently produces better outcomes - and on which metric?
+- Step sequence A vs B on rework rate
+- Prefab vs on-site assembly on programme
+- Kit design variants on installation time
+[Provider: Validated methods contribute to shared sector standards - the evidence base for an offsite plan of works.]
+
+People
+Which teams, roles, or individuals consistently perform against the metrics that matter?
+- Team output against quality sign-off rates
+- Operative performance by role and process step
+- Subcontractor consistency across projects
+[Provider: Individual performance data back to operatives and teams]
+
+Tools
+Which equipment choices produce measurably different outcomes on time, quality, or carbon?
+- Tool brand A vs B on step completion time
+- Manual vs powered on error rate
+- Equipment utilisation vs idle cost
+[Provider: Field performance data back to tool manufacturers]
+
+Materials
+Which material specifications consistently outperform alternatives across the metrics that count?
+- Specification A vs B on defect rate
+- Supplier comparison on delivery reliability
+- Material choice vs embodied carbon per step
+[Provider: Usage and defect data back to material suppliers]
+
+Qualifications
+What does certification and training level actually correlate with in delivery performance?
+- Certified vs uncertified on quality outcomes
+- Training completion vs rework incidence
+- CPD investment vs productivity trend
+[Provider: Outcome correlation data back to training providers]
+
+[Metrics strip]
+Against any metric: Quality / Carbon / Programme / Cost / Safety / Rework rate / Throughput
+
+
+--- SLIDE 8: BEYOND ---
+
+[Manifesto quotes]
+"collaborative frameworks and partnerships at the heart of deploying performance specifications"
+"enable greater project delivery at scale"
+"evidence-based assessments"
+"delivering evidence-based guidance"
+"an outcome-based approach focused on value, performance and sustainability"
+"good practice solutions identified, and offsite construction normalised"
+
+[Faded] A master process, master product, and master inventory can each be held by the individual manufacturer - or by the association.
+
+Some things are only possible at the association level.
+
+44.1% - of offsite defects globally attributable to on-site assembly workmanship. No cross-system training pathway exists to address it.
+"A lack of information and comparable evidence for MMC properties" - Building Societies Association, 2018. Lenders cannot underwrite MMC at scale without an aggregated evidence base. No individual manufacturer can build one.
+£10m+ - a single modular insurance claim across 400 bathroom pods - the same installation defect, repeated. Systemic problems require systemic records.
+
+
+--- SLIDE 9: EVERY PROJECT BECOMES A CASE STUDY ---
+
+Every project becomes a case study.
+
+[A] Within member organisations
+- Merit runs the delivery process for individual manufacturers and contractors
+- Every project yields a structured, comparable record across process, people, tools, and materials
+- Quality, carbon, programme, and cost tracked at step level
+- Partial manifesto delivery at the organisational level
+- A clear financial value proposition for each member
+
+[B] Across the sector (An Offsite Plan of Works - that learns)
+
+Isolated resources
+- An installer registry: The STA scheme proved the mechanic. The cross-material version, with performance data rather than qualifications, does not yet exist.
+- Process-integrated training: A cross-system training pathway anchored to delivery process steps - not classroom theory - is the gap.
+- An offsite plan of works: The sector has no shared process reference independent of any single manufacturer.
+
+Integrated resources
+- An industry-wide performance dataset: Aggregated across the sector, it answers the questions no individual manufacturer can.
+- A demand-side evidence case: Verified performance data across hundreds of projects is evidence. That distinction changes procurement decisions at scale.
+- The mortgage and insurance market: Aggregated defect and compliance records are the mechanism that changes underwriting assumptions.
+
+[Footer]
+The proposal: start with willing members on Path A. Build toward Path B as the evidence base grows. BOS's role scales with it.
