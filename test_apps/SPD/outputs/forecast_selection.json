@@ -1,0 +1,578 @@
+{
+  "kind": "forecast_selection",
+  "P": [
+    "A",
+    "B",
+    "C"
+  ],
+  "bindings": {
+    "A": {
+      "length": 661.7,
+      "width": 288.6,
+      "colour": "white"
+    },
+    "B": {
+      "length": 1768.5,
+      "count": 37,
+      "grade": "standard"
+    },
+    "C": {
+      "count": 23,
+      "colour": "blue"
+    }
+  },
+  "N_P": [
+    "p1",
+    "p2",
+    "q1",
+    "q2",
+    "r1",
+    "r2"
+  ],
+  "forecasts": {
+    "p1": {
+      "n": 8,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 848.94,
+          "sd": 335.44
+        },
+        "defects": {
+          "mean": 1.0,
+          "sd": 0.5
+        },
+        "duration_h": {
+          "mean": 13.59,
+          "sd": 4.31
+        }
+      }
+    },
+    "p2": {
+      "n": 2,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 755.43,
+          "sd": 239.38
+        },
+        "defects": {
+          "mean": 0.5,
+          "sd": 0.5
+        },
+        "duration_h": {
+          "mean": 9.27,
+          "sd": 3.08
+        }
+      }
+    },
+    "q1": {
+      "n": 8,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 937.01,
+          "sd": 287.96
+        },
+        "defects": {
+          "mean": 1.38,
+          "sd": 0.99
+        },
+        "duration_h": {
+          "mean": 14.87,
+          "sd": 3.21
+        }
+      }
+    },
+    "q2": {
+      "n": 8,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 1282.97,
+          "sd": 322.82
+        },
+        "defects": {
+          "mean": 0.75,
+          "sd": 0.66
+        },
+        "duration_h": {
+          "mean": 17.97,
+          "sd": 5.45
+        }
+      }
+    },
+    "r1": {
+      "n": 2,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 725.87,
+          "sd": 200.01
+        },
+        "defects": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "duration_h": {
+          "mean": 9.15,
+          "sd": 1.29
+        }
+      }
+    },
+    "r2": {
+      "n": 8,
+      "metrics": {
+        "cost_gbp": {
+          "mean": 1283.1,
+          "sd": 365.78
+        },
+        "defects": {
+          "mean": 0.62,
+          "sd": 0.7
+        },
+        "duration_h": {
+          "mean": 17.34,
+          "sd": 2.96
+        }
+      }
+    }
+  },
+  "selection": {
+    "p1": {
+      "forecast": {
+        "n": 8,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 848.94,
+            "sd": 335.44
+          },
+          "defects": {
+            "mean": 1.0,
+            "sd": 0.5
+          },
+          "duration_h": {
+            "mean": 13.59,
+            "sd": 4.31
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag01",
+          "n_a": 8
+        },
+        {
+          "a": "ag07",
+          "n_a": 7
+        },
+        {
+          "a": "ag08",
+          "n_a": 7
+        },
+        {
+          "a": "ag11",
+          "n_a": 7
+        },
+        {
+          "a": "ag06",
+          "n_a": 6
+        },
+        {
+          "a": "ag04",
+          "n_a": 5
+        }
+      ]
+    },
+    "p2": {
+      "forecast": {
+        "n": 2,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 755.43,
+            "sd": 239.38
+          },
+          "defects": {
+            "mean": 0.5,
+            "sd": 0.5
+          },
+          "duration_h": {
+            "mean": 9.27,
+            "sd": 3.08
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag11",
+          "n_a": 5
+        },
+        {
+          "a": "ag07",
+          "n_a": 4
+        },
+        {
+          "a": "ag06",
+          "n_a": 3
+        },
+        {
+          "a": "ag04",
+          "n_a": 2
+        },
+        {
+          "a": "ag01",
+          "n_a": 1
+        },
+        {
+          "a": "ag08",
+          "n_a": 1
+        }
+      ]
+    },
+    "q1": {
+      "forecast": {
+        "n": 8,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 937.01,
+            "sd": 287.96
+          },
+          "defects": {
+            "mean": 1.38,
+            "sd": 0.99
+          },
+          "duration_h": {
+            "mean": 14.87,
+            "sd": 3.21
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag11",
+          "n_a": 10
+        },
+        {
+          "a": "ag12",
+          "n_a": 8
+        },
+        {
+          "a": "ag04",
+          "n_a": 6
+        },
+        {
+          "a": "ag05",
+          "n_a": 5
+        },
+        {
+          "a": "ag07",
+          "n_a": 5
+        },
+        {
+          "a": "ag09",
+          "n_a": 5
+        },
+        {
+          "a": "ag02",
+          "n_a": 1
+        }
+      ]
+    },
+    "q2": {
+      "forecast": {
+        "n": 8,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 1282.97,
+            "sd": 322.82
+          },
+          "defects": {
+            "mean": 0.75,
+            "sd": 0.66
+          },
+          "duration_h": {
+            "mean": 17.97,
+            "sd": 5.45
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag02",
+          "n_a": 11
+        },
+        {
+          "a": "ag09",
+          "n_a": 7
+        },
+        {
+          "a": "ag04",
+          "n_a": 5
+        },
+        {
+          "a": "ag05",
+          "n_a": 5
+        },
+        {
+          "a": "ag07",
+          "n_a": 5
+        },
+        {
+          "a": "ag12",
+          "n_a": 4
+        },
+        {
+          "a": "ag11",
+          "n_a": 3
+        }
+      ]
+    },
+    "r1": {
+      "forecast": {
+        "n": 2,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 725.87,
+            "sd": 200.01
+          },
+          "defects": {
+            "mean": 1.0,
+            "sd": 0.0
+          },
+          "duration_h": {
+            "mean": 9.15,
+            "sd": 1.29
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag05",
+          "n_a": 4
+        },
+        {
+          "a": "ag03",
+          "n_a": 3
+        },
+        {
+          "a": "ag10",
+          "n_a": 3
+        },
+        {
+          "a": "ag06",
+          "n_a": 2
+        },
+        {
+          "a": "ag07",
+          "n_a": 2
+        },
+        {
+          "a": "ag12",
+          "n_a": 2
+        }
+      ]
+    },
+    "r2": {
+      "forecast": {
+        "n": 8,
+        "metrics": {
+          "cost_gbp": {
+            "mean": 1283.1,
+            "sd": 365.78
+          },
+          "defects": {
+            "mean": 0.62,
+            "sd": 0.7
+          },
+          "duration_h": {
+            "mean": 17.34,
+            "sd": 2.96
+          }
+        }
+      },
+      "agents": [
+        {
+          "a": "ag03",
+          "n_a": 9
+        },
+        {
+          "a": "ag05",
+          "n_a": 9
+        },
+        {
+          "a": "ag06",
+          "n_a": 8
+        },
+        {
+          "a": "ag07",
+          "n_a": 6
+        },
+        {
+          "a": "ag12",
+          "n_a": 5
+        },
+        {
+          "a": "ag10",
+          "n_a": 3
+        }
+      ]
+    }
+  },
+  "contracts": [
+    {
+      "job": "S1",
+      "steps": [
+        "p1",
+        "p2"
+      ],
+      "in": [],
+      "out": [
+        {
+          "product": "p_p1_q1",
+          "from": "p1",
+          "to": "q1"
+        }
+      ],
+      "phi": {
+        "p1": {
+          "n": 8,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 848.94,
+              "sd": 335.44
+            },
+            "defects": {
+              "mean": 1.0,
+              "sd": 0.5
+            },
+            "duration_h": {
+              "mean": 13.59,
+              "sd": 4.31
+            }
+          }
+        },
+        "p2": {
+          "n": 2,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 755.43,
+              "sd": 239.38
+            },
+            "defects": {
+              "mean": 0.5,
+              "sd": 0.5
+            },
+            "duration_h": {
+              "mean": 9.27,
+              "sd": 3.08
+            }
+          }
+        }
+      }
+    },
+    {
+      "job": "S2",
+      "steps": [
+        "q1",
+        "q2"
+      ],
+      "in": [
+        {
+          "product": "p_p1_q1",
+          "from": "p1",
+          "to": "q1"
+        }
+      ],
+      "out": [
+        {
+          "product": "p_q2_r2",
+          "from": "q2",
+          "to": "r2"
+        }
+      ],
+      "phi": {
+        "q1": {
+          "n": 8,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 937.01,
+              "sd": 287.96
+            },
+            "defects": {
+              "mean": 1.38,
+              "sd": 0.99
+            },
+            "duration_h": {
+              "mean": 14.87,
+              "sd": 3.21
+            }
+          }
+        },
+        "q2": {
+          "n": 8,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 1282.97,
+              "sd": 322.82
+            },
+            "defects": {
+              "mean": 0.75,
+              "sd": 0.66
+            },
+            "duration_h": {
+              "mean": 17.97,
+              "sd": 5.45
+            }
+          }
+        }
+      }
+    },
+    {
+      "job": "S3",
+      "steps": [
+        "r1",
+        "r2"
+      ],
+      "in": [
+        {
+          "product": "p_q2_r2",
+          "from": "q2",
+          "to": "r2"
+        }
+      ],
+      "out": [],
+      "phi": {
+        "r1": {
+          "n": 2,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 725.87,
+              "sd": 200.01
+            },
+            "defects": {
+              "mean": 1.0,
+              "sd": 0.0
+            },
+            "duration_h": {
+              "mean": 9.15,
+              "sd": 1.29
+            }
+          }
+        },
+        "r2": {
+          "n": 8,
+          "metrics": {
+            "cost_gbp": {
+              "mean": 1283.1,
+              "sd": 365.78
+            },
+            "defects": {
+              "mean": 0.62,
+              "sd": 0.7
+            },
+            "duration_h": {
+              "mean": 17.34,
+              "sd": 2.96
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seed": 605918
+}

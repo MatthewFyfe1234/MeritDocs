@@ -3,10 +3,12 @@ import { SlideLayout } from './SlideLayout';
 interface Props {
   title?: string;
   subtitle?: string;
+  pillarNote?: string;
   subNodes?: [string, string, string];
   subNodeSubtexts?: [string | undefined, string | undefined, string | undefined];
   stackLabel?: string;
   supportLabel?: [string, string];
+  supportSubtext?: string;
   datasetTitle?: [string, string];
   datasetDescription?: [string, string];
   labelExecutes?: string;
@@ -56,10 +58,12 @@ function SubNodeText({ label, cx, y, h, subtext }: {
 export function MechanicsSlide({
   title = 'How It Works',
   subtitle = 'Every project execution feeds a single aggregated dataset. Estimating, sales, and management read from the same picture.',
+  pillarNote,
   subNodes = ['Project Team', 'Inventory', 'Process'],
   subNodeSubtexts,
   stackLabel = 'Project',
   supportLabel = ['Support', 'Functions'],
+  supportSubtext,
   datasetTitle = ['Aggregated', 'Dataset'],
   datasetDescription = ['One connected', 'operational picture'],
   labelExecutes = 'executes',
@@ -100,7 +104,7 @@ export function MechanicsSlide({
 
 
   return (
-    <SlideLayout title={title} subtitle={subtitle}>
+    <SlideLayout title={title} subtitle={subtitle} pillarNote={pillarNote}>
       <div className="flex-1 min-h-0 flex items-center justify-center">
         <svg viewBox={`0 ${viewBoxMinY} 680 258`} preserveAspectRatio="xMidYMin meet" style={{ width: '100%', height: '100%' }}>
           <defs>
@@ -199,14 +203,18 @@ export function MechanicsSlide({
             fill="var(--slide-bg-primary-muted)" stroke="var(--slide-border-primary)" strokeWidth="1.5" />
           {supportLabel[1] ? (
             <>
-              <text x="530" y={iaY + 18} textAnchor="middle" fontSize="9.5" fontWeight="600"
+              <text x="530" y={iaY + (supportSubtext ? 14 : 18)} textAnchor="middle" fontSize="9.5" fontWeight="600"
                 fill="var(--slide-primary)">{supportLabel[0]}</text>
-              <text x="530" y={iaY + 33} textAnchor="middle" fontSize="9.5" fontWeight="600"
+              <text x="530" y={iaY + (supportSubtext ? 27 : 33)} textAnchor="middle" fontSize="9.5" fontWeight="600"
                 fill="var(--slide-primary)">{supportLabel[1]}</text>
             </>
           ) : (
-            <text x="530" y={iaY + 29} textAnchor="middle" fontSize="9.5" fontWeight="600"
+            <text x="530" y={iaY + (supportSubtext ? 20 : 29)} textAnchor="middle" fontSize="9.5" fontWeight="600"
               fill="var(--slide-primary)">{supportLabel[0]}</text>
+          )}
+          {supportSubtext && (
+            <text x="530" y={iaY + (supportLabel[1] ? 41 : 36)} textAnchor="middle" fontSize="6"
+              fill="var(--slide-text)" opacity="0.5">{supportSubtext}</text>
           )}
 
           {/* Split output: second arrow going upward from support box */}

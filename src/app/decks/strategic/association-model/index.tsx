@@ -95,6 +95,22 @@ function ManufacturerTensionSlide() {
   );
 }
 
+function RegulatoryFearSlide() {
+  return (
+    <SlideLayout title="The Regulatory Trajectory" subtitle="Fear, used carefully, as a closer">
+      <BlankSlide notes={
+        <ul className="space-y-3 list-none">
+          <li>Governments globally are moving toward mandatory supply chain due diligence, embodied carbon reporting, and procurement transparency. EU CSDDD is the clearest signal. NZ will follow.</li>
+          <li>The industry has two options: build the infrastructure on its own terms now, or have it imposed later in a form designed by regulators who don't understand fabrication and installation.</li>
+          <li>Building now gives the industry control over how the standard is defined. FTMA becomes the trusted voice when legislation is being drafted, not a subject of it.</li>
+          <li><strong>In marketing terms this is fear/urgency.</strong> It works, but only after the value prop is established. Fear before value reads as a sales tactic. Fear after value becomes the reason to act now rather than later.</li>
+          <li>Sequence: value first, fear second, as a closer. Not for the current conversation with Peter - for the revised deck once the value prop is solid.</li>
+        </ul>
+      } />
+    </SlideLayout>
+  );
+}
+
 function EsgFrameSlide() {
   return (
     <SlideLayout title="ESG as the Unifying Frame" subtitle="The argument that cuts across all tensions">
@@ -121,6 +137,7 @@ export const deck = {
     <ChainOfCustodySlide key="chain-of-custody" />,
     <AssociationModelSlide key="association-model" />,
     <ManufacturerTensionSlide key="manufacturer-tension" />,
+    <RegulatoryFearSlide key="regulatory-fear" />,
     <EsgFrameSlide key="esg-frame" />,
   ],
 };

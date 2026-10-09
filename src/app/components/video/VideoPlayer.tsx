@@ -84,7 +84,7 @@ function paintScene(ctx: CanvasRenderingContext2D, scene: VideoScene, logo?: { i
         const dw = img.naturalWidth * scale;
         const dh = img.naturalHeight * scale;
         ctx.drawImage(img, (W - dw) / 2, (H - dh) / 2, dw, dh);
-        ctx.fillStyle = 'rgba(0,0,0,0.55)';
+        ctx.fillStyle = scene.backgroundOverlay ?? 'rgba(0,0,0,0.55)';
         ctx.fillRect(0, 0, W, H);
       }
     }

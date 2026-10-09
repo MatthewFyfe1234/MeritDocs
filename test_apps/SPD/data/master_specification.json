@@ -1,0 +1,57 @@
+{
+  "tree": "T",
+  "kind": "master_specification",
+  "root": "S",
+  "N": [
+    {
+      "id": "S",
+      "label": "S",
+      "level": 0,
+      "role": "product",
+      "status": "active",
+      "D": [
+        { "name": "grade", "type": "categorical", "levels": ["standard", "premium"] }
+      ]
+    },
+    {
+      "id": "A",
+      "label": "A",
+      "level": 1,
+      "role": "component",
+      "status": "active",
+      "D": [
+        { "name": "length", "type": "numerical", "unit": "mm" },
+        { "name": "width",  "type": "numerical", "unit": "mm" },
+        { "name": "colour", "type": "categorical" }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "level": 1,
+      "role": "component",
+      "status": "active",
+      "D": [
+        { "name": "length", "type": "numerical", "unit": "mm" },
+        { "name": "count",  "type": "numerical" },
+        { "name": "grade",  "type": "categorical", "levels": ["standard", "premium"] }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "level": 1,
+      "role": "component",
+      "status": "optional",
+      "D": [
+        { "name": "count",  "type": "numerical" },
+        { "name": "colour", "type": "categorical" }
+      ]
+    }
+  ],
+  "A": [
+    { "parent": "S", "child": "A" },
+    { "parent": "S", "child": "B" },
+    { "parent": "S", "child": "C" }
+  ]
+}

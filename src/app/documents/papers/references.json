@@ -1,0 +1,427 @@
+[
+  {
+    "id": "vanderaalst1999",
+    "type": "article-journal",
+    "title": "On the automatic generation of workflow processes based on product structures",
+    "author": [{ "family": "van der Aalst", "given": "W.M.P." }],
+    "issued": { "date-parts": [[1999]] },
+    "container-title": "Computers in Industry",
+    "volume": "39",
+    "issue": "2",
+    "page": "97-111"
+  },
+  {
+    "id": "reijers2003",
+    "type": "article-journal",
+    "title": "Product-based workflow design",
+    "author": [
+      { "family": "Reijers", "given": "H.A." },
+      { "family": "Limam", "given": "S." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2003]] },
+    "container-title": "Journal of Management Information Systems",
+    "volume": "20",
+    "issue": "1",
+    "page": "229-262"
+  },
+  {
+    "id": "kang1990",
+    "type": "report",
+    "title": "Feature-oriented domain analysis (FODA) feasibility study",
+    "author": [
+      { "family": "Kang", "given": "K.C." },
+      { "family": "Cohen", "given": "S.G." },
+      { "family": "Hess", "given": "J.A." },
+      { "family": "Novak", "given": "W.E." },
+      { "family": "Peterson", "given": "A.S." }
+    ],
+    "issued": { "date-parts": [[1990]] },
+    "genre": "Technical Report",
+    "number": "CMU/SEI-90-TR-021",
+    "publisher": "Software Engineering Institute, Carnegie Mellon University"
+  },
+  {
+    "id": "czarnecki2005",
+    "type": "paper-conference",
+    "title": "Cardinality-based feature modeling and constraints: A progress report",
+    "author": [
+      { "family": "Czarnecki", "given": "K." },
+      { "family": "Kim", "given": "C.H.P." }
+    ],
+    "issued": { "date-parts": [[2005]] },
+    "container-title": "International Workshop on Software Factories (OOPSLA)",
+    "page": "16-20"
+  },
+  {
+    "id": "vanderaalst2005",
+    "type": "article-journal",
+    "title": "Case handling: A new paradigm for business process support",
+    "author": [
+      { "family": "van der Aalst", "given": "W.M.P." },
+      { "family": "Weske", "given": "M." },
+      { "family": "Grünbauer", "given": "D." }
+    ],
+    "issued": { "date-parts": [[2005]] },
+    "container-title": "Data & Knowledge Engineering",
+    "volume": "53",
+    "issue": "2",
+    "page": "129-162"
+  },
+  {
+    "id": "vanderfeesten2007",
+    "type": "paper-conference",
+    "title": "An evaluation of case handling systems for product based workflow design",
+    "author": [
+      { "family": "Vanderfeesten", "given": "I." },
+      { "family": "Reijers", "given": "H.A." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "Proceedings of ICEIS 2007",
+    "volume": "3",
+    "page": "39-46"
+  },
+  {
+    "id": "kelley1959",
+    "type": "paper-conference",
+    "title": "Critical-path planning and scheduling",
+    "author": [
+      { "family": "Kelley", "given": "J.E." },
+      { "family": "Walker", "given": "M.R." }
+    ],
+    "issued": { "date-parts": [[1959]] },
+    "container-title": "Proceedings of the Eastern Joint Computer Conference",
+    "page": "160-173"
+  },
+  {
+    "id": "pantelides1994",
+    "type": "chapter",
+    "title": "Unified frameworks for optimal process planning and scheduling",
+    "author": [{ "family": "Pantelides", "given": "C.C." }],
+    "issued": { "date-parts": [[1994]] },
+    "container-title": "Foundations of Computer-Aided Process Operations",
+    "publisher": "CACHE Publications",
+    "publisher-place": "New York",
+    "page": "253-274"
+  },
+  {
+    "id": "kondili1993",
+    "type": "article-journal",
+    "title": "A general algorithm for short-term scheduling of batch operations - I. MILP formulation",
+    "author": [
+      { "family": "Kondili", "given": "E." },
+      { "family": "Pantelides", "given": "C.C." },
+      { "family": "Sargent", "given": "R.W.H." }
+    ],
+    "issued": { "date-parts": [[1993]] },
+    "container-title": "Computers & Chemical Engineering",
+    "volume": "17",
+    "issue": "2",
+    "page": "211-227"
+  },
+  {
+    "id": "omicini2008",
+    "type": "article-journal",
+    "title": "Artifacts in the A&A meta-model for multi-agent systems",
+    "author": [
+      { "family": "Omicini", "given": "A." },
+      { "family": "Ricci", "given": "A." },
+      { "family": "Viroli", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2008]] },
+    "container-title": "Autonomous Agents and Multi-Agent Systems",
+    "volume": "17",
+    "issue": "3",
+    "page": "432-456"
+  },
+  {
+    "id": "iso16739",
+    "type": "report",
+    "title": "Industry Foundation Classes (IFC) for data sharing in the construction and facility management industries — Part 1: Data schema (ISO 16739-1:2018)",
+    "issued": { "date-parts": [[2018]] },
+    "publisher": "International Organization for Standardization"
+  },
+  {
+    "id": "marquezchamorro2018",
+    "type": "article-journal",
+    "title": "Predictive monitoring of business processes: A survey",
+    "author": [
+      { "family": "Márquez-Chamorro", "given": "A.E." },
+      { "family": "Resinas", "given": "M." },
+      { "family": "Ruiz-Cortés", "given": "A." }
+    ],
+    "issued": { "date-parts": [[2018]] },
+    "container-title": "IEEE Transactions on Services Computing",
+    "volume": "11",
+    "issue": "6",
+    "page": "962-977"
+  },
+  {
+    "id": "vanhoucke2009",
+    "type": "book",
+    "title": "Measuring time: Improving project performance using earned value management",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2009]] },
+    "publisher": "Springer"
+  },
+  {
+    "id": "vanhoucke2012",
+    "type": "book",
+    "title": "Project management with dynamic scheduling: Baseline scheduling, risk analysis and project control",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2012]] },
+    "publisher": "Springer"
+  },
+  {
+    "id": "vanhoucke2015",
+    "type": "article-journal",
+    "title": "On the use of schedule risk analysis for project management",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2015]] },
+    "container-title": "The Journal of Modern Project Management",
+    "volume": "2",
+    "issue": "3",
+    "page": "108-117"
+  },
+  {
+    "id": "malcolm1959",
+    "type": "article-journal",
+    "title": "Application of a technique for research and development program evaluation",
+    "author": [
+      { "family": "Malcolm", "given": "D.G." },
+      { "family": "Roseboom", "given": "J.H." },
+      { "family": "Clark", "given": "C.E." },
+      { "family": "Fazar", "given": "W." }
+    ],
+    "issued": { "date-parts": [[1959]] },
+    "container-title": "Operations Research",
+    "volume": "7",
+    "issue": "5",
+    "page": "646-669"
+  },
+  {
+    "id": "wauters2016",
+    "type": "article-journal",
+    "title": "A comparative study of artificial intelligence methods for project duration forecasting",
+    "author": [
+      { "family": "Wauters", "given": "M." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Expert Systems with Applications",
+    "volume": "46",
+    "page": "249-261"
+  },
+  {
+    "id": "wauters2017",
+    "type": "article-journal",
+    "title": "A nearest neighbour extension to project duration forecasting with artificial intelligence",
+    "author": [
+      { "family": "Wauters", "given": "M." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "container-title": "European Journal of Operational Research",
+    "volume": "259",
+    "issue": "3",
+    "page": "1097-1111"
+  },
+  {
+    "id": "flyvbjerg2006",
+    "type": "article-journal",
+    "title": "From Nobel Prize to project management: Getting risks right",
+    "author": [{ "family": "Flyvbjerg", "given": "B." }],
+    "issued": { "date-parts": [[2006]] },
+    "container-title": "Project Management Journal",
+    "volume": "37",
+    "issue": "3",
+    "page": "5-15"
+  },
+  {
+    "id": "batselier2016",
+    "type": "article-journal",
+    "title": "Practical application and empirical evaluation of reference class forecasting for project management",
+    "author": [
+      { "family": "Batselier", "given": "J." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Project Management Journal",
+    "volume": "47",
+    "issue": "5",
+    "page": "36-51"
+  },
+  {
+    "id": "batselier2017",
+    "type": "article-journal",
+    "title": "Improving project forecast accuracy by integrating earned value management with exponential smoothing and reference class forecasting",
+    "author": [
+      { "family": "Batselier", "given": "J." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "container-title": "International Journal of Project Management",
+    "volume": "35",
+    "issue": "1",
+    "page": "28-43"
+  },
+  {
+    "id": "batselier2015",
+    "type": "article-journal",
+    "title": "Construction and evaluation framework for a real-life project database",
+    "author": [
+      { "family": "Batselier", "given": "J." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2015]] },
+    "container-title": "International Journal of Project Management",
+    "volume": "33",
+    "issue": "3",
+    "page": "697-710"
+  },
+  {
+    "id": "vanhoucke2023",
+    "type": "book",
+    "title": "The illusion of control: Project data, computer algorithms and human intuition for project management and control",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2023]] },
+    "publisher": "Springer"
+  },
+  {
+    "id": "derkiureghian2009",
+    "type": "article-journal",
+    "title": "Aleatory or epistemic? Does it matter?",
+    "author": [
+      { "family": "Der Kiureghian", "given": "A." },
+      { "family": "Ditlevsen", "given": "O." }
+    ],
+    "issued": { "date-parts": [[2009]] },
+    "container-title": "Structural Safety",
+    "volume": "31",
+    "issue": "2",
+    "page": "105-112"
+  },
+  {
+    "id": "grasse1959",
+    "type": "article-journal",
+    "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
+    "author": [{ "family": "Grassé", "given": "P.-P." }],
+    "issued": { "date-parts": [[1959]] },
+    "container-title": "Insectes Sociaux",
+    "volume": "6",
+    "issue": "1",
+    "page": "41-80"
+  },
+  {
+    "id": "heylighen2016a",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism I: Definition and components",
+    "author": [{ "family": "Heylighen", "given": "F." }],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "4-13"
+  },
+  {
+    "id": "heylighen2016b",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism II: Varieties and evolution",
+    "author": [{ "family": "Heylighen", "given": "F." }],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "50-59"
+  },
+  {
+    "id": "smith1980",
+    "type": "article-journal",
+    "title": "The contract net protocol: High-level communication and control in a distributed problem solver",
+    "author": [{ "family": "Smith", "given": "R.G." }],
+    "issued": { "date-parts": [[1980]] },
+    "container-title": "IEEE Transactions on Computers",
+    "volume": "C-29",
+    "issue": "12",
+    "page": "1104-1113"
+  },
+  {
+    "id": "christensen2013",
+    "type": "article-journal",
+    "title": "Stigmergy in human practice: Coordination in construction work",
+    "author": [{ "family": "Christensen", "given": "L.R." }],
+    "issued": { "date-parts": [[2013]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "21",
+    "page": "40-51"
+  },
+  {
+    "id": "masood2017",
+    "type": "paper-conference",
+    "title": "Motivation for self-assignment: Factors agile software developers consider",
+    "author": [
+      { "family": "Masood", "given": "Z." },
+      { "family": "Hoda", "given": "R." },
+      { "family": "Blincoe", "given": "K." }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "container-title": "2017 IEEE/ACM 10th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)",
+    "page": "92-93"
+  },
+  {
+    "id": "masood2021",
+    "type": "article-journal",
+    "title": "What drives and sustains self-assignment in agile teams",
+    "author": [
+      { "family": "Masood", "given": "Z." },
+      { "family": "Hoda", "given": "R." },
+      { "family": "Blincoe", "given": "K." }
+    ],
+    "issued": { "date-parts": [[2021]] },
+    "container-title": "IEEE Transactions on Software Engineering",
+    "volume": "48",
+    "issue": "9",
+    "page": "3626-3639"
+  },
+  {
+    "id": "conoscenti2019",
+    "type": "article-journal",
+    "title": "Combining data analytics and developers feedback for identifying reasons of inaccurate estimations in agile software development",
+    "author": [
+      { "family": "Conoscenti", "given": "M." },
+      { "family": "Besner", "given": "V." },
+      { "family": "Vetrò", "given": "A." },
+      { "family": "Méndez Fernández", "given": "D." }
+    ],
+    "issued": { "date-parts": [[2019]] },
+    "container-title": "Journal of Systems and Software",
+    "volume": "156",
+    "page": "126-135"
+  },
+  {
+    "id": "jorgensen2009",
+    "type": "article-journal",
+    "title": "The impact of lessons-learned sessions on effort estimation and uncertainty assessments",
+    "author": [
+      { "family": "Jørgensen", "given": "M." },
+      { "family": "Gruschke", "given": "T.M." }
+    ],
+    "issued": { "date-parts": [[2009]] },
+    "container-title": "IEEE Transactions on Software Engineering",
+    "volume": "35",
+    "issue": "3",
+    "page": "368-383"
+  },
+  {
+    "id": "anvik2006",
+    "type": "paper-conference",
+    "title": "Who should fix this bug?",
+    "author": [
+      { "family": "Anvik", "given": "J." },
+      { "family": "Hiew", "given": "L." },
+      { "family": "Murphy", "given": "G.C." }
+    ],
+    "issued": { "date-parts": [[2006]] },
+    "container-title": "Proceedings of the 28th International Conference on Software Engineering (ICSE 2006)",
+    "page": "329-338"
+  }
+]

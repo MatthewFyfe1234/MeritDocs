@@ -1,0 +1,230 @@
+MERITOI: VALUE PROPOSITION (B) — FULL TEXT DUMP
+=================================================
+
+1. COVER
+--------
+Title: Process-centric orchestration and optimisation
+Body: Swarm-based production and maintenance models, at any scale
+Footer: Modify Visual Ltd.
+
+
+2. WHAT MERITOI DOES
+---------------------
+MeritOI is a platform that automates delivery orchestration, using currently siloed execution data
+and institutional knowledge to estimate time, cost, materials, and more, and to coordinate people and
+tools.
+
+While orchestrating operations, it gives every party connected to the process, whether that's one
+organisation working alone or an entire industry, the same data as the basis for their own decisions,
+from optimisation to maintenance and staffing.
+
+
+3. THE PROBLEM: SILOS, REDEFINED
+---------------------------------
+Subtitle: A silo has always meant a team or a department. It's broader than that.
+
+SILOS AT EVERY SCALE
+
+An Individual
+- Holds knowledge that leaves with them when they go.
+- Can't demonstrate their value to their current employer, or to a new one.
+- Nothing lets them demonstrate, or drive, change in the process itself, or in how others are trained.
+
+An Organisation
+- Is blind to its place in the larger process it's part of.
+- Is unable to demonstrate its own performance to a client, or compare itself against other providers.
+- Nothing shows it where its own process could improve, or lets it benefit from what other organisations have already learned.
+
+SILOS OF THE MODERN ERA
+
+A Tool
+- Increasingly telemetric, capturing its own performance data, but that data stays locked inside the tool, never recorded against the step it served.
+- Its actual performance can't be compared against competing tools used for the same step, only against the maker's specifications.
+- Maintenance and calibration history typically live with the manufacturer or vendor, not attached to the process it actually contributed to.
+
+Generative AI
+- Its knowledge is spread across billions of uninspectable weights. You can't ask it which source produced a given output.
+- Impossible to benchmark it against the tools or workers it replaces, on the same terms they're measured on.
+- No approach to ensuring reporting or documentation on its work is produced, the way it would be for any other agent.
+
+
+4. THE PERSPECTIVE SHIFT
+--------------------------
+Header: In any product delivery ecosystem, process sits at the centre of a swarm of actors: unstated,
+unmapped, unrecorded and ungoverned.
+
+[Diagram: Organisation roles (Operations, Estimating, QA/Quality, Finance, HR/People, Execution) inside
+a dashed "Organisation" boundary; Ecosystem interests (Toolmaker, Material Manufacturers, Educator,
+Legislator, Insurer) radiating further out; a shared "Process" cloud at the centre ("shared, invisible");
+a Client node connected to the process.]
+
+WORKED PROBLEMS
+
+Carbon
+The organisation wants to show it uses less carbon. A legislator wants to enforce less carbon. The
+client wants to buy from whoever actually achieves it. A material manufacturer embodies carbon in the
+material itself, and a toolmaker in the energy their tools consume in use. During execution, the
+designer, machinist, fabricator, and installer each add their own waste.
+
+The system has no way to incentivise the executor, the toolmaker, or the material manufacturer to
+reduce carbon. It rewards tangential goals instead.
+
+Safety
+A toolmaker made the goggles. A legislator required them worn for the activity. An educator taught
+that requirement. The operations manager made sure the "wear goggles" sign was on the wall. An insurer
+priced the risk without being able to know whether it was actually followed. The executor wore them,
+or didn't, with no record either way.
+
+What went on in the field, no one knows.
+
+
+5. A PROCESS-CENTRIC ECOSYSTEM
+--------------------------------
+Subtitle: Every party that connects to a shared process makes it more valuable to everyone else already
+on it: a data network effect, applied to production itself.
+
+[Diagram: a "closed system" boundary; an inner dashed "Organisation-Wide Process Commons" box (self-
+contained within one company); three layer brackets — Generics, Delivery, Process; generic requirement
+boxes (Insurers, Legislators, Educators, Toolmakers, Material Manufacturers) feeding into and reading
+from Process; a Delivery layer containing a System Cluster (organisation type), Support Functions, and
+Project Team; a Client box outside the closed system, receiving the delivered product and reading
+distilled process data (e.g. a track record of minimising embodied carbon).]
+
+Legend: Executes (contributes data) / Reads data from / Optimises / Delivers to
+
+
+6. THE BENEFICIARIES
+----------------------
+Subtitle: An explicit process commons: every party overlaps on the same shared process, and each takes
+a different benefit from it.
+
+[Diagram: a crude Venn-style cluster of four circles, each connected by a faint line to a central
+"Process" circle ("shared, measured") they all overlap. The Organisation circle has a thick dashed
+border, marking it as limited-scope (works within one company alone); the other three have plain
+borders.]
+
+- Organisation (Operations, HR, Finance, Stock / Inventory, Employer, Small Organisation) — dashed border, limited scope:
+  Automated estimation, orchestration, and optimisation.
+
+- Employee (The Worker):
+  A measured, portable track record.
+
+- Generic Input Provider (Insurer, Toolmaker, Material Manufacturer, Educator, Regulator):
+  Optimisation of their own inputs.
+
+- Client / Consumer:
+  The ability to make informed decisions.
+
+[NOTE: this replaces the earlier, denser 16-line, 3-column card layout used previously on this slide.
+That version still exists on disk as PayoffSlide.tsx but is no longer wired into the deck.]
+
+
+7. THE TECHNOLOGY STACK
+--------------------------
+Subtitle: What the model is built on, and where it sits within AI.
+
+TECHNOLOGIES
+- IoT / Telemetry: Execution data captured live from sensors and devices during the step, not only entered manually after the fact.
+- Digital Twin: A structured process graph, kept live against actual execution, so the model tracks production as it runs rather than as it was planned.
+- Process Mining: Discovers and conforms a process model from a real execution log, rather than a hand-drawn diagram, but usually only where digital systems already produce that log. Telemetry generates the log itself, extending the same capability to physical, field-executed work: a trade on site, a technician, a machine operator.
+- Business Intelligence: Unified, process-centric dashboards and reporting, surfacing performance and highlighting where cost, quality, and service can improve.
+- Master Data Management: Not a general knowledge graph: a fixed set of canonical entities, people, tools, materials, specs, and process steps, each the single authoritative record for what attaches to it, training or licensing, maintenance, a certificate of conformance, a worker's output, legislation.
+
+AI FOR PRODUCTION
+This model aligns most closely with swarm intelligence, which treats learning as continuous rather than
+a separate, time-boxed phase. Unlike neural networks, the shape isn't guessed: the graph's breadth and
+depth follow directly from the process itself, and every node is initialised against named factors, not
+a blank weight. Training fits the coefficients between them, and reveals how far the data still points
+to factors the model hasn't accounted for. The swarm submits the data, but a person reviews and approves
+what it implies, e.g. that a door takes five minutes to hang, before it's adopted: human-in-the-loop,
+not unsupervised.
+
+[NOTE: the previous "four/five classic AI challenges" grid (Black Box Problem, Hallucination Problem,
+Catastrophic Forgetting, Continuous Learning, Displacement Problem) has been removed entirely — decided
+that defining the model by what it isn't was unnecessary and risked reading as an overclaim to a
+technical audience. This section now only states what the model is.]
+
+
+8. ETHICAL AND SOCIETAL IMPLICATIONS
+--------------------------------------
+Subtitle: The same recorded execution data extends to environmental transparency, merit-based
+recognition, stakeholder alignment, the future of work, self-governance, and employee monitoring.
+
+Environmental Transparency — "Suppliers and projects judged on real impact, not claims."
+Material, tool, and energy properties are already recorded against each step. The same formulas that
+derive cost or time can derive carbon and resource impact, attributed to the exact step, supplier, or
+project that produced it, not estimated after the fact.
+
+Merit-Based Recognition — "Recognised, and rewarded, for what's actually delivered."
+Because outcomes are attributed to the specific agent who delivered each step, an individual's or
+organisation's actual measured contribution becomes visible, distinct from tenure, perception, or
+self-report.
+
+Stakeholder Alignment — "Fewer disputes: no one is arguing from a different picture."
+Every party works from the same measured record, not their own account of it: the customer, third
+parties affected by their choices (a neighbour, when a house gains another floor), the company, and its
+employees. Transparency is what aligns their otherwise separate concerns.
+
+Future of Work — "Fair pay, wherever the work happens."
+A person and an organisation are the same kind of agent, just at a different scale. Once contribution is
+measured directly, work can be coordinated and compensated across individuals and organisations, not
+only within a single employer's hierarchy.
+
+Self-Governance — "Trust, without needing a regulator to enforce it."
+Monitoring and graduated sanctions emerge from the measured record itself, so the process governs itself
+internally, rather than needing external authority imposed on it to prevent regression or gaming.
+
+Employee Monitoring — "The record is the worker's too, and leaves with them."
+Workplace monitoring normally produces a record the employer owns and the worker never sees. Here it is
+jointly owned: a verified track record the worker carries with them, independent of any single employer.
+
+
+9. WHERE VALUE APPLIES
+------------------------
+Subtitle: Value here follows two independent axes: how complex the process is, and how granularly it
+can be tracked. More of either raises what the model can do.
+
+STATE ATTENUATION
+Taking something from its existing state to a desired state, by coupling state changes to a process.
+
+- Delivery: Current state is zero. The full desired state must be produced. Discrete, with a completion point.
+- Maintenance: Current state has deviated from desired. The gap must be closed. Continuous, with no completion point.
+
+A new-build construction process starts from a 0 state and ends at a complete building: delivery.
+
+Putting out a forest fire could equally be treated as its own delivery, a zero state to an end state,
+just like the house. It's preferable to treat forest management as a moving optimal state, based on
+factors like species mix and age of maturity: maintenance. Either way, every activity tied to the same
+product, the forest, sits in one model, trading off routine maintenance against the fire in purely
+mathematical terms, with feedback between them built in natively.
+[NOTE: a tightened rewrite of this paragraph has been proposed but not yet applied — see conversation.]
+
+Resource, inventory, workforce, and document management are not separate concerns: each is informed by
+this same central objective, closing the gap between current and desired state.
+
+EXAMPLE INDUSTRIES
+(Each card shows the benefit most pertinent to that industry: every capability is shared across all use cases.)
+- Agriculture: Process efficiencies discovered on one farm generalise as measured knowledge usable across the whole industry, not locked to that farm.
+- Construction: Delivery is enormously complex: many trades, specs, and contributors. The same graph that maps one step maps the whole project, however large.
+- Health: Tracks the experience of care teams, of any size, so a patient is matched with whoever's track record best fits their specific case.
+- Manufacturing: A defect or a delay is attributed to the specific machine, material, or step responsible, not spread across the whole line as a guess.
+- Telecommunications: Currently siloed across disparate systems, each holding its own partial picture. Here it unifies into one structured record, tied to the same process.
+- Incident Response: An incident report functions as a spec: the same mechanism that maps a specification to process steps turns it directly into an action plan.
+- Utilities: A largely maintenance domain: the same execution data that diagnoses a fault also forecasts the next one, before it happens.
+
+
+10. FIELDS THIS TOUCHES
+-------------------------
+Subtitle: MeritOI sits at the intersection of several established academic disciplines.
+
+1. Swarm Intelligence: Coherent global behaviour, emerging from many simple, local agents rather than central control. Here that's literal: every tool, person, and organisation executing a step contributes measured data directly and continuously, not a model trained on history.
+2. Production Theory: Production theory's known blind spot is the black box: inputs go in, outputs come out, with nothing modelling what happens between. MeritOI puts process at the centre of those same inputs and outputs, rather than collapsing them into a single function.
+3. BPMN: BPMN lets you nest sub-processes, but never names or fixes any levels of abstraction, and its large vocabulary of optional elements means the same process gets drawn differently by different modellers. This model fixes both: one canonical graph, with a named granularity axis from system cluster down to individual action.
+4. Critical Chain Project Management: CCPM improved on plain critical path scheduling with buffers for duration uncertainty, but a buffer doesn't say why a step is uncertain. This model attributes that uncertainty to its actual source: the executor, the specific tool, the material, the time of day, etc.
+5. Commons Governance: Ostrom showed shared resources can be self-governed without central authority, through monitoring, graduated sanctions, and nested layers of enterprise. That's the same shape as process as a commons: governance, toolmakers, and educators on one side, industry on the other.
+6. Artificial Immune Systems: AIS models computational security on the immune system's self/non-self discrimination: legitimate behaviour is a known baseline, anything else is flagged. This model retains every historic process and its data as that baseline, so regression or gaming shows up as a deviation from it.
+7. Data-Driven Optimisation: Data-driven optimisation already replaces assumed probability distributions with actual measured samples. This model goes further: it optimises against live, continuously recorded execution data, structured per step and per contributor, not a static historical sample.
+8. Contract Theory: The principal-agent problem: a principal can't observe an agent's actual effort, so they contract on proxies instead. Here, an agent's contribution to each step is directly recorded, not inferred from an unobservable action.
+9. Supply Chain Management: The bullwhip effect: demand variability amplifies upstream because each tier only sees the order from the tier below it, not real demand. Here, every tier reads from the same recorded process, not from what the tier below reports.
+10. Prescriptive Analytics: Gartner's own maturity model shows why this is hard: fewer than 10% of organisations ever reach prescriptive analytics, each stage a separate, costly build. Here prescriptive comes for free: the same formula that diagnoses a step also forecasts and drives coordination.
+11. Management Cybernetics: Beer's Viable System Model, built on Ashby's Law: a viable system is recursive, made of viable subsystems, each needing enough internal variety to regulate itself. The same graph, repeating at every scale from system cluster to action, is exactly that recursion.

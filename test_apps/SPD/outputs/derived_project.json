@@ -1,0 +1,108 @@
+{
+  "kind": "derived_project",
+  "P": [
+    "A",
+    "C",
+    "S"
+  ],
+  "bindings": {
+    "S": {
+      "grade": "standard"
+    },
+    "A": {
+      "length": 794.8,
+      "width": 163.8,
+      "colour": "blue"
+    },
+    "C": {
+      "count": 14,
+      "colour": "natural"
+    }
+  },
+  "N_P": [
+    "p1",
+    "p2",
+    "q1",
+    "r1"
+  ],
+  "G_P": {
+    "Ns": [
+      {
+        "id": "p1",
+        "label": "p1",
+        "skillset": "S1",
+        "status": "active"
+      },
+      {
+        "id": "p2",
+        "label": "p2",
+        "skillset": "S1",
+        "status": "optional"
+      },
+      {
+        "id": "q1",
+        "label": "q1",
+        "skillset": "S2",
+        "status": "active"
+      },
+      {
+        "id": "r1",
+        "label": "r1",
+        "skillset": "S3",
+        "status": "optional"
+      }
+    ],
+    "Asp": [
+      {
+        "product": "p_p1_q1",
+        "u": "p1",
+        "v": "q1",
+        "crossesSkillset": true,
+        "status": "active"
+      },
+      {
+        "product": "p_p1_p2",
+        "u": "p1",
+        "v": "p2",
+        "crossesSkillset": false,
+        "status": "optional"
+      }
+    ]
+  },
+  "eligibility": {
+    "p1": [
+      "ag01",
+      "ag04",
+      "ag06",
+      "ag07",
+      "ag08",
+      "ag11"
+    ],
+    "p2": [
+      "ag01",
+      "ag04",
+      "ag06",
+      "ag07",
+      "ag08",
+      "ag11"
+    ],
+    "q1": [
+      "ag02",
+      "ag04",
+      "ag05",
+      "ag07",
+      "ag09",
+      "ag11",
+      "ag12"
+    ],
+    "r1": [
+      "ag03",
+      "ag05",
+      "ag06",
+      "ag07",
+      "ag10",
+      "ag12"
+    ]
+  },
+  "seed": 7
+}

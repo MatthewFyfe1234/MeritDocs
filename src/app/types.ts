@@ -66,6 +66,7 @@ export interface ImageScene {
   duration: number;          // seconds
   backgroundImage?: string;  // imported asset or URL
   backgroundColor?: string;
+  backgroundOverlay?: string; // rgba color drawn over backgroundImage; defaults to 'rgba(0,0,0,0.55)'
   overlays: TextOverlay[];
   transition?: 'fade' | 'cut';
 }
@@ -94,4 +95,74 @@ export interface VideoConfig {
   exportFilename: string;
   logo?: VideoLogo;  // shown on every scene
   scenes: VideoScene[];
+}
+
+// ---------------------------------------------------------------------------
+// Timeline types — compositor model: background video + timed image/text overlays
+// ---------------------------------------------------------------------------
+
+export interface TimelineImageOverlay {
+  src: string;           // imported image asset
+  startTime: number;     // seconds from start of background video
+  endTime: number;
+  x?: number;            // 0–1 horizontal position; default 0.05
+  y?: number;            // 0–1 vertical position; default 0.05
+  anchor?: 'tl' | 'tr' | 'bl' | 'br'; // which corner x/y refers to; default 'tl'
+  width?: number;        // 0–1 of canvas width; default 0.45
+  transition?: 'fade' | 'cut'; // default 'cut'
+}
+
+export interface TimedTextOverlay extends TextOverlay {
+  startTime: number;
+  endTime: number;
+}
+
+export interface TimelineAudioClip {
+  src: string;       // imported audio asset
+  startTime: number; // seconds into the timeline when this clip begins
+  label?: string;    // display name (defaults to filename)
+}
+
+export interface TimelineSpeedZone {
+  startTime: number;
+  endTime: number;
+  rate: number;      // playback multiplier — e.g. 3 = 3× faster
+}
+
+export interface TimelineBackgroundClip {
+  src: string;
+  startTime?: number; // trim in-point within the source video; default 0
+  endTime?: number;   // trim out-point; default = full video duration
+}
+
+export interface TimelineTitleCard {
+  duration?: number;   // seconds; default 2.5
+  title?: string;
+  subtitle?: string;
+  showLogo?: boolean;  // default true
+  background?: string; // card background color; default '#0f1117'
+}
+
+// A background can be a single src, a clip with in/out points, or an array of either
+export type TimelineBackground = string | TimelineBackgroundClip;
+
+export function normalizeBg(bg: TimelineBackground | TimelineBackground[]): Required<TimelineBackgroundClip>[] {
+  const arr = Array.isArray(bg) ? bg : [bg];
+  return arr.map(b => typeof b === 'string'
+    ? { src: b, startTime: 0, endTime: Infinity }
+    : { src: b.src, startTime: b.startTime ?? 0, endTime: b.endTime ?? Infinity }
+  );
+}
+
+export interface TimelineConfig {
+  title: string;
+  exportFilename: string;
+  background: TimelineBackground | TimelineBackground[]; // single video, playlist, or trimmed clips
+  logo?: VideoLogo;
+  imageOverlays?: TimelineImageOverlay[];
+  audioClips?: TimelineAudioClip[];
+  speedZones?: TimelineSpeedZone[];
+  textOverlays?: TimedTextOverlay[];
+  intro?: TimelineTitleCard; // fade-in title card played before the background video
+  outro?: TimelineTitleCard; // fade-out card played after the background video ends
 }

@@ -6,6 +6,10 @@ import { BusinessCardFront } from './business-card/BusinessCardFront';
 import { BusinessCardBack } from './business-card/BusinessCardBack';
 import { FlyerFront } from './flyer/FlyerFront';
 import { FlyerBack } from './flyer/FlyerBack';
+import { paper as modelPaperTemplate } from './papers/model-paper-template';
+import { paper as stigmergicProjectDelivery } from './papers/stigmergic-project-delivery';
+import { paper as stigmergicCoordination } from './papers/stigmergic-coordination';
+import { paper as attributedContribution } from './papers/attributed-contribution';
 
 export const presentationFolder = {
   title: 'Merit OI: Presentation Folder',
@@ -44,3 +48,6 @@ export const flyer = {
     <FlyerBack key="back" />,
   ],
 };
+
+// Flowing, paginated documents (rendered by PaperViewer). Add new papers here.
+export { modelPaperTemplate, stigmergicProjectDelivery, stigmergicCoordination, attributedContribution };

@@ -1,0 +1,16 @@
+A platform walkthrough:
+
+1. Your company receives a request for
+a house kit, from a regular client. Your sales person inputs the project details and uploads any documents relating to the job.
+
+2. Now your estimator can proceed to define the spec, as described in the documents, constrained by your product template with all the options they might need - autopopulating when possible and with various failsafes to prevent an incomplete description
+
+3. With the spec created, all of the manual aspects of delivering a project are complete. From here, material quantification, inventory management, project costing, selection of the right team, scheduling of that team, document control and more are automated, based on historic data
+
+4. Various tools for manual fine tuning and perspectives to track projects are available, including automatically generated Gantt charts
+
+5. Behind it all is your master process - the complete map of how your company delivers. Every project takes exactly the slice of it that its spec requires. And every completed project feeds back in to help make forecasting on the next project better.
+
+6. As well as using that data for forecasting, Merit makes it easy to track any metric, for any project, executor, tool or material, captured at the point of delivery, against a timeline. Combine those into calculations to answer... anything you want.
+
+7. How much more work can you take on with the capacity you have? Why does the same job take twice as long some weeks — and what's that costing you? What will next month actually cost? Who's earned a raise, and who's ready for one next, with the right support? Or go forensic: what really went wrong on that project, or when will that new machine pay off?

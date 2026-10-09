@@ -1,0 +1,48 @@
+{
+  "kind": "master_process",
+  "specification": "master_specification.json",
+  "G": {
+    "label": "Master process",
+    "Ns": [
+      { "id": "p1", "label": "p1", "skillset": "S1", "status": "active" },
+      { "id": "p2", "label": "p2", "skillset": "S1", "status": "optional" },
+      { "id": "q1", "label": "q1", "skillset": "S2", "status": "active" },
+      { "id": "q2", "label": "q2", "skillset": "S2", "status": "active" },
+      { "id": "r1", "label": "r1", "skillset": "S3", "status": "optional" },
+      { "id": "r2", "label": "r2", "skillset": "S3", "status": "active" }
+    ],
+    "Asp": [
+      { "product": "p_p1_q1", "u": "p1", "v": "q1", "crossesSkillset": true,  "status": "active" },
+      { "product": "p_q1_q2", "u": "q1", "v": "q2", "crossesSkillset": false, "status": "active" },
+      { "product": "p_q2_r2", "u": "q2", "v": "r2", "crossesSkillset": true,  "status": "active" },
+      { "product": "p_p1_p2", "u": "p1", "v": "p2", "crossesSkillset": false, "status": "optional" },
+      { "product": "p_r2_r1", "u": "r2", "v": "r1", "crossesSkillset": false, "status": "optional" }
+    ]
+  },
+  "Gj": {
+    "label": "Master process, by skillset",
+    "Nj": [
+      { "id": "S1", "label": "S1", "name": "Skillset 1" },
+      { "id": "S2", "label": "S2", "name": "Skillset 2" },
+      { "id": "S3", "label": "S3", "name": "Skillset 3" }
+    ],
+    "Ajp": [
+      { "product": "p_p1_q1", "u": "S1", "v": "S2" },
+      { "product": "p_q2_r2", "u": "S2", "v": "S3" }
+    ]
+  },
+  "J": {
+    "p1": "S1",
+    "p2": "S1",
+    "q1": "S2",
+    "q2": "S2",
+    "r1": "S3",
+    "r2": "S3"
+  },
+  "mu": {
+    "S": [],
+    "A": ["p1", "q1"],
+    "B": ["q2", "r2"],
+    "C": ["p2", "r1"]
+  }
+}

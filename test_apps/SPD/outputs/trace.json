@@ -1,0 +1,4195 @@
+{
+  "kind": "trace",
+  "specification": "master_specification.json",
+  "process": "master_process.json",
+  "agents": "agents.json",
+  "note": "tau = { (P, s, D, a, M) }, keyed on master step s so history accumulates across projects.",
+  "records": [
+    {
+      "P": "PRJ-001",
+      "s": "p1",
+      "D": {
+        "length": 1585.2,
+        "width": 1021.4,
+        "colour": "black"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 15.49,
+        "cost_gbp": 1026.83,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "hoist"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-001",
+      "s": "q1",
+      "D": {
+        "length": 1585.2,
+        "width": 1021.4,
+        "colour": "black"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 18.29,
+        "cost_gbp": 892.13,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "gauge"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-001",
+      "s": "q2",
+      "D": {
+        "length": 1729.3,
+        "count": 30,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 17.2,
+        "cost_gbp": 1437.37,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "saw"
+      ],
+      "materials": [
+        "timber",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-001",
+      "s": "r2",
+      "D": {
+        "length": 1729.3,
+        "count": 30,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 18.75,
+        "cost_gbp": 1064.66,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "gauge"
+      ],
+      "materials": [
+        "timber",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-002",
+      "s": "p1",
+      "D": {
+        "length": 1736.1,
+        "width": 450.3,
+        "colour": "natural"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 16.0,
+        "cost_gbp": 1059.17,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-002",
+      "s": "q1",
+      "D": {
+        "length": 1736.1,
+        "width": 450.3,
+        "colour": "natural"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 16.39,
+        "cost_gbp": 815.76,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-002",
+      "s": "q2",
+      "D": {
+        "length": 702.8,
+        "count": 43,
+        "grade": "standard"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 12.3,
+        "cost_gbp": 793.43,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-002",
+      "s": "r2",
+      "D": {
+        "length": 702.8,
+        "count": 43,
+        "grade": "standard"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 14.31,
+        "cost_gbp": 1060.37,
+        "defects": 0
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-003",
+      "s": "p1",
+      "D": {
+        "length": 1416.8,
+        "width": 624.2,
+        "colour": "grey"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 13.67,
+        "cost_gbp": 779.3,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-003",
+      "s": "q1",
+      "D": {
+        "length": 1416.8,
+        "width": 624.2,
+        "colour": "grey"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 15.19,
+        "cost_gbp": 824.71,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "press"
+      ],
+      "materials": [
+        "fixings",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-003",
+      "s": "q2",
+      "D": {
+        "length": 431.5,
+        "count": 6,
+        "grade": "standard"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 7.88,
+        "cost_gbp": 501.29,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "gauge"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-003",
+      "s": "r2",
+      "D": {
+        "length": 431.5,
+        "count": 6,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 7.75,
+        "cost_gbp": 523.17,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "p1",
+      "D": {
+        "length": 633.7,
+        "width": 420.9,
+        "colour": "blue"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 9.74,
+        "cost_gbp": 466.91,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "gauge"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "q1",
+      "D": {
+        "length": 633.7,
+        "width": 420.9,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 11.7,
+        "cost_gbp": 704.41,
+        "defects": 0
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "q2",
+      "D": {
+        "length": 1518.3,
+        "count": 26,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 12.04,
+        "cost_gbp": 1046.55,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "hoist"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "r2",
+      "D": {
+        "length": 1518.3,
+        "count": 26,
+        "grade": "standard"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 17.52,
+        "cost_gbp": 1065.98,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "sealant",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "p2",
+      "D": {
+        "count": 16,
+        "colour": "grey"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 5.26,
+        "cost_gbp": 350.68,
+        "defects": 2
+      },
+      "tools": [
+        "press",
+        "jig"
+      ],
+      "materials": [
+        "board",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-004",
+      "s": "r1",
+      "D": {
+        "count": 16,
+        "colour": "grey"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 7.21,
+        "cost_gbp": 435.45,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-005",
+      "s": "p1",
+      "D": {
+        "length": 927.7,
+        "width": 752.8,
+        "colour": "blue"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 11.58,
+        "cost_gbp": 562.88,
+        "defects": 2
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "board",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-005",
+      "s": "q1",
+      "D": {
+        "length": 927.7,
+        "width": 752.8,
+        "colour": "blue"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 13.48,
+        "cost_gbp": 743.45,
+        "defects": 3
+      },
+      "tools": [
+        "jig",
+        "gauge"
+      ],
+      "materials": [
+        "timber",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-005",
+      "s": "q2",
+      "D": {
+        "length": 1636.0,
+        "count": 37,
+        "grade": "premium"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 17.75,
+        "cost_gbp": 1141.88,
+        "defects": 0
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-005",
+      "s": "r2",
+      "D": {
+        "length": 1636.0,
+        "count": 37,
+        "grade": "premium"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 19.14,
+        "cost_gbp": 1206.38,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "press"
+      ],
+      "materials": [
+        "coating",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-006",
+      "s": "p1",
+      "D": {
+        "length": 1757.9,
+        "width": 754.6,
+        "colour": "white"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 18.59,
+        "cost_gbp": 1216.85,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-006",
+      "s": "q1",
+      "D": {
+        "length": 1757.9,
+        "width": 754.6,
+        "colour": "white"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 16.69,
+        "cost_gbp": 1258.2,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-006",
+      "s": "q2",
+      "D": {
+        "length": 1562.0,
+        "count": 38,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 15.11,
+        "cost_gbp": 1101.42,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "hoist"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-006",
+      "s": "r2",
+      "D": {
+        "length": 1562.0,
+        "count": 38,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 19.42,
+        "cost_gbp": 1624.0,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "p1",
+      "D": {
+        "length": 183.2,
+        "width": 1178.4,
+        "colour": "grey"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 11.29,
+        "cost_gbp": 512.84,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "hoist"
+      ],
+      "materials": [
+        "board",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "q1",
+      "D": {
+        "length": 183.2,
+        "width": 1178.4,
+        "colour": "grey"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 16.31,
+        "cost_gbp": 851.52,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "coating",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "q2",
+      "D": {
+        "length": 226.6,
+        "count": 58,
+        "grade": "premium"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 11.33,
+        "cost_gbp": 859.9,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "gauge"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "r2",
+      "D": {
+        "length": 226.6,
+        "count": 58,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 16.8,
+        "cost_gbp": 1474.31,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "gauge"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "p2",
+      "D": {
+        "count": 22,
+        "colour": "natural"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 5.69,
+        "cost_gbp": 476.89,
+        "defects": 2
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "sealant",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-007",
+      "s": "r1",
+      "D": {
+        "count": 22,
+        "colour": "natural"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 7.67,
+        "cost_gbp": 448.78,
+        "defects": 2
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-008",
+      "s": "p1",
+      "D": {
+        "length": 1806.3,
+        "width": 796.9,
+        "colour": "natural"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 16.12,
+        "cost_gbp": 807.33,
+        "defects": 1
+      },
+      "tools": [
+        "jig",
+        "drill"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-008",
+      "s": "q1",
+      "D": {
+        "length": 1806.3,
+        "width": 796.9,
+        "colour": "natural"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 17.74,
+        "cost_gbp": 969.89,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "fixings",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-008",
+      "s": "q2",
+      "D": {
+        "length": 476.8,
+        "count": 47,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 12.77,
+        "cost_gbp": 963.11,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "gauge"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-008",
+      "s": "r2",
+      "D": {
+        "length": 476.8,
+        "count": 47,
+        "grade": "standard"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 14.34,
+        "cost_gbp": 892.24,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-009",
+      "s": "p1",
+      "D": {
+        "length": 315.0,
+        "width": 834.1,
+        "colour": "blue"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 14.52,
+        "cost_gbp": 898.63,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "saw"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-009",
+      "s": "q1",
+      "D": {
+        "length": 315.0,
+        "width": 834.1,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 13.37,
+        "cost_gbp": 783.78,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-009",
+      "s": "q2",
+      "D": {
+        "length": 1499.6,
+        "count": 53,
+        "grade": "premium"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 20.97,
+        "cost_gbp": 1416.58,
+        "defects": 2
+      },
+      "tools": [
+        "press",
+        "saw"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-009",
+      "s": "r2",
+      "D": {
+        "length": 1499.6,
+        "count": 53,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 21.19,
+        "cost_gbp": 1819.47,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "coating",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "p1",
+      "D": {
+        "length": 746.9,
+        "width": 320.6,
+        "colour": "blue"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 12.36,
+        "cost_gbp": 839.31,
+        "defects": 1
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "board",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "q1",
+      "D": {
+        "length": 746.9,
+        "width": 320.6,
+        "colour": "blue"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 11.4,
+        "cost_gbp": 545.88,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "jig"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "q2",
+      "D": {
+        "length": 1933.6,
+        "count": 46,
+        "grade": "premium"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 12.57,
+        "cost_gbp": 1044.05,
+        "defects": 2
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "r2",
+      "D": {
+        "length": 1933.6,
+        "count": 46,
+        "grade": "premium"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 26.37,
+        "cost_gbp": 1626.72,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "p2",
+      "D": {
+        "count": 3,
+        "colour": "grey"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 3.65,
+        "cost_gbp": 223.31,
+        "defects": 1
+      },
+      "tools": [
+        "saw",
+        "hoist"
+      ],
+      "materials": [
+        "sealant",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-010",
+      "s": "r1",
+      "D": {
+        "count": 3,
+        "colour": "grey"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 4.82,
+        "cost_gbp": 351.53,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "press"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "p1",
+      "D": {
+        "length": 116.5,
+        "width": 532.3,
+        "colour": "white"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 8.15,
+        "cost_gbp": 506.75,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "press"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "q1",
+      "D": {
+        "length": 116.5,
+        "width": 532.3,
+        "colour": "white"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 10.87,
+        "cost_gbp": 769.76,
+        "defects": 1
+      },
+      "tools": [
+        "saw",
+        "press"
+      ],
+      "materials": [
+        "timber",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "q2",
+      "D": {
+        "length": 1529.3,
+        "count": 41,
+        "grade": "standard"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 28.22,
+        "cost_gbp": 1730.28,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "r2",
+      "D": {
+        "length": 1529.3,
+        "count": 41,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 20.46,
+        "cost_gbp": 1709.99,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "saw"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "p2",
+      "D": {
+        "count": 34,
+        "colour": "grey"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 8.65,
+        "cost_gbp": 552.07,
+        "defects": 2
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-011",
+      "s": "r1",
+      "D": {
+        "count": 34,
+        "colour": "grey"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 6.53,
+        "cost_gbp": 490.56,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "jig"
+      ],
+      "materials": [
+        "board",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-012",
+      "s": "p1",
+      "D": {
+        "length": 1783.1,
+        "width": 290.6,
+        "colour": "grey"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 12.87,
+        "cost_gbp": 828.65,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "press"
+      ],
+      "materials": [
+        "sealant",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-012",
+      "s": "q1",
+      "D": {
+        "length": 1783.1,
+        "width": 290.6,
+        "colour": "grey"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 12.15,
+        "cost_gbp": 630.83,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "jig"
+      ],
+      "materials": [
+        "timber",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-012",
+      "s": "q2",
+      "D": {
+        "length": 101.9,
+        "count": 50,
+        "grade": "standard"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 16.0,
+        "cost_gbp": 1076.53,
+        "defects": 1
+      },
+      "tools": [
+        "saw",
+        "gauge"
+      ],
+      "materials": [
+        "timber",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-012",
+      "s": "r2",
+      "D": {
+        "length": 101.9,
+        "count": 50,
+        "grade": "standard"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 12.46,
+        "cost_gbp": 960.58,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "jig"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-013",
+      "s": "p1",
+      "D": {
+        "length": 257.8,
+        "width": 941.7,
+        "colour": "white"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 9.77,
+        "cost_gbp": 612.39,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "board",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-013",
+      "s": "q1",
+      "D": {
+        "length": 257.8,
+        "width": 941.7,
+        "colour": "white"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 14.08,
+        "cost_gbp": 740.76,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-013",
+      "s": "q2",
+      "D": {
+        "length": 390.0,
+        "count": 53,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 14.01,
+        "cost_gbp": 1262.68,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-013",
+      "s": "r2",
+      "D": {
+        "length": 390.0,
+        "count": 53,
+        "grade": "premium"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 17.77,
+        "cost_gbp": 1160.56,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-014",
+      "s": "p1",
+      "D": {
+        "length": 414.1,
+        "width": 787.0,
+        "colour": "white"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 10.03,
+        "cost_gbp": 468.74,
+        "defects": 1
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "fixings",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-014",
+      "s": "q1",
+      "D": {
+        "length": 414.1,
+        "width": 787.0,
+        "colour": "white"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 10.5,
+        "cost_gbp": 624.95,
+        "defects": 1
+      },
+      "tools": [
+        "jig",
+        "press"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-014",
+      "s": "q2",
+      "D": {
+        "length": 869.3,
+        "count": 11,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 12.65,
+        "cost_gbp": 796.12,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-014",
+      "s": "r2",
+      "D": {
+        "length": 869.3,
+        "count": 11,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 12.42,
+        "cost_gbp": 854.23,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "gauge"
+      ],
+      "materials": [
+        "fixings",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "p1",
+      "D": {
+        "length": 649.2,
+        "width": 502.3,
+        "colour": "blue"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 13.79,
+        "cost_gbp": 871.2,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "sealant",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "q1",
+      "D": {
+        "length": 649.2,
+        "width": 502.3,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 11.76,
+        "cost_gbp": 708.6,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "q2",
+      "D": {
+        "length": 518.1,
+        "count": 31,
+        "grade": "standard"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 13.7,
+        "cost_gbp": 884.27,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "r2",
+      "D": {
+        "length": 518.1,
+        "count": 31,
+        "grade": "standard"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 13.02,
+        "cost_gbp": 918.1,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "sealant",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "p2",
+      "D": {
+        "count": 58,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 12.35,
+        "cost_gbp": 994.81,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-015",
+      "s": "r1",
+      "D": {
+        "count": 58,
+        "colour": "blue"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 10.45,
+        "cost_gbp": 925.88,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "p1",
+      "D": {
+        "length": 530.1,
+        "width": 537.1,
+        "colour": "grey"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 10.31,
+        "cost_gbp": 486.9,
+        "defects": 2
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "q1",
+      "D": {
+        "length": 530.1,
+        "width": 537.1,
+        "colour": "grey"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 13.07,
+        "cost_gbp": 874.26,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "sealant",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "q2",
+      "D": {
+        "length": 1281.4,
+        "count": 22,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 10.68,
+        "cost_gbp": 763.07,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "timber",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "r2",
+      "D": {
+        "length": 1281.4,
+        "count": 22,
+        "grade": "standard"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 12.58,
+        "cost_gbp": 794.26,
+        "defects": 2
+      },
+      "tools": [
+        "hoist",
+        "jig"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "p2",
+      "D": {
+        "count": 28,
+        "colour": "blue"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 6.18,
+        "cost_gbp": 516.05,
+        "defects": 1
+      },
+      "tools": [
+        "jig",
+        "press"
+      ],
+      "materials": [
+        "sealant",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-016",
+      "s": "r1",
+      "D": {
+        "count": 28,
+        "colour": "blue"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 7.86,
+        "cost_gbp": 525.85,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "sealant",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "p1",
+      "D": {
+        "length": 614.9,
+        "width": 350.8,
+        "colour": "grey"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 14.06,
+        "cost_gbp": 759.28,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "saw"
+      ],
+      "materials": [
+        "sealant",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "q1",
+      "D": {
+        "length": 614.9,
+        "width": 350.8,
+        "colour": "grey"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 12.74,
+        "cost_gbp": 925.26,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "sealant",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "q2",
+      "D": {
+        "length": 644.1,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 11.1,
+        "cost_gbp": 865.69,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "r2",
+      "D": {
+        "length": 644.1,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 14.91,
+        "cost_gbp": 1273.23,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "p2",
+      "D": {
+        "count": 12,
+        "colour": "grey"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 4.61,
+        "cost_gbp": 357.25,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "board",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-017",
+      "s": "r1",
+      "D": {
+        "count": 12,
+        "colour": "grey"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 6.01,
+        "cost_gbp": 479.62,
+        "defects": 0
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "p1",
+      "D": {
+        "length": 1546.4,
+        "width": 905.2,
+        "colour": "white"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 18.62,
+        "cost_gbp": 1208.09,
+        "defects": 2
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "steel",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "q1",
+      "D": {
+        "length": 1546.4,
+        "width": 905.2,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 18.39,
+        "cost_gbp": 1268.11,
+        "defects": 3
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "coating",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "q2",
+      "D": {
+        "length": 1287.3,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 16.1,
+        "cost_gbp": 1058.1,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "r2",
+      "D": {
+        "length": 1287.3,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 16.09,
+        "cost_gbp": 1054.23,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "gauge"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "p2",
+      "D": {
+        "count": 11,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 4.56,
+        "cost_gbp": 349.03,
+        "defects": 2
+      },
+      "tools": [
+        "jig",
+        "saw"
+      ],
+      "materials": [
+        "sealant",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-018",
+      "s": "r1",
+      "D": {
+        "count": 11,
+        "colour": "white"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 4.12,
+        "cost_gbp": 288.27,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-019",
+      "s": "p1",
+      "D": {
+        "length": 483.4,
+        "width": 789.6,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 10.71,
+        "cost_gbp": 640.39,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-019",
+      "s": "q1",
+      "D": {
+        "length": 483.4,
+        "width": 789.6,
+        "colour": "blue"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 12.59,
+        "cost_gbp": 649.86,
+        "defects": 2
+      },
+      "tools": [
+        "press",
+        "gauge"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-019",
+      "s": "q2",
+      "D": {
+        "length": 303.5,
+        "count": 6,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 7.36,
+        "cost_gbp": 370.26,
+        "defects": 2
+      },
+      "tools": [
+        "jig",
+        "gauge"
+      ],
+      "materials": [
+        "timber",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-019",
+      "s": "r2",
+      "D": {
+        "length": 303.5,
+        "count": 6,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 7.44,
+        "cost_gbp": 564.63,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "drill"
+      ],
+      "materials": [
+        "fixings",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-020",
+      "s": "p1",
+      "D": {
+        "length": 1297.8,
+        "width": 676.2,
+        "colour": "grey"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 12.33,
+        "cost_gbp": 704.39,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "jig"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-020",
+      "s": "q1",
+      "D": {
+        "length": 1297.8,
+        "width": 676.2,
+        "colour": "grey"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 16.74,
+        "cost_gbp": 1238.68,
+        "defects": 2
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-020",
+      "s": "q2",
+      "D": {
+        "length": 1922.7,
+        "count": 43,
+        "grade": "premium"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 18.53,
+        "cost_gbp": 1333.06,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-020",
+      "s": "r2",
+      "D": {
+        "length": 1922.7,
+        "count": 43,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 20.7,
+        "cost_gbp": 1225.45,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "fixings",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-021",
+      "s": "p1",
+      "D": {
+        "length": 1606.4,
+        "width": 656.2,
+        "colour": "blue"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 15.48,
+        "cost_gbp": 1083.47,
+        "defects": 1
+      },
+      "tools": [
+        "jig",
+        "saw"
+      ],
+      "materials": [
+        "fixings",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-021",
+      "s": "q1",
+      "D": {
+        "length": 1606.4,
+        "width": 656.2,
+        "colour": "blue"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 17.94,
+        "cost_gbp": 1109.16,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-021",
+      "s": "q2",
+      "D": {
+        "length": 1555.7,
+        "count": 41,
+        "grade": "premium"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 16.91,
+        "cost_gbp": 1373.15,
+        "defects": 2
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-021",
+      "s": "r2",
+      "D": {
+        "length": 1555.7,
+        "count": 41,
+        "grade": "premium"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 16.5,
+        "cost_gbp": 1092.78,
+        "defects": 2
+      },
+      "tools": [
+        "jig",
+        "drill"
+      ],
+      "materials": [
+        "steel",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "p1",
+      "D": {
+        "length": 195.5,
+        "width": 1092.4,
+        "colour": "white"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 12.15,
+        "cost_gbp": 749.37,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "drill"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "q1",
+      "D": {
+        "length": 195.5,
+        "width": 1092.4,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 19.75,
+        "cost_gbp": 1288.26,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "press"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "q2",
+      "D": {
+        "length": 367.5,
+        "count": 10,
+        "grade": "standard"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 5.27,
+        "cost_gbp": 328.19,
+        "defects": 0
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "board",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "r2",
+      "D": {
+        "length": 367.5,
+        "count": 10,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 8.46,
+        "cost_gbp": 583.17,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "p2",
+      "D": {
+        "count": 13,
+        "colour": "grey"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 4.3,
+        "cost_gbp": 254.93,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "jig"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-022",
+      "s": "r1",
+      "D": {
+        "count": 13,
+        "colour": "grey"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 5.6,
+        "cost_gbp": 341.08,
+        "defects": 0
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-023",
+      "s": "p1",
+      "D": {
+        "length": 454.9,
+        "width": 921.2,
+        "colour": "white"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 11.95,
+        "cost_gbp": 642.7,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "steel",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-023",
+      "s": "q1",
+      "D": {
+        "length": 454.9,
+        "width": 921.2,
+        "colour": "white"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 12.13,
+        "cost_gbp": 563.53,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "press"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-023",
+      "s": "q2",
+      "D": {
+        "length": 376.2,
+        "count": 50,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 10.7,
+        "cost_gbp": 741.43,
+        "defects": 1
+      },
+      "tools": [
+        "jig",
+        "drill"
+      ],
+      "materials": [
+        "coating",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-023",
+      "s": "r2",
+      "D": {
+        "length": 376.2,
+        "count": 50,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 12.63,
+        "cost_gbp": 826.68,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "saw"
+      ],
+      "materials": [
+        "fixings",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "p1",
+      "D": {
+        "length": 888.8,
+        "width": 704.8,
+        "colour": "blue"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 12.08,
+        "cost_gbp": 671.08,
+        "defects": 0
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "coating",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "q1",
+      "D": {
+        "length": 888.8,
+        "width": 704.8,
+        "colour": "blue"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 13.49,
+        "cost_gbp": 714.5,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "drill"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "q2",
+      "D": {
+        "length": 1310.6,
+        "count": 28,
+        "grade": "standard"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 18.18,
+        "cost_gbp": 1377.78,
+        "defects": 2
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "r2",
+      "D": {
+        "length": 1310.6,
+        "count": 28,
+        "grade": "standard"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 15.0,
+        "cost_gbp": 941.88,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "coating",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "p2",
+      "D": {
+        "count": 33,
+        "colour": "white"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 6.44,
+        "cost_gbp": 449.45,
+        "defects": 1
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "board",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-024",
+      "s": "r1",
+      "D": {
+        "count": 33,
+        "colour": "white"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 9.36,
+        "cost_gbp": 818.52,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "timber",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-025",
+      "s": "p1",
+      "D": {
+        "length": 500.6,
+        "width": 484.5,
+        "colour": "blue"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 8.13,
+        "cost_gbp": 389.13,
+        "defects": 0
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-025",
+      "s": "q1",
+      "D": {
+        "length": 500.6,
+        "width": 484.5,
+        "colour": "blue"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 13.12,
+        "cost_gbp": 676.85,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "saw"
+      ],
+      "materials": [
+        "fixings",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-025",
+      "s": "q2",
+      "D": {
+        "length": 594.1,
+        "count": 39,
+        "grade": "standard"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 15.45,
+        "cost_gbp": 1220.93,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "drill"
+      ],
+      "materials": [
+        "steel",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-025",
+      "s": "r2",
+      "D": {
+        "length": 594.1,
+        "count": 39,
+        "grade": "standard"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 15.16,
+        "cost_gbp": 894.33,
+        "defects": 2
+      },
+      "tools": [
+        "saw",
+        "hoist"
+      ],
+      "materials": [
+        "timber",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-026",
+      "s": "p1",
+      "D": {
+        "length": 713.6,
+        "width": 996.2,
+        "colour": "natural"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 15.29,
+        "cost_gbp": 965.11,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-026",
+      "s": "q1",
+      "D": {
+        "length": 713.6,
+        "width": 996.2,
+        "colour": "natural"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 16.5,
+        "cost_gbp": 1192.71,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-026",
+      "s": "q2",
+      "D": {
+        "length": 1627.9,
+        "count": 41,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 20.23,
+        "cost_gbp": 1698.85,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "gauge"
+      ],
+      "materials": [
+        "coating",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-026",
+      "s": "r2",
+      "D": {
+        "length": 1627.9,
+        "count": 41,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 15.52,
+        "cost_gbp": 1230.78,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-027",
+      "s": "p1",
+      "D": {
+        "length": 1498.8,
+        "width": 1111.4,
+        "colour": "black"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 12.02,
+        "cost_gbp": 765.92,
+        "defects": 2
+      },
+      "tools": [
+        "hoist",
+        "jig"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-027",
+      "s": "q1",
+      "D": {
+        "length": 1498.8,
+        "width": 1111.4,
+        "colour": "black"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 20.05,
+        "cost_gbp": 1372.76,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-027",
+      "s": "q2",
+      "D": {
+        "length": 1514.4,
+        "count": 8,
+        "grade": "premium"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 11.16,
+        "cost_gbp": 731.19,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-027",
+      "s": "r2",
+      "D": {
+        "length": 1514.4,
+        "count": 8,
+        "grade": "premium"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 14.66,
+        "cost_gbp": 835.38,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "jig"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-028",
+      "s": "p1",
+      "D": {
+        "length": 1556.2,
+        "width": 806.0,
+        "colour": "blue"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 14.69,
+        "cost_gbp": 1030.02,
+        "defects": 2
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-028",
+      "s": "q1",
+      "D": {
+        "length": 1556.2,
+        "width": 806.0,
+        "colour": "blue"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 15.96,
+        "cost_gbp": 1111.91,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-028",
+      "s": "q2",
+      "D": {
+        "length": 338.3,
+        "count": 53,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 15.34,
+        "cost_gbp": 1352.96,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-028",
+      "s": "r2",
+      "D": {
+        "length": 338.3,
+        "count": 53,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 12.03,
+        "cost_gbp": 1013.95,
+        "defects": 2
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "p1",
+      "D": {
+        "length": 1250.6,
+        "width": 1061.6,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 16.22,
+        "cost_gbp": 1113.4,
+        "defects": 0
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "q1",
+      "D": {
+        "length": 1250.6,
+        "width": 1061.6,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 19.1,
+        "cost_gbp": 1299.1,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "saw"
+      ],
+      "materials": [
+        "sealant",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "q2",
+      "D": {
+        "length": 1943.5,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 23.19,
+        "cost_gbp": 1487.75,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "fixings",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "r2",
+      "D": {
+        "length": 1943.5,
+        "count": 40,
+        "grade": "standard"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 22.15,
+        "cost_gbp": 1843.69,
+        "defects": 0
+      },
+      "tools": [
+        "saw",
+        "drill"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "p2",
+      "D": {
+        "count": 18,
+        "colour": "natural"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 5.22,
+        "cost_gbp": 407.64,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-029",
+      "s": "r1",
+      "D": {
+        "count": 18,
+        "colour": "natural"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 5.94,
+        "cost_gbp": 426.32,
+        "defects": 1
+      },
+      "tools": [
+        "saw",
+        "hoist"
+      ],
+      "materials": [
+        "fixings",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "p1",
+      "D": {
+        "length": 241.7,
+        "width": 842.9,
+        "colour": "grey"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 8.14,
+        "cost_gbp": 512.41,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "saw"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "q1",
+      "D": {
+        "length": 241.7,
+        "width": 842.9,
+        "colour": "grey"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 14.61,
+        "cost_gbp": 959.14,
+        "defects": 2
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber",
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "q2",
+      "D": {
+        "length": 1711.5,
+        "count": 8,
+        "grade": "premium"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 11.89,
+        "cost_gbp": 781.31,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "r2",
+      "D": {
+        "length": 1711.5,
+        "count": 8,
+        "grade": "premium"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 10.23,
+        "cost_gbp": 748.08,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "gauge"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "p2",
+      "D": {
+        "count": 6,
+        "colour": "natural"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 4.66,
+        "cost_gbp": 311.74,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "saw"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-030",
+      "s": "r1",
+      "D": {
+        "count": 6,
+        "colour": "natural"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 4.33,
+        "cost_gbp": 293.48,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "p1",
+      "D": {
+        "length": 819.3,
+        "width": 295.5,
+        "colour": "natural"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 9.54,
+        "cost_gbp": 590.42,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "q1",
+      "D": {
+        "length": 819.3,
+        "width": 295.5,
+        "colour": "natural"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 13.87,
+        "cost_gbp": 837.53,
+        "defects": 1
+      },
+      "tools": [
+        "saw",
+        "drill"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "q2",
+      "D": {
+        "length": 207.8,
+        "count": 21,
+        "grade": "standard"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 8.83,
+        "cost_gbp": 568.72,
+        "defects": 3
+      },
+      "tools": [
+        "hoist",
+        "drill"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "r2",
+      "D": {
+        "length": 207.8,
+        "count": 21,
+        "grade": "standard"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 8.07,
+        "cost_gbp": 606.45,
+        "defects": 1
+      },
+      "tools": [
+        "drill",
+        "hoist"
+      ],
+      "materials": [
+        "fixings",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "p2",
+      "D": {
+        "count": 56,
+        "colour": "natural"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 14.8,
+        "cost_gbp": 1234.3,
+        "defects": 0
+      },
+      "tools": [
+        "press",
+        "gauge"
+      ],
+      "materials": [
+        "sealant",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-031",
+      "s": "r1",
+      "D": {
+        "count": 56,
+        "colour": "natural"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 12.24,
+        "cost_gbp": 820.64,
+        "defects": 0
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "p1",
+      "D": {
+        "length": 1442.5,
+        "width": 555.1,
+        "colour": "grey"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 14.86,
+        "cost_gbp": 841.82,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "q1",
+      "D": {
+        "length": 1442.5,
+        "width": 555.1,
+        "colour": "grey"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 13.77,
+        "cost_gbp": 784.07,
+        "defects": 2
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "fixings",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "q2",
+      "D": {
+        "length": 549.8,
+        "count": 57,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 13.99,
+        "cost_gbp": 1084.04,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "r2",
+      "D": {
+        "length": 549.8,
+        "count": 57,
+        "grade": "standard"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 19.06,
+        "cost_gbp": 1248.15,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "steel",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "p2",
+      "D": {
+        "count": 18,
+        "colour": "natural"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 4.51,
+        "cost_gbp": 289.21,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "fixings",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-032",
+      "s": "r1",
+      "D": {
+        "count": 18,
+        "colour": "natural"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 7.11,
+        "cost_gbp": 586.42,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-033",
+      "s": "p1",
+      "D": {
+        "length": 1097.3,
+        "width": 825.3,
+        "colour": "natural"
+      },
+      "a": "ag01",
+      "M": {
+        "duration_h": 13.36,
+        "cost_gbp": 867.62,
+        "defects": 2
+      },
+      "tools": [
+        "hoist",
+        "saw"
+      ],
+      "materials": [
+        "fixings",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-033",
+      "s": "q1",
+      "D": {
+        "length": 1097.3,
+        "width": 825.3,
+        "colour": "natural"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 12.79,
+        "cost_gbp": 765.24,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "gauge"
+      ],
+      "materials": [
+        "board",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-033",
+      "s": "q2",
+      "D": {
+        "length": 1594.4,
+        "count": 57,
+        "grade": "premium"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 23.16,
+        "cost_gbp": 1641.99,
+        "defects": 0
+      },
+      "tools": [
+        "gauge",
+        "saw"
+      ],
+      "materials": [
+        "coating",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-033",
+      "s": "r2",
+      "D": {
+        "length": 1594.4,
+        "count": 57,
+        "grade": "premium"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 19.54,
+        "cost_gbp": 1553.73,
+        "defects": 3
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "steel",
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "p1",
+      "D": {
+        "length": 289.1,
+        "width": 411.0,
+        "colour": "natural"
+      },
+      "a": "ag08",
+      "M": {
+        "duration_h": 9.03,
+        "cost_gbp": 484.14,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "saw"
+      ],
+      "materials": [
+        "steel",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "q1",
+      "D": {
+        "length": 289.1,
+        "width": 411.0,
+        "colour": "natural"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 9.08,
+        "cost_gbp": 467.1,
+        "defects": 1
+      },
+      "tools": [
+        "press",
+        "drill"
+      ],
+      "materials": [
+        "steel",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "q2",
+      "D": {
+        "length": 244.9,
+        "count": 48,
+        "grade": "premium"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 11.01,
+        "cost_gbp": 880.59,
+        "defects": 0
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "sealant",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "r2",
+      "D": {
+        "length": 244.9,
+        "count": 48,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 15.49,
+        "cost_gbp": 1333.76,
+        "defects": 3
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "p2",
+      "D": {
+        "count": 55,
+        "colour": "white"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 8.84,
+        "cost_gbp": 812.91,
+        "defects": 1
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "steel",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-034",
+      "s": "r1",
+      "D": {
+        "count": 55,
+        "colour": "white"
+      },
+      "a": "ag10",
+      "M": {
+        "duration_h": 9.94,
+        "cost_gbp": 837.8,
+        "defects": 2
+      },
+      "tools": [
+        "drill",
+        "press"
+      ],
+      "materials": [
+        "sealant",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "p1",
+      "D": {
+        "length": 765.8,
+        "width": 810.6,
+        "colour": "black"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 16.62,
+        "cost_gbp": 1114.95,
+        "defects": 0
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "q1",
+      "D": {
+        "length": 765.8,
+        "width": 810.6,
+        "colour": "black"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 16.5,
+        "cost_gbp": 1107.21,
+        "defects": 2
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "q2",
+      "D": {
+        "length": 1324.7,
+        "count": 56,
+        "grade": "premium"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 17.97,
+        "cost_gbp": 1371.79,
+        "defects": 2
+      },
+      "tools": [
+        "drill",
+        "press"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "r2",
+      "D": {
+        "length": 1324.7,
+        "count": 56,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 17.1,
+        "cost_gbp": 1101.55,
+        "defects": 0
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "p2",
+      "D": {
+        "count": 48,
+        "colour": "natural"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 12.32,
+        "cost_gbp": 1034.39,
+        "defects": 2
+      },
+      "tools": [
+        "gauge",
+        "saw"
+      ],
+      "materials": [
+        "board"
+      ]
+    },
+    {
+      "P": "PRJ-035",
+      "s": "r1",
+      "D": {
+        "count": 48,
+        "colour": "natural"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 9.46,
+        "cost_gbp": 704.39,
+        "defects": 3
+      },
+      "tools": [
+        "hoist",
+        "press"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-036",
+      "s": "p1",
+      "D": {
+        "length": 561.3,
+        "width": 837.3,
+        "colour": "grey"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 14.27,
+        "cost_gbp": 953.19,
+        "defects": 1
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-036",
+      "s": "q1",
+      "D": {
+        "length": 561.3,
+        "width": 837.3,
+        "colour": "grey"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 15.64,
+        "cost_gbp": 1041.53,
+        "defects": 0
+      },
+      "tools": [
+        "jig",
+        "press"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-036",
+      "s": "q2",
+      "D": {
+        "length": 1764.8,
+        "count": 17,
+        "grade": "premium"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 13.3,
+        "cost_gbp": 856.06,
+        "defects": 2
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-036",
+      "s": "r2",
+      "D": {
+        "length": 1764.8,
+        "count": 17,
+        "grade": "premium"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 14.68,
+        "cost_gbp": 893.88,
+        "defects": 2
+      },
+      "tools": [
+        "drill"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-037",
+      "s": "p1",
+      "D": {
+        "length": 1614.0,
+        "width": 380.1,
+        "colour": "white"
+      },
+      "a": "ag04",
+      "M": {
+        "duration_h": 11.96,
+        "cost_gbp": 768.26,
+        "defects": 1
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "steel",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-037",
+      "s": "q1",
+      "D": {
+        "length": 1614.0,
+        "width": 380.1,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 19.15,
+        "cost_gbp": 1320.49,
+        "defects": 3
+      },
+      "tools": [
+        "press",
+        "saw"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-037",
+      "s": "q2",
+      "D": {
+        "length": 1696.1,
+        "count": 59,
+        "grade": "standard"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 17.72,
+        "cost_gbp": 1357.07,
+        "defects": 2
+      },
+      "tools": [
+        "press",
+        "jig"
+      ],
+      "materials": [
+        "coating",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-037",
+      "s": "r2",
+      "D": {
+        "length": 1696.1,
+        "count": 59,
+        "grade": "standard"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 16.65,
+        "cost_gbp": 1200.65,
+        "defects": 1
+      },
+      "tools": [
+        "jig"
+      ],
+      "materials": [
+        "board",
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-038",
+      "s": "p1",
+      "D": {
+        "length": 1965.8,
+        "width": 578.4,
+        "colour": "white"
+      },
+      "a": "ag11",
+      "M": {
+        "duration_h": 19.61,
+        "cost_gbp": 1367.74,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "jig"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-038",
+      "s": "q1",
+      "D": {
+        "length": 1965.8,
+        "width": 578.4,
+        "colour": "white"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 17.18,
+        "cost_gbp": 950.26,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "jig"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-038",
+      "s": "q2",
+      "D": {
+        "length": 1473.1,
+        "count": 8,
+        "grade": "standard"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 10.46,
+        "cost_gbp": 575.68,
+        "defects": 0
+      },
+      "tools": [
+        "hoist",
+        "press"
+      ],
+      "materials": [
+        "board",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-038",
+      "s": "r2",
+      "D": {
+        "length": 1473.1,
+        "count": 8,
+        "grade": "standard"
+      },
+      "a": "ag03",
+      "M": {
+        "duration_h": 11.43,
+        "cost_gbp": 674.76,
+        "defects": 2
+      },
+      "tools": [
+        "gauge"
+      ],
+      "materials": [
+        "timber",
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-039",
+      "s": "p1",
+      "D": {
+        "length": 1081.9,
+        "width": 1142.0,
+        "colour": "black"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 12.53,
+        "cost_gbp": 821.55,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-039",
+      "s": "q1",
+      "D": {
+        "length": 1081.9,
+        "width": 1142.0,
+        "colour": "black"
+      },
+      "a": "ag09",
+      "M": {
+        "duration_h": 20.17,
+        "cost_gbp": 1094.63,
+        "defects": 0
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-039",
+      "s": "q2",
+      "D": {
+        "length": 573.8,
+        "count": 40,
+        "grade": "premium"
+      },
+      "a": "ag07",
+      "M": {
+        "duration_h": 13.51,
+        "cost_gbp": 825.43,
+        "defects": 1
+      },
+      "tools": [
+        "saw"
+      ],
+      "materials": [
+        "coating",
+        "timber"
+      ]
+    },
+    {
+      "P": "PRJ-039",
+      "s": "r2",
+      "D": {
+        "length": 573.8,
+        "count": 40,
+        "grade": "premium"
+      },
+      "a": "ag05",
+      "M": {
+        "duration_h": 15.04,
+        "cost_gbp": 1278.78,
+        "defects": 0
+      },
+      "tools": [
+        "press"
+      ],
+      "materials": [
+        "sealant"
+      ]
+    },
+    {
+      "P": "PRJ-040",
+      "s": "p1",
+      "D": {
+        "length": 351.4,
+        "width": 205.7,
+        "colour": "blue"
+      },
+      "a": "ag06",
+      "M": {
+        "duration_h": 7.77,
+        "cost_gbp": 495.37,
+        "defects": 1
+      },
+      "tools": [
+        "gauge",
+        "drill"
+      ],
+      "materials": [
+        "steel",
+        "coating"
+      ]
+    },
+    {
+      "P": "PRJ-040",
+      "s": "q1",
+      "D": {
+        "length": 351.4,
+        "width": 205.7,
+        "colour": "blue"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 7.93,
+        "cost_gbp": 413.52,
+        "defects": 1
+      },
+      "tools": [
+        "hoist",
+        "press"
+      ],
+      "materials": [
+        "fixings"
+      ]
+    },
+    {
+      "P": "PRJ-040",
+      "s": "q2",
+      "D": {
+        "length": 277.4,
+        "count": 13,
+        "grade": "premium"
+      },
+      "a": "ag02",
+      "M": {
+        "duration_h": 7.83,
+        "cost_gbp": 510.69,
+        "defects": 0
+      },
+      "tools": [
+        "drill",
+        "saw"
+      ],
+      "materials": [
+        "steel"
+      ]
+    },
+    {
+      "P": "PRJ-040",
+      "s": "r2",
+      "D": {
+        "length": 277.4,
+        "count": 13,
+        "grade": "premium"
+      },
+      "a": "ag12",
+      "M": {
+        "duration_h": 11.69,
+        "cost_gbp": 655.19,
+        "defects": 1
+      },
+      "tools": [
+        "hoist"
+      ],
+      "materials": [
+        "steel"
+      ]
+    }
+  ]
+}

@@ -3,6 +3,12 @@ import { deck as offsiteStrategy } from './decks/strategic/offsite-strategy';
 import { deck as productOverview } from './decks/strategic/product-overview';
 import { deck as stateAttenuation } from './decks/strategic/state-attenuation';
 import { deck as associationModel } from './decks/strategic/association-model';
+import { deck as concepts } from './decks/strategic/concepts';
+import { deck as conceptsV2 } from './decks/strategic/concepts-v2';
+import { deck as valueProposition } from './decks/strategic/value-proposition';
+import { deck as valuePropositionB } from './decks/strategic/value-proposition-b';
+import { deck as endOfTheGame } from './decks/strategic/end-of-the-game';
+import { deck as processNetwork } from './decks/strategic/process-network';
 import { deck as clientOverview } from './decks/client/client-overview';
 import { deck as clientOffsite } from './decks/client/client-offsite';
 import { deck as clientDeveloper } from './decks/client/client-developer';
@@ -16,20 +22,33 @@ import { deck as clientMunicipal } from './decks/client/client-municipal';
 import { deck as clientSoftware } from './decks/client/client-software';
 import { deck as clientBos } from './decks/client/client-bos';
 import { deck as clientFtma } from './decks/client/client-ftma';
-import { presentationFolder, businessCard, flyer } from './documents';
+import { deck as clientFeaturesNz } from './decks/client/client-features/nz';
+import { deck as clientFeaturesAu } from './decks/client/client-features/au';
+import { deck as clientFeaturesUk } from './decks/client/client-features/uk';
+import { deck as clientFeaturesIe } from './decks/client/client-features/ie';
+import { deck as clientMiniDemo } from './decks/client/client-mini-demo';
+import { deck as clientInnovateUk } from './decks/client/client-innovate-uk';
+import { presentationFolder, businessCard, flyer, modelPaperTemplate, stigmergicProjectDelivery, stigmergicCoordination, attributedContribution } from './documents';
 import { PresentationDeck } from './components/PresentationDeck';
 import { NotesDeck } from './components/NotesDeck';
 import { ExportLayout } from './components/ExportLayout';
 import { DocumentViewer } from './components/DocumentViewer';
+import { PaperViewer } from './components/paper';
 import { DeckSelector } from './components/DeckSelector';
 import { VideoEditor } from './components/video/VideoEditor';
+import { TimelineEditor } from './components/video/TimelineEditor';
 import { video as mewpLiability } from './videos/mewp-liability';
 import { video as gettingToTheRoot } from './videos/getting-to-the-root';
+import { timeline as offsiteManufacturersDemo } from './videos/offsite-manufacturers-demo';
+import { overview as offsiteManufacturersDemoOverview } from './videos/offsite-manufacturers-demo/overview';
+import { timeline as watermark } from './videos/watermark';
 import { sticknotes as offsiteStructural } from './sticknotes/offsite-structural';
-import type { DeckConfig, NamedVariation, StickNotesConfig, VideoConfig } from './types';
+import { sticknotes as modelSymbols } from './sticknotes/model-symbols';
+import type { DeckConfig, NamedVariation, StickNotesConfig, VideoConfig, TimelineConfig } from './types';
 
 const sticknotesDeck: Record<string, StickNotesConfig> = {
   'offsite-structural': offsiteStructural,
+  'model-symbols': modelSymbols,
 };
 
 const sticknotesEntries = Object.entries(sticknotesDeck).map(([key, sticknotes]) => ({ key, sticknotes }));
@@ -37,6 +56,12 @@ const sticknotesEntries = Object.entries(sticknotesDeck).map(([key, sticknotes])
 const videos: Record<string, VideoConfig> = {
   'mewp-liability': mewpLiability,
   'getting-to-the-root': gettingToTheRoot,
+};
+
+const timelines: Record<string, TimelineConfig> = {
+  'offsite-manufacturers-demo': offsiteManufacturersDemo,
+  'offsite-manufacturers-demo-overview': offsiteManufacturersDemoOverview,
+  'watermark': watermark,
 };
 
 const videoGroups = [
@@ -54,6 +79,12 @@ const decks: Record<string, DeckConfig> = {
   'product-overview':       productOverview,
   'state-attenuation':      stateAttenuation,
   'association-model':      associationModel,
+  'concepts':               concepts,
+  'concepts-v2':            conceptsV2,
+  'value-proposition':      valueProposition,
+  'value-proposition-b':    valuePropositionB,
+  'end-of-the-game':        endOfTheGame,
+  'process-network':        processNetwork,
   'client-overview':        clientOverview,
   'client-offsite':         clientOffsite,
   'client-developer':       clientDeveloper,
@@ -67,12 +98,22 @@ const decks: Record<string, DeckConfig> = {
   'client-software':        clientSoftware,
   'client-bos':             clientBos,
   'client-ftma':            clientFtma,
+  'client-features-nz':     clientFeaturesNz,
+  'client-features-au':     clientFeaturesAu,
+  'client-features-uk':     clientFeaturesUk,
+  'client-features-ie':     clientFeaturesIe,
+  'client-mini-demo':       clientMiniDemo,
+  'client-innovate-uk':     clientInnovateUk,
 };
 
 const documents = {
   'folder-cover': presentationFolder,
   'business-card': businessCard,
   'flyer': flyer,
+  'stigmergic-project-delivery': stigmergicProjectDelivery,
+  'stigmergic-coordination': stigmergicCoordination,
+  'attributed-contribution': attributedContribution,
+  'model-paper-template': modelPaperTemplate,
 };
 
 const deckGroups = [
@@ -83,6 +124,12 @@ const deckGroups = [
       { key: 'product-overview',  deck: productOverview },
       { key: 'state-attenuation', deck: stateAttenuation },
       { key: 'association-model', deck: associationModel },
+      { key: 'concepts',          deck: concepts },
+      { key: 'concepts-v2',       deck: conceptsV2 },
+      { key: 'value-proposition', deck: valueProposition },
+      { key: 'value-proposition-b', deck: valuePropositionB },
+      { key: 'end-of-the-game',   deck: endOfTheGame },
+      { key: 'process-network',   deck: processNetwork },
     ],
   },
   {
@@ -101,6 +148,12 @@ const deckGroups = [
       { key: 'client-software',         deck: clientSoftware },
       { key: 'client-bos',              deck: clientBos },
       { key: 'client-ftma',             deck: clientFtma },
+      { key: 'client-features-nz',      deck: clientFeaturesNz },
+      { key: 'client-features-au',      deck: clientFeaturesAu },
+      { key: 'client-features-uk',      deck: clientFeaturesUk },
+      { key: 'client-features-ie',      deck: clientFeaturesIe },
+      { key: 'client-mini-demo',        deck: clientMiniDemo },
+      { key: 'client-innovate-uk',      deck: clientInnovateUk },
     ],
   },
 ];
@@ -121,13 +174,20 @@ export default function App() {
   // Document view
   const docKey = params.get('doc') as keyof typeof documents | null;
   if (docKey && docKey in documents) {
-    return <DocumentViewer document={documents[docKey]} />;
+    const doc = documents[docKey];
+    return 'content' in doc ? <PaperViewer paper={doc} /> : <DocumentViewer document={doc} />;
   }
 
   // Video view
   const videoKey = params.get('video');
   if (videoKey && videoKey in videos) {
     return <VideoEditor video={videos[videoKey]} />;
+  }
+
+  // Timeline view
+  const timelineKey = params.get('timeline');
+  if (timelineKey && timelineKey in timelines) {
+    return <TimelineEditor timeline={timelines[timelineKey]} />;
   }
 
   // Sticknotes view
@@ -193,8 +253,12 @@ export default function App() {
         }}
         onUpdateVariation={handleUpdateVariation}
         onDeleteVariation={handleDeleteVariation}
+        documentEntries={Object.entries(documents).map(([key, d]) => ({ key, title: d.title, kind: 'content' in d ? 'Paper' : 'Print' }))}
+        onOpenDocument={(key) => { window.location.search = new URLSearchParams({ doc: key }).toString(); }}
         videoGroups={videoGroups}
         onOpenVideo={(key) => { window.location.search = new URLSearchParams({ video: key }).toString(); }}
+        timelineGroups={[{ label: 'Demo', entries: Object.entries(timelines).map(([key, t]) => ({ key, title: t.title })) }]}
+        onOpenTimeline={(key) => { window.location.search = new URLSearchParams({ timeline: key }).toString(); }}
         sticknotesEntries={sticknotesEntries}
         onOpenSticknotes={(key) => {
           const url = `${window.location.pathname}?sticknotes=${key}`;

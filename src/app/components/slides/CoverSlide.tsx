@@ -4,9 +4,11 @@ import { SITE_URL, monthYear } from '@/constants';
 interface CoverSlideProps {
   title: string;
   body: string;
+  showSiteUrl?: boolean;
+  footerNote?: string;
 }
 
-export function CoverSlide({ title, body }: CoverSlideProps) {
+export function CoverSlide({ title, body, showSiteUrl = true, footerNote }: CoverSlideProps) {
   return (
     <div
       className="w-full h-full flex flex-col items-center justify-center relative overflow-hidden"
@@ -45,12 +47,14 @@ export function CoverSlide({ title, body }: CoverSlideProps) {
       </div>
 
       {/* Footer */}
-      <div
-        className="absolute bottom-8 left-12 text-sm"
-        style={{ color: 'var(--slide-text)', opacity: 0.6 }}
-      >
-        {SITE_URL}
-      </div>
+      {(showSiteUrl || footerNote) && (
+        <div
+          className="absolute bottom-8 left-12 text-sm"
+          style={{ color: 'var(--slide-text)', opacity: 0.6 }}
+        >
+          {footerNote ?? SITE_URL}
+        </div>
+      )}
       <div
         className="absolute bottom-8 right-12 text-sm"
         style={{ color: 'var(--slide-text)', opacity: 0.6 }}

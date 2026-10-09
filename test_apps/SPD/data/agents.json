@@ -1,0 +1,19 @@
+{
+  "kind": "agents",
+  "skillsets": ["S1", "S2", "S3"],
+  "note": "Q is the agent's qualifications (held skillsets). An agent is eligible for a step s when req(s) is in Q, where req(s) is the step's skillset (its lane in master_process.json, via J). Eligibility is computed, not stored.",
+  "agents": [
+    { "id": "ag01", "label": "ag01", "name": "Agent 01", "Q": ["S1"] },
+    { "id": "ag02", "label": "ag02", "name": "Agent 02", "Q": ["S2"] },
+    { "id": "ag03", "label": "ag03", "name": "Agent 03", "Q": ["S3"] },
+    { "id": "ag04", "label": "ag04", "name": "Agent 04", "Q": ["S1", "S2"] },
+    { "id": "ag05", "label": "ag05", "name": "Agent 05", "Q": ["S2", "S3"] },
+    { "id": "ag06", "label": "ag06", "name": "Agent 06", "Q": ["S1", "S3"] },
+    { "id": "ag07", "label": "ag07", "name": "Agent 07", "Q": ["S1", "S2", "S3"] },
+    { "id": "ag08", "label": "ag08", "name": "Agent 08", "Q": ["S1"] },
+    { "id": "ag09", "label": "ag09", "name": "Agent 09", "Q": ["S2"] },
+    { "id": "ag10", "label": "ag10", "name": "Agent 10", "Q": ["S3"] },
+    { "id": "ag11", "label": "ag11", "name": "Agent 11", "Q": ["S1", "S2"] },
+    { "id": "ag12", "label": "ag12", "name": "Agent 12", "Q": ["S2", "S3"] }
+  ]
+}

@@ -1,0 +1,444 @@
+[
+  {
+    "id": "coase1937",
+    "type": "article-journal",
+    "title": "The nature of the firm",
+    "author": [{ "family": "Coase", "given": "R.H." }],
+    "issued": { "date-parts": [[1937]] },
+    "container-title": "Economica",
+    "volume": "4",
+    "issue": "16",
+    "page": "386-405"
+  },
+  {
+    "id": "williamson1991",
+    "type": "article-journal",
+    "title": "Comparative economic organization: The analysis of discrete structural alternatives",
+    "author": [{ "family": "Williamson", "given": "O.E." }],
+    "issued": { "date-parts": [[1991]] },
+    "container-title": "Administrative Science Quarterly",
+    "volume": "36",
+    "issue": "2",
+    "page": "269-296"
+  },
+  {
+    "id": "anderson2017",
+    "type": "book",
+    "title": "Private government: How employers rule our lives (and why we don't talk about it)",
+    "author": [{ "family": "Anderson", "given": "E." }],
+    "issued": { "date-parts": [[2017]] },
+    "publisher": "Princeton University Press"
+  },
+  {
+    "id": "powell1990",
+    "type": "article-journal",
+    "title": "Neither market nor hierarchy: Network forms of organization",
+    "author": [{ "family": "Powell", "given": "W.W." }],
+    "issued": { "date-parts": [[1990]] },
+    "container-title": "Research in Organizational Behavior",
+    "volume": "12",
+    "page": "295-336"
+  },
+  {
+    "id": "ouchi1980",
+    "type": "article-journal",
+    "title": "Markets, bureaucracies, and clans",
+    "author": [{ "family": "Ouchi", "given": "W.G." }],
+    "issued": { "date-parts": [[1980]] },
+    "container-title": "Administrative Science Quarterly",
+    "volume": "25",
+    "issue": "1",
+    "page": "129-141"
+  },
+  {
+    "id": "thompson2003",
+    "type": "book",
+    "title": "Between hierarchies and markets: The logic and limits of network forms of organization",
+    "author": [{ "family": "Thompson", "given": "G.F." }],
+    "issued": { "date-parts": [[2003]] },
+    "publisher": "Oxford University Press"
+  },
+  {
+    "id": "granovetter1985",
+    "type": "article-journal",
+    "title": "Economic action and social structure: The problem of embeddedness",
+    "author": [{ "family": "Granovetter", "given": "M." }],
+    "issued": { "date-parts": [[1985]] },
+    "container-title": "American Journal of Sociology",
+    "volume": "91",
+    "issue": "3",
+    "page": "481-510"
+  },
+  {
+    "id": "polanyi1944",
+    "type": "book",
+    "title": "The great transformation: The political and economic origins of our time",
+    "author": [{ "family": "Polanyi", "given": "K." }],
+    "issued": { "date-parts": [[1944]] },
+    "publisher": "Farrar & Rinehart"
+  },
+  {
+    "id": "grasse1959",
+    "type": "article-journal",
+    "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
+    "author": [{ "family": "Grassé", "given": "P.-P." }],
+    "issued": { "date-parts": [[1959]] },
+    "container-title": "Insectes Sociaux",
+    "volume": "6",
+    "issue": "1",
+    "page": "41-80"
+  },
+  {
+    "id": "heylighen2016a",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism I: Definition and components",
+    "author": [{ "family": "Heylighen", "given": "F." }],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "4-13"
+  },
+  {
+    "id": "heylighen2016b",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism II: Varieties and evolution",
+    "author": [{ "family": "Heylighen", "given": "F." }],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "50-59"
+  },
+  {
+    "id": "olson1965",
+    "type": "book",
+    "title": "The logic of collective action: Public goods and the theory of groups",
+    "author": [{ "family": "Olson", "given": "M." }],
+    "issued": { "date-parts": [[1965]] },
+    "publisher": "Harvard University Press"
+  },
+  {
+    "id": "ostrom1990",
+    "type": "book",
+    "title": "Governing the commons: The evolution of institutions for collective action",
+    "author": [{ "family": "Ostrom", "given": "E." }],
+    "issued": { "date-parts": [[1990]] },
+    "publisher": "Cambridge University Press"
+  },
+  {
+    "id": "poteete2004",
+    "type": "article-journal",
+    "title": "Heterogeneity, group size and collective action: The role of institutions in forest management",
+    "author": [
+      { "family": "Poteete", "given": "A.R." },
+      { "family": "Ostrom", "given": "E." }
+    ],
+    "issued": { "date-parts": [[2004]] },
+    "container-title": "Development and Change",
+    "volume": "35",
+    "issue": "3",
+    "page": "435-461"
+  },
+  {
+    "id": "holmstrom1991",
+    "type": "article-journal",
+    "title": "Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design",
+    "author": [
+      { "family": "Holmström", "given": "B." },
+      { "family": "Milgrom", "given": "P." }
+    ],
+    "issued": { "date-parts": [[1991]] },
+    "container-title": "Journal of Law, Economics, & Organization",
+    "volume": "7",
+    "page": "24-52"
+  },
+  {
+    "id": "feltham1994",
+    "type": "article-journal",
+    "title": "Performance measure congruity and diversity in multi-task principal/agent relations",
+    "author": [
+      { "family": "Feltham", "given": "G.A." },
+      { "family": "Xie", "given": "J." }
+    ],
+    "issued": { "date-parts": [[1994]] },
+    "container-title": "The Accounting Review",
+    "volume": "69",
+    "issue": "3",
+    "page": "429-453"
+  },
+  {
+    "id": "baker1992",
+    "type": "article-journal",
+    "title": "Incentive contracts and performance measurement",
+    "author": [{ "family": "Baker", "given": "G.P." }],
+    "issued": { "date-parts": [[1992]] },
+    "container-title": "Journal of Political Economy",
+    "volume": "100",
+    "issue": "3",
+    "page": "598-614"
+  },
+  {
+    "id": "bakergibbons1994",
+    "type": "article-journal",
+    "title": "Subjective performance measures in optimal incentive contracts",
+    "author": [
+      { "family": "Baker", "given": "G." },
+      { "family": "Gibbons", "given": "R." },
+      { "family": "Murphy", "given": "K.J." }
+    ],
+    "issued": { "date-parts": [[1994]] },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "109",
+    "issue": "4",
+    "page": "1125-1156"
+  },
+  {
+    "id": "bakergibbons2002",
+    "type": "article-journal",
+    "title": "Relational contracts and the theory of the firm",
+    "author": [
+      { "family": "Baker", "given": "G." },
+      { "family": "Gibbons", "given": "R." },
+      { "family": "Murphy", "given": "K.J." }
+    ],
+    "issued": { "date-parts": [[2002]] },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "117",
+    "issue": "1",
+    "page": "39-84"
+  },
+  {
+    "id": "atkin2017",
+    "type": "article-journal",
+    "title": "Organizational barriers to technology adoption: Evidence from soccer-ball producers in Pakistan",
+    "author": [
+      { "family": "Atkin", "given": "D." },
+      { "family": "Chaudhry", "given": "A." },
+      { "family": "Chaudry", "given": "S." },
+      { "family": "Khandelwal", "given": "A.K." },
+      { "family": "Verhoogen", "given": "E." }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "132",
+    "issue": "3",
+    "page": "1101-1164"
+  },
+  {
+    "id": "dranove2003",
+    "type": "article-journal",
+    "title": "Is more information better? The effects of \"report cards\" on health care providers",
+    "author": [
+      { "family": "Dranove", "given": "D." },
+      { "family": "Kessler", "given": "D." },
+      { "family": "McClellan", "given": "M." },
+      { "family": "Satterthwaite", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2003]] },
+    "container-title": "Journal of Political Economy",
+    "volume": "111",
+    "issue": "3",
+    "page": "555-588"
+  },
+  {
+    "id": "barzel1982",
+    "type": "article-journal",
+    "title": "Measurement cost and the organization of markets",
+    "author": [{ "family": "Barzel", "given": "Y." }],
+    "issued": { "date-parts": [[1982]] },
+    "container-title": "Journal of Law and Economics",
+    "volume": "25",
+    "issue": "1",
+    "page": "27-48"
+  },
+  {
+    "id": "levin2003",
+    "type": "article-journal",
+    "title": "Relational incentive contracts",
+    "author": [{ "family": "Levin", "given": "J." }],
+    "issued": { "date-parts": [[2003]] },
+    "container-title": "American Economic Review",
+    "volume": "93",
+    "issue": "3",
+    "page": "835-857"
+  },
+  {
+    "id": "benabou2006",
+    "type": "article-journal",
+    "title": "Incentives and prosocial behavior",
+    "author": [
+      { "family": "Bénabou", "given": "R." },
+      { "family": "Tirole", "given": "J." }
+    ],
+    "issued": { "date-parts": [[2006]] },
+    "container-title": "American Economic Review",
+    "volume": "96",
+    "issue": "5",
+    "page": "1652-1678"
+  },
+  {
+    "id": "akerlof2005",
+    "type": "article-journal",
+    "title": "Identity and the economics of organizations",
+    "author": [
+      { "family": "Akerlof", "given": "G.A." },
+      { "family": "Kranton", "given": "R.E." }
+    ],
+    "issued": { "date-parts": [[2005]] },
+    "container-title": "Journal of Economic Perspectives",
+    "volume": "19",
+    "issue": "1",
+    "page": "9-32"
+  },
+  {
+    "id": "grossman1986",
+    "type": "article-journal",
+    "title": "The costs and benefits of ownership: A theory of vertical and lateral integration",
+    "author": [
+      { "family": "Grossman", "given": "S.J." },
+      { "family": "Hart", "given": "O.D." }
+    ],
+    "issued": { "date-parts": [[1986]] },
+    "container-title": "Journal of Political Economy",
+    "volume": "94",
+    "issue": "4",
+    "page": "691-719"
+  },
+  {
+    "id": "hart1990",
+    "type": "article-journal",
+    "title": "Property rights and the nature of the firm",
+    "author": [
+      { "family": "Hart", "given": "O." },
+      { "family": "Moore", "given": "J." }
+    ],
+    "issued": { "date-parts": [[1990]] },
+    "container-title": "Journal of Political Economy",
+    "volume": "98",
+    "issue": "6",
+    "page": "1119-1158"
+  },
+  {
+    "id": "williamson1985",
+    "type": "book",
+    "title": "The economic institutions of capitalism: Firms, markets, relational contracting",
+    "author": [{ "family": "Williamson", "given": "O.E." }],
+    "issued": { "date-parts": [[1985]] },
+    "publisher": "Free Press"
+  },
+  {
+    "id": "bushman1995",
+    "type": "article-journal",
+    "title": "Aggregate performance measures in business unit manager compensation: The role of intrafirm interdependencies",
+    "author": [
+      { "family": "Bushman", "given": "R.M." },
+      { "family": "Indjejikian", "given": "R.J." },
+      { "family": "Smith", "given": "A." }
+    ],
+    "issued": { "date-parts": [[1995]] },
+    "container-title": "Journal of Accounting Research",
+    "volume": "33",
+    "page": "101-128"
+  },
+  {
+    "id": "corts2007",
+    "type": "article-journal",
+    "title": "Teams versus individual accountability: Solving multitask problems through job design",
+    "author": [{ "family": "Corts", "given": "K.S." }],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "RAND Journal of Economics",
+    "volume": "38",
+    "issue": "2",
+    "page": "467-479"
+  },
+  {
+    "id": "baiman2002",
+    "type": "article-journal",
+    "title": "The role of information and opportunism in the choice of buyer-supplier relationships",
+    "author": [
+      { "family": "Baiman", "given": "S." },
+      { "family": "Rajan", "given": "M.V." }
+    ],
+    "issued": { "date-parts": [[2002]] },
+    "container-title": "Journal of Accounting Research",
+    "volume": "40",
+    "issue": "2",
+    "page": "247-278"
+  },
+  {
+    "id": "williamson1975",
+    "type": "book",
+    "title": "Markets and hierarchies: Analysis and antitrust implications",
+    "author": [{ "family": "Williamson", "given": "O.E." }],
+    "issued": { "date-parts": [[1975]] },
+    "publisher": "Free Press"
+  },
+  {
+    "id": "baldenius2004",
+    "type": "article-journal",
+    "title": "Integrating managerial and tax objectives in transfer pricing",
+    "author": [
+      { "family": "Baldenius", "given": "T." },
+      { "family": "Melumad", "given": "N.D." },
+      { "family": "Reichelstein", "given": "S." }
+    ],
+    "issued": { "date-parts": [[2004]] },
+    "container-title": "The Accounting Review",
+    "volume": "79",
+    "issue": "3",
+    "page": "591-615"
+  },
+  {
+    "id": "cools2009",
+    "type": "article-journal",
+    "title": "Tax-compliant transfer pricing and responsibility accounting",
+    "author": [
+      { "family": "Cools", "given": "M." },
+      { "family": "Slagmulder", "given": "R." }
+    ],
+    "issued": { "date-parts": [[2009]] },
+    "container-title": "Journal of Management Accounting Research",
+    "volume": "21",
+    "issue": "1",
+    "page": "151-178"
+  },
+  {
+    "id": "alonso2008",
+    "type": "article-journal",
+    "title": "When does coordination require centralization?",
+    "author": [
+      { "family": "Alonso", "given": "R." },
+      { "family": "Dessein", "given": "W." },
+      { "family": "Matouschek", "given": "N." }
+    ],
+    "issued": { "date-parts": [[2008]] },
+    "container-title": "American Economic Review",
+    "volume": "98",
+    "issue": "1",
+    "page": "145-179"
+  },
+  {
+    "id": "baiman2000",
+    "type": "article-journal",
+    "title": "Information, contracting, and quality costs",
+    "author": [
+      { "family": "Baiman", "given": "S." },
+      { "family": "Fischer", "given": "P.E." },
+      { "family": "Rajan", "given": "M.V." }
+    ],
+    "issued": { "date-parts": [[2000]] },
+    "container-title": "Management Science",
+    "volume": "46",
+    "issue": "6",
+    "page": "776-789"
+  },
+  {
+    "id": "schnedler2006",
+    "type": "report",
+    "title": "Task difficulty, performance measure characteristics, and the trade-off between insurance and well-allocated effort",
+    "author": [{ "family": "Schnedler", "given": "W." }],
+    "issued": { "date-parts": [[2006]] },
+    "genre": "IZA Discussion Paper",
+    "number": "2124",
+    "publisher": "Institute for the Study of Labor (IZA)"
+  }
+]

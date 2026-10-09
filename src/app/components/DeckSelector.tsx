@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Plus, Trash2, ChevronRight, Pencil, Film, StickyNote } from 'lucide-react';
+import { Plus, Trash2, ChevronRight, Pencil, Film, StickyNote, FileText } from 'lucide-react';
 import type { DeckConfig, NamedVariation, StickNotesConfig, VideoConfig } from '../types';
 import { generateId } from '../types';
 
@@ -23,6 +23,7 @@ interface VideoGroup {
   entries: VideoEntry[];
 }
 
+
 interface SticknotesEntry {
   key: string;
   sticknotes: StickNotesConfig;
@@ -35,8 +36,12 @@ export function DeckSelector({
   onCreateVariation,
   onUpdateVariation,
   onDeleteVariation,
+  documentEntries,
+  onOpenDocument,
   videoGroups,
   onOpenVideo,
+  timelineGroups,
+  onOpenTimeline,
   sticknotesEntries,
   onOpenSticknotes,
 }: {
@@ -46,8 +51,12 @@ export function DeckSelector({
   onCreateVariation: (variation: NamedVariation) => void;
   onUpdateVariation: (id: string, name: string, config: Record<string, string>) => void;
   onDeleteVariation: (id: string) => void;
+  documentEntries?: { key: string; title: string; kind: string }[];
+  onOpenDocument?: (key: string) => void;
   videoGroups?: VideoGroup[];
   onOpenVideo?: (key: string) => void;
+  timelineGroups?: { label: string; entries: { key: string; title: string }[] }[];
+  onOpenTimeline?: (key: string) => void;
   sticknotesEntries?: SticknotesEntry[];
   onOpenSticknotes?: (key: string) => void;
 }) {
@@ -145,6 +154,41 @@ export function DeckSelector({
           </div>
         )}
 
+        {documentEntries && documentEntries.length > 0 && (
+          <div className="mb-10">
+            <div
+              className="text-xs font-semibold uppercase tracking-widest mb-4 pb-2"
+              style={{ color: 'var(--slide-primary)', opacity: 0.5, borderBottom: '1px solid var(--slide-border-primary)' }}
+            >
+              Documents
+            </div>
+            <div className="flex flex-col gap-3">
+              {documentEntries.map(({ key, title, kind }) => (
+                <div
+                  key={key}
+                  className="flex items-center justify-between px-5 py-4 rounded-lg"
+                  style={{ border: '1px solid var(--slide-border-primary)', backgroundColor: 'var(--slide-bg-primary-muted)' }}
+                >
+                  <div className="flex items-center gap-3">
+                    <FileText className="w-4 h-4 shrink-0" style={{ color: 'var(--slide-accent)', opacity: 0.7 }} />
+                    <div>
+                      <div className="text-sm font-semibold" style={{ color: 'var(--slide-primary)' }}>{title}</div>
+                      <div className="text-xs mt-0.5" style={{ color: 'var(--slide-text)', opacity: 0.4 }}>{kind}</div>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => onOpenDocument?.(key)}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-semibold"
+                    style={{ backgroundColor: 'transparent', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)' }}
+                  >
+                    Open <ChevronRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {videoGroups && videoGroups.length > 0 && (
           <div className="mb-10">
             <div
@@ -181,6 +225,38 @@ export function DeckSelector({
                   >
                     Open
                     <ChevronRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              )))}
+            </div>
+          </div>
+        )}
+
+        {timelineGroups && timelineGroups.length > 0 && (
+          <div className="mb-10">
+            <div
+              className="text-xs font-semibold uppercase tracking-widest mb-4 pb-2"
+              style={{ color: 'var(--slide-primary)', opacity: 0.5, borderBottom: '1px solid var(--slide-border-primary)' }}
+            >
+              Timelines
+            </div>
+            <div className="flex flex-col gap-3">
+              {timelineGroups.map(group => group.entries.map(({ key, title }) => (
+                <div
+                  key={key}
+                  className="flex items-center justify-between px-5 py-4 rounded-lg"
+                  style={{ border: '1px solid var(--slide-border-primary)', backgroundColor: 'var(--slide-bg-primary-muted)' }}
+                >
+                  <div className="flex items-center gap-3">
+                    <Film className="w-4 h-4 shrink-0" style={{ color: 'var(--slide-accent)', opacity: 0.7 }} />
+                    <div className="text-sm font-semibold" style={{ color: 'var(--slide-primary)' }}>{title}</div>
+                  </div>
+                  <button
+                    onClick={() => onOpenTimeline?.(key)}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-semibold"
+                    style={{ backgroundColor: 'transparent', color: 'var(--slide-primary)', border: '1px solid var(--slide-border-primary)' }}
+                  >
+                    Open <ChevronRight className="w-3.5 h-3.5" />
                   </button>
                 </div>
               )))}
