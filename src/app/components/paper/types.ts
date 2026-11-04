@@ -47,7 +47,13 @@ export interface PaperConfig {
   citationStyle?: 'author-year' | 'numeric';
   /** Free text, e.g. "September 2026" */
   date?: string;
-  abstract?: string;
+  /** Plain text, or JSX when part of it needs markup such as <Rev>. */
+  abstract?: ReactNode;
+  /**
+   * Marks the paper as under revision. When set, content wrapped in <Rev> is highlighted, and the toolbar gains a
+   * Revisions toggle that starts in this state (true: shown, false: hidden). Leave unset for papers not in revision.
+   */
+  revisions?: boolean;
   /** Default: derived from the title */
   exportFilename?: string;
   /** CSL-JSON items available to <Cite>. Usually the shared library in papers/references.json. */

@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPD2</title>
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --panel: #ffffff;
+    --border: #d9dce1;
+    --text: #1f2328;
+    /* SPD paper figure palette */
+    --node-fill: #efe9e0;
+    --node-stroke: #8a6d4a;
+    --node-text: #4a3c28;
+    --product: #157f8f;
+    --tree-line: #aaa;
+    --lane-a: #faf9f7;
+    --lane-b: #f3f1ec;
+    --lane-line: #e6e4e0;
+    --lane-label: #999;
+  }
+  /* Header tint per area, for anchoring */
+  #agents        { --tint: #e6f0fb; --ink: #2f5f9e; }
+  #inventory     { --tint: #fbf0e1; --ink: #9a5b12; }
+  #specification { --tint: #e8f5ea; --ink: #2e7a3d; }
+  #process       { --tint: #f1ebfa; --ink: #6a45a8; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 10px;
+    padding: 32px;
+  }
+
+  /* Dataset tabs, outside the model */
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); }
+  .tab {
+    font: inherit;
+    font-weight: 600;
+    color: var(--lane-label);
+    background: none;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    padding: 6px 14px;
+    margin-bottom: -1px;
+    cursor: pointer;
+  }
+  .tab:hover { color: var(--text); }
+  .tab[aria-selected="true"] { color: var(--text); background: var(--panel); border-color: var(--border); }
+  .row { display: grid; gap: 10px; min-height: 0; }
+  .top { grid-template-columns: 2fr 1fr; }
+  .bottom { grid-template-columns: minmax(240px, 1fr) 3fr; }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+  }
+  .panel > h2 {
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--ink);
+    background: var(--tint);
+    border-bottom: 1px solid var(--border);
+    border-radius: 6px 6px 0 0;
+  }
+  .panel > .body { padding: 8px 10px; overflow: auto; flex: 1; min-height: 0; }
+  .empty { color: var(--lane-label); font-style: italic; }
+
+  /* Agents and Inventory: types, each with its instances */
+  .types { display: flex; flex-wrap: wrap; gap: 8px; }
+  .group-label { font-size: 11px; color: var(--lane-label); font-style: italic; margin: 0 0 4px; }
+  .group + .group { margin-top: 8px; }
+  .type {
+    border: 1px solid var(--lane-line);
+    background: var(--lane-a);
+    border-radius: 3px;
+    padding: 4px 6px;
+    max-width: 260px;
+  }
+  .type-name { font-weight: 600; color: var(--node-text); margin-bottom: 4px; }
+  .type-name small { color: var(--lane-label); font-weight: 400; margin-left: 4px; }
+  .instances { display: flex; flex-wrap: wrap; gap: 4px; }
+  .instance {
+    background: var(--node-fill);
+    border: 1px solid var(--node-stroke);
+    color: var(--node-text);
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 11px;
+  }
+
+  /* Specification tree and process nodes share the paper's box style */
+  #specification .body { padding: 8px 4px; }
+  .node rect { fill: var(--node-fill); stroke: var(--node-stroke); stroke-width: 1; }
+  .node text { font-size: 11px; fill: var(--node-text); }
+  .branch { fill: none; stroke: var(--tree-line); stroke-width: 1; }
+
+  /* Process: fixed lane labels, scrolling graph */
+  #process .body { padding: 0; display: flex; overflow: hidden; }
+  #process .labels { flex: none; overflow: hidden; }
+  #process .graph { flex: 1; overflow: auto; }
+  #process svg { display: block; }
+  .lane { stroke: var(--lane-line); stroke-width: 1; }
+  .lane.a { fill: var(--lane-a); }
+  .lane.b { fill: var(--lane-b); }
+  .lane-label { fill: var(--lane-label); font-size: 12px; font-style: italic; }
+  .flow { fill: none; }
+  .flow.precedence { stroke: var(--node-stroke); stroke-width: 1.2; }
+  .flow.product { stroke: var(--product); stroke-width: 1; stroke-dasharray: 4 2; }
+  .product-label { fill: var(--product); font-size: 10px; }
+</style>
+</head>
+<body>
+  <nav class="tabs" role="tablist"></nav>
+  <div class="row top">
+    <section class="panel" id="agents"><h2>Agents</h2><div class="body"></div></section>
+    <section class="panel" id="inventory"><h2>Inventory</h2><div class="body"></div></section>
+  </div>
+  <div class="row bottom">
+    <section class="panel" id="specification"><h2>Specification</h2><div class="body"></div></section>
+    <section class="panel" id="process"><h2>Process</h2><div class="body"></div></section>
+  </div>
+
+<script>
+const el = (tag, cls, text) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+};
+const SVG = "http://www.w3.org/2000/svg";
+const svgEl = (tag, attrs = {}) => {
+  const e = document.createElementNS(SVG, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  return e;
+};
+const svgTitle = text => Object.assign(svgEl("title"), { textContent: text });
+
+const measure = (() => {
+  const ctx = document.createElement("canvas").getContext("2d");
+  ctx.font = "11px system-ui, -apple-system, 'Segoe UI', sans-serif";
+  return text => ctx.measureText(text).width;
+})();
+
+function arrowMarker(id, color) {
+  const m = svgEl("marker", { id, markerWidth: 7, markerHeight: 7, refX: 5.5, refY: 3, orient: "auto" });
+  m.append(svgEl("path", { d: "M0,0 L6,3 L0,6 Z", fill: color }));
+  return m;
+}
+
+// A box in the paper's style, centred on (x, y), with one or two lines of text
+function box(kind, x, y, w, h, lines, tip) {
+  const g = svgEl("g", { class: "node " + kind });
+  if (tip) g.append(svgTitle(tip));
+  g.append(svgEl("rect", { x: x - w / 2, y: y - h / 2, width: w, height: h, rx: 3 }));
+  lines.forEach((line, i) => {
+    const t = svgEl("text", { x, y: y + (i - (lines.length - 1) / 2) * 13, "text-anchor": "middle", "dominant-baseline": "middle" });
+    t.textContent = line;
+    g.append(t);
+  });
+  return g;
+}
+
+// A type (skillset, material, tool) and the instances of it
+function typeCard(name, id, instances) {
+  const card = el("div", "type");
+  const title = el("div", "type-name", name);
+  title.append(el("small", null, id));
+  const list = el("div", "instances");
+  for (const i of instances) {
+    const chip = el("span", "instance", i.id);
+    chip.title = i.title;
+    list.append(chip);
+  }
+  card.append(title, list);
+  return card;
+}
+
+function renderAgents(agents) {
+  const body = document.querySelector("#agents .body");
+  const types = el("div", "types");
+  for (const s of agents.skillsets) {
+    const people = s.people.map(p => ({ id: p.id, title: `${p.name}, project ${p.project}` }));
+    types.append(typeCard(s.name, s.id, people));
+  }
+  body.replaceChildren(types);
+}
+
+function renderInventory(inventory) {
+  const body = document.querySelector("#inventory .body");
+  body.replaceChildren();
+  for (const [label, items] of [["Materials", inventory.materials], ["Tools", inventory.tools]]) {
+    const group = el("div", "group");
+    group.append(el("div", "group-label", label));
+    if (!items.length) {
+      group.append(el("div", "empty", "None in this dataset"));
+    } else {
+      const types = el("div", "types");
+      for (const m of items) types.append(typeCard(m.name, m.id, m.instances.map(i => ({ id: i, title: i }))));
+      group.append(types);
+    }
+    body.append(group);
+  }
+}
+
+// Boxes, one per row, indented by depth, joined by elbow connectors
+function renderSpecification(root) {
+  const rowH = 30, boxH = 22, indent = 22, x0 = 6, y0 = 4;
+  const rows = [];
+  const walk = (n, depth, parent) => {
+    const row = { n, depth, parent, w: measure(n.name) + 16 };
+    rows.push(row);
+    for (const c of n.children) walk(c, depth + 1, row);
+  };
+  walk(root, 0, null);
+  rows.forEach((r, i) => { r.x = x0 + r.depth * indent; r.y = y0 + i * rowH; });
+
+  const width = Math.max(...rows.map(r => r.x + r.w)) + x0;
+  const svg = svgEl("svg", { width, height: y0 + rows.length * rowH });
+  for (const r of rows) {
+    if (!r.parent) continue;
+    const p = r.parent;
+    svg.append(svgEl("path", { class: "branch", d: `M${p.x + 10},${p.y + boxH} V${r.y + boxH / 2} H${r.x}` }));
+  }
+  for (const r of rows) {
+    const tip = `${r.n.name}\nsteps: ${r.n.steps.join(", ") || "none"}\nprojects: ${r.n.projects.join(", ")}`;
+    svg.append(box("spec", r.x + r.w / 2, r.y + boxH / 2, r.w, boxH, [r.n.name], tip));
+  }
+  document.querySelector("#specification .body").replaceChildren(svg);
+}
+
+// Split a label over at most two lines
+function wrap(label, max = 15) {
+  const words = label.split(" ");
+  let first = "";
+  while (words.length && (first + " " + words[0]).trim().length <= max) first = (first + " " + words.shift()).trim();
+  if (!first) first = words.shift();
+  let second = words.join(" ");
+  if (second.length > max) second = second.slice(0, max - 1) + "…";
+  return second ? [first, second] : [first];
+}
+
+// Skillset lanes, one row of steps each, steps by column.
+// Precedence (brown) joins neighbouring steps in a lane: a straight arrow, as each job is a chain.
+// Product (teal, dashed): inputs enter a step from the top, outputs leave from the bottom. Horizontal
+// runs stay in each lane's channels (in above the boxes, out below), vertical runs in the gaps between
+// columns, so no line crosses a box. Producers drop into their lane's out channel, which runs to the
+// gap after the last producer; one vertical there joins every lane involved; each consumer's lane
+// carries it in its in channel and down into the consumer. With no consumer (a terminal output) it
+// ends in an arrow at that gap.
+function renderProcess(process) {
+  const body = document.querySelector("#process .body");
+  const W = body.clientWidth, H = body.clientHeight;
+  const labelW = 140, nodeW = 100, nodeH = 34, colW = 116, padTop = 20, minLaneH = 90;
+  const columns = Math.max(...process.steps.map(s => s.column)) + 1;
+  const graphW = Math.max(W - labelW, columns * colW + 80);
+  const n = process.skillsets.length;
+  const laneH = Math.max(minLaneH, (H - 1) / n);
+  const laneY = i => i * laneH;
+  const graphH = n * laneH;
+  const lane = Object.fromEntries(process.skillsets.map((k, i) => [k.id, i]));
+
+  const pos = {};
+  for (const s of process.steps) {
+    const i = lane[s.skillset];
+    pos[s.id] = { x: s.column * colW + colW / 2, y: laneY(i) + padTop + nodeH / 2, lane: i };
+  }
+  const top = id => pos[id].y - nodeH / 2, bottom = id => pos[id].y + nodeH / 2;
+  // Product channels: in above the boxes, out below
+  const prodIn = i => laneY(i) + padTop / 2;
+  const prodOut = i => laneY(i) + padTop + nodeH + 10;
+
+  const lanes = (svg, w) => process.skillsets.forEach((_, i) => {
+    svg.append(svgEl("rect", { class: "lane " + (i % 2 ? "b" : "a"), x: 0, y: laneY(i), width: w, height: laneH }));
+  });
+
+  // Lane labels (fixed)
+  const labels = svgEl("svg", { width: labelW, height: graphH });
+  lanes(labels, labelW);
+  process.skillsets.forEach((k, i) => {
+    const t = svgEl("text", { class: "lane-label", x: labelW - 12, y: laneY(i) + laneH / 2, "text-anchor": "end", "dominant-baseline": "middle" });
+    t.textContent = k.name;
+    labels.append(t);
+  });
+
+  // Graph (scrolls)
+  const svg = svgEl("svg", { width: graphW, height: graphH });
+  const defs = svgEl("defs");
+  defs.append(arrowMarker("arrow-precedence", "#8a6d4a"), arrowMarker("arrow-product", "#157f8f"));
+  svg.append(defs);
+  lanes(svg, graphW);
+
+  const path = (cls, d, marker, tip) => {
+    const p = svgEl("path", { class: "flow " + cls, d });
+    if (marker) p.setAttribute("marker-end", `url(#arrow-${marker})`);
+    if (tip) p.append(svgTitle(tip));
+    svg.append(p);
+  };
+
+  for (const f of process.precedence) {
+    const a = pos[f.from], b = pos[f.to];
+    path("precedence", `M${a.x + nodeW / 2},${a.y} H${b.x - nodeW / 2 - 2}`, "precedence", `${f.from} → ${f.to}\nbasis: ${f.basis}`);
+  }
+
+  const byLane = ids => {
+    const groups = {};
+    for (const id of ids) (groups[pos[id].lane] ??= []).push(pos[id].x);
+    return Object.entries(groups).map(([i, xs]) => [Number(i), xs]);
+  };
+
+  for (const p of process.products) {
+    if (!p.from.length) continue;               // no producing step in the data
+    const tip = p.name
+      ? `${p.name}\nmilestone: ${p.milestone}\nprojects: ${p.projects.join(", ")}`
+      : `unnamed in the data\nprojects: ${p.projects.join(", ")}`;
+    const last = p.from.reduce((m, id) => (pos[id].x > pos[m].x ? id : m));
+    const home = pos[last].lane, gap = pos[last].x + colW / 2;
+    const joins = [];
+
+    for (const id of p.from) path("product", `M${pos[id].x},${bottom(id)} V${prodOut(pos[id].lane)}`, null, tip);
+    for (const [i, xs] of byLane(p.from)) {
+      path("product", `M${Math.min(...xs)},${prodOut(i)} H${gap}`, null, tip);
+      joins.push(prodOut(i));
+    }
+
+    if (p.to.length) {
+      for (const [i, xs] of byLane(p.to)) {
+        path("product", `M${gap},${prodIn(i)} H${Math.max(...xs)}`, null, tip);
+        joins.push(prodIn(i));
+      }
+      for (const id of p.to) path("product", `M${pos[id].x},${prodIn(pos[id].lane)} V${top(id) - 2}`, "product", tip);
+    } else {
+      path("product", `M${gap},${prodOut(home)} H${gap + 12}`, "product", tip);
+    }
+    if (joins.length > 1) path("product", `M${gap},${Math.min(...joins)} V${Math.max(...joins)}`, null, tip);
+
+    if (p.name) {
+      const homeXs = p.from.filter(id => pos[id].lane === home).map(id => pos[id].x);
+      const label = svgEl("text", { class: "product-label", x: (Math.min(...homeXs) + gap) / 2, y: prodOut(home) + 11, "text-anchor": "middle" });
+      label.textContent = p.name;
+      svg.append(label);
+    }
+  }
+
+  for (const s of process.steps) {
+    const { x, y } = pos[s.id];
+    svg.append(box("step", x, y, nodeW, nodeH, wrap(s.label), `${s.name}\nprojects: ${s.projects.join(", ")}`));
+  }
+
+  const labelBox = el("div", "labels"), graphBox = el("div", "graph");
+  labelBox.append(labels);
+  graphBox.append(svg);
+  graphBox.addEventListener("scroll", () => { labelBox.scrollTop = graphBox.scrollTop; });
+  body.replaceChildren(labelBox, graphBox);
+}
+
+// Dataset tabs: the selected dataset is kept in the URL hash
+let model = null;
+
+async function show(id) {
+  location.hash = id;
+  for (const tab of document.querySelectorAll(".tab")) tab.setAttribute("aria-selected", tab.dataset.id === id);
+  model = await (await fetch(`/api/model?id=${encodeURIComponent(id)}`)).json();
+  renderAgents(model.agents);
+  renderInventory(model.inventory);
+  renderSpecification(model.specification);
+  renderProcess(model.process);
+}
+
+fetch("/api/datasets")
+  .then(r => r.json())
+  .then(datasets => {
+    const tabs = document.querySelector(".tabs");
+    for (const d of datasets) {
+      const tab = el("button", "tab", d.name);
+      tab.dataset.id = d.id;
+      tab.setAttribute("role", "tab");
+      tab.addEventListener("click", () => show(d.id));
+      tabs.append(tab);
+    }
+    const wanted = decodeURIComponent(location.hash.slice(1));
+    show(datasets.some(d => d.id === wanted) ? wanted : datasets[0].id);
+
+    const body = document.querySelector("#process .body");
+    let size = "";
+    new ResizeObserver(() => {
+      const now = body.clientWidth + "x" + body.clientHeight;
+      if (model && now !== size) { size = now; renderProcess(model.process); }
+    }).observe(body);
+  });
+</script>
+</body>
+</html>

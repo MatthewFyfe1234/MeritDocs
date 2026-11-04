@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowLeft, Download, Pencil } from 'lucide-react';
+import { ArrowLeft, Download, Highlighter, Pencil } from 'lucide-react';
 import { PaperProvider } from './PaperContext';
 import type { PaperConfig } from './types';
 
@@ -59,14 +59,25 @@ const CSS = `
 .paper-def .paper-thm-label::before { counter-increment: def; content: "Definition " counter(def) "."; }
 .paper-prop .paper-thm-label::before { counter-increment: prop; content: "Proposition " counter(prop) "."; }
 .paper-todo { font-style: italic; opacity: .55; }
+/* Revision marks (<Rev>): a pale green highlight, distinct from the yellow formula notes, shown only while the
+   sheet carries .paper-revisions-on. Block marks wrap whole paragraphs, equations or figures. */
+.paper-revisions-on .paper-rev { background-color: #d4ebcb; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.paper-revisions-on .paper-rev-block { padding: .15em .35em; margin: 0 -.35em .8em; border-radius: 2px; }
+.paper-revisions-on .paper-rev-block > :last-child { margin-bottom: 0; }
+/* The same mark for text inside SVG figures, where a background can't be set: a stroke in the highlight colour
+   painted behind the glyphs. Add className="paper-rev-svg" to a revised <text>. */
+.paper-revisions-on .paper-rev-svg { stroke: #d4ebcb; stroke-width: 7px; stroke-linejoin: round; paint-order: stroke; }
 /* Review aid: a dull highlighter marking content the reader has not yet checked. */
 .paper-unchecked { background-color: rgba(224, 196, 96, 0.55); border-radius: 1px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 
 .paper-eq { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 1em; margin: .4em 0 1em; break-inside: avoid; }
-.paper-eq-body { text-align: center; }
+.paper-eq-body { display: grid; grid-template-rows: auto auto; grid-auto-flow: column; justify-content: center; align-items: center; column-gap: 2.5em; text-align: center; }
 .paper-eq-body .katex-display { margin: 0; }
 .paper-eq-num { font-size: 10.5pt; white-space: nowrap; }
 .paper-eq-num::before { counter-increment: eq; content: "(" counter(eq) ")"; }
+.paper-eq-gloss { align-self: start; justify-self: center; max-width: 15em; font-size: 9.5pt; font-style: italic; line-height: 1.45; }
+.paper-eq-gloss > span { display: inline; background: #ecd98a; padding: .1em .35em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.paper-eq-gloss:not(:empty) { margin-top: .35em; }
 
 @media screen {
   .paper-toolbar { position: sticky; top: 0; z-index: 10; }
@@ -117,6 +128,7 @@ export function PaperViewer({ paper }: { paper: PaperConfig }) {
   };
 
   const [editMode, setEditMode] = useState(false);
+  const [showRevisions, setShowRevisions] = useState(paper.revisions ?? false);
   const [sel, setSel] = useState<{ text: string; top: number; left: number } | null>(null);
   const [draft, setDraft] = useState('');
   const [status, setStatus] = useState<string | null>(null);
@@ -180,6 +192,21 @@ export function PaperViewer({ paper }: { paper: PaperConfig }) {
           All documents
         </a>
         <div className="flex items-center gap-2">
+          {paper.revisions !== undefined && (
+            <button
+              onClick={() => setShowRevisions((v) => !v)}
+              className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold"
+              style={{
+                backgroundColor: showRevisions ? 'var(--slide-primary)' : 'var(--slide-bg-muted)',
+                color: showRevisions ? '#fff' : 'var(--slide-text)',
+                border: '1px solid var(--slide-border)',
+              }}
+              title="Highlight content added or reworded since submission. Printing keeps whichever state is shown."
+            >
+              <Highlighter className="w-4 h-4" />
+              {showRevisions ? 'Revisions shown' : 'Revisions hidden'}
+            </button>
+          )}
           {dev && (
             <button
               onClick={() => { setEditMode((m) => !m); setSel(null); setStatus(null); }}
@@ -211,7 +238,7 @@ export function PaperViewer({ paper }: { paper: PaperConfig }) {
       <div
         ref={sheetRef}
         onMouseUp={onSheetMouseUp}
-        className={`paper-sheet paper${paper.numbered ? ' paper-numbered' : ''}`}
+        className={`paper-sheet paper${paper.numbered ? ' paper-numbered' : ''}${showRevisions ? ' paper-revisions-on' : ''}`}
         style={editMode ? { outline: '2px solid var(--slide-accent)', outlineOffset: 4 } : undefined}
       >
         <div className="paper-body-cell">

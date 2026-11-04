@@ -28,6 +28,7 @@ import { deck as clientFeaturesUk } from './decks/client/client-features/uk';
 import { deck as clientFeaturesIe } from './decks/client/client-features/ie';
 import { deck as clientMiniDemo } from './decks/client/client-mini-demo';
 import { deck as clientInnovateUk } from './decks/client/client-innovate-uk';
+import { deck as annieScaffold } from './decks/personal/annie-scaffold';
 import { presentationFolder, businessCard, flyer, modelPaperTemplate, stigmergicProjectDelivery, stigmergicCoordination, attributedContribution } from './documents';
 import { PresentationDeck } from './components/PresentationDeck';
 import { NotesDeck } from './components/NotesDeck';
@@ -104,6 +105,7 @@ const decks: Record<string, DeckConfig> = {
   'client-features-ie':     clientFeaturesIe,
   'client-mini-demo':       clientMiniDemo,
   'client-innovate-uk':     clientInnovateUk,
+  'annie-scaffold':         annieScaffold,
 };
 
 const documents = {
@@ -154,6 +156,12 @@ const deckGroups = [
       { key: 'client-features-ie',      deck: clientFeaturesIe },
       { key: 'client-mini-demo',        deck: clientMiniDemo },
       { key: 'client-innovate-uk',      deck: clientInnovateUk },
+    ],
+  },
+  {
+    label: 'Personal',
+    entries: [
+      { key: 'annie-scaffold', deck: annieScaffold },
     ],
   },
 ];

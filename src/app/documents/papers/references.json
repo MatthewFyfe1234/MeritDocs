@@ -54,6 +54,20 @@
     "page": "16-20"
   },
   {
+    "id": "pohl2005",
+    "type": "book",
+    "title": "Software product line engineering: Foundations, principles, and techniques",
+    "author": [
+      { "family": "Pohl", "given": "K." },
+      { "family": "Böckle", "given": "G." },
+      { "family": "van der Linden", "given": "F." }
+    ],
+    "issued": { "date-parts": [[2005]] },
+    "publisher": "Springer",
+    "publisher-place": "Berlin, Heidelberg",
+    "DOI": "10.1007/3-540-28901-1"
+  },
+  {
     "id": "vanderaalst2005",
     "type": "article-journal",
     "title": "Case handling: A new paradigm for business process support",
@@ -138,6 +152,7 @@
   {
     "id": "iso16739",
     "type": "report",
+    "author": [{ "literal": "International Organization for Standardization" }],
     "title": "Industry Foundation Classes (IFC) for data sharing in the construction and facility management industries — Part 1: Data schema (ISO 16739-1:2018)",
     "issued": { "date-parts": [[2018]] },
     "publisher": "International Organization for Standardization"
@@ -303,6 +318,72 @@
     "page": "105-112"
   },
   {
+    "id": "malone1994",
+    "type": "article-journal",
+    "title": "The interdisciplinary study of coordination",
+    "author": [{ "family": "Malone", "given": "T. W." }, { "family": "Crowston", "given": "K." }],
+    "issued": { "date-parts": [[1994]] },
+    "container-title": "ACM Computing Surveys",
+    "volume": "26",
+    "issue": "1",
+    "page": "87-119"
+  },
+  {
+    "id": "hartmann2022",
+    "type": "article-journal",
+    "title": "An updated survey of variants and extensions of the resource-constrained project scheduling problem",
+    "author": [
+      { "family": "Hartmann", "given": "S." },
+      { "family": "Briskorn", "given": "D." }
+    ],
+    "issued": { "date-parts": [[2022]] },
+    "container-title": "European Journal of Operational Research",
+    "volume": "297",
+    "issue": "1",
+    "page": "1-14",
+    "DOI": "10.1016/j.ejor.2021.05.004"
+  },
+  {
+    "id": "homberger2007",
+    "type": "article-journal",
+    "title": "A multi-agent system for the decentralized resource-constrained multi-project scheduling problem",
+    "author": [{ "family": "Homberger", "given": "J." }],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "International Transactions in Operational Research",
+    "volume": "14",
+    "issue": "6",
+    "page": "565-589",
+    "DOI": "10.1111/j.1475-3995.2007.00614.x"
+  },
+  {
+    "id": "homberger2012",
+    "type": "article-journal",
+    "title": "A (μ, λ)-coordination mechanism for agent-based multi-project scheduling",
+    "author": [{ "family": "Homberger", "given": "J." }],
+    "issued": { "date-parts": [[2012]] },
+    "container-title": "OR Spectrum",
+    "volume": "34",
+    "issue": "1",
+    "page": "107-132",
+    "DOI": "10.1007/s00291-009-0178-3"
+  },
+  {
+    "id": "confessore2007",
+    "type": "article-journal",
+    "title": "A market-based multi-agent system model for decentralized multi-project scheduling",
+    "author": [
+      { "family": "Confessore", "given": "G." },
+      { "family": "Giordani", "given": "S." },
+      { "family": "Rismondo", "given": "S." }
+    ],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "Annals of Operations Research",
+    "volume": "150",
+    "issue": "1",
+    "page": "115-135",
+    "DOI": "10.1007/s10479-006-0158-9"
+  },
+  {
     "id": "grasse1959",
     "type": "article-journal",
     "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
@@ -332,17 +413,6 @@
     "container-title": "Cognitive Systems Research",
     "volume": "38",
     "page": "50-59"
-  },
-  {
-    "id": "smith1980",
-    "type": "article-journal",
-    "title": "The contract net protocol: High-level communication and control in a distributed problem solver",
-    "author": [{ "family": "Smith", "given": "R.G." }],
-    "issued": { "date-parts": [[1980]] },
-    "container-title": "IEEE Transactions on Computers",
-    "volume": "C-29",
-    "issue": "12",
-    "page": "1104-1113"
   },
   {
     "id": "christensen2013",
@@ -423,5 +493,47 @@
     "issued": { "date-parts": [[2006]] },
     "container-title": "Proceedings of the 28th International Conference on Software Engineering (ICSE 2006)",
     "page": "329-338"
+  },
+  {
+    "id": "mohri2002",
+    "type": "article-journal",
+    "title": "Semiring frameworks and algorithms for shortest-distance problems",
+    "author": [{ "family": "Mohri", "given": "M." }],
+    "issued": { "date-parts": [[2002]] },
+    "container-title": "Journal of Automata, Languages and Combinatorics",
+    "volume": "7",
+    "issue": "3",
+    "page": "321-350"
+  },
+  {
+    "id": "maccrimmon1964",
+    "type": "article-journal",
+    "title": "An analytical study of the PERT assumptions",
+    "author": [
+      { "family": "MacCrimmon", "given": "K.R." },
+      { "family": "Ryavec", "given": "C.A." }
+    ],
+    "issued": { "date-parts": [[1964]] },
+    "container-title": "Operations Research",
+    "volume": "12",
+    "issue": "1",
+    "page": "16-37",
+    "DOI": "10.1287/opre.12.1.16"
+  },
+  {
+    "id": "johnson2023mimicdemo",
+    "type": "dataset",
+    "title": "MIMIC-IV Clinical Database Demo (version 2.2)",
+    "author": [
+      { "family": "Johnson", "given": "A." },
+      { "family": "Bulgarelli", "given": "L." },
+      { "family": "Pollard", "given": "T." },
+      { "family": "Horng", "given": "S." },
+      { "family": "Celi", "given": "L.A." },
+      { "family": "Mark", "given": "R." }
+    ],
+    "issued": { "date-parts": [[2023]] },
+    "publisher": "PhysioNet",
+    "DOI": "10.13026/dp1f-ex47"
   }
 ]

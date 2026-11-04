@@ -40,9 +40,10 @@ export const sticknotes: StickNotesConfig = {
         <Row sym={"\\approx"}>is approximately equal to</Row>
         <Row sym={"\\to"}>a function from one set to another (as in {<M>{"\\mu : A \\to B"}</M>})</Row>
         <Row sym={"2^{X}"}>the power set of {<M>{"X"}</M>} (all its subsets)</Row>
-        <Row sym={"\\mathcal{D}"}>a probability distribution</Row>
+        <Row sym={"\\mathcal{F}"}>a probability distribution (the family a metric&rsquo;s value is drawn from)</Row>
         <Row sym={"G[\\,\\cdot\\,]"}>the subgraph induced on a set of nodes (keeping arcs with both ends in it)</Row>
         <Row sym={"(\\,\\cdot,\\ \\cdot\\,)"}>an ordered tuple</Row>
+        <Row sym={"x'"}>a dummy for a record&rsquo;s own value, matched against the fixed {<M>{"x"}</M>} (as in {<M>{"a' = a"}</M>})</Row>
 
         <GroupLabel>Specific to this model</GroupLabel>
         <Row sym={"T"}>the master specification (a tree)</Row>
@@ -61,28 +62,35 @@ export const sticknotes: StickNotesConfig = {
         <Row sym={"J(s)"}>the job a step belongs to (the grouping)</Row>
         <Row sym={"\\mu(n)"}>the steps a spec node necessitates (the mapping)</Row>
         <Row sym={"P"}>a project&rsquo;s selected spec nodes</Row>
+        <Row sym={"\\sigma(s)"}>the spec nodes a step&rsquo;s execution selects (its finding)</Row>
         <Row sym={"N_P"}>the steps a project runs</Row>
         <Row sym={"G_P"}>the derived process (the subgraph on those steps)</Row>
         <Row sym={"D"}>a spec node&rsquo;s descriptors</Row>
         <Row sym={"d_i"}>one descriptor</Row>
         <Row sym={"k"}>the number of descriptors</Row>
-        <Row sym={"M"}>a step&rsquo;s metrics</Row>
-        <Row sym={"m_j"}>one metric</Row>
-        <Row sym={"n"}>the number of metrics</Row>
+        <Row sym={"m"}>a metric (which quantity a record holds)</Row>
+        <Row sym={"y"}>a metric&rsquo;s recorded value</Row>
+        <Row sym={"y_m(s)"}>the value of metric {<M>{"m"}</M>} at step {<M>{"s"}</M>}, as a distribution</Row>
         <Row sym={"\\theta(D)"}>the scaling the descriptors apply to the distribution</Row>
         <Row sym={"\\tau"}>the trace (the accumulating record)</Row>
         <Row sym={"a"}>an agent</Row>
         <Row sym={"Q(a)"}>an agent&rsquo;s qualifications (the skillsets it holds)</Row>
-        <Row sym={"t"}>the tools used on a record</Row>
+        <Row sym={"t"}>the time a record was captured</Row>
+        <Row sym={"g"}>the tools used on a record</Row>
         <Row sym={"w"}>the materials used on a record</Row>
+        <Row sym={"\\bot"}>a field left unrecorded</Row>
         <Row sym={"i"}>the project instance a record arose from</Row>
-        <Row sym={"\\mathrm{forecast}(s, D)"}>the predicted distribution for a step</Row>
-        <Row sym={"\\mathrm{req}(s)"}>the skillset a step requires (its job, {<M>{"J(s)"}</M>})</Row>
-        <Row sym={"\\mathrm{Elig}(s)"}>the agents eligible for a step</Row>
-        <Row sym={"n_a(s)"}>an agent&rsquo;s experience: its records at a step</Row>
+        <Row sym={"\\mathrm{forecast}(s, m, D, r, c)"}>the forecast of metric {<M>{"m"}</M>} for a step: the {<M>{"r"}</M>}-percentile of its distribution</Row>
+        <Row sym={"c"}>a context: any part of a record, alone or in combination, that exposure counts or a forecast conditions on</Row>
+        <Row sym={"r"}>the tolerated risk, the percentile taken from a distribution</Row>
+        <Row sym={"Q_r"}>the {<M>{"r"}</M>}-percentile (quantile at level {<M>{"r"}</M>})</Row>
+        <Row sym={"\\mathrm{Elig}(j)"}>the agents eligible for a job (holding its skillset and clearing the floor at each of its steps)</Row>
+        <Row sym={"n_c(s)"}>the recorded exposure of a context {<M>{"c"}</M>} to a step, its form a modelling choice</Row>
+        <Row sym={"n_a(s)"}>an agent&rsquo;s exposure, read as its experience</Row>
+        <Row sym={"\\lambda_s"}>the experience floor for a step (the minimum {<M>{"n_a"}</M>} to be eligible)</Row>
         <Row sym={"C(j)"}>the contract of a job</Row>
         <Row sym={"\\mathrm{in}(j),\\ \\mathrm{out}(j)"}>the products crossing a job&rsquo;s boundary</Row>
-        <Row sym={"\\varphi(j)"}>the forecast over a job&rsquo;s steps</Row>
+        <Row sym={"\\varphi(j)"}>the forecasts over a job&rsquo;s steps, metric by metric, at the same risk {<M>{"r"}</M>}</Row>
         <Row sym={"\\mathrm{Project}(P)"}>a project: each derived step with its forecast, eligible agents, and job contract</Row>
       </div>
     </NoteCard>,

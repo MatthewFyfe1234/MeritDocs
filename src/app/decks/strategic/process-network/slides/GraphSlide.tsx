@@ -11,7 +11,7 @@ export function GraphSlide() {
         >
           <div className="shrink-0 flex flex-row items-center gap-5">
             <div className="flex-1" style={{ color: 'var(--slide-text)', fontSize: '1.5rem' }}>
-              <Tex>{"G = (V_s, E_{sp})"}</Tex>
+              <Tex>{"G = (N_s, A_{sp})"}</Tex>
             </div>
             <span className="text-sm" style={{ color: 'var(--slide-text)', opacity: 0.45 }}>(1)</span>
           </div>
@@ -28,9 +28,9 @@ export function GraphSlide() {
         </div>
         <SymbolKey
           entries={[
-            { sym: "G = (V_s, E_{sp})", def: 'the process network' },
-            { sym: "V_s", def: 'set of steps (nodes)' },
-            { sym: "E_{sp}", def: 'set of step-products (edges)' },
+            { sym: "G = (N_s, A_{sp})", def: 'the process network' },
+            { sym: "N_s", def: 'set of steps (nodes)' },
+            { sym: "A_{sp}", def: 'set of step-products (arcs)' },
             { sym: "e = (u, v)", def: 'a step-product, step u to step v' },
           ]}
         />

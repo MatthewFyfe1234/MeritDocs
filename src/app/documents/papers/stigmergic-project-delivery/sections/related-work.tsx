@@ -1,13 +1,14 @@
-import { Cite } from '@/components/paper';
+import { Cite, Rev } from '@/components/paper';
 
 export function RelatedWork() {
   return (
     <>
       <h2>Related work</h2>
       <p>
-        We position SPD against prior work on two fronts: the three legs it combines, deriving process from
-        specification, forecasting from a trace, and coordinating allocation through that same trace; and the two
-        formalisms it extends, the activity-on-node process graph and the resource model.
+        We position SPD against prior work on two fronts. The first is the three legs it combines, deriving process
+        from specification, forecasting from a trace, and coordinating allocation through that same trace, the last
+        an instance of Heylighen&rsquo;s stigmergy. The second is the two formalisms it extends, the activity-on-node
+        process graph and the classical resource model.
       </p>
       <p>
         <strong>Process derivation from specification.</strong> The idea that process structure should follow from
@@ -17,7 +18,12 @@ export function RelatedWork() {
         formal methods. PBWD&rsquo;s product data model fixes a single cost, time, and probability per production
         rule at design time, and cannot represent repeated components. SPD addresses both issues, building on the and/or
         feature tree of <Cite id="kang1990" narrative /> and its later cardinality-based
-        extensions <Cite id="czarnecki2005" />.
+        extensions <Cite id="czarnecki2005" />. The split between master and project echoes software product line
+        engineering, which separates domain engineering, building the reusable space of features and assets, from
+        application engineering, deriving a single product from it <Cite id="pohl2005" />. Product lines formalise
+        that space and the derivation of a product from it, but they do not record how each derived product&rsquo;s
+        work was carried out, by which agents, tools and materials, nor forecast or allocate from that record,
+        which is where SPD extends them.
       </p>
 
       <p>
@@ -32,14 +38,20 @@ export function RelatedWork() {
       </p>
 
       <p>
-        <strong>Network formalisms.</strong> SPD&rsquo;s process graph is a modified Activity-on-Node
-        graph <Cite id="kelley1959" />, where edges are promoted to first-class objects representing the products
-        passed between the activities. That typing is critical to SPD: it
-        gives each step a contract, the inputs it consumes and the outputs it must produce, which is what an agent
-        takes on and is held to, where a conventional precedence link expresses only ordering and so offers
-        nothing to commit to. The typed product also carries its intrinsic properties, such as the time a crop
-        needs to mature before harvest, which a downstream step reads directly rather than through the lag or
-        dummy activity conventional AON forces a modeller to author.
+        <strong>Network formalisms.</strong> SPD&rsquo;s process graph is best understood as a modified
+        Activity-on-Node graph <Cite id="kelley1959" />, where edges are promoted to first-class objects representing
+        the products passed between the activities. That typing gives each step a contract, the inputs it consumes
+        and the outputs it must produce, which is what an agent takes on and is held to, where a precedence link
+        expresses only ordering and so offers nothing to commit to. The typed product is the producer/consumer
+        dependency of coordination theory, treated below. It also carries the product&rsquo;s own properties, such
+        as the time a crop needs to mature before harvest, which a downstream step reads from the product it
+        receives rather than from a lag attached to the link.
+      </p>
+
+      <p>
+        The graph captures each agent&rsquo;s internal process, not only the hand-offs between agents. Within a job,
+        a step&rsquo;s products often pass to the next step rather than crossing to another agent, and the typed
+        edge records which, where a precedence link does not.
       </p>
 
       <p>
@@ -77,39 +89,60 @@ export function RelatedWork() {
         level their data sits at; but such data is itself hard to come by, the field often leaning on artificial
         data <Cite id="vanhoucke2023" />, and history at the granularity of individual agents, tools, and materials
         is scarcer still. SPD closes this gap by forming the reference class at any level the work is decomposed
-        to, from the organisation down to the individual action, not only the whole project: the finer units recur
+        to, from the job down to the individual action, not only the whole project: the finer units recur
         across otherwise-unique projects, so their history accrues as a by-product of execution where sparse,
-        rarely-repeated project history does not. The finer the level recorded, the more reducible uncertainty is
-        removed, until at the finest level, where telemetry can record the individual action, only irreducible
-        aleatory variation remains <Cite id="derkiureghian2009" />, the floor that rules out deterministic
-        forecasting.
+        rarely-repeated project history does not. Recording at a finer level moves uncertainty toward the
+        irreducible aleatory variation that rules out deterministic forecasting <Cite id="derkiureghian2009" />,
+        though each finer context also holds fewer matching records, so the gain is a direction of travel rather
+        than a floor reached.
       </p>
 
       <p>
-        <strong>Coordination mechanism.</strong> Stigmergy, coordination through traces left in a shared medium
+        <strong>Coordination mechanism.</strong> Coordination theory <Cite id="malone1994" /> frames coordination as
+        the management of dependencies between activities. The products passed between SPD&rsquo;s steps are its
+        producer/consumer dependency, which SPD derives from the product specification and executes, where the theory
+        classifies the dependencies of a process already given.
+      </p>
+
+      <Rev block>
+        <p>
+          <strong>Decentralised scheduling.</strong> Scheduling under finite resources is the resource-constrained
+          project scheduling problem and its many variants <Cite id="hartmann2022" />. Its decentralised
+          multi-project form is the closest to SPD&rsquo;s coordination. Each project is planned by its own agent,
+          and the agents coordinate their use of shared resources, by negotiation{' '}
+          <Cite id={['homberger2007', 'homberger2012']} /> or by combinatorial auction <Cite id="confessore2007" />.
+          There the agents stand for projects, the activities and their durations are given, and resources are
+          allocated to them. In SPD the agents are the resources themselves, the steps are derived from the
+          specification, and their forecasts are read from the trace. The two can combine, since such a mechanism
+          could take SPD&rsquo;s contracts and eligible agents as input, as Section 3 notes of scheduling generally.
+        </p>
+      </Rev>
+
+      <p>
+        Stigmergy, coordination through traces left in a shared medium
         rather than direct instruction, was first described by <Cite id="grasse1959" narrative /> and given formal
         treatment by Heylighen <Cite id={['heylighen2016a', 'heylighen2016b']} />, who defines it through five
         components: action, agent, medium, trace, and coordination. SPD provides the first four: an action is a
         step&rsquo;s execution; agents are the executors; the medium is the process graph; and the trace is the
         record that execution leaves. Stigmergic coordination emerges from these as the resulting self-selection:
-        agents are filtered to an eligible set by matching recorded experience against each step&rsquo;s
+        agents are filtered to an eligible set by matching recorded experience against each job&rsquo;s
         requirements, and the forecast attached to the step, drawn from its trace, is the stimulus an eligible
         agent then chooses on, rather than being centrally assigned. One of Heylighen&rsquo;s own illustrations of
         stigmergic coordination among
         humans, programmers self-selecting from a shared, largely independent backlog, demonstrates the same
         underlying principle in its simplest form; SPD extends it to a structurally derived graph of dependent
         steps, each bound by a contract between agent and product, rather than an unstructured or independent
-        task. This is not the Contract Net Protocol <Cite id="smith1980" />, the classic contract-based scheme in
-        multi-agent systems, where a manager announces a task, eligible agents bid, and the manager awards the
-        contract to a chosen bid; SPD has no announcement, no bidding and no central award, an eligible agent
-        self-selects on the trace stimulus directly.
+        task.
       </p>
 
       <p>
         The same coordination mechanism is attested in construction, a domain of structured projects with interdependent
-        skillsets rather than isolated tasks: <Cite id="christensen2013" narrative /> observes builders
+        skillsets rather than isolated tasks. <Cite id="christensen2013" narrative /> observes builders
         coordinating design and site work by acting on the physical evidence of work already accomplished by
-        others, rather than through direct instruction.
+        others, rather than through direct instruction. That is the mechanism in its reactive form, the stimulus
+        being the realised state of completed work. SPD proposes a structure in which the same principle operates
+        anticipatorily, each step carrying a forecast drawn from the trace, so an agent selects on a prediction of
+        the step&rsquo;s delivery rather than on the residue of what is already done.
       </p>
 
       <p>
@@ -118,22 +151,23 @@ export function RelatedWork() {
         teams is driven by informal, individually varying preferences, task-based, developer-based, and
         opinion-based; where an agent&rsquo;s own capability is considered at all, it enters as a self-assessed and
         inconsistently applied factor rather than a structured record of demonstrated performance on comparable
-        prior work. Estimation is no more reliable: developer inexperience is among the commonly reported causes of
-        inaccurate estimates <Cite id="conoscenti2019" narrative />, and structured reflection on one&rsquo;s own
-        completed tasks does not improve accuracy, with gains coming only from external feedback rather than
-        self-review <Cite id="jorgensen2009" />. SPD addresses these shortcomings for the structured-project domain
+        prior work. Estimation is no more reliable: as <Cite id="conoscenti2019" narrative /> find, developer
+        inexperience is among the commonly reported causes of inaccurate estimates, and structured reflection on one&rsquo;s own
+        completed tasks improves neither estimation accuracy nor the realism of uncertainty assessments, while the
+        same feedback about other professionals&rsquo; estimates does make uncertainty assessments more
+        realistic <Cite id="jorgensen2009" />. SPD addresses these shortcomings for the structured-project domain
         the construction evidence points to: it replaces self-assessed capability with the trace&rsquo;s record of
         demonstrated performance, and subjective estimates with forecasts measured from it.
       </p>
 
       <p>
-        <strong>Experience-based ranking within eligibility.</strong> Within the pool of agents eligible for a
-        step, meaning those meeting its minimum skillset or role requirement, selection is further informed by
-        specific prior experience with the step&rsquo;s particular attributes. Two agents may share the same
+        <strong>Experience-based ranking within eligibility.</strong> Eligibility admits the agents holding a
+        job&rsquo;s skillset with enough experience at each of its steps. Among them, experience with the particular
+        attributes of the job&rsquo;s steps sets the order of claim. Two agents may share the same
         skillset yet differ in their recorded history against a given descriptor, one having completed several
         prior instances with a specific specialism, the other none. The trace is queried for each eligible
-        agent&rsquo;s history of similar prior steps, and this is surfaced to inform self-selection, rather than
-        used to centrally assign the step. This resembles history-based task assignment in automated bug
+        agent&rsquo;s history of similar prior steps, and the most and best-distributed record is favoured in
+        self-selection, rather than the job being centrally assigned. This resembles history-based task assignment in automated bug
         triage <Cite id="anvik2006" />, where candidates within a pre-qualified pool are ranked not by declared
         expertise but by their record of resolving previous instances with matching attributes.
       </p>

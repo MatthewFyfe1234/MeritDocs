@@ -1,7 +1,17 @@
 import type { ReactNode } from 'react';
 
+/**
+ * Revision mark: wraps content added or reworded since the paper was submitted. Inline by default, wrapping a phrase
+ * or sentence; pass `block` to wrap whole paragraphs, equations or figures. Highlighted only while the paper's
+ * Revisions toggle is on (see PaperConfig.revisions); otherwise it renders as plain content. Deletions are not marked.
+ * Inside SVG figures, give a revised <text> className="paper-rev-svg" instead; it follows the same toggle.
+ */
+export function Rev({ block, children }: { block?: boolean; children: ReactNode }) {
+  return block ? <div className="paper-rev paper-rev-block">{children}</div> : <span className="paper-rev">{children}</span>;
+}
+
 /** Image, SVG or diagram with a caption. Kept together on one page when printed. */
-export function Figure({ caption, children }: { caption?: string; children: ReactNode }) {
+export function Figure({ caption, children }: { caption?: ReactNode; children: ReactNode }) {
   return (
     <figure className="paper-figure">
       {children}

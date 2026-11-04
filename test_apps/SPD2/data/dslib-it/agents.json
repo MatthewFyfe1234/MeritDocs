@@ -1,0 +1,267 @@
+{
+  "note": "Skillsets are inferred from activity names; the dataset records no roles. Employee letters are per project, so 21-D and 22-D need not be the same person.",
+  "skillsets": [
+    {
+      "id": "PM",
+      "name": "Project management",
+      "inferred": true,
+      "people": [
+        {
+          "id": "11-A",
+          "name": "Employee A",
+          "project": "C2015-11"
+        },
+        {
+          "id": "11-B",
+          "name": "Employee B",
+          "project": "C2015-11"
+        },
+        {
+          "id": "11-C",
+          "name": "Employee C",
+          "project": "C2015-11"
+        },
+        {
+          "id": "15-A",
+          "name": "Employee A",
+          "project": "C2015-15"
+        },
+        {
+          "id": "20-A",
+          "name": "Employee A",
+          "project": "C2015-20"
+        },
+        {
+          "id": "21-A",
+          "name": "Employee A",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-B",
+          "name": "Employee B",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-C",
+          "name": "Employee C",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-D",
+          "name": "Employee D",
+          "project": "C2015-21"
+        },
+        {
+          "id": "22-A",
+          "name": "Employee A",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-B",
+          "name": "Employee B",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-C",
+          "name": "Employee C",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-D",
+          "name": "Employee D",
+          "project": "C2015-22"
+        }
+      ]
+    },
+    {
+      "id": "BA",
+      "name": "Business analysis",
+      "inferred": true,
+      "people": [
+        {
+          "id": "11-A",
+          "name": "Employee A",
+          "project": "C2015-11"
+        },
+        {
+          "id": "11-D",
+          "name": "Employee D",
+          "project": "C2015-11"
+        },
+        {
+          "id": "15-D",
+          "name": "Employee D",
+          "project": "C2015-15"
+        },
+        {
+          "id": "20-B",
+          "name": "Employee B",
+          "project": "C2015-20"
+        },
+        {
+          "id": "21-C",
+          "name": "Employee C",
+          "project": "C2015-21"
+        },
+        {
+          "id": "22-C",
+          "name": "Employee C",
+          "project": "C2015-22"
+        }
+      ]
+    },
+    {
+      "id": "DS",
+      "name": "Design",
+      "inferred": true,
+      "people": [
+        {
+          "id": "15-E",
+          "name": "Employee E",
+          "project": "C2015-15"
+        },
+        {
+          "id": "20-C",
+          "name": "Employee C",
+          "project": "C2015-20"
+        },
+        {
+          "id": "21-D",
+          "name": "Employee D",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-E",
+          "name": "Employee E",
+          "project": "C2015-21"
+        },
+        {
+          "id": "22-D",
+          "name": "Employee D",
+          "project": "C2015-22"
+        }
+      ]
+    },
+    {
+      "id": "DV",
+      "name": "Development",
+      "inferred": true,
+      "people": [
+        {
+          "id": "11-D",
+          "name": "Employee D",
+          "project": "C2015-11"
+        },
+        {
+          "id": "15-F",
+          "name": "Employee F",
+          "project": "C2015-15"
+        },
+        {
+          "id": "15-G",
+          "name": "Employee G",
+          "project": "C2015-15"
+        },
+        {
+          "id": "15-H",
+          "name": "Employee H",
+          "project": "C2015-15"
+        },
+        {
+          "id": "20-D",
+          "name": "Employee D",
+          "project": "C2015-20"
+        },
+        {
+          "id": "20-E",
+          "name": "Employee E",
+          "project": "C2015-20"
+        },
+        {
+          "id": "20-F",
+          "name": "Employee F",
+          "project": "C2015-20"
+        },
+        {
+          "id": "21-D",
+          "name": "Employee D",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-F",
+          "name": "Employee F",
+          "project": "C2015-21"
+        },
+        {
+          "id": "22-D",
+          "name": "Employee D",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-E",
+          "name": "Employee E",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-F",
+          "name": "Employee F",
+          "project": "C2015-22"
+        }
+      ]
+    },
+    {
+      "id": "TS",
+      "name": "Testing",
+      "inferred": true,
+      "people": [
+        {
+          "id": "15-B",
+          "name": "Employee B",
+          "project": "C2015-15"
+        },
+        {
+          "id": "15-K",
+          "name": "Employee K",
+          "project": "C2015-15"
+        },
+        {
+          "id": "21-B",
+          "name": "Employee B",
+          "project": "C2015-21"
+        },
+        {
+          "id": "21-H",
+          "name": "Employee H",
+          "project": "C2015-21"
+        },
+        {
+          "id": "22-G",
+          "name": "Employee G",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-H",
+          "name": "Employee H",
+          "project": "C2015-22"
+        },
+        {
+          "id": "22-I",
+          "name": "Employee I",
+          "project": "C2015-22"
+        }
+      ]
+    },
+    {
+      "id": "OP",
+      "name": "Operations",
+      "inferred": true,
+      "people": [
+        {
+          "id": "15-L",
+          "name": "Employee L",
+          "project": "C2015-15"
+        }
+      ]
+    }
+  ]
+}

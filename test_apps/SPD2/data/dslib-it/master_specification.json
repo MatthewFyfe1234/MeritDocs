@@ -1,0 +1,188 @@
+{
+  "id": "delivered-solution",
+  "name": "Delivered solution",
+  "steps": [
+    "project-management",
+    "validation-and-support",
+    "deploy-to-production"
+  ],
+  "projects": [
+    "C2015-11",
+    "C2015-15",
+    "C2015-20",
+    "C2015-21",
+    "C2015-22"
+  ],
+  "descriptors": [],
+  "children": [
+    {
+      "id": "information-system",
+      "name": "Information system",
+      "steps": [
+        "bug-fixing",
+        "development-bugfixing-and-support",
+        "technical-assembly-test",
+        "test-preparation",
+        "test-coordination",
+        "test-execution",
+        "test-ict-regression-testing",
+        "uat-support"
+      ],
+      "projects": [
+        "C2015-11",
+        "C2015-15",
+        "C2015-20",
+        "C2015-21",
+        "C2015-22"
+      ],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "application-code",
+          "name": "Application code",
+          "steps": [
+            "coding"
+          ],
+          "projects": [
+            "C2015-11",
+            "C2015-15",
+            "C2015-20",
+            "C2015-21",
+            "C2015-22"
+          ],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "requirements-specification",
+      "name": "Requirements specification",
+      "steps": [
+        "requirements"
+      ],
+      "projects": [
+        "C2015-11"
+      ],
+      "descriptors": [],
+      "children": []
+    },
+    {
+      "id": "functional-analysis",
+      "name": "Functional analysis",
+      "steps": [],
+      "projects": [
+        "C2015-11",
+        "C2015-15",
+        "C2015-20",
+        "C2015-21",
+        "C2015-22"
+      ],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "business-analysis",
+          "name": "Business analysis",
+          "steps": [
+            "business-analysis"
+          ],
+          "projects": [
+            "C2015-11",
+            "C2015-20",
+            "C2015-21"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "conceptual-design",
+          "name": "Conceptual design",
+          "steps": [
+            "analysis-conceptual-design"
+          ],
+          "projects": [
+            "C2015-15",
+            "C2015-22"
+          ],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "design-documents",
+      "name": "Design documents",
+      "steps": [],
+      "projects": [
+        "C2015-15",
+        "C2015-20",
+        "C2015-21",
+        "C2015-22"
+      ],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "technical-design",
+          "name": "Technical design",
+          "steps": [
+            "technical-design"
+          ],
+          "projects": [
+            "C2015-15",
+            "C2015-20"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "user-interface-design",
+          "name": "User interface design",
+          "steps": [
+            "user-interface-design"
+          ],
+          "projects": [
+            "C2015-21"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "integration-mapping",
+          "name": "Integration mapping",
+          "steps": [
+            "design-integration-mapping"
+          ],
+          "projects": [
+            "C2015-21"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "isp-design",
+          "name": "ISP design",
+          "steps": [
+            "design-isp-design"
+          ],
+          "projects": [
+            "C2015-22"
+          ],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "handover-package",
+      "name": "Handover package",
+      "steps": [],
+      "projects": [
+        "C2015-11",
+        "C2015-21",
+        "C2015-22"
+      ],
+      "descriptors": [],
+      "children": []
+    }
+  ]
+}

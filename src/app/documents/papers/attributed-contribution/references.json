@@ -1,165 +1,1318 @@
 [
   {
-    "id": "coase1937",
+    "id": "darby1973",
     "type": "article-journal",
-    "title": "The nature of the firm",
-    "author": [{ "family": "Coase", "given": "R.H." }],
-    "issued": { "date-parts": [[1937]] },
-    "container-title": "Economica",
-    "volume": "4",
-    "issue": "16",
-    "page": "386-405"
-  },
-  {
-    "id": "williamson1991",
-    "type": "article-journal",
-    "title": "Comparative economic organization: The analysis of discrete structural alternatives",
-    "author": [{ "family": "Williamson", "given": "O.E." }],
-    "issued": { "date-parts": [[1991]] },
-    "container-title": "Administrative Science Quarterly",
-    "volume": "36",
-    "issue": "2",
-    "page": "269-296"
-  },
-  {
-    "id": "anderson2017",
-    "type": "book",
-    "title": "Private government: How employers rule our lives (and why we don't talk about it)",
-    "author": [{ "family": "Anderson", "given": "E." }],
-    "issued": { "date-parts": [[2017]] },
-    "publisher": "Princeton University Press"
-  },
-  {
-    "id": "powell1990",
-    "type": "article-journal",
-    "title": "Neither market nor hierarchy: Network forms of organization",
-    "author": [{ "family": "Powell", "given": "W.W." }],
-    "issued": { "date-parts": [[1990]] },
-    "container-title": "Research in Organizational Behavior",
-    "volume": "12",
-    "page": "295-336"
-  },
-  {
-    "id": "ouchi1980",
-    "type": "article-journal",
-    "title": "Markets, bureaucracies, and clans",
-    "author": [{ "family": "Ouchi", "given": "W.G." }],
-    "issued": { "date-parts": [[1980]] },
-    "container-title": "Administrative Science Quarterly",
-    "volume": "25",
+    "title": "Free competition and the optimal amount of fraud",
+    "author": [
+      {
+        "family": "Darby",
+        "given": "M.R."
+      },
+      {
+        "family": "Karni",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1973
+        ]
+      ]
+    },
+    "container-title": "Journal of Law and Economics",
+    "volume": "16",
     "issue": "1",
-    "page": "129-141"
+    "page": "67-88"
+  },
+  {
+    "id": "dulleck2006",
+    "type": "article-journal",
+    "title": "On doctors, mechanics, and computer specialists: The economics of credence goods",
+    "author": [
+      {
+        "family": "Dulleck",
+        "given": "U."
+      },
+      {
+        "family": "Kerschbamer",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Journal of Economic Literature",
+    "volume": "44",
+    "issue": "1",
+    "page": "5-42"
+  },
+  {
+    "id": "dranove2003",
+    "type": "article-journal",
+    "title": "Is more information better? The effects of \"report cards\" on health care providers",
+    "author": [
+      {
+        "family": "Dranove",
+        "given": "D."
+      },
+      {
+        "family": "Kessler",
+        "given": "D."
+      },
+      {
+        "family": "McClellan",
+        "given": "M."
+      },
+      {
+        "family": "Satterthwaite",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "volume": "111",
+    "issue": "3",
+    "page": "555-588"
+  },
+  {
+    "id": "klaassen2021",
+    "type": "article-journal",
+    "title": "Harmonizing corporate carbon footprints",
+    "author": [
+      {
+        "family": "Klaaßen",
+        "given": "L."
+      },
+      {
+        "family": "Stoll",
+        "given": "C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Nature Communications",
+    "volume": "12",
+    "page": "6149"
+  },
+  {
+    "id": "delmas2011",
+    "type": "article-journal",
+    "title": "The drivers of greenwashing",
+    "author": [
+      {
+        "family": "Delmas",
+        "given": "M.A."
+      },
+      {
+        "family": "Burbano",
+        "given": "V.C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "California Management Review",
+    "volume": "54",
+    "issue": "1",
+    "page": "64-87"
+  },
+  {
+    "id": "nelson1970",
+    "type": "article-journal",
+    "title": "Information and consumer behavior",
+    "author": [
+      {
+        "family": "Nelson",
+        "given": "P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1970
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "volume": "78",
+    "issue": "2",
+    "page": "311-329"
+  },
+  {
+    "id": "flyvbjerg2002",
+    "type": "article-journal",
+    "title": "Underestimating costs in public works projects: Error or lie?",
+    "author": [
+      {
+        "family": "Flyvbjerg",
+        "given": "B."
+      },
+      {
+        "family": "Holm",
+        "given": "M. S."
+      },
+      {
+        "family": "Buhl",
+        "given": "S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Planning Association",
+    "volume": "68",
+    "issue": "3",
+    "page": "279-295"
+  },
+  {
+    "id": "buehler1994",
+    "type": "article-journal",
+    "title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+    "author": [
+      {
+        "family": "Buehler",
+        "given": "R."
+      },
+      {
+        "family": "Griffin",
+        "given": "D."
+      },
+      {
+        "family": "Ross",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "container-title": "Journal of Personality and Social Psychology",
+    "volume": "67",
+    "issue": "3",
+    "page": "366-381"
+  },
+  {
+    "id": "baiman2002",
+    "type": "article-journal",
+    "title": "The role of information and opportunism in the choice of buyer-supplier relationships",
+    "author": [
+      {
+        "family": "Baiman",
+        "given": "S."
+      },
+      {
+        "family": "Rajan",
+        "given": "M.V."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Journal of Accounting Research",
+    "volume": "40",
+    "issue": "2",
+    "page": "247-278"
+  },
+  {
+    "id": "levin2003",
+    "type": "article-journal",
+    "title": "Relational incentive contracts",
+    "author": [
+      {
+        "family": "Levin",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "93",
+    "issue": "3",
+    "page": "835-857"
   },
   {
     "id": "thompson2003",
     "type": "book",
     "title": "Between hierarchies and markets: The logic and limits of network forms of organization",
-    "author": [{ "family": "Thompson", "given": "G.F." }],
-    "issued": { "date-parts": [[2003]] },
+    "author": [
+      {
+        "family": "Thompson",
+        "given": "G.F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
     "publisher": "Oxford University Press"
   },
   {
-    "id": "granovetter1985",
+    "id": "bakerjensen1988",
     "type": "article-journal",
-    "title": "Economic action and social structure: The problem of embeddedness",
-    "author": [{ "family": "Granovetter", "given": "M." }],
-    "issued": { "date-parts": [[1985]] },
-    "container-title": "American Journal of Sociology",
-    "volume": "91",
+    "title": "Compensation and incentives: Practice vs. theory",
+    "author": [
+      {
+        "family": "Baker",
+        "given": "G.P."
+      },
+      {
+        "family": "Jensen",
+        "given": "M.C."
+      },
+      {
+        "family": "Murphy",
+        "given": "K.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "container-title": "Journal of Finance",
+    "volume": "43",
     "issue": "3",
-    "page": "481-510"
+    "page": "593-616"
   },
   {
-    "id": "polanyi1944",
+    "id": "prendergast1996",
+    "type": "article-journal",
+    "title": "Favoritism in organizations",
+    "author": [
+      {
+        "family": "Prendergast",
+        "given": "C."
+      },
+      {
+        "family": "Topel",
+        "given": "R.H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "volume": "104",
+    "issue": "5",
+    "page": "958-978"
+  },
+  {
+    "id": "murphy1995",
     "type": "book",
-    "title": "The great transformation: The political and economic origins of our time",
-    "author": [{ "family": "Polanyi", "given": "K." }],
-    "issued": { "date-parts": [[1944]] },
-    "publisher": "Farrar & Rinehart"
+    "title": "Understanding performance appraisal: Social, organizational, and goal-based perspectives",
+    "author": [
+      {
+        "family": "Murphy",
+        "given": "K.R."
+      },
+      {
+        "family": "Cleveland",
+        "given": "J.N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "publisher": "Sage"
   },
   {
-    "id": "grasse1959",
+    "id": "scullen2000",
     "type": "article-journal",
-    "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
-    "author": [{ "family": "Grassé", "given": "P.-P." }],
-    "issued": { "date-parts": [[1959]] },
-    "container-title": "Insectes Sociaux",
-    "volume": "6",
+    "title": "Understanding the latent structure of job performance ratings",
+    "author": [
+      {
+        "family": "Scullen",
+        "given": "S.E."
+      },
+      {
+        "family": "Mount",
+        "given": "M.K."
+      },
+      {
+        "family": "Goff",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "Journal of Applied Psychology",
+    "volume": "85",
+    "issue": "6",
+    "page": "956-970"
+  },
+  {
+    "id": "connelly2012",
+    "type": "article-journal",
+    "title": "Knowledge hiding in organizations",
+    "author": [
+      {
+        "family": "Connelly",
+        "given": "C.E."
+      },
+      {
+        "family": "Zweig",
+        "given": "D."
+      },
+      {
+        "family": "Webster",
+        "given": "J."
+      },
+      {
+        "family": "Trougakos",
+        "given": "J.P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "container-title": "Journal of Organizational Behavior",
+    "volume": "33",
     "issue": "1",
-    "page": "41-80"
+    "page": "64-88"
   },
   {
-    "id": "heylighen2016a",
+    "id": "lazear1989",
     "type": "article-journal",
-    "title": "Stigmergy as a universal coordination mechanism I: Definition and components",
-    "author": [{ "family": "Heylighen", "given": "F." }],
-    "issued": { "date-parts": [[2016]] },
-    "container-title": "Cognitive Systems Research",
-    "volume": "38",
-    "page": "4-13"
+    "title": "Pay equality and industrial politics",
+    "author": [
+      {
+        "family": "Lazear",
+        "given": "E.P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "volume": "97",
+    "issue": "3",
+    "page": "561-580"
   },
   {
-    "id": "heylighen2016b",
+    "id": "bushman1995",
     "type": "article-journal",
-    "title": "Stigmergy as a universal coordination mechanism II: Varieties and evolution",
-    "author": [{ "family": "Heylighen", "given": "F." }],
-    "issued": { "date-parts": [[2016]] },
-    "container-title": "Cognitive Systems Research",
-    "volume": "38",
-    "page": "50-59"
+    "title": "Aggregate performance measures in business unit manager compensation: The role of intrafirm interdependencies",
+    "author": [
+      {
+        "family": "Bushman",
+        "given": "R.M."
+      },
+      {
+        "family": "Indjejikian",
+        "given": "R.J."
+      },
+      {
+        "family": "Smith",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "container-title": "Journal of Accounting Research",
+    "volume": "33",
+    "page": "101-128",
+    "issue": "Supplement"
+  },
+  {
+    "id": "atkin2017",
+    "type": "article-journal",
+    "title": "Organizational barriers to technology adoption: Evidence from soccer-ball producers in Pakistan",
+    "author": [
+      {
+        "family": "Atkin",
+        "given": "D."
+      },
+      {
+        "family": "Chaudhry",
+        "given": "A."
+      },
+      {
+        "family": "Chaudry",
+        "given": "S."
+      },
+      {
+        "family": "Khandelwal",
+        "given": "A.K."
+      },
+      {
+        "family": "Verhoogen",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "132",
+    "issue": "3",
+    "page": "1101-1164"
+  },
+  {
+    "id": "cummings2007",
+    "type": "article-journal",
+    "title": "Coordination costs and project outcomes in multi-university collaborations",
+    "author": [
+      {
+        "family": "Cummings",
+        "given": "J.N."
+      },
+      {
+        "family": "Kiesler",
+        "given": "S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Research Policy",
+    "volume": "36",
+    "issue": "10",
+    "page": "1620-1634",
+    "DOI": "10.1016/j.respol.2007.09.001"
+  },
+  {
+    "id": "simon1955",
+    "type": "article-journal",
+    "title": "A behavioral model of rational choice",
+    "author": [
+      {
+        "family": "Simon",
+        "given": "H.A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1955
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "69",
+    "issue": "1",
+    "page": "99-118"
+  },
+  {
+    "id": "simon1971",
+    "type": "chapter",
+    "title": "Designing organizations for an information-rich world",
+    "author": [
+      {
+        "family": "Simon",
+        "given": "H. A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1971
+        ]
+      ]
+    },
+    "container-title": "Computers, Communications, and the Public Interest",
+    "editor": [
+      {
+        "family": "Greenberger",
+        "given": "M."
+      }
+    ],
+    "publisher": "Johns Hopkins Press",
+    "publisher-place": "Baltimore",
+    "page": "37-52"
   },
   {
     "id": "olson1965",
     "type": "book",
     "title": "The logic of collective action: Public goods and the theory of groups",
-    "author": [{ "family": "Olson", "given": "M." }],
-    "issued": { "date-parts": [[1965]] },
+    "author": [
+      {
+        "family": "Olson",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1965
+        ]
+      ]
+    },
     "publisher": "Harvard University Press"
   },
   {
-    "id": "ostrom1990",
+    "id": "hansmann1996",
     "type": "book",
-    "title": "Governing the commons: The evolution of institutions for collective action",
-    "author": [{ "family": "Ostrom", "given": "E." }],
-    "issued": { "date-parts": [[1990]] },
-    "publisher": "Cambridge University Press"
+    "title": "The ownership of enterprise",
+    "author": [
+      {
+        "family": "Hansmann",
+        "given": "H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "publisher": "Belknap Press of Harvard University Press"
   },
   {
-    "id": "poteete2004",
+    "id": "burdin2014",
     "type": "article-journal",
-    "title": "Heterogeneity, group size and collective action: The role of institutions in forest management",
+    "title": "Equality under threat by the talented: Evidence from worker-managed firms",
     "author": [
-      { "family": "Poteete", "given": "A.R." },
-      { "family": "Ostrom", "given": "E." }
+      {
+        "family": "Burdín",
+        "given": "G."
+      }
     ],
-    "issued": { "date-parts": [[2004]] },
-    "container-title": "Development and Change",
-    "volume": "35",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Economic Journal",
+    "volume": "126",
+    "issue": "594",
+    "page": "1372-1403"
+  },
+  {
+    "id": "lee2017",
+    "type": "article-journal",
+    "title": "Self-managing organizations: Exploring the limits of less-hierarchical organizing",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "M.Y."
+      },
+      {
+        "family": "Edmondson",
+        "given": "A.C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Research in Organizational Behavior",
+    "volume": "37",
+    "page": "35-58"
+  },
+  {
+    "id": "pigou1920",
+    "type": "book",
+    "title": "The Economics of Welfare",
+    "author": [
+      {
+        "family": "Pigou",
+        "given": "A. C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1920
+        ]
+      ]
+    },
+    "publisher": "Macmillan",
+    "publisher-place": "London"
+  },
+  {
+    "id": "coase1960",
+    "type": "article-journal",
+    "title": "The problem of social cost",
+    "author": [
+      {
+        "family": "Coase",
+        "given": "R. H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1960
+        ]
+      ]
+    },
+    "container-title": "Journal of Law and Economics",
+    "volume": "3",
+    "page": "1-44"
+  },
+  {
+    "id": "ghgprotocol2013",
+    "type": "report",
+    "title": "Technical Guidance for Calculating Scope 3 Emissions",
+    "author": [
+      {
+        "literal": "World Resources Institute and World Business Council for Sustainable Development"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "publisher": "Greenhouse Gas Protocol",
+    "publisher-place": "Washington, DC"
+  },
+  {
+    "id": "locke2013",
+    "type": "book",
+    "title": "The Promise and Limits of Private Power: Promoting Labor Standards in a Global Economy",
+    "author": [
+      {
+        "family": "Locke",
+        "given": "R. M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge"
+  },
+  {
+    "id": "thompson2014",
+    "type": "report",
+    "title": "In-use emissions testing of light-duty diesel vehicles in the United States",
+    "author": [
+      {
+        "family": "Thompson",
+        "given": "G. J."
+      },
+      {
+        "family": "Carder",
+        "given": "D. K."
+      },
+      {
+        "family": "Besch",
+        "given": "M. C."
+      },
+      {
+        "family": "Thiruvengadam",
+        "given": "A."
+      },
+      {
+        "family": "Kappanna",
+        "given": "H. K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "genre": "Final report",
+    "publisher": "Center for Alternative Fuels, Engines and Emissions, West Virginia University, for the International Council on Clean Transportation",
+    "publisher-place": "Morgantown, WV"
+  },
+  {
+    "id": "aldy2014",
+    "type": "report",
+    "title": "Learning from experience: An assessment of the retrospective reviews of agency rules and the evidence for improving the design and implementation of regulatory policy",
+    "author": [
+      {
+        "family": "Aldy",
+        "given": "J. E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "genre": "Report",
+    "publisher": "Administrative Conference of the United States",
+    "publisher-place": "Washington, DC"
+  },
+  {
+    "id": "bevan2006",
+    "type": "article-journal",
+    "title": "What's measured is what matters: Targets and gaming in the English public health care system",
+    "author": [
+      {
+        "family": "Bevan",
+        "given": "G."
+      },
+      {
+        "family": "Hood",
+        "given": "C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Public Administration",
+    "volume": "84",
     "issue": "3",
-    "page": "435-461"
+    "page": "517-538"
+  },
+  {
+    "id": "campbell1979",
+    "type": "article-journal",
+    "title": "Assessing the impact of planned social change",
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "D. T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "container-title": "Evaluation and Program Planning",
+    "volume": "2",
+    "issue": "1",
+    "page": "67-90"
+  },
+  {
+    "id": "dellacqua2023",
+    "type": "report",
+    "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects of AI on knowledge worker productivity and quality",
+    "author": [
+      {
+        "family": "Dell'Acqua",
+        "given": "F."
+      },
+      {
+        "family": "McFowland",
+        "given": "E."
+      },
+      {
+        "family": "Mollick",
+        "given": "E.R."
+      },
+      {
+        "family": "Lifshitz-Assaf",
+        "given": "H."
+      },
+      {
+        "family": "Kellogg",
+        "given": "K."
+      },
+      {
+        "family": "Rajendran",
+        "given": "S."
+      },
+      {
+        "family": "Krayer",
+        "given": "L."
+      },
+      {
+        "family": "Candelon",
+        "given": "F."
+      },
+      {
+        "family": "Lakhani",
+        "given": "K.R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "genre": "Harvard Business School Working Paper",
+    "number": "24-013",
+    "publisher": "Harvard Business School"
+  },
+  {
+    "id": "brynjolfsson2025",
+    "type": "article-journal",
+    "title": "Generative AI at work",
+    "author": [
+      {
+        "family": "Brynjolfsson",
+        "given": "E."
+      },
+      {
+        "family": "Li",
+        "given": "D."
+      },
+      {
+        "family": "Raymond",
+        "given": "L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "140",
+    "issue": "2",
+    "page": "889-942"
+  },
+  {
+    "id": "noy2023",
+    "type": "article-journal",
+    "title": "Experimental evidence on the productivity effects of generative artificial intelligence",
+    "author": [
+      {
+        "family": "Noy",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "volume": "381",
+    "issue": "6654",
+    "page": "187-192"
+  },
+  {
+    "id": "turpin2023",
+    "type": "paper-conference",
+    "title": "Language models don't always say what they think: Unfaithful explanations in chain-of-thought prompting",
+    "author": [
+      {
+        "family": "Turpin",
+        "given": "M."
+      },
+      {
+        "family": "Michael",
+        "given": "J."
+      },
+      {
+        "family": "Perez",
+        "given": "E."
+      },
+      {
+        "family": "Bowman",
+        "given": "S.R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Advances in Neural Information Processing Systems",
+    "volume": "36"
+  },
+  {
+    "id": "ji2023",
+    "type": "article-journal",
+    "title": "Survey of hallucination in natural language generation",
+    "author": [
+      {
+        "family": "Ji",
+        "given": "Z."
+      },
+      {
+        "family": "Lee",
+        "given": "N."
+      },
+      {
+        "family": "Frieske",
+        "given": "R."
+      },
+      {
+        "family": "Yu",
+        "given": "T."
+      },
+      {
+        "family": "Su",
+        "given": "D."
+      },
+      {
+        "family": "Xu",
+        "given": "Y."
+      },
+      {
+        "family": "Ishii",
+        "given": "E."
+      },
+      {
+        "family": "Bang",
+        "given": "Y.J."
+      },
+      {
+        "family": "Madotto",
+        "given": "A."
+      },
+      {
+        "family": "Fung",
+        "given": "P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "ACM Computing Surveys",
+    "volume": "55",
+    "issue": "12",
+    "page": "1-38"
+  },
+  {
+    "id": "spence1973",
+    "type": "article-journal",
+    "title": "Job market signaling",
+    "author": [
+      {
+        "family": "Spence",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1973
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "87",
+    "issue": "3",
+    "page": "355-374"
+  },
+  {
+    "id": "galdin2025",
+    "type": "report",
+    "title": "Making talk cheap: Generative AI and labor market signaling",
+    "author": [
+      {
+        "family": "Galdin",
+        "given": "A."
+      },
+      {
+        "family": "Silbert",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "genre": "arXiv preprint",
+    "number": "2511.08785",
+    "publisher": "arXiv"
+  },
+  {
+    "id": "porter1996",
+    "type": "article-journal",
+    "title": "What is strategy?",
+    "author": [
+      {
+        "family": "Porter",
+        "given": "M. E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "container-title": "Harvard Business Review",
+    "volume": "74",
+    "issue": "6",
+    "page": "61-78"
+  },
+  {
+    "id": "wallis1986",
+    "type": "chapter",
+    "title": "Measuring the transaction sector in the American economy, 1870-1970",
+    "author": [
+      {
+        "family": "Wallis",
+        "given": "J.J."
+      },
+      {
+        "family": "North",
+        "given": "D.C."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Engerman",
+        "given": "S.L."
+      },
+      {
+        "family": "Gallman",
+        "given": "R.E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "container-title": "Long-term factors in American economic growth",
+    "publisher": "University of Chicago Press",
+    "page": "95-162"
+  },
+  {
+    "id": "bowles2006",
+    "type": "article-journal",
+    "title": "Guard labor",
+    "author": [
+      {
+        "family": "Jayadev",
+        "given": "A."
+      },
+      {
+        "family": "Bowles",
+        "given": "S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Journal of Development Economics",
+    "volume": "79",
+    "issue": "2",
+    "page": "328-348"
+  },
+  {
+    "id": "rothschild1976",
+    "type": "article-journal",
+    "title": "Equilibrium in competitive insurance markets: An essay on the economics of imperfect information",
+    "author": [
+      {
+        "family": "Rothschild",
+        "given": "M."
+      },
+      {
+        "family": "Stiglitz",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "90",
+    "issue": "4",
+    "page": "629-649"
+  },
+  {
+    "id": "williamson1985",
+    "type": "book",
+    "title": "The economic institutions of capitalism: Firms, markets, relational contracting",
+    "author": [
+      {
+        "family": "Williamson",
+        "given": "O.E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "publisher": "Free Press"
+  },
+  {
+    "id": "bakerhubbard2004",
+    "type": "article-journal",
+    "title": "Contractibility and asset ownership: On-board computers and governance in U.S. trucking",
+    "author": [
+      {
+        "family": "Baker",
+        "given": "G.P."
+      },
+      {
+        "family": "Hubbard",
+        "given": "T.N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "119",
+    "issue": "4",
+    "page": "1443-1479"
   },
   {
     "id": "holmstrom1991",
     "type": "article-journal",
     "title": "Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design",
     "author": [
-      { "family": "Holmström", "given": "B." },
-      { "family": "Milgrom", "given": "P." }
+      {
+        "family": "Holmström",
+        "given": "B."
+      },
+      {
+        "family": "Milgrom",
+        "given": "P."
+      }
     ],
-    "issued": { "date-parts": [[1991]] },
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
     "container-title": "Journal of Law, Economics, & Organization",
     "volume": "7",
-    "page": "24-52"
+    "page": "24-52",
+    "issue": "Special Issue"
   },
   {
     "id": "feltham1994",
     "type": "article-journal",
     "title": "Performance measure congruity and diversity in multi-task principal/agent relations",
     "author": [
-      { "family": "Feltham", "given": "G.A." },
-      { "family": "Xie", "given": "J." }
+      {
+        "family": "Feltham",
+        "given": "G.A."
+      },
+      {
+        "family": "Xie",
+        "given": "J."
+      }
     ],
-    "issued": { "date-parts": [[1994]] },
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
     "container-title": "The Accounting Review",
     "volume": "69",
     "issue": "3",
@@ -169,107 +1322,119 @@
     "id": "baker1992",
     "type": "article-journal",
     "title": "Incentive contracts and performance measurement",
-    "author": [{ "family": "Baker", "given": "G.P." }],
-    "issued": { "date-parts": [[1992]] },
+    "author": [
+      {
+        "family": "Baker",
+        "given": "G.P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
     "container-title": "Journal of Political Economy",
     "volume": "100",
     "issue": "3",
     "page": "598-614"
   },
   {
-    "id": "bakergibbons1994",
+    "id": "baker2002",
     "type": "article-journal",
-    "title": "Subjective performance measures in optimal incentive contracts",
+    "title": "Distortion and risk in optimal incentive contracts",
     "author": [
-      { "family": "Baker", "given": "G." },
-      { "family": "Gibbons", "given": "R." },
-      { "family": "Murphy", "given": "K.J." }
+      {
+        "family": "Baker",
+        "given": "G.P."
+      }
     ],
-    "issued": { "date-parts": [[1994]] },
-    "container-title": "The Quarterly Journal of Economics",
-    "volume": "109",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Journal of Human Resources",
+    "volume": "37",
     "issue": "4",
-    "page": "1125-1156"
-  },
-  {
-    "id": "bakergibbons2002",
-    "type": "article-journal",
-    "title": "Relational contracts and the theory of the firm",
-    "author": [
-      { "family": "Baker", "given": "G." },
-      { "family": "Gibbons", "given": "R." },
-      { "family": "Murphy", "given": "K.J." }
-    ],
-    "issued": { "date-parts": [[2002]] },
-    "container-title": "The Quarterly Journal of Economics",
-    "volume": "117",
-    "issue": "1",
-    "page": "39-84"
-  },
-  {
-    "id": "atkin2017",
-    "type": "article-journal",
-    "title": "Organizational barriers to technology adoption: Evidence from soccer-ball producers in Pakistan",
-    "author": [
-      { "family": "Atkin", "given": "D." },
-      { "family": "Chaudhry", "given": "A." },
-      { "family": "Chaudry", "given": "S." },
-      { "family": "Khandelwal", "given": "A.K." },
-      { "family": "Verhoogen", "given": "E." }
-    ],
-    "issued": { "date-parts": [[2017]] },
-    "container-title": "The Quarterly Journal of Economics",
-    "volume": "132",
-    "issue": "3",
-    "page": "1101-1164"
-  },
-  {
-    "id": "dranove2003",
-    "type": "article-journal",
-    "title": "Is more information better? The effects of \"report cards\" on health care providers",
-    "author": [
-      { "family": "Dranove", "given": "D." },
-      { "family": "Kessler", "given": "D." },
-      { "family": "McClellan", "given": "M." },
-      { "family": "Satterthwaite", "given": "M." }
-    ],
-    "issued": { "date-parts": [[2003]] },
-    "container-title": "Journal of Political Economy",
-    "volume": "111",
-    "issue": "3",
-    "page": "555-588"
+    "page": "728-751"
   },
   {
     "id": "barzel1982",
     "type": "article-journal",
     "title": "Measurement cost and the organization of markets",
-    "author": [{ "family": "Barzel", "given": "Y." }],
-    "issued": { "date-parts": [[1982]] },
+    "author": [
+      {
+        "family": "Barzel",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
     "container-title": "Journal of Law and Economics",
     "volume": "25",
     "issue": "1",
     "page": "27-48"
   },
   {
-    "id": "levin2003",
+    "id": "bakergibbons2002",
     "type": "article-journal",
-    "title": "Relational incentive contracts",
-    "author": [{ "family": "Levin", "given": "J." }],
-    "issued": { "date-parts": [[2003]] },
-    "container-title": "American Economic Review",
-    "volume": "93",
-    "issue": "3",
-    "page": "835-857"
+    "title": "Relational contracts and the theory of the firm",
+    "author": [
+      {
+        "family": "Baker",
+        "given": "G."
+      },
+      {
+        "family": "Gibbons",
+        "given": "R."
+      },
+      {
+        "family": "Murphy",
+        "given": "K.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "117",
+    "issue": "1",
+    "page": "39-84"
   },
   {
     "id": "benabou2006",
     "type": "article-journal",
     "title": "Incentives and prosocial behavior",
     "author": [
-      { "family": "Bénabou", "given": "R." },
-      { "family": "Tirole", "given": "J." }
+      {
+        "family": "Bénabou",
+        "given": "R."
+      },
+      {
+        "family": "Tirole",
+        "given": "J."
+      }
     ],
-    "issued": { "date-parts": [[2006]] },
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
     "container-title": "American Economic Review",
     "volume": "96",
     "issue": "5",
@@ -280,24 +1445,1851 @@
     "type": "article-journal",
     "title": "Identity and the economics of organizations",
     "author": [
-      { "family": "Akerlof", "given": "G.A." },
-      { "family": "Kranton", "given": "R.E." }
+      {
+        "family": "Akerlof",
+        "given": "G.A."
+      },
+      {
+        "family": "Kranton",
+        "given": "R.E."
+      }
     ],
-    "issued": { "date-parts": [[2005]] },
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
     "container-title": "Journal of Economic Perspectives",
     "volume": "19",
     "issue": "1",
     "page": "9-32"
   },
   {
+    "id": "deci1999",
+    "type": "article-journal",
+    "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+    "author": [
+      {
+        "family": "Deci",
+        "given": "E.L."
+      },
+      {
+        "family": "Koestner",
+        "given": "R."
+      },
+      {
+        "family": "Ryan",
+        "given": "R.M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Psychological Bulletin",
+    "volume": "125",
+    "issue": "6",
+    "page": "627-668"
+  },
+  {
+    "id": "benabou2003",
+    "type": "article-journal",
+    "title": "Intrinsic and extrinsic motivation",
+    "author": [
+      {
+        "family": "Bénabou",
+        "given": "R."
+      },
+      {
+        "family": "Tirole",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Review of Economic Studies",
+    "volume": "70",
+    "issue": "3",
+    "page": "489-520"
+  },
+  {
+    "id": "corts2007",
+    "type": "article-journal",
+    "title": "Teams versus individual accountability: Solving multitask problems through job design",
+    "author": [
+      {
+        "family": "Corts",
+        "given": "K.S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "RAND Journal of Economics",
+    "volume": "38",
+    "issue": "2",
+    "page": "467-479"
+  },
+  {
+    "id": "alonso2008",
+    "type": "article-journal",
+    "title": "When does coordination require centralization?",
+    "author": [
+      {
+        "family": "Alonso",
+        "given": "R."
+      },
+      {
+        "family": "Dessein",
+        "given": "W."
+      },
+      {
+        "family": "Matouschek",
+        "given": "N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "98",
+    "issue": "1",
+    "page": "145-179"
+  },
+  {
+    "id": "becker1992",
+    "type": "article-journal",
+    "title": "The division of labor, coordination costs, and knowledge",
+    "author": [
+      {
+        "family": "Becker",
+        "given": "G.S."
+      },
+      {
+        "family": "Murphy",
+        "given": "K.M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "107",
+    "issue": "4",
+    "page": "1137-1160"
+  },
+  {
+    "id": "pan2007",
+    "type": "article-journal",
+    "title": "Perspective of UK housebuilders on the use of offsite modern methods of construction",
+    "author": [
+      {
+        "family": "Pan",
+        "given": "W."
+      },
+      {
+        "family": "Gibb",
+        "given": "A.G.F."
+      },
+      {
+        "family": "Dainty",
+        "given": "A.R.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Construction Management and Economics",
+    "volume": "25",
+    "issue": "2",
+    "page": "183-194"
+  },
+  {
+    "id": "holmstrom1979",
+    "type": "article-journal",
+    "title": "Moral hazard and observability",
+    "author": [
+      {
+        "family": "Holmström",
+        "given": "B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "container-title": "Bell Journal of Economics",
+    "volume": "10",
+    "issue": "1",
+    "page": "74-91"
+  },
+  {
+    "id": "alchian1972",
+    "type": "article-journal",
+    "title": "Production, information costs, and economic organization",
+    "author": [
+      {
+        "family": "Alchian",
+        "given": "A.A."
+      },
+      {
+        "family": "Demsetz",
+        "given": "H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "62",
+    "issue": "5",
+    "page": "777-795"
+  },
+  {
+    "id": "coase1937",
+    "type": "article-journal",
+    "title": "The nature of the firm",
+    "author": [
+      {
+        "family": "Coase",
+        "given": "R.H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1937
+        ]
+      ]
+    },
+    "container-title": "Economica",
+    "volume": "4",
+    "issue": "16",
+    "page": "386-405"
+  },
+  {
+    "id": "holmstrom1982",
+    "type": "article-journal",
+    "title": "Moral hazard in teams",
+    "author": [
+      {
+        "family": "Holmström",
+        "given": "B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "container-title": "Bell Journal of Economics",
+    "volume": "13",
+    "issue": "2",
+    "page": "324-340"
+  },
+  {
+    "id": "ouchi1980",
+    "type": "article-journal",
+    "title": "Markets, bureaucracies, and clans",
+    "author": [
+      {
+        "family": "Ouchi",
+        "given": "W.G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1980
+        ]
+      ]
+    },
+    "container-title": "Administrative Science Quarterly",
+    "volume": "25",
+    "issue": "1",
+    "page": "129-141"
+  },
+  {
+    "id": "dow2003",
+    "type": "book",
+    "title": "Governing the firm: Workers' control in theory and practice",
+    "author": [
+      {
+        "family": "Dow",
+        "given": "G.K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press"
+  },
+  {
+    "id": "benner1984",
+    "type": "article-journal",
+    "title": "On the stability of the cooperative type of organization",
+    "author": [
+      {
+        "family": "Ben-Ner",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1984
+        ]
+      ]
+    },
+    "container-title": "Journal of Comparative Economics",
+    "volume": "8",
+    "issue": "3",
+    "page": "247-260"
+  },
+  {
+    "id": "taylor1911",
+    "type": "book",
+    "title": "The principles of scientific management",
+    "author": [
+      {
+        "family": "Taylor",
+        "given": "F.W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1911
+        ]
+      ]
+    },
+    "publisher": "Harper & Brothers"
+  },
+  {
+    "id": "braverman1974",
+    "type": "book",
+    "title": "Labor and monopoly capital: The degradation of work in the twentieth century",
+    "author": [
+      {
+        "family": "Braverman",
+        "given": "H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1974
+        ]
+      ]
+    },
+    "publisher": "Monthly Review Press"
+  },
+  {
+    "id": "edwards1979",
+    "type": "book",
+    "title": "Contested terrain: The transformation of the workplace in the twentieth century",
+    "author": [
+      {
+        "family": "Edwards",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "publisher": "Basic Books"
+  },
+  {
+    "id": "adler1993",
+    "type": "article-journal",
+    "title": "Time-and-motion regained",
+    "author": [
+      {
+        "family": "Adler",
+        "given": "P.S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "container-title": "Harvard Business Review",
+    "volume": "71",
+    "issue": "1",
+    "page": "97-108"
+  },
+  {
+    "id": "adler1996",
+    "type": "article-journal",
+    "title": "Two types of bureaucracy: Enabling and coercive",
+    "author": [
+      {
+        "family": "Adler",
+        "given": "P.S."
+      },
+      {
+        "family": "Borys",
+        "given": "B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "container-title": "Administrative Science Quarterly",
+    "volume": "41",
+    "issue": "1",
+    "page": "61-89"
+  },
+  {
+    "id": "milgrom1988",
+    "type": "article-journal",
+    "title": "An economic approach to influence activities in organizations",
+    "author": [
+      {
+        "family": "Milgrom",
+        "given": "P."
+      },
+      {
+        "family": "Roberts",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "94",
+    "issue": "Supplement",
+    "page": "S154-S179"
+  },
+  {
+    "id": "bakergibbons1994",
+    "type": "article-journal",
+    "title": "Subjective performance measures in optimal incentive contracts",
+    "author": [
+      {
+        "family": "Baker",
+        "given": "G."
+      },
+      {
+        "family": "Gibbons",
+        "given": "R."
+      },
+      {
+        "family": "Murphy",
+        "given": "K.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "109",
+    "issue": "4",
+    "page": "1125-1156"
+  },
+  {
+    "id": "kellogg2020",
+    "type": "article-journal",
+    "title": "Algorithms at work: The new contested terrain of control",
+    "author": [
+      {
+        "family": "Kellogg",
+        "given": "K.C."
+      },
+      {
+        "family": "Valentine",
+        "given": "M.A."
+      },
+      {
+        "family": "Christin",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Academy of Management Annals",
+    "volume": "14",
+    "issue": "1",
+    "page": "366-410"
+  },
+  {
+    "id": "rosenblat2016",
+    "type": "article-journal",
+    "title": "Algorithmic labor and information asymmetries: A case study of Uber's drivers",
+    "author": [
+      {
+        "family": "Rosenblat",
+        "given": "A."
+      },
+      {
+        "family": "Stark",
+        "given": "L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "International Journal of Communication",
+    "volume": "10",
+    "page": "3758-3784"
+  },
+  {
+    "id": "kanawaty1992",
+    "type": "book",
+    "title": "Introduction to work study",
+    "author": [
+      {
+        "family": "Kanawaty",
+        "given": "G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "edition": "4th",
+    "publisher": "International Labour Office"
+  },
+  {
+    "id": "kahneman1993",
+    "type": "article-journal",
+    "title": "Timid choices and bold forecasts: A cognitive perspective on risk taking",
+    "author": [
+      {
+        "family": "Kahneman",
+        "given": "D."
+      },
+      {
+        "family": "Lovallo",
+        "given": "D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "container-title": "Management Science",
+    "volume": "39",
+    "issue": "1",
+    "page": "17-31"
+  },
+  {
+    "id": "flyvbjerg2006",
+    "type": "article-journal",
+    "title": "From Nobel Prize to project management: Getting risks right",
+    "author": [
+      {
+        "family": "Flyvbjerg",
+        "given": "B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Project Management Journal",
+    "volume": "37",
+    "issue": "3",
+    "page": "5-15"
+  },
+  {
+    "id": "mccarthy1982",
+    "type": "article-journal",
+    "title": "The REA accounting model: A generalized framework for accounting systems in a shared data environment",
+    "author": [
+      {
+        "family": "McCarthy",
+        "given": "W.E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "container-title": "The Accounting Review",
+    "volume": "57",
+    "issue": "3",
+    "page": "554-578"
+  },
+  {
+    "id": "valueflows",
+    "type": "webpage",
+    "title": "Valueflows: A vocabulary for the distributed economic networks of the next economy",
+    "author": [
+      {
+        "literal": "Valueflows"
+      }
+    ],
+    "URL": "https://www.valueflo.ws/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vanderaalst2016",
+    "type": "book",
+    "title": "Process mining: Data science in action",
+    "author": [
+      {
+        "family": "van der Aalst",
+        "given": "W.M.P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "edition": "2nd",
+    "publisher": "Springer"
+  },
+  {
+    "id": "marquez2018",
+    "type": "article-journal",
+    "title": "Predictive monitoring of business processes: A survey",
+    "author": [
+      {
+        "family": "Márquez-Chamorro",
+        "given": "A.E."
+      },
+      {
+        "family": "Resinas",
+        "given": "M."
+      },
+      {
+        "family": "Ruiz-Cortés",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "IEEE Transactions on Services Computing",
+    "volume": "11",
+    "issue": "6",
+    "page": "962-977",
+    "DOI": "10.1109/TSC.2017.2772256"
+  },
+  {
+    "id": "abowd1999",
+    "type": "article-journal",
+    "title": "High wage workers and high wage firms",
+    "author": [
+      {
+        "family": "Abowd",
+        "given": "J.M."
+      },
+      {
+        "family": "Kramarz",
+        "given": "F."
+      },
+      {
+        "family": "Margolis",
+        "given": "D.N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Econometrica",
+    "volume": "67",
+    "issue": "2",
+    "page": "251-333"
+  },
+  {
+    "id": "andrews2008",
+    "type": "article-journal",
+    "title": "High wage workers and low wage firms: Negative assortative matching or limited mobility bias?",
+    "author": [
+      {
+        "family": "Andrews",
+        "given": "M.J."
+      },
+      {
+        "family": "Gill",
+        "given": "L."
+      },
+      {
+        "family": "Schank",
+        "given": "T."
+      },
+      {
+        "family": "Upward",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "container-title": "Journal of the Royal Statistical Society: Series A",
+    "volume": "171",
+    "issue": "3",
+    "page": "673-697"
+  },
+  {
+    "id": "kline2020",
+    "type": "article-journal",
+    "title": "Leave-out estimation of variance components",
+    "author": [
+      {
+        "family": "Kline",
+        "given": "P."
+      },
+      {
+        "family": "Saggio",
+        "given": "R."
+      },
+      {
+        "family": "Sølvsten",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Econometrica",
+    "volume": "88",
+    "issue": "5",
+    "page": "1859-1898"
+  },
+  {
+    "id": "malone1994",
+    "type": "article-journal",
+    "title": "The interdisciplinary study of coordination",
+    "author": [
+      {
+        "family": "Malone",
+        "given": "T. W."
+      },
+      {
+        "family": "Crowston",
+        "given": "K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "container-title": "ACM Computing Surveys",
+    "volume": "26",
+    "issue": "1",
+    "page": "87-119"
+  },
+  {
+    "id": "thompson1967",
+    "type": "book",
+    "title": "Organizations in Action: Social Science Bases of Administrative Theory",
+    "author": [
+      {
+        "family": "Thompson",
+        "given": "J. D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "publisher": "McGraw-Hill",
+    "publisher-place": "New York"
+  },
+  {
+    "id": "okhuysen2009",
+    "type": "article-journal",
+    "title": "Coordination in organizations: An integrative perspective",
+    "author": [
+      {
+        "family": "Okhuysen",
+        "given": "G. A."
+      },
+      {
+        "family": "Bechky",
+        "given": "B. A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Academy of Management Annals",
+    "volume": "3",
+    "issue": "1",
+    "page": "463-502"
+  },
+  {
+    "id": "malone1999",
+    "type": "article-journal",
+    "title": "Tools for inventing organizations: Toward a handbook of organizational processes",
+    "author": [
+      {
+        "family": "Malone",
+        "given": "T. W."
+      },
+      {
+        "family": "Crowston",
+        "given": "K."
+      },
+      {
+        "family": "Lee",
+        "given": "J."
+      },
+      {
+        "family": "Pentland",
+        "given": "B."
+      },
+      {
+        "family": "Dellarocas",
+        "given": "C."
+      },
+      {
+        "family": "Wyner",
+        "given": "G."
+      },
+      {
+        "family": "Quimby",
+        "given": "J."
+      },
+      {
+        "family": "Osborn",
+        "given": "C. S."
+      },
+      {
+        "family": "Bernstein",
+        "given": "A."
+      },
+      {
+        "family": "Herman",
+        "given": "G."
+      },
+      {
+        "family": "Klein",
+        "given": "M."
+      },
+      {
+        "family": "O'Donnell",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Management Science",
+    "volume": "45",
+    "issue": "3",
+    "page": "425-443"
+  },
+  {
+    "id": "ostrom1990",
+    "type": "book",
+    "title": "Governing the commons: The evolution of institutions for collective action",
+    "author": [
+      {
+        "family": "Ostrom",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press"
+  },
+  {
+    "id": "hess2007",
+    "type": "book",
+    "title": "Understanding knowledge as a commons: From theory to practice",
+    "author": [
+      {
+        "family": "Hess",
+        "given": "C."
+      },
+      {
+        "family": "Ostrom",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "publisher": "MIT Press"
+  },
+  {
+    "id": "benkler2002",
+    "type": "article-journal",
+    "title": "Coase's penguin, or, Linux and The Nature of the Firm",
+    "author": [
+      {
+        "family": "Benkler",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Yale Law Journal",
+    "volume": "112",
+    "issue": "3",
+    "page": "369-446"
+  },
+  {
+    "id": "hardjono2019",
+    "type": "report",
+    "title": "Data cooperatives: Towards a foundation for decentralized personal data management",
+    "author": [
+      {
+        "family": "Hardjono",
+        "given": "T."
+      },
+      {
+        "family": "Pentland",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "genre": "arXiv preprint",
+    "number": "1905.08819",
+    "publisher": "arXiv"
+  },
+  {
+    "id": "delacroix2019",
+    "type": "article-journal",
+    "title": "Bottom-up data trusts: Disturbing the 'one size fits all' approach to data governance",
+    "author": [
+      {
+        "family": "Delacroix",
+        "given": "S."
+      },
+      {
+        "family": "Lawrence",
+        "given": "N.D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "International Data Privacy Law",
+    "volume": "9",
+    "issue": "4",
+    "page": "236-252"
+  },
+  {
+    "id": "katz1985",
+    "type": "article-journal",
+    "title": "Network externalities, competition, and compatibility",
+    "author": [
+      {
+        "family": "Katz",
+        "given": "M.L."
+      },
+      {
+        "family": "Shapiro",
+        "given": "C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "75",
+    "issue": "3",
+    "page": "424-440"
+  },
+  {
+    "id": "gregory2021",
+    "type": "article-journal",
+    "title": "The role of artificial intelligence and data network effects for creating user value",
+    "author": [
+      {
+        "family": "Gregory",
+        "given": "R.W."
+      },
+      {
+        "family": "Henfridsson",
+        "given": "O."
+      },
+      {
+        "family": "Kaganer",
+        "given": "E."
+      },
+      {
+        "family": "Kyriakou",
+        "given": "H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Academy of Management Review",
+    "volume": "46",
+    "issue": "3",
+    "page": "534-551"
+  },
+  {
+    "id": "iso12006",
+    "type": "report",
+    "title": "Building construction: Organization of information about construction works. Part 2: Framework for classification",
+    "author": [
+      {
+        "literal": "ISO"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "number": "ISO 12006-2:2015",
+    "publisher": "International Organization for Standardization"
+  },
+  {
+    "id": "nrm2021",
+    "type": "book",
+    "title": "RICS new rules of measurement: Detailed measurement for building works (NRM 2)",
+    "author": [
+      {
+        "literal": "Royal Institution of Chartered Surveyors"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "edition": "2nd",
+    "publisher": "RICS"
+  },
+  {
+    "id": "bajari2019",
+    "type": "article-journal",
+    "title": "The impact of big data on firm performance: An empirical investigation",
+    "author": [
+      {
+        "family": "Bajari",
+        "given": "P."
+      },
+      {
+        "family": "Chernozhukov",
+        "given": "V."
+      },
+      {
+        "family": "Hortaçsu",
+        "given": "A."
+      },
+      {
+        "family": "Suzuki",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "AEA Papers and Proceedings",
+    "volume": "109",
+    "page": "33-37"
+  },
+  {
+    "id": "rochet2003",
+    "type": "article-journal",
+    "title": "Platform competition in two-sided markets",
+    "author": [
+      {
+        "family": "Rochet",
+        "given": "J.-C."
+      },
+      {
+        "family": "Tirole",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Journal of the European Economic Association",
+    "volume": "1",
+    "issue": "4",
+    "page": "990-1029"
+  },
+  {
+    "id": "grossman1981",
+    "type": "article-journal",
+    "title": "The informational role of warranties and private disclosure about product quality",
+    "author": [
+      {
+        "family": "Grossman",
+        "given": "S. J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1981
+        ]
+      ]
+    },
+    "container-title": "Journal of Law and Economics",
+    "volume": "24",
+    "issue": "3",
+    "page": "461-483"
+  },
+  {
+    "id": "milgrom1981",
+    "type": "article-journal",
+    "title": "Good news and bad news: Representation theorems and applications",
+    "author": [
+      {
+        "family": "Milgrom",
+        "given": "P. R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1981
+        ]
+      ]
+    },
+    "container-title": "Bell Journal of Economics",
+    "volume": "12",
+    "issue": "2",
+    "page": "380-391"
+  },
+  {
+    "id": "greenwald1986",
+    "type": "article-journal",
+    "title": "Adverse selection in the labour market",
+    "author": [
+      {
+        "family": "Greenwald",
+        "given": "B.C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "container-title": "Review of Economic Studies",
+    "volume": "53",
+    "issue": "3",
+    "page": "325-347"
+  },
+  {
+    "id": "acemoglu1998",
+    "type": "article-journal",
+    "title": "Why do firms train? Theory and evidence",
+    "author": [
+      {
+        "family": "Acemoglu",
+        "given": "D."
+      },
+      {
+        "family": "Pischke",
+        "given": "J.-S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "113",
+    "issue": "1",
+    "page": "79-119"
+  },
+  {
+    "id": "pagano1993",
+    "type": "article-journal",
+    "title": "Information sharing in credit markets",
+    "author": [
+      {
+        "family": "Pagano",
+        "given": "M."
+      },
+      {
+        "family": "Jappelli",
+        "given": "T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "container-title": "Journal of Finance",
+    "volume": "48",
+    "issue": "5",
+    "page": "1693-1718"
+  },
+  {
+    "id": "jappelli2002",
+    "type": "article-journal",
+    "title": "Information sharing, lending and defaults: Cross-country evidence",
+    "author": [
+      {
+        "family": "Jappelli",
+        "given": "T."
+      },
+      {
+        "family": "Pagano",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Journal of Banking & Finance",
+    "volume": "26",
+    "issue": "10",
+    "page": "2017-2045"
+  },
+  {
+    "id": "padilla2000",
+    "type": "article-journal",
+    "title": "Sharing default information as a borrower discipline device",
+    "author": [
+      {
+        "family": "Padilla",
+        "given": "A. J."
+      },
+      {
+        "family": "Pagano",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "European Economic Review",
+    "volume": "44",
+    "issue": "10",
+    "page": "1951-1980"
+  },
+  {
+    "id": "gdpr2016",
+    "type": "legislation",
+    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation)",
+    "author": [
+      {
+        "literal": "European Parliament and Council of the European Union"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Official Journal of the European Union, L 119, 1-88"
+  },
+  {
+    "id": "wp29portability2017",
+    "type": "report",
+    "title": "Guidelines on the right to data portability",
+    "author": [
+      {
+        "literal": "Article 29 Data Protection Working Party"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "number": "WP242 rev.01",
+    "publisher": "European Commission"
+  },
+  {
+    "id": "grasse1959",
+    "type": "article-journal",
+    "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
+    "author": [
+      {
+        "family": "Grassé",
+        "given": "P.-P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1959
+        ]
+      ]
+    },
+    "container-title": "Insectes Sociaux",
+    "volume": "6",
+    "issue": "1",
+    "page": "41-80"
+  },
+  {
+    "id": "heylighen2016a",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism I: Definition and components",
+    "author": [
+      {
+        "family": "Heylighen",
+        "given": "F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "4-13"
+  },
+  {
+    "id": "heylighen2016b",
+    "type": "article-journal",
+    "title": "Stigmergy as a universal coordination mechanism II: Varieties and evolution",
+    "author": [
+      {
+        "family": "Heylighen",
+        "given": "F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "50-59"
+  },
+  {
+    "id": "hayek1945",
+    "type": "article-journal",
+    "title": "The use of knowledge in society",
+    "author": [
+      {
+        "family": "Hayek",
+        "given": "F.A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1945
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "35",
+    "issue": "4",
+    "page": "519-530"
+  },
+  {
+    "id": "jaravel2018",
+    "type": "article-journal",
+    "title": "Team-specific capital and innovation",
+    "author": [
+      {
+        "family": "Jaravel",
+        "given": "X."
+      },
+      {
+        "family": "Petkova",
+        "given": "N."
+      },
+      {
+        "family": "Bell",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "108",
+    "issue": "4-5",
+    "page": "1034-1073"
+  },
+  {
+    "id": "zellner1962",
+    "type": "article-journal",
+    "title": "An efficient method of estimating seemingly unrelated regressions and tests for aggregation bias",
+    "author": [
+      {
+        "family": "Zellner",
+        "given": "A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1962
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Statistical Association",
+    "volume": "57",
+    "issue": "298",
+    "page": "348-368"
+  },
+  {
+    "id": "carrell2010",
+    "type": "article-journal",
+    "title": "Does professor quality matter? Evidence from random assignment of students to professors",
+    "author": [
+      {
+        "family": "Carrell",
+        "given": "S. E."
+      },
+      {
+        "family": "West",
+        "given": "J. E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "volume": "118",
+    "issue": "3",
+    "page": "409-432"
+  },
+  {
+    "id": "chen2026",
+    "type": "report",
+    "title": "Artificial intelligence in the firm: Bottlenecks in software production",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "F."
+      },
+      {
+        "family": "Stratton",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "genre": "Job market paper",
+    "publisher": "Harvard University",
+    "URL": "https://fion.ac/jellyfish.pdf"
+  },
+  {
+    "id": "perdomo2020",
+    "type": "paper-conference",
+    "title": "Performative prediction",
+    "author": [
+      {
+        "family": "Perdomo",
+        "given": "J."
+      },
+      {
+        "family": "Zrnic",
+        "given": "T."
+      },
+      {
+        "family": "Mendler-Dünner",
+        "given": "C."
+      },
+      {
+        "family": "Hardt",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the 37th International Conference on Machine Learning",
+    "collection-title": "Proceedings of Machine Learning Research",
+    "volume": "119",
+    "page": "7599-7609"
+  },
+  {
+    "id": "gibbons1987",
+    "type": "article-journal",
+    "title": "Piece-rate incentive schemes",
+    "author": [
+      {
+        "family": "Gibbons",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    },
+    "container-title": "Journal of Labor Economics",
+    "volume": "5",
+    "issue": "4",
+    "page": "413-429"
+  },
+  {
+    "id": "roy1952",
+    "type": "article-journal",
+    "title": "Quota restriction and goldbricking in a machine shop",
+    "author": [
+      {
+        "family": "Roy",
+        "given": "D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1952
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "57",
+    "issue": "5",
+    "page": "427-442"
+  },
+  {
+    "id": "bouwens2011",
+    "type": "article-journal",
+    "title": "Target ratcheting and effort reduction",
+    "author": [
+      {
+        "family": "Bouwens",
+        "given": "J."
+      },
+      {
+        "family": "Kroos",
+        "given": "P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Journal of Accounting and Economics",
+    "volume": "51",
+    "issue": "1-2",
+    "page": "171-185"
+  },
+  {
+    "id": "doj2023",
+    "type": "report",
+    "title": "Justice Department withdraws outdated enforcement policy statements",
+    "author": [
+      {
+        "literal": "U.S. Department of Justice"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          3
+        ]
+      ]
+    },
+    "genre": "Press release",
+    "publisher": "Office of Public Affairs",
+    "publisher-place": "Washington, DC"
+  },
+  {
+    "id": "ec2023horizontal",
+    "type": "legislation",
+    "title": "Guidelines on the applicability of Article 101 of the Treaty on the Functioning of the European Union to horizontal co-operation agreements",
+    "author": [
+      {
+        "literal": "European Commission"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Official Journal of the European Union, C 259, 1-125"
+  },
+  {
+    "id": "anderson2017",
+    "type": "book",
+    "title": "Private government: How employers rule our lives (and why we don't talk about it)",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press"
+  },
+  {
+    "id": "lazear2000",
+    "type": "article-journal",
+    "title": "Performance pay and productivity",
+    "author": [
+      {
+        "family": "Lazear",
+        "given": "E.P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "American Economic Review",
+    "volume": "90",
+    "issue": "5",
+    "page": "1346-1361"
+  },
+  {
+    "id": "shearer2004",
+    "type": "article-journal",
+    "title": "Piece rates, fixed wages and incentives: Evidence from a field experiment",
+    "author": [
+      {
+        "family": "Shearer",
+        "given": "B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Review of Economic Studies",
+    "volume": "71",
+    "issue": "2",
+    "page": "513-534"
+  },
+  {
     "id": "grossman1986",
     "type": "article-journal",
     "title": "The costs and benefits of ownership: A theory of vertical and lateral integration",
     "author": [
-      { "family": "Grossman", "given": "S.J." },
-      { "family": "Hart", "given": "O.D." }
+      {
+        "family": "Grossman",
+        "given": "S.J."
+      },
+      {
+        "family": "Hart",
+        "given": "O.D."
+      }
     ],
-    "issued": { "date-parts": [[1986]] },
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
     "container-title": "Journal of Political Economy",
     "volume": "94",
     "issue": "4",
@@ -308,137 +3300,25 @@
     "type": "article-journal",
     "title": "Property rights and the nature of the firm",
     "author": [
-      { "family": "Hart", "given": "O." },
-      { "family": "Moore", "given": "J." }
+      {
+        "family": "Hart",
+        "given": "O."
+      },
+      {
+        "family": "Moore",
+        "given": "J."
+      }
     ],
-    "issued": { "date-parts": [[1990]] },
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
     "container-title": "Journal of Political Economy",
     "volume": "98",
     "issue": "6",
     "page": "1119-1158"
-  },
-  {
-    "id": "williamson1985",
-    "type": "book",
-    "title": "The economic institutions of capitalism: Firms, markets, relational contracting",
-    "author": [{ "family": "Williamson", "given": "O.E." }],
-    "issued": { "date-parts": [[1985]] },
-    "publisher": "Free Press"
-  },
-  {
-    "id": "bushman1995",
-    "type": "article-journal",
-    "title": "Aggregate performance measures in business unit manager compensation: The role of intrafirm interdependencies",
-    "author": [
-      { "family": "Bushman", "given": "R.M." },
-      { "family": "Indjejikian", "given": "R.J." },
-      { "family": "Smith", "given": "A." }
-    ],
-    "issued": { "date-parts": [[1995]] },
-    "container-title": "Journal of Accounting Research",
-    "volume": "33",
-    "page": "101-128"
-  },
-  {
-    "id": "corts2007",
-    "type": "article-journal",
-    "title": "Teams versus individual accountability: Solving multitask problems through job design",
-    "author": [{ "family": "Corts", "given": "K.S." }],
-    "issued": { "date-parts": [[2007]] },
-    "container-title": "RAND Journal of Economics",
-    "volume": "38",
-    "issue": "2",
-    "page": "467-479"
-  },
-  {
-    "id": "baiman2002",
-    "type": "article-journal",
-    "title": "The role of information and opportunism in the choice of buyer-supplier relationships",
-    "author": [
-      { "family": "Baiman", "given": "S." },
-      { "family": "Rajan", "given": "M.V." }
-    ],
-    "issued": { "date-parts": [[2002]] },
-    "container-title": "Journal of Accounting Research",
-    "volume": "40",
-    "issue": "2",
-    "page": "247-278"
-  },
-  {
-    "id": "williamson1975",
-    "type": "book",
-    "title": "Markets and hierarchies: Analysis and antitrust implications",
-    "author": [{ "family": "Williamson", "given": "O.E." }],
-    "issued": { "date-parts": [[1975]] },
-    "publisher": "Free Press"
-  },
-  {
-    "id": "baldenius2004",
-    "type": "article-journal",
-    "title": "Integrating managerial and tax objectives in transfer pricing",
-    "author": [
-      { "family": "Baldenius", "given": "T." },
-      { "family": "Melumad", "given": "N.D." },
-      { "family": "Reichelstein", "given": "S." }
-    ],
-    "issued": { "date-parts": [[2004]] },
-    "container-title": "The Accounting Review",
-    "volume": "79",
-    "issue": "3",
-    "page": "591-615"
-  },
-  {
-    "id": "cools2009",
-    "type": "article-journal",
-    "title": "Tax-compliant transfer pricing and responsibility accounting",
-    "author": [
-      { "family": "Cools", "given": "M." },
-      { "family": "Slagmulder", "given": "R." }
-    ],
-    "issued": { "date-parts": [[2009]] },
-    "container-title": "Journal of Management Accounting Research",
-    "volume": "21",
-    "issue": "1",
-    "page": "151-178"
-  },
-  {
-    "id": "alonso2008",
-    "type": "article-journal",
-    "title": "When does coordination require centralization?",
-    "author": [
-      { "family": "Alonso", "given": "R." },
-      { "family": "Dessein", "given": "W." },
-      { "family": "Matouschek", "given": "N." }
-    ],
-    "issued": { "date-parts": [[2008]] },
-    "container-title": "American Economic Review",
-    "volume": "98",
-    "issue": "1",
-    "page": "145-179"
-  },
-  {
-    "id": "baiman2000",
-    "type": "article-journal",
-    "title": "Information, contracting, and quality costs",
-    "author": [
-      { "family": "Baiman", "given": "S." },
-      { "family": "Fischer", "given": "P.E." },
-      { "family": "Rajan", "given": "M.V." }
-    ],
-    "issued": { "date-parts": [[2000]] },
-    "container-title": "Management Science",
-    "volume": "46",
-    "issue": "6",
-    "page": "776-789"
-  },
-  {
-    "id": "schnedler2006",
-    "type": "report",
-    "title": "Task difficulty, performance measure characteristics, and the trade-off between insurance and well-allocated effort",
-    "author": [{ "family": "Schnedler", "given": "W." }],
-    "issued": { "date-parts": [[2006]] },
-    "genre": "IZA Discussion Paper",
-    "number": "2124",
-    "publisher": "Institute for the Study of Labor (IZA)"
   }
 ]

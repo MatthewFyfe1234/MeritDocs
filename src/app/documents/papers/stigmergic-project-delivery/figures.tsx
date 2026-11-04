@@ -25,85 +25,116 @@ function IsoBox({
   );
 }
 
-/** Shared canvas for all three figures, so the same box read as a flat footprint in Figure 1 is
- *  recognisably the same box carrying a height in Figures 2 and 3. */
+/** Figure labels changed since submission, shown with the revision mark (paper-rev-svg) while revisions are on.
+ *  Steps are named as verbs and specification nodes as nouns. */
+const REVISED_LABELS = new Set([
+  'Mark Out', 'Lay Out', 'Nail Frame', 'Fix Sheathing',
+  'Scan', 'Resect', 'Prepare', 'Induce', 'Recover', 'Biliary Tract',
+]);
+const revClass = (label: string) => (REVISED_LABELS.has(label) ? 'paper-rev-svg' : undefined);
+
+/** Canvas for the forecast plots. */
 const FIG_VIEWBOX = '0 0 480 215';
 const FIG_WIDTH_PCT = '65%';
-const FIG_BASELINE = 175;
 
-/** Component A's steps (p1, q2 from Figure 1): component on the left, steps on the right. The two
- *  letters differ because A's steps fall in different skillset lanes; the mapping, not the lettering,
- *  ties them to A. */
-const LEFT_COMPONENT_STEPS = [
-  { x: 270, label: 'p1' },
-  { x: 350, label: 'q2' },
-];
-
-/** Mapping figure: component A maps deterministically to the steps it necessitates. Nothing carries a height
- *  here, component and steps are flat footprints, because no descriptor or metric value exists yet; height
- *  enters only in the scaling figure. Same footprint, position and baseline as the other figures. */
+/** Figure 2 (mapping): a stripped subset of MasterInstanceFigure, showing only component A and the two steps it
+ *  necessitates, p1 and q2, in the same coordinates, palette and lane bands as Figure 1, so the equivalence is
+ *  seen rather than asserted. Nothing carries a height yet; height enters in the scaling figure. The two steps
+ *  fall in different skillset lanes, which the mapping, not the lettering, ties to A. */
 export function MappingFigure() {
-  const top = FIG_BASELINE - 40;
-  const h = 40;
-  const busY = 118;
-  const lastX = LEFT_COMPONENT_STEPS[LEFT_COMPONENT_STEPS.length - 1].x + 22;
   return (
-    <svg viewBox={FIG_VIEWBOX} style={{ width: FIG_WIDTH_PCT, height: 'auto', display: 'block', margin: '0 auto' }}>
-      <defs>
-        <marker id="arrow-map" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-          <path d="M0,0 L10,5 L0,10 z" fill="#8a6d4a" />
-        </marker>
-      </defs>
-      <rect x={50} y={top} width={65} height={h} rx={3} fill="#8a6d4a" stroke="#5a4630" strokeWidth={1} />
-      <text x={82} y={FIG_BASELINE + 20} textAnchor="middle" fontSize={12} fontWeight={600} fill="#8a6d4a">Component A</text>
-      <path d={`M82,${top} V${busY} H${lastX}`} fill="none" stroke="#8a6d4a" strokeWidth={1.3} />
-      {LEFT_COMPONENT_STEPS.map(s => (
-        <g key={s.label}>
-          <rect x={s.x} y={top} width={45} height={h} rx={3} fill="#666" stroke="#444" strokeWidth={1} />
-          <text x={s.x + 22} y={FIG_BASELINE + 20} textAnchor="middle" fontSize={11} fill="#4a3c28">{s.label}</text>
-          <path d={`M${s.x + 22},${busY} V${top - 2}`} fill="none" stroke="#8a6d4a" strokeWidth={1.3} markerEnd="url(#arrow-map)" />
-        </g>
-      ))}
-      <text x={240} y={211} textAnchor="middle" fontSize={10.5} fontStyle="italic" fill="#666">
-        deterministic: fixed by the mapping, the same on every instance
-      </text>
+    <svg viewBox="16 4 480 148" style={{ width: '73%', height: 'auto', display: 'block', margin: '0 auto' }}>
+      <rect x={180} y={30} width={300} height={56} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
+      <rect x={180} y={86} width={300} height={56} fill="#f3f1ec" stroke="#e6e4e0" strokeWidth={1} />
+      <text x={186} y={61} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 1</text>
+      <text x={186} y={117} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 2</text>
+
+      <text x={67} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master specification</text>
+      <text x={330} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master process, by skillset</text>
+
+      <path d="M104,78 H300 V69" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d="M130,78 V90 H385 V107 H399" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+
+      <rect x={58} y={66} width={46} height={24} rx={3} fill="#efe9e0" stroke="#8a6d4a" strokeWidth={1} />
+      <text x={81} y={81} fontSize={9} fill="#4a3c28" textAnchor="middle">A</text>
+
+      <rect x={285} y={47} width={62} height={22} rx={3} fill="#efe9e0" stroke="#8a6d4a" strokeWidth={1} />
+      <text x={316} y={61} fontSize={9} fill="#4a3c28" textAnchor="middle">p1</text>
+
+      <rect x={399} y={103} width={62} height={22} rx={3} fill="#efe9e0" stroke="#8a6d4a" strokeWidth={1} />
+      <text x={430} y={117} fontSize={9} fill="#4a3c28" textAnchor="middle">q2</text>
     </svg>
   );
 }
 
-/** Figure 2: descriptor x scales metric y at each step, but the relation is stochastic, not fixed. Both
- *  descriptor x and metric y are read off the height of a box, not its colour or position. */
+/** Figure 3 (scaling): the same A, p1 and q2 as Figure 2, now carrying a height. The skillset lanes become a
+ *  floor receding in the boxes' own oblique projection, Skillset 2 in front and Skillset 1 behind, and each step
+ *  stands on its lane at its Figure 2 x position, shifted only by the projection of its depth. Descriptor x is
+ *  read off A's height and metric y off each step's; the relation is stochastic, x scaling the distribution y
+ *  is drawn from rather than fixing it. */
 export function ScalingFigure() {
-  const componentHeight = 100;
-  const heights = [58, 82]; // metric y recorded at steps p1, q2 on this instance
-  return (
-    <svg viewBox={FIG_VIEWBOX} style={{ width: FIG_WIDTH_PCT, height: 'auto', display: 'block', margin: '0 auto' }}>
-      <IsoBox x={50} baseline={FIG_BASELINE} width={65} height={componentHeight} fill="#8a6d4a" />
-      <path
-        d={`M40,${FIG_BASELINE} L36,${FIG_BASELINE} M40,${FIG_BASELINE} L40,${FIG_BASELINE - componentHeight} M36,${FIG_BASELINE - componentHeight} L40,${FIG_BASELINE - componentHeight}`}
-        stroke="#444" strokeWidth={1}
-      />
-      <text x={16} y={FIG_BASELINE - componentHeight / 2} fontSize={12} fontWeight={600} fill="#8a6d4a" textAnchor="middle" transform={`rotate(-90 16 ${FIG_BASELINE - componentHeight / 2})`}>
-        descriptor x
-      </text>
-      <text x={82} y={FIG_BASELINE + 20} textAnchor="middle" fontSize={12} fontWeight={600} fill="#8a6d4a">Component A</text>
+  // Figure 2 is the floor plan: its x stays x, and its y becomes depth, the front edge of the floor being Figure 2's
+  // y = 142 (the bottom of Skillset 2). Projection shared with IsoBox: a unit of depth moves 0.87 right and 0.5 up.
+  const k = 0.7; // depth per unit of Figure 2 y
+  const floorFront = 138;
+  const proj = (x: number, y: number): [number, number] => {
+    const d = k * (142 - y);
+    return [x + d * 0.87, floorFront - d * 0.5];
+  };
+  const rect = (x0: number, y0: number, x1: number, y1: number) =>
+    [proj(x0, y1), proj(x1, y1), proj(x1, y0), proj(x0, y0)].map(p => p.join(',')).join(' ');
+  const route = (points: [number, number][]) =>
+    points.map(([x, y], i) => `${i ? 'L' : 'M'}${proj(x, y).join(',')}`).join(' ');
 
-      <text x={222} y={FIG_BASELINE - 40} fontSize={12} fontWeight={600} fill="#444" textAnchor="middle" transform={`rotate(-90 222 ${FIG_BASELINE - 40})`}>
-        metric y
-      </text>
-      {LEFT_COMPONENT_STEPS.map((s, i) => (
-        <g key={s.label}>
-          <IsoBox x={s.x} baseline={FIG_BASELINE} width={45} height={heights[i]} fill="#666" />
-          <text x={s.x + 22} y={FIG_BASELINE + 20} textAnchor="middle" fontSize={11} fill="#4a3c28">{s.label}</text>
-          <path
-            d={`M118,${FIG_BASELINE - 55} C170,${FIG_BASELINE - 60} ${s.x - 40},${FIG_BASELINE - heights[i]} ${s.x},${FIG_BASELINE - heights[i] / 2}`}
-            fill="none" stroke="#999" strokeWidth={1} strokeDasharray="3 3"
-          />
-        </g>
-      ))}
-      <text x={240} y={211} textAnchor="middle" fontSize={10.5} fontStyle="italic" fill="#666">
-        stochastic: descriptor x scales the distribution of metric y, not a fixed value
-      </text>
+  // Figure 2 footprints [x0, y0, x1, y1], extruded by height, with the side the dimension bracket sits on (q2's
+  // left is crowded by p1, so its bracket measures the back-right edge instead); drawn back to front.
+  const boxes: { fp: [number, number, number, number]; h: number; label: string; fill: string; dim: string; dimColor: string; side: 'left' | 'right' }[] = [
+    { fp: [58, 66, 104, 90], h: 56, label: 'A', fill: '#8a6d4a', dim: 'descriptor x', dimColor: '#8a6d4a', side: 'left' },
+    { fp: [285, 47, 347, 69], h: 36, label: 'p1', fill: '#666', dim: 'metric y', dimColor: '#444', side: 'left' },
+    { fp: [399, 103, 461, 125], h: 52, label: 'q2', fill: '#666', dim: 'metric y', dimColor: '#444', side: 'right' },
+  ];
+  // A height bracket at x from yBottom up h, ticks pointing back at the box, label set outside it.
+  const bracket = (x: number, yBottom: number, h: number, side: 'left' | 'right', text: string, color: string) => {
+    const s = side === 'left' ? -1 : 1;
+    const lx = x + s * 9;
+    const ly = yBottom - h / 2;
+    return (
+      <>
+        <path d={`M${x},${yBottom} H${x - s * 4} M${x},${yBottom} V${yBottom - h} M${x},${yBottom - h} H${x - s * 4}`} stroke="#444" strokeWidth={1} fill="none" />
+        <text x={lx} y={ly} fontSize={8.5} fontWeight={600} fill={color} textAnchor="middle" dominantBaseline="central" transform={`rotate(-90 ${lx} ${ly})`}>{text}</text>
+      </>
+    );
+  };
+
+  return (
+    <svg viewBox="16 36 540 112" style={{ width: '82%', height: 'auto', display: 'block', margin: '0 auto' }}>
+      <polygon points={rect(40, 30, 122, 142)} fill="#faf9f7" stroke="#d9d5ce" strokeWidth={1} />
+      <polygon points={rect(180, 30, 480, 86)} fill="#faf9f7" stroke="#d9d5ce" strokeWidth={1} />
+      <polygon points={rect(180, 86, 480, 142)} fill="#f3f1ec" stroke="#d9d5ce" strokeWidth={1} />
+      <text x={proj(186, 47)[0]} y={proj(186, 47)[1]} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 1</text>
+      <text x={proj(186, 136)[0]} y={proj(186, 136)[1]} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 2</text>
+
+      <text x={105} y={48} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master specification</text>
+      <text x={360} y={48} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master process, by skillset</text>
+
+      {/* Figure 2's mapping connectors, laid on the floor */}
+      <path d={route([[104, 78], [300, 78], [300, 69]])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d={route([[130, 78], [130, 90], [385, 90], [385, 107], [399, 107]])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+
+      {boxes.map(({ fp: [x0, y0, x1, y1], h, label, fill, dim, dimColor, side }) => {
+        const [sx, base] = proj(x0, y1);
+        const w = x1 - x0;
+        const depth = k * (y1 - y0);
+        return (
+          <g key={label}>
+            <IsoBox x={sx} baseline={base} width={w} height={h} depth={depth} fill={fill} />
+            <text x={sx + w / 2} y={base - 5} fontSize={9} fill="#fff" textAnchor="middle">{label}</text>
+            {side === 'left'
+              ? bracket(sx - 6, base, h, 'left', dim, dimColor)
+              : bracket(sx + w + depth * 0.87 + 6, base - depth * 0.5, h, 'right', dim, dimColor)}
+          </g>
+        );
+      })}
     </svg>
   );
 }
@@ -162,7 +193,7 @@ export function AnaesthesiaForecastFigure() {
   ];
   const intercept = 0.4, slope = 0.7;
   const trend = (d: number) => intercept + slope * d;
-  const proposed = 8.0;
+  const proposed = 7.4; // keeps the top of the spread (≈6.9) under the safe limit (7.0)
   const fY = trend(proposed);
   const spread = 1.3;
   const safe = 7.0;
@@ -273,7 +304,7 @@ export function AssemblyTimeline({ T, endLabel, nails, steps }: {
   T: number;
   endLabel: string;
   nails: number[];
-  steps: { label: string; end: number; measured?: boolean }[];
+  steps: { label: string; end: number; measured?: boolean; rev?: boolean }[];
 }) {
   const x0 = 24, x1 = 340;
   const px = (t: number) => x0 + (t / T) * (x1 - x0);
@@ -281,7 +312,7 @@ export function AssemblyTimeline({ T, endLabel, nails, steps }: {
   const nailStart = nails[0], nailEnd = nails[nails.length - 1];
   let cursor = 0;
   const segs = steps.map(s => {
-    const seg = { label: s.label, start: cursor, end: s.end, measured: !!s.measured };
+    const seg = { label: s.label, start: cursor, end: s.end, measured: !!s.measured, rev: !!s.rev };
     cursor = s.end;
     return seg;
   });
@@ -305,7 +336,7 @@ export function AssemblyTimeline({ T, endLabel, nails, steps }: {
           stroke={s.measured ? '#8a6d4a' : '#aaa'} strokeWidth={1} strokeDasharray={s.measured ? undefined : '3 2'} />
       ))}
       {segs.map((s, i) => (
-        <text key={i} x={(px(s.start) + px(s.end)) / 2} y={rowY + 14} fontSize={8.5} fill={s.measured ? '#5a4630' : '#555'} textAnchor="middle">{s.label}</text>
+        <text key={i} x={(px(s.start) + px(s.end)) / 2} y={rowY + 14} fontSize={8.5} fill={s.measured ? '#5a4630' : '#555'} textAnchor="middle" className={s.rev ? 'paper-rev-svg' : undefined}>{s.label}</text>
       ))}
       <text x={(px(0) + px(assumedEnd)) / 2} y={rowY + rowH + 12} fontSize={7.5} fill="#999" textAnchor="middle">assumed, 50% each</text>
       <text x={(px(assumedEnd) + px(T)) / 2} y={rowY + rowH + 12} fontSize={7.5} fill="#8a6d4a" textAnchor="middle">measured from telemetry</text>
@@ -322,10 +353,10 @@ export function MasterMapFigure() {
     [300, 58, 'Design Panel', false],
     [300, 114, 'Cut Framing', false],
     [402, 114, 'Cut Sheathing', true],
-    [300, 170, 'Marking', false],
-    [402, 170, 'Layout', false],
-    [504, 170, 'Nailing', false],
-    [606, 170, 'Sheathing', true],
+    [300, 170, 'Mark Out', false],
+    [402, 170, 'Lay Out', false],
+    [504, 170, 'Nail Frame', false],
+    [606, 170, 'Fix Sheathing', true],
   ];
   const specNodes: [number, number, string, boolean][] = [
     [24, 34, 'Panel Set', false],
@@ -380,7 +411,7 @@ export function MasterMapFigure() {
       {steps.map(([cx, cy, label, tint], i) => (
         <g key={`p${i}`}>
           <rect x={cx - W / 2} y={cy - H / 2} width={W} height={H} rx={3} fill={tint ? '#c9a876' : '#efe9e0'} fillOpacity={tint ? 0.4 : 1} stroke={tint ? '#a3824f' : '#8a6d4a'} strokeWidth={1} />
-          <text x={cx} y={cy + 3} fontSize={9} fill="#4a3c28" textAnchor="middle">{label}</text>
+          <text x={cx} y={cy + 3} fontSize={9} fill="#4a3c28" textAnchor="middle" className={revClass(label)}>{label}</text>
         </g>
       ))}
     </svg>
@@ -409,18 +440,18 @@ export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
     [38, 73, 80, 'Abdomen', false],
     [72, 110, 80, 'Stomach', true],
     [72, 147, 80, 'Bowel', true],
-    [72, 184, 80, 'Biliary', bili],
+    [72, 184, 80, 'Biliary Tract', bili],
     [104, 221, 80, 'Gallstones', gall],
   ];
   const steps: [number, number, string, boolean][] = [
     [260, 60, 'Book', false],
     [340, 112, 'Assess', false],
-    [452, 112, 'Ultrasound', bili],
+    [452, 112, 'Scan', bili],
     [300, 164, 'Plan', gall],
-    [412, 164, 'Resection', gall],
-    [300, 216, 'Pre-op', gall],
-    [412, 216, 'Induction', gall],
-    [524, 216, 'Emergence', gall],
+    [412, 164, 'Resect', gall],
+    [300, 216, 'Prepare', gall],
+    [412, 216, 'Induce', gall],
+    [524, 216, 'Recover', gall],
   ];
   return (
     <svg viewBox="0 0 700 262" style={{ width: '100%', height: 'auto', display: 'block', margin: '0.5rem auto' }}>
@@ -473,14 +504,14 @@ export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
       {specNodes.map(([x, y, w, label, faded], i) => (
         <g key={`s${i}`}>
           <rect x={x} y={y} width={w} height={22} rx={3} fill={faded ? '#f6f6f6' : '#efe9e0'} stroke={faded ? '#cfcfcf' : '#8a6d4a'} strokeWidth={1} strokeDasharray={faded ? '3 2' : undefined} />
-          <text x={x + w / 2} y={y + 15} fontSize={9} fill={faded ? '#bbb' : '#4a3c28'} textAnchor="middle">{label}</text>
+          <text x={x + w / 2} y={y + 15} fontSize={9} fill={faded ? '#bbb' : '#4a3c28'} textAnchor="middle" className={revClass(label)}>{label}</text>
         </g>
       ))}
 
       {steps.map(([cx, cy, label, faded], i) => (
         <g key={`p${i}`}>
           <rect x={cx - W / 2} y={cy - H / 2} width={W} height={H} rx={3} fill={faded ? '#f6f6f6' : '#efe9e0'} stroke={faded ? '#cfcfcf' : '#8a6d4a'} strokeWidth={1} strokeDasharray={faded ? '3 2' : undefined} />
-          <text x={cx} y={cy + 3} fontSize={9} fill={faded ? '#bbb' : '#4a3c28'} textAnchor="middle">{label}</text>
+          <text x={cx} y={cy + 3} fontSize={9} fill={faded ? '#bbb' : '#4a3c28'} textAnchor="middle" className={revClass(label)}>{label}</text>
         </g>
       ))}
     </svg>
@@ -499,6 +530,7 @@ export function MasterInstanceFigure() {
   ];
   const steps: [number, number, string, boolean][] = [
     [316, 58, 'p1', false],
+    [240, 58, 'p0', false], // necessitated by the root S, the product as a whole (e.g. estimation); comes first
     [316, 114, 'q1', false],
     [430, 114, 'q2', false],
     [430, 170, 'r1', true],
@@ -515,9 +547,10 @@ export function MasterInstanceFigure() {
       <rect x={180} y={30} width={456} height={56} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
       <rect x={180} y={86} width={456} height={56} fill="#f3f1ec" stroke="#e6e4e0" strokeWidth={1} />
       <rect x={180} y={142} width={456} height={56} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
-      <text x={186} y={61} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 1</text>
-      <text x={186} y={117} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 2</text>
-      <text x={186} y={173} fontSize={8.5} fill="#999" textAnchor="start" fontStyle="italic">Skillset 3</text>
+      {/* lane labels sit at the right end, leaving the left of Skillset 1 for p0 */}
+      <text x={630} y={61} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 1</text>
+      <text x={630} y={117} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 2</text>
+      <text x={630} y={173} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 3</text>
 
       <text x={67} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master specification</text>
       <text x={420} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master process, by skillset</text>
@@ -525,11 +558,14 @@ export function MasterInstanceFigure() {
       <path d="M40,54 V114 M40,78 H58 M40,114 H58" stroke="#aaa" strokeWidth={1} fill="none" />
       <path d="M40,114 V150 H58" stroke="#dedede" strokeWidth={1} strokeDasharray="3 2" fill="none" />
 
-      <path d="M104,78 H130 V58 H285 M130,78 V90 H385 V107 H399" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d="M76,42 H100 V24 H240 V47" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      {/* A reaches p1 from below, so the line clears p0 and the p1-q1 product arrow at x=316 */}
+      <path d="M104,78 H300 V69 M130,78 V90 H385 V107 H399" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
       <path d="M104,114 H285 M130,114 V150 H503 V170 H517" stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
       <path d="M104,150 H120 V38 H500 V58 H517 M120,150 V170 H399" stroke="#dedede" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
 
       <line x1={316} y1={69} x2={316} y2={101} stroke="#157f8f" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miPr)" />
+      <line x1={271} y1={58} x2={283} y2={58} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
       <line x1={347} y1={114} x2={397} y2={114} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
       <line x1={430} y1={125} x2={430} y2={157} stroke="#cfcfcf" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miF)" />
       <line x1={347} y1={58} x2={515} y2={58} stroke="#cfcfcf" strokeWidth={1.2} markerEnd="url(#miF)" />
