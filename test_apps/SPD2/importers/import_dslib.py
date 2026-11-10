@@ -1,7 +1,7 @@
-"""Derives the DSLIB IT dataset's master model from its source workbooks.
+"""Imports the DSLIB IT dataset: reads its source workbooks and writes the model's JSON files.
 
 Usage:
-    python -m business.dslib_it        (re)derive data/dslib-it/ from data/dslib-it/source/
+    python -m importers.import_dslib        (re)import data/dslib-it/ from data/dslib-it/source/
 """
 
 import re

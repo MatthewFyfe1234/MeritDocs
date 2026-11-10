@@ -4,7 +4,7 @@
     /api/model?id=<id>     one dataset's model
 
 Usage:
-    python app.py [port]      then open http://localhost:8000
+    py app.py [port]       then open http://localhost:8000
 """
 
 import json

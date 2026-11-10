@@ -9,7 +9,8 @@ export function Anomaly() {
         sense of how, from what and by whom it was made, including its carbon, safety and labour. These are credence
         qualities, which cannot be verified even after purchase <Cite id={['darby1973', 'dulleck2006']} />. Clients
         compare suppliers on perception rather than on attributed performance, and measures published to help them are
-        gamed <Cite id="dranove2003" />. Carbon emissions arising across a supply chain
+        gamed <Cite id="dranove2003" />. Where quality cannot be observed, buyers pay for the average, and suppliers
+        of better quality are under-rewarded and may withdraw <Cite id="akerlof1970" />. Carbon emissions arising across a supply chain
         cannot reliably be attributed to the organisations that cause them, or to the
         steps <Cite id="klaassen2021" />, so claimed reductions can be overstated <Cite id="delmas2011" /> and genuine
         reductions cannot be demonstrated. Before delivery, clients also need a forecast of a supplier&rsquo;s time,
@@ -84,9 +85,10 @@ export function Anomaly() {
         <strong>The cost of bridging.</strong> Considerable economic activity is spent bridging these gaps.
         Wallis and North estimated that the transaction sector, the resources spent arranging and enforcing exchange
         rather than producing, grew from about a quarter of United States gross national product in 1870 to around 45 per
-        cent by 1970 <Cite id="wallis1986" />, a share of which is spent bridging them, and Jayadev and Bowles estimate that a substantial share of the
+        cent by 1970 <Cite id="wallis1986" />, a share of which is spent bridging them. Within firms the estimate counts only the wages of occupations primarily engaged in such work (managers, clerks, foremen and the like), and so omits the coordination carried out by those classed as production workers. Jayadev and Bowles estimate that a substantial share of the
         workforce is employed as guard labour, including supervisors as well as security and
-        enforcement <Cite id="bowles2006" />. Between client and organisation
+        enforcement <Cite id="bowles2006" />. Guarantees, brands and licensing arise to counteract uncertainty about
+        quality <Cite id="akerlof1970" />, and much of the bridging work is of this kind. Between client and organisation
         this work is sales, procurement and tendering, between worker and organisation recruitment and appraisal,
         within organisations supervision, and at the regulatory boundary audit, inspection and certification.
         Insurance prices risk on broad categories because conduct cannot be

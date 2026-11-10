@@ -60,12 +60,12 @@ export function TheMode() {
         <strong>Agent.</strong> A resource that performs steps, written <M>{"a"}</M>, whether a functional group, an
         individual or an autonomous system such as a generative AI. In this
         paper an agent is typically a worker. Where the agent is a functional group, attribution within it requires
-        records at a finer grain. Tools are written <M>{"t"}</M> and materials <M>{"w"}</M>.
+        records at a finer grain. Tools are written <M>{"g"}</M> and materials <M>{"w"}</M>.
       </p>
       <p>
-        <strong>Record.</strong> One delivery of a step, logged against time. It ties the
+        <strong>Record.</strong> One delivery of a step, logged against time <M>{"t"}</M>. It ties the
         metrics <M>{"M"}</M> recorded at step <M>{"s"}</M>, under descriptor values <M>{"D"}</M>, to the
-        agent <M>{"a"}</M>, tools <M>{"t"}</M> and materials <M>{"w"}</M> involved, in delivery instance <M>{"i"}</M>.
+        agent <M>{"a"}</M>, tools <M>{"g"}</M> and materials <M>{"w"}</M> involved, in delivery instance <M>{"i"}</M>.
         Records carry, or link to, further attributes of the instance and of the resources, such as where and when
         the work was done or how an agent was trained. Where a material is the output of an earlier step, the record
         identifies it, linking the two records. A record captures what was delivered, independent of any
@@ -76,7 +76,7 @@ export function TheMode() {
         <strong>Trace.</strong> The accumulated set of records.
       </p>
 
-      <Eq>{"\\tau = \\bigl\\{\\,(i,\\ s,\\ D,\\ a,\\ t,\\ w,\\ M)\\,\\bigr\\}"}</Eq>
+      <Eq>{"\\tau = \\bigl\\{\\,(i,\\ s,\\ t,\\ D,\\ a,\\ g,\\ w,\\ M)\\,\\bigr\\}"}</Eq>
 
       <p>
         <strong>Forecast.</strong> The metrics to expect at a step, given the descriptor values of the next instance.
@@ -84,7 +84,7 @@ export function TheMode() {
         distribution drawn from the trace, with <M>{"\\theta"}</M> the dependence of the metrics on the descriptors.
       </p>
 
-      <Eq>{"M(s) \\,\\sim\\, \\mathcal{D}\\bigl(\\theta(D),\\ s\\bigr)"}</Eq>
+      <Eq>{"M(s) \\,\\sim\\, \\mathcal{F}\\bigl(\\theta(D),\\ s\\bigr)"}</Eq>
 
       <p>
         A delivery is evaluated against its forecast. The forecast is estimated jointly with the effects of the
@@ -93,14 +93,14 @@ export function TheMode() {
         delivery from its forecast decomposes into an agent effect, a tool effect, a material effect and noise.
       </p>
 
-      <Eq>{"M - \\hat{M}(s, D) = \\alpha_a + \\beta_t + \\gamma_w + \\varepsilon"}</Eq>
+      <Eq>{"M - \\hat{M}(s, D) = \\alpha_a + \\beta_g + \\gamma_w + \\varepsilon"}</Eq>
 
       <p>
         <strong>Partition.</strong> A division of the trace into groups by an attribute of its records, such as the
         agent, tool or material involved, the time of day, the jurisdiction in which the work was done, or the
         educator who trained the agent. The attribute enters the decomposition above as a further term{' '}
-        <M>{"\\delta_g"}</M>, estimated jointly with the effects of the resources, so that each group{' '}
-        <M>{"g"}</M> is compared net of the others and conditioned on the descriptor values.
+        <M>{"\\delta_h"}</M>, estimated jointly with the effects of the resources, so that each group{' '}
+        <M>{"h"}</M> is compared net of the others and conditioned on the descriptor values.
       </p>
 
       <p>
@@ -151,7 +151,7 @@ export function TheMode() {
       <p>
         The same model serves two purposes. Looking forward, it forecasts the next delivery from its descriptors.
         Looking back, it separates what each delivery&rsquo;s descriptors demanded from what its agent, tools and
-        materials contributed. Their effects, <M>{"\\alpha_a"}</M>, <M>{"\\beta_t"}</M> and{' '}
+        materials contributed. Their effects, <M>{"\\alpha_a"}</M>, <M>{"\\beta_g"}</M> and{' '}
         <M>{"\\gamma_w"}</M>, can be separated provided agents, tools and materials are connected through shared
         records, each agent linked to others through the tools, materials or co-workers they share. A worker who only
         ever uses one tool can still be separated from it, provided that tool is also used by others who use other

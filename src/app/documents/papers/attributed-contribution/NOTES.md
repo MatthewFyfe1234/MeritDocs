@@ -2,6 +2,8 @@
 
 ## Substantive additions
 
+- **Stigmergy framing.** Related work calls this paper's use "closer to a reputation system". Reconcile it with the
+  SPD paper, where the records left on the master process are the trace and the master process is the medium.
 - **Value-added literature (Related Work strand).** Teacher value-added and risk-adjusted surgeon/hospital
   report cards decompose outcomes into agent effects net of descriptors and are used for selection and pay: TBP
   in all but name. Engage Chetty, Friedman & Rockoff (2014), Rothstein (2010, sorting critique = our "Choice of

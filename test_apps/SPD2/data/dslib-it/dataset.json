@@ -1,5 +1,5 @@
 {
   "name": "DSLIB IT",
   "description": "Five real IT projects (C2015-11, 15, 20, 21, 22) from the OR&S DSLIB project database, Ghent University.",
-  "derive": "business.dslib_it"
+  "importer": "importers.import_dslib"
 }

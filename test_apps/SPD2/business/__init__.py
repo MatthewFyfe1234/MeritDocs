@@ -1,8 +1,8 @@
 """SPD2 business layer.
 
-Each dataset lives in data/<id>/: dataset.json (its name and the module that derives it),
-source/ (the raw data), and the derived model files. Each derive module reads its own
-source and writes the model with write_model().
+Each dataset lives in data/<id>/: dataset.json (its name and its importer), source/ (the
+raw data), and the model's JSON files. Each importer (in importers/) reads its dataset's
+source and writes the JSON files with write_model().
 
 list_datasets()   the datasets, as [{id, name}]
 load_model(id)    one dataset's model

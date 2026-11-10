@@ -43,15 +43,19 @@
   },
   {
     "id": "czarnecki2005",
-    "type": "paper-conference",
-    "title": "Cardinality-based feature modeling and constraints: A progress report",
+    "type": "article-journal",
+    "title": "Formalizing cardinality-based feature models and their specialization",
     "author": [
       { "family": "Czarnecki", "given": "K." },
-      { "family": "Kim", "given": "C.H.P." }
+      { "family": "Helsen", "given": "S." },
+      { "family": "Eisenecker", "given": "U." }
     ],
     "issued": { "date-parts": [[2005]] },
-    "container-title": "International Workshop on Software Factories (OOPSLA)",
-    "page": "16-20"
+    "container-title": "Software Process: Improvement and Practice",
+    "volume": "10",
+    "issue": "1",
+    "page": "7-29",
+    "DOI": "10.1002/spip.213"
   },
   {
     "id": "pohl2005",
@@ -66,6 +70,279 @@
     "publisher": "Springer",
     "publisher-place": "Berlin, Heidelberg",
     "DOI": "10.1007/3-540-28901-1"
+  },
+  {
+    "id": "hegge1991",
+    "type": "article-journal",
+    "title": "Generic bill-of-material: A new product model",
+    "author": [
+      { "family": "Hegge", "given": "H.M.H." },
+      { "family": "Wortmann", "given": "J.C." }
+    ],
+    "issued": { "date-parts": [[1991]] },
+    "container-title": "International Journal of Production Economics",
+    "volume": "23",
+    "issue": "1-3",
+    "page": "117-128"
+  },
+  {
+    "id": "jiao2000",
+    "type": "article-journal",
+    "title": "Generic bill-of-materials-and-operations for high-variety production management",
+    "author": [
+      { "family": "Jiao", "given": "J." },
+      { "family": "Tseng", "given": "M.M." },
+      { "family": "Ma", "given": "Q." },
+      { "family": "Zou", "given": "Y." }
+    ],
+    "issued": { "date-parts": [[2000]] },
+    "container-title": "Concurrent Engineering: Research and Applications",
+    "volume": "8",
+    "issue": "4",
+    "page": "297-321"
+  },
+  {
+    "id": "iec62264",
+    "type": "report",
+    "author": [{ "literal": "International Electrotechnical Commission" }],
+    "title": "Enterprise-control system integration — Part 1: Models and terminology (IEC 62264-1:2013)",
+    "issued": { "date-parts": [[2013]] },
+    "publisher": "International Electrotechnical Commission"
+  },
+  {
+    "id": "ogc2009",
+    "type": "book",
+    "author": [{ "literal": "Office of Government Commerce" }],
+    "title": "Managing successful projects with PRINCE2",
+    "edition": "5th",
+    "issued": { "date-parts": [[2009]] },
+    "publisher": "The Stationery Office"
+  },
+  {
+    "id": "apm2017",
+    "type": "report",
+    "author": [{ "literal": "APM and INCOSE UK Systems Thinking Specific Interest Group" }],
+    "title": "Fusion point guidance: Product based planning",
+    "genre": "Issue",
+    "number": "1",
+    "issued": { "date-parts": [[2017]] },
+    "publisher": "Association for Project Management",
+    "URL": "https://www.apm.org.uk/media/xerbub5p/product-based-planning-se-pm-fusion-point-guidance.pdf"
+  },
+  {
+    "id": "pmi2017",
+    "type": "book",
+    "author": [{ "literal": "Project Management Institute" }],
+    "title": "A guide to the project management body of knowledge (PMBOK guide)",
+    "edition": "6th",
+    "issued": { "date-parts": [[2017]] },
+    "publisher": "Project Management Institute"
+  },
+  {
+    "id": "vanderaalst1998",
+    "type": "article-journal",
+    "title": "The application of Petri nets to workflow management",
+    "author": [{ "family": "van der Aalst", "given": "W. M. P." }],
+    "container-title": "Journal of Circuits, Systems and Computers",
+    "issued": { "date-parts": [[1998]] },
+    "volume": "8",
+    "issue": "1",
+    "page": "21-66",
+    "DOI": "10.1142/s0218126698000043"
+  },
+  {
+    "id": "kumar1998",
+    "type": "article-journal",
+    "title": "Use of Petri nets for resource allocation in projects",
+    "author": [{ "family": "Kumar", "given": "V. K. A." }, { "family": "Ganesh", "given": "L. S." }],
+    "container-title": "IEEE Transactions on Engineering Management",
+    "issued": { "date-parts": [[1998]] },
+    "volume": "45",
+    "issue": "1",
+    "page": "49-56",
+    "DOI": "10.1109/17.658660"
+  },
+  {
+    "id": "colin2014",
+    "type": "article-journal",
+    "title": "Setting tolerance limits for statistical project control using earned value management",
+    "author": [{ "family": "Colin", "given": "J." }, { "family": "Vanhoucke", "given": "M." }],
+    "container-title": "Omega",
+    "issued": { "date-parts": [[2014]] },
+    "volume": "49",
+    "page": "107-122",
+    "DOI": "10.1016/j.omega.2014.06.001"
+  },
+  {
+    "id": "servranckx2019",
+    "type": "article-journal",
+    "title": "A tabu search procedure for the resource-constrained project scheduling problem with alternative subgraphs",
+    "author": [{ "family": "Servranckx", "given": "T." }, { "family": "Vanhoucke", "given": "M." }],
+    "container-title": "European Journal of Operational Research",
+    "issued": { "date-parts": [[2019]] },
+    "volume": "273",
+    "issue": "3",
+    "page": "841-860",
+    "DOI": "10.1016/j.ejor.2018.09.005"
+  },
+  {
+    "id": "vanhoucke2019",
+    "type": "article-journal",
+    "title": "Fitting activity distributions using human partitioning and statistical calibration",
+    "author": [{ "family": "Vanhoucke", "given": "M." }, { "family": "Batselier", "given": "J." }],
+    "container-title": "Computers & Industrial Engineering",
+    "issued": { "date-parts": [[2019]] },
+    "volume": "129",
+    "page": "126-135",
+    "DOI": "10.1016/j.cie.2019.01.037"
+  },
+  {
+    "id": "vanhoucke2007",
+    "type": "article-journal",
+    "title": "A simulation and evaluation of earned value metrics to forecast the project duration",
+    "author": [{ "family": "Vanhoucke", "given": "M." }, { "family": "Vandevoorde", "given": "S." }],
+    "container-title": "Journal of the Operational Research Society",
+    "issued": { "date-parts": [[2007]] },
+    "volume": "58",
+    "issue": "10",
+    "page": "1361-1374",
+    "DOI": "10.1057/palgrave.jors.2602296"
+  },
+  {
+    "id": "kellogg2020",
+    "type": "article-journal",
+    "title": "Algorithms at work: The new contested terrain of control",
+    "author": [
+      { "family": "Kellogg", "given": "K.C." },
+      { "family": "Valentine", "given": "M.A." },
+      { "family": "Christin", "given": "A." }
+    ],
+    "issued": { "date-parts": [[2020]] },
+    "container-title": "Academy of Management Annals",
+    "volume": "14",
+    "issue": "1",
+    "page": "366-410"
+  },
+  {
+    "id": "rosenblat2016",
+    "type": "article-journal",
+    "title": "Algorithmic labor and information asymmetries: A case study of Uber's drivers",
+    "author": [
+      { "family": "Rosenblat", "given": "A." },
+      { "family": "Stark", "given": "L." }
+    ],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "International Journal of Communication",
+    "volume": "10",
+    "page": "3758-3784"
+  },
+  {
+    "id": "kanawaty1992",
+    "type": "book",
+    "title": "Introduction to work study",
+    "editor": [{ "family": "Kanawaty", "given": "G." }],
+    "edition": "4th",
+    "issued": { "date-parts": [[1992]] },
+    "publisher": "International Labour Office"
+  },
+  {
+    "id": "boehm2000",
+    "type": "book",
+    "title": "Software cost estimation with COCOMO II",
+    "author": [
+      { "family": "Boehm", "given": "B.W." },
+      { "family": "Abts", "given": "C." },
+      { "family": "Brown", "given": "A.W." },
+      { "family": "Chulani", "given": "S." },
+      { "family": "Clark", "given": "B.K." },
+      { "family": "Horowitz", "given": "E." },
+      { "family": "Madachy", "given": "R." },
+      { "family": "Reifer", "given": "D.J." },
+      { "family": "Steece", "given": "B." }
+    ],
+    "issued": { "date-parts": [[2000]] },
+    "publisher": "Prentice Hall"
+  },
+  {
+    "id": "browning2002",
+    "type": "article-journal",
+    "title": "Modeling impacts of process architecture on cost and schedule risk in product development",
+    "author": [
+      { "family": "Browning", "given": "T.R." },
+      { "family": "Eppinger", "given": "S.D." }
+    ],
+    "issued": { "date-parts": [[2002]] },
+    "container-title": "IEEE Transactions on Engineering Management",
+    "volume": "49",
+    "issue": "4",
+    "page": "428-442",
+    "DOI": "10.1109/TEM.2002.806709"
+  },
+  {
+    "id": "lipke2003",
+    "type": "article-magazine",
+    "title": "Schedule is different",
+    "author": [{ "family": "Lipke", "given": "W." }],
+    "issued": { "date-parts": [[2003]] },
+    "container-title": "The Measurable News",
+    "issue": "March",
+    "URL": "https://www.earnedschedule.com/Docs/Schedule%20is%20Different.pdf"
+  },
+  {
+    "id": "kim2013",
+    "type": "article-journal",
+    "title": "Generating construction schedules through automatic data extraction using open BIM (building information modeling) technology",
+    "author": [
+      { "family": "Kim", "given": "H." },
+      { "family": "Anderson", "given": "K." },
+      { "family": "Lee", "given": "S." },
+      { "family": "Hildreth", "given": "J." }
+    ],
+    "issued": { "date-parts": [[2013]] },
+    "container-title": "Automation in Construction",
+    "volume": "35",
+    "page": "285-295",
+    "DOI": "10.1016/j.autcon.2013.05.020"
+  },
+  {
+    "id": "rosemann2007",
+    "type": "article-journal",
+    "title": "A configurable reference modelling language",
+    "author": [
+      { "family": "Rosemann", "given": "M." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "Information Systems",
+    "volume": "32",
+    "issue": "1",
+    "page": "1-23",
+    "DOI": "10.1016/j.is.2005.05.003"
+  },
+  {
+    "id": "erol1994",
+    "type": "paper-conference",
+    "title": "HTN planning: Complexity and expressivity",
+    "author": [
+      { "family": "Erol", "given": "K." },
+      { "family": "Hendler", "given": "J.A." },
+      { "family": "Nau", "given": "D.S." }
+    ],
+    "issued": { "date-parts": [[1994]] },
+    "container-title": "Proceedings of the Twelfth National Conference on Artificial Intelligence (AAAI-94)",
+    "page": "1123-1128"
+  },
+  {
+    "id": "peleg2013",
+    "type": "article-journal",
+    "title": "Computer-interpretable clinical guidelines: A methodological review",
+    "author": [{ "family": "Peleg", "given": "M." }],
+    "issued": { "date-parts": [[2013]] },
+    "container-title": "Journal of Biomedical Informatics",
+    "volume": "46",
+    "issue": "4",
+    "page": "744-763",
+    "DOI": "10.1016/j.jbi.2013.06.009"
   },
   {
     "id": "vanderaalst2005",
@@ -97,6 +374,85 @@
     "page": "39-46"
   },
   {
+    "id": "adams2006",
+    "type": "paper-conference",
+    "title": "Worklets: A service-oriented implementation of dynamic flexibility in workflows",
+    "author": [
+      { "family": "Adams", "given": "M." },
+      { "family": "ter Hofstede", "given": "A.H.M." },
+      { "family": "Edmond", "given": "D." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2006]] },
+    "container-title": "On the Move to Meaningful Internet Systems 2006 (OTM 2006)",
+    "collection-title": "Lecture Notes in Computer Science",
+    "volume": "4275",
+    "page": "291-308",
+    "publisher": "Springer",
+    "DOI": "10.1007/11914853_18"
+  },
+  {
+    "id": "fondahl1961",
+    "type": "report",
+    "title": "A non-computer approach to the critical path method for the construction industry",
+    "author": [{ "family": "Fondahl", "given": "J.W." }],
+    "issued": { "date-parts": [[1961]] },
+    "genre": "Technical Report",
+    "number": "9",
+    "publisher": "Department of Civil Engineering, Stanford University",
+    "publisher-place": "Stanford, CA"
+  },
+  {
+    "id": "kondili1993",
+    "type": "article-journal",
+    "title": "A general algorithm for short-term scheduling of batch operations - I. MILP formulation",
+    "author": [
+      { "family": "Kondili", "given": "E." },
+      { "family": "Pantelides", "given": "C.C." },
+      { "family": "Sargent", "given": "R.W.H." }
+    ],
+    "issued": { "date-parts": [[1993]] },
+    "container-title": "Computers & Chemical Engineering",
+    "volume": "17",
+    "issue": "2",
+    "page": "211-227"
+  },
+  {
+    "id": "fips183",
+    "type": "report",
+    "author": [{ "literal": "National Institute of Standards and Technology" }],
+    "title": "Integration Definition for Function Modeling (IDEF0)",
+    "issued": { "date-parts": [[1993]] },
+    "genre": "Federal Information Processing Standards Publication",
+    "number": "183",
+    "publisher": "National Institute of Standards and Technology",
+    "publisher-place": "Gaithersburg, MD"
+  },
+  {
+    "id": "mohri2002",
+    "type": "article-journal",
+    "title": "Semiring frameworks and algorithms for shortest-distance problems",
+    "author": [{ "family": "Mohri", "given": "M." }],
+    "issued": { "date-parts": [[2002]] },
+    "container-title": "Journal of Automata, Languages and Combinatorics",
+    "volume": "7",
+    "issue": "3",
+    "page": "321-350"
+  },
+  {
+    "id": "baras2010",
+    "type": "book",
+    "title": "Path problems in networks",
+    "author": [
+      { "family": "Baras", "given": "J. S." },
+      { "family": "Theodorakopoulos", "given": "G." }
+    ],
+    "issued": { "date-parts": [[2010]] },
+    "collection-title": "Synthesis Lectures on Communication Networks",
+    "publisher": "Morgan & Claypool",
+    "DOI": "10.2200/S00245ED1V01Y201001CNT003"
+  },
+  {
     "id": "kelley1959",
     "type": "paper-conference",
     "title": "Critical-path planning and scheduling",
@@ -120,21 +476,6 @@
     "page": "253-274"
   },
   {
-    "id": "kondili1993",
-    "type": "article-journal",
-    "title": "A general algorithm for short-term scheduling of batch operations - I. MILP formulation",
-    "author": [
-      { "family": "Kondili", "given": "E." },
-      { "family": "Pantelides", "given": "C.C." },
-      { "family": "Sargent", "given": "R.W.H." }
-    ],
-    "issued": { "date-parts": [[1993]] },
-    "container-title": "Computers & Chemical Engineering",
-    "volume": "17",
-    "issue": "2",
-    "page": "211-227"
-  },
-  {
     "id": "omicini2008",
     "type": "article-journal",
     "title": "Artifacts in the A&A meta-model for multi-agent systems",
@@ -153,8 +494,8 @@
     "id": "iso16739",
     "type": "report",
     "author": [{ "literal": "International Organization for Standardization" }],
-    "title": "Industry Foundation Classes (IFC) for data sharing in the construction and facility management industries — Part 1: Data schema (ISO 16739-1:2018)",
-    "issued": { "date-parts": [[2018]] },
+    "title": "Industry Foundation Classes (IFC) for data sharing in the construction and facility management industries — Part 1: Data schema (ISO 16739-1:2024)",
+    "issued": { "date-parts": [[2024]] },
     "publisher": "International Organization for Standardization"
   },
   {
@@ -173,20 +514,73 @@
     "page": "962-977"
   },
   {
-    "id": "vanhoucke2009",
-    "type": "book",
-    "title": "Measuring time: Improving project performance using earned value management",
-    "author": [{ "family": "Vanhoucke", "given": "M." }],
-    "issued": { "date-parts": [[2009]] },
-    "publisher": "Springer"
+    "id": "senderovich2017",
+    "type": "paper-conference",
+    "title": "Intra and inter-case features in predictive process monitoring: A tale of two dimensions",
+    "author": [
+      { "family": "Senderovich", "given": "A." },
+      { "family": "Di Francescomarino", "given": "C." },
+      { "family": "Ghidini", "given": "C." },
+      { "family": "Jorbina", "given": "K." },
+      { "family": "Maggi", "given": "F.M." }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "container-title": "Business Process Management (BPM 2017)",
+    "collection-title": "Lecture Notes in Computer Science",
+    "volume": "10445",
+    "page": "306-323",
+    "publisher": "Springer",
+    "DOI": "10.1007/978-3-319-65000-5_18"
   },
   {
-    "id": "vanhoucke2012",
+    "id": "vanderaalst2016",
     "type": "book",
-    "title": "Project management with dynamic scheduling: Baseline scheduling, risk analysis and project control",
+    "title": "Process Mining: Data Science in Action",
+    "author": [{ "family": "van der Aalst", "given": "W.M.P." }],
+    "issued": { "date-parts": [[2016]] },
+    "edition": "2nd",
+    "publisher": "Springer",
+    "publisher-place": "Berlin"
+  },
+  {
+    "id": "vanderaalst2019",
+    "type": "paper-conference",
+    "title": "Object-centric process mining: Dealing with divergence and convergence in event data",
+    "author": [{ "family": "van der Aalst", "given": "W.M.P." }],
+    "issued": { "date-parts": [[2019]] },
+    "container-title": "Software Engineering and Formal Methods (SEFM 2019)",
+    "collection-title": "Lecture Notes in Computer Science",
+    "volume": "11724",
+    "page": "3-25",
+    "publisher": "Springer",
+    "DOI": "10.1007/978-3-030-30446-1_1"
+  },
+  {
+    "id": "song2008",
+    "type": "article-journal",
+    "title": "Towards comprehensive support for organizational mining",
+    "author": [
+      { "family": "Song", "given": "M." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2008]] },
+    "container-title": "Decision Support Systems",
+    "volume": "46",
+    "issue": "1",
+    "page": "300-317",
+    "DOI": "10.1016/j.dss.2008.07.002"
+  },
+  {
+    "id": "vanhoucke2010",
+    "type": "book",
+    "title": "Measuring Time: Improving Project Performance Using Earned Value Management",
     "author": [{ "family": "Vanhoucke", "given": "M." }],
-    "issued": { "date-parts": [[2012]] },
-    "publisher": "Springer"
+    "issued": { "date-parts": [[2010]] },
+    "publisher": "Springer",
+    "publisher-place": "New York",
+    "collection-title": "International Series in Operations Research & Management Science",
+    "volume": "136",
+    "DOI": "10.1007/978-1-4419-1014-1"
   },
   {
     "id": "vanhoucke2015",
@@ -243,6 +637,18 @@
     "page": "1097-1111"
   },
   {
+    "id": "kahneman1982",
+    "type": "chapter",
+    "title": "Intuitive prediction: Biases and corrective procedures",
+    "author": [{ "family": "Kahneman", "given": "D." }, { "family": "Tversky", "given": "A." }],
+    "issued": { "date-parts": [[1982]] },
+    "editor": [{ "family": "Kahneman", "given": "D." }, { "family": "Slovic", "given": "P." }, { "family": "Tversky", "given": "A." }],
+    "container-title": "Judgment under Uncertainty: Heuristics and Biases",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "page": "414-421"
+  },
+  {
     "id": "flyvbjerg2006",
     "type": "article-journal",
     "title": "From Nobel Prize to project management: Getting risks right",
@@ -252,6 +658,66 @@
     "volume": "37",
     "issue": "3",
     "page": "5-15"
+  },
+  {
+    "id": "chan2024",
+    "type": "paper-conference",
+    "title": "Visibility into AI agents",
+    "author": [
+      { "family": "Chan", "given": "A." },
+      { "family": "Ezell", "given": "C." },
+      { "family": "Kaufmann", "given": "M." },
+      { "family": "Wei", "given": "K." },
+      { "family": "Hammond", "given": "L." },
+      { "family": "Bradley", "given": "H." },
+      { "family": "Bluemke", "given": "E." },
+      { "family": "Rajkumar", "given": "N." },
+      { "family": "Krueger", "given": "D." },
+      { "family": "Kolt", "given": "N." },
+      { "family": "Heim", "given": "L." },
+      { "family": "Anderljung", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2024]] },
+    "container-title": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+    "page": "958-973",
+    "DOI": "10.1145/3630106.3658948"
+  },
+  {
+    "id": "mazeika2025",
+    "type": "article-journal",
+    "title": "Remote Labor Index: Measuring AI automation of remote work",
+    "author": [
+      { "family": "Mazeika", "given": "M." },
+      { "family": "Gatti", "given": "A." },
+      { "family": "Menghini", "given": "C." },
+      { "family": "Sehwag", "given": "U.M." },
+      { "family": "Singhal", "given": "S." },
+      { "family": "Orlovskiy", "given": "Y." },
+      { "literal": "et al." }
+    ],
+    "issued": { "date-parts": [[2025]] },
+    "container-title": "arXiv preprint arXiv:2510.26787"
+  },
+  {
+    "id": "autor2015",
+    "type": "article-journal",
+    "title": "Why are there still so many jobs? The history and future of workplace automation",
+    "author": [{ "family": "Autor", "given": "D.H." }],
+    "issued": { "date-parts": [[2015]] },
+    "container-title": "Journal of Economic Perspectives",
+    "volume": "29",
+    "issue": "3",
+    "page": "3-30"
+  },
+  {
+    "id": "flyvbjerg2021",
+    "type": "article-journal",
+    "title": "Make megaprojects more modular",
+    "author": [{ "family": "Flyvbjerg", "given": "B." }],
+    "issued": { "date-parts": [[2021]] },
+    "container-title": "Harvard Business Review",
+    "issue": "November-December",
+    "page": "58-63"
   },
   {
     "id": "batselier2016",
@@ -304,18 +770,27 @@
     "publisher": "Springer"
   },
   {
-    "id": "derkiureghian2009",
+    "id": "vanhoucke2011",
     "type": "article-journal",
-    "title": "Aleatory or epistemic? Does it matter?",
-    "author": [
-      { "family": "Der Kiureghian", "given": "A." },
-      { "family": "Ditlevsen", "given": "O." }
-    ],
-    "issued": { "date-parts": [[2009]] },
-    "container-title": "Structural Safety",
-    "volume": "31",
-    "issue": "2",
-    "page": "105-112"
+    "title": "On the dynamic use of project performance and schedule risk information during project tracking",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2011]] },
+    "container-title": "Omega",
+    "volume": "39",
+    "issue": "4",
+    "page": "416-426",
+    "DOI": "10.1016/j.omega.2010.09.006"
+  },
+  {
+    "id": "vanhoucke2014",
+    "type": "book",
+    "title": "Integrated Project Management and Control: First Comes the Theory, then the Practice",
+    "author": [{ "family": "Vanhoucke", "given": "M." }],
+    "issued": { "date-parts": [[2014]] },
+    "publisher": "Springer",
+    "publisher-place": "Cham",
+    "collection-title": "Management for Professionals",
+    "DOI": "10.1007/978-3-319-04331-9"
   },
   {
     "id": "malone1994",
@@ -384,6 +859,18 @@
     "DOI": "10.1007/s10479-006-0158-9"
   },
   {
+    "id": "smith1980",
+    "type": "article-journal",
+    "title": "The contract net protocol: High-level communication and control in a distributed problem solver",
+    "author": [{ "family": "Smith", "given": "R.G." }],
+    "issued": { "date-parts": [[1980]] },
+    "container-title": "IEEE Transactions on Computers",
+    "volume": "C-29",
+    "issue": "12",
+    "page": "1104-1113",
+    "DOI": "10.1109/TC.1980.1675516"
+  },
+  {
     "id": "grasse1959",
     "type": "article-journal",
     "title": "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d'interprétation du comportement des termites constructeurs",
@@ -415,6 +902,17 @@
     "page": "50-59"
   },
   {
+    "id": "nii1986",
+    "type": "article-journal",
+    "title": "Blackboard systems, part one: The blackboard model of problem solving and the evolution of blackboard architectures",
+    "author": [{ "family": "Nii", "given": "H.P." }],
+    "issued": { "date-parts": [[1986]] },
+    "container-title": "AI Magazine",
+    "volume": "7",
+    "issue": "2",
+    "page": "38-53"
+  },
+  {
     "id": "christensen2013",
     "type": "article-journal",
     "title": "Stigmergy in human practice: Coordination in construction work",
@@ -425,17 +923,232 @@
     "page": "40-51"
   },
   {
-    "id": "masood2017",
-    "type": "paper-conference",
-    "title": "Motivation for self-assignment: Factors agile software developers consider",
+    "id": "hull2011",
+    "type": "chapter",
+    "title": "Introducing the Guard-Stage-Milestone approach for specifying business entity lifecycles",
     "author": [
-      { "family": "Masood", "given": "Z." },
-      { "family": "Hoda", "given": "R." },
-      { "family": "Blincoe", "given": "K." }
+      { "family": "Hull", "given": "R." },
+      { "family": "Damaggio", "given": "E." },
+      { "family": "Fournier", "given": "F." },
+      { "family": "Gupta", "given": "M." },
+      { "family": "Heath", "given": "F." },
+      { "family": "Hobson", "given": "S." },
+      { "family": "Linehan", "given": "M." },
+      { "family": "Maradugu", "given": "S." },
+      { "family": "Nigam", "given": "A." },
+      { "family": "Sukaviriya", "given": "P." },
+      { "family": "Vaculín", "given": "R." }
+    ],
+    "issued": { "date-parts": [[2011]] },
+    "container-title": "Web Services and Formal Methods (WS-FM 2010), LNCS 6551",
+    "publisher": "Springer",
+    "publisher-place": "Berlin",
+    "DOI": "10.1007/978-3-642-19589-1_1"
+  },
+  {
+    "id": "kunzle2011",
+    "type": "article-journal",
+    "title": "PHILharmonicFlows: Towards a framework for object-aware process management",
+    "author": [
+      { "family": "Künzle", "given": "V." },
+      { "family": "Reichert", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2011]] },
+    "container-title": "Journal of Software Maintenance and Evolution: Research and Practice",
+    "volume": "23",
+    "issue": "4",
+    "page": "205-244",
+    "DOI": "10.1002/smr.524"
+  },
+  {
+    "id": "vanderfeesten2011",
+    "type": "article-journal",
+    "title": "Product-based workflow support",
+    "author": [
+      { "family": "Vanderfeesten", "given": "I." },
+      { "family": "Reijers", "given": "H.A." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2011]] },
+    "container-title": "Information Systems",
+    "volume": "36",
+    "issue": "2",
+    "page": "517-535"
+  },
+  {
+    "id": "peer2014",
+    "type": "article-journal",
+    "title": "Reputation as a sufficient condition for data quality on Amazon Mechanical Turk",
+    "author": [
+      { "family": "Peer", "given": "E." },
+      { "family": "Vosgerau", "given": "J." },
+      { "family": "Acquisti", "given": "A." }
+    ],
+    "issued": { "date-parts": [[2014]] },
+    "container-title": "Behavior Research Methods",
+    "volume": "46",
+    "issue": "4",
+    "page": "1023-1031",
+    "DOI": "10.3758/s13428-013-0434-y"
+  },
+  {
+    "id": "retelny2014",
+    "type": "paper-conference",
+    "title": "Expert crowdsourcing with flash teams",
+    "author": [
+      { "family": "Retelny", "given": "D." },
+      { "family": "Robaszkiewicz", "given": "S." },
+      { "family": "To", "given": "A." },
+      { "family": "Lasecki", "given": "W.S." },
+      { "family": "Patel", "given": "J." },
+      { "family": "Rahmati", "given": "N." },
+      { "family": "Doshi", "given": "T." },
+      { "family": "Valentine", "given": "M." },
+      { "family": "Bernstein", "given": "M.S." }
+    ],
+    "issued": { "date-parts": [[2014]] },
+    "container-title": "Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology",
+    "page": "75-85"
+  },
+  {
+    "id": "valentine2017",
+    "type": "paper-conference",
+    "title": "Flash organizations: Crowdsourcing complex work by structuring crowds as organizations",
+    "author": [
+      { "family": "Valentine", "given": "M.A." },
+      { "family": "Retelny", "given": "D." },
+      { "family": "To", "given": "A." },
+      { "family": "Rahmati", "given": "N." },
+      { "family": "Doshi", "given": "T." },
+      { "family": "Bernstein", "given": "M.S." }
     ],
     "issued": { "date-parts": [[2017]] },
-    "container-title": "2017 IEEE/ACM 10th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)",
-    "page": "92-93"
+    "container-title": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+    "page": "3523-3537"
+  },
+  {
+    "id": "snauwaert2023",
+    "type": "article-journal",
+    "title": "A classification and new benchmark instances for the multi-skilled resource-constrained project scheduling problem",
+    "author": [
+      { "family": "Snauwaert", "given": "J." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2023]] },
+    "container-title": "European Journal of Operational Research",
+    "volume": "307",
+    "issue": "1",
+    "page": "1-19",
+    "DOI": "10.1016/j.ejor.2022.05.049"
+  },
+  {
+    "id": "bolici2016",
+    "type": "article-journal",
+    "title": "Stigmergic coordination in FLOSS development teams: Integrating explicit and implicit mechanisms",
+    "author": [
+      { "family": "Bolici", "given": "F." },
+      { "family": "Howison", "given": "J." },
+      { "family": "Crowston", "given": "K." }
+    ],
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Cognitive Systems Research",
+    "volume": "38",
+    "page": "14-22",
+    "DOI": "10.1016/j.cogsys.2015.12.003"
+  },
+  {
+    "id": "heathcote2000",
+    "type": "article-journal",
+    "title": "The power law repealed: The case for an exponential law of practice",
+    "author": [
+      { "family": "Heathcote", "given": "A." },
+      { "family": "Brown", "given": "S." },
+      { "family": "Mewhort", "given": "D.J.K." }
+    ],
+    "issued": { "date-parts": [[2000]] },
+    "container-title": "Psychonomic Bulletin & Review",
+    "volume": "7",
+    "issue": "2",
+    "page": "185-207"
+  },
+  {
+    "id": "vandorp1999",
+    "type": "article-journal",
+    "title": "Statistical dependence in risk analysis for project networks using Monte Carlo methods",
+    "author": [
+      { "family": "van Dorp", "given": "J.R." },
+      { "family": "Duffey", "given": "M.R." }
+    ],
+    "issued": { "date-parts": [[1999]] },
+    "container-title": "International Journal of Production Economics",
+    "volume": "58",
+    "issue": "1",
+    "page": "17-29",
+    "DOI": "10.1016/S0925-5273(98)00081-4"
+  },
+  {
+    "id": "holmstrom1991",
+    "type": "article-journal",
+    "title": "Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design",
+    "author": [
+      { "family": "Holmström", "given": "B." },
+      { "family": "Milgrom", "given": "P." }
+    ],
+    "issued": { "date-parts": [[1991]] },
+    "container-title": "Journal of Law, Economics, & Organization",
+    "volume": "7",
+    "issue": "Special Issue",
+    "page": "24-52"
+  },
+  {
+    "id": "pritsker1966",
+    "type": "report",
+    "title": "GERT: Graphical Evaluation and Review Technique (RM-4973-NASA)",
+    "author": [{ "family": "Pritsker", "given": "A.A.B." }],
+    "issued": { "date-parts": [[1966]] },
+    "publisher": "RAND Corporation",
+    "publisher-place": "Santa Monica, CA"
+  },
+  {
+    "id": "holvoet2007",
+    "type": "chapter",
+    "title": "Exploiting the environment for coordinating agent intentions",
+    "author": [
+      { "family": "Holvoet", "given": "T." },
+      { "family": "Valckenaers", "given": "P." }
+    ],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "Environments for Multi-Agent Systems III",
+    "publisher": "Springer",
+    "publisher-place": "Berlin",
+    "page": "51-66"
+  },
+  {
+    "id": "valckenaers2007",
+    "type": "article-journal",
+    "title": "MAS coordination and control based on stigmergy",
+    "author": [
+      { "family": "Valckenaers", "given": "P." },
+      { "family": "Hadeli" },
+      { "family": "Saint Germain", "given": "B." },
+      { "family": "Verstraete", "given": "P." },
+      { "family": "Van Brussel", "given": "H." }
+    ],
+    "issued": { "date-parts": [[2007]] },
+    "container-title": "Computers in Industry",
+    "volume": "58",
+    "issue": "7",
+    "page": "621-629",
+    "DOI": "10.1016/j.compind.2007.05.003"
+  },
+  {
+    "id": "ballard2000",
+    "type": "thesis",
+    "genre": "PhD thesis",
+    "title": "The Last Planner System of production control",
+    "author": [{ "family": "Ballard", "given": "H.G." }],
+    "issued": { "date-parts": [[2000]] },
+    "publisher": "University of Birmingham"
   },
   {
     "id": "masood2021",
@@ -446,26 +1159,11 @@
       { "family": "Hoda", "given": "R." },
       { "family": "Blincoe", "given": "K." }
     ],
-    "issued": { "date-parts": [[2021]] },
+    "issued": { "date-parts": [[2022]] },
     "container-title": "IEEE Transactions on Software Engineering",
     "volume": "48",
     "issue": "9",
     "page": "3626-3639"
-  },
-  {
-    "id": "conoscenti2019",
-    "type": "article-journal",
-    "title": "Combining data analytics and developers feedback for identifying reasons of inaccurate estimations in agile software development",
-    "author": [
-      { "family": "Conoscenti", "given": "M." },
-      { "family": "Besner", "given": "V." },
-      { "family": "Vetrò", "given": "A." },
-      { "family": "Méndez Fernández", "given": "D." }
-    ],
-    "issued": { "date-parts": [[2019]] },
-    "container-title": "Journal of Systems and Software",
-    "volume": "156",
-    "page": "126-135"
   },
   {
     "id": "jorgensen2009",
@@ -482,6 +1180,21 @@
     "page": "368-383"
   },
   {
+    "id": "newell1981",
+    "type": "chapter",
+    "title": "Mechanisms of skill acquisition and the law of practice",
+    "author": [
+      { "family": "Newell", "given": "A." },
+      { "family": "Rosenbloom", "given": "P.S." }
+    ],
+    "editor": [{ "family": "Anderson", "given": "J.R." }],
+    "issued": { "date-parts": [[1981]] },
+    "container-title": "Cognitive Skills and Their Acquisition",
+    "publisher": "Lawrence Erlbaum",
+    "publisher-place": "Hillsdale, NJ",
+    "page": "1-55"
+  },
+  {
     "id": "anvik2006",
     "type": "paper-conference",
     "title": "Who should fix this bug?",
@@ -492,33 +1205,61 @@
     ],
     "issued": { "date-parts": [[2006]] },
     "container-title": "Proceedings of the 28th International Conference on Software Engineering (ICSE 2006)",
-    "page": "329-338"
+    "page": "361-370"
   },
   {
-    "id": "mohri2002",
-    "type": "article-journal",
-    "title": "Semiring frameworks and algorithms for shortest-distance problems",
-    "author": [{ "family": "Mohri", "given": "M." }],
-    "issued": { "date-parts": [[2002]] },
-    "container-title": "Journal of Automata, Languages and Combinatorics",
-    "volume": "7",
-    "issue": "3",
-    "page": "321-350"
-  },
-  {
-    "id": "maccrimmon1964",
-    "type": "article-journal",
-    "title": "An analytical study of the PERT assumptions",
+    "id": "arias2016",
+    "type": "paper-conference",
+    "title": "A framework for recommending resource allocation based on process mining",
     "author": [
-      { "family": "MacCrimmon", "given": "K.R." },
-      { "family": "Ryavec", "given": "C.A." }
+      { "family": "Arias", "given": "M." },
+      { "family": "Rojas", "given": "E." },
+      { "family": "Munoz-Gama", "given": "J." },
+      { "family": "Sepúlveda", "given": "M." }
     ],
-    "issued": { "date-parts": [[1964]] },
-    "container-title": "Operations Research",
-    "volume": "12",
-    "issue": "1",
-    "page": "16-37",
-    "DOI": "10.1287/opre.12.1.16"
+    "issued": { "date-parts": [[2016]] },
+    "container-title": "Business Process Management Workshops (BPM 2015)",
+    "collection-title": "Lecture Notes in Business Information Processing",
+    "volume": "256",
+    "page": "458-470",
+    "publisher": "Springer",
+    "DOI": "10.1007/978-3-319-42887-1_37"
+  },
+  {
+    "id": "arias2018",
+    "type": "article-journal",
+    "title": "Human resource allocation in business process management and process mining: A systematic mapping study",
+    "author": [
+      { "family": "Arias", "given": "M." },
+      { "family": "Saavedra", "given": "R." },
+      { "family": "Marques", "given": "M.R." },
+      { "family": "Munoz-Gama", "given": "J." },
+      { "family": "Sepúlveda", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2018]] },
+    "container-title": "Management Decision",
+    "volume": "56",
+    "issue": "2",
+    "page": "376-405",
+    "DOI": "10.1108/MD-05-2017-0476"
+  },
+  {
+    "id": "russell2005",
+    "type": "paper-conference",
+    "title": "Workflow resource patterns: Identification, representation and tool support",
+    "author": [
+      { "family": "Russell", "given": "N." },
+      { "family": "van der Aalst", "given": "W.M.P." },
+      { "family": "ter Hofstede", "given": "A.H.M." },
+      { "family": "Edmond", "given": "D." }
+    ],
+    "issued": { "date-parts": [[2005]] },
+    "container-title": "Advanced Information Systems Engineering (CAiSE 2005)",
+    "collection-title": "Lecture Notes in Computer Science",
+    "volume": "3520",
+    "page": "216-232",
+    "publisher": "Springer",
+    "DOI": "10.1007/11431855_16"
   },
   {
     "id": "johnson2023mimicdemo",
@@ -535,5 +1276,20 @@
     "issued": { "date-parts": [[2023]] },
     "publisher": "PhysioNet",
     "DOI": "10.13026/dp1f-ex47"
+  },
+  {
+    "id": "maccrimmon1964",
+    "type": "article-journal",
+    "title": "An analytical study of the PERT assumptions",
+    "author": [
+      { "family": "MacCrimmon", "given": "K.R." },
+      { "family": "Ryavec", "given": "C.A." }
+    ],
+    "issued": { "date-parts": [[1964]] },
+    "container-title": "Operations Research",
+    "volume": "12",
+    "issue": "1",
+    "page": "16-37",
+    "DOI": "10.1287/opre.12.1.16"
   }
 ]

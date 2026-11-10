@@ -86,6 +86,28 @@
     "page": "555-588"
   },
   {
+    "id": "akerlof1970",
+    "type": "article-journal",
+    "title": "The market for \"lemons\": Quality uncertainty and the market mechanism",
+    "author": [
+      {
+        "family": "Akerlof",
+        "given": "G. A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1970
+        ]
+      ]
+    },
+    "container-title": "Quarterly Journal of Economics",
+    "volume": "84",
+    "issue": "3",
+    "page": "488-500"
+  },
+  {
     "id": "klaassen2021",
     "type": "article-journal",
     "title": "Harmonizing corporate carbon footprints",

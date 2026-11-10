@@ -41,7 +41,7 @@ const CSS = `
 .paper-bib-num { flex: none; width: 10mm; }
 .paper-bib-entry { font-size: 10pt; padding-left: 8mm; text-indent: -8mm; margin-bottom: .5em !important; text-align: left !important; }
 
-.paper { counter-reset: sec def prop fig eq; }
+.paper { counter-reset: sec def prop fig tab eq; }
 .paper-numbered h2 { counter-increment: sec; counter-reset: sub; }
 .paper-numbered h2::before { content: counter(sec) "."; margin-right: .6em; }
 .paper-numbered h3 { counter-increment: sub; }
@@ -49,6 +49,21 @@ const CSS = `
 .paper-numbered .paper-bibliography h2 { counter-increment: none; }
 .paper-numbered .paper-bibliography h2::before { content: none; }
 .paper-figure figcaption::before { counter-increment: fig; content: "Figure " counter(fig) ". "; font-weight: 700; }
+.paper-figure.paper-table figcaption::before { counter-increment: tab; content: "Table " counter(tab) ". "; }
+.paper-table table { font-size: 9pt; border-collapse: collapse; width: 100%; }
+.paper-table th { border-bottom: 1px solid #999; vertical-align: bottom; }
+.paper-table td { border-bottom: 1px solid #ddd; }
+.paper-table tbody tr:last-child td { border-top: 1px solid #999; border-bottom: 1px solid #999; }
+.paper-table td:not(:first-child), .paper-table th:not(:first-child) { text-align: center; }
+.paper-table-rotated thead tr:nth-child(2) th { padding: 1mm .6mm; text-align: center; font-weight: 400; }
+.paper-table-rotated thead tr:nth-child(2) th span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; text-align: left; font-weight: 400; font-size: 8.5pt; line-height: 1.1; }
+.paper-table-rotated tbody tr:nth-child(even) td { background: rgba(0, 0, 0, .045); print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+.paper-table table.paper-table-rotated { font-size: 9.5pt; }
+.paper-table-rotated td:first-child, .paper-table-rotated thead tr:first-child th:first-child { width: 27%; }
+.paper-table-rotated td:first-child { text-align: left !important; hyphens: none; }
+.paper-table-rotated td { padding-top: .3mm; padding-bottom: .3mm; line-height: 1.15; }
+.paper-table-rotated td:not(:first-child) { padding: .3mm .6mm; white-space: nowrap; }
+.paper-table-rotated td:nth-child(8), .paper-table-rotated td:nth-child(12), .paper-table-rotated thead tr:nth-child(2) th:nth-child(7), .paper-table-rotated thead tr:nth-child(2) th:nth-child(11), .paper-table-rotated thead tr:first-child th:nth-child(3), .paper-table-rotated thead tr:first-child th:nth-child(4) { border-left: 1px solid #999; }
 
 .paper-thm { margin: 0 0 1em; break-inside: avoid; }
 .paper-thm > :last-child { margin-bottom: 0; }
@@ -64,9 +79,14 @@ const CSS = `
 .paper-revisions-on .paper-rev { background-color: #d4ebcb; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .paper-revisions-on .paper-rev-block { padding: .15em .35em; margin: 0 -.35em .8em; border-radius: 2px; }
 .paper-revisions-on .paper-rev-block > :last-child { margin-bottom: 0; }
+/* Existing text pointed to in response to review: same toggle, a different colour. */
+.paper-revisions-on .paper-rev-existing { background-color: #cfe1f3; }
+/* Wording-only changes: a faint dotted underline instead of a fill, so substantive revisions stand out. */
+.paper-revisions-on .paper-rev-minor { background-color: transparent; text-decoration: underline dotted #7fae6f; text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
 /* The same mark for text inside SVG figures, where a background can't be set: a stroke in the highlight colour
    painted behind the glyphs. Add className="paper-rev-svg" to a revised <text>. */
 .paper-revisions-on .paper-rev-svg { stroke: #d4ebcb; stroke-width: 7px; stroke-linejoin: round; paint-order: stroke; }
+.paper-revisions-on .paper-rev-svg-minor { text-decoration: underline dotted #7fae6f; }
 /* Review aid: a dull highlighter marking content the reader has not yet checked. */
 .paper-unchecked { background-color: rgba(224, 196, 96, 0.55); border-radius: 1px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 
