@@ -1,0 +1,13 @@
+{
+  "name": "MIMIC common cases",
+  "description": "29 admissions of three case types (coronary bypass, renal failure, sepsis) from the MIMIC-IV Clinical Database Demo, each a project on one shared process, timed from the hospital's own records.",
+  "importer": "importers.import_mimic",
+  "operators": {"duration": "time"},
+  "uses": {"MAP fall": ["patient.age", "patient.weight", "propofol dose"]},
+  "credit": {
+    "source": "MIMIC-IV Clinical Database Demo 2.2, PhysioNet",
+    "url": "https://physionet.org/content/mimic-iv-demo/2.2/",
+    "citation": "Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A. and Mark, R. (2023). MIMIC-IV Clinical Database Demo (version 2.2). PhysioNet. https://doi.org/10.13026/dp1f-ex47",
+    "verify": "Citation from memory: check against the PhysioNet page before publishing."
+  }
+}

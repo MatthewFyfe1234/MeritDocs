@@ -1,579 +1,450 @@
 {
-  "skillsets": [
+  "jobs": [
     {
       "id": "PM",
-      "name": "Project management",
-      "inferred": true
+      "name": "Project management"
     },
     {
       "id": "BA",
-      "name": "Business analysis",
-      "inferred": true
+      "name": "Business analysis"
     },
     {
       "id": "DS",
-      "name": "Design",
-      "inferred": true
+      "name": "Design"
     },
     {
       "id": "DV",
-      "name": "Development",
-      "inferred": true
+      "name": "Development"
     },
     {
       "id": "TS",
-      "name": "Testing",
-      "inferred": true
+      "name": "Testing"
     },
     {
       "id": "OP",
-      "name": "Operations",
-      "inferred": true
+      "name": "Operations"
     }
   ],
   "steps": [
     {
       "id": "project-management",
       "name": "Project management",
-      "label": "Project management",
-      "skillset": "PM",
-      "phase": "supporting tasks",
-      "column": 0,
-      "projects": [
-        "C2015-11",
-        "C2015-15",
-        "C2015-20",
-        "C2015-21",
-        "C2015-22"
-      ]
-    },
-    {
-      "id": "requirements",
-      "name": "Requirements",
-      "label": "Requirements",
-      "skillset": "BA",
-      "phase": "requirements",
-      "column": 0,
-      "projects": [
-        "C2015-11"
-      ]
+      "job": "PM"
     },
     {
       "id": "validation-and-support",
       "name": "Validation and support",
-      "label": "Validation and support",
-      "skillset": "PM",
-      "phase": "supporting tasks",
-      "column": 1,
-      "projects": [
-        "C2015-11",
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "PM"
+    },
+    {
+      "id": "requirements",
+      "name": "Requirements",
+      "job": "BA"
     },
     {
       "id": "business-analysis",
       "name": "Business analysis",
-      "label": "Business analysis",
-      "skillset": "BA",
-      "phase": "analysis",
-      "column": 1,
-      "projects": [
-        "C2015-11",
-        "C2015-20",
-        "C2015-21"
-      ]
+      "job": "BA"
     },
     {
       "id": "analysis-conceptual-design",
-      "name": "Analysis - conceptual design",
-      "label": "Conceptual design",
-      "skillset": "BA",
-      "phase": "analysis",
-      "column": 2,
-      "projects": [
-        "C2015-15",
-        "C2015-22"
-      ]
+      "name": "Conceptual design",
+      "job": "BA"
     },
     {
       "id": "technical-design",
       "name": "Technical design",
-      "label": "Technical design",
-      "skillset": "DS",
-      "phase": "design",
-      "column": 3,
-      "projects": [
-        "C2015-15",
-        "C2015-20"
-      ]
+      "job": "DS"
     },
     {
       "id": "design-integration-mapping",
-      "name": "Design - integration (mapping)",
-      "label": "Integration (mapping)",
-      "skillset": "DS",
-      "phase": "design",
-      "column": 4,
-      "projects": [
-        "C2015-21"
-      ]
+      "name": "Integration (mapping)",
+      "job": "DS"
     },
     {
       "id": "user-interface-design",
       "name": "User interface design",
-      "label": "User interface design",
-      "skillset": "DS",
-      "phase": "design",
-      "column": 5,
-      "projects": [
-        "C2015-21"
-      ]
+      "job": "DS"
     },
     {
       "id": "design-isp-design",
-      "name": "Design - ISP design",
-      "label": "ISP design",
-      "skillset": "DS",
-      "phase": "design",
-      "column": 6,
-      "projects": [
-        "C2015-22"
-      ]
+      "name": "ISP design",
+      "job": "DS"
     },
     {
       "id": "coding",
       "name": "Coding",
-      "label": "Coding",
-      "skillset": "DV",
-      "phase": "development",
-      "column": 7,
-      "projects": [
-        "C2015-11",
-        "C2015-15",
-        "C2015-20",
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "DV"
     },
     {
       "id": "technical-assembly-test",
       "name": "Technical assembly test",
-      "label": "Technical assembly test",
-      "skillset": "DV",
-      "phase": "development",
-      "column": 8,
-      "projects": [
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "DV"
     },
     {
       "id": "bug-fixing",
       "name": "Bug fixing",
-      "label": "Bug fixing",
-      "skillset": "DV",
-      "phase": "development",
-      "column": 9,
-      "projects": [
-        "C2015-22"
-      ]
-    },
-    {
-      "id": "development-bugfixing-and-support",
-      "name": "Development - bugfixing and support",
-      "label": "Bugfixing and support",
-      "skillset": "DV",
-      "phase": "development",
-      "column": 10,
-      "projects": [
-        "C2015-11"
-      ]
+      "job": "DV"
     },
     {
       "id": "test-preparation",
       "name": "Test preparation",
-      "label": "Test preparation",
-      "skillset": "TS",
-      "phase": "ict test",
-      "column": 11,
-      "projects": [
-        "C2015-15",
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "TS"
     },
     {
       "id": "test-coordination",
       "name": "Test coordination",
-      "label": "Test coordination",
-      "skillset": "TS",
-      "phase": "ict test",
-      "column": 12,
-      "projects": [
-        "C2015-15",
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "TS"
     },
     {
       "id": "test-execution",
       "name": "Test execution",
-      "label": "Test execution",
-      "skillset": "TS",
-      "phase": "ict test",
-      "column": 13,
-      "projects": [
-        "C2015-15",
-        "C2015-21",
-        "C2015-22"
-      ]
+      "job": "TS"
     },
     {
       "id": "test-ict-regression-testing",
-      "name": "Test ICT - regression testing",
-      "label": "Regression testing",
-      "skillset": "TS",
-      "phase": "ict test",
-      "column": 14,
-      "projects": [
-        "C2015-22"
-      ]
+      "name": "Regression testing",
+      "job": "TS"
     },
     {
       "id": "uat-support",
       "name": "UAT support",
-      "label": "UAT support",
-      "skillset": "TS",
-      "phase": "uat",
-      "column": 15,
-      "projects": [
-        "C2015-15",
-        "C2015-22"
-      ]
+      "job": "TS"
     },
     {
       "id": "deploy-to-production",
       "name": "Deploy to production",
-      "label": "Deploy to production",
-      "skillset": "OP",
-      "phase": "implementation",
-      "column": 16,
-      "projects": [
-        "C2015-15"
-      ]
+      "job": "OP"
     }
   ],
-  "precedence": [
+  "arcs": [
     {
-      "from": "project-management",
-      "to": "validation-and-support",
+      "product": "Project management output",
+      "src": "project-management",
+      "tgt": "validation-and-support",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Requirements output",
+      "src": "requirements",
+      "tgt": "business-analysis",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Business analysis output",
+      "src": "business-analysis",
+      "tgt": "analysis-conceptual-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Technical design output",
+      "src": "technical-design",
+      "tgt": "design-integration-mapping",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Integration (mapping) output",
+      "src": "design-integration-mapping",
+      "tgt": "user-interface-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "User interface design output",
+      "src": "user-interface-design",
+      "tgt": "design-isp-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Coding output",
+      "src": "coding",
+      "tgt": "technical-assembly-test",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Technical assembly test output",
+      "src": "technical-assembly-test",
+      "tgt": "bug-fixing",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test preparation output",
+      "src": "test-preparation",
+      "tgt": "test-coordination",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test coordination output",
+      "src": "test-coordination",
+      "tgt": "test-execution",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test execution output",
+      "src": "test-execution",
+      "tgt": "test-ict-regression-testing",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Regression testing output",
+      "src": "test-ict-regression-testing",
+      "tgt": "uat-support",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Validated analysis",
+      "src": "analysis-conceptual-design",
+      "tgt": null,
       "basis": "data"
     },
     {
-      "from": "requirements",
-      "to": "business-analysis",
-      "basis": "reasoning"
-    },
-    {
-      "from": "business-analysis",
-      "to": "analysis-conceptual-design",
-      "basis": "reasoning"
-    },
-    {
-      "from": "technical-design",
-      "to": "design-integration-mapping",
-      "basis": "reasoning"
-    },
-    {
-      "from": "design-integration-mapping",
-      "to": "user-interface-design",
-      "basis": "reasoning"
-    },
-    {
-      "from": "user-interface-design",
-      "to": "design-isp-design",
-      "basis": "reasoning"
-    },
-    {
-      "from": "coding",
-      "to": "technical-assembly-test",
-      "basis": "reasoning"
-    },
-    {
-      "from": "technical-assembly-test",
-      "to": "bug-fixing",
-      "basis": "reasoning"
-    },
-    {
-      "from": "bug-fixing",
-      "to": "development-bugfixing-and-support",
-      "basis": "reasoning"
-    },
-    {
-      "from": "test-preparation",
-      "to": "test-coordination",
+      "product": "Completed build",
+      "src": "bug-fixing",
+      "tgt": null,
       "basis": "data"
     },
     {
-      "from": "test-coordination",
-      "to": "test-execution",
+      "product": "Validated analysis",
+      "src": "business-analysis",
+      "tgt": null,
       "basis": "data"
     },
     {
-      "from": "test-execution",
-      "to": "test-ict-regression-testing",
+      "product": "Validated analysis",
+      "src": "business-analysis",
+      "tgt": "coding",
       "basis": "data"
     },
     {
-      "from": "test-ict-regression-testing",
-      "to": "uat-support",
-      "basis": "reasoning"
+      "product": "Validated analysis",
+      "src": "business-analysis",
+      "tgt": "technical-assembly-test",
+      "basis": "data"
+    },
+    {
+      "product": "Completed build",
+      "src": "coding",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Live system",
+      "src": "deploy-to-production",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "design-integration-mapping",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "design-integration-mapping",
+      "tgt": "coding",
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "design-integration-mapping",
+      "tgt": "technical-assembly-test",
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "design-isp-design",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Live system",
+      "src": "project-management",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Project management output",
+      "src": "project-management",
+      "tgt": "analysis-conceptual-design",
+      "basis": "data"
+    },
+    {
+      "product": "Validated requirements",
+      "src": "requirements",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Completed build",
+      "src": "technical-assembly-test",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "technical-design",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "ICT-tested build",
+      "src": "test-coordination",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "ICT-tested build",
+      "src": "test-execution",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "ICT-tested build",
+      "src": "test-ict-regression-testing",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "ICT-tested build",
+      "src": "test-preparation",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Accepted release",
+      "src": "uat-support",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "user-interface-design",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "user-interface-design",
+      "tgt": "coding",
+      "basis": "data"
+    },
+    {
+      "product": "Validated design",
+      "src": "user-interface-design",
+      "tgt": "technical-assembly-test",
+      "basis": "data"
+    },
+    {
+      "product": "Requirements output",
+      "src": "requirements",
+      "tgt": "technical-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Business analysis output",
+      "src": "business-analysis",
+      "tgt": "technical-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Conceptual design output",
+      "src": "analysis-conceptual-design",
+      "tgt": "technical-design",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Technical design output",
+      "src": "technical-design",
+      "tgt": "coding",
+      "basis": "reasoned"
+    },
+    {
+      "product": "ISP design output",
+      "src": "design-isp-design",
+      "tgt": "coding",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Coding output",
+      "src": "coding",
+      "tgt": "test-preparation",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Technical assembly test output",
+      "src": "technical-assembly-test",
+      "tgt": "test-preparation",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Bug fixing output",
+      "src": "bug-fixing",
+      "tgt": "test-preparation",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test preparation output",
+      "src": "test-preparation",
+      "tgt": "deploy-to-production",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test coordination output",
+      "src": "test-coordination",
+      "tgt": "deploy-to-production",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Test execution output",
+      "src": "test-execution",
+      "tgt": "deploy-to-production",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Regression testing output",
+      "src": "test-ict-regression-testing",
+      "tgt": "deploy-to-production",
+      "basis": "reasoned"
+    },
+    {
+      "product": "UAT support output",
+      "src": "uat-support",
+      "tgt": "deploy-to-production",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Coding output",
+      "src": "coding",
+      "tgt": "validation-and-support",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Validation and support output",
+      "src": "validation-and-support",
+      "tgt": "bug-fixing",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Request",
+      "src": null,
+      "tgt": "project-management",
+      "basis": "reasoned"
+    },
+    {
+      "product": "Project management output",
+      "src": "project-management",
+      "tgt": "requirements",
+      "basis": "reasoned"
     }
   ],
-  "observed": [
+  "metrics": [
     {
-      "from": "coding",
-      "to": "development-bugfixing-and-support",
-      "projects": [
-        "C2015-11"
-      ]
+      "name": "duration",
+      "kind": "numerical"
     },
     {
-      "from": "project-management",
-      "to": "validation-and-support",
-      "projects": [
-        "C2015-11",
-        "C2015-21",
-        "C2015-22"
-      ]
-    },
-    {
-      "from": "test-coordination",
-      "to": "test-execution",
-      "projects": [
-        "C2015-15",
-        "C2015-22"
-      ]
-    },
-    {
-      "from": "test-execution",
-      "to": "test-ict-regression-testing",
-      "projects": [
-        "C2015-22"
-      ]
-    },
-    {
-      "from": "test-preparation",
-      "to": "test-coordination",
-      "projects": [
-        "C2015-21"
-      ]
-    },
-    {
-      "from": "test-preparation",
-      "to": "test-execution",
-      "projects": [
-        "C2015-15",
-        "C2015-21",
-        "C2015-22"
-      ]
-    }
-  ],
-  "products": [
-    {
-      "id": "project-management--analysis-conceptual-design",
-      "name": null,
-      "milestone": null,
-      "projects": [
-        "C2015-15"
-      ],
-      "from": [
-        "project-management"
-      ],
-      "to": [
-        "analysis-conceptual-design"
-      ],
-      "into": []
-    },
-    {
-      "id": "analysis-validated",
-      "name": "Validated analysis",
-      "milestone": "Analysis validated",
-      "projects": [
-        "C2015-11",
-        "C2015-15",
-        "C2015-20",
-        "C2015-21",
-        "C2015-22"
-      ],
-      "from": [
-        "analysis-conceptual-design",
-        "business-analysis"
-      ],
-      "to": [],
-      "into": [
-        "design-validated",
-        "go-live"
-      ]
-    },
-    {
-      "id": "code-freeze",
-      "name": "Frozen code baseline",
-      "milestone": "Code freeze",
-      "projects": [
-        "C2015-11",
-        "C2015-20",
-        "C2015-22"
-      ],
-      "from": [],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "design-validated",
-      "name": "Validated design",
-      "milestone": "Design validated",
-      "projects": [
-        "C2015-15",
-        "C2015-20",
-        "C2015-21",
-        "C2015-22"
-      ],
-      "from": [
-        "design-integration-mapping",
-        "design-isp-design",
-        "technical-design",
-        "user-interface-design"
-      ],
-      "to": [
-        "coding",
-        "technical-assembly-test"
-      ],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "development-completed",
-      "name": "Completed build",
-      "milestone": "Development completed",
-      "projects": [
-        "C2015-11",
-        "C2015-15",
-        "C2015-20",
-        "C2015-22"
-      ],
-      "from": [
-        "bug-fixing",
-        "coding",
-        "development-bugfixing-and-support",
-        "technical-assembly-test"
-      ],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "full-handover-to-uat",
-      "name": "Handover package",
-      "milestone": "Full handover to UAT",
-      "projects": [
-        "C2015-21",
-        "C2015-22"
-      ],
-      "from": [],
-      "to": [],
-      "into": [
-        "go-live",
-        "uat-completed"
-      ]
-    },
-    {
-      "id": "go-live",
-      "name": "Live system",
-      "milestone": "Go live",
-      "projects": [
-        "C2015-11",
-        "C2015-15",
-        "C2015-20",
-        "C2015-21",
-        "C2015-22"
-      ],
-      "from": [
-        "deploy-to-production",
-        "project-management"
-      ],
-      "to": [],
-      "into": []
-    },
-    {
-      "id": "ict-test-completed",
-      "name": "ICT-tested build",
-      "milestone": "ICT test completed",
-      "projects": [
-        "C2015-15",
-        "C2015-21",
-        "C2015-22"
-      ],
-      "from": [
-        "test-coordination",
-        "test-execution",
-        "test-ict-regression-testing",
-        "test-preparation"
-      ],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "release-handover",
-      "name": "Release package",
-      "milestone": "Release handover",
-      "projects": [
-        "C2015-11",
-        "C2015-22"
-      ],
-      "from": [],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "requirements-validated",
-      "name": "Validated requirements",
-      "milestone": "Requirements validated",
-      "projects": [
-        "C2015-11"
-      ],
-      "from": [
-        "requirements"
-      ],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
-    },
-    {
-      "id": "uat-completed",
-      "name": "Accepted release",
-      "milestone": "UAT completed",
-      "projects": [
-        "C2015-15",
-        "C2015-22"
-      ],
-      "from": [
-        "uat-support"
-      ],
-      "to": [],
-      "into": [
-        "go-live"
-      ]
+      "name": "cost",
+      "kind": "numerical"
     }
   ]
 }

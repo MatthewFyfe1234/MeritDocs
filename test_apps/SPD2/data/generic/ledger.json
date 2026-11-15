@@ -1,0 +1,112 @@
+{
+ "i3": {
+  "order": 1,
+  "r": 0.8,
+  "forecasts": {
+   "p1": {
+    "y": {
+     "r": 2.1,
+     "median": 2.1
+    }
+   }
+  },
+  "value": {
+   "y": {
+    "r": 0,
+    "median": 0
+   }
+  },
+  "eligible": {
+   "j1": [
+    "a1",
+    "a4",
+    "a5"
+   ]
+  },
+  "events": [
+   {
+    "kind": "taken",
+    "params": {
+     "agent": "a1",
+     "job": "Skillset 1"
+    },
+    "refs": [
+     "j1",
+     "a1"
+    ]
+   },
+   {
+    "kind": "recorded",
+    "params": {
+     "step": "p1",
+     "metric": "y",
+     "actual": 1.92,
+     "forecast": 2.1
+    },
+    "refs": [
+     "p1"
+    ]
+   },
+   {
+    "kind": "delivered",
+    "params": {
+     "project": "i3",
+     "metric": "y",
+     "actual": 0,
+     "forecast": 0
+    },
+    "refs": []
+   }
+  ]
+ },
+ "i4": {
+  "order": 2,
+  "r": 0.8,
+  "forecasts": {
+   "p1": {
+    "y": {
+     "r": 2.1,
+     "median": 1.92
+    }
+   }
+  },
+  "value": {
+   "y": {
+    "r": 0,
+    "median": 0
+   }
+  },
+  "eligible": {
+   "j1": [
+    "a1",
+    "a4",
+    "a5"
+   ]
+  },
+  "events": [
+   {
+    "kind": "taken",
+    "params": {
+     "agent": "a5",
+     "job": "Skillset 1"
+    },
+    "refs": [
+     "j1",
+     "a5"
+    ]
+   },
+   {
+    "kind": "recorded",
+    "params": {
+     "step": "p1",
+     "metric": "y",
+     "actual": 2.46,
+     "forecast": 2.1
+    },
+    "refs": [
+     "p1"
+    ]
+   }
+  ]
+ }
+}

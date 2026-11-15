@@ -1,0 +1,5 @@
+{
+  "name": "Generic",
+  "description": "The paper's illustration (Figure 1): master specification S with A, B and C, and steps p1 to r2 in three skillsets. Hand-authored, no importer.",
+  "operators": {"y": "time"}
+}

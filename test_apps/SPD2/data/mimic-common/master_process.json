@@ -1,0 +1,155 @@
+{
+  "jobs": [
+    {
+      "id": "ED",
+      "name": "Emergency medicine"
+    },
+    {
+      "id": "CS",
+      "name": "Cardiac surgery"
+    },
+    {
+      "id": "CC",
+      "name": "Critical care"
+    },
+    {
+      "id": "WD",
+      "name": "Ward"
+    }
+  ],
+  "steps": [
+    {
+      "id": "ed",
+      "name": "Emergency assessment",
+      "job": "ED"
+    },
+    {
+      "id": "pre-op",
+      "name": "Pre-operative workup",
+      "job": "CS"
+    },
+    {
+      "id": "operate",
+      "name": "Operate",
+      "job": "CS"
+    },
+    {
+      "id": "ventilate",
+      "name": "Ventilate and wean",
+      "job": "CC"
+    },
+    {
+      "id": "icu",
+      "name": "Intensive care",
+      "job": "CC"
+    },
+    {
+      "id": "ward",
+      "name": "Ward care",
+      "job": "WD"
+    }
+  ],
+  "arcs": [
+    {
+      "product": "Arriving patient",
+      "src": null,
+      "tgt": "ed",
+      "basis": "data"
+    },
+    {
+      "product": "Admitted patient",
+      "src": null,
+      "tgt": "pre-op",
+      "basis": "data"
+    },
+    {
+      "product": "Patient admitted to ICU",
+      "src": null,
+      "tgt": "icu",
+      "basis": "data"
+    },
+    {
+      "product": "Patient for surgery",
+      "src": "ed",
+      "tgt": "pre-op",
+      "basis": "data"
+    },
+    {
+      "product": "Patient for ICU",
+      "src": "ed",
+      "tgt": "icu",
+      "basis": "data"
+    },
+    {
+      "product": "Patient for a ward",
+      "src": "ed",
+      "tgt": "ward",
+      "basis": "data"
+    },
+    {
+      "product": "Patient for theatre",
+      "src": "pre-op",
+      "tgt": "operate",
+      "basis": "data"
+    },
+    {
+      "product": "Patient from theatre",
+      "src": "operate",
+      "tgt": "ventilate",
+      "basis": "data"
+    },
+    {
+      "product": "Patient from theatre",
+      "src": "operate",
+      "tgt": "icu",
+      "basis": "data"
+    },
+    {
+      "product": "Extubated patient",
+      "src": "ventilate",
+      "tgt": "icu",
+      "basis": "data"
+    },
+    {
+      "product": "Patient stepped down",
+      "src": "icu",
+      "tgt": "ward",
+      "basis": "data"
+    },
+    {
+      "product": "Patient leaving the ICU",
+      "src": "icu",
+      "tgt": null,
+      "basis": "data"
+    },
+    {
+      "product": "Discharged patient",
+      "src": "ward",
+      "tgt": null,
+      "basis": "data"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "duration",
+      "kind": "numerical"
+    },
+    {
+      "name": "propofol dose",
+      "kind": "numerical",
+      "steps": [
+        "ventilate",
+        "icu"
+      ]
+    },
+    {
+      "name": "MAP fall",
+      "kind": "numerical",
+      "steps": [
+        "ventilate",
+        "icu"
+      ],
+      "depends": "propofol dose"
+    }
+  ]
+}

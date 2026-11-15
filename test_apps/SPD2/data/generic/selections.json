@@ -1,0 +1,52 @@
+{
+  "seed-1": {
+    "id": "seed-1-S",
+    "node": "S",
+    "children": [
+      {
+        "id": "seed-1-A",
+        "node": "A",
+        "values": {
+          "d": 3
+        },
+        "children": [
+          {
+            "id": "seed-1-B",
+            "node": "B"
+          }
+        ]
+      }
+    ]
+  },
+  "seed-2": {
+    "id": "seed-2-S",
+    "node": "S",
+    "children": [
+      {
+        "id": "seed-2-A",
+        "node": "A",
+        "values": {
+          "d": 4
+        },
+        "children": [
+          {
+            "id": "seed-2-C",
+            "node": "C"
+          }
+        ]
+      }
+    ]
+  },
+  "i3": {
+    "id": "i3-S",
+    "node": "S",
+    "values": {},
+    "children": []
+  },
+  "i4": {
+    "id": "i4-S",
+    "node": "S",
+    "values": {},
+    "children": []
+  }
+}

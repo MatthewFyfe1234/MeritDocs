@@ -1,0 +1,1377 @@
+{
+  "cabg-20044587": {
+    "id": "cabg-20044587-patient",
+    "node": "patient",
+    "values": {
+      "age": 70,
+      "weight": 78.0,
+      "admission": "Planned"
+    },
+    "children": [
+      {
+        "id": "cabg-20044587-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20044587-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 4
+            },
+            "children": [
+              {
+                "id": "cabg-20044587-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-20044587-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20044587-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-20044587-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-20297618": {
+    "id": "cabg-20297618-patient",
+    "node": "patient",
+    "values": {
+      "age": 44,
+      "weight": 97.1,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-20297618-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20297618-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 1
+            },
+            "children": [
+              {
+                "id": "cabg-20297618-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-20297618-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20297618-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-20297618-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-20626031": {
+    "id": "cabg-20626031-patient",
+    "node": "patient",
+    "values": {
+      "age": 66,
+      "weight": 91.1,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-20626031-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20626031-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 3
+            },
+            "children": [
+              {
+                "id": "cabg-20626031-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-20626031-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-20626031-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-20626031-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-21255400": {
+    "id": "cabg-21255400-patient",
+    "node": "patient",
+    "values": {
+      "age": 78,
+      "weight": 62.6,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-21255400-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-21255400-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 4
+            },
+            "children": [
+              {
+                "id": "cabg-21255400-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-21255400-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-21255400-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-21255400-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-22342963": {
+    "id": "cabg-22342963-patient",
+    "node": "patient",
+    "values": {
+      "age": 59,
+      "weight": 65.0,
+      "admission": "Planned"
+    },
+    "children": [
+      {
+        "id": "cabg-22342963-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-22342963-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 4
+            },
+            "children": [
+              {
+                "id": "cabg-22342963-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-22342963-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-22342963-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-22342963-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-22580999": {
+    "id": "cabg-22580999-patient",
+    "node": "patient",
+    "values": {
+      "age": 70,
+      "weight": 102.1,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-22580999-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-22580999-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 4
+            },
+            "children": [
+              {
+                "id": "cabg-22580999-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-22580999-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-22580999-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-22580999-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-24490144": {
+    "id": "cabg-24490144-patient",
+    "node": "patient",
+    "values": {
+      "age": 62,
+      "weight": 114.6,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-24490144-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-24490144-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 3
+            },
+            "children": [
+              {
+                "id": "cabg-24490144-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-24490144-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-24490144-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-24490144-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-25926192": {
+    "id": "cabg-25926192-patient",
+    "node": "patient",
+    "values": {
+      "age": 58,
+      "weight": 64.9,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-25926192-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-25926192-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 5
+            },
+            "children": [
+              {
+                "id": "cabg-25926192-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-25926192-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-25926192-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-25926192-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-27089790": {
+    "id": "cabg-27089790-patient",
+    "node": "patient",
+    "values": {
+      "age": 78,
+      "weight": 74.8,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-27089790-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-27089790-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 3
+            },
+            "children": [
+              {
+                "id": "cabg-27089790-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-27089790-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-27089790-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-27089790-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-27505812": {
+    "id": "cabg-27505812-patient",
+    "node": "patient",
+    "values": {
+      "age": 67,
+      "weight": 61.2,
+      "admission": "Planned"
+    },
+    "children": [
+      {
+        "id": "cabg-27505812-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-27505812-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 5
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "cabg-27505812-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-27505812-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-27505812-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "cabg-29366372": {
+    "id": "cabg-29366372-patient",
+    "node": "patient",
+    "values": {
+      "age": 42,
+      "weight": 109.5,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "cabg-29366372-chest",
+        "node": "chest",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-29366372-bypass",
+            "node": "bypass",
+            "values": {
+              "grafts": 3
+            },
+            "children": [
+              {
+                "id": "cabg-29366372-post-op-ventilation",
+                "node": "post-op-ventilation",
+                "values": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cabg-29366372-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "cabg-29366372-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-29366372-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "cabg-29366372-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-22251969": {
+    "id": "renal-22251969-patient",
+    "node": "patient",
+    "values": {
+      "age": 68,
+      "weight": 93.0,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-22251969-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-22251969-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-22251969-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-22251969-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-22251969-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-22539296": {
+    "id": "renal-22539296-patient",
+    "node": "patient",
+    "values": {
+      "age": 92,
+      "weight": 64.9,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-22539296-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-22539296-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-22539296-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-22539296-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-22539296-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-24244087": {
+    "id": "renal-24244087-patient",
+    "node": "patient",
+    "values": {
+      "age": 57,
+      "weight": 78.7,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-24244087-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-24244087-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-24244087-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-24244087-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-24244087-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-26013492": {
+    "id": "renal-26013492-patient",
+    "node": "patient",
+    "values": {
+      "age": 61,
+      "weight": 115.2,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-26013492-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26013492-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-26013492-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26013492-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-26013492-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-26228185": {
+    "id": "renal-26228185-patient",
+    "node": "patient",
+    "values": {
+      "age": 64,
+      "weight": 126.1,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-26228185-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26228185-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-26228185-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26228185-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-26228185-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-26793610": {
+    "id": "renal-26793610-patient",
+    "node": "patient",
+    "values": {
+      "age": 48,
+      "weight": 47.6,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-26793610-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26793610-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-26793610-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-26793610-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-26793610-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "renal-29802992": {
+    "id": "renal-29802992-patient",
+    "node": "patient",
+    "values": {
+      "age": 82,
+      "weight": 57.6,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "renal-29802992-kidneys",
+        "node": "kidneys",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-29802992-renal-failure",
+            "node": "renal-failure",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "renal-29802992-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "renal-29802992-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "renal-29802992-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-22413744": {
+    "id": "sepsis-22413744-patient",
+    "node": "patient",
+    "values": {
+      "age": 58,
+      "weight": 87.5,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-22413744-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-22413744-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-22413744-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-22413744-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-22413744-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-22995465": {
+    "id": "sepsis-22995465-patient",
+    "node": "patient",
+    "values": {
+      "age": 56,
+      "weight": 65.8,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-22995465-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-22995465-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-22995465-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-22995465-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-22995465-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-22995465-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-23473524": {
+    "id": "sepsis-23473524-patient",
+    "node": "patient",
+    "values": {
+      "age": 81,
+      "weight": 44.9,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-23473524-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23473524-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-23473524-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23473524-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-23473524-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-23488445": {
+    "id": "sepsis-23488445-patient",
+    "node": "patient",
+    "values": {
+      "age": 86,
+      "weight": 67.3,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-23488445-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23488445-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-23488445-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23488445-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-23488445-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-23819016": {
+    "id": "sepsis-23819016-patient",
+    "node": "patient",
+    "values": {
+      "age": 48,
+      "weight": 47.6,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-23819016-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23819016-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-23819016-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23819016-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-23819016-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-23819016-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-23831430": {
+    "id": "sepsis-23831430-patient",
+    "node": "patient",
+    "values": {
+      "age": 56,
+      "weight": 81.8,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-23831430-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23831430-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-23831430-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-23831430-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-23831430-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-24181354": {
+    "id": "sepsis-24181354-patient",
+    "node": "patient",
+    "values": {
+      "age": 47,
+      "weight": 115.5,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-24181354-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-24181354-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-24181354-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-24181354-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-24181354-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-24181354-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-27617929": {
+    "id": "sepsis-27617929-patient",
+    "node": "patient",
+    "values": {
+      "age": 60,
+      "weight": 88.4,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-27617929-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-27617929-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-27617929-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-27617929-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-28662225": {
+    "id": "sepsis-28662225-patient",
+    "node": "patient",
+    "values": {
+      "age": 81,
+      "weight": 44.9,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-28662225-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-28662225-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-28662225-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-28662225-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-28662225-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-28662225-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-29279905": {
+    "id": "sepsis-29279905-patient",
+    "node": "patient",
+    "values": {
+      "age": 70,
+      "weight": 85.1,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-29279905-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-29279905-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-29279905-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-29279905-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-29279905-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-29279905-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "sepsis-29974575": {
+    "id": "sepsis-29974575-patient",
+    "node": "patient",
+    "values": {
+      "age": 72,
+      "weight": 107.0,
+      "admission": "Unplanned"
+    },
+    "children": [
+      {
+        "id": "sepsis-29974575-whole-body",
+        "node": "whole-body",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-29974575-sepsis",
+            "node": "sepsis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sepsis-29974575-care",
+        "node": "care",
+        "values": {},
+        "children": [
+          {
+            "id": "sepsis-29974575-emergency",
+            "node": "emergency",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-29974575-intensive",
+            "node": "intensive",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "sepsis-29974575-wards",
+            "node": "wards",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

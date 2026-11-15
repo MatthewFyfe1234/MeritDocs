@@ -1,0 +1,1322 @@
+[
+  {
+    "project": "C2015-11",
+    "step": "project-management",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 20.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "project-management",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1800.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "validation-and-support",
+    "time": "2014-04-14T07:59",
+    "agents": [
+      "11-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "validation-and-support",
+    "time": "2014-04-14T07:59",
+    "agents": [
+      "11-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "validation-and-support",
+    "time": "2014-04-14T07:59",
+    "agents": [
+      "11-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "validation-and-support",
+    "time": "2014-04-14T07:59",
+    "agents": [
+      "11-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "requirements",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 17.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "requirements",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1275.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "business-analysis",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 52.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "business-analysis",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "11-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 4680.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "bug-fixing",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 15.0
+  },
+  {
+    "project": "C2015-11",
+    "step": "bug-fixing",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "11-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1125.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "project-management",
+    "time": "2014-02-21T07:59",
+    "agents": [
+      "15-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 19.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "project-management",
+    "time": "2014-02-21T07:59",
+    "agents": [
+      "15-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1710.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "analysis-conceptual-design",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "15-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "analysis-conceptual-design",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "15-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "technical-design",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "technical-design",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 9.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "15-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 675.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-10T07:59",
+    "agents": [
+      "15-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 12.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "coding",
+    "time": "2014-03-10T07:59",
+    "agents": [
+      "15-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 900.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-preparation",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 24.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-preparation",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1800.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-coordination",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "15-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 3.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-coordination",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "15-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 225.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 2.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 150.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "uat-support",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "uat-support",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "15-K"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "deploy-to-production",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "15-L"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-15",
+    "step": "deploy-to-production",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "15-L"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "project-management",
+    "time": "2013-09-16T07:59",
+    "agents": [
+      "20-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 10.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "project-management",
+    "time": "2013-09-16T07:59",
+    "agents": [
+      "20-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 900.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "business-analysis",
+    "time": "2013-09-16T07:59",
+    "agents": [
+      "20-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "business-analysis",
+    "time": "2013-09-16T07:59",
+    "agents": [
+      "20-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "technical-design",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 31.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "technical-design",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 2325.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 50.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 3750.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 39.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 2925.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 15.0
+  },
+  {
+    "project": "C2015-20",
+    "step": "coding",
+    "time": "2013-09-09T07:59",
+    "agents": [
+      "20-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1125.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "project-management",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 6.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "project-management",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 540.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-04-07T07:59",
+    "agents": [
+      "21-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 2.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-04-07T07:59",
+    "agents": [
+      "21-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 150.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "validation-and-support",
+    "time": "2014-03-31T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "business-analysis",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 4.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "business-analysis",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 300.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "design-integration-mapping",
+    "time": "2014-03-25T07:59",
+    "agents": [
+      "21-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "design-integration-mapping",
+    "time": "2014-03-25T07:59",
+    "agents": [
+      "21-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "user-interface-design",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 9.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "user-interface-design",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 675.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "coding",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 3.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "coding",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 225.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "technical-assembly-test",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "technical-assembly-test",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-coordination",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 2.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-coordination",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "21-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 150.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-preparation",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 4.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-preparation",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 300.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 8.0
+  },
+  {
+    "project": "C2015-21",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "21-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 600.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "project-management",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 15.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "project-management",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-A"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1350.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "project-management",
+    "time": "2013-10-14T07:59",
+    "agents": [
+      "22-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 16.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "project-management",
+    "time": "2013-10-14T07:59",
+    "agents": [
+      "22-B"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1200.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "validation-and-support",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "22-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "validation-and-support",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "22-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "validation-and-support",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 32.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "validation-and-support",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 2400.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "analysis-conceptual-design",
+    "time": "2014-02-03T07:59",
+    "agents": [
+      "22-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 7.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "analysis-conceptual-design",
+    "time": "2014-02-03T07:59",
+    "agents": [
+      "22-C"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 525.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "design-isp-design",
+    "time": "2014-01-27T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 36.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "design-isp-design",
+    "time": "2014-01-27T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 2700.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "coding",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "22-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 9.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "coding",
+    "time": "2014-03-17T07:59",
+    "agents": [
+      "22-E"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 675.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 2.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "coding",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 150.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "technical-assembly-test",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "technical-assembly-test",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-D"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "bug-fixing",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "bug-fixing",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-F"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-ict-regression-testing",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-ict-regression-testing",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-coordination",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 12.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-coordination",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 900.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 12.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-execution",
+    "time": "2014-03-24T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 900.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-execution",
+    "time": "2014-03-10T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 8.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-execution",
+    "time": "2014-03-10T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 600.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-preparation",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 15.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-preparation",
+    "time": "2014-02-24T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 1125.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-preparation",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 28.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "test-preparation",
+    "time": "2014-03-03T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 2100.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-03-14T07:59",
+    "agents": [
+      "22-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-03-14T07:59",
+    "agents": [
+      "22-H"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-04-09T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-04-09T07:59",
+    "agents": [
+      "22-G"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "duration",
+    "value": 1.0
+  },
+  {
+    "project": "C2015-22",
+    "step": "uat-support",
+    "time": "2014-04-08T07:59",
+    "agents": [
+      "22-I"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "cost",
+    "value": 75.0
+  }
+]

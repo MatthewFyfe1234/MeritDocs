@@ -51,8 +51,13 @@ Applies to every paper under `src/app/documents/papers/`. A paper's own `NOTES.m
 - Give parallel objects parallel definitions, in the same order: what it breaks down, how its parts relate, its
   notation with the symbol for a single member ("a single one written $x$"), and what each member has.
 - Place an attribute's definition straight after the object it belongs to, as Descriptor after the specification.
-- Mark an instance with a hat: $\hat{x}$ is an instance of $x$, and $\hat{T}$ of $T$.
+- Mark an instance with a hat: $\hat{x}$ is an instance of $x$, and $\hat{T}$ of $T$. Keep hats off metrics,
+  forecasts and other quantities, where readers take a hat to mean an estimate ($\hat{y}$).
+- Mark another object of the same kind with a prime, instance or not: $i'$ is another project, $\hat{T}'$ another
+  selection.
 - Before introducing a symbol, check it isn't already in use, including in figures and examples.
+- Declare every symbol in the prose once and only once, at or before its first use in an equation ("written
+  $X$"). Don't re-declare it in a later definition; refer to it by name.
 - Keep a verb to one sense: "bound" for a value given on an instance, "carry" for a product on an arc, "typed" for
   products. Inside the definitions, avoid "define" for what the model does (use "specify").
 - Write the model's master objects at the level of the domain, not of a project.
@@ -121,3 +126,4 @@ Set `revisions: true` in the paper's config. Deletions aren't marked. Text insid
 - When condensing or rewriting, keep every settled decision and its wording.
 - Say so when you disagree. Honest disagreement is wanted, and agreement for its own sake is not.
 - Triage external reviews against what is already decided. Don't reopen a settled point because a reviewer raises it.
+  A paper's `REVIEWER-IGNORES.md` lists its settled points; check it first, and add to it when a point is settled.

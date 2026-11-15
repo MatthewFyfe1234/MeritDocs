@@ -47,7 +47,7 @@ const FIG_VIEWBOX = '0 0 480 215';
 const FIG_WIDTH_PCT = '65%';
 
 /** Figure 2 (mapping): a stripped subset of MasterInstanceFigure, showing only component A and the two steps it
- *  necessitates, p1 and q2, in the same coordinates, palette and lane bands as Figure 1, so the equivalence is
+ *  necessitates, p2 and q2, in the same coordinates, palette and lane bands as Figure 1, so the equivalence is
  *  seen rather than asserted. Nothing carries a height yet; height enters in the scaling figure. The two steps
  *  fall in different skillset lanes, which the mapping, not the lettering, ties to A. */
 export function MappingFigure() {
@@ -67,7 +67,7 @@ export function MappingFigure() {
       <text x={81} y={81} fontSize={9} fill="#4a3c28" textAnchor="middle">A</text>
 
       <rect x={285} y={51} width={62} height={22} rx={3} fill="#efe9e0" stroke="#8a6d4a" strokeWidth={1} />
-      <text x={316} y={65} fontSize={9} fill="#4a3c28" textAnchor="middle">p1</text>
+      <text x={316} y={65} fontSize={9} fill="#4a3c28" textAnchor="middle">p2</text>
 
       <rect x={399} y={103} width={62} height={22} rx={3} fill="#efe9e0" stroke="#8a6d4a" strokeWidth={1} />
       <text x={430} y={117} fontSize={9} fill="#4a3c28" textAnchor="middle">q2</text>
@@ -75,7 +75,7 @@ export function MappingFigure() {
   );
 }
 
-/** Figure 3 (scaling): the same A, p1 and q2 as Figure 2, now carrying a height. The skillset lanes become a
+/** Figure 3 (scaling): the same A, p2 and q2 as Figure 2, now carrying a height. The skillset lanes become a
  *  floor receding in the boxes' own oblique projection, Skillset 2 in front and Skillset 1 behind, and each step
  *  stands on its lane at its Figure 2 x position, shifted only by the projection of its depth. Descriptor d is
  *  read off A's height and metric y off each step's; the relation is stochastic, x scaling the distribution y
@@ -95,10 +95,10 @@ export function ScalingFigure() {
     points.map(([x, y], i) => `${i ? 'L' : 'M'}${proj(x, y).join(',')}`).join(' ');
 
   // Figure 2 footprints [x0, y0, x1, y1], extruded by height, with the side the dimension bracket sits on (q2's
-  // left is crowded by p1, so its bracket measures the back-right edge instead); drawn back to front.
+  // left is crowded by p2, so its bracket measures the back-right edge instead); drawn back to front.
   const boxes: { fp: [number, number, number, number]; h: number; label: string; fill: string; dim: string; dimColor: string; side: 'left' | 'right' }[] = [
     { fp: [58, 66, 104, 90], h: 56, label: 'A', fill: '#8a6d4a', dim: 'descriptor d', dimColor: '#8a6d4a', side: 'left' },
-    { fp: [285, 51, 347, 73], h: 36, label: 'p1', fill: '#666', dim: 'metric y', dimColor: '#444', side: 'left' },
+    { fp: [285, 51, 347, 73], h: 36, label: 'p2', fill: '#666', dim: 'metric y', dimColor: '#444', side: 'left' },
     { fp: [399, 103, 461, 125], h: 52, label: 'q2', fill: '#666', dim: 'metric y', dimColor: '#444', side: 'right' },
   ];
   // A height bracket at x from yBottom up h, ticks pointing back at the box, label set outside it.
@@ -476,12 +476,16 @@ export function MasterMapFigure() {
  *  0 = triage (the triage nurse selects the abdominal region, mapping to the assessment); 1 = the physician's assessment
  *  localises the biliary tract structure, which necessitates the ultrasound; 2 = the ultrasound confirms the gallstone
  *  issue, which reaches the surgeon and anaesthetist. Nothing is added to the master; more of it is selected.
- *  The Patient root carries the patient-level descriptors (age, weight, ASA). */
+ *  The Patient root carries the patient-level descriptors recorded at triage (age, weight); the ASA grade is
+ *  the anaesthetist's, assigned in preparing. */
 export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
   const W = 76, H = 22;
   const bili = stage < 1; // biliary tract structure and the ultrasound it necessitates, faded until the physician assesses
   const gall = stage < 2; // gallstone issue and the treatment it necessitates, faded until imaging confirms
-  const map = (faded: boolean) => (faded ? '#dedede' : '#999');
+  // Steps executed when each stage's selection is made, the last being the step whose finding makes it,
+  // hatched as SPD2 hatches them
+  const executed = [['Triage'], ['Triage', 'Assess'], ['Triage', 'Assess', 'Scan']][stage];
+  const map =(faded: boolean) => (faded ? '#dedede' : '#999');
   const tree = (faded: boolean) => (faded ? '#dedede' : '#aaa');
   const pre = (faded: boolean) => (faded ? '#cfcfcf' : '#8a6d4a');
   const prod = (faded: boolean) => (faded ? '#cfcfcf' : '#157f8f');
@@ -520,6 +524,9 @@ export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
         <marker id="pmPaF" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#cfcfcf" /></marker>
         <marker id="pmPr" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#157f8f" /></marker>
         <marker id="pmPrF" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#cfcfcf" /></marker>
+        <pattern id={`pmHatch${stage}`} width={6} height={6} patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+          <line x1={0} y1={0} x2={0} y2={6} stroke="#8a6d4a" strokeWidth={1.6} strokeOpacity={0.45} />
+        </pattern>
       </defs>
 
       <rect x={160} y={34} width={480} height={52} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
@@ -533,7 +540,7 @@ export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
 
       <text x={68} y={22} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master specification</text>
       <text x={400} y={22} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master process, by skillset</text>
-      <text x={52} y={68} fontSize={7} fill="#999" textAnchor="middle" fontStyle="italic">age, weight, ASA</text>
+      <text x={52} y={68} fontSize={7} fill="#999" textAnchor="middle" fontStyle="italic" className="paper-rev-svg-minor">age, weight</text>
       <text x={68} y={105} fontSize={7} fill="#999" textAnchor="middle" fontStyle="italic" className="paper-rev-svg">site, severity</text>
       <text x={52} y={216} fontSize={7} fill={bili ? '#ccc' : '#999'} textAnchor="start" fontStyle="italic" className="paper-rev-svg">wall thickness, duct width</text>
 
@@ -589,11 +596,22 @@ export function PatientMasterFigure({ stage = 0 }: { stage?: 0 | 1 | 2 }) {
       {steps.map(([cx, cy, label, faded], i) => (
         <g key={`p${i}`}>
           <rect x={cx - W / 2} y={cy - H / 2} width={W} height={H} rx={3} fill={faded ? '#f6f6f6' : '#efe9e0'} stroke={faded ? '#cfcfcf' : '#8a6d4a'} strokeWidth={1} strokeDasharray={faded ? '3 2' : undefined} />
+          {executed.includes(label) && <rect x={cx - W / 2} y={cy - H / 2} width={W} height={H} rx={3} fill={`url(#pmHatch${stage})`} />}
           <text x={cx} y={cy + 3} fontSize={9} fill={faded ? '#bbb' : '#4a3c28'} textAnchor="middle" className={revClass(label)}>{label}</text>
         </g>
       ))}
     </svg>
   );
+}
+
+/** The paper's squiggle (~>), a zigzag from a to b, drawn inside a skipped step where a product enters or
+ *  leaves it, so the step's label stays clear between the two. */
+function squiggle([ax, ay]: [number, number], [bx, by]: [number, number], teeth = 4, amp = 3) {
+  const L = Math.hypot(bx - ax, by - ay), ux = (bx - ax) / L, uy = (by - ay) / L;
+  const at = (t: number, side: number) => `${ax + ux * t - uy * amp * side},${ay + uy * t + ux * amp * side}`;
+  let d = `M${ax},${ay}`;
+  for (let k = 1; k <= teeth; k++) d += ` L${at((L * (k - 0.5)) / teeth, k % 2 ? 1 : -1)}`;
+  return `${d} L${bx},${by}`;
 }
 
 /** Generic master specification and master process, with the subset a project selects highlighted (solid) and
@@ -603,23 +621,24 @@ export function MasterInstanceFigure() {
   const specNodes: [number, number, number, string, boolean][] = [
     [30, 30, 46, 'S', false],
     [58, 66, 46, 'A', false],
-    [58, 102, 46, 'B', false],
-    [58, 138, 46, 'C', true],
+    [86, 102, 46, 'B', false],                   // B and C are A's systems, a level below it
+    [86, 138, 46, 'C', true],
   ];
   const steps: [number, number, string, boolean][] = [
-    [MI_P1.cx, MI_P1.cy, 'p1', false],
-    [240, 62, 'p0', false], // necessitated by the root S, the product as a whole (e.g. estimation); comes first
+    [MI_P1.cx, MI_P1.cy, 'p2', false],
+    [240, 62, 'p1', false], // necessitated by the root S, the product as a whole (e.g. estimation); comes first
     [316, 114, 'q1', false],
     [MI_Q2.cx, MI_Q2.cy, 'q2', false],
     [430, 170, 'r1', true],
-    [548, 62, 'p2', true],
+    [430, 62, 'p3', true],
+    [548, 62, 'p4', false], // necessitated by A with r2, so r2 always receives the product it requires
     [548, 170, 'r2', false],
   ];
   const box = (label: string): Box => {
     const [cx, cy] = steps.find(s => s[2] === label)!;
     return miBox(cx, cy);
   };
-  const specIn = terminalIn(box('p0'));
+  const specIn = terminalIn(box('p1'));
   const productOut = terminalOut(box('r2'));
   return (
     <svg viewBox="0 0 660 218" style={{ width: '100%', height: 'auto', display: 'block', margin: '0.5rem auto' }}>
@@ -631,7 +650,7 @@ export function MasterInstanceFigure() {
       <rect x={180} y={30} width={456} height={56} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
       <rect x={180} y={86} width={456} height={56} fill="#f3f1ec" stroke="#e6e4e0" strokeWidth={1} />
       <rect x={180} y={142} width={456} height={56} fill="#faf9f7" stroke="#e6e4e0" strokeWidth={1} />
-      {/* lane labels sit at the right end, leaving the left of Skillset 1 for p0 */}
+      {/* lane labels sit at the right end, leaving the left of Skillset 1 for p1 */}
       <text x={630} y={61} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 1</text>
       <text x={630} y={117} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 2</text>
       <text x={630} y={173} fontSize={8.5} fill="#999" textAnchor="end" fontStyle="italic">Skillset 3</text>
@@ -639,21 +658,26 @@ export function MasterInstanceFigure() {
       <text x={67} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master specification</text>
       <text x={420} y={18} fontSize={9} fill="#999" textAnchor="middle" fontStyle="italic">Master process, by skillset</text>
 
-      <path d="M40,54 V114 M40,78 H58 M40,114 H58" stroke="#aaa" strokeWidth={1} fill="none" />
-      <path d="M40,114 V150 H58" stroke="#dedede" strokeWidth={1} strokeDasharray="3 2" fill="none" />
+      <path d="M40,54 V78 H58 M68,90 V114 H86" stroke="#aaa" strokeWidth={1} fill="none" />
+      <path d="M68,114 V150 H86" stroke="#dedede" strokeWidth={1} strokeDasharray="3 2" fill="none" />
 
-      <path d={mappingPath([76, 42], 112, [{ channelY: 34, box: box('p0') }])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d={mappingPath([76, 42], 112, [{ channelY: 34, box: box('p1') }])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
       <path d={polylinesPath(MI_A_MAP)} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
-      <path d={mappingPath([104, 114], 148, [{ channelY: 97, box: box('q1') }, { channelY: 146, box: box('r2') }])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
-      <path d={mappingPath([104, 150], 166, [{ channelY: 40, box: box('p2') }, { channelY: 153, box: box('r1') }])} stroke="#dedede" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      {/* A's other steps, p4 and r2, on a trunk clear of B and C */}
+      <path d={mappingPath([104, 78], 140, [{ channelY: 46, box: box('p4') }, { channelY: 146, box: box('r2') }])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d={mappingPath([132, 114], 148, [{ channelY: 97, box: box('q1') }])} stroke="#999" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
+      <path d={mappingPath([132, 150], 166, [{ channelY: 40, box: box('p3') }, { channelY: 153, box: box('r1') }])} stroke="#dedede" strokeWidth={0.8} strokeDasharray="3 2" fill="none" />
 
       <line x1={316} y1={73} x2={316} y2={101} stroke="#157f8f" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miPr)" />
       <line x1={271} y1={62} x2={283} y2={62} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
       <line x1={347} y1={114} x2={397} y2={114} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
-      <line x1={430} y1={125} x2={430} y2={157} stroke="#cfcfcf" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miF)" />
-      <line x1={347} y1={62} x2={515} y2={62} stroke="#cfcfcf" strokeWidth={1.2} markerEnd="url(#miF)" />
-      <line x1={461} y1={170} x2={515} y2={170} stroke="#cfcfcf" strokeWidth={1.2} markerEnd="url(#miF)" />
-      <line x1={548} y1={73} x2={548} y2={157} stroke="#cfcfcf" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miF)" />
+      {/* Products passing on through skipped steps, each in the job of the step the product reaches: q2's
+          through r1 to r2, and p2's through p3 to p4 (squiggled inside the skipped steps, below) */}
+      <line x1={430} y1={125} x2={430} y2={157} stroke="#157f8f" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miPr)" />
+      <line x1={461} y1={170} x2={515} y2={170} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
+      <line x1={347} y1={62} x2={397} y2={62} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
+      <line x1={461} y1={62} x2={515} y2={62} stroke="#8a6d4a" strokeWidth={1.2} markerEnd="url(#miPa)" />
+      <line x1={548} y1={73} x2={548} y2={157} stroke="#157f8f" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miPr)" />
 
       {/* Products crossing the process boundary: in to the first step, out of the last. */}
       <line {...specIn} stroke="#157f8f" strokeWidth={1} strokeDasharray="4 2" markerEnd="url(#miPr)" />
@@ -672,6 +696,16 @@ export function MasterInstanceFigure() {
           <text x={cx} y={cy + 3} fontSize={9} fill={dropped ? '#bbb' : '#4a3c28'} textAnchor="middle">{label}</text>
         </g>
       ))}
+
+      {/* Inside each skipped step, a squiggle where the product enters and where it leaves, the label between */}
+      <g fill="none" stroke="#8a6d4a" strokeWidth={1.2}>
+        <path d={squiggle([399, 62], [415, 62])} />
+        <path d={squiggle([445, 62], [461, 62])} />
+        {/* Entering from above, as SPD2 draws it: straight down to the middle, then across with the squiggle */}
+        <path d={`M430,159 V170 H437.5 ${squiggle([437.5, 170], [453.5, 170]).replace(/^M[^L]*/, '')} H461`} />
+      </g>
+      {/* r1's label again, haloed in the box's fill, so the line down to the middle breaks around it */}
+      <text x={430} y={173} fontSize={9} fill="#bbb" stroke="#f6f6f6" strokeWidth={3} paintOrder="stroke" textAnchor="middle">r1</text>
     </svg>
   );
 }
@@ -685,19 +719,20 @@ export function SelectionInstanceFigure() {
   const x0 = 70, base = 200, lift = 96;
   const proj = (x: number, d: number, z = 0): [number, number] => [x0 + x + d * 0.87, base - d * 0.5 - z];
   const BW = 34, BH = 16;
-  // Floor nodes of the master specification, in (x, depth): the root S at the left, its children A, B and C.
-  const spec: { label: string; x: number; d: number; faded?: boolean }[] = [
+  // Floor nodes of the master specification, in (x, depth): the root S at the left, its child A, and A's
+  // systems B and C a level below, as in Figure 1.
+  const spec: { label: string; x: number; d: number; parent?: string; faded?: boolean }[] = [
     { label: 'S', x: 0, d: 60 },
-    { label: 'A', x: 110, d: 100 },
-    { label: 'B', x: 110, d: 60 },
-    { label: 'C', x: 110, d: 20, faded: true },
+    { label: 'A', x: 110, d: 60, parent: 'S' },
+    { label: 'B', x: 220, d: 85, parent: 'A' },
+    { label: 'C', x: 220, d: 30, parent: 'A', faded: true },
   ];
   // Instances: the root, A once, and B twice, the second instance set in front of the first.
-  const inst: { label: string; of: string; x: number; d: number; value?: string }[] = [
+  const inst: { label: string; of: string; x: number; d: number; parent?: string; value?: string }[] = [
     { label: 'Ŝ', of: 'S', x: 0, d: 60 },
-    { label: 'Â', of: 'A', x: 110, d: 100 },
-    { label: 'B̂₁', of: 'B', x: 110, d: 60, value: 'd = 2' },
-    { label: 'B̂₂', of: 'B', x: 110, d: 32, value: 'd = 5' },
+    { label: 'Â', of: 'A', x: 110, d: 60, parent: 'Ŝ' },
+    { label: 'B̂₁', of: 'B', x: 220, d: 85, parent: 'Â', value: 'd = 2' },
+    { label: 'B̂₂', of: 'B', x: 220, d: 57, parent: 'Â', value: 'd = 5' },
   ];
   const floor = (lx: number, ld: number, hx: number, hd: number) =>
     [proj(lx, ld), proj(hx, ld), proj(hx, hd), proj(lx, hd)].map(p => p.join(',')).join(' ');
@@ -718,15 +753,18 @@ export function SelectionInstanceFigure() {
       </g>
     );
   };
-  const s = spec[0];
-  const children = spec.slice(1);
-  const iRoot = inst[0];
-  const iKids = inst.slice(1);
+  // The links from their parents in all to the given nodes, as the tree draws them.
+  type TreeNode = { label: string; x: number; d: number; parent?: string };
+  const links = (nodes: TreeNode[], all: TreeNode[], z: number) =>
+    nodes.filter(n => n.parent).map(n => {
+      const p = all.find(m => m.label === n.parent)!;
+      return tree([n], p.x, p.d, z);
+    }).join(' ');
   return (
-    <svg viewBox="40 40 420 190" style={{ width: '70%', height: 'auto', display: 'block', margin: '0 auto' }}>
-      <polygon points={floor(-30, 0, 160, 120)} fill="#faf9f7" stroke="#d9d5ce" strokeWidth={1} />
-      <text x={proj(160, 0)[0] + 6} y={proj(160, 0)[1]} fontSize={9} fill="#999" fontStyle="italic">Master specification</text>
-      <text x={proj(160, 0, lift)[0] + 6} y={proj(160, 0, lift)[1]} fontSize={9} fill="#999" fontStyle="italic">Selection</text>
+    <svg viewBox="40 40 450 190" style={{ width: '75%', height: 'auto', display: 'block', margin: '0 auto' }}>
+      <polygon points={floor(-30, 0, 270, 120)} fill="#faf9f7" stroke="#d9d5ce" strokeWidth={1} />
+      <text x={proj(270, 0)[0] + 6} y={proj(270, 0)[1]} fontSize={9} fill="#999" fontStyle="italic">Master specification</text>
+      <text x={proj(270, 0, lift)[0] + 6} y={proj(270, 0, lift)[1]} fontSize={9} fill="#999" fontStyle="italic">Selection</text>
 
       {/* Each instance projects down onto its node. */}
       {inst.map(({ label, of, x, d }) => {
@@ -736,11 +774,11 @@ export function SelectionInstanceFigure() {
         return <line key={`drop${label}`} x1={ux} y1={uy + BH / 2} x2={fx} y2={fy - BH / 2} stroke="#bbb" strokeWidth={0.8} strokeDasharray="2 2" />;
       })}
 
-      <path d={tree(children.filter(c => !c.faded), s.x, s.d, 0)} stroke="#aaa" strokeWidth={1} fill="none" />
-      <path d={tree(children.filter(c => c.faded), s.x, s.d, 0)} stroke="#dedede" strokeWidth={1} strokeDasharray="3 2" fill="none" />
+      <path d={links(spec.filter(n => !n.faded), spec, 0)} stroke="#aaa" strokeWidth={1} fill="none" />
+      <path d={links(spec.filter(n => n.faded), spec, 0)} stroke="#dedede" strokeWidth={1} strokeDasharray="3 2" fill="none" />
       {spec.map(({ label, x, d, faded }) => node(label, x, d, 0, faded, `f${label}`))}
 
-      <path d={tree(iKids, iRoot.x, iRoot.d, lift)} stroke="#8a6d4a" strokeWidth={1} fill="none" />
+      <path d={links(inst, inst, lift)} stroke="#8a6d4a" strokeWidth={1} fill="none" />
       {inst.map(({ label, x, d }) => node(label, x, d, lift, false, `i${label}`))}
       {inst.filter(i => i.value).map(({ label, x, d, value }) => {
         const [cx, cy] = proj(x + BW / 2 + 4, d, lift);

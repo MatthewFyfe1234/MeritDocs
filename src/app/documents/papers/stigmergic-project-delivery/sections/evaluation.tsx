@@ -4,6 +4,69 @@ export function Evaluation() {
   return (
     <>
       <h2>Evaluation</h2>
+      <Rev block>
+        <h3>Verification</h3>
+        <p>
+          <strong>The mechanisms behave as specified.</strong> The model&rsquo;s principal mechanisms are worked through in
+          Section 3.2 and Section 4, where they can be followed by hand: derivation and its extension, forecasting
+          and its combination over a job, at their centres, eligibility, and the contract and its handover. Product
+          lags, categorical metrics, the reading of a job&rsquo;s forecast at <M>{"r"}</M> and the recomputed
+          forecasts of a re-issued contract are specified but not worked.
+        </p>
+
+        <h3>Feasibility</h3>
+        <p>
+          <strong>The formalism can be built over a real domain.</strong> We built the model over the MIMIC-IV
+          Clinical Database Demo <Cite id={['johnson2023mimicdemo', 'johnson2023mimic', 'goldberger2000']} />, an open subset of MIMIC-IV covering 100 patients
+          and 275 admissions to a single academic medical centre. The master specification has 873 nodes over five
+          levels, from the patient through body areas and structures to interventions, investigations and
+          medications. Unlike the worked example, conditions are carried as descriptors on a structure rather than
+          as nodes beneath it, since MIMIC records diagnoses only at discharge and without the anatomy they concern.
+          The master process has 250 steps in 64 jobs, joined by 1,171 products passed between jobs, and the mapping
+          links 854 of the 873 nodes to the steps they necessitate. All 275 admissions are represented as selections,
+          with 15,497 dated events placed on the specification. Three admissions are replayed in four stages, and the
+          derived process grows at each stage as the selection deepens. The build shows that the formalism can be
+          built over a real domain at this scale and that derivation runs end to end. It does not show that the
+          derived processes are correct, and the master was authored without clinical review, so its clinical
+          validity is untested. The build also exposed gaps in the mapping. In 204 of the 275 admissions at least
+          one contract receives no product, and in one replayed admission 829 nursing records fall on no job in the
+          derived process.
+        </p>
+        <p>
+          <strong>The data it needs are largely recorded already.</strong> Apart from the trace, the model&rsquo;s
+          inputs are held in systems an organisation typically keeps: agents and their qualifications in human resources
+          and learning systems, their availability in workforce management, materials in inventory and supply-chain
+          systems, tools in asset maintenance systems and the master specification in product configuration. The
+          trace is the one input recorded for each project. In the clinical data it already exists as a by-product of
+          documentation. Its events are timestamped, many are attributed to individual caregivers or providers, drugs
+          and doses are recorded as administered, and many fields are recorded for some events and not others. In
+          manufacturing, execution systems record much the same. Elsewhere the trace may be logged by hand, or read
+          from the signals of software, tools and vehicles, as the wall frame&rsquo;s nail gun is read.
+        </p>
+
+        <h3>Clinical data</h3>
+        <p>
+          The validity tests draw on admissions of three case types (coronary bypass, renal failure and sepsis),
+          chosen for supplying enough admissions to test and for being widely understood. In the demo they cover 29
+          admissions. They share one master process of six steps in four jobs (emergency medicine, cardiac surgery,
+          critical care and ward care), kept to what the raw tables time. Each step is timed
+          by the events that start and end it, read from transfers between care units, procedure events, orders and
+          charting. It is attributed to the caregiver or provider the records name, with a stand-in where they name
+          none, such as the provider ordering most on the day of surgery for the operating surgeon. The master, its
+          jobs and the mapping are authored rather than read from the data.
+        </p>
+
+        <h3>Validity</h3>
+        <p><strong>Forecasts accumulated from steps and scaled by descriptors are calibrated, and more accurate than coarser or unscaled ones.</strong></p>
+        <p><strong>Forecasts combined under independence hold at the job.</strong></p>
+        <p><strong>Forecasts of when a step is ready hold at converging steps.</strong></p>
+        <p><strong>Recorded exposure to a step predicts performance at it.</strong></p>
+        <p><strong>Experience floors improve allocation.</strong></p>
+
+        <h3>Limits</h3>
+      </Rev>
+
+      {/* Previous evaluation, kept until the rewrite replaces it.
       <p>
         The model is implemented as a working platform, and the evaluation reported here is partial rather than
         conclusive. It verifies the model&rsquo;s mechanisms and shows that the model can be built over a real
@@ -15,7 +78,7 @@ export function Evaluation() {
         manufacturing and construction, with master specifications, processes, agents and execution records
         modelled on real projects rather than generated at random. Runs against it exercise every mechanism of
         Section 3 end to end, from the derivation of a project&rsquo;s process from its selection, through extension
-        of the specification during execution, capture of trace records including partial ones, forecasting at a
+        of the selection during execution, capture of trace records including partial ones, forecasting at a
         chosen risk and the combination of forecasts into a contract&rsquo;s, and the exposure and experience floors
         that set eligibility, to generation of the contracts offered to eligible agents <Rev>and their
         self-selection</Rev>. In each case the platform behaves as Section 3 specifies. What the mock data cannot test
@@ -57,7 +120,7 @@ export function Evaluation() {
       <p>
         Two things the clinical data cannot test. Diagnoses are coded at discharge rather than when found, and the
         specification built here has no finding nodes, so selection driven by a step&rsquo;s
-        findings, <M>{"\\sigma(s)"}</M>, is not exercised, though timed results and reports could approximate it in a
+        findings is not exercised, though timed results and reports could approximate it in a
         later build. Outcomes can be forecast and checked for calibration, but choosing treatments from those
         forecasts requires causal effects the observational record does not identify.
       </p>
@@ -69,7 +132,7 @@ export function Evaluation() {
         deepen through motions and appeals much as patients do through findings. Where judges are assigned at
         random, they also allow an unconfounded test of whether recorded exposure predicts performance. Court data
         would barely exercise tools and materials, and its adversarial parties would stress-test the model&rsquo;s
-        assumption that agents work toward the specification.
+        assumption that agents work toward the selection.
       </p>
 
       <p>
@@ -78,6 +141,7 @@ export function Evaluation() {
         unrecorded, so selection and contracts cannot yet be evaluated against real behaviour. The clinical data covers a single centre,
         and construction, the domain of the first worked example, awaits deployment with industrial partners.
       </p>
+      */}
     </>
   );
 }

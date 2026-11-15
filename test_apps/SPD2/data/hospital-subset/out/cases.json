@@ -1,0 +1,205 @@
+[
+ {
+  "order": 1,
+  "type": "Coronary bypass",
+  "hadm_id": "20044587",
+  "title": "Common cases, coronary bypass: Cardiac surgery, physician referral: 70-year-old man",
+  "nodes": 45
+ },
+ {
+  "order": 2,
+  "type": "Coronary bypass",
+  "hadm_id": "20297618",
+  "title": "Common cases, coronary bypass: Cardiology -> Cardiac surgery, transfer from hospital: 44-year-old man",
+  "nodes": 56
+ },
+ {
+  "order": 3,
+  "type": "Coronary bypass",
+  "hadm_id": "20626031",
+  "title": "Common cases, coronary bypass: General surgery, transfer from hospital: 66-year-old man",
+  "nodes": 58
+ },
+ {
+  "order": 4,
+  "type": "Coronary bypass",
+  "hadm_id": "21255400",
+  "title": "Common cases, coronary bypass: Cardiology -> Cardiac surgery, procedure site: 78-year-old man",
+  "nodes": 66
+ },
+ {
+  "order": 5,
+  "type": "Coronary bypass",
+  "hadm_id": "22342963",
+  "title": "Common cases, coronary bypass: Cardiac surgery, physician referral: 59-year-old man",
+  "nodes": 66
+ },
+ {
+  "order": 6,
+  "type": "Coronary bypass",
+  "hadm_id": "22580999",
+  "title": "Common cases, coronary bypass: Cardiac surgery, transfer from hospital: 70-year-old man",
+  "nodes": 50
+ },
+ {
+  "order": 7,
+  "type": "Coronary bypass",
+  "hadm_id": "24490144",
+  "title": "Common cases, coronary bypass: Cardiology -> Cardiac surgery, transfer from hospital: 62-year-old man",
+  "nodes": 65
+ },
+ {
+  "order": 8,
+  "type": "Coronary bypass",
+  "hadm_id": "25926192",
+  "title": "Common cases, coronary bypass: Cardiac surgery, transfer from hospital: 58-year-old man",
+  "nodes": 57
+ },
+ {
+  "order": 9,
+  "type": "Coronary bypass",
+  "hadm_id": "27089790",
+  "title": "Common cases, coronary bypass: Cardiac surgery, transfer from hospital: 78-year-old man",
+  "nodes": 52
+ },
+ {
+  "order": 10,
+  "type": "Coronary bypass",
+  "hadm_id": "27505812",
+  "title": "Common cases, coronary bypass: Cardiac surgery, physician referral: 67-year-old man",
+  "nodes": 46
+ },
+ {
+  "order": 11,
+  "type": "Coronary bypass",
+  "hadm_id": "29366372",
+  "title": "Common cases, coronary bypass: Cardiology -> Cardiac surgery, through the ED: 42-year-old man",
+  "nodes": 77
+ },
+ {
+  "order": 12,
+  "type": "Renal failure",
+  "hadm_id": "22251969",
+  "title": "Common cases, renal failure: General medicine, through the ED: 68-year-old woman",
+  "nodes": 21
+ },
+ {
+  "order": 13,
+  "type": "Renal failure",
+  "hadm_id": "22539296",
+  "title": "Common cases, renal failure: General medicine, through the ED: 92-year-old woman",
+  "nodes": 23
+ },
+ {
+  "order": 14,
+  "type": "Renal failure",
+  "hadm_id": "24244087",
+  "title": "Common cases, renal failure: General medicine -> Cardiology, through the ED: 57-year-old man",
+  "nodes": 28
+ },
+ {
+  "order": 15,
+  "type": "Renal failure",
+  "hadm_id": "26013492",
+  "title": "Common cases, renal failure: Haematology & oncology, through the ED: 61-year-old man",
+  "nodes": 18
+ },
+ {
+  "order": 16,
+  "type": "Renal failure",
+  "hadm_id": "26228185",
+  "title": "Common cases, renal failure: Haematology & oncology, through the ED: 64-year-old man",
+  "nodes": 26
+ },
+ {
+  "order": 17,
+  "type": "Renal failure",
+  "hadm_id": "26793610",
+  "title": "Common cases, renal failure: General medicine, through the ED: 48-year-old woman",
+  "nodes": 19
+ },
+ {
+  "order": 18,
+  "type": "Renal failure",
+  "hadm_id": "29802992",
+  "title": "Common cases, renal failure: General medicine, through the ED: 82-year-old woman",
+  "nodes": 23
+ },
+ {
+  "order": 19,
+  "type": "Sepsis",
+  "hadm_id": "22413744",
+  "title": "Common cases, sepsis: General medicine, through the ED: 58-year-old man",
+  "nodes": 37
+ },
+ {
+  "order": 20,
+  "type": "Sepsis",
+  "hadm_id": "22995465",
+  "title": "Common cases, sepsis: General medicine, through the ED: 56-year-old man",
+  "nodes": 35
+ },
+ {
+  "order": 21,
+  "type": "Sepsis",
+  "hadm_id": "23473524",
+  "title": "Common cases, sepsis: General medicine, through the ED: 81-year-old woman",
+  "nodes": 59
+ },
+ {
+  "order": 22,
+  "type": "Sepsis",
+  "hadm_id": "23488445",
+  "title": "Common cases, sepsis: General medicine, transfer from hospital: 86-year-old woman",
+  "nodes": 34
+ },
+ {
+  "order": 23,
+  "type": "Sepsis",
+  "hadm_id": "23819016",
+  "title": "Common cases, sepsis: General medicine, through the ED: 48-year-old woman",
+  "nodes": 39
+ },
+ {
+  "order": 24,
+  "type": "Sepsis",
+  "hadm_id": "23831430",
+  "title": "Common cases, sepsis: General medicine, transfer from hospital: 56-year-old man",
+  "nodes": 70
+ },
+ {
+  "order": 25,
+  "type": "Sepsis",
+  "hadm_id": "24181354",
+  "title": "Common cases, sepsis: General medicine, through the ED: 47-year-old man",
+  "nodes": 79
+ },
+ {
+  "order": 26,
+  "type": "Sepsis",
+  "hadm_id": "27617929",
+  "title": "Common cases, sepsis: General medicine, transfer from hospital: 60-year-old man, died",
+  "nodes": 52
+ },
+ {
+  "order": 27,
+  "type": "Sepsis",
+  "hadm_id": "28662225",
+  "title": "Common cases, sepsis: General medicine, through the ED: 81-year-old woman",
+  "nodes": 65
+ },
+ {
+  "order": 28,
+  "type": "Sepsis",
+  "hadm_id": "29279905",
+  "title": "Common cases, sepsis: General medicine -> Haematology & oncology, through the ED: 70-year-old woman",
+  "nodes": 57
+ },
+ {
+  "order": 29,
+  "type": "Sepsis",
+  "hadm_id": "29974575",
+  "title": "Common cases, sepsis: General medicine, through the ED: 72-year-old man",
+  "nodes": 73
+ }
+]

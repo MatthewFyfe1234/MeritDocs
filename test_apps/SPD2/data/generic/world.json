@@ -1,0 +1,14 @@
+{
+  "about": "The world's hidden rule, for the simulation only: the model never reads this file. When a step executes, each metric's value is base + the sum of slope x descriptor value + noise (normal, with this standard deviation), each descriptor named with its node, x.d. The forecasts should learn it from the trace.",
+  "seed": 1,
+  "steps": {
+    "p1": {"y": {"base": 2.0, "noise": 0.3}},
+    "p2": {"y": {"base": 1.0, "slopes": {"A.d": 1.5}, "noise": 0.4}},
+    "p3": {"y": {"base": 3.0, "noise": 0.5}},
+    "p4": {"y": {"base": 1.5, "noise": 0.2}},
+    "q1": {"y": {"base": 2.0, "noise": 0.3}},
+    "q2": {"y": {"base": 1.0, "slopes": {"A.d": 1.0}, "noise": 0.4}},
+    "r1": {"y": {"base": 2.0, "noise": 0.3}},
+    "r2": {"y": {"base": 3.0, "noise": 0.5}}
+  }
+}

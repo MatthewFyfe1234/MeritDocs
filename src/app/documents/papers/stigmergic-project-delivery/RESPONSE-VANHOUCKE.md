@@ -1,7 +1,7 @@
 # Response to Vanhoucke
 
 - Be upfront: forecasting and scheduling are not my home literature, and are his. SPD supplies the structure and trace such methods need, not a method of its own.
-- LLM use: LLMs were used for the prior art exploration, for the figures, illustrations and table, and during the construction of the paper. This version has been fully revised by me. My earlier revisions were lighter, and outside the abstract and Sections 1 to 4 the version you reviewed had less of my own review.
+- LLM use: LLMs were used for the prior art exploration, for the figures, illustrations and table, and during the construction of the paper. This version has been fully revised by me. My earlier revisions were lighter, and outside the abstract and Sections 1 to 4 the version you reviewed had less of my own review. LLM models were found to be very useful for drawing figures, exploring related work and for triangulating the paper. The models were not found to be useful for the writing itself, apart from at the templating stage. All illustrations are generated, all writing is hand written or thoroughly curated
 - Self-selection: it is the default, with system selection (e.g. ranking by experience) a bolt-on policy. The contribution enables stigmergic coordination (action, agent, medium, trace). The real test is allocation from the trace vs without it, now future work.
 - Simulation / contention (main point 1): not simulated. New Contention limitation in Section 6: the default goes to whoever claims first, which may tie up scarce skills on simple jobs; policies within the eligible pool can guard against it; comparing them, including under contention, is future work.
 - If there is some convention on formalisation that is better then i can change to suit
@@ -18,6 +18,7 @@
 - Thought it would be worth including some reflections on the implications of trace based project control
 - Wanted to highlight a contribution which i felt wasnt clear in the earlier review - alignment
 - Added a thread on control. Even though this is not an intentional part of the model, this is a clear byproduct of the model
+- the demo code validates all data on initialisation, to keep the code very to the point. All error handling is isolated, in ''
 
 ## Conversation (taking up "happy to discuss")
 

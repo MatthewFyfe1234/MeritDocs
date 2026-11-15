@@ -105,7 +105,7 @@
     "id": "iec62264",
     "type": "report",
     "author": [{ "literal": "International Electrotechnical Commission" }],
-    "title": "Enterprise-control system integration — Part 1: Models and terminology (IEC 62264-1:2013)",
+    "title": "Enterprise-control system integration — Part 1: Models and terminology (IEC 62264-1:2013, based on ANSI/ISA-95.00.01)",
     "issued": { "date-parts": [[2013]] },
     "publisher": "International Electrotechnical Commission"
   },
@@ -139,6 +139,115 @@
     "publisher": "Project Management Institute"
   },
   {
+    "id": "pmi2019wbs",
+    "type": "book",
+    "author": [{ "literal": "Project Management Institute" }],
+    "title": "Practice standard for work breakdown structures",
+    "edition": "3rd",
+    "issued": { "date-parts": [[2019]] },
+    "publisher": "Project Management Institute"
+  },
+  {
+    "id": "artigues2026",
+    "type": "article-journal",
+    "title": "Fifty years of research on resource-constrained project scheduling explored from different perspectives",
+    "author": [
+      { "family": "Artigues", "given": "C." },
+      { "family": "Hartmann", "given": "S." },
+      { "family": "Vanhoucke", "given": "M." }
+    ],
+    "issued": { "date-parts": [[2026]] },
+    "container-title": "European Journal of Operational Research",
+    "volume": "328",
+    "issue": "2",
+    "page": "367-389",
+    "DOI": "10.1016/j.ejor.2025.03.024"
+  },
+  {
+    "id": "carre1971",
+    "type": "article-journal",
+    "title": "An algebra for network routing problems",
+    "author": [{ "family": "Carré", "given": "B.A." }],
+    "issued": { "date-parts": [[1971]] },
+    "container-title": "IMA Journal of Applied Mathematics",
+    "volume": "7",
+    "issue": "3",
+    "page": "273-294",
+    "DOI": "10.1093/imamat/7.3.273"
+  },
+  {
+    "id": "ghahfarokhi2021",
+    "type": "paper-conference",
+    "title": "OCEL: A standard for object-centric event logs",
+    "author": [
+      { "family": "Ghahfarokhi", "given": "A.F." },
+      { "family": "Park", "given": "G." },
+      { "family": "Berti", "given": "A." },
+      { "family": "van der Aalst", "given": "W.M.P." }
+    ],
+    "issued": { "date-parts": [[2021]] },
+    "container-title": "New Trends in Database and Information Systems (ADBIS 2021), CCIS 1450",
+    "page": "169-175",
+    "publisher": "Springer",
+    "DOI": "10.1007/978-3-030-85082-1_16"
+  },
+  {
+    "id": "johnson2023mimic",
+    "type": "article-journal",
+    "title": "MIMIC-IV, a freely accessible electronic health record dataset",
+    "author": [
+      { "family": "Johnson", "given": "A.E.W." },
+      { "family": "Bulgarelli", "given": "L." },
+      { "family": "Shen", "given": "L." },
+      { "family": "Gayles", "given": "A." },
+      { "family": "Shammout", "given": "A." },
+      { "family": "Horng", "given": "S." },
+      { "family": "Pollard", "given": "T.J." },
+      { "family": "Hao", "given": "S." },
+      { "family": "Moody", "given": "B." },
+      { "family": "Gow", "given": "B." },
+      { "family": "Lehman", "given": "L.H." },
+      { "family": "Celi", "given": "L.A." },
+      { "family": "Mark", "given": "R.G." }
+    ],
+    "issued": { "date-parts": [[2023]] },
+    "container-title": "Scientific Data",
+    "volume": "10",
+    "page": "1",
+    "DOI": "10.1038/s41597-022-01899-x"
+  },
+  {
+    "id": "goldberger2000",
+    "type": "article-journal",
+    "title": "PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals",
+    "author": [
+      { "family": "Goldberger", "given": "A.L." },
+      { "family": "Amaral", "given": "L.A.N." },
+      { "family": "Glass", "given": "L." },
+      { "family": "Hausdorff", "given": "J.M." },
+      { "family": "Ivanov", "given": "P.Ch." },
+      { "family": "Mark", "given": "R.G." },
+      { "family": "Mietus", "given": "J.E." },
+      { "family": "Moody", "given": "G.B." },
+      { "family": "Peng", "given": "C.-K." },
+      { "family": "Stanley", "given": "H.E." }
+    ],
+    "issued": { "date-parts": [[2000]] },
+    "container-title": "Circulation",
+    "volume": "101",
+    "issue": "23",
+    "page": "e215-e220",
+    "DOI": "10.1161/01.CIR.101.23.e215"
+  },
+  {
+    "id": "aws-mturk-qualifications",
+    "type": "webpage",
+    "author": [{ "literal": "Amazon Web Services" }],
+    "title": "Selecting eligible workers",
+    "container-title": "Amazon Mechanical Turk Requester UI Guide",
+    "URL": "https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechanicalTurkRequester/SelectingEligibleWorkers.html"
+  },
+  {
     "id": "vanderaalst1998",
     "type": "article-journal",
     "title": "The application of Petri nets to workflow management",
@@ -149,18 +258,6 @@
     "issue": "1",
     "page": "21-66",
     "DOI": "10.1142/s0218126698000043"
-  },
-  {
-    "id": "kumar1998",
-    "type": "article-journal",
-    "title": "Use of Petri nets for resource allocation in projects",
-    "author": [{ "family": "Kumar", "given": "V. K. A." }, { "family": "Ganesh", "given": "L. S." }],
-    "container-title": "IEEE Transactions on Engineering Management",
-    "issued": { "date-parts": [[1998]] },
-    "volume": "45",
-    "issue": "1",
-    "page": "49-56",
-    "DOI": "10.1109/17.658660"
   },
   {
     "id": "colin2014",
@@ -440,19 +537,6 @@
     "page": "321-350"
   },
   {
-    "id": "baras2010",
-    "type": "book",
-    "title": "Path problems in networks",
-    "author": [
-      { "family": "Baras", "given": "J. S." },
-      { "family": "Theodorakopoulos", "given": "G." }
-    ],
-    "issued": { "date-parts": [[2010]] },
-    "collection-title": "Synthesis Lectures on Communication Networks",
-    "publisher": "Morgan & Claypool",
-    "DOI": "10.2200/S00245ED1V01Y201001CNT003"
-  },
-  {
     "id": "kelley1959",
     "type": "paper-conference",
     "title": "Critical-path planning and scheduling",
@@ -571,18 +655,6 @@
     "DOI": "10.1016/j.dss.2008.07.002"
   },
   {
-    "id": "vanhoucke2010",
-    "type": "book",
-    "title": "Measuring Time: Improving Project Performance Using Earned Value Management",
-    "author": [{ "family": "Vanhoucke", "given": "M." }],
-    "issued": { "date-parts": [[2010]] },
-    "publisher": "Springer",
-    "publisher-place": "New York",
-    "collection-title": "International Series in Operations Research & Management Science",
-    "volume": "136",
-    "DOI": "10.1007/978-1-4419-1014-1"
-  },
-  {
     "id": "vanhoucke2015",
     "type": "article-journal",
     "title": "On the use of schedule risk analysis for project management",
@@ -697,17 +769,6 @@
     ],
     "issued": { "date-parts": [[2025]] },
     "container-title": "arXiv preprint arXiv:2510.26787"
-  },
-  {
-    "id": "autor2015",
-    "type": "article-journal",
-    "title": "Why are there still so many jobs? The history and future of workplace automation",
-    "author": [{ "family": "Autor", "given": "D.H." }],
-    "issued": { "date-parts": [[2015]] },
-    "container-title": "Journal of Economic Perspectives",
-    "volume": "29",
-    "issue": "3",
-    "page": "3-30"
   },
   {
     "id": "flyvbjerg2021",
@@ -1024,7 +1085,8 @@
     ],
     "issued": { "date-parts": [[2017]] },
     "container-title": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
-    "page": "3523-3537"
+    "page": "3523-3537",
+    "DOI": "10.1145/3025453.3025811"
   },
   {
     "id": "snauwaert2023",
@@ -1057,19 +1119,29 @@
     "DOI": "10.1016/j.cogsys.2015.12.003"
   },
   {
-    "id": "heathcote2000",
+    "id": "parunak2006",
+    "type": "chapter",
+    "title": "A survey of environments and mechanisms for human-human stigmergy",
+    "author": [{ "family": "Parunak", "given": "H. V. D." }],
+    "issued": { "date-parts": [[2006]] },
+    "container-title": "Environments for Multi-Agent Systems II",
+    "collection-title": "Lecture Notes in Computer Science",
+    "volume": "3830",
+    "page": "163-186",
+    "publisher": "Springer",
+    "DOI": "10.1007/11678809_10"
+  },
+  {
+    "id": "campbell1979",
     "type": "article-journal",
-    "title": "The power law repealed: The case for an exponential law of practice",
-    "author": [
-      { "family": "Heathcote", "given": "A." },
-      { "family": "Brown", "given": "S." },
-      { "family": "Mewhort", "given": "D.J.K." }
-    ],
-    "issued": { "date-parts": [[2000]] },
-    "container-title": "Psychonomic Bulletin & Review",
-    "volume": "7",
-    "issue": "2",
-    "page": "185-207"
+    "title": "Assessing the impact of planned social change",
+    "author": [{ "family": "Campbell", "given": "D. T." }],
+    "issued": { "date-parts": [[1979]] },
+    "container-title": "Evaluation and Program Planning",
+    "volume": "2",
+    "issue": "1",
+    "page": "67-90",
+    "DOI": "10.1016/0149-7189(79)90048-X"
   },
   {
     "id": "vandorp1999",
@@ -1097,8 +1169,23 @@
     "issued": { "date-parts": [[1991]] },
     "container-title": "Journal of Law, Economics, & Organization",
     "volume": "7",
-    "issue": "Special Issue",
+    "issue": "Special Issue: Papers from the Conference on the New Science of Organization",
     "page": "24-52"
+  },
+  {
+    "id": "gutierrez1991",
+    "type": "article-journal",
+    "title": "Parkinson's law and its implications for project management",
+    "author": [
+      { "family": "Gutierrez", "given": "G.J." },
+      { "family": "Kouvelis", "given": "P." }
+    ],
+    "issued": { "date-parts": [[1991]] },
+    "container-title": "Management Science",
+    "volume": "37",
+    "issue": "8",
+    "page": "990-1001",
+    "DOI": "10.1287/mnsc.37.8.990"
   },
   {
     "id": "pritsker1966",
@@ -1195,19 +1282,6 @@
     "page": "1-55"
   },
   {
-    "id": "anvik2006",
-    "type": "paper-conference",
-    "title": "Who should fix this bug?",
-    "author": [
-      { "family": "Anvik", "given": "J." },
-      { "family": "Hiew", "given": "L." },
-      { "family": "Murphy", "given": "G.C." }
-    ],
-    "issued": { "date-parts": [[2006]] },
-    "container-title": "Proceedings of the 28th International Conference on Software Engineering (ICSE 2006)",
-    "page": "361-370"
-  },
-  {
     "id": "arias2016",
     "type": "paper-conference",
     "title": "A framework for recommending resource allocation based on process mining",
@@ -1259,7 +1333,8 @@
     "volume": "3520",
     "page": "216-232",
     "publisher": "Springer",
-    "DOI": "10.1007/11431855_16"
+    "page": "1-24",
+    "DOI": "10.1007/978-3-642-19589-1_1"
   },
   {
     "id": "johnson2023mimicdemo",
@@ -1291,5 +1366,26 @@
     "issue": "1",
     "page": "16-37",
     "DOI": "10.1287/opre.12.1.16"
+  },
+  {
+    "id": "kleindorfer1971",
+    "type": "article-journal",
+    "title": "Bounding distributions for a stochastic acyclic network",
+    "author": [{ "family": "Kleindorfer", "given": "G.B." }],
+    "issued": { "date-parts": [[1971]] },
+    "container-title": "Operations Research",
+    "volume": "19",
+    "issue": "7",
+    "page": "1586-1601",
+    "DOI": "10.1287/opre.19.7.1586"
+  },
+  {
+    "id": "hulett2009",
+    "type": "book",
+    "title": "Practical Schedule Risk Analysis",
+    "author": [{ "family": "Hulett", "given": "D.T." }],
+    "issued": { "date-parts": [[2009]] },
+    "publisher": "Gower",
+    "publisher-place": "Farnham"
   }
 ]

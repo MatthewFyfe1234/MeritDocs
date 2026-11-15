@@ -1,0 +1,123 @@
+{
+  "id": "patient",
+  "name": "Patient",
+  "steps": [],
+  "descriptors": [
+    {
+      "name": "age",
+      "kind": "numerical"
+    },
+    {
+      "name": "weight",
+      "kind": "numerical"
+    },
+    {
+      "name": "admission",
+      "kind": "categorical"
+    }
+  ],
+  "children": [
+    {
+      "id": "chest",
+      "name": "Chest",
+      "steps": [],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "bypass",
+          "name": "Coronary artery bypass",
+          "steps": [
+            "pre-op",
+            "operate"
+          ],
+          "descriptors": [
+            {
+              "name": "grafts",
+              "kind": "numerical",
+              "range": [
+                1,
+                5
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "post-op-ventilation",
+              "name": "Post-operative ventilation",
+              "steps": [
+                "ventilate"
+              ],
+              "descriptors": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kidneys",
+      "name": "Kidneys",
+      "steps": [],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "renal-failure",
+          "name": "Renal failure",
+          "steps": [],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "whole-body",
+      "name": "Whole body",
+      "steps": [],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "sepsis",
+          "name": "Sepsis",
+          "steps": [],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "care",
+      "name": "Care coordination",
+      "steps": [],
+      "descriptors": [],
+      "children": [
+        {
+          "id": "emergency",
+          "name": "Emergency department",
+          "steps": [
+            "ed"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "intensive",
+          "name": "Intensive care",
+          "steps": [
+            "icu"
+          ],
+          "descriptors": [],
+          "children": []
+        },
+        {
+          "id": "wards",
+          "name": "Ward",
+          "steps": [
+            "ward"
+          ],
+          "descriptors": [],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

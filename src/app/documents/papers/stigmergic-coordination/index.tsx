@@ -20,7 +20,7 @@ export const paper: PaperConfig = {
   authors: ['Matthew Fyfe'],
   date: 'October 2026',
   numbered: true,
-  citationStyle: 'numeric', // [n] = position in ./references.json
+  citationStyle: 'numeric', // [n] = order of first citation
   exportFilename: 'Merit-Stigmergy-Coordination-Mode.pdf',
   references,
   abstract:

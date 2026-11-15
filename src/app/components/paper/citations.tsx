@@ -111,12 +111,15 @@ export function BibEntry({ item }: { item: CslItem }) {
   const lead = who ? `${withStop(who)} ` : '';
   const year = `(${yearOf(item)}). `;
   const title = item.title ?? '';
+  // Page ranges take an en dash
+  item = item.page ? { ...item, page: item.page.replace(/-/g, '–') } : item;
   const link = item.DOI ? `https://doi.org/${item.DOI}` : item.URL;
   const linkNode = link ? <> <a href={link}>{link}</a></> : null;
 
   if (item.type === 'article-journal' || item.type === 'article-magazine' || item.type === 'article-newspaper') {
     const vol = item.volume !== undefined ? <>, <Ital>{item.volume}</Ital></> : null;
-    const iss = item.issue !== undefined ? `(${item.issue})` : '';
+    // An issue follows its volume in brackets; without a volume (a month, say) it stands as its own field
+    const iss = item.issue === undefined ? '' : vol ? `(${item.issue})` : `, ${item.issue}`;
     const pages = item.page ? `, ${item.page}` : '';
     return (
       <>

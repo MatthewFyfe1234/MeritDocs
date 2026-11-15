@@ -1,0 +1,32 @@
+{
+  "jobs": [
+    {"id": "j1", "name": "Skillset 1"},
+    {"id": "j2", "name": "Skillset 2"},
+    {"id": "j3", "name": "Skillset 3"}
+  ],
+  "steps": [
+    {"id": "p1", "name": "p1", "job": "j1"},
+    {"id": "p2", "name": "p2", "job": "j1"},
+    {"id": "p3", "name": "p3", "job": "j1"},
+    {"id": "p4", "name": "p4", "job": "j1"},
+    {"id": "q1", "name": "q1", "job": "j2"},
+    {"id": "q2", "name": "q2", "job": "j2"},
+    {"id": "r1", "name": "r1", "job": "j3"},
+    {"id": "r2", "name": "r2", "job": "j3"}
+  ],
+  "arcs": [
+    {"product": "specification", "src": null, "tgt": "p1"},
+    {"product": "p1 output", "src": "p1", "tgt": "p2"},
+    {"product": "p2 output", "src": "p2", "tgt": "q1"},
+    {"product": "p2 output", "src": "p2", "tgt": "p3"},
+    {"product": "p3 output", "src": "p3", "tgt": "p4"},
+    {"product": "q1 output", "src": "q1", "tgt": "q2"},
+    {"product": "q2 output", "src": "q2", "tgt": "r1"},
+    {"product": "r1 output", "src": "r1", "tgt": "r2"},
+    {"product": "p4 output", "src": "p4", "tgt": "r2"},
+    {"product": "delivered product", "src": "r2", "tgt": null}
+  ],
+  "metrics": [
+    {"name": "y", "kind": "numerical"}
+  ]
+}

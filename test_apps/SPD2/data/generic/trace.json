@@ -1,0 +1,182 @@
+[
+  {
+    "project": "seed-1",
+    "step": "p1",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 2.1
+  },
+  {
+    "project": "seed-1",
+    "step": "p2",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 5.6
+  },
+  {
+    "project": "seed-1",
+    "step": "p4",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 1.6
+  },
+  {
+    "project": "seed-1",
+    "step": "q1",
+    "time": null,
+    "agents": [
+      "a2"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 1.8
+  },
+  {
+    "project": "seed-1",
+    "step": "q2",
+    "time": null,
+    "agents": [
+      "a2"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 4.2
+  },
+  {
+    "project": "seed-1",
+    "step": "r2",
+    "time": null,
+    "agents": [
+      "a3"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 3.4
+  },
+  {
+    "project": "seed-2",
+    "step": "p1",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 1.9
+  },
+  {
+    "project": "seed-2",
+    "step": "p2",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 7.2
+  },
+  {
+    "project": "seed-2",
+    "step": "p3",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 3.3
+  },
+  {
+    "project": "seed-2",
+    "step": "p4",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 1.4
+  },
+  {
+    "project": "seed-2",
+    "step": "q2",
+    "time": null,
+    "agents": [
+      "a2"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 4.9
+  },
+  {
+    "project": "seed-2",
+    "step": "r1",
+    "time": null,
+    "agents": [
+      "a3"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 2.2
+  },
+  {
+    "project": "seed-2",
+    "step": "r2",
+    "time": null,
+    "agents": [
+      "a3"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 2.7
+  },
+  {
+    "project": "i3",
+    "step": "p1",
+    "time": null,
+    "agents": [
+      "a1"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 1.92
+  },
+  {
+    "project": "i4",
+    "step": "p1",
+    "time": null,
+    "agents": [
+      "a5"
+    ],
+    "tools": [],
+    "materials": [],
+    "metric": "y",
+    "value": 2.46
+  }
+]

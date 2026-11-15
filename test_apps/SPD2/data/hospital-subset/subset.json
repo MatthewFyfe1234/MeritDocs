@@ -1,0 +1,9 @@
+{
+  "_about": "AUTHORED: the common case types for a limited simulation, chosen because they repeat in the demo with consistent pathways. Each type takes every admission whose billing group (hosp/drgcodes, HCFA) starts with one of its groups. Each admission becomes one spec, the whole stay in one phase.",
+  "label": "Common cases",
+  "types": [
+    {"name": "Coronary bypass", "drg": ["CORONARY BYPASS"]},
+    {"name": "Renal failure", "drg": ["RENAL FAILURE"]},
+    {"name": "Sepsis", "drg": ["SEPTICEMIA OR SEVERE SEPSIS"]}
+  ]
+}

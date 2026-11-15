@@ -19,7 +19,7 @@ export const paper: PaperConfig = {
   authors: ['Matthew Fyfe'],
   date: 'November 2026',
   numbered: true,
-  citationStyle: 'numeric', // [n] = position in ./references.json
+  citationStyle: 'numeric', // [n] = order of first citation
   exportFilename: 'Merit-Trace-Based-Production.pdf',
   references,
   abstract:

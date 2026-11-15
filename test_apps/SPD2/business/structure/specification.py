@@ -1,4 +1,4 @@
-"""The master specification T = (N, A), its nodes' descriptors, and a project's selection P."""
+"""The master specification T = (N, A), its nodes' descriptors, and a project's selection T-hat."""
 
 from dataclasses import dataclass, field
 
@@ -8,6 +8,8 @@ class Descriptor:
     """An attribute attached to a node, numerical or categorical. Its value is bound on an instance."""
     name: str
     kind: str                                    # "numerical" or "categorical"
+    range: list | None = None                    # [low, high] a new selection's value must lie in, if set
+                                                 # (numerical only)
 
 
 @dataclass
@@ -37,9 +39,9 @@ class Instance:
 
 @dataclass
 class Selection:
-    """T-hat: a tree of node instances, each under an instance of its node's parent, up to a single
-       instance of the root."""
-    root: str
+    """T-hat: a forest of node instances, each of its trees an instance of a subtree of T containing its
+       root, in which a node may be instanced any number of times."""
+    roots: list                                  # the id of each tree's instance of T's root
     instances: dict                              # each instance by its id
 
 
@@ -48,18 +50,14 @@ class Selection:
 
 def read_master_specification(tree):
     """Builds T from its nested JSON form, each node {id, name, descriptors, children}, each descriptor
-       {name, kind}.
+       {name, kind, range}, range optional.
 
        Other fields a dataset's JSON may carry, such as a node's steps (the mapping), are left to their
        own definitions."""
     nodes, relations = {}, set()
 
     def add(item, parent):
-        if item["id"] in nodes:
-            raise ValueError(f"node {item['id']!r} appears twice: T must be a tree")
-        descriptors = [Descriptor(d["name"], d["kind"]) for d in item.get("descriptors", [])]
-        if any(d.kind not in ("numerical", "categorical") for d in descriptors):
-            raise ValueError(f"node {item['id']!r}: a descriptor is numerical or categorical")
+        descriptors = [Descriptor(d["name"], d["kind"], d.get("range")) for d in item.get("descriptors", [])]
         nodes[item["id"]] = Node(item["id"], item["name"], descriptors)
         if parent is not None:
             relations.add((parent, item["id"]))
@@ -70,34 +68,28 @@ def read_master_specification(tree):
     return MasterSpecification(tree["id"], nodes, relations)
 
 
-def read_selection(tree, T):
-    """Builds T-hat from its nested JSON form, each instance {id, node, values, children}, against T.
+def trees(forest):
+    """The trees of a selection's JSON form: a list of trees, or a single tree on its own."""
+    return forest if isinstance(forest, list) else [forest]
 
-       The top instance must be of T's root, and each instance's node a child in T of its parent
-       instance's node. Every descriptor of an instance's node must be bound, a numerical one to a
-       number, and no other."""
-    parent_of = {c: p for p, c in T.relations}
+
+def unbound(S, T):
+    """The instances of S whose node's descriptors are not all bound to values. A selection is complete,
+       and can be offered, once there are none."""
+    return [x for x in S.instances.values() if set(x.values) != {d.name for d in T.nodes[x.node].descriptors}]
+
+
+def read_selection(forest):
+    """Builds T-hat from its nested JSON form, a list of trees (or a single tree), each instance {id,
+       node, values, children}."""
     instances = {}
 
     def add(item, parent):
-        i, x = item["id"], item["node"]
-        if i in instances:
-            raise ValueError(f"instance {i!r} appears twice")
-        if x not in T.nodes:
-            raise ValueError(f"instance {i!r}: {x!r} is not a node of T")
-        expected = instances[parent].node if parent is not None else None
-        if parent_of.get(x) != expected:
-            raise ValueError(f"instance {i!r}: {x!r} must sit under an instance of its node's parent")
-        values = item.get("values", {})
-        names = {d.name for d in T.nodes[x].descriptors}
-        if set(values) != names:
-            raise ValueError(f"instance {i!r}: must bind exactly the descriptors {sorted(names)}")
-        for d in T.nodes[x].descriptors:
-            if d.kind == "numerical" and not isinstance(values[d.name], (int, float)):
-                raise ValueError(f"instance {i!r}: descriptor {d.name!r} is numerical")
-        instances[i] = Instance(i, x, parent, values)
+        i = item["id"]
+        instances[i] = Instance(i, item["node"], parent, item.get("values", {}))
         for child in item.get("children", []):
             add(child, i)
 
-    add(tree, None)
-    return Selection(tree["id"], instances)
+    for tree in trees(forest):
+        add(tree, None)
+    return Selection([tree["id"] for tree in trees(forest)], instances)

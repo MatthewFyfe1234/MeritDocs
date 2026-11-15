@@ -1,0 +1,12 @@
+{
+  "id": "S",
+  "name": "S",
+  "steps": ["p1"],
+  "children": [
+    {"id": "A", "name": "A", "steps": ["p2", "q2", "p4", "r2"], "descriptors": [{"name": "d", "kind": "numerical", "range": [1, 10]}],
+     "children": [
+       {"id": "B", "name": "B", "steps": ["q1"]},
+       {"id": "C", "name": "C", "steps": ["p3", "r1"]}
+     ]}
+  ]
+}

@@ -17,11 +17,11 @@ export function WorkedExamples() {
         The example is a light-timber wall-frame panel<Rev minor> (Figure 5)</Rev>, optionally sheathed, delivered across the designer,
         machinist, and fabricator skillsets. The designer <Rev>receives the panel&rsquo;s specification and</Rev> passes a cutting list to the machinist and a fabrication
         drawing to the fabricator, and the machinist passes framing members and sheathing panels to the
-        fabricator<Rev>, who delivers the panel</Rev>. <Rev>Each project below delivers one panel, forecast from the
-        trace the earlier ones left.</Rev> Numbers are illustrative, chosen to exercise the arithmetic, not measured.
+        fabricator<Rev>, who delivers the panel</Rev>. <Rev>Projects 1 and 2 below each deliver one panel and Project 3
+        two, each forecast from the trace, of which the earlier projects are shown.</Rev> Numbers are illustrative, chosen to exercise the arithmetic, not measured.
       </p>
 
-      <Figure caption={<><Rev>The selection for Projects 1 and 2, below, drawn on the master specification and master process for wall-frame panels as in Figure 1. Project 3&rsquo;s selection (not shown) would also include the faded elements.</Rev></>}>
+      <Figure caption={<><Rev>The selection for Projects 1 and 2, below, drawn on the master specification and master process for wall-frame panels as in Figure 1. Project 3&rsquo;s selection (not shown) instances the panel twice, one of them with the faded elements.</Rev></>}>
         <MasterMapFigure />
       </Figure>
 
@@ -63,7 +63,7 @@ export function WorkedExamples() {
         to the job&rsquo;s end.</Rev>
       </p>
       <p>
-        <Rev>The minimal nails are fixed by the specification, and the extra nail is what the step consumed beyond
+        <Rev>The minimal nails are set by the specification, and the extra nail is what the step consumed beyond
         them, recorded by the tool. A pause in the signals suggests the gun jammed and was cleared. Wood is consumed upstream, and its offcut is recorded at the machinist&rsquo;s Cut
         Framing step.</Rev>
       </p>
@@ -81,7 +81,7 @@ export function WorkedExamples() {
       <table>
         <thead><tr><th>Quantity</th><th>Minimal (from spec)</th><th>Recorded</th><th><Rev minor>Project 1</Rev> scaled to this panel</th></tr></thead>
         <tbody>
-          <tr><td>Nails</td><td>{minimalNails(1800)} (4 per stud)</td><td>18 (<Rev minor>incl.</Rev> 2 misfires)</td><td><Rev minor>17.3</Rev></td></tr>
+          <tr><td>Nails</td><td>{minimalNails(1800)} (4 per stud)</td><td>18 (<Rev minor>incl. 2 wasted</Rev>)</td><td><Rev minor>17.3</Rev></td></tr>
           <tr><td>Time</td><td>&mdash;</td><td><Rev>6.6</Rev> min</td><td><Rev>6.7</Rev> min</td></tr>
           <tr><td>Energy<Rev minor> (Nail Frame)</Rev></td><td>&mdash;</td><td><Rev>0.18</Rev> kWh</td><td><Rev>0.16</Rev> kWh</td></tr>
         </tbody>
@@ -93,52 +93,54 @@ export function WorkedExamples() {
       />
       <p>
         The last column scales <Rev minor>Project 1&rsquo;s</Rev> figures to this panel<Rev>, step by step. Nails scale by
-        their minimum. Mark Out, Lay Out and Nail Frame scale by stud count (&times;4/3), since their effort tracks the
-        number of members worked rather than their length. Stack Panel scales by width (&times;1.5), since a wider
+        their minimum. Mark Out, Lay Out and Nail Frame scale by stud count (&times;4/3), the first two from their attributed
+        times, since their effort tracks the
+        number of studs worked rather than their length. Stack Panel scales by width (&times;1.5), since a wider
         panel is heavier to move.</Rev> <Rev>The difference between the scaled and recorded values is partly chance, which no forecast can
         remove, and partly factors the scaling does not yet account for, such as who did the work or the condition of
         the gun.</Rev>
       </p>
 
-      <h4><Rev minor>Project 3</Rev>: forecasting the next frame</h4>
+      <h4><Rev minor>Project 3</Rev>: forecasting the next <Rev minor>frames</Rev></h4>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', margin: '1rem 0' }}>
         <div style={{ flex: '1 1 55%' }}>
           <FrameDiagram widthMm={1500} sheathed fill />
+          <Rev block><FrameDiagram widthMm={1200} fill /></Rev>
         </div>
         <p style={{ flex: '1 1 45%', margin: 0 }}>
-          1500mm, 4 studs. <Rev>Project 3&rsquo;s panel selects sheathing, which necessitates an extra
-          step (Fix Sheathing).</Rev> <Rev>A project framing several panels would instance the panel node once for each,
-          and the fabricator would execute each step as many times as the panels require, Fix Sheathing only for
-          those that select sheathing.</Rev> <Rev minor>The specification necessitates all five of the fabricator&rsquo;s
-          steps. The trace forecasts the materials used, scaled from the minimal quantities the specification gives,
-          and time and energy, for which it gives none.</Rev>
+          <Rev>Project 3 frames two panels, instancing the panel node twice, each instance with its own
+          descriptors: 1500mm and 4 studs, sheathed, and 1200mm and 3 studs, unsheathed. The sheathing selected
+          beneath the first necessitates an extra step (Fix Sheathing), which serves that panel alone. Each other
+          step serves both, their descriptor values combining.</Rev> <Rev minor>The specification necessitates all five of the fabricator&rsquo;s
+          steps.</Rev> <Rev>The specification gives the minimal materials, and the trace forecasts the waste above them,
+          and time and energy outright, for which the specification gives no minimum.</Rev>
         </p>
       </div>
       <p>
-        <Rev>The scaling <M>{"\\theta"}</M> brings each prior frame to this panel, step by step as in Project 2, and both
-        are used. Project 1&rsquo;s steps scale to about 6.5 min in all and Project 2&rsquo;s to about 6.4 min, and
-        their energy to 0.16 and 0.18 kWh.</Rev>
+        <Rev>The scaling <M>{"\\theta"}</M> brings each prior frame to the two panels&rsquo; combined descriptors, 7
+        studs and 2700mm of width, step by step as in Project 2, and both are used. Project 1&rsquo;s steps scale to
+        about 11.4 min and 0.28 kWh, and Project 2&rsquo;s to about 11.3 min and 0.32 kWh.</Rev>
       </p>
       <table>
         <thead><tr><th>Quantity</th><th>Minimal (from spec)</th><th>Forecast basis</th><th>Forecast</th></tr></thead>
         <tbody>
           <tr>
             <td>Nails</td>
-            <td>{minimalNails(1500)} (4 per stud)</td>
+            <td><Rev>{minimalNails(1500)} + {minimalNails(1200)} = {minimalNails(1500) + minimalNails(1200)}</Rev> (4 per stud)</td>
             <td>pooled <Rev minor>waste</Rev> rate across <Rev minor>Projects 1 and 2</Rev>: (1+2) / (12+16) &asymp; 10.7%</td>
-            <td><Rev>centred &asymp;18 (incl. 2), read above this at <i>r</i> = 0.9</Rev></td>
+            <td><Rev>centred &asymp;31 (incl. 3), read above this at <i>r</i> = 0.9</Rev></td>
           </tr>
           <tr>
             <td>Time<Rev minor> (excl. Fix Sheathing)</Rev></td>
             <td>&mdash;</td>
-            <td><Rev>Projects 1 and 2, each step scaled to this panel</Rev></td>
-            <td>&asymp;<Rev>6.4</Rev> min</td>
+            <td><Rev>Projects 1 and 2, each step scaled to both panels&rsquo; combined descriptors</Rev></td>
+            <td>&asymp;<Rev>11.3</Rev> min</td>
           </tr>
           <tr>
             <td>Energy (<Rev minor>Nail Frame</Rev>)</td>
             <td>&mdash;</td>
-            <td><Rev>Projects 1 and 2, scaled to 4 studs</Rev></td>
-            <td>&asymp;<Rev>0.17</Rev> kWh</td>
+            <td><Rev>Projects 1 and 2, scaled to 7 studs</Rev></td>
+            <td>&asymp;<Rev>0.30</Rev> kWh</td>
           </tr>
           <tr>
             <td><Rev minor>Fix Sheathing</Rev> (time, energy<Rev minor>, nails</Rev>)</td>
@@ -150,7 +152,7 @@ export function WorkedExamples() {
       </table>
       <p>
         The pooled waste rate carries a spread, so <Rev minor>the nail count</Rev> has a distribution in the sense of Figure 4, centred near{' '}
-        <Rev minor>18</Rev>. At <i>r</i> = 0.9<Rev>, a tolerated risk of 10%,</Rev> the forecast reads its 90th percentile<Rev>, somewhat above the centre. Two frames cannot fix the
+        <Rev minor>31</Rev>. At <i>r</i> = 0.9<Rev>, a tolerated risk of 10%,</Rev> the forecast reads its 90th percentile<Rev>, somewhat above the centre. Two frames cannot establish the
         spread, so the figure is left unstated</Rev>. The
         other rows show only the centre, for brevity. <Rev>The history is kept to two frames so the arithmetic can
         be followed by hand, and is not representative of the history a forecast would draw on in practice.</Rev>
@@ -162,30 +164,40 @@ export function WorkedExamples() {
       <h4><Rev minor>Project 3&rsquo;s contract, offered to eligible agents</Rev></h4>
       <p>
         The fabricator&rsquo;s job is offered as one contract. With the fabricator qualification assumed for this pool, eligibility turns on the
-        experience floor at each step of the job.
+        experience floor at each step of the job. <Rev>The floor is set on the panel node, at 200m of panel
+        width, and is checked at each step the panel necessitates. Fix Sheathing has a floor of its own, set on the
+        sheathing node at 40 boards fixed, a board covering 1200mm of panel. The second table shows the experience at each
+        step of two agents qualified for the job, in the descriptor of the floor that applies there. Only Agent 2 is
+        eligible, and Projects 1 and 2 were both Agent 2&rsquo;s, so the forecasts above, from the frames
+        shown, stand for the contract&rsquo;s.</Rev>
       </p>
       <table>
         <thead><tr><th>Contract</th><th>Fabricator&rsquo;s job</th></tr></thead>
         <tbody>
           <tr><td>Inputs</td><td>framing members, sheathing panels, fabrication drawing</td></tr>
-          <tr><td>Output</td><td>sheathed panel</td></tr>
-          <tr><td>Forecasts</td><td>&asymp;18 nails, &asymp;<Rev>6.4</Rev> min, &asymp;<Rev>0.17</Rev> kWh (centres), <Rev>with Fix Sheathing seeded heuristically, as Project 3 notes</Rev></td></tr>
+          <tr><td><Rev minor>Outputs</Rev></td><td><Rev>two panels, one sheathed</Rev></td></tr>
+          <tr><td>Forecasts</td><td>&asymp;<Rev>31</Rev> nails, &asymp;<Rev>11.3</Rev> min, &asymp;<Rev>0.30</Rev> kWh (centres), <Rev>excluding Fix Sheathing, which is seeded heuristically, as Project 3 notes</Rev></td></tr>
         </tbody>
       </table>
       <table>
-        <thead><tr><th>Step</th><th>Experience floor</th></tr></thead>
+        <thead>
+          <tr><th rowSpan={2}>Step</th><th colSpan={2}><Rev>Agent 1</Rev></th><th colSpan={2}><Rev>Agent 2</Rev></th></tr>
+          <tr><th><Rev>Recorded</Rev></th><th><Rev>Credited</Rev></th><th><Rev>Recorded</Rev></th><th><Rev>Credited</Rev></th></tr>
+        </thead>
         <tbody>
-          <tr><td><Rev minor>Mark Out</Rev></td><td><Rev minor>&ge;5 executions</Rev></td></tr>
-          <tr><td><Rev minor>Lay Out</Rev></td><td><Rev minor>&ge;5 executions</Rev></td></tr>
-          <tr><td><Rev minor>Nail Frame</Rev></td><td><Rev minor>&ge;20 framing executions</Rev></td></tr>
-          <tr><td><Rev minor>Fix Sheathing</Rev></td><td><Rev minor>&ge;5 sheathing executions</Rev></td></tr>
-          <tr><td><Rev>Stack Panel</Rev></td><td><Rev>&ge;5 executions</Rev></td></tr>
+          <tr><td><Rev minor>Mark Out</Rev></td><td><Rev>150m</Rev></td><td><Rev>0 &#10007;</Rev></td><td><Rev>120m</Rev></td><td><Rev>100m &#10003;</Rev></td></tr>
+          <tr><td><Rev minor>Lay Out</Rev></td><td><Rev>150m</Rev></td><td><Rev>0 &#10007;</Rev></td><td><Rev>120m</Rev></td><td><Rev>100m &#10003;</Rev></td></tr>
+          <tr><td><Rev minor>Nail Frame</Rev></td><td><Rev>150m</Rev></td><td><Rev>0 &#10007;</Rev></td><td><Rev>120m</Rev></td><td><Rev>100m &#10003;</Rev></td></tr>
+          <tr><td><Rev minor>Fix Sheathing</Rev></td><td><Rev>0</Rev></td><td><Rev>50 boards &#10003;</Rev></td><td><Rev>0</Rev></td><td><Rev>109 boards &#10003;</Rev></td></tr>
+          <tr><td><Rev>Stack Panel</Rev></td><td><Rev>150m</Rev></td><td><Rev>0 &#10007;</Rev></td><td><Rev>120m</Rev></td><td><Rev>100m &#10003;</Rev></td></tr>
+          <tr><td><Rev><strong>Eligible</strong></Rev></td><td colSpan={2}><Rev>no</Rev></td><td colSpan={2}><Rev>yes</Rev></td></tr>
         </tbody>
       </table>
       <p>
-        The floors are illustrative. Sheathing done on other product lines counts toward an agent&rsquo;s exposure at
-        that step, so an agent can clear its floor here even though none of those records lies near enough to this
-        panel to forecast it.
+        <Rev>The floor and experience are illustrative. Agent 2 is offered the contract. Agent 1 has sheathed enough
+        but framed too few panels. Agent 2 clears the panel floor only with experience credited from a previous
+        role. Both agents&rsquo; sheathing predates the trace and is credited, so Fix Sheathing has no records to
+        forecast from.</Rev>
       </p>
 
       <h3>Patient care (illustrative)</h3>
@@ -197,7 +209,7 @@ export function WorkedExamples() {
         <Rev minor>That selection maps to an initial assessment by the emergency physician</Rev> (Figure 6).
       </p>
 
-      <Figure caption={<><Rev minor>An illustrative fragment of a master specification and master process for clinical care</Rev>, drawn as in Figure 1.</>}>
+      <Figure caption={<><Rev minor>An illustrative fragment of a master specification and master process for clinical care</Rev>, drawn as in Figure 1<Rev>, hatched steps having executed</Rev>.</>}>
         <PatientMasterFigure stage={0} />
       </Figure>
 
@@ -218,8 +230,8 @@ export function WorkedExamples() {
         so a finding inherits what is bound above it. Where the data cannot place a diagnosis on anatomy, other
         organisations are possible, as in the evaluation.</Rev> That selection reaches
         two skillsets the <Rev minor>assessment</Rev> did not, the surgeon and the anaesthetist, and the process grows to match
-        (Figure 8). This is <Rev minor>derivation&rsquo;s</Rev> central move, and the same rule throughout. Each step&rsquo;s finding,
-        its <M>{"\\sigma(s)"}</M>, deepens the specification, and the deeper specification necessitates the next steps. The process progresses
+        (Figure 8). This is <Rev minor>derivation&rsquo;s</Rev> central move, and the same rule throughout. Each step&rsquo;s finding
+        deepens the specification, and the deeper specification necessitates the next steps. The process progresses
         because the selection deepened, not because a plan was drawn. The order is inherited, so the <Rev minor>triage</Rev>,
         assessment and imaging already done stand. <Rev>For brevity the finding necessitates surgery directly, where
         an intervention beneath it would hold the alternatives, such as watchful waiting. Had the scan found nothing, the physician would have received the negative
@@ -227,7 +239,7 @@ export function WorkedExamples() {
         own investigation. The number of such passes is unknown at the outset and grows with the findings.</Rev>
       </p>
 
-      <Figure caption="Imaging selects the gallstone node, which necessitates the surgeon's and anaesthetist's steps.">
+      <Figure caption={<>Imaging selects the gallstone node, which necessitates the surgeon&rsquo;s and anaesthetist&rsquo;s steps<Rev>; the two jobs interleave, the anaesthetised patient passing back to the surgeon</Rev>.</>}>
         <PatientMasterFigure stage={2} />
       </Figure>
 
@@ -244,13 +256,13 @@ export function WorkedExamples() {
 
       <p>
         Executing the step, the anaesthetist draws on that history to set the dose. For this patient&rsquo;s
-        descriptors, the prior cases that match relate the dose given to the pressure drop that followed, showing
+        descriptors, the prior cases that match relate the dose given, <Rev>which joins the descriptors in the fit,</Rev> to the pressure drop that followed, showing
         which doses held blood pressure and which let it fall too far. The anaesthetist settles on a dose whose
         forecast drop, read at the tolerated risk, stays within a safe range (Figure 9). As in the wall frame, the
         distribution&rsquo;s spread is the risk being weighed, and the forecast is read from it at that risk. The
         fit is observational. The doses in the trace were chosen by clinicians for the patients in front of them,
         frailer patients receiving less, so the relation it shows is confounded by indication and cannot be read as
-        the effect of a dose. Conditioning on age, weight and ASA grade narrows this without removing it, so the
+        the effect of a dose. Conditioning on age, weight and <Rev>the ASA grade the anaesthetist assigns in preparing</Rev> narrows this without removing it, so the
         forecast informs the anaesthetist&rsquo;s choice rather than setting it.
       </p>
 
@@ -265,9 +277,11 @@ export function WorkedExamples() {
         that was always in the master but not indicated until now. <Rev>The node necessitates an exploration step for
         the surgeon and a further maintenance step for the anaesthetist, mid-procedure. The maintenance step joins a
         job already taken, so the contract is re-issued with it and the anaesthetist&rsquo;s experience is checked
-        there, and what follows were the anaesthetist to fall short is the case Section 6 leaves open.</Rev> The
+        there, the job being offered again to those eligible were the anaesthetist to fall short. Had the master
+        instead mapped duct clearance to an ERCP before the operation, that step would come too late, feeding one
+        already under way, the case Section 6 takes up.</Rev> The
         update is not only structural: the newly selected node binds a descriptor, <Rev minor>biliary obstruction found
-        intraoperatively</Rev><Rev>, which the maintenance step sees because that node necessitates it</Rev>, and reading it the
+        intraoperatively</Rev><Rev>, which the maintenance step sees because that node necessitates it</Rev>. <Rev minor>Reading it, the</Rev>{' '}
         anaesthetist selects cisatracurium, which clears independently of the liver, in place of the default, a
         choice of material made at execution rather than fixed by the mapping.
         The order already set stands, the steps already completed hold, and nothing returns to the <Rev minor>emergency physician</Rev>.

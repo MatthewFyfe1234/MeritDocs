@@ -12,11 +12,9 @@ class Mapping:
 # --------------------------------------------------------------------------------------------------
 
 
-def read_mapping(tree, T, G):
-    """Builds mu from the nested JSON form of the master specification, each node listing its steps.
-
-       T is the master specification and G the master process. Every node of T gets a set, empty where
-       it lists none; every step named must be in G."""
+def read_mapping(tree):
+    """Builds mu from the nested JSON form of the master specification, each node listing its steps, an
+       empty set where it lists none."""
     steps = {}
 
     def add(item):
@@ -25,9 +23,4 @@ def read_mapping(tree, T, G):
             add(child)
 
     add(tree)
-    for n, ss in steps.items():
-        for s in ss - set(G.steps):
-            raise ValueError(f"node {n!r}: {s!r} is not a step")
-    if set(steps) != set(T.nodes):
-        raise ValueError("the mapping must cover exactly the nodes of T")
     return Mapping(steps)

@@ -1,0 +1,2140 @@
+[
+  {
+    "project": "cabg-20044587",
+    "step": "pre-op",
+    "time": "2113-08-25 07:15:00",
+    "agents": [
+      "P47E1G"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 2.29
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "operate",
+    "time": "2113-08-25 09:32:41",
+    "agents": [
+      "P38GCF"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 2.96
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "ventilate",
+    "time": "2113-08-25 12:30:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "albumin-5",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "nitroglycerin",
+      "packed-red-blood-cells",
+      "platelets",
+      "potassium-chloride",
+      "propofol",
+      "ranitidine-prophylaxis"
+    ],
+    "metric": "duration",
+    "value": 19.05
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "icu",
+    "time": "2113-08-26 07:33:00",
+    "agents": [
+      "13905"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "cefazolin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "hydralazine",
+      "insulin-glargine",
+      "insulin-regular",
+      "kcl-bolus",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "nitroglycerin",
+      "potassium-chloride"
+    ],
+    "metric": "duration",
+    "value": 32.91
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "ward",
+    "time": "2113-08-27 16:27:53",
+    "agents": [
+      "P451D0"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 69.79
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "ventilate",
+    "time": "2113-08-25 16:28:00",
+    "agents": [
+      "28451"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 59.89
+  },
+  {
+    "project": "cabg-20044587",
+    "step": "ventilate",
+    "time": "2113-08-25 16:28:00",
+    "agents": [
+      "28451"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 21.0
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "pre-op",
+    "time": "2180-02-15 20:28:00",
+    "agents": [
+      "P536JC"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 130.11
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "operate",
+    "time": "2180-02-21 06:34:21",
+    "agents": [
+      "P23H5V"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.34
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "ventilate",
+    "time": "2180-02-21 10:55:00",
+    "agents": [
+      "51414"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "dextrose-50",
+      "fentanyl",
+      "insulin-regular",
+      "lr",
+      "nacl-0-9",
+      "nitroglycerin",
+      "phenylephrine",
+      "propofol",
+      "ranitidine-prophylaxis",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 11.72
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "icu",
+    "time": "2180-02-21 22:38:00",
+    "agents": [
+      "33390"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "calcium-gluconate",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "fentanyl",
+      "furosemide-lasix",
+      "hydromorphone-dilaudid",
+      "insulin-glargine",
+      "insulin-regular",
+      "ketorolac-toradol",
+      "nacl-0-9",
+      "nitroglycerin",
+      "phenylephrine",
+      "ranitidine-prophylaxis",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 17.45
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "ward",
+    "time": "2180-02-22 16:05:14",
+    "agents": [
+      "P628FU"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 69.66
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "ventilate",
+    "time": "2180-02-21 13:03:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.51
+  },
+  {
+    "project": "cabg-20297618",
+    "step": "ventilate",
+    "time": "2180-02-21 13:03:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -36.0
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "pre-op",
+    "time": "2132-12-12 01:43:00",
+    "agents": [
+      "P41R5N"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 79.77
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "operate",
+    "time": "2132-12-15 09:29:01",
+    "agents": [
+      "P9822B"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.68
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "ventilate",
+    "time": "2132-12-15 14:10:00",
+    "agents": [
+      "92805"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "albumin-5",
+      "calcium-gluconate",
+      "dextrose-5",
+      "glycopyrolate-robinul",
+      "hydralazine",
+      "insulin-regular",
+      "kcl-bolus",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "neostigmine-prostigmin",
+      "nitroglycerin",
+      "phenylephrine",
+      "potassium-chloride",
+      "propofol"
+    ],
+    "metric": "duration",
+    "value": 4.83
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "icu",
+    "time": "2132-12-15 19:00:00",
+    "agents": [
+      "20310"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-5",
+      "calcium-gluconate",
+      "ciprofloxacin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "hydralazine",
+      "insulin-glargine",
+      "insulin-regular",
+      "kcl-bolus",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "nitroglycerin",
+      "packed-red-blood-cells",
+      "potassium-chloride",
+      "ranitidine-prophylaxis",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 47.1
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "ward",
+    "time": "2132-12-17 18:06:07",
+    "agents": [
+      "P451D0"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 68.96
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "ventilate",
+    "time": "2132-12-15 16:35:00",
+    "agents": [
+      "92805"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 50.23
+  },
+  {
+    "project": "cabg-20626031",
+    "step": "ventilate",
+    "time": "2132-12-15 16:35:00",
+    "agents": [
+      "92805"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -2.0
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "pre-op",
+    "time": "2111-01-15 14:55:00",
+    "agents": [
+      "P1037P"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 42.83
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "operate",
+    "time": "2111-01-17 09:44:50",
+    "agents": [
+      "P38GCF"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 5.22
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "ventilate",
+    "time": "2111-01-17 14:58:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "albumin-5",
+      "calcium-gluconate",
+      "cefazolin",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "packed-red-blood-cells",
+      "phenylephrine",
+      "platelets",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 15.55
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "icu",
+    "time": "2111-01-18 06:31:00",
+    "agents": [
+      "53913"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-25",
+      "albumin-5",
+      "amiodarone",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "dextrose-50",
+      "furosemide-lasix",
+      "insulin-regular",
+      "lorazepam-ativan",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "packed-red-blood-cells",
+      "phenylephrine",
+      "ranitidine-prophylaxis",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 131.8
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "ward",
+    "time": "2111-01-23 18:18:46",
+    "agents": [
+      "P57YCB"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 44.69
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "ventilate",
+    "time": "2111-01-17 14:58:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 20.01
+  },
+  {
+    "project": "cabg-21255400",
+    "step": "ventilate",
+    "time": "2111-01-17 14:58:00",
+    "agents": [
+      "97715"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 19.0
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "pre-op",
+    "time": "2189-09-10 00:00:00",
+    "agents": [
+      "P47E1G"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 10.09
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "operate",
+    "time": "2189-09-10 10:05:24",
+    "agents": [
+      "P23H5V"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 2.34
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "ventilate",
+    "time": "2189-09-10 12:26:00",
+    "agents": [
+      "54159"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "albumin-5",
+      "dextrose-5",
+      "fentanyl",
+      "insulin-regular",
+      "lr",
+      "nacl-0-9",
+      "phenylephrine",
+      "propofol"
+    ],
+    "metric": "duration",
+    "value": 3.95
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "icu",
+    "time": "2189-09-10 16:23:00",
+    "agents": [
+      "20310"
+    ],
+    "tools": [
+      "non-invasive-ventilator",
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-25",
+      "albumin-5",
+      "amiodarone",
+      "amiodarone-600-500",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "fentanyl",
+      "furosemide-lasix",
+      "insulin-glargine",
+      "insulin-regular",
+      "k-phos",
+      "kcl-bolus",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "nacl-0-9",
+      "packed-red-blood-cells",
+      "phenylephrine",
+      "potassium-chloride",
+      "ranitidine-prophylaxis"
+    ],
+    "metric": "duration",
+    "value": 101.07
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "ward",
+    "time": "2189-09-14 21:27:28",
+    "agents": [
+      "P33HUF"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 41.54
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "ventilate",
+    "time": "2189-09-10 14:33:00",
+    "agents": [
+      "27016"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 9.99
+  },
+  {
+    "project": "cabg-22342963",
+    "step": "ventilate",
+    "time": "2189-09-10 14:33:00",
+    "agents": [
+      "27016"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -9.0
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "pre-op",
+    "time": "2120-05-12 12:53:00",
+    "agents": [
+      "P41R5N"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 23.74
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "operate",
+    "time": "2120-05-13 12:37:12",
+    "agents": [
+      "P38GCF"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.81
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "ventilate",
+    "time": "2120-05-13 17:26:00",
+    "agents": [
+      "53913"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "dextrose-5",
+      "glycopyrolate-robinul",
+      "insulin-regular",
+      "lr",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "neostigmine-prostigmin",
+      "nitroglycerin",
+      "phenylephrine",
+      "propofol",
+      "ranitidine-prophylaxis"
+    ],
+    "metric": "duration",
+    "value": 2.45
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "icu",
+    "time": "2120-05-13 19:53:00",
+    "agents": [
+      "53913"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "cefazolin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "insulin-glargine",
+      "insulin-regular",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "nitroglycerin",
+      "ranitidine-prophylaxis",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 20.59
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "ward",
+    "time": "2120-05-14 16:28:21",
+    "agents": [
+      "P16911"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 71.53
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "ventilate",
+    "time": "2120-05-13 19:15:00",
+    "agents": [
+      "53913"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 10.0
+  },
+  {
+    "project": "cabg-22580999",
+    "step": "ventilate",
+    "time": "2120-05-13 19:15:00",
+    "agents": [
+      "53913"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -27.0
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "pre-op",
+    "time": "2161-11-15 20:10:00",
+    "agents": [
+      "P96FGV"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 83.1
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "operate",
+    "time": "2161-11-19 07:16:15",
+    "agents": [
+      "P23H5V"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.86
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "ventilate",
+    "time": "2161-11-19 12:08:00",
+    "agents": [
+      "28438"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "dextrose-5",
+      "fentanyl",
+      "glycopyrolate-robinul",
+      "insulin-regular",
+      "lr",
+      "nacl-0-9",
+      "neostigmine-prostigmin",
+      "phenylephrine",
+      "propofol"
+    ],
+    "metric": "duration",
+    "value": 4.22
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "icu",
+    "time": "2161-11-19 16:21:00",
+    "agents": [
+      "83732"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "cefazolin",
+      "dextrose-5",
+      "fentanyl",
+      "furosemide-lasix",
+      "insulin-glargine",
+      "insulin-regular",
+      "ketorolac-toradol",
+      "nacl-0-9",
+      "phenylephrine",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 29.41
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "ward",
+    "time": "2161-11-20 21:45:42",
+    "agents": [
+      "P45MAB"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 66.24
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "ventilate",
+    "time": "2161-11-19 12:13:00",
+    "agents": [
+      "28438"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.06
+  },
+  {
+    "project": "cabg-24490144",
+    "step": "ventilate",
+    "time": "2161-11-19 12:13:00",
+    "agents": [
+      "28438"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 38.0
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "pre-op",
+    "time": "2153-09-17 17:08:00",
+    "agents": [
+      "P41R5N"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 40.78
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "operate",
+    "time": "2153-09-19 09:54:49",
+    "agents": [
+      "P50K0U"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 3.84
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "ventilate",
+    "time": "2153-09-19 13:45:00",
+    "agents": [
+      "86518"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "phenylephrine",
+      "potassium-chloride",
+      "propofol"
+    ],
+    "metric": "duration",
+    "value": 4.55
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "icu",
+    "time": "2153-09-19 18:18:00",
+    "agents": [
+      "76255"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "amiodarone",
+      "amiodarone-600-500",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "hydromorphone-dilaudid",
+      "insulin-glargine",
+      "insulin-humalog",
+      "insulin-regular",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "packed-red-blood-cells",
+      "phenylephrine",
+      "potassium-chloride",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 46.35
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "ward",
+    "time": "2153-09-21 16:39:06",
+    "agents": [
+      "P869HV"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 92.68
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "ventilate",
+    "time": "2153-09-19 13:45:00",
+    "agents": [
+      "86518"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.02
+  },
+  {
+    "project": "cabg-25926192",
+    "step": "ventilate",
+    "time": "2153-09-19 13:45:00",
+    "agents": [
+      "86518"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 0.0
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "pre-op",
+    "time": "2140-03-22 17:18:00",
+    "agents": [
+      "P47E1G"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 65.89
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "operate",
+    "time": "2140-03-25 11:11:08",
+    "agents": [
+      "P23H5V"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 6.38
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "ventilate",
+    "time": "2140-03-25 17:34:00",
+    "agents": [
+      "92805"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "cefazolin",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "glycopyrolate-robinul",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "neostigmine-prostigmin",
+      "nitroglycerin",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 6.75
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "icu",
+    "time": "2140-03-26 00:19:00",
+    "agents": [
+      "28438"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-5",
+      "calcium-gluconate",
+      "cefazolin",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "furosemide-lasix",
+      "hydralazine",
+      "insulin-glargine",
+      "insulin-regular",
+      "kcl-bolus",
+      "metoprolol",
+      "nacl-0-9",
+      "potassium-chloride",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 66.11
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "ward",
+    "time": "2140-03-28 18:25:54",
+    "agents": [
+      "P57YCB"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 43.73
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "ventilate",
+    "time": "2140-03-25 17:50:00",
+    "agents": [
+      "17039"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.21
+  },
+  {
+    "project": "cabg-27089790",
+    "step": "ventilate",
+    "time": "2140-03-25 17:50:00",
+    "agents": [
+      "17039"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 14.0
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "pre-op",
+    "time": "2146-12-15 07:15:00",
+    "agents": [
+      "P47E1G"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 2.67
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "operate",
+    "time": "2146-12-15 09:54:58",
+    "agents": [
+      "P50K0U"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 2.58
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "icu",
+    "time": "2146-12-15 12:30:00",
+    "agents": [
+      "44490"
+    ],
+    "tools": [],
+    "materials": [
+      "albumin-5",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "packed-red-blood-cells",
+      "phenylephrine",
+      "potassium-chloride",
+      "propofol",
+      "ranitidine-prophylaxis"
+    ],
+    "metric": "duration",
+    "value": 22.39
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "ward",
+    "time": "2146-12-16 10:53:06",
+    "agents": [
+      "P57YCB"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 74.73
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "icu",
+    "time": "2146-12-15 12:30:00",
+    "agents": [
+      "8805"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.06
+  },
+  {
+    "project": "cabg-27505812",
+    "step": "icu",
+    "time": "2146-12-15 12:30:00",
+    "agents": [
+      "8805"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -9.0
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "ed",
+    "time": "2167-05-03 15:18:00",
+    "agents": [
+      "P38XXV"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 7.53
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "pre-op",
+    "time": "2167-05-03 22:50:00",
+    "agents": [
+      "P204LI"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 36.24
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "operate",
+    "time": "2167-05-05 11:04:21",
+    "agents": [
+      "P23H5V"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 8.16
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "ventilate",
+    "time": "2167-05-05 19:14:00",
+    "agents": [
+      "34175"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-5",
+      "calcium-gluconate",
+      "cefazolin",
+      "dextrose-5",
+      "hydromorphone-dilaudid",
+      "insulin-regular",
+      "kcl-bolus",
+      "ketorolac-toradol",
+      "lr",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "nitroglycerin",
+      "phenylephrine",
+      "platelets",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 10.67
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "icu",
+    "time": "2167-05-06 05:54:00",
+    "agents": [
+      "91236"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "cefazolin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "hydromorphone-dilaudid",
+      "insulin-regular",
+      "ketorolac-toradol",
+      "nacl-0-9",
+      "phenylephrine",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 12.77
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "ward",
+    "time": "2167-05-06 18:40:10",
+    "agents": [
+      "P75NFJ"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 114.28
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "ventilate",
+    "time": "2167-05-05 19:22:00",
+    "agents": [
+      "99791"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 121.37
+  },
+  {
+    "project": "cabg-29366372",
+    "step": "ventilate",
+    "time": "2167-05-05 19:22:00",
+    "agents": [
+      "99791"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 14.0
+  },
+  {
+    "project": "renal-22251969",
+    "step": "ed",
+    "time": "2147-08-02 18:14:00",
+    "agents": null,
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 8.79
+  },
+  {
+    "project": "renal-22251969",
+    "step": "ward",
+    "time": "2147-08-03 03:01:07",
+    "agents": [
+      "P529AR"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 85.9
+  },
+  {
+    "project": "renal-22539296",
+    "step": "ed",
+    "time": "2176-06-06 13:33:00",
+    "agents": [
+      "P62SP8"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 6.75
+  },
+  {
+    "project": "renal-22539296",
+    "step": "ward",
+    "time": "2176-06-06 20:18:00",
+    "agents": [
+      "P786E8"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 46.21
+  },
+  {
+    "project": "renal-24244087",
+    "step": "ed",
+    "time": "2174-06-07 16:24:00",
+    "agents": [
+      "P6683B"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 8.63
+  },
+  {
+    "project": "renal-24244087",
+    "step": "ward",
+    "time": "2174-06-08 01:02:00",
+    "agents": [
+      "P02U8G"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 112.21
+  },
+  {
+    "project": "renal-26013492",
+    "step": "ed",
+    "time": "2147-11-14 18:22:00",
+    "agents": [
+      "P927YN"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.78
+  },
+  {
+    "project": "renal-26013492",
+    "step": "ward",
+    "time": "2147-11-14 23:09:00",
+    "agents": [
+      "P424IO"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 40.8
+  },
+  {
+    "project": "renal-26228185",
+    "step": "ed",
+    "time": "2150-04-30 14:26:00",
+    "agents": [
+      "P22SEC"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 7.47
+  },
+  {
+    "project": "renal-26228185",
+    "step": "ward",
+    "time": "2150-04-30 21:54:00",
+    "agents": [
+      "P81VV0"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 160.45
+  },
+  {
+    "project": "renal-26793610",
+    "step": "ed",
+    "time": "2140-09-24 21:17:00",
+    "agents": [
+      "P885Z8"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 8.67
+  },
+  {
+    "project": "renal-26793610",
+    "step": "ward",
+    "time": "2140-09-25 05:57:00",
+    "agents": [
+      "P66O97"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 35.8
+  },
+  {
+    "project": "renal-29802992",
+    "step": "ed",
+    "time": "2179-07-24 18:21:00",
+    "agents": null,
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 6.93
+  },
+  {
+    "project": "renal-29802992",
+    "step": "ward",
+    "time": "2179-07-25 01:17:00",
+    "agents": [
+      "P163KQ"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 86.66
+  },
+  {
+    "project": "sepsis-22413744",
+    "step": "ed",
+    "time": "2191-01-14 21:18:00",
+    "agents": [
+      "P45IQS"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 6.03
+  },
+  {
+    "project": "sepsis-22413744",
+    "step": "ward",
+    "time": "2191-01-15 03:20:00",
+    "agents": [
+      "P00KXP"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 373.82
+  },
+  {
+    "project": "sepsis-22995465",
+    "step": "ed",
+    "time": "2174-05-26 04:20:00",
+    "agents": [
+      "P277RR"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.97
+  },
+  {
+    "project": "sepsis-22995465",
+    "step": "icu",
+    "time": "2174-05-26 09:18:00",
+    "agents": [
+      "571"
+    ],
+    "tools": [],
+    "materials": [
+      "ceftriaxone",
+      "dextrose-5",
+      "heparin-sodium-prophylaxis",
+      "lr",
+      "nacl-0-9"
+    ],
+    "metric": "duration",
+    "value": 29.22
+  },
+  {
+    "project": "sepsis-22995465",
+    "step": "ward",
+    "time": "2174-05-27 14:31:12",
+    "agents": [
+      "P6483W"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 95.84
+  },
+  {
+    "project": "sepsis-23473524",
+    "step": "ed",
+    "time": "2156-05-11 11:29:00",
+    "agents": null,
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 3.34
+  },
+  {
+    "project": "sepsis-23473524",
+    "step": "icu",
+    "time": "2156-05-11 14:49:34",
+    "agents": [
+      "13065"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "cefepime",
+      "ceftriaxone",
+      "ciprofloxacin",
+      "dextrose-5",
+      "famotidine-pepcid",
+      "furosemide-lasix",
+      "heparin-sodium-prophylaxis",
+      "insulin-humalog",
+      "insulin-regular",
+      "lorazepam-ativan",
+      "magnesium-sulfate",
+      "meropenem",
+      "metronidazole",
+      "nacl-0-9",
+      "norepinephrine",
+      "packed-red-blood-cells",
+      "piperacillin",
+      "piperacillin-tazobactam-zosyn",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 263.45
+  },
+  {
+    "project": "sepsis-23473524",
+    "step": "icu",
+    "time": "2156-05-12 12:55:00",
+    "agents": [
+      "98628"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 9.54
+  },
+  {
+    "project": "sepsis-23473524",
+    "step": "icu",
+    "time": "2156-05-12 12:55:00",
+    "agents": [
+      "98628"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 5.0
+  },
+  {
+    "project": "sepsis-23488445",
+    "step": "icu",
+    "time": "2189-06-09 12:46:30",
+    "agents": [
+      "25748"
+    ],
+    "tools": [],
+    "materials": [
+      "azithromycin",
+      "cefepime",
+      "dextrose-5",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "nacl-0-9",
+      "norepinephrine",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 34.19
+  },
+  {
+    "project": "sepsis-23488445",
+    "step": "ward",
+    "time": "2189-06-10 22:58:09",
+    "agents": [
+      "P30SZF"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 66.46
+  },
+  {
+    "project": "sepsis-23819016",
+    "step": "ed",
+    "time": "2140-06-17 17:47:00",
+    "agents": null,
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 7.9
+  },
+  {
+    "project": "sepsis-23819016",
+    "step": "icu",
+    "time": "2140-06-18 01:41:00",
+    "agents": [
+      "83488"
+    ],
+    "tools": [],
+    "materials": [
+      "dextrose-5",
+      "heparin-sodium-prophylaxis",
+      "hydromorphone-dilaudid",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "nacl-0-9",
+      "norepinephrine",
+      "piperacillin"
+    ],
+    "metric": "duration",
+    "value": 44.1
+  },
+  {
+    "project": "sepsis-23819016",
+    "step": "ward",
+    "time": "2140-06-19 21:47:16",
+    "agents": [
+      "P66ZXZ"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 67.9
+  },
+  {
+    "project": "sepsis-23831430",
+    "step": "icu",
+    "time": "2150-03-11 15:34:56",
+    "agents": [
+      "26642"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "calcium-gluconate",
+      "cefepime",
+      "ceftriaxone",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "dextrose-50",
+      "famotidine-pepcid",
+      "fentanyl",
+      "fentanyl-concentrate",
+      "heparin-sodium-prophylaxis",
+      "hydromorphone-dilaudid",
+      "insulin-glargine",
+      "insulin-humalog",
+      "insulin-regular",
+      "k-phos",
+      "kcl-bolus",
+      "lorazepam-ativan",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "meropenem",
+      "metronidazole",
+      "nacl-0-9",
+      "pantoprazole-protonix",
+      "piperacillin-tazobactam-zosyn",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 489.84
+  },
+  {
+    "project": "sepsis-23831430",
+    "step": "ward",
+    "time": "2150-03-19 02:17:47",
+    "agents": [
+      "P26UJY"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 588.49
+  },
+  {
+    "project": "sepsis-23831430",
+    "step": "icu",
+    "time": "2150-03-11 16:00:00",
+    "agents": [
+      "20867"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 35.09
+  },
+  {
+    "project": "sepsis-23831430",
+    "step": "icu",
+    "time": "2150-03-11 16:00:00",
+    "agents": [
+      "20867"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": -4.0
+  },
+  {
+    "project": "sepsis-24181354",
+    "step": "ed",
+    "time": "2196-02-24 12:15:00",
+    "agents": null,
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.87
+  },
+  {
+    "project": "sepsis-24181354",
+    "step": "icu",
+    "time": "2196-02-24 17:07:00",
+    "agents": [
+      "88981"
+    ],
+    "tools": [
+      "crrt-machine",
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "amiodarone",
+      "amiodarone-600-500",
+      "calcium-gluconate",
+      "cefepime",
+      "ceftriaxone",
+      "ciprofloxacin",
+      "dextrose-5",
+      "famotidine-pepcid",
+      "fentanyl",
+      "fentanyl-concentrate",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metoprolol",
+      "metronidazole",
+      "midazolam-versed",
+      "nacl-0-9",
+      "norepinephrine",
+      "phenylephrine",
+      "piperacillin-tazobactam-zosyn",
+      "platelets",
+      "potassium-chloride",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 118.85
+  },
+  {
+    "project": "sepsis-24181354",
+    "step": "ward",
+    "time": "2196-02-29 15:58:02",
+    "agents": [
+      "P76NUD"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 94.08
+  },
+  {
+    "project": "sepsis-27617929",
+    "step": "icu",
+    "time": "2185-01-17 19:12:12",
+    "agents": [
+      "33631"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "amiodarone",
+      "amiodarone-600-500",
+      "azithromycin",
+      "calcium-gluconate",
+      "cefepime",
+      "ceftriaxone",
+      "dextrose-5",
+      "famotidine-pepcid",
+      "fentanyl",
+      "fentanyl-concentrate",
+      "furosemide-lasix",
+      "heparin-sodium-prophylaxis",
+      "meropenem",
+      "midazolam-versed",
+      "morphine-sulfate",
+      "nacl-0-9",
+      "norepinephrine",
+      "pantoprazole-protonix",
+      "phenylephrine",
+      "piperacillin",
+      "platelets",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 117.08
+  },
+  {
+    "project": "sepsis-27617929",
+    "step": "icu",
+    "time": "2185-01-17 19:30:00",
+    "agents": [
+      "99694"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 40.11
+  },
+  {
+    "project": "sepsis-27617929",
+    "step": "icu",
+    "time": "2185-01-17 19:30:00",
+    "agents": [
+      "99694"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 90.0
+  },
+  {
+    "project": "sepsis-28662225",
+    "step": "ed",
+    "time": "2156-04-12 09:56:00",
+    "agents": [
+      "P14SBZ"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.75
+  },
+  {
+    "project": "sepsis-28662225",
+    "step": "icu",
+    "time": "2156-04-12 16:24:18",
+    "agents": [
+      "79145"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "acetaminophen-iv",
+      "albumin-25",
+      "albumin-5",
+      "cefepime",
+      "ceftriaxone",
+      "dextrose-5",
+      "famotidine-pepcid",
+      "fentanyl",
+      "fentanyl-concentrate",
+      "furosemide-lasix",
+      "heparin-sodium-prophylaxis",
+      "k-phos",
+      "kcl-bolus",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metronidazole",
+      "nacl-0-9",
+      "norepinephrine",
+      "pantoprazole-protonix",
+      "phenylephrine",
+      "potassium-chloride",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 288.34
+  },
+  {
+    "project": "sepsis-28662225",
+    "step": "ward",
+    "time": "2156-04-12 14:17:27",
+    "agents": [
+      "P4461D"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 121.43
+  },
+  {
+    "project": "sepsis-29279905",
+    "step": "ed",
+    "time": "2153-03-27 21:28:00",
+    "agents": [
+      "P62R9D"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 4.88
+  },
+  {
+    "project": "sepsis-29279905",
+    "step": "icu",
+    "time": "2153-03-28 02:21:00",
+    "agents": [
+      "68979"
+    ],
+    "tools": [],
+    "materials": [
+      "calcium-gluconate",
+      "ceftriaxone",
+      "ciprofloxacin",
+      "dextrose-5",
+      "furosemide-lasix",
+      "heparin-sodium-prophylaxis",
+      "insulin-humalog",
+      "kcl-bolus",
+      "lorazepam-ativan",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "metronidazole",
+      "nacl-0-9",
+      "norepinephrine",
+      "potassium-chloride"
+    ],
+    "metric": "duration",
+    "value": 86.63
+  },
+  {
+    "project": "sepsis-29279905",
+    "step": "ward",
+    "time": "2153-03-31 16:59:04",
+    "agents": [
+      "P11DAQ"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 167.55
+  },
+  {
+    "project": "sepsis-29974575",
+    "step": "ed",
+    "time": "2131-02-27 13:16:00",
+    "agents": [
+      "P20SB6"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 3.4
+  },
+  {
+    "project": "sepsis-29974575",
+    "step": "icu",
+    "time": "2131-02-27 16:40:00",
+    "agents": [
+      "36518"
+    ],
+    "tools": [
+      "ventilator"
+    ],
+    "materials": [
+      "azithromycin",
+      "dexmedetomidine-precedex",
+      "dextrose-5",
+      "dextrose-50",
+      "famotidine-pepcid",
+      "fentanyl",
+      "fentanyl-concentrate",
+      "furosemide-lasix",
+      "heparin-sodium-prophylaxis",
+      "insulin-humalog",
+      "insulin-regular",
+      "kcl-bolus",
+      "lr",
+      "magnesium-sulfate",
+      "magnesium-sulfate-bolus",
+      "midazolam-versed",
+      "nacl-0-9",
+      "norepinephrine",
+      "piperacillin",
+      "piperacillin-tazobactam-zosyn",
+      "potassium-chloride",
+      "propofol",
+      "vancomycin"
+    ],
+    "metric": "duration",
+    "value": 217.84
+  },
+  {
+    "project": "sepsis-29974575",
+    "step": "ward",
+    "time": "2131-03-08 18:30:38",
+    "agents": [
+      "P063OH"
+    ],
+    "tools": null,
+    "materials": null,
+    "metric": "duration",
+    "value": 118.52
+  },
+  {
+    "project": "sepsis-29974575",
+    "step": "icu",
+    "time": "2131-03-06 00:38:00",
+    "agents": [
+      "79479"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "propofol dose",
+    "value": 10.01
+  },
+  {
+    "project": "sepsis-29974575",
+    "step": "icu",
+    "time": "2131-03-06 00:38:00",
+    "agents": [
+      "79479"
+    ],
+    "tools": null,
+    "materials": [
+      "propofol"
+    ],
+    "metric": "MAP fall",
+    "value": 14.0
+  }
+]

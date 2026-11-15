@@ -15,7 +15,7 @@ export const paper: PaperConfig = {
   authors: ['Matthew Fyfe'],
   date: 'October 2026',
   numbered: true,
-  citationStyle: 'numeric', // [n] = position in ../references.json
+  citationStyle: 'numeric', // [n] = order of first citation
   revisions: true, // under revision after review: wrap every addition in <Rev>
 
   exportFilename: 'Merit-Stigmergic-Project-Delivery.pdf',
@@ -29,9 +29,9 @@ export const paper: PaperConfig = {
       control</Rev>. We <Rev>propose and formalise</Rev> Stigmergic Project
       Delivery (SPD). <Rev>Building on the concept of an operational domain, the model derives a project&rsquo;s process from its specification, which
       remains dynamic during execution. A trace left within that process by earlier projects, attributed to the specific agents, tools and
-      materials involved, drives risk-aware forecasting and enables stigmergic coordination, with project control as a byproduct</Rev>.{' '}
-      <Rev>Because a mapping binds the specification to the process, the plan, its forecasts and the record of
-      execution are aligned by construction rather than by reconciliation.</Rev> <Rev>SPD can thereby take over work that project management performs by hand.</Rev>{' '}
+      materials involved, drives risk-aware forecasting and enables stigmergic coordination, with project control as a by-product</Rev>.{' '}
+      <Rev>The plan, its forecasts and the record of execution all refer to the same steps by construction,
+      because the specification is mapped to the process.</Rev> <Rev>SPD can thereby take over work that project management performs by hand.</Rev>{' '}
       <Rev>We position SPD against prior work on deriving process from a specification, project scheduling,
       forecasting, project control and stigmergic task management</Rev> to identify
       what each leaves unresolved.
@@ -46,6 +46,18 @@ export const paper: PaperConfig = {
       <Evaluation />
       <Discussion />
       <Conclusion />
+      {/* Unnumbered, as References is: the declaration most publishers ask for, placed above the references */}
+      <Rev block>
+        <section className="paper-bibliography">
+          <h2>Declaration of generative AI and AI-assisted technologies in the writing process</h2>
+          <p>
+            During the preparation of this work the author used large language models (Claude, Anthropic) to draw the
+            figures, to explore related work and to check the paper&rsquo;s consistency, and in drafting at the
+            templating stage. The text was written or thoroughly revised by the author, who takes full responsibility
+            for the content.
+          </p>
+        </section>
+      </Rev>
       <Bibliography />
     </>
   ),

@@ -1,0 +1,309 @@
+:root {
+  --bg: #f4f5f7;
+  --panel: #ffffff;
+  --border: #d9dce1;
+  --text: #1f2328;
+  /* SPD paper figure palette */
+  --node-fill: #efe9e0;
+  --node-stroke: #8a6d4a;
+  --node-text: #4a3c28;
+  --product: #157f8f;
+  --tree-line: #aaa;
+  --lane-a: #faf9f7;
+  --lane-b: #f3f1ec;
+  --lane-line: #e6e4e0;
+  --lane-label: #999;
+}
+/* Header tint per area, for anchoring */
+#agents        { --tint: #e6f0fb; --ink: #2f5f9e; }
+#resources     { --tint: #fbf0e1; --ink: #9a5b12; }
+#specification { --tint: #e8f5ea; --ink: #2e7a3d; }
+#process       { --tint: #f1ebfa; --ink: #6a45a8; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 10px;
+  padding: 32px;
+}
+
+/* Dataset tabs, outside the model */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); }
+.tab {
+  font: inherit;
+  font-weight: 600;
+  color: var(--lane-label);
+  background: none;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  padding: 6px 14px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+.tab:hover { color: var(--text); }
+/* The selected dataset's source, credited beside the tabs (clear of the Dialog button) */
+.credit { margin-left: auto; padding-right: 96px; align-self: center; font-size: 11px; color: var(--lane-label); }
+.credit a { color: inherit; }
+.tab[aria-selected="true"] { color: var(--text); background: var(--panel); border-color: var(--border); }
+.row { display: grid; gap: 10px; min-height: 0; }
+.top { grid-template-columns: 2fr 1fr; }
+.bottom { grid-template-columns: minmax(240px, 1fr) 3fr; }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+}
+.panel > h2 {
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--ink);
+  background: var(--tint);
+  border-bottom: 1px solid var(--border);
+  border-radius: 6px 6px 0 0;
+}
+.panel > .body { padding: 8px 10px; overflow: auto; flex: 1; min-height: 0; }
+.empty { color: var(--lane-label); font-style: italic; }
+
+/* Agents and Inventory: types, each with its instances */
+.types { display: flex; flex-wrap: wrap; gap: 8px; }
+.group-label { font-size: 11px; color: var(--lane-label); font-style: italic; margin: 0 0 4px; }
+.group + .group { margin-top: 8px; }
+.type {
+  border: 1px solid var(--lane-line);
+  background: var(--lane-a);
+  border-radius: 3px;
+  padding: 4px 6px;
+  max-width: 260px;
+}
+.type-name { font-weight: 600; color: var(--node-text); margin-bottom: 4px; }
+.type-name small { color: var(--lane-label); font-weight: 400; margin-left: 4px; }
+.instances { display: flex; flex-wrap: wrap; gap: 4px; }
+.type.faded, .instance.faded { opacity: .35; }
+.instance {
+  background: var(--node-fill);
+  border: 1px solid var(--node-stroke);
+  color: var(--node-text);
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 11px;
+}
+/* The agent holding a job's contract in the project shown */
+.instance.holder { background: var(--node-stroke); color: #fff; }
+/* An agent's experience in the job so far, beside its name */
+.instance .count { margin-left: 4px; font-size: 9px; opacity: .7; }
+/* Experience gained as a step finishes, rising from the step */
+.gain {
+  position: absolute; font-size: 13px; font-weight: 700; color: var(--node-stroke); white-space: nowrap;
+  pointer-events: none; animation: rise 3.2s ease-out forwards;
+}
+@keyframes rise {
+  0% { opacity: 0; transform: translate(-50%, 0); }
+  10% { opacity: 1; transform: translate(-50%, -8px); }
+  75% { opacity: 1; transform: translate(-50%, -22px); }
+  100% { opacity: 0; transform: translate(-50%, -30px); }
+}
+
+/* Specification tree and process nodes share the paper's box style */
+#specification .body { padding: 8px 4px; }
+.node rect { fill: var(--node-fill); stroke: var(--node-stroke); stroke-width: 1; }
+.node text { font-size: 11px; fill: var(--node-text); }
+.branch { fill: none; stroke: var(--tree-line); stroke-width: 1; }
+
+/* Process: fixed lane labels, scrolling graph */
+#process .body { padding: 0; display: flex; overflow: hidden; }
+#process .labels { flex: none; overflow: hidden; }
+#process .graph { flex: 1; overflow: auto; }
+#process svg { display: block; }
+.lane { stroke: var(--lane-line); stroke-width: 1; }
+.lane.a { fill: var(--lane-a); }
+.lane.b { fill: var(--lane-b); }
+.lane-label { fill: var(--lane-label); font-size: 12px; font-style: italic; }
+.lane-label.faded { opacity: .4; }
+.lane-label .contract { fill: var(--node-text); font-size: 11px; font-style: normal; }
+.flow { fill: none; }
+.flow.precedence { stroke: var(--node-stroke); stroke-width: 1.2; }
+.flow.product { stroke: var(--product); stroke-width: 1; stroke-dasharray: 4 2; }
+.product-label { fill: var(--product); font-size: 10px; }
+
+/* A project shown against the master, as in the paper's Figure 1: what it selects and derives solid,
+   the rest of the master faded */
+.node.faded rect { fill: #f6f6f6; stroke: #cfcfcf; stroke-dasharray: 3 2; }
+.node.faded text { fill: #bbb; }
+.node.faded text.halo { stroke: #f6f6f6; stroke-width: 3; paint-order: stroke; pointer-events: none; }
+.branch.faded { stroke: #dedede; stroke-dasharray: 3 2; }
+.flow.faded { stroke: #cfcfcf; }
+/* An arc on a path the project's process bridges, through steps it does not derive (u ~> v), is drawn
+   as usual; through each skipped step on the path runs the paper's squiggle */
+.flow.through { stroke-dasharray: none; }
+.product-label.faded { fill: #ccc; }
+/* An arc an importer reasoned, not read from the data: a lighter shade of its colour */
+.flow.precedence.reasoned { stroke: #c4ad8f; }
+.flow.product.reasoned { stroke: #86bcc4; }
+.product-label.reasoned { fill: #6aa7b0; }
+/* Where the master has many exits, each one's label shows only while the pointer is on it */
+.exit .exit-label { opacity: 0; transition: opacity .15s; }
+.exit:hover .exit-label { opacity: 1; }
+.exit .hit { fill: none; stroke: transparent; stroke-width: 12; pointer-events: stroke; }
+
+/* A project run as a board game: each job's agent, a token, self-selects its contract, moving from the
+   Agents panel to its lane, then on from step to step, each step hatched as it executes */
+.node rect.hatch { fill: url(#hatch); stroke: none; pointer-events: none; }
+/* A step an extension would add too late, before steps already executed: crossed out in red */
+.late { stroke: #b3261e; stroke-width: 2.5; stroke-linecap: round; pointer-events: none; }
+.tokens { position: fixed; inset: 0; pointer-events: none; z-index: 6; }
+.token {
+  position: absolute; left: 0; top: 0;
+  font-weight: 600; box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+  transition: transform .5s ease, opacity .4s ease;
+}
+.instance.token { background: var(--node-stroke); color: #fff; }
+
+/* Mapping lines, as in the paper's figures: grey dashed, from a node to the steps it necessitates,
+   drawn on demand over both panels */
+.mapping { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 5; }
+.mapping path { fill: none; stroke: #999; stroke-width: .8; stroke-dasharray: 3 2; }
+.node.spec, .node.step { cursor: default; }
+
+/* Projects: a drawer at the top of the master specification panel (a project is a selection of the
+   master specification), listing the dataset's projects. The controls that run a project sit at the
+   left of the master process's bar. */
+.panel > h2.with-controls { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.header-controls { display: flex; align-items: center; gap: 10px; }
+.header-controls .controls { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.drawer-toggle, .play {
+  font: inherit; font-size: 11px; text-transform: none; letter-spacing: 0; font-weight: 400;
+  padding: 1px 8px; border: 1px solid var(--border); border-radius: 4px; background: var(--panel); color: var(--ink);
+  cursor: pointer;
+}
+.play:disabled { color: var(--lane-label); cursor: default; }
+.projects { display: none; border-bottom: 1px solid var(--border); background: var(--lane-a); padding: 6px 10px 8px; }
+.projects.open { display: block; }
+.projects-body { max-height: 30vh; overflow: auto; }
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.controls button, .controls input {
+  font: inherit; font-size: 11px; padding: 1px 6px;
+  border: 1px solid var(--border); border-radius: 4px; background: var(--panel); color: var(--text);
+}
+.controls input { width: 4em; }
+.controls :disabled { color: var(--lane-label); }
+.project-list { list-style: none; margin: 0; padding: 0; }
+.project-list li { padding: 3px 6px; border-radius: 3px; cursor: pointer; display: flex; justify-content: space-between; }
+.project-list li:hover { background: var(--lane-a); }
+.project-list li[aria-selected="true"] { background: var(--node-fill); color: var(--node-text); font-weight: 600; }
+.project-list .delete {
+  font: inherit; font-size: 13px; line-height: 1; margin-left: 8px; padding: 0 2px;
+  border: none; background: none; color: var(--lane-label); cursor: pointer;
+}
+.project-list .delete:hover { color: var(--text); }
+.project-list small { color: var(--lane-label); font-weight: 400; }
+.node.spec { cursor: pointer; }
+.node.focused rect { stroke-width: 2; }
+.project-value { text-transform: none; letter-spacing: 0; font-weight: 600; }
+/* Beside each node: a box ticked when the new project includes it */
+.tick { cursor: pointer; }
+.tick rect { fill: var(--panel); stroke: var(--node-stroke); stroke-width: 1; }
+.tick path { fill: none; stroke: var(--node-stroke); stroke-width: 1.5; }
+/* A past project's ticks: its selection, fixed */
+.tick.fixed { cursor: default; }
+.tick.fixed rect { fill: #f6f6f6; stroke: #bbb; }
+.tick.fixed path { stroke: #999; }
+
+/* The chosen node's descriptors, below the tree: whether the project includes it, and its values */
+.descriptors { margin: 8px 6px 0; padding-top: 8px; border-top: 1px solid var(--lane-line); }
+.descriptors h3 { margin: 0 0 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--ink); }
+.descriptors label { display: flex; align-items: center; gap: 6px; margin: 0 0 4px; font-size: 12px; }
+.descriptors input[type=number], .descriptors input[type=text] { width: 6em; font: inherit; font-size: 12px; }
+.descriptors small { color: var(--lane-label); }
+/* A value the selection cannot take, and why, said where it is typed */
+.descriptors input:invalid { border-color: #b3261e; outline-color: #b3261e; }
+.descriptors .problem { color: #b3261e; font-size: 12px; margin-top: 4px; }
+
+/* Dialog: a drawer over the right of the page, showing a run's events as they happen */
+.dialog-toggle {
+  position: fixed; top: 32px; right: 32px; z-index: 9;
+  font: inherit; font-weight: 600;
+  padding: 4px 12px;
+  border: 1px solid var(--border); border-radius: 6px;
+  background: var(--panel); color: var(--text);
+  cursor: pointer;
+}
+.dialog {
+  position: fixed; top: 0; right: 0; bottom: 0; z-index: 10;
+  width: min(420px, 100vw);
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+  box-shadow: -4px 0 16px rgba(0, 0, 0, .08);
+  display: flex; flex-direction: column;
+  transform: translateX(100%);
+  transition: transform .2s ease;
+}
+.dialog.open { transform: none; }
+.dialog > header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.dialog h2 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.dialog-close { font: inherit; font-size: 16px; line-height: 1; border: none; background: none; color: var(--lane-label); cursor: pointer; }
+.dialog-close:hover { color: var(--text); }
+.dialog .events { list-style: none; margin: 0; padding: 8px 16px; overflow: auto; flex: 1; }
+.dialog .event { padding: 4px 0; border-bottom: 1px solid var(--lane-line); }
+.dialog .event.heading { font-weight: 600; border-bottom: none; padding-top: 0; }
+/* The dialog's tabs: the state now, the story of the projects run, and their measures */
+.dialog-tabs { display: flex; gap: 2px; }
+.dialog-tabs button {
+  font: inherit; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+  border: none; background: none; color: var(--lane-label); padding: 2px 8px; border-radius: 4px; cursor: pointer;
+}
+.dialog-tabs button[aria-selected="true"] { color: var(--text); background: var(--bg); }
+.dialog .pane[hidden] { display: none; }
+.dialog .story, .dialog .measures { overflow: auto; flex: 1; padding: 10px 16px; }
+.story .brief { margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--lane-line); }
+.story .brief p, .story .project p { margin: 0 0 6px; line-height: 1.5; }
+.story .project { margin: 0 0 10px; }
+.story .project b { color: var(--node-text); }
+.story .empty, .measures .empty { color: var(--lane-label); font-style: italic; }
+/* Measures: small line charts over the projects run, in the order run */
+.measures figure { margin: 0 0 16px; position: relative; }
+.measures figcaption { font-size: 12px; font-weight: 600; margin: 0 0 2px; }
+.measures figcaption small { display: block; font-weight: 400; color: var(--lane-label); }
+.measures svg { display: block; overflow: visible; }
+.measures .axis text { font-size: 10px; fill: var(--lane-label); }
+.measures .grid { stroke: var(--lane-line); stroke-width: 1; }
+.measures .reference { stroke: #8f8e88; stroke-width: 1.5; stroke-dasharray: 4 3; }
+.measures .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.measures .mark { stroke: var(--panel); stroke-width: 2; }
+.measures .label { font-size: 10px; fill: var(--text); }
+.measures .cursor { stroke: var(--lane-label); stroke-width: 1; }
+.measures .legend { display: flex; gap: 10px; font-size: 11px; margin: 2px 0 4px; }
+.measures .legend i { display: inline-block; width: 10px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+.measures .tip {
+  position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--border);
+  border-radius: 4px; padding: 4px 6px; font-size: 11px; box-shadow: 0 2px 6px rgba(0,0,0,.12); white-space: nowrap;
+}
+.measures table { border-collapse: collapse; font-size: 11px; width: 100%; }
+.measures th, .measures td { text-align: right; padding: 2px 4px; border-bottom: 1px solid var(--lane-line); }
+.measures th:first-child, .measures td:first-child { text-align: left; }
+.measures h4 { font-size: 12px; margin: 4px 0 6px; text-transform: uppercase; letter-spacing: .04em; color: var(--lane-label); }
+.measures section + section { margin-top: 18px; }
+.measures .evaluation figcaption { margin-bottom: 6px; }
+.measures .note { font-size: 11px; margin: 6px 0; }
+.measures details summary { font-size: 12px; cursor: pointer; color: var(--lane-label); margin: 4px 0; }
+.dialog .instructions { padding: 10px 16px 14px; border-top: 1px solid var(--border); background: var(--bg); }
+.dialog .instructions[hidden] { display: none; }
+.dialog .instructions h3 { margin: 0 0 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--lane-label); }
+.dialog .instructions p { margin: 0; }

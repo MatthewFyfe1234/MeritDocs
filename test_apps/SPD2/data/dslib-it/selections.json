@@ -1,0 +1,333 @@
+{
+  "C2015-11": {
+    "id": "C2015-11-delivered-solution",
+    "node": "delivered-solution",
+    "values": {},
+    "children": [
+      {
+        "id": "C2015-11-validation-and-support",
+        "node": "validation-and-support",
+        "values": {},
+        "children": []
+      },
+      {
+        "id": "C2015-11-information-system",
+        "node": "information-system",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-11-application-code",
+            "node": "application-code",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-11-bug-fixes",
+            "node": "bug-fixes",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-11-requirements-specification",
+        "node": "requirements-specification",
+        "values": {},
+        "children": []
+      },
+      {
+        "id": "C2015-11-functional-analysis",
+        "node": "functional-analysis",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-11-business-analysis",
+            "node": "business-analysis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-11-handover-package",
+        "node": "handover-package",
+        "values": {},
+        "children": []
+      }
+    ]
+  },
+  "C2015-15": {
+    "id": "C2015-15-delivered-solution",
+    "node": "delivered-solution",
+    "values": {},
+    "children": [
+      {
+        "id": "C2015-15-production-deployment",
+        "node": "production-deployment",
+        "values": {},
+        "children": []
+      },
+      {
+        "id": "C2015-15-information-system",
+        "node": "information-system",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-15-application-code",
+            "node": "application-code",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-15-ict-testing",
+            "node": "ict-testing",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-15-acceptance-support",
+            "node": "acceptance-support",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-15-functional-analysis",
+        "node": "functional-analysis",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-15-conceptual-design",
+            "node": "conceptual-design",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-15-design-documents",
+        "node": "design-documents",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-15-technical-design",
+            "node": "technical-design",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "C2015-20": {
+    "id": "C2015-20-delivered-solution",
+    "node": "delivered-solution",
+    "values": {},
+    "children": [
+      {
+        "id": "C2015-20-information-system",
+        "node": "information-system",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-20-application-code",
+            "node": "application-code",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-20-functional-analysis",
+        "node": "functional-analysis",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-20-business-analysis",
+            "node": "business-analysis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-20-design-documents",
+        "node": "design-documents",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-20-technical-design",
+            "node": "technical-design",
+            "values": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "C2015-21": {
+    "id": "C2015-21-delivered-solution",
+    "node": "delivered-solution",
+    "values": {},
+    "children": [
+      {
+        "id": "C2015-21-validation-and-support",
+        "node": "validation-and-support",
+        "values": {},
+        "children": []
+      },
+      {
+        "id": "C2015-21-information-system",
+        "node": "information-system",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-21-application-code",
+            "node": "application-code",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-21-assembly-test",
+            "node": "assembly-test",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-21-ict-testing",
+            "node": "ict-testing",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-21-functional-analysis",
+        "node": "functional-analysis",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-21-business-analysis",
+            "node": "business-analysis",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-21-design-documents",
+        "node": "design-documents",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-21-user-interface-design",
+            "node": "user-interface-design",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-21-integration-mapping",
+            "node": "integration-mapping",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-21-handover-package",
+        "node": "handover-package",
+        "values": {},
+        "children": []
+      }
+    ]
+  },
+  "C2015-22": {
+    "id": "C2015-22-delivered-solution",
+    "node": "delivered-solution",
+    "values": {},
+    "children": [
+      {
+        "id": "C2015-22-validation-and-support",
+        "node": "validation-and-support",
+        "values": {},
+        "children": []
+      },
+      {
+        "id": "C2015-22-information-system",
+        "node": "information-system",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-22-application-code",
+            "node": "application-code",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-22-assembly-test",
+            "node": "assembly-test",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-22-bug-fixes",
+            "node": "bug-fixes",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-22-ict-testing",
+            "node": "ict-testing",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-22-regression-test",
+            "node": "regression-test",
+            "values": {},
+            "children": []
+          },
+          {
+            "id": "C2015-22-acceptance-support",
+            "node": "acceptance-support",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-22-functional-analysis",
+        "node": "functional-analysis",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-22-conceptual-design",
+            "node": "conceptual-design",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-22-design-documents",
+        "node": "design-documents",
+        "values": {},
+        "children": [
+          {
+            "id": "C2015-22-isp-design",
+            "node": "isp-design",
+            "values": {},
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "C2015-22-handover-package",
+        "node": "handover-package",
+        "values": {},
+        "children": []
+      }
+    ]
+  }
+}

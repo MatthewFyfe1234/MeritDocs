@@ -16,7 +16,7 @@ export function Discussion() {
           manager may instead allocate agents within that pool. Much of the role remains. The model informs but does
           not make the decisions of baseline scheduling under finite resources, time/cost trade-offs and the corrective
           actions project control calls for. Management also sets the policy the model reads (the tolerated risk, the
-          experience floors and the pool of agents), handles what the model leaves out, such as rework and removal, and
+          experience floors and the pool of agents), handles what the model leaves out, such as deselection and the response to rework, and
           carries the wider work of leading a project, among its stakeholders and suppliers.
         </p>
       </Rev>
@@ -32,7 +32,7 @@ export function Discussion() {
           or a running record that accumulates as the work proceeds, such as the medication given over a shift.
           Each reads status from the work itself rather than from a judged percentage complete,
           and the last is a further benefit of promoting the activity-on-node graph&rsquo;s edges to products. The readings must also reconcile, with what the
-          specification expects of the step, across the records of one execution, and with the product as received
+          selection expects of the step, across the step&rsquo;s records in the project, and with the product as received
           downstream. Wood and nails both tracking their expected usage give more confidence than either alone, and a
           discrepancy shows that a record is incomplete or wrong, though not which. Reconciliation needs records
           independent of the agent&rsquo;s own account, such as telemetry or metered materials, and cannot detect
@@ -43,28 +43,28 @@ export function Discussion() {
           Out share the time before the first nail. Nor does attributing a record to an agent hold the agent
           responsible for it. Separating the effects of agent, tool and material is what lets the two be told apart. Actual can be set against
           expected step by step from the outset, rather than starting from the project as a whole and drilling
-          down when a warning shows, as top-down tracking does <Cite id="vanhoucke2011" />, within the project
-          control Vanhoucke builds by integrating
+          down when a warning shows, as top-down tracking does <Cite id="vanhoucke2011" />. This sits within the
+          project control Vanhoucke builds by integrating
           the baseline schedule, schedule risk analysis and earned value management <Cite id="vanhoucke2014" />.
         </p>
         <p>
           The accumulation of Section 3 states this precisely, as one reading of the model rather than a part of it.
-          Write <M>{"C_t \\subseteq N_{\\hat{T}}"}</M> for the steps completed by time <M>{"t"}</M>
-          and <M>{"\\hat{y}_m(s)"}</M> for a completed step&rsquo;s recorded value. Each step&rsquo;s value at{' '}
-          <M>{"t"}</M> is then its recorded value if it has completed, and its forecast otherwise,
+          Write <M>{"K_t \\subseteq N_{\\hat{T}}"}</M> for the steps completed by time <M>{"t"}</M>. Each
+          step&rsquo;s value at <M>{"t"}</M> is then its recorded value <M>{"y_m(s, i)"}</M> if it has completed, and
+          its forecast otherwise:
         </p>
-        <Eq gloss="At time t, a completed step contributes its recorded value and any other step its forecast.">{"y_m^{t}(s) = \\begin{cases} \\hat{y}_m(s) & s \\in C_t \\\\ y_m(s) & \\text{otherwise} \\end{cases}"}</Eq>
+        <Eq gloss="At time t, a completed step contributes its recorded value and any other step its forecast.">{"y_m^{t}(s) = \\begin{cases} y_m(s, i) & s \\in K_t \\\\ y_m(s) & \\text{otherwise} \\end{cases}"}</Eq>
         <p>
-          and accumulating these in place of the forecasts alone gives <M>{"X_m^{t}"}</M>, the project&rsquo;s updated
-          forecast at <M>{"t"}</M>, its completion time through the path operators and its materials and carbon as
-          totals. A step deviates on a metric where more is worse when its recorded value exceeds its forecast at the tolerated risk,
+          Accumulating these in place of the forecasts alone gives <M>{"X_m^{t}"}</M>, the project&rsquo;s updated
+          forecast at <M>{"t"}</M>. Its completion time comes through the path operators, and its materials and
+          carbon as totals. A step deviates on a metric where more is worse when its recorded value exceeds its forecast at the tolerated risk,
         </p>
-        <Eq gloss="A completed step deviates on a metric where its recorded value exceeds its forecast at the contract's tolerated risk.">{"\\hat{y}_m(s) > \\mathrm{forecast}(s, m, D, r, c)"}</Eq>
+        <Eq gloss="A completed step deviates on a metric where its recorded value exceeds its forecast at the contract's tolerated risk.">{"y_m(s, i) > \\mathrm{forecast}(s, m, r, c)"}</Eq>
         <p>
           so an overrun is read against the risk accepted at the outset. By that same risk, about a share{' '}
           <M>{"1 - r"}</M> of well-forecast steps will deviate by design, so a single deviation signals little, and
           control is better read at the job or project level through the accumulation. Tolerance limits in statistical project control serve a similar end <Cite id="colin2014" />. In the wall frame of Section 4, once Mark
-          Out and Lay Out are recorded<Rev minor> or assigned</Rev>, their times stand in for their forecasts, and the uncertainty in the
+          Out and Lay Out are recorded or assigned, their times stand in for their forecasts, and the uncertainty in the
           job&rsquo;s time is that of Nail Frame and Stack Panel alone. As the project&rsquo;s own records also enter the
           trace, forecasts for its remaining steps update with them. Deciding what to do about a deviation lies
           outside the model.
@@ -84,22 +84,24 @@ export function Discussion() {
         <p>
           <strong>Other metrics.</strong> The model forecasts and reads any metric the trace records or that follows from them, as energy in the
           wall frame and dose and blood-pressure fall in the patient example show. A project&rsquo;s carbon is one, the
-          total (12) over its steps,
+          total over its steps:
         </p>
         <Eq gloss="A project's carbon sums, over its steps, a workspace baseline on the step's time, a quantity for each action and the carbon embodied in its material.">{"X_{\\mathrm{carbon}}(N_{\\hat{T}}) = \\sum\\nolimits_{s \\in N_{\\hat{T}}} \\bigl(\\, \\beta\\, y_{\\mathrm{time}}(s) + \\kappa\\, y_{\\mathrm{actions}}(s) + \\varepsilon\\, y_{\\mathrm{material}}(s) \\,\\bigr)"}</Eq>
         <p>
-          with <M>{"\\beta"}</M>, <M>{"\\kappa"}</M> and <M>{"\\varepsilon"}</M> given factors for the workspace
-          baseline per unit of time, the carbon per action and the carbon per unit of material. Through the baseline a slower execution
+          Here <M>{"\\beta"}</M>, <M>{"\\kappa"}</M> and <M>{"\\varepsilon"}</M> are given factors for the workspace
+          baseline per unit of time, the carbon per action (a single use of one of a tool&rsquo;s functions, such as a
+          nail fired) and the carbon per unit of material. Through the baseline a slower execution
           costs carbon as well as time. A project&rsquo;s carbon can be forecast before work starts and read from its own records as it proceeds,
           attributed to the steps, tools and materials that produced it.
         </p>
       </Rev>
       <Rev block>
         <p>
-          <strong>Reading the trace.</strong> A forecast may rest on two kinds of factor, which can combine: trends in an
-          agent&rsquo;s or tool&rsquo;s own records, as an agent gains experience <Cite id="newell1981" /> or tires through
-          a week, or a hardware tool wears or warms up through a cold morning; and comparables, the records of agents or
-          tools at a similar exposure in a similar context, such as agents with similar experience or tools of similar wear.
+          <strong>Reading the trace.</strong> A forecast may rest on two kinds of factor, which can combine. One is the trend
+          in an agent&rsquo;s or tool&rsquo;s own records, as an agent gains experience <Cite id="newell1981" /> or
+          tires through a week, or a hardware tool wears or warms up through a cold morning. The other is comparison
+          with the records of agents or tools at a similar exposure in a similar context, such as agents with similar
+          experience or tools of similar wear.
           Both are read against the descriptors of the work. Conditioning more finely can narrow a forecast, but each finer context
           also holds fewer matching records, so the gain is a direction of travel rather than a floor reached. These factors can
           be learned as weights by conventional techniques, a hierarchical fit among them.
@@ -119,7 +121,7 @@ export function Discussion() {
         <p>
           <strong>Modularity of operations.</strong> Flyvbjerg argues for replicable modules in project design, because
           repetition drives learning <Cite id="flyvbjerg2021" />. SPD finds that repetition in the operations instead,
-          where it occurs far more often, down to each use of a tool, and persists across a much wider range of
+          where it occurs far more often, down to the step, and persists across a much wider range of
           product variation. It looks to the agents and tools with demonstrated capability at those operations, so a
           product can vary and still be delivered by those shown able to deliver it. A project need not then standardise its product to gain from repetition.
         </p>
@@ -147,7 +149,7 @@ export function Discussion() {
         <p>
           <strong>Artificial agents.</strong> An AI that performs steps is recorded as an agent like any other, so it can
           be compared with a human agent in its place against a fixed process, on the same steps, descriptors and
-          metrics, where benchmarks of whole tasks <Cite id="mazeika2025" /> cannot show where in the work an agent falls
+          metrics. Benchmarks of whole tasks <Cite id="mazeika2025" /> cannot show where in the work an agent falls
           short. The process also narrows the black box. It does not explain the model, but it requires a comprehensible
           footprint, the metrics each step should record and the outputs it should produce, against which activity
           logs <Cite id="chan2024" /> can be read and a failure located. An AI that a person uses
@@ -163,7 +165,7 @@ export function Discussion() {
           <strong>Configuring the master.</strong> The master has to be authored, kept
           current and, if traces are to pool across organisations, agreed between them, and the clinical build of
           Section 5 shows that work to be substantial. It could be initialised from existing logs, with clustering expected to group
-          records into steps and jobs, and process discovery to order them <Cite id="vanderaalst2016" />, though the
+          records into steps and jobs, and process discovery to order them <Cite id="vanderaalst2016" />. The
           specification, the checking of the mapping, the naming of what is found and any steps that leave no record
           would still fall to its authors. Rare variants, which a master exists partly to hold, would also tend to be lost
           or to confuse the result. Where the master is wrong, everything derived from it is
@@ -178,21 +180,20 @@ export function Discussion() {
           own. The model has not been generalised to, or tested within, continuous production. Nor does a
           specification yet persist across projects. One intended extension is to the whole lifecycle, the
           specification of a new build becoming the backbone of every maintenance project after it, and a
-          patient&rsquo;s specification following them through life, in a single model of state delivery where the effect
-          of one project can inform another, as skipped maintenance in a forest bears on later wildfire.
+          patient&rsquo;s specification following them through life. A single model of state delivery would then let
+          the effect of one project inform another, as skipped maintenance in a forest bears on later wildfire.
         </p>
       </Rev>
       <p>
         <Rev minor><strong>Changes during execution.</strong></Rev> <Rev>Selection or deselection comes with no safeguards in the
-        model where work is already in motion. A late selection can force rework, a deselection can leave completed work with no
-        place in the process, and a step added to a job already taken may be one its agent does not clear the floor
-        for. Limiting or appropriately
+        model where work is already in motion. A late selection can force rework, as can a new instance whose steps have already run, and a deselection can leave completed work with no
+        place in the process. Limiting or appropriately
         handling such changes is the job of extensions to the model or of an implementation.</Rev>
       </p>
       <Rev block>
         <p>
           <strong>Product definition.</strong> The master names its products without specifying them, so what form a
-          cutting list should take rests on the tacit understanding of those doing the work <Cite id="autor2015" />, and an
+          cutting list should take rests on the tacit understanding of those doing the work, and an
           agent without that understanding, an AI in particular, may need it stated. Product templating, with a
           check of conformance, would extend the model to do so without changing its structure.
         </p>
@@ -201,8 +202,8 @@ export function Discussion() {
         <Rev minor><strong>Granularity of the contract.</strong></Rev> A job is offered and taken whole, by one agent.{' '}
         <Rev>
           The model does not allow for the division of a job&rsquo;s steps among agents, one agent taking some of its steps and another
-          the rest, nor for parallel workflows within a job. Nor does it pass a job from one agent to another partway
-          through. Its remit is to establish who is eligible and to forecast execution metrics, not the division
+          the rest, nor for parallel workflows within a job. It passes a job from one agent to another partway
+          through only where an extension adds steps, or instances at them, its holder is not eligible for. Its remit is to establish who is eligible and to forecast execution metrics, not the division
           of labour, or trade-offs and priorities between jobs. Forecasts can still be conditioned on a named agent
           at any step, so a user dividing the labour, or deciding how many agents to deploy, can draw on them, but
           that decision lies outside the model, whose unit of offer is the whole job. Across jobs, steps
@@ -211,27 +212,34 @@ export function Discussion() {
       </p>
       <Rev block>
         <p>
-          <strong>Process recursion.</strong> The model does not map iterations into the process. Each distinct step
-          appears once, and its iterations arise at runtime, as its agent executes it as many times as the work
-          requires. This keeps the model consistent between processes where the number of iterations is known at the
-          outset, as with a set of panels, and those where it is not, as with a diagnosis that moves from one
-          candidate to the next. Whether the two cases should be treated differently is open to discussion and
-          testing.
+          <strong>Process recursion.</strong> Work repeated a number of times the selection determines, such as the panels
+          a wall needs, is carried by node instances. Work repeated until a condition is met, such as reassessing a
+          patient until stable, folds into the step&rsquo;s value in a project, so forecasts reflect its typical
+          extent. So does rework, a step repeated because its output failed, which is recorded like any other
+          execution and can be measured by a metric of its own, rework time, say, within the step&rsquo;s total time.
+          Folding loses the order of passes that alternate with other steps, so the critical path through them is
+          only approximate. Work arriving from outside in any number, such as defects reported against software, each
+          passing through several steps, enters as selections of its own, each arrival a project run through the
+          same master.
         </p>
       </Rev>
       <p>
         <Rev minor><strong>Independence of forecasts.</strong></Rev> Per-step distributions combine into a job&rsquo;s forecasts, and on to the project, under the assumption that
-        the steps are independent. That assumption holds well for a shallow graph with little sharing of sources.
-        Where converging paths share a source, <Rev minor>an upstream step,</Rev> one agent or one material batch, their errors are correlated, and the
-        independence assumption understates the risk, leaving the forecast at any tolerated risk optimistic<Rev>, a problem schedule risk analysis has also recognised
-        in activity durations <Cite id="vandorp1999" /></Rev>. The
-        effect grows with the number of paths converging through shared sources, which is to say with the size and
-        interconnection of a project. <Rev>It is greatest within a job, whose steps share their agent by
+        the steps are independent. <Rev>Where steps share a source, an upstream step, one agent, one material batch
+        or the weather, their values are positively correlated, and the effect depends on how they combine. Summed,
+        correlated values spread more widely than independent ones, so independence understates the risk and the
+        forecast at any tolerated risk is optimistic, a problem schedule risk analysis has also recognised
+        in activity durations <Cite id="vandorp1999" />. This is greatest within a job, whose steps share their agent by
         construction, so the contract&rsquo;s forecast, the one an agent commits to, is where independence most
-        understates the risk.</Rev> Monte Carlo sampling at the source level is the route past it, carrying a shared source through the paths it touches so
-        their correlation is preserved<Rev>, with each metric&rsquo;s operators applied to every sample, so the
-        maximum where paths converge carries no merge bias either, the understatement of when the last input
-        arrives that comes from taking the maximum of point estimates <Cite id="maccrimmon1964" /></Rev>. That route needs a trace attributed at the source level and is untested
+        understates the risk. Where paths converge, by contrast, treating correlated paths as independent overstates
+        their maximum, so the forecast there is conservative <Cite id="kleindorfer1971" />. Taking that maximum over
+        distributions rather than point estimates already avoids the merge bias of the latter <Cite id="maccrimmon1964" />.
+        Monte Carlo sampling at the source level is the route past both, carrying a shared source through the paths
+        it touches so their correlation is preserved. Where a shared factor such as the weather is recorded, it can
+        be drawn first, then each step from its records under it, as driver-based schedule risk analysis
+        does <Cite id="hulett2009" />. The same simulation over the derived process would give schedule risk
+        analysis&rsquo;s measures of each activity&rsquo;s and resource&rsquo;s sensitivity <Cite id="vanhoucke2015" />,
+        drawn from recorded performance rather than estimates.</Rev> That route needs a trace attributed at the source level and is untested
         here. Independence can fail from the specification side too, where co-selected nodes interact, a roof with
         both a turret and a bay window being harder than either alone. The forecast captures this by conditioning on
         the combination where the trace holds such records, but those grow sparse as combinations multiply, and
@@ -253,13 +261,14 @@ export function Discussion() {
         <p>
           <strong>The trace in use.</strong> Self-selection biases the trace. Agents take the jobs they expect to do
           well, so forecasts conditioned on an agent, and the premise that exposure predicts performance, are
-          confounded much as dosing is in Section 4. Random assignment, as of judges to cases, removes the
-          confounding, which is why Section 5 looks to court records. Allocating a share of work, as a check on choice, would
+          confounded much as dosing is in Section 4. Forecasts informing a dose would also bring software into
+          regulation as a medical device. Random assignment, as of judges to cases, removes the
+          confounding. Allocating a share of work, as a check on choice, would
           reveal the bias in use. The contract&rsquo;s forecast also pools over
           agents, so those faster than the pool gain by claiming and slower ones overrun, and claims sort agents in
-          ways the forecast does not reflect. Forecasts can also become targets. Once a
-          forecast is a term of a binding contract, work may expand to meet it and the trace absorb the longer
-          durations, so that later forecasts drift. The model does not guard against any of these.
+          ways the forecast does not reflect. Forecasts can also become targets <Cite id="campbell1979" />. Once a
+          forecast is a term of a binding contract, work may expand to meet it <Cite id="gutierrez1991" /> and the
+          trace absorb the longer durations, so that later forecasts drift. The model does not guard against any of these.
         </p>
       </Rev>
     </>

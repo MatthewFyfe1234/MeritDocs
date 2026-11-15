@@ -1,0 +1,11 @@
+{
+  "agents": [
+    {"id": "a1", "name": "a1", "qualifications": ["j1"]},
+    {"id": "a2", "name": "a2", "qualifications": ["j2"]},
+    {"id": "a3", "name": "a3", "qualifications": ["j3"]},
+    {"id": "a4", "name": "a4", "qualifications": ["j1", "j2"]},
+    {"id": "a5", "name": "a5", "qualifications": ["j1"]}
+  ],
+  "tools": [],
+  "materials": []
+}
